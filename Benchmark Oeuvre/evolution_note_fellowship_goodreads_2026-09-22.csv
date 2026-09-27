@@ -1,0 +1,18 @@
+﻿date,timestamp,average_displayed,ratings_count,basis,histogram_observed,histogram_gap,histogram_status,source
+2007-10-15,20071015024820,4.19,9823,Cette édition seulement,,,Non disponible,https://web.archive.org/web/20071015024820id_/http://goodreads.com:80/book/show/34.The_Fellowship_of_the_Ring
+2008-10-02,20081002085453,4.22,48410,Cette édition seulement,,,Non disponible,https://web.archive.org/web/20081002085453id_/http://www.goodreads.com:80/book/show/34.The_Fellowship_of_the_Ring
+2011-06-13,20110613205241,4.16,320691,Toutes éditions,319454,-1237,Exclu : total différent de l’en-tête,https://web.archive.org/web/20110613205241id_/http://www.goodreads.com:80/book/show/34.The_Fellowship_of_the_Ring
+2012-07-02,20120702025129,4.22,545729,Toutes éditions,540344,-5385,Exclu : total différent de l’en-tête,https://web.archive.org/web/20120702025129id_/http://www.goodreads.com:80/book/show/34.The_Fellowship_of_the_Ring
+2013-10-05,20131005203924,4.28,895601,Toutes éditions,694480,-201121,Exclu : total différent de l’en-tête,https://web.archive.org/web/20131005203924id_/http://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2015-07-09,20150709190312,4.31,1352438,Toutes éditions,1352438,0,Valide : total = en-tête,https://web.archive.org/web/20150709190312id_/http://www.goodreads.com:80/book/show/34.The_Fellowship_of_the_Ring
+2016-06-18,20160618092458,4.32,1580475,Toutes éditions,1580475,0,Valide : total = en-tête,https://web.archive.org/web/20160618092458id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2017-07-10,20170710230845,4.33,1807616,Toutes éditions,1807616,0,Valide : total = en-tête,https://web.archive.org/web/20170710230845id_/http://www.goodreads.com:80/book/show/34.The_Fellowship_of_the_Ring
+2018-08-20,20180820232340,4.34,2000817,Toutes éditions,2000817,0,Valide : total = en-tête,https://web.archive.org/web/20180820232340id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2019-07-22,20190722065144,4.35,2115754,Toutes éditions,2115754,0,Valide : total = en-tête,https://web.archive.org/web/20190722065144id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2020-04-29,20200429111209,4.36,2261929,Toutes éditions,2261929,0,Valide : total = en-tête,https://web.archive.org/web/20200429111209id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2021-06-11,20210611150905,4.37,2465268,Toutes éditions,2465268,0,Valide : total = en-tête,https://web.archive.org/web/20210611150905id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2022-06-04,20220604041517,4.38,2575301,Toutes éditions,2575301,0,Valide : total = en-tête,https://web.archive.org/web/20220604041517id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2023-05-19,20230519061552,4.38,2690923,Œuvre,2690923,0,Valide : total = en-tête,https://web.archive.org/web/20230519061552id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2024-10-09,20241009022803,4.39,2872509,Œuvre,2872509,0,Valide : total = en-tête,https://web.archive.org/web/20241009022803id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2025-03-18,20250318060839,4.4,2981248,Œuvre,2981248,0,Valide : total = en-tête,https://web.archive.org/web/20250318060839id_/https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring
+2026-09-22,current,4.41,3239419,Œuvre,3239419,0,Valide : total = en-tête,https://www.goodreads.com/book/show/34.The_Fellowship_of_the_Ring

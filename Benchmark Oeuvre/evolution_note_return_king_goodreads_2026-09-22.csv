@@ -1,0 +1,15 @@
+﻿date,timestamp,average_displayed,ratings_count,basis,histogram_observed,histogram_gap,histogram_status,source
+2007-10-13,20071013174603,4.4,4808,Cette édition seulement,,,Non disponible,https://web.archive.org/web/20071013174603id_/http://goodreads.com:80/book/show/18512.The_Return_of_the_King
+2008-11-12,20081112011447,4.47,22565,Cette édition seulement,,,Non disponible,https://web.archive.org/web/20081112011447id_/http://www.goodreads.com:80/book/show/18512.The_Return_of_the_King
+2011-06-27,20110627165752,4.4,97005,Toutes éditions,96133,-872,Exclu : total différent de l’en-tête,https://web.archive.org/web/20110627165752id_/http://www.goodreads.com:80/book/show/18512.The_Return_of_the_King?
+2013-08-15,20130815002004,4.46,269662,Toutes éditions,0,-269662,Exclu : total différent de l’en-tête,https://web.archive.org/web/20130815002004id_/http://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2016-06-27,20160627112843,4.49,456419,Toutes éditions,456419,0,Valide : total = en-tête,https://web.archive.org/web/20160627112843id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2017-06-25,20170625194538,4.5,503073,Toutes éditions,503073,0,Valide : total = en-tête,https://web.archive.org/web/20170625194538id_/http://www.goodreads.com:80/book/show/18512.The_Return_of_the_King
+2018-05-09,20180509063858,4.51,540411,Toutes éditions,540411,0,Valide : total = en-tête,https://web.archive.org/web/20180509063858id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2019-05-13,20190513160823,4.52,586496,Toutes éditions,586496,0,Valide : total = en-tête,https://web.archive.org/web/20190513160823id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2022-06-10,20220610105541,4.55,773348,Œuvre,773348,0,Valide : total = en-tête,https://web.archive.org/web/20220610105541id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2023-03-07,20230307195032,4.55,820409,Œuvre,820409,0,Valide : total = en-tête,https://web.archive.org/web/20230307195032id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2024-09-05,20240905153501,4.57,933792,Œuvre,933792,0,Valide : total = en-tête,https://web.archive.org/web/20240905153501id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2025-08-21,20250821102941,4.58,1009731,Œuvre,1009731,0,Valide : total = en-tête,https://web.archive.org/web/20250821102941id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2026-09-20,20260920220543,4.59,1090545,Œuvre,1090545,0,Valide : total = en-tête,https://web.archive.org/web/20260920220543id_/https://www.goodreads.com/book/show/18512.The_Return_of_the_King
+2026-09-22,current,4.59,1090834,Œuvre,1090834,0,Valide : total = en-tête,https://www.goodreads.com/book/show/18512.The_Return_of_the_King
