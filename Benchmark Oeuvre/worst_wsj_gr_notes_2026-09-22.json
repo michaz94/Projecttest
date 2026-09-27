@@ -1,0 +1,177 @@
+{
+  "Bone Collection": {
+    "series_url": "https://www.goodreads.com/series/291055-bone-collection",
+    "tomes": [
+      {
+        "book_id": "54702105",
+        "ratingValue": 2.68,
+        "ratingCount": 34,
+        "name": "ボーンコレクション 2 (Bone Collection, #2)"
+      },
+      {
+        "book_id": "53685238",
+        "ratingValue": 2.81,
+        "ratingCount": 52,
+        "name": "ボーンコレクション 1 (Bone Collection, #1)"
+      }
+    ]
+  },
+  "Do Retry": {
+    "series_url": "https://www.goodreads.com/series/397872-do-retry",
+    "tomes": [
+      {
+        "book_id": "214479826",
+        "ratingValue": 2.78,
+        "ratingCount": 18,
+        "name": "Do Retry, Vol. 1"
+      },
+      {
+        "book_id": "214443897",
+        "ratingValue": 2.46,
+        "ratingCount": 13,
+        "name": "Do Retry, Vol. 2"
+      }
+    ]
+  },
+  "Mamore! Shugomaru": {
+    "series_url": "https://www.goodreads.com/series/304323-protect-me-shugomaru",
+    "tomes": [
+      {
+        "book_id": "19069138",
+        "ratingValue": 4.48,
+        "ratingCount": 545,
+        "name": "Locke & Key: Omega #1 (of 5)"
+      },
+      {
+        "book_id": "19171511",
+        "ratingValue": 4.59,
+        "ratingCount": 329,
+        "name": "Locke & Key: Omega #3 (of 5)"
+      },
+      {
+        "book_id": "16164271",
+        "ratingValue": 4.48,
+        "ratingCount": 32498,
+        "name": "Locke & Key, Vol. 6: Alpha & Omega"
+      },
+      {
+        "book_id": "19171408",
+        "ratingValue": 4.51,
+        "ratingCount": 305,
+        "name": "Locke & Key: Omega #2 (of 5)"
+      },
+      {
+        "book_id": "19192971",
+        "ratingValue": 4.57,
+        "ratingCount": 318,
+        "name": "Locke & Key: Omega #5"
+      }
+    ]
+  },
+  "Majo no Moribito": {
+    "series_url": "https://www.goodreads.com/series/291050-guardian-of-the-witch",
+    "tomes": [
+      {
+        "book_id": "53684760",
+        "ratingValue": 3.11,
+        "ratingCount": 35,
+        "name": "魔女の守人 2 [Majo no Moribito 2] (Guardian of the Witch, #2)"
+      },
+      {
+        "book_id": "54226156",
+        "ratingValue": 2.69,
+        "ratingCount": 36,
+        "name": "魔女の守人 3 [Majo no Moribito 3] (Guardian of the Witch, #3)"
+      },
+      {
+        "book_id": "53355441",
+        "ratingValue": 3.25,
+        "ratingCount": 52,
+        "name": "魔女の守人 1 [Majo no Moribito 1] (Guardian of the Witch, #1)"
+      }
+    ]
+  },
+  "Bokura no Ketsumei": {
+    "series_url": "https://www.goodreads.com/series/299164-our-blood-oath",
+    "tomes": [
+      {
+        "book_id": "55336139",
+        "ratingValue": 3.33,
+        "ratingCount": 70,
+        "name": "ぼくらの血盟 1 [Bokura no Ketsumei 1] (Our Blood Oath, #1)"
+      },
+      {
+        "book_id": "56449256",
+        "ratingValue": 3.36,
+        "ratingCount": 42,
+        "name": "ぼくらの血盟 2 [Bokura no Ketsumei 2] (Our Blood Oath, #2)"
+      }
+    ]
+  },
+  "Build King": {
+    "series_url": "https://www.goodreads.com/search?q=Build+King+Shimabukuro+Vol",
+    "tomes": [
+      {
+        "book_id": "62328172",
+        "ratingValue": 3.23,
+        "ratingCount": 39,
+        "name": "Build King, Vol. 1: Tonkachi And Renga"
+      },
+      {
+        "book_id": "62907375",
+        "ratingValue": 3.06,
+        "ratingCount": 17,
+        "name": "Build King, Vol. 3: Love Vigor"
+      },
+      {
+        "book_id": "75645008",
+        "ratingValue": 3.19,
+        "ratingCount": 21,
+        "name": "Build King, Vol. 2: Exam For The Buildon License"
+      }
+    ]
+  },
+  "Ice-Head Gill": {
+    "series_url": "https://www.goodreads.com/search?q=Ice-Head+Gill+Hachiya+Vol",
+    "tomes": [
+      {
+        "book_id": "220478327",
+        "ratingValue": 3,
+        "ratingCount": 3,
+        "name": "Ice-Head Gill, Vol. 1"
+      },
+      {
+        "book_id": "220478352"
+      }
+    ]
+  },
+  "Ichigooki! Soujuuchuu": {
+    "series_url": "https://www.goodreads.com/search?q=Ichigoki+Under+Control+Vol",
+    "tomes": [
+      {
+        "book_id": "214214455",
+        "ratingValue": 2.67,
+        "ratingCount": 12,
+        "name": "Ichigoki’s Under Control!!, Vol. 2"
+      },
+      {
+        "book_id": "214214131",
+        "ratingValue": 2.38,
+        "ratingCount": 21,
+        "name": "Ichigoki’s Under Control!!, Vol. 1"
+      }
+    ]
+  },
+  "Ekiden Bros": {
+    "series_url": "https://www.goodreads.com/search?q=Ekiden+Bros+Vol",
+    "tomes": []
+  },
+  "Nice Prison": {
+    "series_url": "https://www.goodreads.com/search?q=Nice+Prison+Vol+Suganuma",
+    "tomes": []
+  },
+  "Gonron Egg": {
+    "series_url": "https://www.goodreads.com/search?q=Gonron+Egg+Vol",
+    "tomes": []
+  }
+}

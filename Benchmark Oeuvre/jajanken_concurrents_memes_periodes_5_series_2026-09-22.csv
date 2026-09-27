@@ -1,0 +1,170 @@
+﻿serie_cible,concurrent,numeros_communs,part_periode,rang_moyen,rang_median,profondeur_normalisee_moyenne
+Lock On!,One Piece,15,0.833333,2.0667,2,0.09671
+Lock On!,Naruto,17,0.944444,2.4118,2,0.113
+Lock On!,Bleach,17,0.944444,4.7059,5,0.21929
+Lock On!,Shonen Shikku,6,0.333333,6.5,6.5,0.304473
+Lock On!,Reborn!,18,1.0,6.6111,7.0,0.309668
+Lock On!,Metallica Metalluca,7,0.388889,7.7143,9,0.358689
+Lock On!,Nura: Rise of the Yokai Clan,18,1.0,7.7778,7.0,0.364394
+Lock On!,Beelzebub,18,1.0,8.2222,8.0,0.38165
+Lock On!,Toriko,18,1.0,8.5556,8.5,0.401924
+Lock On!,Bakuman。,18,1.0,9.7778,9.5,0.459897
+Lock On!,Kochira Katsushika-ku Kameari Koen-mae Hashutsujo (Kochikame),18,1.0,10.6667,10.5,0.498509
+Lock On!,Gin Tama,18,1.0,11.0556,11.0,0.520767
+Lock On!,-,6,0.333333,11.3333,11.0,0.524531
+Lock On!,Kuroko's Basketball,18,1.0,11.2222,11.5,0.526876
+Lock On!,Sket Dance,18,1.0,11.7778,13.0,0.552453
+Lock On!,Marchen Oji Grimm,1,0.055556,12,12,0.571429
+Lock On!,Psyren,18,1.0,13.5556,15.5,0.634247
+Lock On!,Inumarudashi,18,1.0,14.1111,15.0,0.661171
+Lock On!,"Kiben Gakuha, Yotsuya-Senpai no Kaidan",17,0.944444,14.8824,17,0.692781
+Lock On!,Medaka Box,18,1.0,14.9444,16.5,0.700457
+Lock On!,Hetappi Manga Kenkyujo R,2,0.111111,16,16.0,0.727273
+Lock On!,Hokenshitsu no Shinigami,18,1.0,16,16.0,0.750048
+Lock On!,Hunter x Hunter,14,0.777778,17.0714,18.0,0.798207
+Lock On!,Super Dog Rilienthal,11,0.611111,19.6364,20,0.925876
+Lock On!,Shinseiki Idol Densetsu Kanata Seven Change,1,0.055556,19,19,0.95
+Lock On!,Pyu to Fuku! Jaguar,18,1.0,21.3333,21.0,1.0
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",SWOT,1,0.055556,1,1,0.05
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",One Piece,15,0.833333,2.0667,2,0.09671
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Naruto,17,0.944444,2.4118,2,0.113
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Bleach,18,1.0,4.7222,5.0,0.220996
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Reborn!,18,1.0,6.5,7.0,0.304113
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Nura: Rise of the Yokai Clan,18,1.0,7.8333,7.0,0.367172
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Shonen Shikku,7,0.388889,7.7143,7,0.36812
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Toriko,17,0.944444,8.4706,8,0.396155
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Beelzebub,18,1.0,8.7222,9.0,0.40665
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Metallica Metalluca,8,0.444444,8.75,9.0,0.413853
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Bakuman。,18,1.0,9.3889,8.5,0.440452
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Kochira Katsushika-ku Kameari Koen-mae Hashutsujo (Kochikame),18,1.0,11.0556,12.0,0.517953
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Gin Tama,18,1.0,11,10.5,0.517989
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Kuroko's Basketball,18,1.0,11.1667,11.5,0.524098
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",-,6,0.333333,11.3333,11.0,0.524531
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Sket Dance,18,1.0,11.7778,13.0,0.552453
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Marchen Oji Grimm,1,0.055556,12,12,0.571429
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Lock On!,17,0.944444,13.2941,13,0.619748
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Psyren,18,1.0,13.5556,15.5,0.634247
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Inumarudashi,18,1.0,14.1111,15.0,0.661171
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Medaka Box,18,1.0,14.9444,16.5,0.700457
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Hetappi Manga Kenkyujo R,2,0.111111,16,16.0,0.727273
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Hokenshitsu no Shinigami,18,1.0,15.7222,16.0,0.736159
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Hunter x Hunter,13,0.722222,17.3846,18,0.809607
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Super Dog Rilienthal,10,0.555556,20.2,20.0,0.948463
+"Kiben Gakuha, Yotsuya-Senpai no Kaidan",Pyu to Fuku! Jaguar,18,1.0,21.3333,21.0,1.0
+Kagami no Kuni no Harisugawa,One Piece,25,0.892857,2.24,2,0.108863
+Kagami no Kuni no Harisugawa,Naruto,27,0.964286,3.0741,3,0.150059
+Kagami no Kuni no Harisugawa,Toriko,27,0.964286,3.7407,3,0.181194
+Kagami no Kuni no Harisugawa,Bakuman。,27,0.964286,6.7778,5,0.325957
+Kagami no Kuni no Harisugawa,Nisekoi,12,0.428571,6.9167,7.5,0.328003
+Kagami no Kuni no Harisugawa,Gin Tama,28,1.0,7.0714,6.5,0.344732
+Kagami no Kuni no Harisugawa,Sket Dance,28,1.0,7.5714,7.0,0.367818
+Kagami no Kuni no Harisugawa,Hungry Joker,1,0.035714,9,9,0.428571
+Kagami no Kuni no Harisugawa,Koisome Momiji,1,0.035714,9,9,0.428571
+Kagami no Kuni no Harisugawa,Retsu!!! Date-Senpai,1,0.035714,9,9,0.428571
+Kagami no Kuni no Harisugawa,Genson! Kodai Seibutsu-shi Pakky,11,0.392857,9.3636,9,0.440551
+Kagami no Kuni no Harisugawa,Kurogane,21,0.75,9.1905,9,0.443092
+Kagami no Kuni no Harisugawa,Takama-ga-hara,1,0.035714,9,9,0.45
+Kagami no Kuni no Harisugawa,-,15,0.535714,9.8,9,0.467349
+Kagami no Kuni no Harisugawa,Bleach,25,0.892857,10.48,11,0.511152
+Kagami no Kuni no Harisugawa,Medaka Box,28,1.0,11.3929,11.5,0.551607
+Kagami no Kuni no Harisugawa,Reborn!,28,1.0,11.4643,11.0,0.558189
+Kagami no Kuni no Harisugawa,Beelzebub,28,1.0,12.7143,15.0,0.619341
+Kagami no Kuni no Harisugawa,Kochira Katsushika-ku Kameari Koen-mae Hashutsujo (Kochikame),28,1.0,13.0357,14.0,0.632661
+Kagami no Kuni no Harisugawa,Kuroko's Basketball,28,1.0,13.2143,15.5,0.640926
+Kagami no Kuni no Harisugawa,Inumarudashi,27,0.964286,14.1481,14,0.685761
+Kagami no Kuni no Harisugawa,St&rs,28,1.0,15.3214,18.5,0.738717
+Kagami no Kuni no Harisugawa,Hunter x Hunter,24,0.857143,15.2917,16.5,0.739118
+Kagami no Kuni no Harisugawa,Magico,28,1.0,16.2857,16.5,0.790013
+Kagami no Kuni no Harisugawa,Nura: Rise of the Yokai Clan,28,1.0,16.4286,17.0,0.795934
+Kagami no Kuni no Harisugawa,Enigma,16,0.571429,17.9375,19.0,0.882738
+Kagami no Kuni no Harisugawa,Kikai-banashi Hanasaka Ikkyu,7,0.25,18.5714,20,0.907143
+Kagami no Kuni no Harisugawa,Sengoku Armors,1,0.035714,20,20,1.0
+Tenmaku Cinema,MamaYuyu,1,0.047619,1,1,0.055556
+Tenmaku Cinema,One Piece,12,0.571429,2,2.0,0.099763
+Tenmaku Cinema,Yosei no Kaikata,1,0.047619,3,3,0.157895
+Tenmaku Cinema,God Arms,1,0.047619,4,4,0.173913
+Tenmaku Cinema,Naruto,1,0.047619,4,4,0.181818
+Tenmaku Cinema,Kochira Katsushika-ku Kameari Koen-mae Hashutsujo (Kochikame),1,0.047619,4,4,0.190476
+Tenmaku Cinema,SAKAMOTO DAYS,21,1.0,4.1429,3,0.210271
+Tenmaku Cinema,Jujutsu Kaisen,17,0.809524,5.1765,6,0.259391
+Tenmaku Cinema,Blue Box,21,1.0,5.2381,5,0.26663
+Tenmaku Cinema,Rensaijin Tokubetsu Kakioroshi!! J Character Zenin Shugo Natsuyasumi Enikki!!,1,0.047619,7,7,0.304348
+Tenmaku Cinema,Kill Blue,20,0.952381,7.2,7.5,0.358752
+Tenmaku Cinema,My Hero Academia,15,0.714286,7.3333,8,0.364416
+Tenmaku Cinema,Miyako no Oni to Inaka no Tanuki,1,0.047619,7,7,0.368421
+Tenmaku Cinema,Shinobi Chaotic,1,0.047619,7,7,0.368421
+Tenmaku Cinema,Akane-banashi,21,1.0,7.3333,7,0.371204
+Tenmaku Cinema,Kimi to Gyoza to Alien,1,0.047619,8,8,0.4
+Tenmaku Cinema,Martial Master Asumi,12,0.571429,8.25,8.0,0.405514
+Tenmaku Cinema,WITCH WATCH,21,1.0,8.0952,9,0.408182
+Tenmaku Cinema,Tate Roll,1,0.047619,9,9,0.428571
+Tenmaku Cinema,Hitsuyo Jubun no Watashi-tachi,1,0.047619,9,9,0.45
+Tenmaku Cinema,Nue's Exorcist,17,0.809524,9.4118,10,0.460183
+Tenmaku Cinema,Super Psychic Policeman Chojo,1,0.047619,10,10,0.5
+Tenmaku Cinema,Me and Roboco,21,1.0,10.9048,11,0.548152
+Tenmaku Cinema,The Elusive Samurai,21,1.0,11.2381,12,0.560198
+Tenmaku Cinema,Mashle: Magic and Muscles,12,0.571429,11.3333,12.5,0.582066
+Tenmaku Cinema,Mission: Yozakura Family,21,1.0,11.619,13,0.586336
+Tenmaku Cinema,Ice-Head Gill,11,0.52381,12.0909,14,0.592076
+Tenmaku Cinema,Guerrilla Shokudo,1,0.047619,12,12,0.6
+Tenmaku Cinema,Undead Unluck,21,1.0,12.3333,13,0.620375
+Tenmaku Cinema,Do Retry,18,0.857143,15.1111,17.5,0.744641
+Tenmaku Cinema,Black Clover,12,0.571429,15.3333,16.5,0.749667
+Tenmaku Cinema,Cipher Academy,21,1.0,15.1429,15,0.762526
+Tenmaku Cinema,The Ichinose Family's Deadly Sins,21,1.0,15.8571,16,0.795792
+Tenmaku Cinema,Megu wo Miteageru,1,0.047619,17,17,0.85
+Tenmaku Cinema,Seno no Tobu,1,0.047619,17,17,0.85
+Tenmaku Cinema,Hakoiri Ojo to Gutara Shitsuji,1,0.047619,18,18,0.857143
+Tenmaku Cinema,MaMa,1,0.047619,16,16,0.888889
+Tenmaku Cinema,Ichigoki's Under Control!!,2,0.095238,17,17.0,0.921053
+Tenmaku Cinema,Fabricant 100,20,0.952381,18.55,19.0,0.927794
+Tenmaku Cinema,Uchu Ojisan,1,0.047619,18,18,0.947368
+Tenmaku Cinema,Ginka & Glüna,1,0.047619,19,19,1.0
+Green Green Greens,One Piece,18,0.692308,2.3889,3.0,0.117843
+Green Green Greens,Blue Box,26,1.0,4.6154,4.5,0.229452
+Green Green Greens,SAKAMOTO DAYS,25,0.961538,4.68,4,0.234726
+Green Green Greens,Jujutsu Kaisen,20,0.769231,5.05,5.5,0.253176
+Green Green Greens,My Hero Academia,18,0.692308,5.2778,6.0,0.260503
+Green Green Greens,Hito to Ryu,1,0.038462,5,5,0.263158
+Green Green Greens,Mashle: Magic and Muscles,1,0.038462,6,6,0.272727
+Green Green Greens,Psych House,5,0.192308,5.8,5,0.292632
+Green Green Greens,Astro Royale,8,0.307692,6.5,6.0,0.329605
+Green Green Greens,Tonde Hi ni Iru Natsu to Mushi,2,0.076923,7,7.0,0.35
+Green Green Greens,Super Psychic Policeman Chojo,17,0.653846,7.4118,7,0.369792
+Green Green Greens,Sadao ga Iru Ie,1,0.038462,8,8,0.4
+Green Green Greens,Let's! Haikyu!?,1,0.038462,9,9,0.409091
+Green Green Greens,Akane-banashi,26,1.0,8.4231,8.0,0.417475
+Green Green Greens,Yohei no Hen,1,0.038462,8,8,0.421053
+Green Green Greens,"'Tis Time for ""Torture,"" Princess",1,0.038462,9,9,0.428571
+Green Green Greens,Strange Lovers,1,0.038462,9,9,0.428571
+Green Green Greens,Ghost Workaholic,1,0.038462,9,9,0.428571
+Green Green Greens,Mission: Yozakura Family,26,1.0,8.6923,10.0,0.430449
+Green Green Greens,Kyokuto Necromance,7,0.269231,8.5714,8,0.431579
+Green Green Greens,WITCH WATCH,26,1.0,8.6923,10.0,0.43489
+Green Green Greens,Eyeshield 21,1,0.038462,9,9,0.45
+Green Green Greens,Kamen Kitan,1,0.038462,9,9,0.45
+Green Green Greens,Usemono Sagashi,1,0.038462,9,9,0.45
+Green Green Greens,Kubi Gesho,1,0.038462,10,10,0.454545
+Green Green Greens,Haikyu!!,1,0.038462,10,10,0.454545
+Green Green Greens,Kill Blue,26,1.0,9.2692,10.0,0.460702
+Green Green Greens,Undead Unluck,25,0.961538,11.2,12,0.557144
+Green Green Greens,Me and Roboco,26,1.0,11.8462,13.0,0.590249
+Green Green Greens,Nue's Exorcist,26,1.0,12.1923,13.0,0.607729
+Green Green Greens,Dr. STONE 4D SCIENCE,2,0.076923,12.5,12.5,0.615288
+Green Green Greens,The Elusive Samurai,25,0.961538,13.08,14,0.648612
+Green Green Greens,Kagurabachi,26,1.0,13.6923,15.0,0.681387
+Green Green Greens,Dear Anemone,16,0.615385,14.0625,17.0,0.708435
+Green Green Greens,Shadow Eliminators,19,0.730769,14.9474,18,0.739784
+Green Green Greens,MamaYuyu,18,0.692308,17.0556,17.0,0.838509
+Green Green Greens,Densha Tanaka,1,0.038462,16,16,0.842105
+Green Green Greens,MM –Millimeter–,1,0.038462,16,16,0.842105
+Green Green Greens,Tonari no Home,1,0.038462,17,17,0.85
+Green Green Greens,Aori Meshi,1,0.038462,18,18,0.857143
+Green Green Greens,Sora e no Shirube,1,0.038462,18,18,0.857143
+Green Green Greens,Today's Witches,1,0.038462,19,19,0.863636
+Green Green Greens,Martial Master Asumi,10,0.384615,18.1,19.5,0.889854
+Green Green Greens,Jyuken Koso,1,0.038462,18,18,0.9
+Green Green Greens,Cipher Academy,9,0.346154,18.7778,18,0.917593
+Green Green Greens,Two on Ice,19,0.730769,18.6842,19,0.923158
+Green Green Greens,Tsukumo Komachi no Nenmatsu,1,0.038462,20,20,1.0
+Green Green Greens,RuriDragon,5,0.192308,20.4,20,1.0

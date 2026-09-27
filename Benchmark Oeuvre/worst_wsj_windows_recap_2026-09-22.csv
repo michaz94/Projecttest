@@ -1,0 +1,45 @@
+series,window,rank_mean,rank_median,n
+Build King,T1_ch1_7,9.71,9.0,7.0
+Build King,proxy_T1_ch8_14,19.57,19.0,7.0
+Build King,elargi_ch8_17,19.8,19.5,10.0
+Build King,terminale,20.25,20.5,4.0
+Nice Prison,T1_ch1_7,11.29,12.0,7.0
+Nice Prison,proxy_T1_ch8_14,18.0,19.0,7.0
+Nice Prison,elargi_ch8_17,18.8,20.0,10.0
+Nice Prison,terminale,20.67,20.0,3.0
+Gonron Egg,T1_ch1_7,11.57,12.0,7.0
+Gonron Egg,proxy_T1_ch8_14,20.0,20.0,7.0
+Gonron Egg,elargi_ch8_17,20.1,20.5,10.0
+Gonron Egg,terminale,20.0,20.0,5.0
+Mamore! Shugomaru,T1_ch1_7,10.57,12.0,7.0
+Mamore! Shugomaru,proxy_T1_ch8_14,20.43,21.0,7.0
+Mamore! Shugomaru,elargi_ch8_17,20.0,20.5,10.0
+Mamore! Shugomaru,terminale,19.8,20.0,10.0
+Bokura no Ketsumei,T1_ch1_7,12.14,12.0,7.0
+Bokura no Ketsumei,proxy_T1_ch8_14,20.71,21.0,7.0
+Bokura no Ketsumei,elargi_ch8_17,20.22,20.0,9.0
+Bokura no Ketsumei,terminale,18.5,18.5,2.0
+Ekiden Bros,T1_ch1_7,12.14,10.0,7.0
+Ekiden Bros,proxy_T1_ch8_14,20.0,20.0,7.0
+Ekiden Bros,elargi_ch8_17,20.0,20.0,8.0
+Ekiden Bros,terminale,20.0,20.0,1.0
+Bone Collection,T1_ch1_7,8.43,8.0,7.0
+Bone Collection,proxy_T1_ch8_14,20.17,20.0,6.0
+Bone Collection,elargi_ch8_17,20.17,20.0,6.0
+Bone Collection,terminale,,,
+Ichigooki! Soujuuchuu,T1_ch1_7,9.29,10.0,7.0
+Ichigooki! Soujuuchuu,proxy_T1_ch8_14,16.29,16.0,7.0
+Ichigooki! Soujuuchuu,elargi_ch8_17,16.4,16.0,10.0
+Ichigooki! Soujuuchuu,terminale,16.67,16.0,3.0
+Do Retry,T1_ch1_7,12.71,12.0,7.0
+Do Retry,proxy_T1_ch8_14,20.29,20.0,7.0
+Do Retry,elargi_ch8_17,19.6,19.5,10.0
+Do Retry,terminale,18.0,18.0,3.0
+Ice-Head Gill,T1_ch1_7,13.57,14.0,7.0
+Ice-Head Gill,proxy_T1_ch8_14,18.43,19.0,7.0
+Ice-Head Gill,elargi_ch8_17,18.6,19.0,10.0
+Ice-Head Gill,terminale,19.0,19.0,4.0
+Majo no Moribito,T1_ch1_7,11.14,12.0,7.0
+Majo no Moribito,proxy_T1_ch8_14,19.29,19.0,7.0
+Majo no Moribito,elargi_ch8_17,19.2,18.5,10.0
+Majo no Moribito,terminale,19.0,18.0,3.0

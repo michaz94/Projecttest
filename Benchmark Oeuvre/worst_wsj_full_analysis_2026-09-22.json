@@ -1,0 +1,2776 @@
+{
+  "Build King": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 21,
+      "n_rows_kept": 18,
+      "n_tomes": 3
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 7,
+        "ranks": [
+          9,
+          6,
+          11,
+          8,
+          7,
+          13,
+          14
+        ],
+        "normalized": [
+          0.429,
+          0.273,
+          0.478,
+          0.348,
+          0.318,
+          0.65,
+          0.778
+        ],
+        "stats": {
+          "rank": {
+            "mean": 9.71,
+            "median": 9,
+            "min": 6,
+            "max": 14,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.468,
+            "median": 0.429,
+            "min": 0.273,
+            "max": 0.778,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 10,
+        "ranks": [
+          19,
+          19,
+          19,
+          20,
+          21,
+          20,
+          19,
+          21,
+          19,
+          21
+        ],
+        "normalized": [
+          1.0,
+          0.95,
+          0.95,
+          1.0,
+          1.0,
+          0.952,
+          0.905,
+          1.0,
+          0.95,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.8,
+            "median": 19.5,
+            "min": 19,
+            "max": 21,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.971,
+            "median": 0.976,
+            "min": 0.905,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 10,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      {
+        "tome": 3,
+        "n_ch": 1,
+        "ranks": [
+          20
+        ],
+        "normalized": [
+          0.952
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20,
+            "min": 20,
+            "max": 20,
+            "n": 1
+          },
+          "normalized": {
+            "mean": 0.952,
+            "median": 0.952,
+            "min": 0.952,
+            "max": 0.952,
+            "n": 1,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          9,
+          6,
+          11,
+          8,
+          7,
+          13,
+          14
+        ],
+        "stats": {
+          "rank": {
+            "mean": 9.71,
+            "median": 9,
+            "min": 6,
+            "max": 14,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.468,
+            "median": 0.429,
+            "min": 0.273,
+            "max": 0.778,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          19,
+          19,
+          19,
+          20,
+          21,
+          20,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.57,
+            "median": 19,
+            "min": 19,
+            "max": 21,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.965,
+            "median": 0.952,
+            "min": 0.905,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          19,
+          19,
+          19,
+          20,
+          21,
+          20,
+          19,
+          21,
+          19,
+          21
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.8,
+            "median": 19.5,
+            "min": 19,
+            "max": 21,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.971,
+            "median": 0.976,
+            "min": 0.905,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 10,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          21,
+          19,
+          21,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.25,
+            "median": 20.5,
+            "min": 19,
+            "max": 21,
+            "n": 4
+          },
+          "normalized": {
+            "mean": 0.976,
+            "median": 0.976,
+            "min": 0.95,
+            "max": 1.0,
+            "n": 4,
+            "bottom_quarter": 4,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    ]
+  },
+  "Nice Prison": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 19,
+      "n_rows_kept": 17,
+      "n_tomes": 3
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 7,
+        "ranks": [
+          11,
+          9,
+          12,
+          12,
+          14,
+          16,
+          5
+        ],
+        "normalized": [
+          0.55,
+          0.45,
+          0.6,
+          0.6,
+          0.7,
+          0.842,
+          0.238
+        ],
+        "stats": {
+          "rank": {
+            "mean": 11.29,
+            "median": 12,
+            "min": 5,
+            "max": 16,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.569,
+            "median": 0.6,
+            "min": 0.238,
+            "max": 0.842,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 8,
+        "ranks": [
+          17,
+          19,
+          20,
+          14,
+          20,
+          15,
+          21,
+          20
+        ],
+        "normalized": [
+          0.85,
+          1.0,
+          1.0,
+          0.7,
+          1.0,
+          0.714,
+          1.0,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 18.25,
+            "median": 19.5,
+            "min": 14,
+            "max": 21,
+            "n": 8
+          },
+          "normalized": {
+            "mean": 0.908,
+            "median": 1.0,
+            "min": 0.7,
+            "max": 1.0,
+            "n": 8,
+            "bottom_quarter": 6,
+            "bottom_quarter_share": 0.75
+          }
+        }
+      },
+      {
+        "tome": 3,
+        "n_ch": 2,
+        "ranks": [
+          22,
+          20
+        ],
+        "normalized": [
+          1.0,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 21,
+            "median": 21.0,
+            "min": 20,
+            "max": 22,
+            "n": 2
+          },
+          "normalized": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "n": 2,
+            "bottom_quarter": 2,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          11,
+          9,
+          12,
+          12,
+          14,
+          16,
+          5
+        ],
+        "stats": {
+          "rank": {
+            "mean": 11.29,
+            "median": 12,
+            "min": 5,
+            "max": 16,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.569,
+            "median": 0.6,
+            "min": 0.238,
+            "max": 0.842,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          17,
+          19,
+          20,
+          14,
+          20,
+          15,
+          21
+        ],
+        "stats": {
+          "rank": {
+            "mean": 18,
+            "median": 19,
+            "min": 14,
+            "max": 21,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.895,
+            "median": 1.0,
+            "min": 0.7,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 5,
+            "bottom_quarter_share": 0.71
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          17,
+          19,
+          20,
+          14,
+          20,
+          15,
+          21,
+          20,
+          22,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 18.8,
+            "median": 20.0,
+            "min": 14,
+            "max": 22,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.926,
+            "median": 1.0,
+            "min": 0.7,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 8,
+            "bottom_quarter_share": 0.8
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          20,
+          22,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.67,
+            "median": 20,
+            "min": 20,
+            "max": 22,
+            "n": 3
+          },
+          "normalized": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "n": 3,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      [
+        16,
+        17,
+        18,
+        19
+      ]
+    ]
+  },
+  "Gonron Egg": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 21,
+      "n_rows_kept": 19,
+      "n_tomes": 3
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 7,
+        "ranks": [
+          8,
+          9,
+          7,
+          14,
+          12,
+          14,
+          17
+        ],
+        "normalized": [
+          0.421,
+          0.45,
+          0.35,
+          0.7,
+          0.6,
+          0.7,
+          0.81
+        ],
+        "stats": {
+          "rank": {
+            "mean": 11.57,
+            "median": 12,
+            "min": 7,
+            "max": 17,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.576,
+            "median": 0.6,
+            "min": 0.35,
+            "max": 0.81,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 7,
+        "ranks": [
+          21,
+          19,
+          18,
+          20,
+          21,
+          21,
+          20
+        ],
+        "normalized": [
+          1.0,
+          0.95,
+          0.947,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20,
+            "min": 18,
+            "max": 21,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.985,
+            "median": 1.0,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      {
+        "tome": 3,
+        "n_ch": 5,
+        "ranks": [
+          21,
+          21,
+          19,
+          19,
+          20
+        ],
+        "normalized": [
+          1.0,
+          0.955,
+          0.95,
+          0.95,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20,
+            "min": 19,
+            "max": 21,
+            "n": 5
+          },
+          "normalized": {
+            "mean": 0.971,
+            "median": 0.955,
+            "min": 0.95,
+            "max": 1.0,
+            "n": 5,
+            "bottom_quarter": 5,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          8,
+          9,
+          7,
+          14,
+          12,
+          14,
+          17
+        ],
+        "stats": {
+          "rank": {
+            "mean": 11.57,
+            "median": 12,
+            "min": 7,
+            "max": 17,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.576,
+            "median": 0.6,
+            "min": 0.35,
+            "max": 0.81,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          21,
+          19,
+          18,
+          20,
+          21,
+          21,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20,
+            "min": 18,
+            "max": 21,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.985,
+            "median": 1.0,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          21,
+          19,
+          18,
+          20,
+          21,
+          21,
+          20,
+          21,
+          21,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.1,
+            "median": 20.5,
+            "min": 18,
+            "max": 21,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.98,
+            "median": 1.0,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 10,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          21,
+          21,
+          19,
+          19,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20,
+            "min": 19,
+            "max": 21,
+            "n": 5
+          },
+          "normalized": {
+            "mean": 0.971,
+            "median": 0.955,
+            "min": 0.95,
+            "max": 1.0,
+            "n": 5,
+            "bottom_quarter": 5,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    ]
+  },
+  "Mamore! Shugomaru": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 26,
+      "n_rows_kept": 24,
+      "n_tomes": 3
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 7,
+        "ranks": [
+          10,
+          6,
+          12,
+          12,
+          7,
+          12,
+          15
+        ],
+        "normalized": [
+          0.5,
+          0.3,
+          0.571,
+          0.545,
+          0.333,
+          0.571,
+          0.714
+        ],
+        "stats": {
+          "rank": {
+            "mean": 10.57,
+            "median": 12,
+            "min": 6,
+            "max": 15,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.505,
+            "median": 0.545,
+            "min": 0.3,
+            "max": 0.714,
+            "n": 7,
+            "bottom_quarter": 0,
+            "bottom_quarter_share": 0.0
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 7,
+        "ranks": [
+          22,
+          19,
+          21,
+          20,
+          22,
+          18,
+          21
+        ],
+        "normalized": [
+          1.0,
+          0.95,
+          1.0,
+          0.952,
+          1.0,
+          0.857,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.43,
+            "median": 21,
+            "min": 18,
+            "max": 22,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.966,
+            "median": 1.0,
+            "min": 0.857,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      {
+        "tome": 3,
+        "n_ch": 9,
+        "ranks": [
+          20,
+          22,
+          15,
+          21,
+          21,
+          19,
+          21,
+          20,
+          20
+        ],
+        "normalized": [
+          0.952,
+          1.0,
+          0.714,
+          1.0,
+          1.0,
+          0.95,
+          1.0,
+          1.0,
+          0.952
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.89,
+            "median": 20,
+            "min": 15,
+            "max": 22,
+            "n": 9
+          },
+          "normalized": {
+            "mean": 0.952,
+            "median": 1.0,
+            "min": 0.714,
+            "max": 1.0,
+            "n": 9,
+            "bottom_quarter": 8,
+            "bottom_quarter_share": 0.89
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          10,
+          6,
+          12,
+          12,
+          7,
+          12,
+          15
+        ],
+        "stats": {
+          "rank": {
+            "mean": 10.57,
+            "median": 12,
+            "min": 6,
+            "max": 15,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.505,
+            "median": 0.545,
+            "min": 0.3,
+            "max": 0.714,
+            "n": 7,
+            "bottom_quarter": 0,
+            "bottom_quarter_share": 0.0
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          22,
+          19,
+          21,
+          20,
+          22,
+          18,
+          21
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.43,
+            "median": 21,
+            "min": 18,
+            "max": 22,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.966,
+            "median": 1.0,
+            "min": 0.857,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          22,
+          19,
+          21,
+          20,
+          22,
+          18,
+          21,
+          20,
+          22,
+          15
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20.5,
+            "min": 15,
+            "max": 22,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.943,
+            "median": 0.976,
+            "min": 0.714,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 9,
+            "bottom_quarter_share": 0.9
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          20,
+          22,
+          15,
+          21,
+          21,
+          19,
+          21,
+          20,
+          20,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.8,
+            "median": 20.0,
+            "min": 15,
+            "max": 22,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.957,
+            "median": 1.0,
+            "min": 0.714,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 9,
+            "bottom_quarter_share": 0.9
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    ]
+  },
+  "Bokura no Ketsumei": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 18,
+      "n_rows_kept": 16,
+      "n_tomes": 2
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 9,
+        "ranks": [
+          12,
+          10,
+          14,
+          11,
+          8,
+          13,
+          17,
+          19,
+          19
+        ],
+        "normalized": [
+          0.632,
+          0.455,
+          0.737,
+          0.55,
+          0.421,
+          0.65,
+          0.895,
+          1.0,
+          0.95
+        ],
+        "stats": {
+          "rank": {
+            "mean": 13.67,
+            "median": 13,
+            "min": 8,
+            "max": 19,
+            "n": 9
+          },
+          "normalized": {
+            "mean": 0.699,
+            "median": 0.65,
+            "min": 0.421,
+            "max": 1.0,
+            "n": 9,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 0.33
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 7,
+        "ranks": [
+          21,
+          21,
+          23,
+          22,
+          20,
+          20,
+          17
+        ],
+        "normalized": [
+          1.0,
+          0.955,
+          1.0,
+          0.957,
+          0.909,
+          1.0,
+          0.944
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.57,
+            "median": 21,
+            "min": 17,
+            "max": 23,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.966,
+            "median": 0.957,
+            "min": 0.909,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          12,
+          10,
+          14,
+          11,
+          8,
+          13,
+          17
+        ],
+        "stats": {
+          "rank": {
+            "mean": 12.14,
+            "median": 12,
+            "min": 8,
+            "max": 17,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.62,
+            "median": 0.632,
+            "min": 0.421,
+            "max": 0.895,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          19,
+          19,
+          21,
+          21,
+          23,
+          22,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.71,
+            "median": 21,
+            "min": 19,
+            "max": 23,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.967,
+            "median": 0.957,
+            "min": 0.909,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          19,
+          19,
+          21,
+          21,
+          23,
+          22,
+          20,
+          20,
+          17
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.22,
+            "median": 20,
+            "min": 17,
+            "max": 23,
+            "n": 9
+          },
+          "normalized": {
+            "mean": 0.968,
+            "median": 0.957,
+            "min": 0.909,
+            "max": 1.0,
+            "n": 9,
+            "bottom_quarter": 9,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          20,
+          17
+        ],
+        "stats": {
+          "rank": {
+            "mean": 18.5,
+            "median": 18.5,
+            "min": 17,
+            "max": 20,
+            "n": 2
+          },
+          "normalized": {
+            "mean": 0.972,
+            "median": 0.972,
+            "min": 0.944,
+            "max": 1.0,
+            "n": 2,
+            "bottom_quarter": 2,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    ]
+  },
+  "Ekiden Bros": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 17,
+      "n_rows_kept": 15,
+      "n_tomes": 2
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 9,
+        "ranks": [
+          10,
+          9,
+          12,
+          16,
+          8,
+          10,
+          20,
+          19,
+          20
+        ],
+        "normalized": [
+          0.5,
+          0.45,
+          0.6,
+          0.762,
+          0.381,
+          0.5,
+          0.909,
+          0.95,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 13.78,
+            "median": 12,
+            "min": 8,
+            "max": 20,
+            "n": 9
+          },
+          "normalized": {
+            "mean": 0.672,
+            "median": 0.6,
+            "min": 0.381,
+            "max": 1.0,
+            "n": 9,
+            "bottom_quarter": 4,
+            "bottom_quarter_share": 0.44
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 6,
+        "ranks": [
+          20,
+          21,
+          21,
+          20,
+          19,
+          20
+        ],
+        "normalized": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.95,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.17,
+            "median": 20.0,
+            "min": 19,
+            "max": 21,
+            "n": 6
+          },
+          "normalized": {
+            "mean": 0.992,
+            "median": 1.0,
+            "min": 0.95,
+            "max": 1.0,
+            "n": 6,
+            "bottom_quarter": 6,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          10,
+          9,
+          12,
+          16,
+          8,
+          10,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 12.14,
+            "median": 10,
+            "min": 8,
+            "max": 20,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.586,
+            "median": 0.5,
+            "min": 0.381,
+            "max": 0.909,
+            "n": 7,
+            "bottom_quarter": 2,
+            "bottom_quarter_share": 0.29
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          19,
+          20,
+          20,
+          21,
+          21,
+          20,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20,
+            "min": 19,
+            "max": 21,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.986,
+            "median": 1.0,
+            "min": 0.95,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          19,
+          20,
+          20,
+          21,
+          21,
+          20,
+          19,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20.0,
+            "min": 19,
+            "max": 21,
+            "n": 8
+          },
+          "normalized": {
+            "mean": 0.988,
+            "median": 1.0,
+            "min": 0.95,
+            "max": 1.0,
+            "n": 8,
+            "bottom_quarter": 8,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20,
+            "median": 20,
+            "min": 20,
+            "max": 20,
+            "n": 1
+          },
+          "normalized": {
+            "mean": 1.0,
+            "median": 1.0,
+            "min": 1.0,
+            "max": 1.0,
+            "n": 1,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    ]
+  },
+  "Bone Collection": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 16,
+      "n_rows_kept": 13,
+      "n_tomes": 2
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 7,
+        "ranks": [
+          10,
+          8,
+          6,
+          10,
+          8,
+          6,
+          11
+        ],
+        "normalized": [
+          0.5,
+          0.381,
+          0.316,
+          0.476,
+          0.421,
+          0.316,
+          0.579
+        ],
+        "stats": {
+          "rank": {
+            "mean": 8.43,
+            "median": 8,
+            "min": 6,
+            "max": 11,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.427,
+            "median": 0.421,
+            "min": 0.316,
+            "max": 0.579,
+            "n": 7,
+            "bottom_quarter": 0,
+            "bottom_quarter_share": 0.0
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 6,
+        "ranks": [
+          20,
+          19,
+          23,
+          20,
+          20,
+          19
+        ],
+        "normalized": [
+          0.909,
+          0.95,
+          1.0,
+          0.952,
+          0.909,
+          0.95
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.17,
+            "median": 20.0,
+            "min": 19,
+            "max": 23,
+            "n": 6
+          },
+          "normalized": {
+            "mean": 0.945,
+            "median": 0.95,
+            "min": 0.909,
+            "max": 1.0,
+            "n": 6,
+            "bottom_quarter": 6,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          10,
+          8,
+          6,
+          10,
+          8,
+          6,
+          11
+        ],
+        "stats": {
+          "rank": {
+            "mean": 8.43,
+            "median": 8,
+            "min": 6,
+            "max": 11,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.427,
+            "median": 0.421,
+            "min": 0.316,
+            "max": 0.579,
+            "n": 7,
+            "bottom_quarter": 0,
+            "bottom_quarter_share": 0.0
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          20,
+          19,
+          23,
+          20,
+          20,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.17,
+            "median": 20.0,
+            "min": 19,
+            "max": 23,
+            "n": 6
+          },
+          "normalized": {
+            "mean": 0.945,
+            "median": 0.95,
+            "min": 0.909,
+            "max": 1.0,
+            "n": 6,
+            "bottom_quarter": 6,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          20,
+          19,
+          23,
+          20,
+          20,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.17,
+            "median": 20.0,
+            "min": 19,
+            "max": 23,
+            "n": 6
+          },
+          "normalized": {
+            "mean": 0.945,
+            "median": 0.95,
+            "min": 0.909,
+            "max": 1.0,
+            "n": 6,
+            "bottom_quarter": 6,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [],
+        "stats": {
+          "rank": null,
+          "normalized": null
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    ]
+  },
+  "Ichigooki! Soujuuchuu": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 19,
+      "n_rows_kept": 17,
+      "n_tomes": 2
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 9,
+        "ranks": [
+          10,
+          7,
+          10,
+          7,
+          10,
+          17,
+          4,
+          18,
+          16
+        ],
+        "normalized": [
+          0.476,
+          0.333,
+          0.435,
+          0.304,
+          0.476,
+          0.81,
+          0.19,
+          0.9,
+          0.762
+        ],
+        "stats": {
+          "rank": {
+            "mean": 11,
+            "median": 10,
+            "min": 4,
+            "max": 18,
+            "n": 9
+          },
+          "normalized": {
+            "mean": 0.521,
+            "median": 0.476,
+            "min": 0.19,
+            "max": 0.9,
+            "n": 9,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 0.33
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 8,
+        "ranks": [
+          13,
+          19,
+          16,
+          17,
+          15,
+          16,
+          16,
+          18
+        ],
+        "normalized": [
+          0.619,
+          1.0,
+          0.842,
+          0.85,
+          0.75,
+          0.842,
+          0.842,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 16.25,
+            "median": 16.0,
+            "min": 13,
+            "max": 19,
+            "n": 8
+          },
+          "normalized": {
+            "mean": 0.843,
+            "median": 0.842,
+            "min": 0.619,
+            "max": 1.0,
+            "n": 8,
+            "bottom_quarter": 6,
+            "bottom_quarter_share": 0.75
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          10,
+          7,
+          10,
+          7,
+          10,
+          17,
+          4
+        ],
+        "stats": {
+          "rank": {
+            "mean": 9.29,
+            "median": 10,
+            "min": 4,
+            "max": 17,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.432,
+            "median": 0.435,
+            "min": 0.19,
+            "max": 0.81,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          18,
+          16,
+          13,
+          19,
+          16,
+          17,
+          15
+        ],
+        "stats": {
+          "rank": {
+            "mean": 16.29,
+            "median": 16,
+            "min": 13,
+            "max": 19,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.818,
+            "median": 0.842,
+            "min": 0.619,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 5,
+            "bottom_quarter_share": 0.71
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          18,
+          16,
+          13,
+          19,
+          16,
+          17,
+          15,
+          16,
+          16,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 16.4,
+            "median": 16.0,
+            "min": 13,
+            "max": 19,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.841,
+            "median": 0.842,
+            "min": 0.619,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 8,
+            "bottom_quarter_share": 0.8
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          16,
+          16,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 16.67,
+            "median": 16,
+            "min": 16,
+            "max": 18,
+            "n": 3
+          },
+          "normalized": {
+            "mean": 0.895,
+            "median": 0.842,
+            "min": 0.842,
+            "max": 1.0,
+            "n": 3,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    ]
+  },
+  "Do Retry": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 19,
+      "n_rows_kept": 17,
+      "n_tomes": 2
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 9,
+        "ranks": [
+          8,
+          5,
+          12,
+          11,
+          17,
+          17,
+          19,
+          20,
+          21
+        ],
+        "normalized": [
+          0.4,
+          0.25,
+          0.632,
+          0.55,
+          0.85,
+          0.85,
+          1.0,
+          0.952,
+          0.955
+        ],
+        "stats": {
+          "rank": {
+            "mean": 14.44,
+            "median": 17,
+            "min": 5,
+            "max": 21,
+            "n": 9
+          },
+          "normalized": {
+            "mean": 0.715,
+            "median": 0.85,
+            "min": 0.25,
+            "max": 1.0,
+            "n": 9,
+            "bottom_quarter": 5,
+            "bottom_quarter_share": 0.56
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 8,
+        "ranks": [
+          21,
+          18,
+          23,
+          20,
+          19,
+          19,
+          17,
+          18
+        ],
+        "normalized": [
+          1.0,
+          0.947,
+          1.0,
+          0.952,
+          0.95,
+          0.905,
+          0.944,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.38,
+            "median": 19.0,
+            "min": 17,
+            "max": 23,
+            "n": 8
+          },
+          "normalized": {
+            "mean": 0.962,
+            "median": 0.951,
+            "min": 0.905,
+            "max": 1.0,
+            "n": 8,
+            "bottom_quarter": 8,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          8,
+          5,
+          12,
+          11,
+          17,
+          17,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 12.71,
+            "median": 12,
+            "min": 5,
+            "max": 19,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.647,
+            "median": 0.632,
+            "min": 0.25,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 0.43
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          20,
+          21,
+          21,
+          18,
+          23,
+          20,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 20.29,
+            "median": 20,
+            "min": 18,
+            "max": 23,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.965,
+            "median": 0.952,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          20,
+          21,
+          21,
+          18,
+          23,
+          20,
+          19,
+          19,
+          17,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.6,
+            "median": 19.5,
+            "min": 17,
+            "max": 23,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.961,
+            "median": 0.952,
+            "min": 0.905,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 10,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          19,
+          17,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 18,
+            "median": 18,
+            "min": 17,
+            "max": 19,
+            "n": 3
+          },
+          "normalized": {
+            "mean": 0.95,
+            "median": 0.944,
+            "min": 0.905,
+            "max": 1.0,
+            "n": 3,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    ]
+  },
+  "Ice-Head Gill": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 20,
+      "n_rows_kept": 18,
+      "n_tomes": 2
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 10,
+        "ranks": [
+          10,
+          8,
+          8,
+          14,
+          17,
+          18,
+          20,
+          17,
+          16,
+          17
+        ],
+        "normalized": [
+          0.476,
+          0.364,
+          0.381,
+          0.737,
+          0.739,
+          0.857,
+          1.0,
+          0.81,
+          0.889,
+          0.944
+        ],
+        "stats": {
+          "rank": {
+            "mean": 14.5,
+            "median": 16.5,
+            "min": 8,
+            "max": 20,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.72,
+            "median": 0.7745,
+            "min": 0.364,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 5,
+            "bottom_quarter_share": 0.5
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 8,
+        "ranks": [
+          20,
+          20,
+          19,
+          20,
+          19,
+          20,
+          18,
+          19
+        ],
+        "normalized": [
+          1.0,
+          1.0,
+          0.95,
+          1.0,
+          0.95,
+          1.0,
+          0.947,
+          1.0
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.38,
+            "median": 19.5,
+            "min": 18,
+            "max": 20,
+            "n": 8
+          },
+          "normalized": {
+            "mean": 0.981,
+            "median": 1.0,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 8,
+            "bottom_quarter": 8,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          10,
+          8,
+          8,
+          14,
+          17,
+          18,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 13.57,
+            "median": 14,
+            "min": 8,
+            "max": 20,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.651,
+            "median": 0.737,
+            "min": 0.364,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 2,
+            "bottom_quarter_share": 0.29
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          17,
+          16,
+          17,
+          20,
+          20,
+          19,
+          20
+        ],
+        "stats": {
+          "rank": {
+            "mean": 18.43,
+            "median": 19,
+            "min": 16,
+            "max": 20,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.942,
+            "median": 0.95,
+            "min": 0.81,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          17,
+          16,
+          17,
+          20,
+          20,
+          19,
+          20,
+          19,
+          20,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 18.6,
+            "median": 19.0,
+            "min": 16,
+            "max": 20,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.949,
+            "median": 0.95,
+            "min": 0.81,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 10,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          19,
+          20,
+          18,
+          19
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19,
+            "median": 19.0,
+            "min": 18,
+            "max": 20,
+            "n": 4
+          },
+          "normalized": {
+            "mean": 0.974,
+            "median": 0.975,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 4,
+            "bottom_quarter": 4,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    ]
+  },
+  "Majo no Moribito": {
+    "meta": {
+      "period": null,
+      "avg_rank_mentioned": null,
+      "n_rows_total": 19,
+      "n_rows_kept": 17,
+      "n_tomes": 3
+    },
+    "mal": {},
+    "tomes": [
+      {
+        "tome": 1,
+        "n_ch": 7,
+        "ranks": [
+          5,
+          12,
+          12,
+          12,
+          8,
+          13,
+          16
+        ],
+        "normalized": [
+          0.25,
+          0.6,
+          0.632,
+          0.6,
+          0.4,
+          0.65,
+          0.842
+        ],
+        "stats": {
+          "rank": {
+            "mean": 11.14,
+            "median": 12,
+            "min": 5,
+            "max": 16,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.568,
+            "median": 0.6,
+            "min": 0.25,
+            "max": 0.842,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      {
+        "tome": 2,
+        "n_ch": 7,
+        "ranks": [
+          18,
+          20,
+          18,
+          21,
+          19,
+          21,
+          18
+        ],
+        "normalized": [
+          0.9,
+          1.0,
+          0.947,
+          1.0,
+          0.95,
+          1.0,
+          0.947
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.29,
+            "median": 19,
+            "min": 18,
+            "max": 21,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.963,
+            "median": 0.95,
+            "min": 0.9,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      {
+        "tome": 3,
+        "n_ch": 3,
+        "ranks": [
+          21,
+          18,
+          18
+        ],
+        "normalized": [
+          1.0,
+          0.947,
+          0.947
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19,
+            "median": 18,
+            "min": 18,
+            "max": 21,
+            "n": 3
+          },
+          "normalized": {
+            "mean": 0.965,
+            "median": 0.947,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 3,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    ],
+    "windows": {
+      "T1_ch1_7": {
+        "ranks": [
+          5,
+          12,
+          12,
+          12,
+          8,
+          13,
+          16
+        ],
+        "stats": {
+          "rank": {
+            "mean": 11.14,
+            "median": 12,
+            "min": 5,
+            "max": 16,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.568,
+            "median": 0.6,
+            "min": 0.25,
+            "max": 0.842,
+            "n": 7,
+            "bottom_quarter": 1,
+            "bottom_quarter_share": 0.14
+          }
+        }
+      },
+      "proxy_T1_ch8_14": {
+        "ranks": [
+          18,
+          20,
+          18,
+          21,
+          19,
+          21,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.29,
+            "median": 19,
+            "min": 18,
+            "max": 21,
+            "n": 7
+          },
+          "normalized": {
+            "mean": 0.963,
+            "median": 0.95,
+            "min": 0.9,
+            "max": 1.0,
+            "n": 7,
+            "bottom_quarter": 7,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "elargi_ch8_17": {
+        "ranks": [
+          18,
+          20,
+          18,
+          21,
+          19,
+          21,
+          18,
+          21,
+          18,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19.2,
+            "median": 18.5,
+            "min": 18,
+            "max": 21,
+            "n": 10
+          },
+          "normalized": {
+            "mean": 0.964,
+            "median": 0.9484999999999999,
+            "min": 0.9,
+            "max": 1.0,
+            "n": 10,
+            "bottom_quarter": 10,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      },
+      "terminale": {
+        "ranks": [
+          21,
+          18,
+          18
+        ],
+        "stats": {
+          "rank": {
+            "mean": 19,
+            "median": 18,
+            "min": 18,
+            "max": 21,
+            "n": 3
+          },
+          "normalized": {
+            "mean": 0.965,
+            "median": 0.947,
+            "min": 0.947,
+            "max": 1.0,
+            "n": 3,
+            "bottom_quarter": 3,
+            "bottom_quarter_share": 1.0
+          }
+        }
+      }
+    },
+    "carto": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    ]
+  }
+}
