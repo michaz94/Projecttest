@@ -262,25 +262,27 @@ Lecture : *The Lord of the Rings* est **4e sur 6** par moyenne pondérée Goodre
 
 ## 5. Percentiles bruts et classement robuste
 
-La population de référence révisée contient **603 œuvres Goodreads** et **599 œuvres SensCritique**. Les plateformes restent séparées. Le percentile brut donne une unité à chaque œuvre.
+La population de référence révisée contient **602 œuvres Goodreads** et **599 œuvres SensCritique** (voir la correction du 27/09/2026 ci-dessous). Les plateformes restent séparées. Le percentile brut donne une unité à chaque œuvre.
 
 Le classement robuste applique uniquement la réduction bayésienne déjà retenue :
 
 `score ajusté = (v × R + m × C) / (v + m)`
 
-- Goodreads : `C = 4,40197`, `m = 5839,0` votes.
+- Goodreads : `C = 4,40151`, `m = 5892,5` votes.
 - SensCritique : `C = 7,11901`, `m = 212,0` votes.
 
-Il n’existe **aucune prime de popularité supplémentaire** : des millions de votes ne servent qu’à empêcher la note d’être ramenée vers le prior. Une fois l’estimation solide, le score reste pratiquement égal à la note affichée. Pour rester comparable aux 600 autres œuvres, ce classement part des **notes affichées par les plateformes** (4,41 ; 4,51 ; 4,59), et non des moyennes à cinq décimales reconstruites uniquement pour Tolkien.
+Il n’existe **aucune prime de popularité supplémentaire** : des millions de votes ne servent qu’à empêcher la note d’être ramenée vers le prior. Une fois l’estimation solide, le score reste pratiquement égal à la note affichée. Pour rester comparable aux 599 autres œuvres, ce classement part des **notes affichées par les plateformes** (4,41 ; 4,51 ; 4,59), et non des moyennes à cinq décimales reconstruites uniquement pour Tolkien.
 
 | Plateforme | Volume | Note brute | Percentile brut | Rang brut | Score robuste | Percentile robuste | Rang robuste |
 |---|---|---:|---:|---:|---:|---:|---:|
-| Goodreads | *The Fellowship of the Ring* | 4,41 | P50,75 | 291–304/603 | **4,40999** | P53,48 | **281/603** |
-| Goodreads | *The Two Towers* | 4,51 | P73,88 | 151–165/603 | **4,50947** | P85,99 | **85/603** |
-| Goodreads | *The Return of the King* | 4,59 | P87,73 | 70–79/603 | **4,58900** | P98,09 | **12/603** |
+| Goodreads | *The Fellowship of the Ring* | 4,41 | P50,83 | 290–303/602 | **4,40998** | P53,41 | **281/602** |
+| Goodreads | *The Two Towers* | 4,51 | P74,00 | 150–164/602 | **4,50946** | P86,30 | **83/602** |
+| Goodreads | *The Return of the King* | 4,59 | P87,87 | 69–78/602 | **4,58899** | P98,09 | **12/602** |
 | SensCritique | *La Communauté de l’Anneau* | 8,3 | P97,66 | 11–18/599 | **8,26692** | P99,42 | **4/599** |
 | SensCritique | *Les Deux Tours* | 8,3 | P97,66 | 11–18/599 | **8,26305** | P99,25 | **5/599** |
 | SensCritique | *Le Retour du Roi* | 8,6 | P99,50 | 3–4/599 | **8,51457** | P99,92 | **1/599** |
+
+**Correction du 27/09/2026** — l'entrée « ONE PIECE 116 » (Goodreads), qui était un chapitre de l'édition originale et non un tome relié, a été retirée du corpus : les rangs Goodreads ci-dessus sont donc exprimés sur **602** œuvres et non 603, et les paramètres du score robuste ont été réestimés. Le côté SensCritique est inchangé. Détail : `Note_retrait_One_Piece_116_2026-09-27.md`.
 
 Sur Goodreads, les trois volumes ont des échantillons si massifs que l’ajustement est quasi nul. Sur SensCritique, les 3 463 à 7 357 notes suffisent aussi à établir des scores très robustes ; *Le Retour du Roi* devient le n°1 robuste du corpus local SensCritique.
 

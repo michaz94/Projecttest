@@ -14,8 +14,11 @@ Ainsi, **P90 = note supérieure à environ 90 % du corpus local**, soit approxim
 
 | Plateforme | N noté | Manga | Cycles fantasy | Arthur fondateur | Worm |
 |---|---:|---:|---:|---:|---:|
-| Goodreads | 600 | 561 | 26 | 12 | 1 |
+| Goodreads | 599 | 560 | 26 | 12 | 1 |
 | SensCritique | 596 | 557 | 26 | 12 | 1 |
+
+**Correction du 27/09/2026** — retrait de l'entrée « ONE PIECE 116 » (Goodreads) : chapitre de l'édition originale, pas un tome relié, sans fiche SensCritique. La population Goodreads passe de 600 à 599 œuvres et la répartition passe de 561 à 560 mangas ; percentiles, rangs et bandes ont été recalculés. Détail : `Note_retrait_One_Piece_116_2026-09-27.md`.
+
 
 ## Seuils de note correspondant aux percentiles
 
@@ -27,11 +30,11 @@ Ainsi, **P90 = note supérieure à environ 90 % du corpus local**, soit approxim
 ## Extrêmes
 
 ### Goodreads — cinq premiers
-- ONE PIECE 103 解放の戦士 (One Piece) — 4,77, P99,92, rang 1/600
-- Words of Radiance (Stormlight Archive) — 4,76, P99,75, rang 2/600
-- 鋼の錬金術師 27 [Hagane no Renkinjutsushi 27] (Fullmetal Alchemist) — 4,75, P99,50, rang 3–4/600
-- ONE PIECE 104 ワノ国将軍 光月モモの助 (One Piece) — 4,75, P99,50, rang 3–4/600
-- One Piece, Volume 59: The Death of Portgaz D. Ace (One Piece) — 4,74, P99,17, rang 5–6/600
+- ONE PIECE 103 解放の戦士 (One Piece) — 4,77, P99,92, rang 1/599
+- Words of Radiance (Stormlight Archive) — 4,76, P99,75, rang 2/599
+- 鋼の錬金術師 27 [Hagane no Renkinjutsushi 27] (Fullmetal Alchemist) — 4,75, P99,50, rang 3–4/599
+- ONE PIECE 104 ワノ国将軍 光月モモの助 (One Piece) — 4,75, P99,50, rang 3–4/599
+- One Piece, Volume 59: The Death of Portgaz D. Ace (One Piece) — 4,74, P99,17, rang 5–6/599
 
 ### SensCritique — cinq premiers
 - Worm (Parahumans) — 9,70, P99,92, rang 1/596
@@ -51,7 +54,7 @@ Ainsi, **P90 = note supérieure à environ 90 % du corpus local**, soit approxim
 ## Livrables
 
 - `Percentiles_tous_corpus_principaux_2026-09-20.xlsx` : classeur filtrable avec feuilles Synthèse, Goodreads et SensCritique.
-- `percentiles_tous_corpus_principaux_2026-09-20.csv` : les 1 196 lignes exploitables.
+- `percentiles_tous_corpus_principaux_2026-09-20.csv` : les 1 195 lignes exploitables.
 - `percentiles_tous_corpus_principaux_2026-09-20.json` : données, méthode et statistiques structurées.
 
 Le classeur contient pour chaque tome/livre : note, nombre de notations, percentile, bande percentile, rang décroissant moyen, plage de rangs des ex æquo et proportion strictement mieux notée.
