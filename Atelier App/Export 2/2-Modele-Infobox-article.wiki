@@ -1,0 +1,84 @@
+{| class="infobox" style="float:right; clear:right; width:270px; margin:0 0 1em 1em; border:1px solid #a2a9b1; background:#f8f9fa; font-size:90%; line-height:1.5; border-spacing:3px;"
+|+ style="font-size:125%; font-weight:bold; padding:.3em;" | {{{titre|{{PAGENAME}}}}}
+{{#if:{{{image|}}}|
+{{!}}-
+{{!}} colspan="2" style="text-align:center;" {{!}} [[Fichier:{{{image}}}|250px]]{{#if:{{{légende|}}}|<br /><small>{{{légende}}}</small>}}
+}}
+|-
+! colspan="2" style="background:#eaecf0; text-align:center; padding:.2em;" | Informations
+{{#if:{{{type|}}}|
+{{!}}-
+! style="text-align:left; vertical-align:top; width:40%;" {{!}} Type
+{{!}} {{{type}}}
+}}{{#if:{{{origine|}}}|
+{{!}}-
+! style="text-align:left; vertical-align:top;" {{!}} Origine
+{{!}} {{{origine}}}
+}}{{#if:{{{créateur|}}}|
+{{!}}-
+! style="text-align:left; vertical-align:top;" {{!}} Créateur
+{{!}} {{{créateur}}}
+}}{{#if:{{{première|}}}|
+{{!}}-
+! style="text-align:left; vertical-align:top;" {{!}} Première apparition
+{{!}} {{{première}}}
+}}{{#if:{{{statut|}}}|
+{{!}}-
+! style="text-align:left; vertical-align:top;" {{!}} Statut
+{{!}} {{{statut}}}
+}}{{#if:{{{lié|}}}|
+{{!}}-
+! style="text-align:left; vertical-align:top;" {{!}} Lié à
+{{!}} {{{lié}}}
+}}
+|}<noinclude>
+== Documentation ==
+<!-- Cette partie n'apparaît que sur la page du modèle, pas dans les articles. -->
+Encadré d'informations générique pour les articles.
+
+'''À créer sous le nom :''' <code>Modèle:Infobox article</code>
+
+'''Prérequis :'''
+* Extension ''ParserFunctions'' (installée par défaut sur MediaWiki récent et sur Fandom) pour <code>#if</code>.
+* Sur un MediaWiki antérieur à 1.24, créer aussi <code>Modèle:!</code> contenant uniquement <code>|</code>.
+
+'''Utilisation :''' copier dans l'article et remplir les champs. Un champ vide est masqué.
+<pre>
+{{Infobox article
+| titre      =
+| image      =
+| légende    =
+| type       =
+| origine    =
+| créateur   =
+| première   =
+| statut     =
+| lié        =
+}}
+</pre>
+
+'''Paramètres :'''
+{| class="wikitable"
+! Paramètre !! Rôle
+|-
+| <code>titre</code> || Titre de l'encadré (par défaut : nom de la page)
+|-
+| <code>image</code> || Nom du fichier, sans « Fichier: »
+|-
+| <code>légende</code> || Texte sous l'image
+|-
+| <code>type</code> || Nature du sujet
+|-
+| <code>origine</code> || Œuvre / univers d'origine
+|-
+| <code>créateur</code> || Auteur ou créateur
+|-
+| <code>première</code> || Première apparition ou date
+|-
+| <code>statut</code> || Statut actuel
+|-
+| <code>lié</code> || Sujets liés (liens internes)
+|}
+
+[[Catégorie:Modèles d'infobox]]
+</noinclude>

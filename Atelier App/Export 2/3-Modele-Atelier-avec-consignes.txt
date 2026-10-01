@@ -1,0 +1,73 @@
+@infobox {"sections": [{"title": "Informations", "fields": [["Type", "À compléter"], ["Origine", "À compléter"], ["Créateur", "À compléter"], ["Première apparition", "À compléter"], ["Statut", "À compléter"], ["Lié à", "À compléter"]]}]}
+
+> 💡 Consigne : Fiche (infobox) : remplace chaque « À compléter » dans l'onglet Visuel (touche la fiche pour la modifier), ou supprime toute la ligne `@infobox` si tu n'en veux pas. Pense aussi à choisir la catégorie de la page (Personnages, Lieux…) dans l'éditeur : elle remplace les `[[Catégorie:]]` de MediaWiki.
+
+**Nom du sujet** est *À compléter*.
+
+> 💡 Consigne : Introduction, sans titre : 1 à 3 phrases, nom du sujet en gras au début. Dis ce qu'est le sujet et pourquoi il compte. Le sommaire se crée tout seul à partir des titres `##` et `###`.
+
+## Présentation
+
+> 💡 Consigne : Vue d'ensemble : ce qu'est le sujet et ses caractéristiques principales, en quelques paragraphes.
+
+*À compléter*
+
+## Histoire
+
+> 💡 Consigne : Origine et évolution du sujet, dans l'ordre chronologique. Garde, ajoute ou supprime des sous-sections `###` selon la longueur.
+
+### Origines
+
+> 💡 Consigne : Comment et quand le sujet est apparu.
+
+*À compléter*
+
+### Évolution
+
+> 💡 Consigne : Les changements marquants ensuite.
+
+*À compléter*
+
+## Caractéristiques
+
+> 💡 Consigne : Détails concrets : apparence, fonctionnement, règles, capacités… selon le type de sujet. Une liste à tirets (`- Point`) est possible.
+
+*À compléter*
+
+## Influences et inspirations
+
+> 💡 Consigne : Ce qui a inspiré le sujet, ou ce qu'il a inspiré. Chaque fait vérifiable reçoit un appel de note `[^1]` dans le texte, puis sa source dans « Références ».
+
+*À compléter*
+
+## Anecdotes
+
+> 💡 Consigne : Faits secondaires, un par tiret, sourcés si possible.
+
+- *À compléter*
+
+## Galerie
+
+> 💡 Consigne : Une image par bloc, séparées par une ligne vide : `![Légende](adresse de l'image)`. Tu peux aussi passer par le bouton + de l'éditeur.
+
+*À compléter*
+
+## Voir aussi
+
+> 💡 Consigne : Liens vers d'autres pages de ton wiki : `[[Titre de la page]]` ou `[[Titre|texte affiché]]`. Un lien vers une page qui n'existe pas encore apparaît comme « page à créer ».
+
+- [[À compléter]]
+
+## Références
+
+> 💡 Consigne : Une ligne par source, numérotée comme l'appel de note : `[^1]: [Titre de la source](https://adresse)`. Les lignes de notes doivent se suivre, sans ligne vide entre elles.
+
+[^1]: *À compléter*
+
+## Liens externes
+
+> 💡 Consigne : Liens vers des sites extérieurs : `- [Texte du lien](https://adresse)`.
+
+- *À compléter*
+
+> 💡 Consigne : Quand la page est remplie, supprime toutes les lignes « 💡 Consigne » : dans l'Atelier elles restent visibles.

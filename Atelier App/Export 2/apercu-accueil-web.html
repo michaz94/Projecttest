@@ -1,0 +1,241 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aperçu web — Accueil d'un univers (Fandom)</title><style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Rubik,"Segoe UI",system-ui,sans-serif}
+.demo{position:sticky;top:0;z-index:9;display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:8px 10px;background:#171310;border-bottom:1px solid #2b241b}
+.demo b{color:#f3eadf;font-size:13px;margin-right:4px}
+.demo button{background:#201a14;border:1px solid #2b241b;color:#a89a89;border-radius:8px;padding:7px 10px;font-size:12.5px;font-family:inherit}
+.demo button[aria-selected="true"]{background:#eebf4d;color:#141519;border-color:#eebf4d;font-weight:700}
+.pane{padding:0 0 60px}
+.hint{color:#a89a89;font-size:12.5px;line-height:1.55;margin:10px 0}
+pre.src{background:#101116;border:1px solid #2b241b;border-radius:8px;padding:10px 12px;color:#cfe3ff;font:12px/1.6 ui-monospace,Consolas,monospace;white-space:pre-wrap;word-break:break-word;margin:8px 0}
+.note{background:#20222b;border-left:3px solid #eebf4d;border-radius:4px;padding:9px 12px;font-size:12.5px;color:#e6e6e6;margin:10px 0}
+.note.blue{border-left-color:#4da3ff}
+table.d{width:100%;border-collapse:collapse;font-size:12.5px;color:#e6e6e6;margin:8px 0}
+table.d th{color:#eebf4d;text-align:left;border-bottom:1px solid #444;padding:5px 7px;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em}
+table.d td{border-bottom:1px solid #26221b;padding:5px 7px;vertical-align:top}
+.atc{border:1px dashed #4a3d24;border-radius:8px;padding:10px 12px;color:#a89a89;font-size:13.5px;margin:8px 0;background:rgba(238,191,77,.04)}
+.atc b{color:#eebf4d}
+/* chrome mobile */
+body.mob{background:#0e191a;color:#e6e6e6}
+.fbar{background:#000;padding:10px 12px;display:flex;align-items:center;gap:12px}
+.fbar .logo{color:#fff;font-weight:700;font-size:20px}.fbar .logo i{color:#ff4d00;font-style:normal}
+.wbar{background:#1e5b1e;color:#fff;padding:12px 14px;font-weight:700;letter-spacing:.06em;display:flex;justify-content:space-between}
+.cwrap{padding:14px 16px 30px}
+/* chrome web */
+body.web{background:#3a3f47}
+.gnav{background:#1e0e08;color:#fff;display:flex;align-items:center;gap:18px;padding:8px 16px;font-size:12.5px}
+.gnav .logo{font-weight:700;font-size:18px}.gnav .logo i{color:#ff4d00;font-style:normal}
+.chead{height:110px;background:linear-gradient(180deg,#7a4a1e,#4c2c10 60%,#3a3f47);display:flex;align-items:flex-end;padding:0 22px 10px}
+.chead .logo2{background:#fff;color:#1e0e08;font-weight:700;border-radius:6px;padding:6px 12px;font-size:16px}
+.pagewrap{max-width:1010px;margin:0 auto;padding:0 0 60px}
+.page{background:#fff;color:#3a3a3a;border-radius:6px;margin-top:14px;padding:22px 26px}
+body.web .hint{color:#666}
+body.web h1.cat{color:#1e0e08}
+h1.cat{font-size:24px;line-height:1.25;margin:4px 0 2px;color:#fff;font-weight:700}
+.catmeta{color:#8fa3a3;font-size:12px;margin-bottom:10px}
+body.web .catmeta{color:#777;border-bottom:1px solid #e5e5e5;padding-bottom:10px}
+/* main page : 2 colonnes réelles (column tags) */
+.mp{display:flex;gap:18px}
+.mp-left{flex:1;min-width:0}
+.mp-right{flex:0 0 300px}
+body.mob .mp{display:block}
+.box{border:1px solid #dcdcdc;border-radius:6px;margin:0 0 14px;overflow:hidden}
+body.mob .box{border-color:#2e4646;background:rgba(255,255,255,.02)}
+body.web .box h3{background:#1e0e08;color:#fff}
+.box h3{margin:0;padding:8px 12px;font-size:13px;letter-spacing:.05em;text-transform:uppercase}
+.box .bd{padding:10px 12px;font-size:14px;line-height:1.8}
+a.l{color:#00cdd0;text-decoration:underline}
+body.web a.l{color:#0e75c4;text-decoration:none}
+body.web a.l:hover{text-decoration:underline}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:rgba(0,205,208,.12);border:1px solid rgba(0,205,208,.4);color:#00cdd0;border-radius:14px;padding:3px 11px;font-size:13px;text-decoration:none}
+body.web .chip{background:#eef6fc;border-color:#bcd9ee;color:#0e75c4}
+.stats{display:flex;gap:10px}
+.stat{flex:1;border:1px solid #dcdcdc;border-radius:6px;padding:10px;text-align:center}
+body.mob .stat{border-color:#2e4646}
+.stat b{display:block;font-size:20px;color:#eebf4d}
+body.web .stat b{color:#1e0e08}
+.stat span{font-size:11px;color:#8fa3a3}
+body.web .stat span{color:#777}
+</style></head>
+<body class="web">
+<div class="gnav"><span class="logo">Fand<i>o</i>m</span><span>Explorer ▾</span><span>Portail communautaire ▾</span><span style="margin-left:auto">🔍 👤</span></div>
+<div class="chead"><span class="logo2">MON WIKI</span></div>
+
+<div class="demo" role="tablist"><b>Aperçu web</b>
+<button role="tab" aria-selected="true" data-p="lire">Lire</button>
+<button role="tab" aria-selected="false" data-p="wiki">Wikicode</button>
+<button role="tab" aria-selected="false" data-p="cats">→ Catégories</button>
+<button role="tab" aria-selected="false" data-p="listes">→ Pages-listes</button>
+<button role="tab" aria-selected="false" data-p="mobile">Mobile</button>
+<button role="tab" aria-selected="false" data-p="css">CSS &amp; crédits</button></div>
+
+<div class="pane" id="p-lire"><div class="pagewrap"><div class="page">
+<h1 class="cat">MON WIKI — accueil de l'univers</h1>
+<div class="catmeta">Page principale façon Fandom · contenu « À compléter » — rien d'inventé</div>
+<div class="atc"><b>À compléter</b> — l'introduction de l'univers (1-2 phrases), comme <i>« The following is the entire cast… »</i> chez FMA.</div>
+<div class="mp">
+ <div class="mp-left">
+  <div class="box"><h3>Explorer</h3><div class="bd"><div class="chips"><a class="chip" href="#" title="[:Catégorie:Personnages|Personnages]">Personnages</a><a class="chip" href="#" title="[:Catégorie:Lieux|Lieux]">Lieux</a><a class="chip" href="#" title="[:Catégorie:Factions|Factions]">Factions</a><a class="chip" href="#" title="[:Catégorie:Artefacts|Artefacts]">Artefacts</a><a class="chip" href="#" title="[:Catégorie:Événements|Événements]">Événements</a><a class="chip" href="#" title="[:Catégorie:Concepts|Concepts]">Concepts</a></div>
+  <p class="hint" style="margin:8px 0 0">Ces liens mènent aux <b>pages catégories</b> (système 1 : description « À compléter » + index automatique vide — onglet → Catégories).</p></div></div>
+  <div class="box"><h3>Pages-listes</h3><div class="bd">
+   <a class="l" href="#">Liste des personnages</a> — À compléter<br>
+   <a class="l" href="#">Liste des lieux</a> — À compléter
+   <p class="hint" style="margin:8px 0 0">De <b>vraies pages articles</b> remplies à la main (système 2, façon « List of characters » — onglet → Pages-listes).</p></div></div>
+ </div>
+ <div class="mp-right">
+  <div class="stats"><div class="stat"><b>0</b><span>articles</span></div><div class="stat"><b>0</b><span>images</span></div></div>
+  <div class="box"><h3>Le saviez-vous ?</h3><div class="bd"><div class="atc" style="margin:0"><b>À compléter</b></div></div></div>
+  <div class="box"><h3>Activité récente</h3><div class="bd"><span style="color:#8fa3a3">Rien pour l'instant.</span></div></div>
+ </div>
+</div>
+<div style="clear:both"></div>
+<div class="note">Structure réelle des main pages Fandom : <b>column tags</b> (gauche fluide + droite 300px), <code>__NOTOC__ __NOEDITSECTION__</code>, et le vrai réflexe des wikis : le contenu vit dans des <b>transclusions Modèle</b> — voir l'onglet Wikicode (page principale réelle de HxH FR).</div>
+</div></div></div>
+
+<div class="pane" id="p-wiki" hidden><div class="pagewrap"><div class="page">
+<h1 class="cat" style="font-size:22px">Le wikicode — réel, puis squelette à remplir</h1>
+<p class="hint"><b>1. La page principale réelle du wiki Hunter × Hunter FR</b> — code intégral (1,6 Ko), auteur de la dernière modification : Gorgo616 (2019) · CC BY-SA. À lire : elle ne contient presque rien — le squelette en <b>column tags</b>, <code>__NOTOC__ __NOEDITSECTION__</code>, et surtout <b>deux transclusions</b> <code>&#123;&#123;ContenuCentre&#125;&#125;</code> / <code>&#123;&#123;ContenuDroite&#125;&#125;</code> : le vrai contenu vit dans deux pages Modèle, pour ne pas casser l'accueil en le modifiant.</p>
+<pre class="src">&lt;!-- 
+--------------------------------------------
+Bienvenue sur la page principale de ce wiki!
+--------------------------------------------
+
+Pour des conseils sur édition de la page principale de ce wiki, visitez "http://aide.wikia.com/wiki/Aide:Page principale".
+
+Commentaires cachés:
+   Les sections contenues entre les marques "&lt;!––" et "––&gt;", comme cette section, sont des commentaires cachés. Ils ne seront pas visibles quand la page sera publiée.
+
+Balises colonne:
+   Nous vous recommandons fortement de ne pas enlever les balises &lt;mainpage-column-start /&gt; - these keep your page format safe from unexpected breaks. Voir "http://aide.wikia.com/wiki/Aide:Balise colonne de l'accueil" pour plus d'info.
+
+Protection:
+   Wikia policy advises against the protection of this page unless it is the active target of vandalism. Visitez "http://aide.wikia.com/wiki/Aide:Protection" pour plus d'info.
+
+Rappelez vous que vous pouvez trouver une large selection de pages d'aide sur http://aide.wikia.com!
+
+
+---------------------------------------------------------------------------
+Ci-dessous se trouve le code de conception de la page d'accueil. Editez-le!
+---------------------------------------------------------------------------
+
+&lt;mainpage-leftcolumn-start /&gt;
+--&gt;__NOTOC__ __NOEDITSECTION__
+&lt;mainpage-leftcolumn-start /&gt;
+{{ContenuCentre}}
+&lt;mainpage-endcolumn /&gt;
+
+&lt;mainpage-rightcolumn-start /&gt;
+{{ContenuDroite}}
+&lt;mainpage-endcolumn /&gt;
+
+&lt;!-- Interlanguage/Interwiki links --&gt;
+[[ar:]]
+[[de:]]
+[[en:]]
+[[es:]]
+[[id:]]
+[[it:]]
+[[ja:]]
+[[ko:]]
+[[ms:]]
+[[pl:]]
+[[pt:]]
+[[ru:]]
+[[tr:]]
+[[zh:]]
+[[Catégorie:Tout| ]]</pre>
+<p class="hint"><b>2. La syntaxe officielle des column tags</b> (Help:Main page column tags, auteur Mr. Starfleet Command, 2025 · CC BY-SA) : colonne gauche fluide, colonne droite de 300px, <code>&lt;div style="clear: both;"&gt;&lt;/div&gt;</code> pour repasser pleine largeur.</p>
+<pre class="src">&lt;mainpage-leftcolumn-start /&gt;
+   content in the left column
+&lt;mainpage-endcolumn /&gt;
+
+&lt;mainpage-rightcolumn-start /&gt;
+   content in the right column
+&lt;mainpage-endcolumn /&gt;</pre>
+<p class="hint"><b>3. Le squelette prêt pour ton univers</b> — structure seule, tout le contenu est « À compléter » (règle : je n'écris pas tes textes). Le deux-points de <code>[[:Catégorie:X]]</code> est le vrai mécanisme (lier une catégorie sans y taguer la page).</p>
+<pre class="src">&lt;mainpage-leftcolumn-start /&gt;
+__NOTOC__ __NOEDITSECTION__
+
+&lt;!-- Introduction de l'univers : À COMPLÉTER --&gt;
+== [Nom de l'univers] ==
+À compléter — 1 ou 2 phrases de présentation.
+
+== Explorer ==
+[[:Catégorie:Personnages|Personnages]] · [[:Catégorie:Lieux|Lieux]] · [[:Catégorie:Factions|Factions]] ·
+[[:Catégorie:Artefacts|Artefacts]] · [[:Catégorie:Événements|Événements]] · [[:Catégorie:Concepts|Concepts]]
+
+== Pages-listes ==
+[[Liste des personnages]] — À compléter
+[[Liste des lieux]] — À compléter
+
+&lt;mainpage-endcolumn /&gt;
+
+&lt;mainpage-rightcolumn-start /&gt;
+== Le saviez-vous ? ==
+À compléter
+
+== Activité récente ==
+À compléter
+
+&lt;mainpage-endcolumn /&gt;
+&lt;div style="clear: both;"&gt;&lt;/div&gt;</pre>
+</div></div></div>
+
+<div class="pane" id="p-cats" hidden><div class="pagewrap"><div class="page">
+<h1 class="cat" style="font-size:22px">Système 1 — la page catégorie</h1>
+<p class="hint">Où mènent les puces « Explorer » de l'accueil. La page catégorie n'a que sa <b>zone descriptive</b> en wikicode ; l'index est généré par le logiciel. Ici, tout est « À compléter » car l'univers est vide.</p>
+<div class="box"><h3>Catégorie:Personnages</h3><div class="bd">
+<div class="atc"><b>À compléter</b> — la description de la catégorie (1-2 phrases), comme chez Hunterpedia : « Characters in the series… ».</div>
+<b>Toutes les pages (0)</b><br>
+<span style="color:#8fa3a3;font-size:12.5px">L'index s'affichera tout seul ici dès qu'un article porte <code>[[Catégorie:Personnages]]</code> — lettres A→Z, sous-catégories en haut.</span>
+</div></div>
+<table class="d"><tr><th>Ce que la vraie catégorie a</th><th>Reçu ici</th></tr>
+<tr><td>Description éditable (wikicode)</td><td>zone « À compléter »</td></tr>
+<tr><td>Index auto des pages + sous-catégories</td><td>index vide (0 membre)</td></tr>
+<tr><td>Comptes (pages / sous-cats)</td><td>0 / 0</td></tr>
+<tr><td>Existe sans sa page (tag seul)</td><td>rappel : le tag marche sans la page</td></tr></table>
+<div class="note blue">Déjà vu en détail dans <b>apercu-categorie-mobile/web.html</b> (codes réels Hunterpedia/One Piece, 389 pages indexées chez HxH FR). Ici : la même chose, version vide pour ton univers.</div>
+</div></div></div>
+
+<div class="pane" id="p-listes" hidden><div class="pagewrap"><div class="page">
+<h1 class="cat" style="font-size:22px">Système 2 — la page-liste manuelle</h1>
+<p class="hint">Les liens « Liste des personnages » de l'accueil mènent à une <b>vraie page article</b> que tu remplis à la main — pas un index automatique. Le modèle des deux wikis étudiés :</p>
+<table class="d"><tr><th></th><th>Hunterpedia</th><th>FMA</th></tr>
+<tr><td>Structure</td><td>modèles-galeries par groupe</td><td>&lt;tabber&gt; + tableaux + <code>&#123;&#123;Char&#125;&#125;</code></td></tr>
+<tr><td>Apparence</td><td>vignettes par faction</td><td>cases rouges 164px, onglets par famille</td></tr>
+<tr><td>Remplissage</td><td colspan="2">manuel, chez les deux</td></tr></table>
+<div class="atc"><b>À compléter</b> — ta future « Liste des personnages » : tableaux de liens vers tes fiches (l'Atelier sait déjà rendre les tableaux markdown depuis le tour 111).</div>
+<div class="note">Les deux systèmes se complètent : chez Hunterpedia, la page-liste est <b>taguée</b> dans la catégorie « Characters » — la catégorie compte la liste parmi ses membres, l'accueil peut pointer vers les deux.</div>
+<div class="note blue">Codes réels complets dans <b>apercu-liste-mobile/web.html</b> (FMA : 12,4 Ko, 214 <code>&#123;&#123;Char&#125;&#125;</code>) et dans <b>work/page-categorie/</b>.</div>
+</div></div></div>
+
+<div class="pane" id="p-mobile" hidden><div class="pagewrap"><div class="page">
+<h1 class="cat" style="font-size:22px">Mobile ≠ web : la MMP est dépréciée</h1>
+<div class="note">Fait officiel (Help:Mobile Main Page, auteur NoPartyThisTime, dernière modification 22/07/2026 · CC BY-SA) : <b>« The Mobile Main Page has been deprecated »</b>. La page d'accueil personnalisée du web ne s'affiche PAS sur mobile.</div>
+<p class="hint">Ce que voient les lecteurs mobiles à la place, d'après la même page d'aide :</p>
+<table class="d"><tr><th>Sur mobile</th><th>Vient de</th></tr>
+<tr><td>Statistiques du wiki</td><td>automatique</td></tr>
+<tr><td>Description du wiki</td><td>la page <code>MediaWiki:Wiki-description-site-meta</code></td></tr>
+<tr><td>Articles en tendance</td><td>automatique (vues)</td></tr>
+<tr><td>Catégories en tendance</td><td>automatique</td></tr>
+<tr><td>Catégories « à la une » (app Fandom)</td><td>l'ancien outil MMP, encore servi dans l'app</td></tr></table>
+<div class="atc"><b>À compléter</b> — la description de ton wiki (1-2 phrases) ira dans <code>MediaWiki:Wiki-description-site-meta</code>.</div>
+<p class="hint">Pour tester le vrai rendu mobile d'une page d'accueil, la doc donne l'astuce : ajouter <code>?useskin=fandommobile</code> à l'URL.</p>
+</div></div></div>
+
+<div class="pane" id="p-css" hidden><div class="pagewrap"><div class="page">
+<h1 class="cat" style="font-size:22px">CSS &amp; crédits</h1>
+<table class="d"><tr><th>Élément</th><th>Statut</th></tr>
+<tr><td>Page principale réelle de HxH FR (wikicode intégral)</td><td><b>Réel</b> — API, Gorgo616 (2019)</td></tr>
+<tr><td>Syntaxe des column tags</td><td><b>Réelle</b> — Help:Main page column tags, Mr. Starfleet Command (2025)</td></tr>
+<tr><td>État de la Mobile Main Page (dépréciée)</td><td><b>Réel</b> — Help:Mobile Main Page, NoPartyThisTime (22/07/2026)</td></tr>
+<tr><td>Contenu de l'univers de démonstration</td><td><b>« À compléter »</b> — règle : rien d'inventé, les textes seront dictés</td></tr>
+<tr><td>Chrome et mise en page (bannière, boîtes, 2 colonnes)</td><td><b>Reconstitués</b> — mêmes réserves que les aperçus précédents ; structure réelle, habillage approximé</td></tr></table>
+<p class="hint">Contenus : Fandom (pages d'aide) et Wiki Hunter × Hunter FR — CC BY-SA, auteurs cités. Relevés du 26/09/2026. Sources archivées : <code>work/page-accueil/</code>.</p>
+</div></div></div>
+<script>
+document.querySelectorAll('.demo button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.demo button').forEach(x=>x.setAttribute('aria-selected',x===b));document.querySelectorAll('.pane').forEach(p=>p.hidden=p.id!=='p-'+b.dataset.p);window.scrollTo(0,0);}));
+</script></body></html>

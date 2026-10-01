@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Modèle d'article — aperçu MediaWiki</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f6f6f6;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:#202122}
+a{color:#3366cc;text-decoration:none}a:hover{text-decoration:underline}
+a.new{color:#d73333}
+header.top{background:#fff;border-bottom:1px solid #a2a9b1;padding:10px 16px;display:flex;align-items:center;gap:12px}
+.logo{width:40px;height:40px;border-radius:50%;background:#eaecf0;display:grid;place-items:center;font:700 18px Georgia,serif;color:#54595d}
+.site{font:600 15px/1.2 Georgia,serif}.site small{display:block;font:12px sans-serif;color:#54595d}
+.wrap{max-width:1000px;margin:0 auto;background:#fff;border:1px solid #a7d7f9;border-top:0;min-height:100vh}
+.tabs{display:flex;gap:2px;padding:10px 16px 0;border-bottom:1px solid #a7d7f9;background:linear-gradient(#fff,#f3f8fd);flex-wrap:wrap}
+.tabs button{border:1px solid #a7d7f9;border-bottom:0;background:#fff;padding:6px 12px;font-size:13px;color:#3366cc;cursor:pointer;border-radius:2px 2px 0 0}
+.tabs button[aria-selected=true]{color:#202122;font-weight:600;position:relative;top:1px}
+.tabs .sp{flex:1}
+.tabs label{font-size:13px;display:flex;align-items:center;gap:6px;padding-bottom:6px;color:#54595d}
+main{padding:16px 24px 32px}
+h1{font:400 1.9em/1.3 "Linux Libertine",Georgia,Times,serif;border-bottom:1px solid #a2a9b1;margin:0 0 .25em;padding-bottom:2px}
+.sub{font-size:13px;color:#54595d;margin-bottom:1em}
+h2{font:400 1.5em/1.3 "Linux Libertine",Georgia,Times,serif;border-bottom:1px solid #a2a9b1;margin:1em 0 .25em;padding-bottom:2px;overflow:hidden}
+h3{font-size:1.2em;font-weight:700;margin:.8em 0 .2em}
+.edit{font:13px sans-serif;color:#54595d;margin-left:8px;white-space:nowrap}
+.edit a{font-weight:400}
+p,li{font-size:15px;line-height:1.6}
+.todo{font-style:italic;color:#72777d}
+.note{display:none;border-left:3px solid #fc3;background:#fef6e7;padding:6px 10px;font-size:13px;color:#54595d;margin:.4em 0;line-height:1.5}
+body.show-notes .note{display:block}
+.infobox{float:right;clear:right;width:270px;margin:0 0 1em 1.4em;border:1px solid #a2a9b1;background:#f8f9fa;font-size:13.5px;line-height:1.5;border-spacing:3px}
+.infobox caption{font-size:125%;font-weight:700;padding:.3em}
+.infobox .img{height:150px;background:#eaecf0;display:grid;place-items:center;color:#72777d;font-size:12px;text-align:center}
+.infobox th{text-align:left;vertical-align:top;width:40%;padding:2px 4px}
+.infobox td{padding:2px 4px}
+.infobox .hd{background:#eaecf0;text-align:center}
+#toc{display:inline-block;border:1px solid #a2a9b1;background:#f8f9fa;padding:7px 12px 7px 8px;font-size:14px;margin:.5em 0 1em}
+#toc .t{text-align:center;font-weight:700;margin-bottom:4px}
+#toc .t .edit{font-weight:400}
+#toc ul{list-style:none;margin:0;padding-left:0}
+#toc ul ul{padding-left:1.6em}
+#toc li{line-height:1.6;font-size:14px}
+#toc .n{color:#202122;padding-right:.5em}
+#toc.closed ul{display:none}
+.gallery{display:flex;gap:10px;flex-wrap:wrap}
+.gallery div{width:130px;height:130px;border:1px solid #c8ccd1;background:#f8f9fa;display:grid;place-items:center;color:#72777d;font-size:12px}
+.refs{font-size:13px;color:#54595d}
+.catlinks{clear:both;border:1px solid #a2a9b1;background:#f8f9fa;padding:6px 10px;margin-top:24px;font-size:13px}
+pre.src{white-space:pre-wrap;word-break:break-word;background:#f8f9fa;border:1px solid #c8ccd1;padding:12px;font:13px/1.5 Menlo,Consolas,monospace;max-height:none}
+.bar{display:flex;gap:8px;margin-bottom:8px;align-items:center;flex-wrap:wrap}
+.bar button{background:#3366cc;color:#fff;border:0;border-radius:2px;padding:7px 12px;font-size:13px;cursor:pointer}
+.bar span{font-size:13px;color:#14866d}
+[hidden]{display:none!important}
+@media (max-width:720px){
+ main{padding:12px 14px 28px}
+ .infobox{float:none;width:100%;margin:0 0 1em}
+ h1{font-size:1.6em}
+}
+/* [TOUR 110] Article détaillé — MediaWiki:Common.css de fr.wikipedia.org (extrait exact, CC BY-SA 4.0) */
+.bandeau-section{border-style:solid;overflow:hidden;position:relative}
+div.bandeau-section{display:block;font-size:0.95em;border-width:1px 0;padding:0.2em 0.5em 0.3em 0;margin:0.3em 0 0.7em 2em}
+.bandeau-cell{display:table-cell;vertical-align:middle}
+.bandeau-cell > p:first-child{margin-top:0}
+.bandeau-cell > p:last-child{margin-bottom:0}
+.bandeau-niveau-information{border-color:#77ccff;background-color:#fbfbfb}
+.bandeau-niveau-detail,.bandeau-section.bandeau-niveau-information{border-color:#e7e7e7;background-color:#fdfdfd}
+.loupe{background-repeat:no-repeat;line-height:1.5em;text-indent:23px;display:inline-block}
+.loupe{background-image:url("//upload.wikimedia.org/wikipedia/commons/6/61/Searchtool.svg");background-size:15px;background-position:2px 3px}
+/* Aperçu hors ligne : même icône Searchtool.svg (David Vignoni, Ysangkok — LGPL), intégrée */
+.loupe{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+DQogPGRlZnM+DQogIDxyYWRpYWxHcmFkaWVudCBpZD0icmcxIiBjeT0iMTkuOTIzIiBjeD0iOTIuOTU3IiByPSIxNzYuNTQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIG9mZnNldD0iMCIvPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iIzk0Y2FmZiIgb2Zmc2V0PSIwLjQ1Ii8+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjYzllNmZmIiBvZmZzZXQ9IjAuNiIvPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgb2Zmc2V0PSIxIi8+DQogIDwvcmFkaWFsR3JhZGllbnQ+DQogIDxyYWRpYWxHcmFkaWVudCBpZD0icmcyIiBjeT0iMjAuMDU3IiBjeD0iOTIuNjMzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC43MDcxLDAuNzA3MSwwLjcwNzEsMC43MDcxLDE0OC44OCwtMzcuMjE0KSIgcj0iMTc2LjU0Ij4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiMwMDM1ZWQiIG9mZnNldD0iMCIvPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iIzk0Y2FmZiIgb2Zmc2V0PSIwLjU2NzQiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNjOWU2ZmYiIG9mZnNldD0iMC43MDc5Ii8+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjMDM0Y2ZlIiBvZmZzZXQ9IjEiLz4NCiAgPC9yYWRpYWxHcmFkaWVudD4NCiAgPGxpbmVhckdyYWRpZW50IGlkPSJsZzEiIHkyPSI5OC40MTIiIHgyPSIxNjkuMDkiIHkxPSI5OC40MTIiIHgxPSIyNy43MzYiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIG9mZnNldD0iMCIvPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iIzQ5NDk0OSIgb2Zmc2V0PSIxIi8+DQogIDwvbGluZWFyR3JhZGllbnQ+DQogIDxsaW5lYXJHcmFkaWVudCBpZD0ibGcyIiB5Mj0iMTQ5LjkyIiB4Mj0iMTI0LjU4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMC43MDcxLDAuNzA3MSwwLjU4MjYsMC41ODI2LDE2OS41MywtMTYuNTYxKSIgeTE9IjE0OS45MiIgeDE9IjEzNC44MiI+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjYjJiMmIyIiBvZmZzZXQ9IjAiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIG9mZnNldD0iMSIvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImxnMyIgeTI9IjIxMC45NyIgeDI9IjEzMS41OSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoLTAuNzA3MSwwLjcwNzEsMC43MDcxLDAuNzA3MSwxNDguODgsLTM3LjIxNCkiIHkxPSItNC4wMjY5IiB4MT0iMTMxLjU5Ij4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNkYWRhZGEiIG9mZnNldD0iMCIvPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iIzk0OTQ5NCIgb2Zmc2V0PSIwLjYxMjQiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNkYWRhZGEiIG9mZnNldD0iMSIvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImxnNCIgeTI9IjE2NC4wOSIgeDI9IjE2NC4wOSIgeTE9IjE4Mi4xNCIgeDE9IjE4Mi4xNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iI2ZmZDcwMCIgb2Zmc2V0PSIwIi8+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjZmZmIiBvZmZzZXQ9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPGxpbmVhckdyYWRpZW50IGlkPSJsZzUiIHkyPSIyMTAuNDEiIHgyPSI2NC4xMTQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0ibWF0cml4KC0xLjIyNDMsLTAuMTI4OCwwLjEyODgsMS4yMjQzLDI0My4wNSwtNDAuOTEyKSIgeTE9IjE5NC44MiIgeDE9IjQ4LjUyNyI+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjZmY2IiBvZmZzZXQ9IjAiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZjZkMDAiIG9mZnNldD0iMSIvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImxnNiIgeTI9IjIxMS44NSIgeDI9IjY5LjYwNyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgtMSwwLDAsMSwyNTgsMCkiIHkxPSIxOTAuMjEiIHgxPSI0Ny45NjUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmM5NTciIG9mZnNldD0iMCIvPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iI2ZmNmQwMCIgb2Zmc2V0PSIxIi8+DQogIDwvbGluZWFyR3JhZGllbnQ+DQogIDxsaW5lYXJHcmFkaWVudCBpZD0ibGc3IiB5Mj0iOTkuMTA0IiB4Mj0iMTgxLjAzIiB5MT0iOTkuMTA0IiB4MT0iMTcuMTY5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjYTJhMmEyIiBvZmZzZXQ9IjAiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiM0OTQ5NDkiIG9mZnNldD0iMSIvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KICA8bGluZWFyR3JhZGllbnQgaWQ9ImxnOCIgeTI9IjE0OS40NSIgeDI9IjE5Ni43MSIgeTE9IjI0OC43MiIgeDE9IjE5Ni43MSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iIzdjMDAwMCIgb2Zmc2V0PSIwIi8+DQogICA8c3RvcCBzdG9wLWNvbG9yPSIjY2YwMDAwIiBvZmZzZXQ9IjEiLz4NCiAgPC9saW5lYXJHcmFkaWVudD4NCiAgPGxpbmVhckdyYWRpZW50IGlkPSJsZzkiIHkyPSI5OS4wOTgiIHgyPSIxODMuMDMiIHkxPSI5OS4wOTgiIHgxPSIxNS4xNjgiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiM0OTQ5NDkiIG9mZnNldD0iMCIvPg0KICAgPHN0b3Agc3RvcC1jb2xvcj0iIzYxNjE2MSIgb2Zmc2V0PSIwLjUiLz4NCiAgIDxzdG9wIHN0b3AtY29sb3I9IiMwMDAiIG9mZnNldD0iMSIvPg0KICA8L2xpbmVhckdyYWRpZW50Pg0KIDwvZGVmcz4NCiA8cGF0aCBmaWxsPSJ1cmwoI2xnOSkiIGQ9Im0zOS41MjEsMzkuNTIxLDAsMGMtMzIuNDcxLDMyLjQ3Mi0zMi40NzEsODUuMzA5LDAsMTE3Ljc4LDE0LjEwNSwxNC4xMSwzMi44MDEsMjIuNjksNTIuNjQ1LDI0LjE2LDE5LjIwNCwxLjQyLDM4LjMwNC0zLjkyLDU0LjAyNC0xNC45OSwxLjk5LDEuOTgsMTMuODksMTMuODgsMTMuODksMTMuODgsNC4zNiw0LjM2LDEyLjAxLDMuMjksMTcuNzgtMi40OSwzLjQtMy4zOSw1LjE3LTcuNDMsNS4xNy0xMS4wNywwLTIuNTUtMC44OC00LjkxLTIuNjgtNi43MSwwLDAtMTEuOS0xMS45LTEzLjg4LTEzLjg5LDkuODktMTQuMDQsMTUuMjItMzAuNzgsMTUuMjItNDcuODgsMC0yLjA0NS0wLjEtNC4wOTUtMC4yMy02LjE0Ni0xLjQ3LTE5Ljg0Mi0xMC4wNS0zOC41MzgtMjQuMTYtNTIuNjQ0LTMyLjQ3LTMyLjQ2OS04NS4zMDYtMzIuNDY5LTExNy43OCwwLjAwMXoiLz4NCiA8cGF0aCBmaWxsPSJ1cmwoI2xnOCkiIGQ9Im0xNjAuMTgsMTYwLjE5Yy00Ljk1LDQuOTUtNy42LDExLTcuNiwxNi4zNiwwLDMuMTQsMC45MSw2LjA1LDIuODIsOC4zNmwwLjEsMC4xdjAuMTVsNTIuMTMsNTIuMTNjNi4wMyw2LjAzLDE3LjI3LDQuMjUsMjUuNTctNC4wNSw4LjMtOC4zMSwxMC4wOC0xOS41NCw0LjA1LTI1LjU3bC01Mi4xOS01Mi4xOWgtMC4xMmMtNi4yMi01LjE4LTE2Ljg3LTMuMTQtMjQuNzcsNC43NnoiLz4NCiA8cGF0aCBmaWxsPSJ1cmwoI2xnNykiIGQ9Ik00Mi4zNSw0Mi4zNWMtMTQuOTUsMTQuOTUxLTIzLjE4MywzNC44NjEtMjMuMTgzLDU2LjA2MiwwLDIxLjE5OCw4LjIzMyw0MS4xMDgsMjMuMTgzLDU2LjA1OCwxMy40MjksMTMuNDMsMzEuMjI1LDIxLjYsNTAuMTEyLDIzLDE4LjgyOCwxLjQsMzcuNTc4LTQsNTIuNzk4LTE1LjE5bDEuMzgtMS4wMiwxNi4yNywxNi4yN2MyLjc1LDIuNzQsNy45NiwxLjY3LDEyLjEzLTIuNDksNC4xNi00LjE3LDUuMjMtOS4zOCwyLjQ5LTEyLjEzbC0xNi4yNy0xNi4yNywxLjAyLTEuMzhjMTEuMTktMTUuMjIsMTYuNTktMzMuOTcsMTUuMTktNTIuNzk4LTEuNC0xOC44ODgtOS41Ny0zNi42ODUtMjMtNTAuMTEyLTMwLjkxLTMwLjkxMi04MS4yMDctMzAuOTEyLTExMi4xMiwweiIvPg0KIDxwYXRoIGZpbGw9InVybCgjbGc2KSIgZD0ibTE4MS44NSwxNjAuMDQsNTEuNSw1MS41YzMuNzksMy43OSwxLjk3LDExLjc0LTQuMDUsMTcuNzYtNi4wMiw2LjAzLTEzLjk3LDcuODQtMTcuNzYsNC4wNWwtNTEuNS01MS41LDIxLjgxLTIxLjgxeiIvPg0KIDxwYXRoIGZpbGw9InVybCgjbGc1KSIgZD0ibTE4MS4wOCwxNjIuMTQsNTAuMTksNTAuMmMzLjY5LDMuNjksMi44MywxMC41My0xLjkyLDE1LjI4cy0xMS41OSw1LjYxLTE1LjI4LDEuOTJsLTUwLjItNTAuMTksMTcuMjEtMTcuMjF6Ii8+DQogPHBhdGggZmlsbD0idXJsKCNsZzQpIiBkPSJtMTgxLjg1LDE2MC4wNGMzLjc4LDMuNzksMS45NywxMS43NC00LjA1LDE3Ljc2cy0xMy45Nyw3LjgzLTE3Ljc2LDQuMDVjLTMuNzgtMy43OS0xLjk3LTExLjczLDQuMDUtMTcuNzYsNi4wMi02LjAyLDEzLjk3LTcuODMsMTcuNzYtNC4wNXoiLz4NCiA8cGF0aCBmaWxsPSJ1cmwoI2xnMykiIGQ9Im00My40MywxNTMuNGMtMzAuMzY3LTMwLjM3LTMwLjM2Ny03OS42MDcsMC0xMDkuOTcsMzAuMzY1LTMwLjM2Nyw3OS42LTMwLjM2NywxMDkuOTcsMCwyOC4yNiwyOC4yNTksMzAuMjEsNzIuODUyLDUuODcsMTAzLjM4bDE3LjE4LDE3LjE4YzIuMDYsMi4wNiwwLjk1LDYuNTItMi40OSw5Ljk3LTMuNDQsMy40NC03LjkxLDQuNTUtOS45NywyLjQ5bC0xNy4xOC0xNy4xOGMtMzAuNTMsMjQuMzQtNzUuMTIyLDIyLjM5LTEwMy4zOC01Ljg3eiIvPg0KIDxwYXRoIGZpbGw9InVybCgjbGcyKSIgZD0ibTE1OS4xOCwxNDkuNzdzMTcuMjEsMTcuMjEsMTguMTksMTguMThjLTAuMzEsMC43Ni0xLjE2LDIuMjEtMi44NSwzLjktMS43LDEuNy0zLjE1LDIuNTUtMy45LDIuODUtMC45OC0wLjk4LTE4LjE4LTE4LjE5LTE4LjE4LTE4LjE5bDYuNzQtNi43NHoiLz4NCiA8cGF0aCBmaWxsPSJ1cmwoI2xnMSkiIGQ9Im0xNDguNDEsNDguNDEyYzI3LjU3LDI3LjU3LDI3LjU3LDcyLjQyOCwwLDk5Ljk5OHMtNzIuNDI4LDI3LjU3LTk5Ljk5OCwwYy0yNy41NjgtMjcuNTctMjcuNTY4LTcyLjQyOCwwLTk5Ljk5OCwyNy41Ny0yNy41NjksNzIuNDI4LTI3LjU2OSw5OS45OTgsMHoiLz4NCiA8cGF0aCBmaWxsPSJ1cmwoI3JnMikiIGQ9Im0xNDUuOTIsNTAuOTA1YzI2LjIsMjYuMTk1LDI2LjIsNjguODE1LDAsOTUuMDE1cy02OC44MTgsMjYuMi05NS4wMTQsMGMtMjYuMTk3LTI2LjItMjYuMTk1LTY4LjgyLDAtOTUuMDE1LDI2LjE5Ni0yNi4xOTYsNjguODE0LTI2LjE5Niw5NS4wMTQsMHoiLz4NCiA8cGF0aCBmaWxsPSJ1cmwoI3JnMSkiIGQ9Im01My43MzUsNTMuNzMzLDAsMGMtMTEuOTE0LDExLjkxNC0xOC40NzUsMjcuNzgyLTE4LjQ3Niw0NC42NzksMCwxNi44OTgsNi41NjIsMzIuNzY4LDE4LjQ3Nyw0NC42NzgsMjQuNjM1LDI0LjY0LDY0LjcyNCwyNC42NCw4OS4zNTQsMCwyNC42NC0yNC42NCwyNC42NC02NC43MjEsMC04OS4zNTYtMjQuNjQtMjQuNjM2LTY0LjcyLTI0LjYzNi04OS4zNTUsMHoiLz4NCjwvc3ZnPg==")}
+/* Site mobile (Minerva) : MediaWiki:Gadget-Mobile.css (extrait exact). Common.css n'y est pas chargée :
+   on neutralise ici ses effets pour reproduire le rendu mobile réel (pas d'icône, pas de retrait). */
+@media (max-width:720px){
+div.bandeau-section{display:block;margin:0 0 .7em 0;overflow:hidden;border-style:solid;border-width:1px 0;padding:2px 0 1px 4px;text-align:left}
+.bandeau-cell{display:table-cell}
+.bandeau-container:not(.homonymie) .bandeau-icone{display:none}
+.bandeau-niveau-detail,.bandeau-section.bandeau-niveau-information{border-color:#e7e7e7;background-color:#fdfdfd}
+div.bandeau-section{font-size:inherit}
+.bandeau-cell{vertical-align:baseline}
+.loupe{background-image:none;text-indent:0;line-height:inherit;display:table-cell}
+}
+.adcode h3{margin-top:1.4em}
+.adcode p,.adcode li{font-size:14px;line-height:1.6}
+.adcode .demo-ad{border:1px dashed #a2a9b1;padding:10px 12px;margin:.5em 0 1em;background:#fff}
+</style></head>
+<body>
+<header class="top"><div class="logo">W</div><div class="site">Mon Wiki<small>Aperçu du modèle d'article</small></div></header>
+<div class="wrap">
+<div class="tabs" role="tablist">
+ <button role="tab" aria-selected="true" data-p="lire">Lire</button>
+ <button role="tab" aria-selected="false" data-p="code">Wikicode article</button>
+ <button role="tab" aria-selected="false" data-p="infobox">Modèle:Infobox article</button>
+ <button role="tab" aria-selected="false" data-p="atelier">Atelier</button>
+ <button role="tab" aria-selected="false" data-p="ad">Modèle:Article détaillé</button>
+ <span class="sp"></span>
+ <label><input type="checkbox" id="notes"> Afficher les consignes</label>
+</div>
+
+<main id="p-lire">
+<h1>Titre de l'article</h1>
+<div class="sub">Un article de Mon Wiki.</div>
+<div class="note">Bandeaux facultatifs ({{Ébauche}}, {{Spoiler}}…) : ils s'afficheraient ici.</div>
+
+<table class="infobox">
+<caption>Titre de l'article</caption>
+<tr><td colspan="2"><div class="img"><span>Image<br>(paramètre <b>image</b>)</span></div><div style="text-align:center"><small>Légende</small></div></td></tr>
+<tr><th colspan="2" class="hd">Informations</th></tr>
+<tr><th>Type</th><td class="todo">À compléter</td></tr>
+<tr><th>Origine</th><td class="todo">À compléter</td></tr>
+<tr><th>Créateur</th><td class="todo">À compléter</td></tr>
+<tr><th>Première apparition</th><td class="todo">À compléter</td></tr>
+<tr><th>Statut</th><td class="todo">À compléter</td></tr>
+<tr><th>Lié à</th><td class="todo">À compléter</td></tr>
+</table>
+<div class="note">Infobox : un champ laissé vide est masqué automatiquement.</div>
+
+<p><b>Titre de l'article</b> est <span class="todo">À compléter</span>.</p>
+<div class="note">Introduction : 1 à 3 phrases, nom du sujet en gras au début. Dire ce qu'est le sujet et pourquoi il est notable.</div>
+
+<div id="toc"><div class="t">Sommaire <span class="edit">[<a href="#" id="tocT">masquer</a>]</span></div>
+<ul>
+<li><a href="#s1"><span class="n">1</span>Présentation</a></li>
+<li><a href="#s2"><span class="n">2</span>Histoire</a>
+ <ul><li><a href="#s2-1"><span class="n">2.1</span>Origines</a></li><li><a href="#s2-2"><span class="n">2.2</span>Évolution</a></li></ul></li>
+<li><a href="#s3"><span class="n">3</span>Caractéristiques</a></li>
+<li><a href="#s4"><span class="n">4</span>Influences et inspirations</a></li>
+<li><a href="#s5"><span class="n">5</span>Anecdotes</a></li>
+<li><a href="#s6"><span class="n">6</span>Galerie</a></li>
+<li><a href="#s7"><span class="n">7</span>Voir aussi</a></li>
+<li><a href="#s8"><span class="n">8</span>Références</a></li>
+<li><a href="#s9"><span class="n">9</span>Liens externes</a></li>
+</ul></div>
+<div class="note">Le sommaire est automatique dès 4 titres. <code>__TOC__</code> le place, <code>__NOTOC__</code> le masque, <code>__FORCETOC__</code> le force.</div>
+
+<h2 id="s1">Présentation<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Vue d'ensemble : ce qu'est le sujet, ses caractéristiques principales.</div>
+<p class="todo">À compléter</p>
+
+<h2 id="s2">Histoire<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Origine et évolution, dans l'ordre chronologique.</div>
+<h3 id="s2-1">Origines<span class="edit">[<a href="#">modifier</a>]</span></h3>
+<div class="note">Comment et quand le sujet est apparu.</div>
+<p class="todo">À compléter</p>
+<h3 id="s2-2">Évolution<span class="edit">[<a href="#">modifier</a>]</span></h3>
+<div class="note">Les changements marquants ensuite.</div>
+<p class="todo">À compléter</p>
+
+<h2 id="s3">Caractéristiques<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé&#160;: <a href="/w/index.php?title=%C3%80_compl%C3%A9ter&amp;action=edit&amp;redlink=1" class="new" title="À compléter (page inexistante)">À compléter</a>.</div></div>
+<div class="note">Bandeau « Article détaillé » : code exact de Wikipédia, <code>{{Article détaillé|À compléter}}</code> juste sous le titre. Le modèle et ses dépendances sont dans l'onglet <b>Modèle:Article détaillé</b>.</div>
+<div class="note">Détails concrets : apparence, fonctionnement, règles, capacités… selon le type de sujet.</div>
+<p class="todo">À compléter</p>
+
+<h2 id="s4">Influences et inspirations<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Ce qui a inspiré le sujet, ou ce qu'il a inspiré. Chaque affirmation factuelle doit avoir une source &lt;ref&gt;.</div>
+<p class="todo">À compléter</p>
+
+<h2 id="s5">Anecdotes<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Faits secondaires, un par puce, sourcés si possible.</div>
+<ul><li class="todo">À compléter</li></ul>
+
+<h2 id="s6">Galerie<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Balise &lt;gallery&gt; : une image par ligne, « Fichier.ext|Légende ».</div>
+<div class="gallery"><div>Image</div><div>Image</div><div>Image</div></div>
+
+<h2 id="s7">Voir aussi<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Liens vers d'autres pages du wiki (en rouge si la page n'existe pas encore).</div>
+<ul><li><a class="new" href="#">À compléter</a></li></ul>
+
+<h2 id="s8">Références<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Rien à écrire : la liste se remplit avec les &lt;ref&gt;…&lt;/ref&gt; du texte.</div>
+<p class="refs">(Aucune référence pour l'instant.)</p>
+
+<h2 id="s9">Liens externes<span class="edit">[<a href="#">modifier</a>]</span></h2>
+<div class="note">Liens vers des sites extérieurs : * [https://adresse Texte].</div>
+<ul><li class="todo">À compléter</li></ul>
+
+<div class="note">Navigation facultative : une palette ({{Palette …}}) s'afficherait ici.</div>
+<div class="catlinks"><b>Catégorie</b> : <a class="new" href="#">À compléter</a></div>
+</main>
+
+<main id="p-code" hidden>
+<div class="bar"><button data-copy="srcArt">Tout copier</button><span id="ok-srcArt"></span></div>
+<p style="font-size:13px;color:#54595d">À coller en mode « Source » dans une nouvelle page.</p>
+<pre class="src" id="srcArt">&lt;!--
+  ════════════════════════════════
+  MODÈLE D&#x27;ARTICLE GÉNÉRIQUE — MediaWiki / Fandom
+  ────────────────────────────────
+  Mode d&#x27;emploi :
+  1. Crée une nouvelle page, passe en mode « Source » (wikitexte).
+  2. Colle tout ce fichier.
+  3. Remplace chaque « À compléter » par ton texte.
+  4. Supprime les sections qui ne servent pas (titre + contenu).
+  5. Les commentaires &lt;!- - … - -&gt; (comme celui-ci) sont invisibles
+     à l&#x27;affichage : tu peux les laisser ou les effacer.
+
+  Prérequis : la page « Modèle:Infobox article » doit exister
+  (fichier 2-Modele-Infobox-article.wiki).
+  ════════════════════════════════
+--&gt;
+&lt;!-- ── BANDEAUX (facultatif) ────
+  Ex. : {{Ébauche}}, {{Spoiler}}, {{À vérifier}} si ces modèles
+  existent sur ton wiki. Sinon, supprime cette ligne.
+--&gt;
+
+&lt;!-- ── INFOBOX ──────────────────
+  Encadré à droite avec les informations clés.
+  Laisse un champ vide (rien après le =) pour qu&#x27;il soit masqué.
+--&gt;
+{{Infobox article
+| titre      = {{PAGENAME}}
+| image      = &lt;!-- Nom du fichier sans « Fichier: », ex. Exemple.png --&gt;
+| légende    = &lt;!-- Courte légende sous l&#x27;image --&gt;
+| type       = &lt;!-- Nature du sujet : personnage, lieu, objet, concept… --&gt;
+| origine    = &lt;!-- Œuvre, univers ou source d&#x27;où vient le sujet --&gt;
+| créateur   = &lt;!-- Auteur / créateur --&gt;
+| première   = &lt;!-- Première apparition / date de création --&gt;
+| statut     = &lt;!-- Statut actuel --&gt;
+| lié        = &lt;!-- Sujets liés, en [[liens internes]] --&gt;
+}}
+
+&lt;!-- ── INTRODUCTION (sans titre) ───
+  1 à 3 phrases. Le nom du sujet en gras au début : &#x27;&#x27;&#x27;Nom&#x27;&#x27;&#x27;.
+  Dis ce qu&#x27;est le sujet et pourquoi il est notable.
+--&gt;
+&#x27;&#x27;&#x27;{{PAGENAME}}&#x27;&#x27;&#x27; est &#x27;&#x27;À compléter&#x27;&#x27;.
+
+&lt;!-- Le sommaire s&#x27;affiche automatiquement dès 4 titres.
+     __TOC__ le place ici ; __NOTOC__ le masque ; __FORCETOC__ le force. --&gt;
+__TOC__
+
+== Présentation ==
+&lt;!-- Vue d&#x27;ensemble : ce qu&#x27;est le sujet, ses caractéristiques
+     principales, en quelques paragraphes. --&gt;
+&#x27;&#x27;À compléter&#x27;&#x27;
+
+== Histoire ==
+&lt;!-- Origine et évolution du sujet, dans l&#x27;ordre chronologique.
+     Utilise des sous-sections === … === si c&#x27;est long. --&gt;
+=== Origines ===
+&lt;!-- Comment et quand le sujet est apparu. --&gt;
+&#x27;&#x27;À compléter&#x27;&#x27;
+
+=== Évolution ===
+&lt;!-- Les changements marquants ensuite. --&gt;
+&#x27;&#x27;À compléter&#x27;&#x27;
+
+== Caractéristiques ==
+&lt;!-- Détails concrets : apparence, fonctionnement, règles,
+     capacités… selon le type de sujet. Liste possible :
+     * Point 1
+     * Point 2
+--&gt;
+&#x27;&#x27;À compléter&#x27;&#x27;
+
+== Influences et inspirations ==
+&lt;!-- Ce qui a inspiré le sujet, ou ce qu&#x27;il a inspiré.
+     Chaque affirmation factuelle doit avoir une source &lt;ref&gt;…&lt;/ref&gt;. --&gt;
+&#x27;&#x27;À compléter&#x27;&#x27;
+
+== Anecdotes ==
+&lt;!-- Faits secondaires intéressants, en liste à puces.
+     Un fait par puce, sourcé si possible. --&gt;
+* &#x27;&#x27;À compléter&#x27;&#x27;
+
+== Galerie ==
+&lt;!-- Une image par ligne : Fichier.ext|Légende --&gt;
+&lt;gallery&gt;
+&lt;!-- Exemple.png|Légende --&gt;
+&lt;/gallery&gt;
+
+== Voir aussi ==
+&lt;!-- Liens vers d&#x27;autres pages DU WIKI. --&gt;
+* [[À compléter]]
+
+== Références ==
+&lt;!-- Rien à écrire ici : la liste se remplit toute seule avec
+     les &lt;ref&gt;…&lt;/ref&gt; placés dans le texte.
+     Syntaxe : Texte.&lt;ref&gt;[https://adresse.exemple Titre de la source]&lt;/ref&gt;
+     Réutiliser une source : &lt;ref name=&quot;nom&quot;&gt;…&lt;/ref&gt; puis &lt;ref name=&quot;nom&quot; /&gt; --&gt;
+&lt;references /&gt;
+
+== Liens externes ==
+&lt;!-- Liens vers des sites extérieurs. Syntaxe :
+     * [https://adresse.exemple Texte du lien] --&gt;
+* &#x27;&#x27;À compléter&#x27;&#x27;
+
+&lt;!-- ── NAVIGATION (facultatif) ───
+  Boîte de navigation en bas de page, ex. {{Palette Univers}}.
+--&gt;
+
+&lt;!-- ── CATÉGORIES ───────────────
+  Toujours en toute fin de page. Une par ligne.
+  Sur un wiki francophone, « Catégorie: » et « Category: » marchent.
+--&gt;
+[[Catégorie:À compléter]]
+</pre>
+</main>
+
+<main id="p-infobox" hidden>
+<div class="bar"><button data-copy="srcInf">Tout copier</button><span id="ok-srcInf"></span></div>
+<p style="font-size:13px;color:#54595d">À coller dans une page nommée exactement <b>Modèle:Infobox article</b> (à créer avant l'article).</p>
+<pre class="src" id="srcInf">{| class=&quot;infobox&quot; style=&quot;float:right; clear:right; width:270px; margin:0 0 1em 1em; border:1px solid #a2a9b1; background:#f8f9fa; font-size:90%; line-height:1.5; border-spacing:3px;&quot;
+|+ style=&quot;font-size:125%; font-weight:bold; padding:.3em;&quot; | {{{titre|{{PAGENAME}}}}}
+{{#if:{{{image|}}}|
+{{!}}-
+{{!}} colspan=&quot;2&quot; style=&quot;text-align:center;&quot; {{!}} [[Fichier:{{{image}}}|250px]]{{#if:{{{légende|}}}|&lt;br /&gt;&lt;small&gt;{{{légende}}}&lt;/small&gt;}}
+}}
+|-
+! colspan=&quot;2&quot; style=&quot;background:#eaecf0; text-align:center; padding:.2em;&quot; | Informations
+{{#if:{{{type|}}}|
+{{!}}-
+! style=&quot;text-align:left; vertical-align:top; width:40%;&quot; {{!}} Type
+{{!}} {{{type}}}
+}}{{#if:{{{origine|}}}|
+{{!}}-
+! style=&quot;text-align:left; vertical-align:top;&quot; {{!}} Origine
+{{!}} {{{origine}}}
+}}{{#if:{{{créateur|}}}|
+{{!}}-
+! style=&quot;text-align:left; vertical-align:top;&quot; {{!}} Créateur
+{{!}} {{{créateur}}}
+}}{{#if:{{{première|}}}|
+{{!}}-
+! style=&quot;text-align:left; vertical-align:top;&quot; {{!}} Première apparition
+{{!}} {{{première}}}
+}}{{#if:{{{statut|}}}|
+{{!}}-
+! style=&quot;text-align:left; vertical-align:top;&quot; {{!}} Statut
+{{!}} {{{statut}}}
+}}{{#if:{{{lié|}}}|
+{{!}}-
+! style=&quot;text-align:left; vertical-align:top;&quot; {{!}} Lié à
+{{!}} {{{lié}}}
+}}
+|}&lt;noinclude&gt;
+== Documentation ==
+&lt;!-- Cette partie n&#x27;apparaît que sur la page du modèle, pas dans les articles. --&gt;
+Encadré d&#x27;informations générique pour les articles.
+
+&#x27;&#x27;&#x27;À créer sous le nom :&#x27;&#x27;&#x27; &lt;code&gt;Modèle:Infobox article&lt;/code&gt;
+
+&#x27;&#x27;&#x27;Prérequis :&#x27;&#x27;&#x27;
+* Extension &#x27;&#x27;ParserFunctions&#x27;&#x27; (installée par défaut sur MediaWiki récent et sur Fandom) pour &lt;code&gt;#if&lt;/code&gt;.
+* Sur un MediaWiki antérieur à 1.24, créer aussi &lt;code&gt;Modèle:!&lt;/code&gt; contenant uniquement &lt;code&gt;|&lt;/code&gt;.
+
+&#x27;&#x27;&#x27;Utilisation :&#x27;&#x27;&#x27; copier dans l&#x27;article et remplir les champs. Un champ vide est masqué.
+&lt;pre&gt;
+{{Infobox article
+| titre      =
+| image      =
+| légende    =
+| type       =
+| origine    =
+| créateur   =
+| première   =
+| statut     =
+| lié        =
+}}
+&lt;/pre&gt;
+
+&#x27;&#x27;&#x27;Paramètres :&#x27;&#x27;&#x27;
+{| class=&quot;wikitable&quot;
+! Paramètre !! Rôle
+|-
+| &lt;code&gt;titre&lt;/code&gt; || Titre de l&#x27;encadré (par défaut : nom de la page)
+|-
+| &lt;code&gt;image&lt;/code&gt; || Nom du fichier, sans « Fichier: »
+|-
+| &lt;code&gt;légende&lt;/code&gt; || Texte sous l&#x27;image
+|-
+| &lt;code&gt;type&lt;/code&gt; || Nature du sujet
+|-
+| &lt;code&gt;origine&lt;/code&gt; || Œuvre / univers d&#x27;origine
+|-
+| &lt;code&gt;créateur&lt;/code&gt; || Auteur ou créateur
+|-
+| &lt;code&gt;première&lt;/code&gt; || Première apparition ou date
+|-
+| &lt;code&gt;statut&lt;/code&gt; || Statut actuel
+|-
+| &lt;code&gt;lié&lt;/code&gt; || Sujets liés (liens internes)
+|}
+
+[[Catégorie:Modèles d&#x27;infobox]]
+&lt;/noinclude&gt;
+</pre>
+</main>
+<main id="p-atelier" hidden>
+<p style="font-size:14px;line-height:1.6">Même plan, au format de <b>l'Atelier</b>. Crée une nouvelle page, ouvre l'onglet <b>Source</b> de l'éditeur, colle le texte, puis choisis la catégorie de la page.<br>
+<span style="color:#54595d;font-size:13px">Dans l'Atelier, les consignes restent visibles (encadrés « 💡 Consigne ») : supprime-les une fois la page remplie, ou prends directement la version vierge.</span></p>
+<h2 style="font-size:1.25em">Avec consignes</h2>
+<div class="bar"><button data-copy="srcAtG">Tout copier</button><span id="ok-srcAtG"></span></div>
+<pre class="src" id="srcAtG">@infobox {&quot;sections&quot;: [{&quot;title&quot;: &quot;Informations&quot;, &quot;fields&quot;: [[&quot;Type&quot;, &quot;À compléter&quot;], [&quot;Origine&quot;, &quot;À compléter&quot;], [&quot;Créateur&quot;, &quot;À compléter&quot;], [&quot;Première apparition&quot;, &quot;À compléter&quot;], [&quot;Statut&quot;, &quot;À compléter&quot;], [&quot;Lié à&quot;, &quot;À compléter&quot;]]}]}
+
+&gt; 💡 Consigne : Fiche (infobox) : remplace chaque « À compléter » dans l&#x27;onglet Visuel (touche la fiche pour la modifier), ou supprime toute la ligne `@infobox` si tu n&#x27;en veux pas. Pense aussi à choisir la catégorie de la page (Personnages, Lieux…) dans l&#x27;éditeur : elle remplace les `[[Catégorie:]]` de MediaWiki.
+
+**Nom du sujet** est *À compléter*.
+
+&gt; 💡 Consigne : Introduction, sans titre : 1 à 3 phrases, nom du sujet en gras au début. Dis ce qu&#x27;est le sujet et pourquoi il compte. Le sommaire se crée tout seul à partir des titres `##` et `###`.
+
+## Présentation
+
+&gt; 💡 Consigne : Vue d&#x27;ensemble : ce qu&#x27;est le sujet et ses caractéristiques principales, en quelques paragraphes.
+
+*À compléter*
+
+## Histoire
+
+&gt; 💡 Consigne : Origine et évolution du sujet, dans l&#x27;ordre chronologique. Garde, ajoute ou supprime des sous-sections `###` selon la longueur.
+
+### Origines
+
+&gt; 💡 Consigne : Comment et quand le sujet est apparu.
+
+*À compléter*
+
+### Évolution
+
+&gt; 💡 Consigne : Les changements marquants ensuite.
+
+*À compléter*
+
+## Caractéristiques
+
+&gt; 💡 Consigne : Détails concrets : apparence, fonctionnement, règles, capacités… selon le type de sujet. Une liste à tirets (`- Point`) est possible.
+
+*À compléter*
+
+## Influences et inspirations
+
+&gt; 💡 Consigne : Ce qui a inspiré le sujet, ou ce qu&#x27;il a inspiré. Chaque fait vérifiable reçoit un appel de note `[^1]` dans le texte, puis sa source dans « Références ».
+
+*À compléter*
+
+## Anecdotes
+
+&gt; 💡 Consigne : Faits secondaires, un par tiret, sourcés si possible.
+
+- *À compléter*
+
+## Galerie
+
+&gt; 💡 Consigne : Une image par bloc, séparées par une ligne vide : `![Légende](adresse de l&#x27;image)`. Tu peux aussi passer par le bouton + de l&#x27;éditeur.
+
+*À compléter*
+
+## Voir aussi
+
+&gt; 💡 Consigne : Liens vers d&#x27;autres pages de ton wiki : `[[Titre de la page]]` ou `[[Titre|texte affiché]]`. Un lien vers une page qui n&#x27;existe pas encore apparaît comme « page à créer ».
+
+- [[À compléter]]
+
+## Références
+
+&gt; 💡 Consigne : Une ligne par source, numérotée comme l&#x27;appel de note : `[^1]: [Titre de la source](https://adresse)`. Les lignes de notes doivent se suivre, sans ligne vide entre elles.
+
+[^1]: *À compléter*
+
+## Liens externes
+
+&gt; 💡 Consigne : Liens vers des sites extérieurs : `- [Texte du lien](https://adresse)`.
+
+- *À compléter*
+
+&gt; 💡 Consigne : Quand la page est remplie, supprime toutes les lignes « 💡 Consigne » : dans l&#x27;Atelier elles restent visibles.
+</pre>
+<h2 style="font-size:1.25em">Vierge</h2>
+<div class="bar"><button data-copy="srcAtV">Tout copier</button><span id="ok-srcAtV"></span></div>
+<pre class="src" id="srcAtV">@infobox {&quot;sections&quot;: [{&quot;title&quot;: &quot;Informations&quot;, &quot;fields&quot;: [[&quot;Type&quot;, &quot;À compléter&quot;], [&quot;Origine&quot;, &quot;À compléter&quot;], [&quot;Créateur&quot;, &quot;À compléter&quot;], [&quot;Première apparition&quot;, &quot;À compléter&quot;], [&quot;Statut&quot;, &quot;À compléter&quot;], [&quot;Lié à&quot;, &quot;À compléter&quot;]]}]}
+
+**Nom du sujet** est *À compléter*.
+
+## Présentation
+
+*À compléter*
+
+## Histoire
+
+### Origines
+
+*À compléter*
+
+### Évolution
+
+*À compléter*
+
+## Caractéristiques
+
+*À compléter*
+
+## Influences et inspirations
+
+*À compléter*
+
+## Anecdotes
+
+- *À compléter*
+
+## Galerie
+
+*À compléter*
+
+## Voir aussi
+
+- [[À compléter]]
+
+## Références
+
+[^1]: *À compléter*
+
+## Liens externes
+
+- *À compléter*
+</pre>
+</main>
+<main id="p-ad" class="adcode" hidden>
+<p><b>Code exact du modèle {{Article détaillé}} de Wikipédia en français</b>, relevé le 26/09/2026 sur fr.wikipedia.org (texte sous licence <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>, auteurs : contributeurs de Wikipédia).</p>
+<h3>1. Ce qu'on écrit dans l'article (juste sous le titre de section)</h3>
+<pre class="src">== Caractéristiques ==
+{{Article détaillé|À compléter}}</pre>
+<p>Plusieurs articles : <code>{{Article détaillé|A|B}}</code>. Le modèle passe tout seul au pluriel (jusqu'à 16 liens). Paramètres facultatifs : <code>amorce=</code> remplace « Article détaillé », <code>contenu=</code> remplace toute la phrase.</p>
+<h3>2. Rendu (HTML et CSS réels de Wikipédia)</h3>
+<div class="demo-ad"><div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé&#160;: <a href="/w/index.php?title=%C3%80_compl%C3%A9ter&amp;action=edit&amp;redlink=1" class="new" title="À compléter (page inexistante)">À compléter</a>.</div></div>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Articles détaillés&#160;: <a href="/w/index.php?title=%C3%80_compl%C3%A9ter&amp;action=edit&amp;redlink=1" class="new" title="À compléter (page inexistante)">À compléter</a> et <a href="/w/index.php?title=Autre_article&amp;action=edit&amp;redlink=1" class="new" title="Autre article (page inexistante)">Autre article</a>.</div></div></div>
+<p style="color:#54595d;font-size:13px">Sur ordinateur : filet gris en haut et en bas, retrait de 2em, loupe. Sur mobile (fenêtre étroite) : pas de loupe et pas de retrait, parce que le site mobile ne charge pas la même feuille de style.</p>
+<p>HTML exact renvoyé par Wikipédia :</p>
+<pre class="src">&lt;div class=&quot;bandeau-container bandeau-section metadata bandeau-niveau-information&quot;&gt;&lt;div class=&quot;bandeau-cell bandeau-icone-css loupe&quot;&gt;Article détaillé&amp;#160;: &lt;a href=&quot;/w/index.php?title=%C3%80_compl%C3%A9ter&amp;amp;action=edit&amp;amp;redlink=1&quot; class=&quot;new&quot; title=&quot;À compléter (page inexistante)&quot;&gt;À compléter&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;</pre>
+<h3>3. Modèle:Article détaillé</h3>
+<div class="bar"><button data-copy="srcAd1">Tout copier</button><span id="ok-srcAd1"></span></div>
+<pre class="src" id="srcAd1">&lt;includeonly&gt;{{Méta bandeau de section
+| niveau = information
+| icône  = loupe
+| texte  = {{#if:{{{contenu|}}}&lt;!--
+--&gt;|{{{contenu}}}{{#switch:{{#invoke:String|pos|{{{contenu}}}|-1}}|.|!|?=|.}}&lt;!--
+   --&gt;{{#if:{{{1|}}}{{{amorce|}}}&lt;!--
+   --&gt;|&lt;!--ERREUR DE SYNTAXE:--&gt;
+{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec une syntaxe erronée|Article détaille]]}}&lt;!--
+  --&gt;}}&lt;!--
+--&gt;|{{#if:{{{1|}}}&lt;!--
+   --&gt;|{{#if:{{{amorce|}}}&lt;!--
+      --&gt;|{{{amorce}}}&lt;!--
+      --&gt;|{{#if:{{{2|}}}|Articles détaillés|Article détaillé}}&lt;!--
+    --&gt;}} : {{Multiparamètres-Lien|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}|{{{11|}}}|{{{12|}}}|{{{13|}}}|{{{14|}}}|{{{15|}}}|{{{16|}}}}}.&lt;!--
+   --&gt;|&lt;!--ERREUR DE SYNTAXE:--&gt;
+&lt;span class=&quot;error&quot;&gt;Erreur de paramétrage de {{m|Article détaillé}} : le paramètre &lt;code&gt;1&lt;/code&gt; est obligatoire.&lt;/span&gt;
+{{#if:{{NAMESPACE}}||[[Catégorie:Page utilisant un modèle avec une syntaxe erronée|Article détaille]]}}&lt;!--
+  --&gt;}}&lt;!--
+--&gt;}}
+}}&lt;/includeonly&gt;&lt;noinclude&gt;{{Documentation}}&lt;/noinclude&gt;</pre>
+<h3>4. Modèles appelés</h3>
+<p><b>Modèle:Méta bandeau de section</b></p>
+<pre class="src">&lt;includeonly&gt;{{#invoke:Bandeau|bandeauSection}}&lt;/includeonly&gt;&lt;noinclude&gt;
+{{Documentation}}
+&lt;/noinclude&gt;</pre>
+<p><b>Modèle:Multiparamètres-Lien</b></p>
+<pre class="src">{{{{{|safesubst:}}}#invoke:Multiparamètres|lien}}&lt;noinclude&gt;{{Documentation}}&lt;/noinclude&gt;</pre>
+<h3>5. Ce qu'il faut pour que ça marche ailleurs</h3>
+<ul>
+<li>Les extensions <b>ParserFunctions</b> (<code>{{#if:}}</code>, <code>{{#switch:}}</code>) et <b>Scribunto</b> (Lua, pour <code>{{#invoke:}}</code>).</li>
+<li>Les modules Lua : <b>Module:Bandeau</b>, qui charge lui-même Module:Bandeau/Class, Module:Outils et Module:yesno ; <b>Module:Multiparamètres</b> ; <b>Module:String</b>.</li>
+<li>Les règles CSS ci-dessous dans <b>MediaWiki:Common.css</b>.</li>
+<li>Pour les messages d'erreur et la documentation seulement : les modèles {{m}} et {{Documentation}}.</li>
+</ul>
+<p>Sans tout cela, la ligne s'affiche en lien rouge « Modèle:Article détaillé ». Ce code ne marche donc pas tel quel sur Fandom : il faudrait y importer les modules.</p>
+<p><b>CSS, MediaWiki:Common.css (ordinateur)</b></p>
+<pre class="src">.bandeau-section{border-style:solid;overflow:hidden;position:relative}
+div.bandeau-section{display:block;font-size:0.95em;border-width:1px 0;padding:0.2em 0.5em 0.3em 0;margin:0.3em 0 0.7em 2em}
+.bandeau-cell{display:table-cell;vertical-align:middle}
+.bandeau-cell > p:first-child{margin-top:0}
+.bandeau-cell > p:last-child{margin-bottom:0}
+.bandeau-niveau-information{border-color:#77ccff;background-color:#fbfbfb}
+.bandeau-niveau-detail,.bandeau-section.bandeau-niveau-information{border-color:#e7e7e7;background-color:#fdfdfd}
+.loupe{background-repeat:no-repeat;line-height:1.5em;text-indent:23px;display:inline-block}
+.loupe{background-image:url("//upload.wikimedia.org/wikipedia/commons/6/61/Searchtool.svg");background-size:15px;background-position:2px 3px}</pre>
+<p><b>CSS, MediaWiki:Gadget-Mobile.css (mobile)</b></p>
+<pre class="src">div.bandeau-section{display:block;margin:0 0 .7em 0;overflow:hidden;border-style:solid;border-width:1px 0;padding:2px 0 1px 4px;text-align:left}
+.bandeau-cell{display:table-cell}
+.bandeau-container:not(.homonymie) .bandeau-icone{display:none}
+.bandeau-niveau-detail,.bandeau-section.bandeau-niveau-information{border-color:#e7e7e7;background-color:#fdfdfd}</pre>
+<p style="color:#54595d;font-size:13px">Icône : <i>Searchtool.svg</i> (Wikimedia Commons), David Vignoni et Ysangkok, licence LGPL.</p>
+</main>
+</div>
+<script>
+document.querySelectorAll('.tabs button').forEach(function(b){b.onclick=function(){
+ document.querySelectorAll('.tabs button').forEach(function(x){x.setAttribute('aria-selected',x===b)});
+ ['lire','code','infobox','atelier','ad'].forEach(function(p){document.getElementById('p-'+p).hidden=(p!==b.dataset.p)});
+ window.scrollTo(0,0);
+}});
+document.getElementById('notes').onchange=function(){document.body.classList.toggle('show-notes',this.checked)};
+document.getElementById('tocT').onclick=function(e){e.preventDefault();var t=document.getElementById('toc');t.classList.toggle('closed');this.textContent=t.classList.contains('closed')?'afficher':'masquer'};
+document.querySelectorAll('.bandeau-section a').forEach(function(a){a.onclick=function(e){e.preventDefault()}});
+document.querySelectorAll('.edit a:not(#tocT)').forEach(function(a){a.onclick=function(e){e.preventDefault()}});
+document.querySelectorAll('[data-copy]').forEach(function(b){b.onclick=function(){
+ var id=b.dataset.copy,txt=document.getElementById(id).textContent,ok=document.getElementById('ok-'+id);
+ function done(){ok.textContent='Copié ✓';setTimeout(function(){ok.textContent=''},2000)}
+ function fb(){var t=document.createElement('textarea');t.value=txt;document.body.appendChild(t);t.select();try{document.execCommand('copy');done()}catch(e){ok.textContent='Sélectionne le texte à la main'}t.remove()}
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done,fb)}else fb();
+}});
+</script>
+<!--FLB-START--><style>/* Visionneuse façon Fandom — mobile d'abord (valeurs de la CSS réelle FandomMobile), ordinateur ≥ 761 px */
+html.flb-open,html.flb-open body{overflow:hidden!important}
+img.flb-able{cursor:zoom-in}
+img.flb-able:focus-visible{outline:3px solid #00cdd0;outline-offset:2px}
+.flb{--flb-accent:#00cdd0;--flb-line:rgba(255,255,255,.25);position:fixed;inset:0;z-index:2147483000;background:rgba(0,0,0,.92);color:#e6e6e6;display:flex;flex-direction:column;overflow:hidden;
+  -webkit-tap-highlight-color:transparent;font:14px/1.4 Rubik,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);opacity:0;transition:opacity .25s}
+.flb[hidden]{display:none}
+.flb.open{opacity:1}
+.flb:focus{outline:0}
+.flb button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;-webkit-appearance:none;appearance:none}
+.flb button:focus-visible,.flb [tabindex="0"]:focus-visible{outline:2px solid var(--flb-accent);outline-offset:2px}
+.flb [hidden]{display:none!important}
+.flb .flb-ic-m{display:none}
+/* scène */
+.flb-stage{position:absolute;inset:0}
+.flb-view{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:none;user-select:none;-webkit-user-select:none}
+.flb-img{max-width:100%;max-height:100%;object-fit:contain;opacity:0;transition:opacity .2s;transform-origin:center center;will-change:transform;-webkit-user-drag:none}
+.flb-img.in{opacity:1}
+.flb.flb-zoomed .flb-view{cursor:grab}
+/* haut : mêmes valeurs que la visionneuse Fandom web (en-tête 20/20/10, titre 18 px / 22 px en haut à gauche) */
+.flb-top{position:absolute;top:0;left:0;right:0;z-index:3;display:flex;align-items:flex-start;
+  background:linear-gradient(#000c,#0000);transition:opacity .25s}
+.flb-tl{flex:1;min-width:0;padding:20px 20px 10px}
+.flb-t1{display:flex;align-items:baseline;gap:10px;min-width:0}
+.flb-title{font-weight:700;font-size:18px;line-height:22px;max-width:600px;color:var(--flb-accent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.flb-full{display:none}
+.flb-capd{display:none}
+.flb-cnt-m{display:none}
+/* bouton ✕ rond (comme Fandom mobile), centré sur la ligne du titre */
+.flb .flb-x{flex:none;width:44px;height:44px;margin:9px 10px 0 0;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:rgba(38,38,38,.9);border:1px solid rgba(255,255,255,.2);color:#fff}
+.flb .flb-x svg{width:22px;height:22px}
+/* flèches (mobile : boutons ronds 36px #595358, comme l'expérience UXFCP-3982) */
+.flb-arrow{position:absolute;top:50%;z-index:2;transform:translateY(-50%);width:44px;height:44px;display:flex;align-items:center;justify-content:center;transition:opacity .25s}
+.flb-arrow svg{width:36px;height:36px;padding:8px;box-sizing:border-box;border-radius:50%;background:#595358;color:#fff;box-shadow:0 1px 12px #0000004d}
+.flb-prev{left:6px}.flb-next{right:6px}
+.flb-single .flb-arrow,.flb-single .flb-sw{display:none!important}
+/* bande du bas (mobile) : structure Fandom web (marge 10 px en haut, chiffres, vignettes, trait en haut),
+   hauteur réduite à 95 px pour les vignettes de 44 px ; noir transparent 60 % */
+.flb-bot{position:absolute;left:0;right:0;bottom:0;z-index:3;min-height:95px;box-sizing:border-box;padding:10px 18px calc(10px + env(safe-area-inset-bottom));
+  background:rgba(0,0,0,.6);border-top:1px solid var(--flb-line);transition:opacity .25s}
+.flb-single .flb-bot{min-height:0}
+/* légende (tour 87) : style Fandom mobile 2025 (comme le moteur fm25) — texte simple sans cadre, 14 px, graisse 300, interligne 1.25em,
+   blanc, aligné à gauche, 3 lignes max (toucher pour déplier) ; en haut de la bande du bas, au-dessus des chiffres */
+.flb-capm{margin:0 0 10px;padding:0;color:#fff;text-align:left;font-weight:300;font-size:14px;line-height:1.25em;max-height:3.7em;overflow:hidden;transition:max-height .3s;cursor:pointer}
+.flb-capm.open{max-height:10em;overflow:auto}
+/* chiffres : centrés en haut de la bande (comme Fandom web), gras #e6e6e6 */
+.flb-row{position:relative;display:flex;align-items:center;justify-content:center;min-height:21px;margin:0}
+.flb-cnt{text-align:center;font-size:14px;line-height:21px;font-weight:700;color:#e6e6e6;margin:0}
+.flb .flb-info{display:flex;align-items:center;justify-content:center;width:36px;height:36px;color:#e6e6e6}
+.flb .flb-info-bot{position:absolute;right:-8px;top:50%;transform:translateY(-50%)}
+.flb .flb-info-top{display:none}
+.flb-cnt-desk{display:none}
+/* vignettes (mobile) : 44 px, espacées de 6 px, petit encadré gris, alignées à gauche, sans flèches */
+.flb-sw{display:flex;align-items:center}
+.flb-sl,.flb-sr,.flb-pin{display:none!important}
+.flb-strip{flex:1;display:flex;flex-wrap:nowrap;align-items:center;gap:6px;height:54px;padding:3px 0;box-sizing:border-box;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.flb-strip::-webkit-scrollbar{display:none}
+.flb .flb-th{flex:none;line-height:0;background:#222;border-radius:4px}
+.flb-th img{width:44px;height:44px;object-fit:cover;border:2px solid transparent;border-radius:4px;box-sizing:content-box;display:block}
+.flb-th.on img{border-color:var(--flb-accent)}
+/* fenêtre infos */
+.flb-dlg{position:absolute;inset:0;z-index:10;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;padding:18px}
+.flb-dlg-box{background:#1f2021;color:#e6e6e6;border-radius:4px;width:100%;min-width:284px;max-width:420px;max-height:360px;display:flex;flex-direction:column;box-shadow:0 4px 18px #0009}
+.flb-dlg-in{padding:18px;overflow:auto;line-height:1.75}
+.flb-dlg h3{margin:0 0 10px;font-size:18px;font-weight:500;line-height:1.3;word-break:break-word;color:var(--flb-accent)}
+.flb-dlg p{margin:0 0 10px}
+.flb-dlg .flb-dlg-by{opacity:.75;font-size:13px}
+.flb-dlg-act{height:60px;padding:12px;display:flex;justify-content:flex-end;align-items:center;border-top:1px solid rgba(128,128,128,.25)}
+.flb .flb-dlg-act button{color:var(--flb-accent);font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:.3px;padding:8px 10px}
+.flb.flb-ui-hidden .flb-top,.flb.flb-ui-hidden .flb-bot,.flb.flb-ui-hidden .flb-arrow,
+.flb.flb-zoomed .flb-arrow{opacity:0;pointer-events:none}
+
+/* tour 86 (mobile) : fond noir 92 % (comme l'Atelier), nom blanc un peu plus petit (16/20), sans demi-barre ;
+   l'image est réduite avec un contour de 15 px (tour 90) */
+@media (max-width:760px){
+  .flb-title{color:#fff;font-size:16px;line-height:20px}
+  .flb-view{inset:15px} /* tour 90 : contour 15 px */
+  /* tour 88 : barre noire sous le nom et le ✕ (57 px, tour 89) ; elle couvre l'image, qui garde sa taille
+     tour 94 : même transparence que la bande du bas (noir 60 %) */
+  .flb-top{background:rgba(0,0,0,.6);min-height:calc(57px + env(safe-area-inset-top));padding-top:env(safe-area-inset-top);box-sizing:border-box;align-items:center}
+  .flb-tl{padding:0 20px}
+  .flb .flb-x{width:40px;height:40px;margin:0 16px 0 0} /* tour 90 : ✕ un peu plus petit (40 px) et décalé vers la gauche */
+  .flb .flb-x svg{width:20px;height:20px}
+  .flb .flb-info-bot{right:0} /* tour 90 : ⓘ décalé de 8 px vers la gauche */
+  /* tour 91 : fond comme l'Atelier (index 7) — noir bleuté transparent 95 %, page floutée un peu moins fort (4 px au lieu de 6) */
+  .flb{background:rgba(6,6,8,.95);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+  /* tour 91 : plus de ligne fine grise en haut de la bande du bas */
+  .flb-bot{border-top:0}
+  /* tour 91 : ✕ et flèches dans le style de l'Atelier (index 7) */
+  .flb .flb-ic-d{display:none}
+  .flb .flb-ic-m{display:block}
+  .flb .flb-x{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);color:#fff;transition:background .2s}
+  .flb .flb-x svg{width:18px;height:18px}
+  .flb .flb-arrow{width:46px;height:46px;border-radius:50%;background:rgba(12,13,16,.62);border:1px solid rgba(255,255,255,.2);color:#fff;box-sizing:border-box}
+  .flb .flb-arrow svg{width:20px;height:20px;padding:0;background:none;box-shadow:none;border-radius:0}
+  .flb-prev{left:10px}.flb-next{right:10px}
+  @media (hover:hover){
+    .flb .flb-x:hover{background:#ff5d5d}
+    .flb .flb-arrow:hover{background:color-mix(in srgb,var(--flb-accent) 25%,transparent);border-color:var(--flb-accent)}
+  }
+  /* tour 88 : ordre de la bande du bas — chiffres + ⓘ, puis légende, puis vignettes */
+  .flb-bot{display:flex;flex-direction:column}
+  .flb-row{order:0}
+  .flb-capm{order:1;margin:6px 0 8px}
+  .flb-sw{order:2}
+}
+
+/* ---------- ordinateur : Help:Image_lightbox ---------- */
+@media (min-width:761px){
+  .flb{--flb-bar:#fff;--flb-bar-a:rgba(255,255,255,.92);--flb-text:#3a3a3a;--flb-line:#e0e0e0;background:var(--flb-bar);color:var(--flb-text)}
+  .flb.flb-dark{--flb-bar:#101113;--flb-bar-a:rgba(16,17,19,.9);--flb-text:#e6e6e6;--flb-line:#2c2e33}
+  .flb-stage{top:0;bottom:0}
+  .flb-view{top:76px;bottom:115px;left:64px;right:64px}
+  .flb-top{background:var(--flb-bar-a);border-bottom:1px solid var(--flb-line);padding:0 12px 0 0;box-sizing:border-box}
+  .flb .flb-full{display:inline;font-size:12px;color:var(--flb-accent);padding-left:10px;border-left:1px solid var(--flb-line);white-space:nowrap}
+  .flb-full:hover{text-decoration:underline}
+  .flb-natural .flb-full{font-weight:700}
+  .flb-capd{display:block;font-size:13px;margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.85}
+  .flb .flb-x{width:40px;height:40px;margin:11px 0 0;color:var(--flb-text);background:rgba(128,128,128,.14);border:1px solid rgba(128,128,128,.35)}
+  .flb .flb-x svg{width:20px;height:20px}
+  .flb .flb-arrow{width:48px;height:48px;color:var(--flb-text)}
+  .flb-arrow svg{width:28px;height:28px;padding:0;background:none;color:inherit;box-shadow:none;border-radius:0}
+  .flb-prev{left:10px}.flb-next{right:10px}
+  .flb-bot{background:var(--flb-bar-a);border-top:1px solid var(--flb-line);padding:10px 20px;height:115px;min-height:0}
+  .flb-capm{display:none}
+  .flb-row{display:block;min-height:0;margin:0}
+  .flb .flb-info-bot{display:none}
+  .flb:not(.flb-dark) .flb-dlg-box{background:#fff;color:#3a3a3a}
+  .flb .flb-info-top{display:flex;width:40px;height:40px;margin:11px 8px 0 0;color:var(--flb-text)}
+  .flb-cnt{display:block;text-align:center;color:inherit;font-weight:400}
+  .flb-cnt-mob{display:none}.flb-cnt-desk{display:inline}
+  .flb-single .flb-cnt{display:none}
+  /* vignettes (ordinateur) : valeurs Fandom web — 70 × 60, marges 13, cadre 1 px, arrondi 3, flèches 26 px */
+  .flb-sw{align-items:flex-start}
+  .flb .flb-sl,.flb .flb-sr{display:flex!important;flex:none;width:26px;height:26px;margin-top:20px;align-items:center;justify-content:center;color:var(--flb-text)}
+  .flb .flb-sl{margin-left:-3px}.flb .flb-sr{margin-right:-3px}
+  .flb-strip{gap:0;height:70px;margin:0 16px}
+  .flb .flb-th{box-sizing:content-box;width:70px;height:60px;margin:0 13px;border:1px solid var(--flb-line);border-radius:3px;overflow:hidden;background:none}
+  .flb .flb-th.on{border:2px solid var(--flb-accent)}
+  .flb-th img,.flb-th.on img{width:100%;height:100%;border:0;border-radius:0;box-sizing:border-box}
+  .flb-pin{display:flex!important;position:absolute;top:8px;right:20px;width:26px;height:26px;align-items:center;justify-content:center;opacity:.7}
+  .flb-pin:hover{opacity:1}
+  .flb .flb-pin[aria-pressed="true"]{color:var(--flb-accent);opacity:1}
+  .flb.flb-idle .flb-top,.flb.flb-idle .flb-bot{opacity:0;pointer-events:none}
+  .flb.flb-idle{cursor:none}
+  .flb-single .flb-view{bottom:20px}
+}
+@media (prefers-reduced-motion:reduce){.flb,.flb *{transition:none!important}}
+</style><script>/* Visionneuse d'images façon Fandom (lightbox) — autonome, sans réseau.
+   Mobile (< 761 px) : plein écran noir, en-tête titre + ✕, légende en bas, bande de vignettes,
+   toucher l'image = masquer/afficher l'interface, toucher à côté = fermer, geste rapide = image suivante, pincer / double-toucher = zoom.
+   Ordinateur : barre du haut (titre, « Voir en taille réelle », légende, ✕), flèches, barre du bas
+   (« 3 sur 15 » + carrousel), cadenas pour épingler les barres (sinon masquées après 3 s d'inactivité).
+   Clavier : ← → Échap. Bouton Retour du téléphone : ferme la visionneuse.
+   Une image dans un lien, ou avec data-nolightbox, n'ouvre pas la visionneuse. */
+(function () {
+  if (window.__fandomLightbox) return; window.__fandomLightbox = true;
+  var D = document, H = D.documentElement;
+  var ICON = {
+    info: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9.5"/><path d="M12 11v6"/><path d="M12 7.5h.01" stroke-width="2.8"/></svg>',
+    x: '<svg class="flb-ic-d" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l14 14M19 5 5 19"/></svg>',
+    l: '<svg class="flb-ic-d" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>',
+    r: '<svg class="flb-ic-d" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
+    /* tour 91 : icônes façon Atelier (index 7) pour le mobile — chevrons et croix trait 2.4 */
+    lc: '<svg class="flb-ic-m" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>',
+    rc: '<svg class="flb-ic-m" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>',
+    xc: '<svg class="flb-ic-m" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>',
+    cl: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>',
+    cr: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>',
+    lockOpen: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11V7a4 4 0 0 1 7.5-2"/></svg>',
+    lock: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>'
+  };
+
+  /* ---------- quelles images ---------- */
+  function eligible(img, needVisible) {
+    if (!img || img.tagName !== 'IMG' || img.closest('.flb')) return false;
+    if (img.hasAttribute('data-nolightbox') || img.closest('[data-nolightbox]')) return false;
+    var a = img.closest('a[href]'); if (a && a.getAttribute('href') !== '#') return false;
+    if (!img.currentSrc && !img.getAttribute('src')) return false;
+    if (needVisible === false) return true;
+    if (!img.offsetParent && getComputedStyle(img).position !== 'fixed') return false;
+    var r = img.getBoundingClientRect(); return r.width >= 48 || r.height >= 48;
+  }
+  function groupFor(img) {
+    var scope = img.closest('[data-lb-group]') || D;
+    return Array.prototype.filter.call(scope.querySelectorAll('img'), function (i) { return eligible(i); });
+  }
+  function textOf(img) {
+    var fig = img.closest('figure'), cap = '';
+    if (fig) { var fc = fig.querySelector('figcaption'); if (fc) cap = fc.textContent.trim(); }
+    if (!cap) { var gi = img.closest('.wikia-gallery-item, .lbx-gitem, .gallerybox'); /* légende de galerie (Fandom / MediaWiki) — tour 86 */
+      if (gi) { var gc = gi.querySelector('.lightbox-caption, .lbx-gcap, .gallerytext'); if (gc) cap = gc.textContent.trim(); } }
+    if (!cap) { var ib = img.closest('.infobox'); if (ib) { var ic = ib.querySelector('.ib-cap'); if (ic) cap = ic.textContent.trim(); } }
+    if (!cap) cap = img.getAttribute('data-caption') || img.getAttribute('title') || '';
+    var alt = (img.getAttribute('alt') || '').trim();
+    var title = img.getAttribute('data-title') || (alt && alt.length <= 70 ? alt : '');
+    if (!title) { var src0 = alt || cap, m = src0.match(/^(.{2,60}?)\s*[:—–.]\s/); if (m) title = m[1]; }
+    if (!cap && alt && alt !== title) cap = alt;
+    if (cap === title) cap = '';
+    return { title: title, cap: cap, user: img.getAttribute('data-user') || '', desc: img.getAttribute('data-desc') || '' };
+  }
+
+  /* ---------- construction ---------- */
+  var el, imgEl, view, strip, list = [], idx = 0, lastFocus = null, pushed = false, pinned = false, idleT = 0;
+  var z = { s: 1, x: 0, y: 0 };
+  function build() {
+    el = D.createElement('div'); el.className = 'flb'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true');
+    el.setAttribute('aria-label', "Visionneuse d'images"); el.tabIndex = -1; el.hidden = true;
+    el.innerHTML =
+      '<div class="flb-top"><div class="flb-tl"><div class="flb-t1"><span class="flb-title"></span>' +
+      '<button type="button" class="flb-full">Voir en taille réelle</button></div><div class="flb-capd"></div></div>' +
+      '<span class="flb-cnt-m"></span><button type="button" class="flb-info flb-info-top" aria-label="Informations sur l\u2019image">' + ICON.info + '</button><button type="button" class="flb-x" aria-label="Fermer">' + ICON.x + ICON.xc + '</button></div>' +
+      '<div class="flb-stage"><div class="flb-view"><img class="flb-img" alt="" draggable="false"></div>' +
+      '<button type="button" class="flb-arrow flb-prev" aria-label="Image précédente">' + ICON.l + ICON.lc + '</button>' +
+      '<button type="button" class="flb-arrow flb-next" aria-label="Image suivante">' + ICON.r + ICON.rc + '</button></div>' +
+      '<div class="flb-bot"><div class="flb-capm" role="button" tabindex="0" aria-label="Déplier la légende"></div>' +
+      '<div class="flb-row"><div class="flb-cnt"></div><button type="button" class="flb-info flb-info-bot" aria-label="Informations sur l\u2019image">' + ICON.info + '</button></div><div class="flb-sw"><button type="button" class="flb-sl" aria-label="Vignettes précédentes">' + ICON.cl + '</button>' +
+      '<div class="flb-strip" role="listbox" aria-label="Toutes les images"></div>' +
+      '<button type="button" class="flb-sr" aria-label="Vignettes suivantes">' + ICON.cr + '</button>' +
+      '<button type="button" class="flb-pin" aria-pressed="false" title="Épingler les barres">' + ICON.lockOpen + '</button></div></div>';
+    D.body.appendChild(el);
+    imgEl = el.querySelector('.flb-img'); view = el.querySelector('.flb-view'); strip = el.querySelector('.flb-strip');
+    el.querySelector('.flb-x').onclick = function () { close(); };
+    el.querySelector('.flb-prev').onclick = function (e) { e.stopPropagation(); go(idx - 1); };
+    el.querySelector('.flb-next').onclick = function (e) { e.stopPropagation(); go(idx + 1); };
+    el.querySelector('.flb-sl').onclick = function () { strip.scrollBy({ left: -strip.clientWidth * .8, behavior: 'smooth' }); };
+    el.querySelector('.flb-sr').onclick = function () { strip.scrollBy({ left: strip.clientWidth * .8, behavior: 'smooth' }); };
+    el.querySelector('.flb-full').onclick = function (e) { e.stopPropagation(); fullSize(); };
+    var capm = el.querySelector('.flb-capm');
+    capm.onclick = function (e) { e.stopPropagation(); capm.classList.toggle('open'); };
+    capm.onkeydown = function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); capm.classList.toggle('open'); } };
+    var pin = el.querySelector('.flb-pin');
+    pin.onclick = function () { pinned = !pinned; pin.setAttribute('aria-pressed', pinned); pin.innerHTML = pinned ? ICON.lock : ICON.lockOpen; poke(); };
+    strip.addEventListener('click', function (e) { var b = e.target.closest('.flb-th'); if (b) go(+b.dataset.i); });
+    el.addEventListener('mousemove', poke, { passive: true });
+    el.addEventListener('keydown', onKey);
+    Array.prototype.forEach.call(el.querySelectorAll('.flb-info'), function (b) { b.onclick = function (e) { e.stopPropagation(); info(); }; });
+    el.addEventListener('click', function (e) {
+      var t = e.target;
+      if (t.classList && (t.classList.contains('flb-top') || t.classList.contains('flb-tl') || t.classList.contains('flb-bot') || t.classList.contains('flb-sw') || t.classList.contains('flb-strip') || t.classList.contains('flb-cnt') || t.classList.contains('flb-stage') || t.classList.contains('flb-row'))) close();
+    });
+    gestures();
+  }
+  function isMobile() { return window.innerWidth < 761; }
+
+  /* ---------- fenêtre « infos » (comme le bouton ⓘ de Fandom mobile) ---------- */
+  function info() {
+    closeInfo(); var t = textOf(list[idx]), d = D.createElement('div');
+    d.className = 'flb-dlg';
+    d.innerHTML = '<div class="flb-dlg-box" role="dialog" aria-modal="true" aria-label="Informations"><div class="flb-dlg-in">' +
+      '<h3>' + esc(t.title || ('Image ' + (idx + 1))) + '</h3>' + (t.cap ? '<p>' + esc(t.cap) + '</p>' : '') +
+      (t.desc ? '<p class="flb-dlg-desc">' + esc(t.desc) + '</p>' : '') + (t.user ? '<p class="flb-dlg-by">Ajoutée par ' + esc(t.user) + '</p>' : '') +
+      (!t.cap && !t.desc && !t.user ? '<p class="flb-dlg-by">Aucune information supplémentaire.</p>' : '') +
+      '</div><div class="flb-dlg-act"><button type="button">Fermer</button></div></div>';
+    d.addEventListener('click', function (e) { e.stopPropagation(); if (e.target === d || e.target.closest('.flb-dlg-act button')) closeInfo(); });
+    d.addEventListener('pointerdown', function (e) { e.stopPropagation(); });
+    el.appendChild(d); d.querySelector('.flb-dlg-act button').focus();
+  }
+  function closeInfo() { var d = el && el.querySelector('.flb-dlg'); if (d) { d.remove(); return true; } return false; }
+
+  /* ---------- ouverture / fermeture ---------- */
+  function theme() {
+    // clair ou sombre selon le fond de la page, couleur d'accent = couleur des liens
+    var bg = getComputedStyle(D.body).backgroundColor, m = bg.match(/\d+(\.\d+)?/g) || [255, 255, 255];
+    var a = m.length > 3 ? +m[3] : 1, lum = (0.299 * m[0] + 0.587 * m[1] + 0.114 * m[2]);
+    el.classList.toggle('flb-dark', a > 0.1 && lum < 128);
+    var link = D.querySelector('.mw-parser-output a[href]') || D.querySelector('main a[href]') || D.querySelector('article a[href]') || D.querySelector('a[href]'), acc = link ? getComputedStyle(link).color : '';
+    var custom = D.body.getAttribute('data-lb-accent');
+    el.style.setProperty('--flb-accent', custom || acc || '#00cdd0');
+  }
+  function open(group, start) {
+    if (!el) build();
+    list = group; idx = Math.max(0, list.indexOf(start));
+    theme(); lastFocus = D.activeElement;
+    strip.innerHTML = list.map(function (im, i) {
+      var t = textOf(im);
+      return '<button type="button" class="flb-th" role="option" data-i="' + i + '" aria-label="Image ' + (i + 1) + (t.title ? ' : ' + esc(t.title) : '') + '"><img src="' + esc(im.currentSrc || im.src) + '" alt="" loading="lazy" draggable="false"></button>';
+    }).join('');
+    el.classList.toggle('flb-single', list.length < 2);
+    el.hidden = false; H.classList.add('flb-open');
+    requestAnimationFrame(function () { el.classList.add('open'); });
+    /* tour 93 : body[data-lb-nohistory] = la page gère elle-même le bouton retour (ex. l'Atelier et sa pile navPush) */
+    if (!D.body.hasAttribute('data-lb-nohistory')) { try { history.pushState({ flb: 1 }, ''); pushed = true; } catch (e) { pushed = false; } }
+    show(); el.focus({ preventScroll: true }); poke();
+  }
+  function close(fromPop, silent) {
+    if (!el || el.hidden) return;
+    closeInfo(); el.classList.remove('open', 'flb-ui-hidden', 'flb-idle'); el.hidden = true; H.classList.remove('flb-open');
+    resetZoom(); clearTimeout(idleT);
+    if (pushed && !fromPop) { pushed = false; try { history.back(); } catch (e) {} }
+    pushed = false;
+    if (lastFocus && lastFocus.focus) try { lastFocus.focus({ preventScroll: true }); } catch (e) {}
+    /* tour 93 : prévient la page qu'on a fermé (✕, Échap, toucher le vide…) — pas envoyé si la page ferme elle-même (silent) */
+    if (!silent) try { D.dispatchEvent(new CustomEvent('flb:close')); } catch (e) {}
+  }
+  window.addEventListener('popstate', function () { if (D.body.hasAttribute('data-lb-nohistory')) return; if (el && !el.hidden) { pushed = false; close(true); } });
+
+  function go(i) {
+    if (!list.length) return;
+    idx = (i + list.length) % list.length; show();
+  }
+  function show() {
+    var im = list[idx], t = textOf(im), src = im.currentSrc || im.src;
+    resetZoom(); el.classList.remove('flb-natural');
+    imgEl.classList.remove('in'); imgEl.onload = function () { imgEl.classList.add('in'); updateFull(); };
+    imgEl.src = src; imgEl.alt = t.title || t.cap || ('Image ' + (idx + 1));
+    if (imgEl.complete) { imgEl.classList.add('in'); updateFull(); }
+    var title = t.title || ('Image ' + (idx + 1));
+    el.querySelector('.flb-title').textContent = title;
+    el.querySelector('.flb-capd').textContent = t.cap;
+    var capm = el.querySelector('.flb-capm'); capm.textContent = t.cap; capm.classList.remove('open'); capm.hidden = !t.cap;
+    el.querySelector('.flb-cnt').innerHTML = '<span class="flb-cnt-mob">' + (idx + 1) + ' / ' + list.length + '</span><span class="flb-cnt-desk"><b>' + (idx + 1) + '</b> sur <b>' + list.length + '</b></span>';
+    el.querySelector('.flb-cnt-m').textContent = list.length > 1 ? (idx + 1) + ' / ' + list.length : '';
+    Array.prototype.forEach.call(strip.children, function (b, i) {
+      var on = i === idx; b.classList.toggle('on', on); b.setAttribute('aria-selected', on);
+      if (on) { var l = b.offsetLeft - (strip.clientWidth - b.offsetWidth) / 2; strip.scrollTo({ left: l, behavior: 'smooth' }); }
+    });
+    [idx + 1, idx - 1].forEach(function (k) { var n = list[(k + list.length) % list.length]; if (n) { var p = new Image(); p.src = n.currentSrc || n.src; } });
+  }
+  function updateFull() {
+    var b = el.querySelector('.flb-full'), r = imgEl.getBoundingClientRect();
+    b.hidden = !(imgEl.naturalWidth > r.width / z.s + 2);
+  }
+  function fullSize() {
+    if (z.s > 1) { resetZoom(); el.classList.remove('flb-natural'); return; }
+    var r = imgEl.getBoundingClientRect(); if (!r.width) return;
+    z.s = Math.min(8, imgEl.naturalWidth / r.width); z.x = 0; z.y = 0; apply(); el.classList.add('flb-natural');
+  }
+
+  /* ---------- barres masquées après inactivité (ordinateur) ---------- */
+  function poke() {
+    el.classList.remove('flb-idle'); clearTimeout(idleT);
+    if (!pinned && !isMobile()) idleT = setTimeout(function () { el.classList.add('flb-idle'); }, 3000);
+  }
+
+  /* ---------- clavier ---------- */
+  function onKey(e) {
+    if (e.key === 'Escape') { e.preventDefault(); if (!closeInfo()) close(); }
+    else if (el.querySelector('.flb-dlg')) { if (e.key !== 'Tab') return; }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); go(idx + 1); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); go(idx - 1); }
+    else if (e.key === 'Tab') { // garder le focus dans la visionneuse
+      var f = Array.prototype.filter.call(el.querySelectorAll('button,[tabindex="0"]'), function (b) { return !b.hidden && b.offsetParent; });
+      if (!f.length) return; var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && (D.activeElement === first || D.activeElement === el)) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && D.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+    poke();
+  }
+
+  /* ---------- zoom, glisser, toucher ---------- */
+  function apply() { imgEl.style.transform = 'translate(' + z.x + 'px,' + z.y + 'px) scale(' + z.s + ')'; el.classList.toggle('flb-zoomed', z.s > 1.01); }
+  function resetZoom() { z.s = 1; z.x = 0; z.y = 0; if (imgEl) { imgEl.style.transform = ''; el.classList.remove('flb-zoomed'); } }
+  function clampPan() {
+    var r = view.getBoundingClientRect(), w = imgEl.offsetWidth * z.s, h = imgEl.offsetHeight * z.s;
+    var mx = Math.max(0, (w - r.width) / 2), my = Math.max(0, (h - r.height) / 2);
+    z.x = Math.max(-mx, Math.min(mx, z.x)); z.y = Math.max(-my, Math.min(my, z.y));
+  }
+  function zoomAt(cx, cy, ns) {
+    var r = view.getBoundingClientRect(), ox = cx - (r.left + r.width / 2), oy = cy - (r.top + r.height / 2);
+    var k = ns / z.s; z.x = ox - (ox - z.x) * k; z.y = oy - (oy - z.y) * k; z.s = ns;
+    if (z.s <= 1.01) { resetZoom(); return; } clampPan(); apply();
+  }
+  function gestures() {
+    var pts = {}, start = null, pinch = null, lastTap = 0, tapT = 0, moved = false;
+    view.addEventListener('pointerdown', function (e) {
+      if (e.target.closest('button')) return;
+      view.setPointerCapture(e.pointerId); pts[e.pointerId] = { x: e.clientX, y: e.clientY };
+      var ids = Object.keys(pts);
+      if (ids.length === 1) { start = { x: e.clientX, y: e.clientY, zx: z.x, zy: z.y, t: Date.now() }; moved = false; }
+      if (ids.length === 2) {
+        var a = pts[ids[0]], b = pts[ids[1]];
+        pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), s: z.s, cx: (a.x + b.x) / 2, cy: (a.y + b.y) / 2 };
+      }
+    });
+    view.addEventListener('pointermove', function (e) {
+      if (!pts[e.pointerId]) return; pts[e.pointerId] = { x: e.clientX, y: e.clientY };
+      var ids = Object.keys(pts);
+      if (ids.length === 2 && pinch) {
+        var a = pts[ids[0]], b = pts[ids[1]], d = Math.hypot(a.x - b.x, a.y - b.y);
+        zoomAt(pinch.cx, pinch.cy, Math.max(1, Math.min(6, pinch.s * d / pinch.d))); moved = true; return;
+      }
+      if (!start) return;
+      var dx = e.clientX - start.x, dy = e.clientY - start.y;
+      if (Math.abs(dx) > 8 || Math.abs(dy) > 8) moved = true;
+      if (z.s > 1.01) { z.x = start.zx + dx; z.y = start.zy + dy; clampPan(); apply(); }
+    });
+    function end(e) {
+      if (!pts[e.pointerId]) return; delete pts[e.pointerId];
+      if (Object.keys(pts).length) { start = null; return; }
+      if (pinch) { pinch = null; start = null; return; }
+      if (!start) return;
+      var dx = e.clientX - start.x, dy = e.clientY - start.y, s = start; start = null;
+      if (z.s <= 1.01 && moved) {
+        // l'image ne suit plus le doigt : un geste rapide gauche/droite change seulement d'image
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { go(idx + (dx < 0 ? 1 : -1)); }
+        return;
+      }
+      if (moved) return;
+      // toucher / clic : dans le vide (hors de l'image) = fermer tout de suite
+      var r = imgEl.getBoundingClientRect();
+      var onImg = e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+      if (!onImg && z.s <= 1.01) { clearTimeout(tapT); lastTap = 0; close(); return; }
+      var now = Date.now();
+      if (now - lastTap < 300) { // double toucher = zoom
+        clearTimeout(tapT); lastTap = 0;
+        if (z.s > 1.01) { resetZoom(); el.classList.remove('flb-natural'); } else zoomAt(e.clientX, e.clientY, 2.5);
+        return;
+      }
+      lastTap = now;
+      tapT = setTimeout(function () { if (isMobile()) el.classList.toggle('flb-ui-hidden'); }, 300);
+    }
+    view.addEventListener('pointerup', end); view.addEventListener('pointercancel', end);
+    view.addEventListener('dblclick', function (e) { e.preventDefault(); });
+    view.addEventListener('wheel', function (e) { e.preventDefault(); if (e.ctrlKey || z.s > 1.01) zoomAt(e.clientX, e.clientY, Math.max(1, Math.min(6, z.s * (e.deltaY < 0 ? 1.15 : 0.87)))); }, { passive: false });
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+
+  /* ---------- déclencheurs ---------- */
+  /* tour 92 : body[data-lb-manual] = la page ouvre elle-même la visionneuse via window.FLB.open (ex. l'Atelier) */
+  function manual() { return !!(D.body && D.body.hasAttribute('data-lb-manual')); }
+  D.addEventListener('click', function (e) {
+    if (manual()) return;
+    var img = e.target.closest && e.target.closest('img');
+    if (!img || !eligible(img)) return;
+    e.preventDefault(); e.stopPropagation(); open(groupFor(img), img);
+  }, true);
+  D.addEventListener('keydown', function (e) {
+    if (manual()) return;
+    var img = e.target; if ((e.key === 'Enter' || e.key === ' ') && img && img.tagName === 'IMG' && eligible(img)) { e.preventDefault(); open(groupFor(img), img); }
+  });
+  function mark(root) {
+    if (manual()) return;
+    Array.prototype.forEach.call((root || D).querySelectorAll('img'), function (i) {
+      if (i.closest('.flb') || i.dataset.lbMarked) return;
+      if (!eligible(i, false) && !i.hasAttribute('data-img')) return;
+      if (i.closest('a[href]:not([href="#"])') || i.hasAttribute('data-nolightbox')) return;
+      i.dataset.lbMarked = '1'; i.classList.add('flb-able'); i.tabIndex = 0; i.setAttribute('role', 'button');
+      if (!i.getAttribute('aria-label')) i.setAttribute('aria-label', 'Agrandir l\u2019image' + (i.alt ? ' : ' + i.alt : ''));
+    });
+  }
+  /* tour 92 : API publique — FLB.open(img) ouvre le groupe de l'image ; FLB.open([img, ...], imgDeDépart) ouvre une liste
+     (les images peuvent être créées à la volée : new Image() + data-title / data-caption) ; FLB.close() ferme */
+  window.FLB = {
+    open: function (a, start) {
+      if (Array.isArray(a)) { if (a.length) open(a, start && a.indexOf(start) >= 0 ? start : a[0]); }
+      else if (a && a.tagName === 'IMG') open(groupFor(a).indexOf(a) >= 0 ? groupFor(a) : [a], a);
+    },
+    close: function (silent) { close(false, !!silent); },
+    isOpen: function () { return !!(el && !el.hidden); }
+  };
+  if (D.readyState === 'loading') D.addEventListener('DOMContentLoaded', function () { mark(); }); else mark();
+})();
+</script><!--FLB-END--></body></html>

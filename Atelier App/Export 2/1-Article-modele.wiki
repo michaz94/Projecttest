@@ -1,0 +1,112 @@
+<!--
+  ════════════════════════════════
+  MODÈLE D'ARTICLE GÉNÉRIQUE — MediaWiki / Fandom
+  ────────────────────────────────
+  Mode d'emploi :
+  1. Crée une nouvelle page, passe en mode « Source » (wikitexte).
+  2. Colle tout ce fichier.
+  3. Remplace chaque « À compléter » par ton texte.
+  4. Supprime les sections qui ne servent pas (titre + contenu).
+  5. Les commentaires <!- - … - -> (comme celui-ci) sont invisibles
+     à l'affichage : tu peux les laisser ou les effacer.
+
+  Prérequis : la page « Modèle:Infobox article » doit exister
+  (fichier 2-Modele-Infobox-article.wiki).
+  ════════════════════════════════
+-->
+<!-- ── BANDEAUX (facultatif) ────
+  Ex. : {{Ébauche}}, {{Spoiler}}, {{À vérifier}} si ces modèles
+  existent sur ton wiki. Sinon, supprime cette ligne.
+-->
+
+<!-- ── INFOBOX ──────────────────
+  Encadré à droite avec les informations clés.
+  Laisse un champ vide (rien après le =) pour qu'il soit masqué.
+-->
+{{Infobox article
+| titre      = {{PAGENAME}}
+| image      = <!-- Nom du fichier sans « Fichier: », ex. Exemple.png -->
+| légende    = <!-- Courte légende sous l'image -->
+| type       = <!-- Nature du sujet : personnage, lieu, objet, concept… -->
+| origine    = <!-- Œuvre, univers ou source d'où vient le sujet -->
+| créateur   = <!-- Auteur / créateur -->
+| première   = <!-- Première apparition / date de création -->
+| statut     = <!-- Statut actuel -->
+| lié        = <!-- Sujets liés, en [[liens internes]] -->
+}}
+
+<!-- ── INTRODUCTION (sans titre) ───
+  1 à 3 phrases. Le nom du sujet en gras au début : '''Nom'''.
+  Dis ce qu'est le sujet et pourquoi il est notable.
+-->
+'''{{PAGENAME}}''' est ''À compléter''.
+
+<!-- Le sommaire s'affiche automatiquement dès 4 titres.
+     __TOC__ le place ici ; __NOTOC__ le masque ; __FORCETOC__ le force. -->
+__TOC__
+
+== Présentation ==
+<!-- Vue d'ensemble : ce qu'est le sujet, ses caractéristiques
+     principales, en quelques paragraphes. -->
+''À compléter''
+
+== Histoire ==
+<!-- Origine et évolution du sujet, dans l'ordre chronologique.
+     Utilise des sous-sections === … === si c'est long. -->
+=== Origines ===
+<!-- Comment et quand le sujet est apparu. -->
+''À compléter''
+
+=== Évolution ===
+<!-- Les changements marquants ensuite. -->
+''À compléter''
+
+== Caractéristiques ==
+<!-- Détails concrets : apparence, fonctionnement, règles,
+     capacités… selon le type de sujet. Liste possible :
+     * Point 1
+     * Point 2
+-->
+''À compléter''
+
+== Influences et inspirations ==
+<!-- Ce qui a inspiré le sujet, ou ce qu'il a inspiré.
+     Chaque affirmation factuelle doit avoir une source <ref>…</ref>. -->
+''À compléter''
+
+== Anecdotes ==
+<!-- Faits secondaires intéressants, en liste à puces.
+     Un fait par puce, sourcé si possible. -->
+* ''À compléter''
+
+== Galerie ==
+<!-- Une image par ligne : Fichier.ext|Légende -->
+<gallery>
+<!-- Exemple.png|Légende -->
+</gallery>
+
+== Voir aussi ==
+<!-- Liens vers d'autres pages DU WIKI. -->
+* [[À compléter]]
+
+== Références ==
+<!-- Rien à écrire ici : la liste se remplit toute seule avec
+     les <ref>…</ref> placés dans le texte.
+     Syntaxe : Texte.<ref>[https://adresse.exemple Titre de la source]</ref>
+     Réutiliser une source : <ref name="nom">…</ref> puis <ref name="nom" /> -->
+<references />
+
+== Liens externes ==
+<!-- Liens vers des sites extérieurs. Syntaxe :
+     * [https://adresse.exemple Texte du lien] -->
+* ''À compléter''
+
+<!-- ── NAVIGATION (facultatif) ───
+  Boîte de navigation en bas de page, ex. {{Palette Univers}}.
+-->
+
+<!-- ── CATÉGORIES ───────────────
+  Toujours en toute fin de page. Une par ligne.
+  Sur un wiki francophone, « Catégorie: » et « Category: » marchent.
+-->
+[[Catégorie:À compléter]]

@@ -1,0 +1,108 @@
+<!--
+  ════════════════════════════════
+  MODÈLE D'ARTICLE GÉNÉRIQUE — Fandom
+  ────────────────────────────────
+  Mode d'emploi :
+  1. Crée une nouvelle page. Dans l'éditeur, choisis
+     « Modifier la source » (éditeur de source, pas VisualEditor).
+  2. Colle tout ce fichier.
+  3. Remplace chaque « À compléter » par ton texte.
+  4. Supprime les sections qui ne servent pas (titre + contenu).
+  5. Les commentaires <!- - … - -> (comme celui-ci) sont invisibles
+     à l'affichage : tu peux les laisser ou les effacer.
+
+  Prérequis : la page « Modèle:Infobox article » doit exister
+  (fichier 2-Modele-Infobox-article-portable.wiki).
+  ════════════════════════════════
+-->
+<!-- ── BANDEAUX (facultatif) ────
+  Ex. : {{Ébauche}}, {{Spoiler}}, {{À vérifier}} si ces modèles
+  existent sur ton wiki. Sinon, supprime cette ligne.
+-->
+
+<!-- ── INFOBOX ──────────────────
+  Encadré avec les informations clés : à droite sur ordinateur,
+  en haut de l'article sur mobile (infobox « portable » Fandom).
+  Laisse un champ vide (rien après le =) pour qu'il soit masqué.
+-->
+{{Infobox article
+| titre      = {{PAGENAME}}
+| image      = <!-- Nom du fichier sans « Fichier: », ex. Exemple.png -->
+| légende    = <!-- Courte légende sous l'image -->
+<!-- Groupe « Informations générales » -->
+| type       = <!-- Nature du sujet : personnage, lieu, objet, concept… -->
+| origine    = <!-- Œuvre, univers ou source d'où vient le sujet -->
+| statut     = <!-- Statut actuel -->
+| lié        = <!-- Sujets liés, en [[liens internes]] -->
+<!-- Groupe « Création » -->
+| créateur   = <!-- Auteur / créateur -->
+| première   = <!-- Première apparition / date de création -->
+}}
+
+<!-- ── INTRODUCTION (sans titre) ───
+  1 à 3 phrases. Le nom du sujet en gras au début : '''Nom'''.
+  Dis ce qu'est le sujet et pourquoi il est notable.
+-->
+'''{{PAGENAME}}''' est ''À compléter''.
+
+<!-- Le sommaire se crée automatiquement dès 4 titres.
+     Sur ordinateur : bloc « Sommaire » dans l'article.
+     Sur mobile Fandom : il n'est PAS dans la page, il est dans le
+     menu ☰, rubrique « Sommaire ».
+     __TOC__ le place ici ; __NOTOC__ le masque ; __FORCETOC__ le force. -->
+__TOC__
+
+== Présentation ==
+<!-- Vue d'ensemble : ce qu'est le sujet, ses caractéristiques
+     principales, en quelques paragraphes. -->
+''À compléter''
+
+== Histoire ==
+<!-- Origine et évolution du sujet, dans l'ordre chronologique.
+     Utilise des sous-sections === … === si c'est long. -->
+=== Origines ===
+<!-- Comment et quand le sujet est apparu. -->
+''À compléter''
+
+=== Évolution ===
+<!-- Les changements marquants ensuite. -->
+''À compléter''
+
+== Caractéristiques ==
+<!-- Détails concrets : apparence, fonctionnement, règles,
+     capacités… selon le type de sujet. Liste possible :
+     * Point 1
+     * Point 2
+-->
+''À compléter''
+
+== Anecdotes ==
+<!-- Faits secondaires intéressants, en liste à puces.
+     Un fait par puce, sourcé si possible. -->
+* ''À compléter''
+
+<!-- ── SECTIONS FACULTATIVES ─────
+  Les vrais articles Fandom restent courts en sections. Si besoin,
+  ajoute-les ici (avant « Références ») :
+  == Influences ==   (ce qui a inspiré le sujet, sourcé <ref>…</ref>)
+  == Galerie ==      (<gallery> … </gallery>) — sur beaucoup de wikis,
+                     la galerie est plutôt une sous-page en onglet :
+                     « Titre/Galerie ».
+-->
+
+== Références ==
+<!-- Rien à écrire ici : la liste se remplit toute seule avec
+     les <ref>…</ref> placés dans le texte.
+     Syntaxe : Texte.<ref>[https://adresse.exemple Titre de la source]</ref>
+     Réutiliser une source : <ref name="nom">…</ref> puis <ref name="nom" /> -->
+<references />
+
+<!-- ── NAVIGATION (facultatif) ───
+  Boîte de navigation en bas de page, ex. {{Palette Univers}}.
+-->
+
+<!-- ── CATÉGORIES ───────────────
+  Toujours en toute fin de page. Une par ligne.
+  Sur un wiki francophone, « Catégorie: » et « Category: » marchent.
+-->
+[[Catégorie:À compléter]]

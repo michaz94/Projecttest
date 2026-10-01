@@ -1,0 +1,70 @@
+<infobox>
+  <title source="titre">
+    <default>{{PAGENAME}}</default>
+  </title>
+  <image source="image">
+    <caption source="légende"/>
+  </image>
+  <group>
+    <header>Informations générales</header>
+    <data source="type"><label>Type</label></data>
+    <data source="origine"><label>Origine</label></data>
+    <data source="statut"><label>Statut</label></data>
+    <data source="lié"><label>Lié à</label></data>
+  </group>
+  <group collapse="open">
+    <header>Création</header>
+    <data source="créateur"><label>Créateur</label></data>
+    <data source="première"><label>Première apparition</label></data>
+  </group>
+</infobox><noinclude>
+== Documentation ==
+<!-- Cette partie n'apparaît que sur la page du modèle, pas dans les articles. -->
+Infobox « portable » générique pour les articles. C'est le format d'infobox recommandé par Fandom : il s'adapte tout seul à l'ordinateur et au mobile, et un champ vide est masqué automatiquement (pas besoin de <code>#if</code>). Un groupe dont tous les champs sont vides disparaît aussi, avec son titre.
+
+'''Groupes :''' « Informations générales » et « Création ». <code>collapse="open"</code> rend le titre du groupe cliquable (repliable) sur ordinateur.
+
+'''À créer sous le nom :''' <code>Modèle:Infobox article</code>
+
+'''Couleurs :''' elles viennent du thème du wiki (Thème Designer). Pour les personnaliser, utiliser <code>MediaWiki:Fandomdesktop.css</code> et <code>MediaWiki:FandomMobile.css</code> (classe <code>.portable-infobox</code>).
+
+'''Utilisation :''' copier dans l'article et remplir les champs.
+<pre>
+{{Infobox article
+| titre      =
+| image      =
+| légende    =
+| type       =
+| origine    =
+| statut     =
+| lié        =
+| créateur   =
+| première   =
+}}
+</pre>
+
+'''Paramètres :'''
+{| class="wikitable"
+! Paramètre !! Rôle
+|-
+| <code>titre</code> || Titre de l'infobox (par défaut : nom de la page)
+|-
+| <code>image</code> || Nom du fichier, sans « Fichier: »
+|-
+| <code>légende</code> || Texte sous l'image
+|-
+| <code>type</code> || Nature du sujet
+|-
+| <code>origine</code> || Œuvre / univers d'origine
+|-
+| <code>créateur</code> || Auteur ou créateur
+|-
+| <code>première</code> || Première apparition ou date
+|-
+| <code>statut</code> || Statut actuel
+|-
+| <code>lié</code> || Sujets liés (liens internes)
+|}
+
+[[Catégorie:Modèles d'infobox]]
+</noinclude>
