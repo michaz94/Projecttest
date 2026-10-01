@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>World Anvil — fonctionnalités, comparaison Fandom et ton app</title>
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:#141519;color:#e6e6e6;font:16px/1.72 Manrope,"Segoe UI",system-ui,sans-serif}
+.wrap{max-width:880px;margin:0 auto;padding:22px 18px 80px}
+h1{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:600;font-size:31px;letter-spacing:.5px;text-transform:uppercase;color:#fff;margin:.2em 0 .1em}
+.sub{color:#9aa0a6;font-size:14px;margin-bottom:18px}
+h2{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:600;font-size:27px;text-transform:uppercase;color:#fff;border-bottom:1px solid #333;margin:1.6em 0 .5em;padding-bottom:6px}
+h2 .seg{display:inline-block;width:90px;height:3px;background:#eebf4d;vertical-align:middle;margin-left:10px}
+h3{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:600;font-size:22px;color:#ffc24a;margin:0 0 8px}
+.card{background:#1c1e25;border:1px solid #2a2d36;border-radius:8px;padding:16px 18px;margin:14px 0}
+.card h3 .chip{display:inline-block;font:600 11px/1 Manrope,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#141519;background:#eebf4d;border-radius:3px;padding:4px 7px;vertical-align:3px;margin-left:8px}
+.card h3 .chip.b{background:#4cc38a}.card h3 .chip.c{background:#4da3ff}.card h3 .chip.d{background:#8f7bff}
+.card h3 .chip.e{background:#ff7a5c}.card h3 .chip.f{background:#5fd4e6}.card h3 .chip.g{background:#9aa0a6}
+.row{margin:7px 0;font-size:15px}
+.row b.k{color:#ffc24a;display:inline;min-width:0}
+.pres{display:inline-block;font-weight:700;border-radius:3px;padding:1px 7px;font-size:13px}
+.pres.oui{background:#173627;color:#4cc38a;border:1px solid #4cc38a}
+.pres.part{background:#3a2f14;color:#eebf4d;border:1px solid #eebf4d}
+.pres.non{background:#3a1c1c;color:#ff7a5c;border:1px solid #ff7a5c}
+.visu{background:#101116;border:1px solid #2a2d36;border-radius:6px;margin:10px 0;padding:10px;text-align:center}
+.visu .cap{display:block;color:#9aa0a6;font-size:12.5px;margin-top:6px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0}
+th{color:#ffc24a;text-align:left;border-bottom:1px solid #444;padding:6px 8px;font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-size:15px;letter-spacing:.5px;text-transform:uppercase}
+td{border-bottom:1px solid #262932;padding:6px 8px;vertical-align:top}
+.note{background:#20222b;border-left:3px solid #eebf4d;border-radius:4px;padding:10px 14px;font-size:14.5px;margin:12px 0}
+.note.warn{border-left-color:#ff7a5c}
+.note.blue{border-left-color:#4da3ff}
+.som{background:#1c1e25;border:1px solid #2a2d36;border-radius:8px;padding:12px 16px;position:sticky;top:8px;z-index:5;font-size:13.5px}
+.som a{color:#eebf4d;text-decoration:none;margin-right:12px;white-space:nowrap}
+.src{font-size:13px;color:#9aa0a6}
+.src a{color:#4fd6e0;word-break:break-all}
+code{background:#101116;border:1px solid #2a2d36;border-radius:3px;padding:1px 5px;font:13px/1.5 ui-monospace,Consolas,monospace;color:#cfe3ff}
+ul{margin:6px 0 6px 20px;padding:0}
+li{margin:3px 0}
+.etoiles{color:#eebf4d;letter-spacing:2px}
+@media (max-width:720px){.som{position:static;overflow-x:auto;white-space:nowrap}h1{font-size:27px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>World Anvil — toutes les fonctionnalités de création</h1>
+<div class="sub">Comparées à Fandom et à ton app · dossier préparé le 26/09/2026 · sources : pages officielles lues en septembre (FAQ, tutoriels débutant, guides d'articles — copies dans <code>work/wa/</code>), doc hors ligne, et le travail Fandom de la session.</div>
+
+<div class="som">Sommaire :
+<a href="#methode">Méthode</a><a href="#synthese">Tableau</a><a href="#ecrire">Écrire</a><a href="#relier">Relier</a><a href="#visu">Visualiser</a><a href="#acces">Accès</a><a href="#oeuvre">Œuvre</a><a href="#rpg">RPG</a><a href="#inspi">Inspiration</a><a href="#hors">Hors champ</a><a href="#bilan">Bilan</a><a href="#sources">Sources</a>
+</div>
+
+<h2 id="methode">Avant de lire : la question des images <span class="seg"></span></h2>
+<div class="note warn"><b>Honnêteté sur les captures.</b> World Anvil bloque les outils automatisés (403) : je ne peux pas aller photographier leur site à la demande. Les seules images authentiques dont je dispose sont (1) <b>ta capture du tableau de bord</b> (le monde « Udanland » avec l'arborescence, les champs personnalisés et les cartes du bas — je ne l'insère pas ici sans ton accord, dis-le-moi et je l'ajoute), (2) les vignettes récupérées dans la doc hors ligne. Tout le reste, ce sont des <b>schémas de principe dessinés par moi</b>, clairement marqués : ils expliquent le mécanisme, ils ne montrent pas le vrai logiciel.</div>
+<div class="note blue"><b>Ce qu'est World Anvil en une phrase</b> (leur FAQ) : une plateforme par abonnement qui réunit trois outils — <b>une encyclopédie de monde</b> (le lore), <b>un logiciel d'écriture de roman</b> (Manuscrits) et <b>un gestionnaire de campagne de JDR</b>. Le site propose trois parcours officiels : « je suis MJ », « je suis écrivain », « je construis un monde ». Beaucoup de fonctions avancées sont derrière des paliers payants — le détail des prix n'était pas dans les pages que j'ai lues, je ne l'invente pas.</div>
+
+<h2 id="synthese">Le tableau d'ensemble <span class="seg"></span></h2>
+<table>
+<tr><th>Fonctionnalité</th><th>Dans ton app</th><th>Pertinent pour toi</th><th>Équivalent Fandom</th></tr>
+<tr><td><a href="#f1">Articles + gestionnaire</a></td><td><span class="pres part">Partiel</span></td><td><span class="etoiles">★★★</span></td><td>Pages wiki</td></tr>
+<tr><td><a href="#f2">Modèles d'articles guidés</a></td><td><span class="pres part">Partiel</span></td><td><span class="etoiles">★★★</span></td><td>Infoboxes portables</td></tr>
+<tr><td><a href="#f3">Champs personnalisés / page monde</a></td><td><span class="pres part">Partiel</span></td><td><span class="etoiles">★★</span></td><td>Aucun vrai équivalent</td></tr>
+<tr><td><a href="#f4">Arborescence parent/enfant</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★★</span></td><td>Catégories (à plat)</td></tr>
+<tr><td><a href="#f5">Scrapbook (notes privées)</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★</span></td><td>Page /sous-page perso</td></tr>
+<tr><td><a href="#f6">Dictionnaires de langues</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★</span></td><td>Pages glossaire</td></tr>
+<tr><td><a href="#f7">Autolinker + mentions @</a></td><td><span class="pres part">Partiel</span></td><td><span class="etoiles">★★★</span></td><td>Liens <code>[[…]]</code> manuels</td></tr>
+<tr><td><a href="#f8">Arbres familiaux</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★</span></td><td>Modèles faits main</td></tr>
+<tr><td><a href="#f9">Toiles de diplomatie</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★</span></td><td>Aucun</td></tr>
+<tr><td><a href="#f10">Tableaux interactifs</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★</span></td><td>Tableaux wikitexte (figés)</td></tr>
+<tr><td><a href="#f11">Cartes interactives</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★</span></td><td>Help:Interactive Maps</td></tr>
+<tr><td><a href="#f12">Frises chronologiques</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★★</span></td><td>Modèles de frise</td></tr>
+<tr><td><a href="#f13">Chroniques (carte + frise)</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★</span></td><td>Aucun</td></tr>
+<tr><td><a href="#f14">Tableaux blancs</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★</span></td><td>Aucun</td></tr>
+<tr><td><a href="#f15">Secrets &amp; accès par groupes</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★</span></td><td>Bandeaux spoilers + replis</td></tr>
+<tr><td><a href="#f16">Manuscrits (roman)</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★</span></td><td>Aucun (pages seulement)</td></tr>
+<tr><td><a href="#f17">Plotting / modèle prose</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">★★</span></td><td>Aucun</td></tr>
+<tr><td><a href="#f18">RPG : campagnes, statblocks</a></td><td><span class="pres non">Non</span></td><td><span class="etoiles">☆</span></td><td>Infoboxes bricolées</td></tr>
+<tr><td><a href="#f19">Générateurs &amp; prompts</a></td><td><span class="pres oui">Oui*</span></td><td><span class="etoiles">★★★</span></td><td>Blogs communautaires</td></tr>
+<tr><td><a href="#f20">Habillage du monde</a></td><td><span class="pres oui">Oui</span></td><td><span class="etoiles">★★★</span></td><td>Admin wiki (CSS limité)</td></tr>
+<tr><td><a href="#f21">Recherche globale</a></td><td><span class="pres part">Partiel</span></td><td><span class="etoiles">★★★</span></td><td>Special:Search (puissant)</td></tr>
+</table>
+<p class="src">* le « prompt du jour » de ton Accueil. Légende : <span class="pres oui">Oui</span> présent · <span class="pres part">Partiel</span> une version plus simple existe · <span class="pres non">Non</span> absent.</p>
+
+<h2 id="ecrire">A. Écrire et organiser le lore <span class="seg"></span></h2>
+
+<div class="card" id="f1">
+<h3>1. Articles &amp; World Manager <span class="chip">cœur</span></h3>
+<p>C'est la base : chaque élément du monde est un <b>article</b> (personnage, lieu, faction…), géré depuis un tableau de bord unique (« Articles &amp; World Manager ») qui liste tout, permet les créations au clavier, la sauvegarde manuelle, le passage privé par défaut, et un éditeur plein écran. Chaque article a un <b>statut</b> (brouillon, en cours, terminé) et une <b>icone de titre</b> selon son type.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres part">Partiel</span> — tu as l'éditeur, les listes par catégorie, la corbeille, l'import/export JSON. Il te manque : les statuts de rédaction (brouillon/fini), les créations clavier en rafale, et une vue « tout mon monde » qui mélange catégories.</div>
+<div class="row"><b class="k">Intégration :</b> un champ <code>statut</code> par article + un filtre dans le Sommaire ; une action « + article » qui enchaîne les créations. C'est de la petite mécanique sur tes listes existantes.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — tu écris beaucoup par dictée, le statut « à compléter » t'aiderait à suivre ce que l'IA doit remplir ensuite.</div>
+<div class="row"><b class="k">Chez Fandom :</b> les pages wiki, plus le tableau <code>Spécial:Pages</code> et les catégories. <b>Différences :</b> Fandom est fait pour la collaboration communautaire (historique, machines à écrire multiples), pas pour le suivi personnel ; pas de statut par page, pas de vue d'avancement.</div>
+</div>
+
+<div class="card" id="f2">
+<h3>2. Modèles d'articles guidés <span class="chip">cœur</span></h3>
+<p>World Anvil propose des <b>dizaines de modèles</b> (personnage, lieu, organisation, espèce, religion, objet, langue, époque…) : chacun pré-remplit l'éditeur avec des <b>champs structurés</b>, chacun accompagné d'un texte d'aide et d'un prompt (« Décris sa personnalité… »). C'est ce qui fait qu'on ne reste jamais devant une page blanche.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres part">Partiel</span> — tes 6 catégories (personnage, lieu, faction, artefact, événement, concept) ont chacune leur infobox à lignes fixes. Mais pas de texte d'aide par champ, pas de sections guidées dans le corps, et pas d'autres types (langue, religion, créature…).</div>
+<div class="row"><b class="k">Intégration :</b> ajouter à chaque catégorie un « gabarit de corps » (sections proposées à la création, avec l'astérisque « À compléter ») + une aide grise sous chaque champ d'infobox dans l'éditeur. Ta structure d'infobox par catégorie est déjà le bon crochet.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — tu travailles par dictée via IA : des prompts de champ, c'est exactement un script de dictée pour moi.</div>
+<div class="row"><b class="k">Chez Fandom :</b> les <b>infobox portables</b> (comme celle qu'on a construite au tour 56) et la bibliothèque templates.fandom. <b>Différences :</b> chez Fandom le modèle structure l'<i>affichage</i>, pas l'<i>écriture</i> — aucun prompt, aucune aide rédactionnelle, et chaque wiki fabrique les siens ; chez World Anvil le modèle est imposé par la plateforme et guide la saisie.</div>
+</div>
+
+<div class="card" id="f3">
+<h3>3. Champs personnalisés &amp; page du monde <span class="chip c">méta</span></h3>
+<p>Chaque monde a sa <b>page d'accueil</b> (introduction, couverture, compteurs) et des <b>champs personnalisés</b> — c'est visible sur ta propre capture : « Custom Field Top / A / B / C », des zones libres qu'on place où on veut. Les compteurs du monde (progression, nombre d'articles) s'affichent en haut.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres part">Partiel</span> — Mondes existe (cartes Edenia, Arcana), l'Accueil a compteurs et prompt du jour. Mais pas de page-monde éditable (introduction du monde, couverture par monde — ta couverture d'article sert de vignette, c'est différent).</div>
+<div class="row"><b class="k">Intégration :</b> une fiche par monde (titre, introduction, image de couverture) qui sert d'en-tête aux listes Mondes. Attention : tu as refusé deux fois mes fonds générés pour Mondes — on partirait de TES images ou d'un aplat.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★</span> — joli et utile quand les mondes se multiplient, mais ça ne fait pas écrire plus.</div>
+<div class="row"><b class="k">Chez Fandom :</b> la page d'accueil du wiki est une page normale (<code>MediaWiki:Common.css</code> + page principale). <b>Différences :</b> chez Fandom tout se bricole à la main en wikicode, réservé aux admins ; chez World Anvil c'est un formulaire.</div>
+</div>
+
+<div class="card" id="f4">
+<h3>4. Arborescence parent / enfant <span class="chip">cœur</span></h3>
+<p>Un article peut avoir un <b>article parent</b> (« Udan family » contient Miss Udora, Mr. Ember… — encore ta capture), et World Anvil dessine tout seul l'<b>arbre de contenu</b> en bas de l'article. L'arborescence latérale filtre par catégorie, la page reste toujours visible.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — ton Sommaire groupe par catégorie, à plat. Un lieu et ses quartiers, une faction et ses membres : pour l'instant ça ne s'empile pas.</div>
+<div class="row"><b class="k">Intégration :</b> un champ « parent » dans l'infobox (ou un bouton « sous-article de… »), puis un bloc « Appartient à » en haut d'article et « Sous-articles » en bas — le dessin de l'arbre est un bonus, la chaîne de liens suffit pour commencer. Compatible avec ton Sommaire actuel (indentation sous le parent).</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — ton univers a déjà des hiérarchies naturelles (Edenia → ses lieux ; faction → ses membres).</div>
+<div class="row"><b class="k">Chez Fandom :</b> les <b>catégories</b>, à plat, et les liens <code>[[…]]</code> dans le texte. <b>Différences :</b> Fandom n'a pas de hiérarchie stricte (les catégories ne s'emboîtent qu'optiquement) ; World Anvil en fait une colonne vertébrale de la navigation.</div>
+</div>
+
+<div class="card" id="f5">
+<h3>5. Scrapbook (carnet privé par article) <span class="chip d">bonus</span></h3>
+<p>Chaque article a un <b>scrapbook</b> : une zone de notes visible seulement de toi et de vos co-éditeurs — pensées, choses à vérifier, brouillons, hors de la version publiée.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — le plus proche est le tiroir « Idées », global, pas rattaché à un article.</div>
+<div class="row"><b class="k">Intégration :</b> un onglet « Notes » dans l'éditeur d'article, stocké dans la fiche, jamais rendu dans la lecture ni les extraits (comme tes notes de tour 125, mais par article).</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★</span> — pratique pour poser « demander à l'IA de développer X » au chaud.</div>
+<div class="row"><b class="k">Chez Fandom :</b> pas d'équivalent propre ; on bricole une sous-page personnelle. <b>Différence :</b> le scrapbook est intégré à l'article et masqué par défaut.</div>
+</div>
+
+<div class="card" id="f6">
+<h3>6. Dictionnaires de langues <span class="chip d">bonus</span></h3>
+<p>Un module pour créer des <b>lexiques inventés</b> : mots, traductions, grammaire sommaire — reliés aux articles qui les utilisent.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span>. <b class="k">Intégration :</b> catégorie « langue » + un rendu glossaire (table triée). Rien de plus.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★</span> — seulement si un jour ton univers a une langue inventée.</div>
+<div class="row"><b class="k">Chez Fandom :</b> des pages glossaire et des modèles de tableau, sans outil dédié. <b>Différence :</b> chez WA les entrées sont des fiches reliées, pas du texte libre.</div>
+</div>
+
+<h2 id="relier">B. Relier les articles entre eux <span class="seg"></span></h2>
+
+<div class="card" id="f7">
+<h3>7. Autolinker, mentions @ et « qui me cite ? » <span class="chip">cœur</span></h3>
+<p>Trois mécaniques liées : le <b>@</b> dans le texte mentionne un article (et crée le lien) ; l'<b>Autolinker</b> transforme en liens, en un clic, toutes les occurrences d'un titre dans une page ; et l'inverse existe : « <b>où cet article est-il mentionné ?</b> » liste les articles qui pointent vers lui.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres part">Partiel</span> — tu as déjà : la transclusion <code>{{slug}}</code>, le bandeau « Article détaillé » (tour 109), et surtout <b>Pages liées</b> qui compte les renvois vers chaque article (l'équivalent exact du « où est-ce mentionné »). Il te manque l'autolien automatique et la mention par @.</div>
+<div class="row"><b class="k">Intégration :</b> à la sauvegarde d'un article, proposer « 3 titres d'articles détectés dans le texte → les lier ? » (liste à cocher). La détection est la même que celle de Pages liées.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — c'est ce qui tisse un wiki ; et tu dictes vite, les liens arrivent après coup.</div>
+<div class="row"><b class="k">Chez Fandom :</b> liens <code>[[…]]</code> à la main, et <code>Spécial:Pages liées</code> (WhatLinksHere) pour l'inverse. <b>Différences :</b> Fandom n'a AUCUN autolien automatique ; World Anvil est le seul des deux à lier tout seul.</div>
+</div>
+
+<div class="card" id="f8">
+<h3>8. Arbres familiaux &amp; lignées <span class="chip d">graphique</span></h3>
+<p>Des champs « père / mère / conjoint / enfants » dans les personnages, et World Anvil <b>dessine l'arbre généalogique interactif</b> automatiquement — cliquable article par article.</p>
+<div class="visu"><svg width="330" height="120" viewBox="0 0 330 120"><g fill="none" stroke="#5fd4e6" stroke-width="1.5"><path d="M60 40h40M40 40v30M120 40v30M80 70h80M40 100h80M120 70v30"/><circle cx="40" cy="40" r="14"/><circle cx="120" cy="40" r="14"/><circle cx="40" cy="100" r="14"/><circle cx="120" cy="100" r="14"/></g><g fill="#5fd4e6" font-size="10" font-family="sans-serif" text-anchor="middle"><text x="40" y="44">parent</text><text x="120" y="44">parent</text><text x="80" y="74">lien</text><text x="40" y="104">enfant</text><text x="120" y="104">enfant</text></g></svg><span class="cap">Schéma de principe dessiné par moi — pas une capture de World Anvil.</span></div>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span>. <b class="k">Intégration :</b> champs « famille » dans l'infobox personnage (liens vers d'autres fiches), puis un rendu arbre (colonnes reliées) dans l'article ou une vue dédiée. Ton moteur de liens slug fait déjà la résolution des noms.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★</span> — spectaculaire dès qu'une famille existe ; à garder pour quand tu auras 3-4 personnages reliés.</div>
+<div class="row"><b class="k">Chez Fandom :</b> des modèles d'arbre faits main (cases en tableaux/CSS) qui circulent entre wikis, à remplir cellule par cellule. <b>Différences :</b> chez Fandom c'est du dessin manuel figé, jamais généré depuis les fiches.</div>
+</div>
+
+<div class="card" id="f9">
+<h3>9. Toiles de diplomatie <span class="chip d">graphique</span></h3>
+<p>Le même principe appliqué aux <b>relations entre factions/personnages</b> : chaque lien porte une étiquette (« allié », « en guerre », « vassal »…), et la toile se dessine toute.</p>
+<div class="visu"><svg width="330" height="120" viewBox="0 0 330 120"><g stroke="#ff7a5c" stroke-width="1.5"><line x1="60" y1="35" x2="165" y2="80"/><line x1="165" y1="80" x2="270" y2="35"/><line x1="60" y1="35" x2="270" y2="35"/></g><g fill="#ff7a5c"><circle cx="60" cy="35" r="10"/><circle cx="270" cy="35" r="10"/><circle cx="165" cy="80" r="10"/></g><g fill="#e6e6e6" font-size="10" font-family="sans-serif" text-anchor="middle"><text x="165" y="60">alliance</text><text x="218" y="52">guerre</text><text x="165" y="22">paix</text></g></svg><span class="cap">Schéma de principe dessiné par moi — pas une capture.</span></div>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span>. <b class="k">Intégration :</b> possible mais plus coûteux (positionnement des nœuds). Version honnête : une simple liste « relations : X (alliance), Y (guerre) » dans l'infobox faction — la toile visuelle attendrait d'avoir beaucoup de factions.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★</span> pour la toile complète, <span class="etoiles">★★</span> pour la liste de relations.</div>
+<div class="row"><b class="k">Chez Fandom :</b> rien du tout — même pas de modèle répandu. <b>Différence :</b> c'est une exclusivité de ce type d'outil.</div>
+</div>
+
+<div class="card" id="f10">
+<h3>10. Tableaux &amp; graphiques interactifs <span class="chip d">graphique</span></h3>
+<p>Des <b>tableaux de données triables/filtrables</b> construits depuis les champs des articles (ex. : tous les personnages triés par âge), et des graphiques générés.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — tes listes par catégorie affichent cartes, pas tableaux de données.</div>
+<div class="row"><b class="k">Intégration :</b> une vue « tableau » par catégorie (colonnes = lignes d'infobox existantes), tri par tap sur l'en-tête. Tes données sont déjà structurées en infobox, c'est donc peu coûteux.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★</span> — utile à partir de ~30 articles dans une catégorie.</div>
+<div class="row"><b class="k">Chez Fandom :</b> tableaux wikitexte figés (on l'a documenté dans Help:Tables) ; le tri automatique existe mais depuis les données de la page elle-même, jamais depuis les infobox du wiki entier. <b>Différence :</b> WA agrège les fiches, Fandom affiche une page.</div>
+</div>
+
+<h2 id="visu">C. Visualiser le monde <span class="seg"></span></h2>
+
+<div class="card" id="f11">
+<h3>11. Cartes interactives <span class="chip e">vedette</span></h3>
+<p>On téléverse une image de carte, et World Anvil la rend <b>interactive</b> : épingles cliquables (chaque épingle ouvre un article), <b>couches</b> (politique, religion, terrain…), <b>brouillard de guerre</b> pour cacher l'inexploré aux joueurs, et des cartes <b>liées enCascade</b> (monde → région → ville → bâtiment).</p>
+<div class="visu"><svg width="330" height="130" viewBox="0 0 330 130"><rect x="6" y="6" width="318" height="118" rx="6" fill="#20242e" stroke="#2a2d36"/><path d="M40 90 Q90 40 150 70 T280 60" stroke="#34d399" fill="none" stroke-width="2"/><ellipse cx="120" cy="50" rx="34" ry="18" fill="#38bdf8" opacity=".35"/><g fill="#eebf4d"><circle cx="90" cy="60" r="7"/><circle cx="200" cy="66" r="7"/><circle cx="255" cy="42" r="7"/></g><g fill="#141519" font-size="8" font-family="sans-serif" text-anchor="middle"><text x="90" y="63">1</text><text x="200" y="69">2</text><text x="255" y="45">3</text></g><g fill="#e6e6e6" font-size="9" font-family="sans-serif"><text x="104" y="56">ville (article)</text><text x="212" y="72">ruines (article)</text></g></svg><span class="cap">Schéma de principe (épingles ouvrant des articles) — pas une capture.</span></div>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — mais tu as déjà TOUT le socle : images avec ta visionneuse FLB, articles à lier, JSON par article.</div>
+<div class="row"><b class="k">Intégration :</b> un article de catégorie « lieu » (ou une fiche monde) porte une image de carte + une liste d'épingles (position en %, article cible, couleur). Rendu : l'image, des points par-dessus, un tap ouvre la fiche (ou la FLB d'abord). Aucune image générée par moi : tu fournis la carte, ou aplat neutre en attendant.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★</span> — très fort visuellement (tu aimes ça), mais il te faut d'abord une carte. À ne lancer que si tu en as une.</div>
+<div class="row"><b class="k">Chez Fandom :</b> <b>ça existe</b> : Help:Interactive Maps (communauté Fandom), création visuelle ou par JSON — une vieille fonctionnalité de l'ère Wikia, maintenue en vie mais en fin de développement. <b>Différences :</b> outil séparé (Spécial:Maps) branché sur les articles ; ni couches ni brouillard de guerre comme chez WA ; beaucoup de wikis utilisent simplement une image + balises.</div>
+</div>
+
+<div class="card" id="f12">
+<h3>12. Frises chronologiques <span class="chip e">vedette</span></h3>
+<p>Des <b>événements datés</b> (avec ères et calendriers inventés) que la plateforme met en <b>frise interactive</b> : zoom, ères colorées, chaque événement ouvre son article. C'est l'une des fonctions phares pour raconter l'histoire d'un monde.</p>
+<div class="visu"><svg width="330" height="90" viewBox="0 0 330 90"><line x1="16" y1="45" x2="314" y2="45" stroke="#8f7bff" stroke-width="2"/><g fill="#8f7bff"><circle cx="60" cy="45" r="6"/><circle cx="140" cy="45" r="6"/><circle cx="230" cy="45" r="6"/></g><rect x="30" y="8" width="90" height="22" rx="4" fill="#8f7bff" opacity=".25"/><text x="75" y="23" fill="#c9bfff" font-size="10" font-family="sans-serif" text-anchor="middle">Ère 1</text><g fill="#e6e6e6" font-size="9" font-family="sans-serif" text-anchor="middle"><text x="60" y="66">Fondation</text><text x="140" y="66">Guerre</text><text x="230" y="66">Sol-Blade</text></g></svg><span class="cap">Schéma de principe (ères + événements cliquables) — pas une capture.</span></div>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — mais ta catégorie <b>événement</b> existe avec ses dates dans l'infobox : les données sont déjà là.</div>
+<div class="row"><b class="k">Intégration :</b> une vue « Chronologie » par monde : tous les articles événements triés par leur champ date, rendus en frise verticale (mobile-friendly), chaque événement tap-ouvrable. C'est probablement <b>la meilleure fonctionnalité à recopier</b> : données déjà présentes, rendu 100 % CSS, zéro image externe.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — l'histoire d'Edenia/Arcana mérite une frise ; et ça donne une nouvelle façon de parcourir l'app.</div>
+<div class="row"><b class="k">Chez Fandom :</b> pas d'outil natif ; des modèles de frise bricolés (tableaux, colonnes CSS) selon les wikis. <b>Différences :</b> aucune date structurée, aucune interaction, tout est mise en page manuelle.</div>
+</div>
+
+<div class="card" id="f13">
+<h3>13. Chroniques <span class="chip d">combinaison</span></h3>
+<p>World Anvil sait <b>combiner frises et cartes</b> en « chroniques » : raconter une période en montrant où et quand. C'est un assemblage des deux fonctions précédentes, orienté présentation aux lecteurs.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — cela n'a de sens qu'après cartes + frise.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★</span> — pour plus tard, si les deux briques existent.</div>
+<div class="row"><b class="k">Chez Fandom :</b> rien d'équivalent. <b>Différence :</b> chez Fandom on écrirait une page narrative avec images.</div>
+</div>
+
+<div class="card" id="f14">
+<h3>14. Tableaux blancs (whiteboards) <span class="chip d">bonus</span></h3>
+<p>Des <b>ardoises libres</b> pour planifier : coller des images, des notes, dessiner des flèches — le brouillon visuel avant les articles. C'est l'outil « je réfléchis » de World Anvil.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — le plus proche : le tiroir Idées (texte seulement).</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★</span> — tu ne dessines pas et tu travailles par dictée : une planche à dessin t'apporterait peu. Une « planche de notes texte » (Liste d'idées épinglable par monde) serait plus dans ton flux.</div>
+<div class="row"><b class="k">Chez Fandom :</b> rien (les brouillons se font hors wiki). <b>Différence :</b> outil intégré vs hors-perimètre.</div>
+</div>
+
+<h2 id="acces">D. Secrets et contrôle d'accès <span class="seg"></span></h2>
+
+<div class="card" id="f15">
+<h3>15. Secrets, abonnés et co-auteurs <span class="chip f">accès</span></h3>
+<p>Chaque paragraphe ou article peut être marqué <b>secret</b> : visible seulement par des groupes choisis (co-auteurs, abonnés Patreon, « lecteurs du tome 1 »…). World Anvil en fait un vrai système : les secrets s'affichent voilés aux autres, avec le texte « vous ne pouvez pas lire ceci… encore ».</p>
+<div class="visu"><svg width="330" height="70" viewBox="0 0 330 70"><rect x="6" y="8" width="318" height="54" rx="6" fill="#20242e" stroke="#2a2d36"/><text x="18" y="30" fill="#e6e6e6" font-size="11" font-family="sans-serif">Ce paragraphe est lisible…</text><rect x="18" y="38" width="230" height="14" rx="3" fill="#3a2f14"/><text x="24" y="49" fill="#eebf4d" font-size="10" font-family="sans-serif">██████ secret voilé (révélable) ████████</text></svg><span class="cap">Schéma de principe — pas une capture.</span></div>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — tout article est visible pour toi, seule la corbeille retire.</div>
+<div class="row"><b class="k">Intégration :</b> un bouton « secret » par article ou par paragraphe : rendu voilé (dégradé + cadenas), révélation par appui long ou interrupteur global « mode spoiler » dans Réglages. Simple à faire dans ton rendu md().</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★</span> — toi seul lis ton app, donc pas de vrais « groupes » ; l'usage qui te reste est le <b>mode spoiler personnel</b> (te relire comme un lecteur qui ne connaît pas encore la suite) ou préparer un jour un partage lecteur.</div>
+<div class="row"><b class="k">Chez Fandom :</b> bandeaux « spoiler alert » et sections repliables (on a porté les replis au tour 27) — mais c'est de l'honneur, pas de la sécurité : n'importe qui déplie. <b>Différences :</b> Fandom protège par convention, WA par permission ; et WA cible par groupe de lecteurs, chose qui n'a pas de sens sur un wiki public.</div>
+</div>
+
+<h2 id="oeuvre">E. Écrire l'œuvre elle-même <span class="seg"></span></h2>
+
+<div class="card" id="f16">
+<h3>16. Manuscrits (logiciel de roman) <span class="chip e">vedette</span></h3>
+<p>World Anvil intègre un vrai <b>traitement d'œuvre</b> : roman ou fiction sérielle, avec planification, <b>chapitres et scènes en glisser-déposer</b>, suivi de progression, couvertures, et publication en ligne (voire monétisée). Le lore et le roman se répondent : un personnage du chapitre 3 renvoie à sa fiche.</p>
+<div class="visu"><svg width="330" height="110" viewBox="0 0 330 110"><g font-size="10" font-family="sans-serif"><rect x="16" y="14" width="86" height="26" rx="4" fill="#34d399" opacity=".3"/><rect x="16" y="46" width="86" height="26" rx="4" fill="#34d399" opacity=".3"/><rect x="16" y="78" width="86" height="26" rx="4" fill="#34d399" opacity=".3"/><rect x="118" y="14" width="92" height="26" rx="4" fill="#eebf4d" opacity=".3"/><rect x="118" y="46" width="92" height="26" rx="4" fill="#eebf4d" opacity=".3"/><rect x="226" y="14" width="88" height="26" rx="4" fill="#ff7a5c" opacity=".3"/><text x="59" y="31" fill="#e6e6e6" text-anchor="middle">Chapitre 1</text><text x="59" y="63" fill="#e6e6e6" text-anchor="middle">Chapitre 2</text><text x="164" y="31" fill="#e6e6e6" text-anchor="middle">Scène 1.1</text><text x="270" y="31" fill="#e6e6e6" text-anchor="middle">personnage →</text></g></svg><span class="cap">Schéma de principe (chapitres → scènes → fiches) — pas une capture.</span></div>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span> — l'Atelier est une encyclopédie ; rien ne compose un récit ordonné.</div>
+<div class="row"><b class="k">Intégration :</b> une catégorie « chapitre » : chaque article-chapitre contient le texte du récit + un ordre ; une vue « Recueil » les enchaîne en lecture continue (précédent/suivant, progression). Tes pièces (intro courte, sections, infobox déjà repliables) s'y prêteraient bien.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★</span> — si ton œuvre doit devenir un récit et pas seulement un lore, c'est LE trou à combler. Si tu restes sur l'encyclopédie, inutile. C'est une vraie question à te poser.</div>
+<div class="row"><b class="k">Chez Fandom :</b> strictement rien — Fandom publie des pages, pas des livres (la fiction s'y range par pages « fanon »). <b>Différences :</b> c'est la plus grande différence de nature entre les deux plateformes : Fandom = encyclopédie communautaire, WA = encyclopédie + atelier d'écriture.</div>
+</div>
+
+<div class="card" id="f17">
+<h3>17. Plotting et modèle « prose » <span class="chip d">bonus</span></h3>
+<p>Autour des manuscrits : des outils de <b>plan d'intrigue</b> (fiches « intrigue » reliées aux personnages) et un <b>modèle prose</b> pour publier une nouvelle comme un article du monde.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span>. <b class="k">Intégration :</b> catégorie « intrigue » (qui, quoi, conséquences) si tu écris des récits ; le modèle prose équivaut à « un article sans infobox » — trivial chez toi.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★</span> si tu te lances dans le récit, sinon <span class="etoiles">☆</span>.</div>
+<div class="row"><b class="k">Chez Fandom :</b> rien de natif. <b>Différence :</b> même conclusion que pour les manuscrits.</div>
+</div>
+
+<h2 id="rpg">F. Le côté JDR (pour mémoire) <span class="seg"></span></h2>
+<div class="card" id="f18">
+<h3>18. Campaign Manager, statblocks, fiches de personnage <span class="chip g">RPG</span></h3>
+<p>Le troisième métier de World Anvil : gestion de <b>campagnes de JDR</b> (100+ systèmes annoncés), <b>statblocks</b> copiables depuis une bibliothèque, fiches de personnages des joueurs, <b>comptes-rendus de session</b>, objets remis aux joueurs… C'est puissant mais c'est un monde à part.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres non">Non</span>. <b class="k">Pertinent :</b> <span class="etoiles">☆</span> — rien ne le justifie aujourd'hui ; si un jour ton univers sert à une table de jeu, on reparlera des statblocks (qui, eux, se réduiraient bien à une catégorie + infobox). <b class="k">Chez Fandom :</b> des infobox bricolées par chaque wiki, sans mécanique de jeu.</div>
+</div>
+
+<h2 id="inspi">G. Inspiration et habillage <span class="seg"></span></h2>
+
+<div class="card" id="f19">
+<h3>19. Générateurs aléatoires et prompts <span class="chip c">inspiration</span></h3>
+<p>Le site propose des <b>générateurs aléatoires</b> (noms, lieux, situations) et des <b>prompts de worldbuilding</b> — une invitation quotidienne à écrire un bout de monde.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres oui">Oui*</span> — ton Accueil a déjà le <b>prompt du jour</b>. <b>Différences :</b> le tien est une liste de prompts figée dans l'app ; chez WA c'est un catalogue de générateurs (aléatoire par click) alimenté par la communauté. Ton app pourrait tirer le prompt au hasard dans une liste plus grande, ou piocher dans TES articles orphelins (« ce lieu n'a pas encore de description ») — un prompt du jour fait maison, plus pertinent qu'un générique.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — c'est déjà ton choix, tu l'as mis à l'Accueil.</div>
+<div class="row"><b class="k">Chez Fandom :</b> rien de natif — des blogs communautaires de défis, hors logiciel. <b>Différence :</b> intégré vs communautaire.</div>
+</div>
+
+<div class="card" id="f20">
+<h3>20. Présentation du monde personnalisable <span class="chip c">habillage</span></h3>
+<p>Chaque monde a un <b>« mode présentation »</b> : sa page d'accueil, ses couleurs, son CSS, sa couverture — ce que voient les lecteurs, distinct de l'interface d'écriture. Les tutoriels y consacrent une leçon entière (lesson 3 « Customizing &amp; Sharing »).</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres oui">Oui</span> — et c'est même ton terrain de jeu favori : palette par catégorie, titres Cinzel, barres de section colorées, fonds de listes, cartes de monde anguleuses, braises d'ambiance. <b>Différences :</b> chez toi l'habillage est global (tout l'Atelier), pas par monde ; chez WA chaque monde a son peau, mais dans les limites de leur CSS autorisé. Ton app est en réalité plus libre — c'est TON CSS à toi.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — déjà coché ; seule une variante « par monde » (couleur d'accent Edenia/Arcana) pourrait l'enrichir.</div>
+<div class="row"><b class="k">Chez Fandom :</b> l'admin wiki peut modifier le thème (couleurs, logo, police) et le CSS commun — encadré par les règles Fandom. <b>Différences :</b> un habillage par wiki (communauté), pas par « monde » ; et beaucoup plus contraint que ton app locale.</div>
+</div>
+
+<div class="card" id="f21">
+<h3>21. Recherche globale (Search &amp; Explore) <span class="chip c">navigation</span></h3>
+<p>Une <b>recherche unique</b> sur tout le monde (titres, contenus, champs), avec exploration par type et par tag.</p>
+<div class="row"><b class="k">Dans ton app :</b> <span class="pres part">Partiel</span> — tu navigues par Sommaire (tiroir), catégories et Pages liées ; pas de champ « je cherche un mot dans tous les articles ».</div>
+<div class="row"><b class="k">Intégration :</b> une barre de recherche dans le Sommaire (titre + texte, tout est déjà en mémoire locale). Petite fonction, gros effet, très peu coûteuse.</div>
+<div class="row"><b class="k">Pertinent :</b> <span class="etoiles">★★★</span> — dès que l'univers grossit, la recherche devient le premier outil.</div>
+<div class="row"><b class="k">Chez Fandom :</b> <code>Spécial:Search</code> — recherche serveur avec suggestions, filtres, meilleure correspondance. <b>Différences :</b> la version Fandom est plus puissante (elle indexe un wiki entier pour des milliers de lecteurs) ; pour une app personnelle, une recherche locale suffit et marche hors ligne.</div>
+</div>
+
+<h2 id="hors">H. Ce qui existe aussi, hors création directe <span class="seg"></span></h2>
+<div class="card">
+<p><b>Communauté</b> (forums de discussion, vitrines « showcase », lecture partagée, commentaires d'articles), <b>publication &amp; monétisation</b> (fiction sérielle payante, import d'abonnés Patreon/Kickstarter, annonces globales) et l'<b>Académie</b> (cours de worldbuilding, dont le « Worldbuilding 101 »). Tu ne m'as pas demandé la communauté ni l'argent, je ne détaille pas : aucun de ces trois-là n'a de sens dans une app personnelle locale, et Fandom — de son côté — est au contraire très fort sur la communauté (Discussions, commentaires, blogs) tout en n'ayant aucune monétisation pour les auteurs.</p>
+</div>
+
+<h2 id="bilan">Bilan : que retenir pour TON app <span class="seg"></span></h2>
+<div class="note"><b>Déjà présents chez toi</b> (souvent sous une forme plus simple) : articles et catégories, infobox structurées, prompt du jour, pages liées, transclusion, habillage complet, visionneuse d'images, hors-ligne. Ton app est déjà « un petit World Anvil côté encyclopédie », avec une force que WA n'a pas : <b>tu dictes, l'IA écrit</b>.</div>
+<div class="note"><b>Les 5 manques qui me semblent les plus payants pour toi</b>, dans l'ordre :
+<br>1. <b>Frise chronologique</b> — tes événements ont déjà des dates ; il ne manque que le rendu. Coût faible, effet fort.
+<br>2. <b>Recherche globale</b> dans le Sommaire. Coût très faible.
+<br>3. <b>Parent/sous-articles</b> — donner une vraie hiérarchie (Edenia → lieux → quartiers). Coût moyen.
+<br>4. <b>Statuts de rédaction</b> (à compléter / en cours / fini) pour piloter mon travail d'IA. Coût faible.
+<br>5. <b>Autolien proposé</b> à la sauvegarde. Coût moyen.
+<br>Et une question de fond : veux-tu un jour <b>écrire le récit</b> (vue « Recueil », fonctions 16-17) ou rester dans le lore ? C'est la seule vraie divergence de cap entre World Anvil et ton app.</div>
+<div class="note warn"><b>À ne pas recopier</b> : tout le volet RPG, la monétisation, la communauté, les toiles de diplomatie et tableaux croisés — lourds à bâtir, inutiles en solo. Et les cartes interactives attendent que tu aies une carte, à ton initiative.</div>
+
+<h2 id="sources">Sources et méthode <span class="seg"></span></h2>
+<p class="src">Fonctionnalités World Anvil décrites d'après leurs pages officielles lues en septembre 2026 : la <b>FAQ</b> (liste des fonctions : modèles, cartes, chroniques, frises, tableaux blancs, statblocks, recherche, tableaux/graphiques, arbres familiaux, toiles de diplomatie, co-auteurs/abonnés, autolien, éditeur de roman…) ; « <b>How to Use World Anvil</b> » (parcours MJ / écrivain / worldbuilder / joueur / pro) ; « <b>Article Tutorials</b> » (World Manager, scrapbook, arbres d'articles, navigation linéaire, « où l'article est mentionné », autolinker) ; « <b>Beginner Tutorials</b> » (6 leçons : articles, interface, personnalisation, frises, cartes, secrets). Copies texte dans <code>work/wa/</code> ; doc hors ligne dans <code>resultat/documentation-fandom-worldanvil.html</code>. Côté Fandom : le travail de session (infobox portable, tour 56 ; replis, tour 27 ; audit d'articles, tour 119) et les pages d'aide intégrées à la doc. Les schémas de ce dossier sont mes dessins explicatifs, aucune capture de World Anvil n'y est reproduite — ta capture du tableau de bord peut y être ajoutée sur ton accord.</p>
+
+</div>
+</body>
+</html>
