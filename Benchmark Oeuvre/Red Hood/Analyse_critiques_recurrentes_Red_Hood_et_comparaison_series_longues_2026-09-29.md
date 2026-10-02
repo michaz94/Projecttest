@@ -1,6 +1,6 @@
 # Red Hood — les critiques occidentales récurrentes, leur mécanisme, et ce que les séries longues font autrement
 
-Créé le 29 septembre 2026. Complète la synthèse v2 (`../synthese_red_hood.md`) sans la remplacer.
+Créé le 29 septembre 2026 · **Mis à jour le 2 octobre 2026** (correction du codage Visuel vs Monde au §2.2 et ajout des données empiriques des 4 piliers *Fullmetal Alchemist*, *Hunter × Hunter*, *Jujutsu Kaisen* et *One Piece* aux §2.3 et §4). Complète la synthèse v3 (`../synthese_red_hood.md`) sans la remplacer.
 
 **Question traitée :** pourquoi *The Hunters Guild: Red Hood* n'a pas retenu son public occidental (6,41 sur MAL ; 3,62 → 3,29 sur Goodreads du tome 1 au tome 3) là où d'autres battle shōnen retiennent le leur — quelles critiques reviennent, pourquoi elles apparaissent, et à quels endroits précis les séries longues font autre chose.
 
@@ -52,9 +52,23 @@ Lecture : le noyau Reddit se forme au chapitre 3 (≈ 100–140 comptes) et ne s
 
 ### 2.2 Ce dont on parle (Reddit, 18 fils)
 
+#### 2.2.A — Mesure nettoyée de l'attraction : Visuel/Dessin (`A1/A2/A3`) vs Monde/Conte de fées (`B1/B2`)
+*(Correction méthodologique du 2 octobre 2026 : dans la première version du tableau 2.2.B ci-dessous, la ligne « Designs féminins (681) » incluait toute occurrence des prénoms `Grimm` ou `Debonair`, y compris lorsqu'un lecteur commentait leurs actions ou dialogues. Le tableau 2.2.A ci-dessous sépare strictement les commentaires portant sur le visuel/physique de la simple mention du nom des personnages, et ajoute la mesure du pôle Monde / Conte de fées qui manquait dans la v1).*
+
+| Périmètre (Reddit `r/manga`) | Effectif (`N`) | **Pôle Visuel Total (`A1 ∪ A2 ∪ A3`)** | `A1` Style / Trait / Pages | `A2` Designs Monstres | `A3` Chara-design & Physique *(sans faux positif sur le nom)* | **Pôle Monde / Conte Total (`B1 ∪ B2`)** | `B1` Conte de fées / Folklore | `B2` Dark Fantasy / Chasse / Lore |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Chapitre 1 — 1er niveau (vérifié)** | **185 comm.** *(180 comptes)* | **48,1 %** *(89)*<br>*(44,9 % pos. / 3,2 % crit.)* | **28,6 %** *(53)* | **10,8 %** *(20)* | **22,7 %** *(42)* | **32,4 %** *(60)*<br>*(29,7 % pos. / 2,7 % crit.)* | **13,5 %** *(25)* | **24,3 %** *(45)* |
+| **Chapitre 1 — Tous commentaires** | **446 comm.** *(313 comptes)* | **31,6 %** comm. *(141)*<br>**40,3 %** comptes *(126)* | **17,9 %** *(80)*<br>*23,6 % cptes* | **6,3 %** *(28)*<br>*8,6 % cptes* | **14,3 %** *(64)*<br>*18,8 % cptes* | **23,3 %** comm. *(104)*<br>**29,1 %** comptes *(91)* | **9,4 %** *(42)*<br>*12,1 % cptes* | **17,7 %** *(79)*<br>*23,0 % cptes* |
+| **Prologue (Chapitres 1 à 5)** | **1 337 comm.** *(617 comptes)* | **19,4 %** comm. *(259)*<br>**32,6 %** comptes *(201)* | **10,8 %** *(145)*<br>*19,8 % cptes* | **3,0 %** *(40)*<br>*6,0 % cptes* | **9,7 %** *(130)*<br>*18,5 % cptes* | **14,1 %** comm. *(188)*<br>**22,0 %** comptes *(136)* | **5,2 %** *(69)*<br>*9,1 % cptes* | **10,5 %** *(141)*<br>*17,3 % cptes* |
+| **Série entière (Chapitres 1 à 18)** | **4 432 comm.** *(1 382 comptes)* | **16,2 %** comm. *(717)*<br>**30,5 %** comptes *(421)* | **7,5 %** *(332)*<br>*16,4 % cptes* | **1,8 %** *(81)*<br>*4,9 % cptes* | **9,3 %** *(413)*<br>*21,1 % cptes* | **10,7 %** comm. *(474)*<br>**20,7 %** comptes *(286)* | **4,0 %** *(179)*<br>*9,6 % cptes* | **7,7 %** *(343)*<br>*15,5 % cptes* |
+
+#### 2.2.B — Tableau général des catégories et des critiques structurelles (Reddit, 18 fils)
+
 | Catégorie (codage lexical) | Commentaires | Comptes uniques | Score médian |
 |---|---:|---:|---:|
-| Designs féminins (Grimm, Debonair, « thicc », « snu-snu »…) | 681 | 345 | 6 |
+| Pôle Visuel nettoyé (`A1 ∪ A2 ∪ A3` : trait, monstres, designs/physique) | **717** | **421** | 6 |
+| ...dont Chara-design & physique féminin strict (`A3`, hors simple mention des prénoms) | **413** *(681 avec prénoms)* | **292** *(345)* | 6 |
+| Pôle Monde / Conte de fées / Dark Fantasy (`B1 ∪ B2`) | **474** | **286** | 6 |
 | Axe, classement, ToC, « please survive » | 591 | 351 | 5 |
 | Humour, « lol », scènes drôles | 284 | 175 | 7 |
 | Rythme, gaspillage, « condense », « took N chapters » | 183 | 113 | 8 |
@@ -81,7 +95,16 @@ Lecture : les critiques structurelles sont rares en volume et hautes en approbat
 | Note | 3,62 | 3,48 | 3,29 |
 | Notateurs | 439 | 232 | 180 |
 
-Comparaison disponible dans le corpus (tome 1, Goodreads) : Naruto 4,41 · Bleach 4,27 · JJK 4,49 · MHA 4,28. Les cinq séries axées malgré un MAL > 7 vont de 3,33 à 4,12 sur des effectifs minuscules (11–72 notes). Red Hood se situe donc dans la zone des séries interrompues, avec un effectif dix fois plus grand, et la note baisse à chaque tome. Ce n'est pas une cohorte suivie : les 180 notateurs du T3 ne sont pas nécessairement un sous-ensemble des 439 du T1.
+Comparaison élargie aux **7 grands succès du shōnen** (Tome 1 → Tome 2 sur Goodreads) :
+- **Fullmetal Alchemist** : **4,54** *(198 634 votes)* → **4,51** *(23 057 votes)* ;
+- **Hunter × Hunter** : **4,53** *(70 744 votes)* → **4,42** *(7 561 votes)* ;
+- **Jujutsu Kaisen** : **4,49** *(73 124 votes)* → **4,46** *(38 692 votes)* ;
+- **One Piece** : **4,49** *(194 014 votes)* → **4,36** *(34 869 votes)* ;
+- **Naruto** : **4,41** *(251 143 votes)* → **4,44** *(32 323 votes)* ;
+- **My Hero Academia** : **4,28** *(158 556 votes)* → **4,43** *(36 952 votes)* ;
+- **Bleach** : **4,27** *(202 963 votes)* → **4,30** *(20 535 votes)*.
+
+Les cinq séries axées malgré un MAL > 7 vont de 3,33 à 4,12 sur des effectifs minuscules (11–72 notes). *Red Hood* (**3,62 → 3,48 → 3,29**) se situe donc dans la zone des séries interrompues, avec un effectif dix fois plus grand, et la note baisse à chaque tome. Ce n'est pas une cohorte suivie : les 180 notateurs du T3 ne sont pas nécessairement un sous-ensemble des 439 du T1.
 
 ---
 
@@ -195,6 +218,25 @@ Format : citations datées avec identifiant et score ; mécanisme proposé ; con
 - **Rien ici n'établit qu'un autre découpage aurait sauvé Red Hood.** La comparaison localise les différences de fabrication aux endroits exacts où les lecteurs ont formulé leurs critiques ; elle ne mesure pas le poids de chacune.
 
 Un lecteur a proposé une restructuration complète (BuFett, ch. 18, hjshdxk, 3) : deux chapitres de hameau, dix chapitres de voyage Grimm–Velou en chassant des créatures, un ou deux chapitres d'examen sans entraînement. Ce plan n'a aucune valeur prédictive ; il est cité parce qu'il exprime, en creux, exactement les quatre attentes ci-dessus (promesse tenue, duo construit, héros actif, casting différé).
+
+---
+
+### 4.2 Confirmation empirique dans les données de réception des 4 piliers (Goodreads Tomes 1–2, MAL `N = 240`, Reddit JJK 2018 Ch. 1–18)
+
+Pour vérifier si ces différences de fabrication se traduisent dans ce que les lecteurs occidentaux retiennent effectivement des premiers tomes, trois jeux de données JSON ont été extraits le 2 octobre 2026 (`goodreads_tomes_1_2_5_series.json` [311 critiques], `mal_reviews_5_series.json` [240 critiques], `reddit_jjk_2018_ch1_18.json` [164 commentaires des chapitres 1 à 18 de *JJK* en mars–juillet 2018]) :
+
+| Série | **Goodreads Tome 1** (`N = 30`/série)<br>Mentions **Visuel/Dessin** | **Goodreads Tome 1**<br>Mentions **Monde/Système** | **Goodreads Tome 1**<br>Mentions **Personnages/Duo** | **Goodreads Tome 1**<br>Mentions **Histoire/Rythme** | **MAL** (`N = 240`)<br>Part des mentions du dessin comportant une **réserve** *(simple, brouillon, confus)* | **Reddit Ch. 1–18 à chaud**<br>Rang du **Visuel** dans la discussion |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Red Hood** | **56,7 %** *(17/30)*<br>*(58,6 % en EN)* | **63,3 %** *(19/30)* | **63,3 %** *(19/30)* | **66,7 %** *(20/30)* | **22,2 %** *(4/18)*<br>*(70 % d'éloge pur sur 20)* | **Rang 1** (**16,2 %** sur Ch.1–18 ; **48,1 %** au Ch.1 top-level) |
+| **Fullmetal Alchemist** | **30,0 %** *(9/30)*<br>*(36,4 % en EN)* | **70,0 %** *(21/30)* | **73,3 %** *(22/30)* | **63,3 %** *(19/30)* | **22,5 %** *(9/40)*<br>*(« simple mais lisible »)* | — *(pré-Reddit)* |
+| **One Piece** | **26,7 %** *(8/30)*<br>*(28,0 % en EN)* | **53,3 %** *(16/30)* | **60,0 %** *(18/30)* | **70,0 %** *(21/30)* | **33,3 %** *(15/45)*<br>*(« excentrique, s'apprivoise »)* | — *(pré-Reddit)* |
+| **Hunter × Hunter** | **23,3 %** *(7/30)*<br>*(29,2 % en EN)* | **33,3 %** *(10/30)* | **56,7 %** *(17/30)* | **50,0 %** *(15/30)* | **31,8 %** *(7/22)*<br>*(« simple/irrégulier mais écriture géniale »)* | — *(pré-Reddit)* |
+| **Jujutsu Kaisen** | **16,7 %** *(5/30)*<br>*(17,9 % en EN)* | **40,0 %** *(12/30)* | **70,0 %** *(21/30)* | **50,0 %** *(15/30)* | **41,7 %** *(15/36)*<br>*(« rough, sketchy »)* | **Rang 4** (**12,2 %** sur Ch.1–18 en 2018, derrière Rythme **22,6 %** et Persos **20,7 %**) |
+
+**Trois constats empiriques :**
+1. **Au Tome 1, *Red Hood* dépend 2 à 3,4 fois plus du signal visuel (`56,7 %`) que les quatre piliers (`16,7 %` à `30,0 %`)** : dans les grands succès, ce qui retient le lecteur dès le Tome 1 est d'abord le noyau de personnages (`56,7 %` à `73,3 %`) et l'élan dramatique (`50,0 %` à `70,0 %`).
+2. **Dans *Fullmetal Alchemist* Tome 1 (ch. 1–4), le Monde (`70,0 %`) est indissociable de la blessure des frères Elric (`73,3 %`)** : la loi de l'Échange équivalent n'est pas enseignée dans une salle de cours au chapitre 5, elle est incarnée dès les premières pages par le bras d'Edward et l'armure d'Alphonse.
+3. **Le face-à-face Reddit entre *Jujutsu Kaisen* (Ch. 1–18 en 2018) et *Red Hood* (Ch. 1–18 en 2021) montre une symétrie inversée** : au chapitre 2 de *JJK* (`86e0kt`), des lecteurs jugeaient la prémisse d'exorcisme banale et prédisaient son annulation avant *Bozebeats* (*« probably the most likely to get axed out of the 3 jump starts »* — `u/SuperSceptile2821`). Mais dès les chapitres 8 à 17 (mort de Yuji au ch. 9, puis Gojo vs Jogo au ch. 15), l'exécution fait basculer la réception : *« Exorcist manga has been done to death, but the pacing, panelling, and characterization of this work are top notch. Goes to show how much more important execution is than premise »* (`u/flamecircle`, +28, ch. 13–17).
 
 ---
 

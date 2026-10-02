@@ -1,7 +1,7 @@
 # Pourquoi Red Hood attirait — et pourquoi l’attachement restait contrasté
 ## Synthèse des questions de départ
 
-**The Hunters Guild: Red Hood · Version de référence mise à jour (v2) · 28 septembre 2026 · spoilers autorisés**
+**The Hunters Guild: Red Hood · Version de référence mise à jour (v3) · 2 octobre 2026 · spoilers autorisés**
 
 > **Réponse centrale révisée : l’intérêt pour Red Hood ne commence pas toujours avec son premier chapitre. Le prototype, sa circulation, une recommandation extérieure ou une image peuvent amener à lire ; la chasse, la morale du conflit, le duo, l’esthétique et les références au genre façonnent ensuite des attentes différentes. Les chapitres 5 et 15 montrent des réévaluations contradictoires, et le chapitre 15 contient des déclarations explicites d’abandon que notre petit tirage avait manquées. Le dessin ne soutient pas toujours seul l’intérêt : certains lecteurs poursuivent malgré lui, pour l’histoire. L’attachement dépend donc de la combinaison vécue par chaque lecteur, pas d’une seule promesse universellement déçue.**
 
@@ -69,6 +69,27 @@ Le même lancement peut donc être lu comme **une bonne variation d’un genre a
 - **Grimm et Debonair :** des designs peuvent provoquer un essai ou renforcer l’intérêt. Debonair intervient toutefois au chapitre 7, pas au lancement ; ses proportions divisent aussi. [Red Hood ch. 7 — MicZiC15](#source-h9x9spa) [Red Hood ch. 1 — kenkanoni](#source-h39tfiz) [Red Hood ch. 9 — hell-schwarz](#source-hbq6s9n)
 - **Monstres, contes et monde à parcourir :** le mélange comique/inquiétant plaît ; les crabes et le géant donnent une découverte concrète du monde. Le bilan de LeonKevlar confirme une attente de variations sur les contes, sans mesurer la part de tous les lecteurs venus pour cela. [Red Hood ch. 2 — ToTheNintieth](#source-h4234i6) [Red Hood ch. 6 — riddlemyfiddle11](#source-h8alwy9) [Red Hood ch. 6 — AcediaRex](#source-h8b3f9b) [Red Hood ch. 18 — LeonKevlar](#source-hjpjy0x)
 - **Chasse, outils et relations :** des lecteurs apprécient des humains utilisant leur intelligence et souhaitent retrouver Grimm et Velou dans cette dynamique. [Red Hood ch. 3 — arbitrarycivilian](#source-h4tmu0v) [Red Hood ch. 3 — kimmykadillak](#source-h4tr1rt) [Red Hood ch. 4 — esn_crvg](#source-h5nk0w1)
+
+### Mesure directe dans le corpus : poids respectif du Visuel/Dessin et de l'Univers/Conte de fées
+
+Pour dépasser l'impression qualitative sans retomber dans le faux positif d'un comptage brut du prénom « Grimm » (qui apparaît dans 868 commentaires sur 4 432, le plus souvent pour commenter ses dialogues ou ses actions), les deux pôles d'attraction ont été mesurés séparément sur l'ensemble du corpus Reddit (`4 432` commentaires, `1 382` comptes uniques) et sur le sous-corpus intégralement relu des **185 commentaires de premier niveau du chapitre 1** :
+
+- **Pôle A — Visuel / Dessin / Designs (`A1 ∪ A2 ∪ A3`)** : `A1` style graphique, trait, hachures, doubles pages ; `A2` design des loups-garous et monstres ; `A3` chara-design et physique des personnages (`character design`, `thicc`, musculature, chapeau, etc., en excluant toute simple mention du nom d'un personnage).
+- **Pôle B — Monde / Conte de fées / Dark Fantasy (`B1 ∪ B2`)** : `B1` références explicites aux contes et au folklore (*Petit Chaperon rouge, Grimm, Perrault, Andersen, Cendrillon*) ; `B2` univers dark fantasy, guilde, chasse aux monstres, armes et lore (*Witcher, Claymore, Bloodborne, worldbuilding*).
+
+| Périmètre mesuré | Effectif (`N`) | **Pôle A : Visuel / Dessin (Total)** | Détail Pôle A (`A1` Style / `A2` Monstres / `A3` Chara-design) | **Pôle B : Monde / Conte de fées (Total)** | Détail Pôle B (`B1` Conte / `B2` Dark Fantasy & Chasse) | Ratio Visuel / Monde |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **1. Chapitre 1 — Premier niveau (vérifié)** | **185 comm.** *(180 comptes)* | **48,1 %** *(89/185)*<br>*(44,9 % pos. / 3,2 % crit.)* | `A1` **28,6 %** *(53)*<br>`A3` **22,7 %** *(42)*<br>`A2` **10,8 %** *(20)* | **32,4 %** *(60/185)*<br>*(29,7 % pos. / 2,7 % crit.)* | `B2` **24,3 %** *(45)*<br>`B1` **13,5 %** *(25)* | **1,48 ×** |
+| **2. Chapitre 1 — Tous commentaires** | **446 comm.** *(313 comptes)* | **31,6 %** comm. *(141)*<br>**40,3 %** comptes *(126)* | `A1` 17,9 % \| `A3` 14,3 % \| `A2` 6,3 % | **23,3 %** comm. *(104)*<br>**29,1 %** comptes *(91)* | `B2` 17,7 % \| `B1` 9,4 % | **1,36 ×** |
+| **3. Prologue (Chapitres 1 à 5)** | **1 337 comm.** *(617 comptes)* | **19,4 %** comm. *(259)*<br>**32,6 %** comptes *(201)* | `A1` 10,8 % \| `A3` 9,7 % \| `A2` 3,0 % | **14,1 %** comm. *(188)*<br>**22,0 %** comptes *(136)* | `B2` 10,5 % \| `B1` 5,2 % | **1,38 ×** |
+| **4. Série entière (Chapitres 1 à 18)** | **4 432 comm.** *(1 382 comptes)* | **16,2 %** comm. *(717)*<br>**30,5 %** comptes *(421)* | `A1` 7,5 % \| `A3` 9,3 % \| `A2` 1,8 % | **10,7 %** comm. *(474)*<br>**20,7 %** comptes *(286)* | `B2` 7,7 % \| `B1` 4,0 % | **1,51 ×** |
+| **5. Goodreads — Tome 1 (ch. 1–7)** | **30 critiques** *(29 en anglais)* | **56,7 %** *(17/30)*<br>*(46,7 % pos. / 10,0 % crit.)* | **58,6 %** sur les 29 avis anglophones | **63,3 %** *(19/30)* | **65,5 %** sur les 29 avis anglophones | **0,90 ×** *(quasi-égalité en relié)* |
+| **6. MyAnimeList — Fiche série** | **20 critiques** | **90,0 %** *(18/20)*<br>*(70,0 % pos. / 20,0 % crit.)* | Rubrique `Art` quasi systématique sur MAL | **85,0 %** *(17/20)* | Rubrique `Story/Setting` | **1,06 ×** |
+
+**Ce que ces chiffres précisent :**
+1. **Au lancement hebdomadaire (Ch. 1 Reddit), le Visuel devance nettement l'Univers d'environ +15 points (`48,1 %` contre `32,4 %` sur les commentaires de 1er niveau)** : `30,8 %` des commentaires de 1er niveau parlent uniquement du visuel, `17,3 %` parlent des deux à la fois, et `14,6 %` parlent uniquement du monde/conte de fées.
+2. **Au sein même de l'attraction visuelle du chapitre 1, c'est le style graphique général (`A1 = 28,6 %`) qui arrive en tête**, devant le chara-design/physique de Grimm (`A3 = 22,7 %`) et le design des loups-garous (`A2 = 10,8 %`). Ce n'est qu'à partir du chapitre 7 (introduction de Debonair et des candidates de l'examen) que le commentaire sur le physique féminin (`A3`) dépasse l'appréciation du trait (`A1`) sur l'ensemble des 18 chapitres (`9,3 %` contre `7,5 %`).
+3. **Au sein de l'attraction pour le monde au chapitre 1, l'ambiance Dark Fantasy / Chasse (`B2 = 24,3 %`) pèse près du double de la référence explicite au conte de fées (`B1 = 13,5 %`)**.
 
 **Bilan révisé du lancement :** une audience se rassemble autour de plusieurs voies d’accès et de plusieurs attentes, dont certaines précèdent la série. Les qualités du chapitre 1 ne suffisent donc pas, à elles seules, à expliquer l’activité de son fil ou l’espoir placé dans la sérialisation.
 
@@ -384,7 +405,7 @@ Red Hood reste en bas du sommaire à partir du chapitre 9, sans redressement dur
 2. **La proposition qu’ils reconnaissent dans l’œuvre :** chasse professionnelle, outils et intelligence, contes détournés, esthétique grotesque/comique, relation d’apprentissage, mais aussi questionnement sur la prédation et l’extermination. Des références familières peuvent aider ou faire paraître le début trop dérivatif.
 3. **Les satisfactions effectivement rencontrées :** initiative de Velou, scènes, personnages, découvertes et mystères. C’est à ce niveau que l’essai peut devenir une envie de revenir, sans que le même facteur soit décisif pour tous.
 
-L’attrait visuel et l’univers restent importants dans les témoignages. **Le one-shot et les canaux de découverte ne sont plus relégués derrière eux**, et le conflit moral n’est plus réduit à du décor. Nous n’avons pas de parts de lectorat permettant de désigner le premier facteur statistique.
+L’attrait visuel et l’univers restent importants dans les témoignages, et leur poids respectif dans les discussions est désormais mesuré avec précision : **sur Reddit au chapitre 1, le pôle Visuel (`48,1 %` des commentaires de 1er niveau ; `40,3 %` des comptes) devance d’environ 1,5 fois le pôle Monde/Conte de fées (`32,4 %` des commentaires de 1er niveau ; `29,1 %` des comptes)**, tandis que sur **Goodreads au Tome 1**, les deux pôles font jeu égal (**56,7 %** pour le dessin contre **63,3 %** pour l’univers). Comparé aux Tomes 1 de *Fullmetal Alchemist* (**30,0 %** de mentions du dessin sur Goodreads), *One Piece* (**26,7 %**), *Hunter × Hunter* (**23,3 %**) et *Jujutsu Kaisen* (**16,7 %**), *Red Hood* présentait une **sur-dépendance initiale au signal visuel deux à trois fois supérieure** aux grands succès du magazine. **Le one-shot et les canaux de découverte ne sont pas pour autant relégués derrière eux**, et le conflit moral n’est plus réduit à du décor.
 
 ### Pourquoi cette curiosité ne devenait-elle pas toujours un attachement durable ?
 
@@ -398,9 +419,9 @@ Goodreads apporte des parcours inverses et de nouveaux contextes : poursuivre po
 
 ### Ce qui est corrigé et ce qui reste ouvert
 
-**Corrigé dans cette version :** rôle du one-shot et d’autres voies de découverte ; analyse propre des chapitres 5 et 15 avec MAL ; déclarations d’abandon hors du tirage ; critiques textuelles Goodreads et limites de l’objet noté ; hiérarchie et conclusion réécrites.
+**Corrigé dans cette version (v2 et v3 du 2 octobre 2026) :** rôle du one-shot et d’autres voies de découverte ; analyse propre des chapitres 5 et 15 avec MAL ; déclarations d’abandon hors du tirage ; critiques textuelles Goodreads et limites de l’objet noté ; **mesure exacte et nettoyée du poids du Visuel/Dessin (`A1/A2/A3`) face au Monde/Conte de fées (`B1/B2`) au chapitre 1, sur le prologue et sur les 18 chapitres** ; **comparaison empirique sur 3 couches JSON (Goodreads Tomes 1–2, MyAnimeList 240 critiques, Reddit `r/manga` 2018 Ch. 1–18) avec *Fullmetal Alchemist*, *Hunter × Hunter*, *Jujutsu Kaisen* et *One Piece***.
 
-**Restent ouverts :** classement MAL sur une cohorte exhaustive, résultats historiques des sondages de chapitres, compteurs Manga Plus,22 critiques affichées du tome 1 Goodreads non récupérées, et validation indépendante d’une partie de l’analyse. La relecture ouverte couvre trois moments prioritaires, pas l’intégralité des réponses et de tous les chapitres. Aucun manque n’est remplacé par une supposition.
+**Restent ouverts :** classement MAL sur une cohorte exhaustive de séries courtes, résultats historiques des sondages de chapitres, compteurs Manga Plus (inaccessibles par API), 22 critiques anciennes du tome 1 Goodreads au-delà des 30 servies par `__NEXT_DATA__`, et validation par un second codeur indépendant. Aucun manque n’est remplacé par une supposition.
 
 ---
 
