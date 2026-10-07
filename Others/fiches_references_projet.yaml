@@ -1,6 +1,14 @@
 # =====================================================================
 # FICHES DE RÉFÉRENCES : projet de battle shōnen occidental (Edenia, nom provisoire)
-# Créé le 2026-10-06. Aucun autre fichier n'a été modifié.
+# Créé le 2026-10-06 ; mis à jour le 2026-10-07 (échelle décisionnelle, définition influence/référence, folklore, Red Hood, trois personnages).
+# Mots : voir DECISIONS_RECENTES_2026-10-07.md §3 et §3bis (qui l'emporte sur les anciens MD en cas de contradiction).
+#
+# SOURCE UNIQUE DES STATUTS (décision de l'utilisateur, 7 oct. 2026)
+#  - Ce fichier est la seule source pour : statut_relation, statut_decision, limites de lecture, gimmicks,
+#    personnages d'Edenia, folklore. On modifie ICI, jamais dans la vue MD.
+#  - La vue lisible VUE_references_projet.md est GÉNÉRÉE : python3 generer_vue_md.py
+#    (vérification : python3 generer_vue_md.py --verifier).
+#  - Les autres MD (fiche créatures, fiches_oeuvres, etc.) gardent leur texte, mais en cas d'écart sur un statut, le YAML fait foi.
 #
 # RÈGLES DE REMPLISSAGE
 #  - "" ou [] = NON TRANCHÉ. Rien n'est inventé : si tu n'as pas décidé, le champ reste vide.
@@ -10,7 +18,11 @@
 #  - En cas d'incohérence entre documents : la version la plus récente a été retenue.
 #
 # VALEURS POSSIBLES
-#  statut_relation : influence | influence+reference | reference_de_comparaison | source_documentaire | famille_de_conventions | corpus_de_traditions
+#  statut_relation : influence | reference | influence+reference | reference_de_comparaison | source_documentaire | famille_de_conventions | corpus_de_traditions
+#     influence = ce qui t'a façonné (histoire personnelle) ; reference = usage conscient, avec peu de dimension personnelle
+#     (éléments piochés et appropriés, ou point de comparaison) ; reference_de_comparaison = cas où tu t'éloignes (Radiant).
+#  emprunts_ou_ecarts_par_aspect : liste {aspect, valeur, date, reserve, source} quand une œuvre a plusieurs aspects avec des valeurs différentes (ex. FMA : cadre militaire / ton)
+#  hypotheses.statut (systeme_de_pouvoirs) : a_reexaminer (ni validée ni réfutée) | validee | refutee
 #  statut_decision (ÉCHELLE DÉCISIONNELLE, ajoutée le 7 oct. 2026 ; source : ta « Fiche créatures et figures folkloriques : statuts »)
 #      non_precise : tu as cité l'élément sans dire son statut
 #      interet     : ce qui t'intéresse ou te plaît ; pas une décision pour ton œuvre (nommé « Référence » dans ta fiche créatures ; renommé « Intérêt » le 7 oct.)
@@ -30,12 +42,13 @@
 
 projet:
   nom_provisoire: "Edenia"
+  source_nom_provisoire: U       # confirmé directement par l'utilisateur le 2026-10-07
   genre: "battle shōnen occidental durable, édition traditionnelle"
   cadre_valide:            # décisions du 3 oct. 2026 (source : dépôt, Étude Dictionnaire infernal §4.2 et Esthétique §4.1)
     - "monde de fantasy multi-héritages"
     - "zone western + zone industrielle de type BioShock Infinite"
     - "un seul monde, une seule époque"
-    - "plafond technologique : 1930"
+    - "plafond technologique théorique : 1950, hors technologie magique"   # modifié le 7 oct. 2026 (U) ; était « 1930 » le 3 oct. ; deux régimes voulus (confirmé U) ; la technologie magique reste non décidée
     - "esthétique « archaïque mais pas trop »"
   gimmicks_des_grands_succes:   # liste donnée par toi (U) ; le « type » est ma proposition (IA)
     - {gimmick: "Pirate",           oeuvre: "One Piece",            type_de_gimmick: identite}
@@ -49,11 +62,67 @@ projet:
   folklore:                     # source : ta « Fiche créatures et figures folkloriques : statuts » (5-7 oct. 2026) ; U/depot
     decide: ["Barbegazi", "Agrippa (Dictionnaire infernal)"]
     envisage: ["Mélusine", "Ankou", "Mourioche", "Le Petit Homme rouge", "Gayant", "Le Houeron", "Tarasque", "Gremory/Gomory", "Furfur", "Marbas", "Stolas"]
-    interet: "24 autres créatures de la carte « Mythical Beasts of France », Chasse sauvage, Cour infernale, Limbo catholique, Limbo de Magik, enfer de Dorohedoro, Inferno et Purgatorio de Dante, purgatoire classique"
-    non_precise: "autres figures historiques du Dictionnaire infernal (Faust, Albert le Grand, Grandier, Merlin, Abel de Larue, etc.) : intérêt fort, statut individuel non précisé"
+    interet:                      # 24 créatures de la carte « Mythical Beasts of France » (32 au total) + autres éléments
+      creatures_de_la_carte: ["Ech Goblin", "Gargouille", "Karnabo", "Craqueuhhe", "Goubelin", "Jetin", "La Velue", "La Dame verte", "Rô", "Codrille", "Lupeux", "Peteu", "Vouivre", "Le Chien noir de Pontgibaud", "Dard", "Loup-garou", "Coulobre", "Fée", "Volo Biou", "Duphon", "Carcolh", "Fadet", "Camba Crusa", "Babau"]
+      autres: ["Chasse sauvage", "Cour infernale", "Limbo catholique", "Limbo de Magik", "Enfer et démons de Dorohedoro", "Inferno de Dante", "Purgatorio de Dante", "Purgatoire classique"]
+    non_precise: "autres figures historiques du Dictionnaire infernal (Faust, Albert le Grand, Grandier, Merlin, Abel de Larue, etc.) : attrait fort, statut individuel non précisé"
+  personnages_edenia:           # U, 6-7 oct. 2026 : noms et inspirations seulement (rien d'autre n'est décidé ; ils ne sont pas dits « protagonistes »)
+    - {nom: "Cosmo Dumas",    inspire_de: ["Ekko", "Killua Zoldyck", "Shisui Uchiha"], tenue_inspiration: "Academy Ekko (deux images), voir esthetique_vestimentaire"}
+    - {nom: "Brann Pandragon", inspire_de: ["Monkey D. Luffy", "Yusuke Urameshi", "Edward Elric", "Perceval le Gallois"], tenue_inspiration: "Fabula Fantasia (deux images), moins claire ; voir esthetique_vestimentaire"}
+    - {nom: "Harley Delphine", inspire_de: ["Shallan Davar (The Stormlight Archive)", "Hermione Granger", "Lisa Wilbourne (Tattletale, Worm)", "Magik (Illyana Rasputin)"]}
+  systeme_de_pouvoirs:          # U, 7 oct. 2026 (source : DELTA_a_reporter…md). Rien ici n'est une règle fixée sauf mention contraire.
+    critere:
+      texte: "éviter les pouvoirs sans limite, qui peuvent facilement devenir « broken »"
+      citation: "j'avais l'impression que les pouvoirs qui n'ont pas ce genre de limite, peuvent facilement devenir broken"
+      statut: "critère du système (pas une hypothèse) ; sous-jacent aux deux hypothèses ci-dessous"
+    limites_affirmees:
+      liste: ["portée", "puissance", "vitesse"]
+      citation: "mes pouvoirs ont une limite de portée, de puissance, de vitesse"
+      statut: "affirmé par l'utilisateur"
+      non_precise: "plafond général du monde ou réparti par porteur : question posée, sans réponse"
+    option_a_trancher:
+      texte: "plus le pouvoir est puissant, plus il demande de conditions"
+      statut: "explicitement non décidé"
+      recoupe: "fiche Jujutsu Kaisen, options_a_trancher « règles négociées (serments, conditions) » (même sujet, non reliés jusqu'ici)"
+    position_de_methode:
+      texte: "une limite de portée est structurante en soi ; elle n'a pas besoin d'être une interdiction"
+      citation: "Une épée a une bien plus grande limite de portée qu'un sniper."
+    hypotheses:
+      - {texte: "pouvoirs rattachés à du matériel", statut: "a_reexaminer"}   # ni validée ni réfutée (réfutation partielle contre le critère « broken »)
+      - {texte: "pouvoirs avec un enclencheur",     statut: "a_reexaminer"}
+  esthetique_vestimentaire:     # U, 7 oct. 2026
+    decide_depuis_le_3_oct: "archaïque mais pas trop"
+    definitions:
+      archaique_mais_pas_trop: "style vestimentaire qui peut paraître daté (U, 7 oct.)"
+      anachronisme:
+        texte: "éléments vestimentaires modernes présents dans un récit dont le cadre est plus ancien (U, 7 oct.)"
+        statut: "non décidé ; « a une part de vérité » (U)"
+    inspire_de: ["Radiant", "Runeterra"]                       # style copié/inspiré (U, 7 oct.)
+    cadre_temporel_flou_comme: ["Radiant", "Runeterra", "One Piece", "Naruto"]   # époques historiques mélangées, pas de date claire (U)
+    difficulte: "décrire ce style à une IA : ces œuvres mélangent les époques, une date ne le décrit pas ; on passe par des exemples visuels"
+    source_documentaire: "Esthetique_vestimentaire_anachronique_Battle_Shonen.md (dépôt, 3 oct.) : ne mentionne ni Radiant ni Fabula Fantasia"
+    references_visuelles:       # images décrites en texte (les fichiers ne sont pas dans le dépôt) ; statut_decision seulement quand l'utilisateur l'a dit
+      - {image: "Academy Ekko (modèle 3D)", pour: "Cosmo Dumas", oeuvre: "Runeterra (Academy Ekko)", role: "tenue qui l'inspire le plus", statut_decision: ""}
+      - {image: "Academy Ekko (concept art)", pour: "Cosmo Dumas", oeuvre: "Runeterra (Academy Ekko, concept art ; crédit visible : sunnykoda.deviantart.com)", role: "tenue qui l'inspire le plus", statut_decision: ""}
+      - {image: "Fabula Fantasia, tome 1 (couverture)", pour: "Brann Pandragon", oeuvre: "Fabula Fantasia (Tony Valente)", role: "inspiration moins claire ; tenue qui a sa place dans l'univers, surtout pour des « Chevaliers »", statut_decision: ""}
+      - {image: "Fabula Fantasia, tome 1 (illustration)", pour: "Brann Pandragon", oeuvre: "Fabula Fantasia (Tony Valente)", role: "idem", statut_decision: ""}
+      - {image: "Tenue d'académie envisagée (couverture fictive « Barrier Mage »)", pour: "tenues d'académie", oeuvre: "provenance inconnue (couverture fictive « Barrier Mage », vraisemblablement générée par IA)", role: "tenue envisagée ; seule différence voulue : pas de lacets aux baskets (trop moderne)", statut_decision: envisage}
+      - {image: "Garçon blond au style global voulu", pour: "style global", oeuvre: "provenance inconnue", role: "on voit peu la tenue, mais le style et le design global du personnage correspondent à l'univers", statut_decision: ""}
+  occultisme:                   # U, fiche vêtements du 5 oct., reportée le 7 oct. 2026
+    penche_vers: "ambiance (atmosphère de symboles, de décors et d'objets rituels, sans que l'histoire porte dessus)"
+    niveaux_possibles: ["ambiance", "thème (sujet exploré de façon récurrente)", "sujet central (intrigue construite sur l'occulte)"]
+    statut: "volontairement non tranché : l'utilisateur juge le terme trop vague ; ni thème ni sujet central pour l'instant"
+    statut_decision: ""
+  heritages_melanges:           # U, fiche vêtements du 5 oct., reportée le 7 oct. 2026
+    facons_retenues: ["dans les mêmes tenues", "répartis par régions"]
+    statut: "les deux façons conviennent ; articulation non décidée ; la répartition territoriale reste ouverte (note de contexte)"
+    statut_decision: ""
+  inspirations_visuelles_non_decidees:   # U, fiche vêtements du 5 oct., reportée le 7 oct. 2026
+    - {element: "personnages d'inspiration asiatique", statut_decision: envisage, note: "pas décidé"}
+    - {element: "objets bouddhiques japonais (perles de prière, bâton à anneau et clochettes, dangos)", statut_decision: interet, note: "goût ; pas un héritage décidé"}
   gimmick_edenia: ""            # à décider par toi
   type_gimmick_edenia: ""       # à décider par toi
-  non_tranche: ["Body, Mind and Soul", "rôle d'Harry Potter", "cosmologie", "système de pouvoirs", "protagonistes", "intrigue", "ciment entre les zones"]
+  non_tranche: ["Body, Mind and Soul", "fonction des livres Harry Potter", "technologie magique", "occultisme (ambiance, thème ou sujet central)", "articulation des héritages mélangés (mêmes tenues ou par régions)", "cosmologie", "système de pouvoirs", "protagonistes", "intrigue", "ciment entre les zones"]
 
 references:
 
@@ -66,6 +135,8 @@ references:
     options_a_trancher: ["worldbuilding régional contrasté", "lore distribué sans récit central"]
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
+    emprunts_ou_ecarts_par_aspect:
+      - {aspect: "esthétique vestimentaire (tenue)", valeur: emprunt, date: "2026-10-07", source: U, note: "style copié/inspiré de Radiant et de Runeterra ; tenues de référence : Academy Ekko (pour Cosmo Dumas)"}
     trace_attendue_dans_le_texte: ""
     risque: ""
     note: "Référence principale du monde. Edenia en est proche (dépôt)."
@@ -94,7 +165,7 @@ references:
     emprunt_ou_ecart: ""
     trace_attendue_dans_le_texte: ""
     risque: ""
-    contrainte_liee: "plafond technologique 1930"
+    contrainte_liee: "plafond technologique théorique 1950, hors technologie magique"   # modifié le 7 oct. 2026 (U) ; était 1930
     statut: "décision de cadre validée ; détails non tranchés"
     statut_decision: decide   # pour l'aspect « zone industrielle » (décision du 3 oct., dépôt)
 
@@ -119,9 +190,9 @@ references:
     emprunt_ou_ecart: ""
     trace_attendue_dans_le_texte: ""
     risque: ""
-    note: "Décompte des articles incohérent dans le dépôt (2 490 / 2 511 / 2 517) : sans effet sur la fiche."
+    note: "Décompte des articles incohérent dans le dépôt (2 490 / 2 511 / 2 517) : sans effet sur la fiche. Statuts par élément (fiche créatures, 7 oct.) : Agrippa décidé ; Gremory/Gomory, Furfur, Marbas, Stolas envisagés ; Faust, Albert le Grand, Grandier, Merlin, Abel de Larue etc. non précisés. Voir projet.folklore."
     statut: "à trancher"
-    statut_decision: ""
+    statut_decision: ""            # varie selon l'élément : voir note
 
   - reference: "Folklores gréco-égyptiens"
     statut_relation: corpus_de_traditions
@@ -140,7 +211,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
-    statut_decision: ""
+    statut_decision: envisage   # fiche créatures, 7 oct. (U)
 
   - reference: "Petit Homme rouge"
     statut_relation: corpus_de_traditions
@@ -149,7 +220,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
-    statut_decision: ""
+    statut_decision: envisage   # fiche créatures, 7 oct. (U) ; pas d'article dans l'édition 1825 du Dictionnaire infernal (seul « Homme rouge », démon des tempêtes bretonnes)
 
   - reference: "Chasse sauvage"
     statut_relation: corpus_de_traditions
@@ -158,7 +229,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
-    statut_decision: ""
+    statut_decision: interet   # fiche créatures, 7 oct. (U) ; classée « référence » dans 01_CONTEXTE_ET_SUITE
 
   - reference: "Shrek"
     statut_relation: influence
@@ -172,11 +243,15 @@ references:
 
   # ---------------- REFÉRENCE DE COMPARAISON ----------------
   - reference: "Radiant (manga)"
-    statut_relation: reference_de_comparaison     # et NON influence (précisé le 6 oct.)
+    statut_relation: reference                    # NON influence (6 oct.) ; passe de « reference_de_comparaison » à « reference » le 7 oct. : la tenue est copiée/inspirée, la distance vaut pour d'autres aspects
     source: U
-    role: "point de comparaison que tu comprends bien ; tu cherches à ne pas t'en rapprocher trop"
-    aspect_vise: ""
-    emprunt_ou_ecart: distance_a_maintenir
+    role: "référence que tu comprends bien : point de comparaison dont tu cherches à ne pas trop te rapprocher, ET source d'inspiration pour la tenue (7 oct.)"
+    aspect_vise: "esthétique vestimentaire (tenue)"      # U, 7 oct. 2026
+    emprunt_ou_ecart: ""         # voir emprunts_ou_ecarts_par_aspect
+    oeuvres_liees: ["Fabula Fantasia (spin-off, Tony Valente, 2025)"]
+    emprunts_ou_ecarts_par_aspect:
+      - {aspect: "esthétique vestimentaire (tenue)", valeur: emprunt, date: "2026-10-07", source: U, note: "style copié/inspiré de Radiant et de Runeterra"}
+      - {aspect: "autres aspects (non précisés)", valeur: distance_a_maintenir, date: "2026-10-06", source: U, note: "à préciser : la distance voulue ne porte plus nécessairement sur tout"}
     distance_voulue: ""          # « pas trop proche » : seuil non défini
     elements_a_ne_pas_rapprocher: []     # à remplir par toi
     trace_attendue_dans_le_texte: ""
@@ -192,7 +267,7 @@ references:
     statut_relation: influence
     source: U
     type_de_noeud: "œuvre"
-    aspect_vise: ""
+    aspect_vise: "ton"           # U, 7 oct. 2026 : ton visé plus proche de Red Hood / HxH que de FMA
     options_a_trancher: ["économie de l'information en combat", "bascule de moteur"]
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
@@ -277,9 +352,15 @@ references:
     statut_relation: influence
     source: U
     type_de_noeud: "œuvre"
-    aspect_vise: ""
+    aspect_vise: "les deux traditions d'alchimie (amestrienne et sa version chinoise), pour approfondir un potentiel système de pouvoirs"   # U, 7 oct. 2026
     niveau_de_detail: ""
-    emprunt_ou_ecart: ""
+    emprunt_ou_ecart: ""         # voir emprunts_ou_ecarts_par_aspect (plusieurs aspects, plusieurs valeurs)
+    emprunts_ou_ecarts_par_aspect:
+      - {aspect: "cadre militaire", valeur: distance_a_maintenir, date: "2026-10-07", reserve: "pour l'instant", source: U}   # « rien pour l'instant »
+    inventaire_non_fige:         # donné par l'utilisateur avec « je crois », non confirmé depuis
+      personnages: ["Ed", "Roy", "Riza", "Olivier"]
+      alchimie: ["l'alchimie", "sa version chinoise"]
+      pouvoirs: ["pouvoirs d'Ed", "pouvoirs de Roy", "pouvoirs de Scar"]
     limite_lecture: "aucune indiquée"
     statut: "à trancher"
     statut_decision: ""
@@ -298,6 +379,8 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     limite_lecture: "anime S1 à S3, jusqu'à l'épisode 59 ; manga non lu"
+    note_utilisateur: "œuvre que l'utilisateur aime beaucoup (dit le 7 oct. 2026)"
+    note: "Recoupe projet.systeme_de_pouvoirs.option_a_trancher (plus un pouvoir est puissant, plus il demande de conditions)."
     statut: "à trancher"
     statut_decision: ""
     gimmick: "Sorcier (jujutsushi)"
@@ -310,7 +393,7 @@ references:
     statut_relation: "influence+reference"   # précisé par toi le 7 oct. : les deux
     source: depot
     type_de_noeud: "œuvre (Yuki Kawaguchi, 3 tomes, 2021)"
-    aspect_vise: ""
+    aspect_vise: "ton"           # U, 7 oct. 2026 : ton visé plus proche de Red Hood / HxH que de FMA
     options_a_trancher: ["relecture de conte", "structure chasse/contrat"]
     niveau_de_detail: ""
     emprunt_ou_ecart: ""         # candidats : confirmation (éléments qui ont confirmé tes choix) + distance_a_maintenir (éléments à ne pas faire)
@@ -325,15 +408,41 @@ references:
     gimmick_confiance: verifie_web
     source_gimmick: IA
 
+  - reference: "Fabula Fantasia (Tony Valente)"
+    statut_relation: ""          # non précisé (influence / référence ?) : à dire par l'utilisateur
+    source: U
+    type_de_noeud: "œuvre (BD / manga ; couverture et illustration du tome 1 fournies le 7 oct.)"
+    aspect_vise: "tenues de personnages de type « Chevalier » (inspiration pour Brann Pandragon, « moins claire »)"
+    niveau_de_detail: esthetique
+    emprunt_ou_ecart: ""
+    limite_lecture: "non précisée (seuls deux visuels du tome 1 ont été fournis)"
+    lien_avec: "Radiant (spin-off)"
+    note: "Selon l'utilisateur : tenue qui a sa place dans le cadre de l'univers, surtout pour des personnages de profession « Chevalier ». Fabula Fantasia est un spin-off de Radiant (Tony Valente, Ankama, tome 1 le 5 déc. 2025 ; vérifié sur Nautiljon le 7 oct. 2026). Le résumé du tome place l'action bien avant la naissance de Seth."
+    risque: "contenu possiblement lié à Radiant au-delà du tome 6 : par prudence, la limite de lecture de Radiant (fin du tome 6, rien au-delà) vaut aussi pour tout contenu de Fabula Fantasia qui en dépend (proposition IA, à valider)"
+    statut: "à préciser"
+    statut_decision: ""
+
   # ---------------- FANTASY, SÉRIES, COMICS ----------------
-  - reference: "Harry Potter"
+  - reference: "Harry Potter (films)"
     statut_relation: influence
     source: U
-    type_de_noeud: "œuvre"
+    type_de_noeud: "œuvre (adaptation cinéma)"
+    aspect_vise: "esthétique et visuels"      # tranché (U, 7 oct. 2026)
+    niveau_de_detail: esthetique
+    emprunt_ou_ecart: ""
+    trace_attendue_dans_le_texte: ""
+    limite_lecture: "films vus"
+    statut: "aspect visé tranché ; niveau d'emprunt et trace attendue non tranchés"
+    statut_decision: envisage     # pour l'aspect « esthétique et visuels » (U, 7 oct. 2026)
+
+  - reference: "Harry Potter (livres)"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre (romans)"
     aspect_vise: ""
     emprunt_ou_ecart: ""
-    note: "Rôle dans le projet : non tranché (listé dans les indéterminations du 3 oct.)."
-    limite_lecture: "aucune indiquée"
+    note: "Constat de l'utilisateur (7 oct. 2026) : les livres contiennent du matériau supplémentaire absent des films, jugé intéressant. Constat, pas décision de fonction."
+    limite_lecture: "quelques livres lus ; pas la série complète ; ne pas présumer de connaissance au-delà"
     statut: "rôle à définir"
     statut_decision: ""
 
