@@ -5286,6 +5286,38 @@ document.addEventListener("click",e=>{
       localStorage.setItem(FLAG,"1");
     }
   }catch(_){}
+  /* [TOUR 107-108] Trois fiches de personnages dans Edenia, créées une seule fois (drapeau
+     propre, v2 = noms exacts). Contenu volontairement minimal : seulement les inspirations.
+     Rien n'est ajouté si le monde Edenia n'existe pas. Une fiche déjà créée par la v1 est
+     corrigée seulement si son texte n'a pas été modifié depuis ; sinon elle est laissée telle quelle. */
+  try{
+    const FLAG2="atelier.seed.edenia-persos.v2";
+    if(!localStorage.getItem(FLAG2)){
+      const wEd=(store.worlds||SEED_WORLDS).find(w=>w.id==="edenia"||(w.name||"").trim().toLowerCase()==="edenia");
+      if(wEd){
+        const persos=[
+          ["Cosmo Dumas","Ekko, Killua Zoldyck et Shisui Uchiha","Ekko, Killua et Shisui Uchiwa"],
+          ["Brann Pandragon","Monkey D. Luffy, Yusuke Urameshi, Edward Elric et Perceval le Gallois","Luffy, Yusuke, Edward et Perceval"],
+          ["Harley Delphine","Shallan Davar (The Stormlight Archive), Hermione Granger, Lisa Wilbourne aka Tattletale et Magik (Illyana Rasputin)","Shallan (Stormlight Archives), Hermione Granger, Lisa Wilbourne aka Taletatte et Magik Illyana Raspoutine"]
+        ];
+        const mdOf=(nom,phrase)=>'@infobox {"headerLabel":"Personnages","subtitle":"'+nom+'"}\n\n## '+nom+'\n\n'+phrase;
+        const pages=(store.pages||[]).slice(); let n=0; const t0=Date.now();
+        persos.forEach(([nom,insp,anciens],i)=>{
+          const phrase="Inspiré de "+insp+".";
+          const ex=pages.find(p=>(p.title||"").trim().toLowerCase()===nom.toLowerCase());
+          if(ex){
+            if(ex.md===mdOf(nom,"Inspiré de "+anciens+".")){ex.md=mdOf(nom,phrase);ex.excerpt=phrase;ex.mts=t0-i;n++;}
+            return;
+          }
+          let slug=slugify(nom); if(findArticle(slug))slug=nextFreeSlug(slug);
+          pages.push({world:wEd.id,slug,title:nom,category:"character",excerpt:phrase,views:0,tags:[],infobox:{},md:mdOf(nom,phrase),mts:t0-i});
+          n++;
+        });
+        if(n)store.pages=pages;
+      }
+      localStorage.setItem(FLAG2,"1");
+    }
+  }catch(_){}
   /* [FEAT] recharge les catégories personnalisées persistées */
   try{const c=JSON.parse(localStorage.getItem("atelier.cats")||"null");
     if(c){Object.assign(CAT_LABELS,c.labels||{});Object.assign(CAT_COLORS,c.colors||{});Object.assign(CAT_ICONS,c.icons||{});}
@@ -6311,5 +6343,5 @@ img.flb-able:focus-visible{outline:3px solid #00cdd0;outline-offset:2px}
   };
   if (D.readyState === 'loading') D.addEventListener('DOMContentLoaded', function () { mark(); }); else mark();
 })();
-</script><!--FLB-END--></body>
+</script><!--FLB-END--><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a46ab3627dd22c0b',t:'MTc5MTM1Mjk4Ng=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
