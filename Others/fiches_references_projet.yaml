@@ -10,9 +10,17 @@
 #  - En cas d'incohérence entre documents : la version la plus récente a été retenue.
 #
 # VALEURS POSSIBLES
-#  statut_relation : influence | reference_de_comparaison | source_documentaire | famille_de_conventions | corpus_de_traditions
+#  statut_relation : influence | influence+reference | reference_de_comparaison | source_documentaire | famille_de_conventions | corpus_de_traditions
+#  statut_decision (ÉCHELLE DÉCISIONNELLE, ajoutée le 7 oct. 2026 ; source : ta « Fiche créatures et figures folkloriques : statuts »)
+#      non_precise : tu as cité l'élément sans dire son statut
+#      interet     : ce qui t'intéresse ou te plaît ; pas une décision pour ton œuvre (nommé « Référence » dans ta fiche créatures ; renommé « Intérêt » le 7 oct.)
+#      envisage    : élément auquel tu as réfléchi comme une possibilité réelle pour ton œuvre, sans l'avoir validé ; tu peux encore l'abandonner (définition proposée par l'IA et validée par toi le 7 oct.)
+#      decide      : choisi pour ton œuvre
+#      "" = pas encore classé. « interet » est distinct de la catégorie « référence » de statut_relation (voir DECISIONS_RECENTES_2026-10-07.md §3 et §3bis).
+#      Une fiche peut avoir un statut_decision différent selon l'aspect : préciser dans « note » ou « aspect_vise ».
 #  niveau_de_detail: ton | procede | structure | systeme | motif | esthetique | bestiaire | forme
-#  emprunt_ou_ecart: emprunt | ecart_delibere | hommage_ponctuel | distance_a_maintenir
+#  emprunt_ou_ecart: emprunt | ecart_delibere | hommage_ponctuel | distance_a_maintenir | confirmation
+#     (« confirmation » ajouté le 7 oct. : l'œuvre a confirmé un choix déjà voulu ; cas de Red Hood)
 #  type_de_gimmick : identite (Pirate, Ninja, Samurai) | discipline (Mage, Alchimiste, Exorciste)
 #                    | statut_institutionnel (titre ou licence accordé par une institution : Hunter)
 #                    | mixte (identité ou discipline + statut d'institution : Shinigami, Ninja avec rangs)
@@ -38,6 +46,11 @@ projet:
     - {gimmick: "Exorciste",        oeuvre: "",                     type_de_gimmick: mixte}
     - {gimmick: "Alchimiste",       oeuvre: "Fullmetal Alchemist",  type_de_gimmick: discipline}
     - {gimmick: "Hunter",           oeuvre: "Hunter × Hunter",      type_de_gimmick: statut_institutionnel}
+  folklore:                     # source : ta « Fiche créatures et figures folkloriques : statuts » (5-7 oct. 2026) ; U/depot
+    decide: ["Barbegazi", "Agrippa (Dictionnaire infernal)"]
+    envisage: ["Mélusine", "Ankou", "Mourioche", "Le Petit Homme rouge", "Gayant", "Le Houeron", "Tarasque", "Gremory/Gomory", "Furfur", "Marbas", "Stolas"]
+    interet: "24 autres créatures de la carte « Mythical Beasts of France », Chasse sauvage, Cour infernale, Limbo catholique, Limbo de Magik, enfer de Dorohedoro, Inferno et Purgatorio de Dante, purgatoire classique"
+    non_precise: "autres figures historiques du Dictionnaire infernal (Faust, Albert le Grand, Grandier, Merlin, Abel de Larue, etc.) : intérêt fort, statut individuel non précisé"
   gimmick_edenia: ""            # à décider par toi
   type_gimmick_edenia: ""       # à décider par toi
   non_tranche: ["Body, Mind and Soul", "rôle d'Harry Potter", "cosmologie", "système de pouvoirs", "protagonistes", "intrigue", "ciment entre les zones"]
@@ -57,6 +70,7 @@ references:
     risque: ""
     note: "Référence principale du monde. Edenia en est proche (dépôt)."
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "Warcraft / Hearthstone"
     statut_relation: influence
@@ -69,6 +83,7 @@ references:
     trace_attendue_dans_le_texte: ""
     risque: ""
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "BioShock Infinite"
     statut_relation: influence
@@ -81,6 +96,7 @@ references:
     risque: ""
     contrainte_liee: "plafond technologique 1930"
     statut: "décision de cadre validée ; détails non tranchés"
+    statut_decision: decide   # pour l'aspect « zone industrielle » (décision du 3 oct., dépôt)
 
   - reference: "Féodalisme (Dictionnaire féodal 1820)"
     statut_relation: source_documentaire
@@ -91,6 +107,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "Dictionnaire infernal (Collin de Plancy, éd. 1825)"
     statut_relation: source_documentaire
@@ -104,6 +121,7 @@ references:
     risque: ""
     note: "Décompte des articles incohérent dans le dépôt (2 490 / 2 511 / 2 517) : sans effet sur la fiche."
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "Folklores gréco-égyptiens"
     statut_relation: corpus_de_traditions
@@ -113,6 +131,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "Mélusine"
     statut_relation: corpus_de_traditions
@@ -121,6 +140,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "Petit Homme rouge"
     statut_relation: corpus_de_traditions
@@ -129,6 +149,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "Chasse sauvage"
     statut_relation: corpus_de_traditions
@@ -137,6 +158,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "Shrek"
     statut_relation: influence
@@ -146,6 +168,7 @@ references:
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
     statut: "à trancher"
+    statut_decision: ""
 
   # ---------------- REFÉRENCE DE COMPARAISON ----------------
   - reference: "Radiant (manga)"
@@ -160,6 +183,7 @@ references:
     risque: "ressemblance involontaire"
     limite_lecture: "fin du tome 6 ; rien au-delà"
     statut: "référence de comparaison ; distance à définir"
+    statut_decision: ""
     gimmick: ""                  # à renseigner (limite de lecture : fin du tome 6)
     type_de_gimmick: ""
 
@@ -176,6 +200,7 @@ references:
     risque: ""
     limite_lecture: "aucune indiquée"
     statut: "à trancher"
+    statut_decision: ""
     gimmick: "Hunter"
     type_de_gimmick: statut_institutionnel
     gimmick_detail: "licence délivrée par l'Association des Hunters (organisation non gouvernementale) après examen ; spécialisation libre (bêtes, trésors, criminels…) ; règlement : toujours être en quête de quelque chose, et maîtriser au minimum le combat dont le Nen ; les étoiles mesurent les contributions, pas la force"
@@ -191,6 +216,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "début de l'arc Chapitre Noir, après la première confrontation avec Sensui (appliqué : ch. 129 / ép. 78, à confirmer)"
     statut: "à trancher"
+    statut_decision: ""
     gimmick: "Détective spirituel"
     type_de_gimmick: statut_institutionnel
     gimmick_detail: "mission confiée par le Monde des Esprits"
@@ -207,6 +233,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "juste avant le dénouement de l'arc Wano (appliqué : fin du tome 97, ch. 984, à confirmer)"
     statut: "à trancher"
+    statut_decision: ""
     gimmick: "Pirate"
     type_de_gimmick: identite
     gimmick_detail: "identité hors-la-loi ; les Marines sont l'équivalent officiel"
@@ -223,6 +250,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "aucune indiquée"
     statut: "à trancher"
+    statut_decision: ""
     gimmick: "Ninja"
     type_de_gimmick: mixte
     gimmick_detail: "identité (culture ninja) et statut d'un village, avec rangs (Genin, Chûnin, Jônin)"
@@ -238,6 +266,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "aucune indiquée"
     statut: "à trancher"
+    statut_decision: ""
     gimmick: "Shinigami"
     type_de_gimmick: mixte
     gimmick_detail: "fonction de la Soul Society (corps armé organisé en capitaines et lieutenants)"
@@ -253,6 +282,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "aucune indiquée"
     statut: "à trancher"
+    statut_decision: ""
     gimmick: "Alchimiste"
     type_de_gimmick: discipline
     gimmick_detail: "l'alchimie est la discipline ; « Alchimiste d'État » est le statut institutionnel (armée) associé"
@@ -269,6 +299,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "anime S1 à S3, jusqu'à l'épisode 59 ; manga non lu"
     statut: "à trancher"
+    statut_decision: ""
     gimmick: "Sorcier (jujutsushi)"
     type_de_gimmick: mixte
     gimmick_detail: "discipline (énergie occulte) et statut d'une organisation de sorciers, avec grades"
@@ -276,15 +307,18 @@ references:
     source_gimmick: IA
 
   - reference: "The Hunters Guild: Red Hood"
-    statut_relation: ""            # cité dans ta page « Influences » ; statut à confirmer (influence ou référence ?)
+    statut_relation: "influence+reference"   # précisé par toi le 7 oct. : les deux
     source: depot
     type_de_noeud: "œuvre (Yuki Kawaguchi, 3 tomes, 2021)"
     aspect_vise: ""
     options_a_trancher: ["relecture de conte", "structure chasse/contrat"]
     niveau_de_detail: ""
-    emprunt_ou_ecart: ""
+    emprunt_ou_ecart: ""         # candidats : confirmation (éléments qui ont confirmé tes choix) + distance_a_maintenir (éléments à ne pas faire)
+    elements_confirmes: []       # à remplir par toi : ce que Red Hood t'a confirmé (compris via l'œuvre et les réactions du public)
+    elements_a_eviter: []        # à remplir par toi : ce que tu ne veux pas faire
     limite_lecture: ""
-    statut: "statut de la relation à confirmer"
+    statut: "les deux (influence et référence) ; éléments à préciser"
+    statut_decision: ""
     gimmick: "Chasseur de la Guilde des chasseurs"
     type_de_gimmick: statut_institutionnel
     gimmick_detail: "guilde engagée par contrat (services très chers) ; formation et examens (centre mobile d'entraînement) ; monde où les contes sont réels (loups-garous, sorcières, monstres)"
@@ -301,6 +335,7 @@ references:
     note: "Rôle dans le projet : non tranché (listé dans les indéterminations du 3 oct.)."
     limite_lecture: "aucune indiquée"
     statut: "rôle à définir"
+    statut_decision: ""
 
   - reference: "Worm (Wildbow)"
     statut_relation: influence
@@ -313,6 +348,7 @@ references:
     limite_lecture: "fin de l'arc 9, Sentinel (avril 2012) ; rien de postérieur"
     note_utilisateur: "rapprochement personnel : « HxH + Watchmen »"
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "The Stormlight Archive (Sanderson)"
     statut_relation: influence
@@ -324,6 +360,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "The Way of Kings : Prélude, Prologue, chapitres 1 à 11 ; rien au-delà"
     statut: "à trancher ; lecture à poursuivre"
+    statut_decision: ""
 
   - reference: "Game of Thrones"
     statut_relation: influence
@@ -334,6 +371,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "série S1 à S7 ; livres non lus"
     statut: "à trancher"
+    statut_decision: ""
 
   - reference: "The Kingkiller Chronicle (Rothfuss)"
     statut_relation: influence
@@ -343,6 +381,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "Prologue + environ 5 chapitres du Nom du vent ; rien au-delà"
     statut: "à trancher ; lecture à poursuivre"
+    statut_decision: ""
 
   - reference: "La Horde du Contrevent (Damasio)"
     statut_relation: influence
@@ -352,6 +391,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "2-3 premiers chapitres ; rien au-delà"
     statut: "à trancher ; lecture à poursuivre"
+    statut_decision: ""
 
   - reference: "Le Seigneur des Anneaux"
     statut_relation: influence
@@ -361,3 +401,4 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "La Communauté de l'Anneau, jusqu'au livre II ch. 10"
     statut: "à trancher"
+    statut_decision: ""
