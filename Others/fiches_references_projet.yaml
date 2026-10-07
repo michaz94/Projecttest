@@ -1,0 +1,363 @@
+# =====================================================================
+# FICHES DE RÉFÉRENCES : projet de battle shōnen occidental (Edenia, nom provisoire)
+# Créé le 2026-10-06. Aucun autre fichier n'a été modifié.
+#
+# RÈGLES DE REMPLISSAGE
+#  - "" ou [] = NON TRANCHÉ. Rien n'est inventé : si tu n'as pas décidé, le champ reste vide.
+#  - "options_a_trancher" = les choix possibles (issus de la frise v3 §7). Ce ne sont PAS tes décisions.
+#  - "source" : U = tu l'as dit ou décidé ; depot = écrit dans ton dépôt ; IA = proposition de l'IA (à valider).
+#  - "limite_lecture" : ce que tu as lu, et rien au-delà. Les fiches ne contiennent aucun contenu d'intrigue.
+#  - En cas d'incohérence entre documents : la version la plus récente a été retenue.
+#
+# VALEURS POSSIBLES
+#  statut_relation : influence | reference_de_comparaison | source_documentaire | famille_de_conventions | corpus_de_traditions
+#  niveau_de_detail: ton | procede | structure | systeme | motif | esthetique | bestiaire | forme
+#  emprunt_ou_ecart: emprunt | ecart_delibere | hommage_ponctuel | distance_a_maintenir
+#  type_de_gimmick : identite (Pirate, Ninja, Samurai) | discipline (Mage, Alchimiste, Exorciste)
+#                    | statut_institutionnel (titre ou licence accordé par une institution : Hunter)
+#                    | mixte (identité ou discipline + statut d'institution : Shinigami, Ninja avec rangs)
+#  gimmick_confiance : verifie_web (vérifié sur des sources) | memoire_IA (mon souvenir de la série, non revérifié)
+#  Les champs « gimmick* » sont des PROPOSITIONS DE L'IA (source_gimmick: IA) : à valider ou corriger par toi.
+# =====================================================================
+
+projet:
+  nom_provisoire: "Edenia"
+  genre: "battle shōnen occidental durable, édition traditionnelle"
+  cadre_valide:            # décisions du 3 oct. 2026 (source : dépôt, Étude Dictionnaire infernal §4.2 et Esthétique §4.1)
+    - "monde de fantasy multi-héritages"
+    - "zone western + zone industrielle de type BioShock Infinite"
+    - "un seul monde, une seule époque"
+    - "plafond technologique : 1930"
+    - "esthétique « archaïque mais pas trop »"
+  gimmicks_des_grands_succes:   # liste donnée par toi (U) ; le « type » est ma proposition (IA)
+    - {gimmick: "Pirate",           oeuvre: "One Piece",            type_de_gimmick: identite}
+    - {gimmick: "Ninja",            oeuvre: "Naruto",               type_de_gimmick: mixte}
+    - {gimmick: "Shinigami",        oeuvre: "Bleach",               type_de_gimmick: mixte}
+    - {gimmick: "Épéiste/Samurai",  oeuvre: "",                     type_de_gimmick: identite}
+    - {gimmick: "Mage",             oeuvre: "",                     type_de_gimmick: discipline}
+    - {gimmick: "Exorciste",        oeuvre: "",                     type_de_gimmick: mixte}
+    - {gimmick: "Alchimiste",       oeuvre: "Fullmetal Alchemist",  type_de_gimmick: discipline}
+    - {gimmick: "Hunter",           oeuvre: "Hunter × Hunter",      type_de_gimmick: statut_institutionnel}
+  gimmick_edenia: ""            # à décider par toi
+  type_gimmick_edenia: ""       # à décider par toi
+  non_tranche: ["Body, Mind and Soul", "rôle d'Harry Potter", "cosmologie", "système de pouvoirs", "protagonistes", "intrigue", "ciment entre les zones"]
+
+references:
+
+  # ---------------- MONDE ET CADRE ----------------
+  - reference: "Runeterra (League of Legends)"
+    statut_relation: influence
+    source: U            # référence principale, selon le dépôt
+    type_de_noeud: "univers partagé"
+    aspect_vise: ""
+    options_a_trancher: ["worldbuilding régional contrasté", "lore distribué sans récit central"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    trace_attendue_dans_le_texte: ""
+    risque: ""
+    note: "Référence principale du monde. Edenia en est proche (dépôt)."
+    statut: "à trancher"
+
+  - reference: "Warcraft / Hearthstone"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "univers"
+    aspect_vise: ""
+    options_a_trancher: []
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    trace_attendue_dans_le_texte: ""
+    risque: ""
+    statut: "à trancher"
+
+  - reference: "BioShock Infinite"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre (jeu vidéo)"
+    aspect_vise: "zone industrielle d'Edenia"
+    niveau_de_detail: "esthetique"
+    emprunt_ou_ecart: ""
+    trace_attendue_dans_le_texte: ""
+    risque: ""
+    contrainte_liee: "plafond technologique 1930"
+    statut: "décision de cadre validée ; détails non tranchés"
+
+  - reference: "Féodalisme (Dictionnaire féodal 1820)"
+    statut_relation: source_documentaire
+    source: depot
+    type_de_noeud: "source documentaire (266 articles, 113 recoupements avec le Dictionnaire infernal)"
+    aspect_vise: ""
+    options_a_trancher: ["hiérarchies sociales", "vocabulaire de titres et de fiefs"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    statut: "à trancher"
+
+  - reference: "Dictionnaire infernal (Collin de Plancy, éd. 1825)"
+    statut_relation: source_documentaire
+    source: U
+    type_de_noeud: "source documentaire (démonologie, pas de la fiction)"
+    aspect_vise: "hiérarchies"      # mentionné dans les décisions du 3 oct.
+    options_a_trancher: ["bestiaire nommé", "forme encyclopédique elle-même"]
+    niveau_de_detail: "bestiaire"
+    emprunt_ou_ecart: ""
+    trace_attendue_dans_le_texte: ""
+    risque: ""
+    note: "Décompte des articles incohérent dans le dépôt (2 490 / 2 511 / 2 517) : sans effet sur la fiche."
+    statut: "à trancher"
+
+  - reference: "Folklores gréco-égyptiens"
+    statut_relation: corpus_de_traditions
+    source: U
+    aspect_vise: ""
+    options_a_trancher: ["une aire culturelle identifiée", "un motif transversal (pacte, double, interdit)"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    statut: "à trancher"
+
+  - reference: "Mélusine"
+    statut_relation: corpus_de_traditions
+    source: U
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    statut: "à trancher"
+
+  - reference: "Petit Homme rouge"
+    statut_relation: corpus_de_traditions
+    source: U
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    statut: "à trancher"
+
+  - reference: "Chasse sauvage"
+    statut_relation: corpus_de_traditions
+    source: U
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    statut: "à trancher"
+
+  - reference: "Shrek"
+    statut_relation: influence
+    source: U
+    note: "Associé à Red Hood dans les décisions du 3 oct. (relecture de contes). Rien d'autre n'est précisé."
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    statut: "à trancher"
+
+  # ---------------- REFÉRENCE DE COMPARAISON ----------------
+  - reference: "Radiant (manga)"
+    statut_relation: reference_de_comparaison     # et NON influence (précisé le 6 oct.)
+    source: U
+    role: "point de comparaison que tu comprends bien ; tu cherches à ne pas t'en rapprocher trop"
+    aspect_vise: ""
+    emprunt_ou_ecart: distance_a_maintenir
+    distance_voulue: ""          # « pas trop proche » : seuil non défini
+    elements_a_ne_pas_rapprocher: []     # à remplir par toi
+    trace_attendue_dans_le_texte: ""
+    risque: "ressemblance involontaire"
+    limite_lecture: "fin du tome 6 ; rien au-delà"
+    statut: "référence de comparaison ; distance à définir"
+    gimmick: ""                  # à renseigner (limite de lecture : fin du tome 6)
+    type_de_gimmick: ""
+
+  # ---------------- BATTLE SHŌNEN ET MANGA ----------------
+  - reference: "Hunter × Hunter"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre"
+    aspect_vise: ""
+    options_a_trancher: ["économie de l'information en combat", "bascule de moteur"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    trace_attendue_dans_le_texte: ""
+    risque: ""
+    limite_lecture: "aucune indiquée"
+    statut: "à trancher"
+    gimmick: "Hunter"
+    type_de_gimmick: statut_institutionnel
+    gimmick_detail: "licence délivrée par l'Association des Hunters (organisation non gouvernementale) après examen ; spécialisation libre (bêtes, trésors, criminels…) ; règlement : toujours être en quête de quelque chose, et maîtriser au minimum le combat dont le Nen ; les étoiles mesurent les contributions, pas la force"
+    gimmick_confiance: verifie_web
+    source_gimmick: IA
+
+  - reference: "Yu Yu Hakusho"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre"
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "début de l'arc Chapitre Noir, après la première confrontation avec Sensui (appliqué : ch. 129 / ép. 78, à confirmer)"
+    statut: "à trancher"
+    gimmick: "Détective spirituel"
+    type_de_gimmick: statut_institutionnel
+    gimmick_detail: "mission confiée par le Monde des Esprits"
+    gimmick_confiance: memoire_IA
+    source_gimmick: IA
+
+  - reference: "One Piece"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre"
+    aspect_vise: ""
+    options_a_trancher: ["ensemble cast et sa gestion", "géographie-promesse"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "juste avant le dénouement de l'arc Wano (appliqué : fin du tome 97, ch. 984, à confirmer)"
+    statut: "à trancher"
+    gimmick: "Pirate"
+    type_de_gimmick: identite
+    gimmick_detail: "identité hors-la-loi ; les Marines sont l'équivalent officiel"
+    gimmick_confiance: memoire_IA
+    source_gimmick: IA
+
+  - reference: "Naruto"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre"
+    aspect_vise: ""
+    options_a_trancher: ["structure missions + équipe", "passé traumatique comme révélation"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "aucune indiquée"
+    statut: "à trancher"
+    gimmick: "Ninja"
+    type_de_gimmick: mixte
+    gimmick_detail: "identité (culture ninja) et statut d'un village, avec rangs (Genin, Chûnin, Jônin)"
+    gimmick_confiance: memoire_IA
+    source_gimmick: IA
+
+  - reference: "Bleach"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre"
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "aucune indiquée"
+    statut: "à trancher"
+    gimmick: "Shinigami"
+    type_de_gimmick: mixte
+    gimmick_detail: "fonction de la Soul Society (corps armé organisé en capitaines et lieutenants)"
+    gimmick_confiance: memoire_IA
+    source_gimmick: IA
+
+  - reference: "Fullmetal Alchemist"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre"
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "aucune indiquée"
+    statut: "à trancher"
+    gimmick: "Alchimiste"
+    type_de_gimmick: discipline
+    gimmick_detail: "l'alchimie est la discipline ; « Alchimiste d'État » est le statut institutionnel (armée) associé"
+    gimmick_confiance: memoire_IA
+    source_gimmick: IA
+
+  - reference: "Jujutsu Kaisen (anime)"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "auteur + œuvre (Gege Akutami)"
+    aspect_vise: ""
+    options_a_trancher: ["règles négociées (serments, conditions)", "registre horrifique"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "anime S1 à S3, jusqu'à l'épisode 59 ; manga non lu"
+    statut: "à trancher"
+    gimmick: "Sorcier (jujutsushi)"
+    type_de_gimmick: mixte
+    gimmick_detail: "discipline (énergie occulte) et statut d'une organisation de sorciers, avec grades"
+    gimmick_confiance: memoire_IA
+    source_gimmick: IA
+
+  - reference: "The Hunters Guild: Red Hood"
+    statut_relation: ""            # cité dans ta page « Influences » ; statut à confirmer (influence ou référence ?)
+    source: depot
+    type_de_noeud: "œuvre (Yuki Kawaguchi, 3 tomes, 2021)"
+    aspect_vise: ""
+    options_a_trancher: ["relecture de conte", "structure chasse/contrat"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: ""
+    statut: "statut de la relation à confirmer"
+    gimmick: "Chasseur de la Guilde des chasseurs"
+    type_de_gimmick: statut_institutionnel
+    gimmick_detail: "guilde engagée par contrat (services très chers) ; formation et examens (centre mobile d'entraînement) ; monde où les contes sont réels (loups-garous, sorcières, monstres)"
+    gimmick_confiance: verifie_web
+    source_gimmick: IA
+
+  # ---------------- FANTASY, SÉRIES, COMICS ----------------
+  - reference: "Harry Potter"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre"
+    aspect_vise: ""
+    emprunt_ou_ecart: ""
+    note: "Rôle dans le projet : non tranché (listé dans les indéterminations du 3 oct.)."
+    limite_lecture: "aucune indiquée"
+    statut: "rôle à définir"
+
+  - reference: "Worm (Wildbow)"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre + auteur"
+    aspect_vise: ""
+    options_a_trancher: ["système (pouvoirs contraints)", "structure (web-serial à arcs)", "ton (coût des décisions)"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "fin de l'arc 9, Sentinel (avril 2012) ; rien de postérieur"
+    note_utilisateur: "rapprochement personnel : « HxH + Watchmen »"
+    statut: "à trancher"
+
+  - reference: "The Stormlight Archive (Sanderson)"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "œuvre + auteur"
+    aspect_vise: ""
+    options_a_trancher: ["lois de la magie dure", "structure d'avalanche du dernier tiers"]
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "The Way of Kings : Prélude, Prologue, chapitres 1 à 11 ; rien au-delà"
+    statut: "à trancher ; lecture à poursuivre"
+
+  - reference: "Game of Thrones"
+    statut_relation: influence
+    source: U
+    type_de_noeud: "série"
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "série S1 à S7 ; livres non lus"
+    statut: "à trancher"
+
+  - reference: "The Kingkiller Chronicle (Rothfuss)"
+    statut_relation: influence
+    source: U
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "Prologue + environ 5 chapitres du Nom du vent ; rien au-delà"
+    statut: "à trancher ; lecture à poursuivre"
+
+  - reference: "La Horde du Contrevent (Damasio)"
+    statut_relation: influence
+    source: U
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "2-3 premiers chapitres ; rien au-delà"
+    statut: "à trancher ; lecture à poursuivre"
+
+  - reference: "Le Seigneur des Anneaux"
+    statut_relation: influence
+    source: U
+    aspect_vise: ""
+    niveau_de_detail: ""
+    emprunt_ou_ecart: ""
+    limite_lecture: "La Communauté de l'Anneau, jusqu'au livre II ch. 10"
+    statut: "à trancher"
