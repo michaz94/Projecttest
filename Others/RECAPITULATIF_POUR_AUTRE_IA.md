@@ -253,6 +253,7 @@ Lecture : *HxH* est la série **la plus portée par son système et sa tactique*
 | Pagination MAL non authentifiée : `manga/26/…/reviews?p=3` → **HTTP 404** (plafond 40 critiques) | Se limiter à `p=1,2` pour le manga *HxH* |
 | **Parse des Tomes 3-4 (Dictionnaire infernal)** : un mot capitalisé isolé (*LA —*, *LIV. —*) faisait avancer le filtre de lettre (`F→L`, `M→S`) et sautait des lettres entières | Corrigé par `parse_vol_windowed` : n'accepter le changement de lettre qu'avec confirmation (`≥ 2` des 5 candidats suivants). **C'est ce correctif qui fait passer le total de `2 490` à `2 517` articles** |
 | Gros JSON non lisibles « en texte brut » par une autre IA | Toujours passer par script Python (`json`), par la base SQLite FTS5, ou par les fichiers scindés / allégés prévus à cet effet |
+| `raw.githubusercontent.com/<repo>/main/<fichier>` peut servir une version **périmée** pendant ~5 min après un commit (`cache-control: max-age=300`) ; exemple constaté : 17 805 octets au lieu de 30 481 | Remplacer `main` par le **SHA du commit** dans l'URL raw, ou interroger `api.github.com/repos/<repo>/contents/<fichier>?ref=<sha>` avec l'en-tête `Accept: application/vnd.github.raw`. Ou faire un `git clone` (aucun cache). Comparer la taille avec celle du dépôt avant de conclure qu'un fichier n'a pas été mis à jour |
 
 ---
 
