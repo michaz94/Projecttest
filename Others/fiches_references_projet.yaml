@@ -60,8 +60,8 @@ projet:
     - {gimmick: "Alchimiste",       oeuvre: "Fullmetal Alchemist",  type_de_gimmick: discipline}
     - {gimmick: "Hunter",           oeuvre: "Hunter × Hunter",      type_de_gimmick: statut_institutionnel}
   folklore:                     # source : ta « Fiche créatures et figures folkloriques : statuts » (5-7 oct. 2026) ; U/depot
-    decide: ["Barbegazi", "Agrippa (Dictionnaire infernal)"]
-    envisage: ["Mélusine", "Ankou", "Mourioche", "Le Petit Homme rouge", "Gayant", "Le Houeron", "Tarasque", "Gremory/Gomory", "Furfur", "Marbas", "Stolas"]
+    decide: ["Agrippa (Dictionnaire infernal)"]
+    envisage: ["Barbegazi", "Mélusine", "Ankou", "Mourioche", "Le Petit Homme rouge", "Gayant", "Le Houeron", "Tarasque", "Gremory/Gomory", "Furfur", "Marbas", "Stolas"]
     interet:                      # 24 créatures de la carte « Mythical Beasts of France » (32 au total) + autres éléments
       creatures_de_la_carte: ["Ech Goblin", "Gargouille", "Karnabo", "Craqueuhhe", "Goubelin", "Jetin", "La Velue", "La Dame verte", "Rô", "Codrille", "Lupeux", "Peteu", "Vouivre", "Le Chien noir de Pontgibaud", "Dard", "Loup-garou", "Coulobre", "Fée", "Volo Biou", "Duphon", "Carcolh", "Fadet", "Camba Crusa", "Babau"]
       autres: ["Chasse sauvage", "Cour infernale", "Limbo catholique", "Limbo de Magik", "Enfer et démons de Dorohedoro", "Inferno de Dante", "Purgatorio de Dante", "Purgatoire classique"]
@@ -82,7 +82,7 @@ projet:
       non_precise: "plafond général du monde ou réparti par porteur : question posée, sans réponse"
     option_a_trancher:
       texte: "plus le pouvoir est puissant, plus il demande de conditions"
-      statut: "explicitement non décidé"
+      statut: "explicitement non décidé ; précision de l'utilisateur (7 oct. 2026) : en y réfléchissant, comme règle générale elle lui semble contraignante, mais des conditions seront sans doute présentes naturellement dans le sujet ; il n'a pas dit si elles seraient contraignantes ou non (le statut « écartée » inscrit plus tôt le même jour était trop fort : corrigé)"
       recoupe: "fiche Jujutsu Kaisen, options_a_trancher « règles négociées (serments, conditions) » (même sujet, non reliés jusqu'ici)"
     position_de_methode:
       texte: "une limite de portée est structurante en soi ; elle n'a pas besoin d'être une interdiction"
@@ -99,6 +99,8 @@ projet:
         statut: "non décidé ; « a une part de vérité » (U)"
     inspire_de: ["Radiant", "Runeterra"]                       # style copié/inspiré (U, 7 oct.)
     cadre_temporel_flou_comme: ["Radiant", "Runeterra", "One Piece", "Naruto"]   # époques historiques mélangées, pas de date claire (U)
+    limite_floue: "(U, 7 oct.) il ne sait pas encore où commence sa limite d'esthétique vestimentaire : elle dépend des fonctions et des statuts des personnages, et consiste parfois en éléments historiques repris dans une coupe moderne ; problème déjà cité, car ses inspirations (Radiant, Runeterra) mélangent l'histoire du vêtement dans leurs designs ; constat personnel, pas une décision"
+    cadre_vestimentaire_ecole: {statut_decision: envisage, texte: "école ou académie avec un cadre vestimentaire imposé, ou voisin d'une tenue à l'autre ; peut être présente", importance_dans_l_histoire: "inconnue (U)", source: U}
     difficulte: "décrire ce style à une IA : ces œuvres mélangent les époques, une date ne le décrit pas ; on passe par des exemples visuels"
     source_documentaire: "Esthetique_vestimentaire_anachronique_Battle_Shonen.md (dépôt, 3 oct.) : ne mentionne ni Radiant ni Fabula Fantasia"
     references_visuelles:       # images décrites en texte (les fichiers ne sont pas dans le dépôt) ; statut_decision seulement quand l'utilisateur l'a dit
@@ -106,11 +108,13 @@ projet:
       - {image: "Academy Ekko (concept art)", pour: "Cosmo Dumas", oeuvre: "Runeterra (Academy Ekko, concept art ; crédit visible : sunnykoda.deviantart.com)", role: "tenue qui l'inspire le plus", statut_decision: ""}
       - {image: "Fabula Fantasia, tome 1 (couverture)", pour: "Brann Pandragon", oeuvre: "Fabula Fantasia (Tony Valente)", role: "inspiration moins claire ; tenue qui a sa place dans l'univers, surtout pour des « Chevaliers »", statut_decision: ""}
       - {image: "Fabula Fantasia, tome 1 (illustration)", pour: "Brann Pandragon", oeuvre: "Fabula Fantasia (Tony Valente)", role: "idem", statut_decision: ""}
-      - {image: "Tenue d'académie envisagée (couverture fictive « Barrier Mage »)", pour: "tenues d'académie", oeuvre: "provenance inconnue (couverture fictive « Barrier Mage », vraisemblablement générée par IA)", role: "tenue envisagée ; seule différence voulue : pas de lacets aux baskets (trop moderne)", statut_decision: envisage}
-      - {image: "Garçon blond au style global voulu", pour: "style global", oeuvre: "provenance inconnue", role: "on voit peu la tenue, mais le style et le design global du personnage correspondent à l'univers", statut_decision: ""}
+      - {image: "Tenue d'académie envisagée (couverture fictive « Barrier Mage »)", pour: "tenues d'académie", oeuvre: "provenance inconnue (couverture fictive « Barrier Mage », vraisemblablement générée par IA)", role: "tenue envisagée, pas canon (U, 7 oct. : « juste des tests » sur le sujet des tenues d'académie) ; seule différence voulue : pas de lacets aux baskets (trop moderne)", statut_decision: envisage}
+      - {image: "Test de tenue (style proche de Harry Potter avec un peu de Jujutsu Kaisen, dans un lieu « Shrekien »)", pour: "test de style", oeuvre: "généré par l'utilisateur", role: "juste un test sur le même sujet que la tenue d'académie « Barrier Mage », mais pas la même tenue (U) ; il aime beaucoup le rendu ; à propos de l'option « mêmes tenues » pour les héritages mélangés : « peut-être pas » (U)", statut_decision: ""}
+      - {image: "Garçon blond au style global voulu", pour: "style global", oeuvre: "illustration numérique de style manga, générée par l'utilisateur (IA) ; même personnage généré plusieurs fois dans plusieurs styles, à partir d'une illustration vue sur Pinterest ; plusieurs itérations existent", role: "on voit peu la tenue, mais le style et le design global du personnage correspondent à l'univers ; sert de moodboard, pas de canon", statut_decision: ""}
   occultisme:                   # U, fiche vêtements du 5 oct., reportée le 7 oct. 2026
     penche_vers: "ambiance (atmosphère de symboles, de décors et d'objets rituels, sans que l'histoire porte dessus)"
     niveaux_possibles: ["ambiance", "thème (sujet exploré de façon récurrente)", "sujet central (intrigue construite sur l'occulte)"]
+    precision_livres: "(U, 7 oct.) les livres de sorts seraient classiques et sans effet visuel magique ; sauf peut-être un accessoire lié à un pouvoir ; rien n'est décidé, détail modifiable ; ce qui compte surtout : les symboles sur le livre"
     statut: "volontairement non tranché : l'utilisateur juge le terme trop vague ; ni thème ni sujet central pour l'instant"
     statut_decision: ""
   heritages_melanges:           # U, fiche vêtements du 5 oct., reportée le 7 oct. 2026
@@ -119,10 +123,33 @@ projet:
     statut_decision: ""
   inspirations_visuelles_non_decidees:   # U, fiche vêtements du 5 oct., reportée le 7 oct. 2026
     - {element: "personnages d'inspiration asiatique", statut_decision: envisage, note: "pas décidé"}
-    - {element: "objets bouddhiques japonais (perles de prière, bâton à anneau et clochettes, dangos)", statut_decision: interet, note: "goût ; pas un héritage décidé"}
+    - {element: "objets bouddhiques japonais (perles de prière, bâton à anneau et clochettes, dangos)", statut_decision: interet, note: "goût ; pas un héritage décidé ; point d'attention (proposition IA acceptée) : ce sont des objets de culte, pas seulement de style ; liste des accessoires imposés ou laissés ouverts à établir"}
+  ambiance_des_lieux:           # U, 7 oct. 2026 (images de décors décrites en texte ; aucun fichier dans le dépôt)
+    statut_decision: envisage
+    sources_visuelles: "cinq images de décors naturels : trois peintures de développement de Shrek, une double page couleur du manga Naruto (chapitre 679), une illustration numérique de style manga (probablement générée par IA)"
+    ambiance: {texte: "scènes d'ambiance qui dégagent une atmosphère de conte européen au sens large (tous types de contes), aventureuse", source: U}
+    usage_des_images: {texte: "réservoir d'éléments à combiner (lieu, personnage, couleur, etc.) ; pas un modèle de parcours ni de voyage", source: U}
+    procedes_visuels:
+      - {texte: "ligne que les personnages pourraient suivre (pente, sentier, couloir, chemin de pierres, gué)", source: IA, avis_U: "observation correcte et pertinente"}
+      - {texte: "contraste d'échelle entre décor naturel et personnages petits", source: IA, avis_U: "peut l'être (pertinent)"}
+    a_preciser: "vocabulaire des paysages (plaine, plateau, lande, colline, steppe) ; « montagnard » écarté comme terme pour ces images (U) ; l'utilisateur veut d'abord un vocabulaire plus précis avant d'ajouter des zones"
+    pierres_levees: "pour l'instant seulement pour l'ambiance ; rôle non décidé ; il ne préférerait pas la même scène sans les pierres (U)"
+    reponses_de_U:
+      - {point: "forêt hostile ou neutre", reponse: "probablement neutre, sans en être sûr à 100 %"}
+      - {point: "deux états de forêt, « de passage » (routes, lanternes, voyageurs) et « profonde » (sans trace humaine)", reponse: "intéressant et sans doute logique ; statut non précisé (proposition IA)"}
+      - {point: "nature vue à hauteur de personnage plutôt qu'en panorama", reponse: "pas de préférence explicite de point de vue, tant que le rendu est bon (hypothèse IA non retenue)"}
+      - {point: "couloir végétal comme transition entre deux zones, plantes cultivées suggérant une campagne entre forêt et ville", reponse: "très intéressant et sans doute envisageable ; pas forcément voulu mais cohérent (proposition IA)"}
+      - {point: "double page couleur de Naruto = preuve de concept d'un shōnen dessiné dans une nature de fantasy occidentale", reponse: "oui (hypothèse IA acceptée)"}
+      - {point: "tenues de cette double page contre « archaïque mais pas trop »", reponse: "elles diffèrent un peu (hypothèse IA acceptée)"}
+      - {point: "silhouettes lisibles par rôle (lourd, bouclier, lanceur de sorts, archer)", reponse: "il comprend la lisibilité des silhouettes ; la lisibilité par rôle, il n'est pas sûr (y avait pensé) (proposition IA acceptée en partie)"}
+      - {point: "falaise, aqueduc, château (forme dite « montagnarde » par l'IA)", reponse: "oui, il avait envisagé ce type de décor (éléments) ; il s'est auto-corrigé sur le mot « montagnard » : il n'y a pas vraiment de décor montagnard dans ces images (confirmé par l'IA : une seule image montre falaises et cascades, aucune ne montre de haute montagne ni de neige)", statut_decision: envisage}
+      - {point: "esthétique « médiévale pure » des tenues", reponse: "les trouve très intéressantes et potentiellement pertinentes pour son œuvre ; constat personnel : il a encore du mal à savoir où commence sa limite d'esthétique vestimentaire (voir esthetique_vestimentaire.limite_floue) ; pas de décision d'écarter"}
+      - {point: "images de décors du projet : statut", reponse: "moodboard, pas canon ; il demande la différence avec les autres statuts (expliquée par l'IA) ; pas de décision sur les éléments"}
+      - {point: "contraste monumental contre minuscule", reponse: "il a choisi ces images car elles réunissent beaucoup d'éléments de design ; le contraste d'échelle peut être vrai en plus (voir procedes_visuels)"}
+      - {point: "images de développement de Shrek", reponse: "il a aussi des images des films ; il a choisi les peintures de développement parce qu'elles montrent beaucoup de choses"}
   gimmick_edenia: ""            # à décider par toi
   type_gimmick_edenia: ""       # à décider par toi
-  non_tranche: ["Body, Mind and Soul", "fonction des livres Harry Potter", "technologie magique", "occultisme (ambiance, thème ou sujet central)", "articulation des héritages mélangés (mêmes tenues ou par régions)", "cosmologie", "système de pouvoirs", "protagonistes", "intrigue", "ciment entre les zones"]
+  non_tranche: ["Body, Mind and Soul", "fonction des livres Harry Potter", "technologie magique", "occultisme (ambiance, thème ou sujet central)", "articulation des héritages mélangés (mêmes tenues ou par régions)", "limite de l'esthétique vestimentaire (dépend des fonctions et statuts)", "importance de l'école ou académie dans l'histoire", "cosmologie", "système de pouvoirs", "protagonistes", "intrigue", "ciment entre les zones"]
 
 references:
 
@@ -380,7 +407,7 @@ references:
     emprunt_ou_ecart: ""
     limite_lecture: "anime S1 à S3, jusqu'à l'épisode 59 ; manga non lu"
     note_utilisateur: "œuvre que l'utilisateur aime beaucoup (dit le 7 oct. 2026)"
-    note: "Recoupe projet.systeme_de_pouvoirs.option_a_trancher (plus un pouvoir est puissant, plus il demande de conditions)."
+    note: "Recoupe projet.systeme_de_pouvoirs.option_a_trancher (plus un pouvoir est puissant, plus il demande de conditions), non décidée, précisée par l'utilisateur le 7 oct. (jugée contraignante comme règle générale, mais des conditions seront sans doute présentes ; degré de contrainte non dit) ; l'option propre à cette fiche (« règles négociées ») n'a pas été commentée."
     statut: "à trancher"
     statut_decision: ""
     gimmick: "Sorcier (jujutsushi)"
@@ -467,7 +494,7 @@ references:
     options_a_trancher: ["lois de la magie dure", "structure d'avalanche du dernier tiers"]
     niveau_de_detail: ""
     emprunt_ou_ecart: ""
-    limite_lecture: "The Way of Kings : Prélude, Prologue, chapitres 1 à 11 ; rien au-delà"
+    limite_lecture: "The Way of Kings : Prélude, Prologue, chapitres 1 à 13 ; rien au-delà"
     statut: "à trancher ; lecture à poursuivre"
     statut_decision: ""
 
