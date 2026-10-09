@@ -127,3 +127,4 @@ Source : toi (U). Détail dans `fiches_references_projet.yaml`, bloc `projet.art
 | 22 | **Âge des personnages : on garde « peut-être 15-19 ans »** (pas de 17-19 ans). | Inchangé dans `inference_du_projet.md`. |
 | 23 | **Le YAML est un fichier unique** : la version épurée a remplacé l'original le 9 oct. | Les retraits sont listés dans `epuration_yaml_retire.md`. |
 | 24 | **Le personnage qui passe des épreuves est retiré.** | Il avait dit « oui » plus tôt. Ajusté dans `inference_du_projet.md` ; absent du YAML. |
+| 25 | **Décor « Forêt de conte » : décidé** (zone de `ambiance_des_lieux`). | Tu l'as dit le 9 oct. ; je n'avais trouvé aucune trace de cette décision dans les fichiers. Le nom et la description sont de l'IA, à valider. |

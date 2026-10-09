@@ -220,8 +220,8 @@ projet:
     zones_naturelles:
     - nom: Forêt de conte
       description: forêts de feuillus et de conifères, collines herbeuses avec pierres dressées, champs et chemins ; quelques constructions anciennes en bois ou en pierre ; atmosphère de conte européen, aventureuse
-      statut_decision: envisage
-      source: demandé par U le 8 oct. 2026 d'après ses images de décors ; nom et formulation rédigés par l'IA, à valider
+      statut_decision: decide
+      source: 'U : zone demandée le 8 oct. 2026 d''après ses images de décors, puis dite « décidée » le 9 oct. 2026 ; le nom et la formulation de la description sont de l''IA, à valider'
     - nom: Région montagnarde enneigée
       description: région de montagne enneigée (formulation de U)
       creature_locale: 'Barbegazi (statut des Barbegazi : envisagé, pas décidé ; U, 9 oct. 2026)'

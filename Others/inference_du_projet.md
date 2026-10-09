@@ -96,7 +96,7 @@ L'IA avait proposé, comme exemple pour comprendre (pas comme intrigue) : « Que
 
 - Système de pouvoirs : retiré du YAML à la demande de l'utilisateur ; §1.2 et §3 ajustés.
 - *Fullmetal Alchemist* et *La Horde du Contrevent* : statut « référence » (et non plus « influence »).
-- Zone « Forêt de conte » ajoutée dans `ambiance_des_lieux` (statut envisagé ; nom et formulation rédigés par l'IA, à valider). Zone montagnarde : en attente d'images de l'utilisateur.
+- Zone « Forêt de conte » ajoutée dans `ambiance_des_lieux` (statut décidé par l'utilisateur le 9 oct. ; nom et formulation rédigés par l'IA, à valider). Zone montagnarde : en attente d'images de l'utilisateur.
 
 ## 6. Mise à jour du 9 oct. 2026
 
