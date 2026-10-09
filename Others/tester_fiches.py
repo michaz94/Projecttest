@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Tests de cohérence de fiches_references_projet.yaml et de sa vue MD.
+"""Tests de cohérence de fiches_references_projet.yaml (et de sa vue MD, si elle et son générateur sont présents).
 
-Usage (depuis le dossier qui contient le YAML, la vue et generer_vue_md.py) :
+Usage (depuis le dossier qui contient le YAML) :
     python3 tester_fiches.py
 Code de sortie 0 si tout passe, 1 sinon. Ne modifie aucun fichier.
 """
@@ -108,7 +108,7 @@ for n, motif in LIM.items():
 for r in refs:
     if any(k in r["reference"] for k in ("Stormlight", "Kingkiller", "Horde", "Game of Thrones", "Seigneur des Anneaux")):
         check(f"limite de lecture renseignée : {r['reference']}", bool(r.get("limite_lecture")))
-brut = open(YAML, encoding="utf-8").read() + open(VUE, encoding="utf-8").read()
+brut = open(YAML, encoding="utf-8").read() + (open(VUE, encoding="utf-8").read() if os.path.exists(VUE) else "")
 for motif, nom in [(r"\btomes? (7|8|9|10|11|12)\b", "Radiant tomes 7+"), (r"\barc 1[0-9]\b", "Worm arc 10+"),
                    (r"\bS8\b|saison 8", "GoT S8")]:
     trouves = re.findall(motif, brut, flags=re.I)
@@ -133,27 +133,30 @@ else:
     OK.append("(fiche créatures absente : section 5 ignorée)")
 
 # 6. Vue MD à jour + génération depuis un dossier vierge ------------------
-r = subprocess.run([sys.executable, GEN, "--verifier"], capture_output=True, text=True)
-check("vue MD à jour (--verifier)", r.returncode == 0, r.stderr.strip())
-vue = open(VUE, encoding="utf-8").read()
-for n in noms:
-    check(f"fiche dans la vue : {n}", f"### {n}" in vue)
-for n in p["folklore"]["decide"] + p["folklore"]["envisage"]:
-    check(f"folklore dans la vue : {n}", n in vue)
-tmp = tempfile.mkdtemp()
-try:
-    shutil.copy(YAML, tmp)
-    shutil.copy(GEN, tmp)
-    g = subprocess.run([sys.executable, GEN], cwd=tmp, capture_output=True, text=True)
-    check("génération dans un dossier vierge", g.returncode == 0, g.stderr.strip())
-    check("vue générée identique à la vue du dépôt", open(os.path.join(tmp, VUE), encoding="utf-8").read() == vue)
-    # la vérification doit détecter une modification manuelle
-    with open(os.path.join(tmp, VUE), "a", encoding="utf-8") as fh:
-        fh.write("\nmodification manuelle\n")
-    v = subprocess.run([sys.executable, GEN, "--verifier"], cwd=tmp, capture_output=True, text=True)
-    check("--verifier détecte une modification manuelle", v.returncode != 0)
-finally:
-    shutil.rmtree(tmp, ignore_errors=True)
+if os.path.exists(VUE) and os.path.exists(GEN):
+    r = subprocess.run([sys.executable, GEN, "--verifier"], capture_output=True, text=True)
+    check("vue MD à jour (--verifier)", r.returncode == 0, r.stderr.strip())
+    vue = open(VUE, encoding="utf-8").read()
+    for n in noms:
+        check(f"fiche dans la vue : {n}", f"### {n}" in vue)
+    for n in p["folklore"]["decide"] + p["folklore"]["envisage"]:
+        check(f"folklore dans la vue : {n}", n in vue)
+    tmp = tempfile.mkdtemp()
+    try:
+        shutil.copy(YAML, tmp)
+        shutil.copy(GEN, tmp)
+        g = subprocess.run([sys.executable, GEN], cwd=tmp, capture_output=True, text=True)
+        check("génération dans un dossier vierge", g.returncode == 0, g.stderr.strip())
+        check("vue générée identique à la vue du dépôt", open(os.path.join(tmp, VUE), encoding="utf-8").read() == vue)
+        # la vérification doit détecter une modification manuelle
+        with open(os.path.join(tmp, VUE), "a", encoding="utf-8") as fh:
+            fh.write("\nmodification manuelle\n")
+        v = subprocess.run([sys.executable, GEN, "--verifier"], cwd=tmp, capture_output=True, text=True)
+        check("--verifier détecte une modification manuelle", v.returncode != 0)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+else:
+    OK.append("(vue MD ou generer_vue_md.py absents : section 6 ignorée)")
 
 # 7. Fichier de décisions : chiffres cités -------------------------------
 DEC_MD = "DECISIONS_RECENTES_2026-10-07.md"
