@@ -1,6 +1,6 @@
 # FICHES DE RÉFÉRENCES : projet de battle shōnen occidental (Edenia, nom provisoire)
-# FICHIER UNIQUE depuis le 2026-10-09 : seule source des statuts ; on modifie ICI, jamais dans la vue MD (VUE_references_projet.md, générée par generer_vue_md.py).
-# Épuré le 2026-10-08 à partir de l'ancien fichier ; les retraits sont listés dans epuration_yaml_retire.md.
+# FICHIER UNIQUE depuis le 2026-10-09 : seule source des statuts (aucune vue ni script n'est nécessaire pour le lire).
+# Épuré le 2026-10-08 à partir de l'ancien fichier (champs vides, système de pouvoirs et idées de l'IA retirés).
 #
 # CE FICHIER CONTIENT UNIQUEMENT : ce que l'utilisateur a dit, décidé ou écrit dans son dépôt.
 # TOUT CE QUI N'Y EST PAS N'A PAS ÉTÉ DÉCIDÉ NI ENVISAGÉ. Ne rien supposer, ne pas traiter un sujet absent comme acquis,
