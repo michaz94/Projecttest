@@ -16,7 +16,7 @@
 | 1 | **Edenia est le nom provisoire du battle shōnen.** | `recap-session-pour-ia.md` et `influences-atelier.md` : « univers fantasy » seulement. |
 | 2 | **Radiant est une référence, pas une influence.** Il sert de point de comparaison : l'utilisateur le comprend et essaie de ne pas s'en rapprocher trop (précisé le 7 oct. : ce n'est qu'un usage possible d'une référence, voir §3). | Nouveau (aucun MD ne classe Radiant). La page « Influences » ne cite pas Radiant. |
 | 3 | **En cas d'incohérence, prendre la version la plus récente.** | Nouveau (règle de travail). |
-| 4 | **Perceval = Perceval le Gallois** (inspiration de Brann Pandragon). | Confirmation d'une supposition de l'IA. |
+| 4 | **Perceval = Perceval le Gallois** (inspiration de Brann). | Confirmation d'une supposition de l'IA. |
 | 5 | **Les plus gros succès du battle shōnen ont presque tous un gimmick reconnaissable** : Pirate, Ninja, Shinigami, Épéiste/Samurai, Mage, Exorciste, Alchimiste. Hunter (Hunter × Hunter) ne rentre pas dans une case comme les autres. | Nouveau. |
 | 6 | **Trois personnages dans Edenia**, avec seulement leurs inspirations (noms exacts demandés) : voir §2. | `recap-session` : « Edenia et Arcana n'ont que des noms ». |
 | 7 | Les observations sur le catalogue MAL (action surtout fantasy/surnaturel ; comedy souvent romance) ne l'intéressent pas vraiment. | Archivées dans `analyse_mal_action_shonen.md`, sans valeur de décision. |
@@ -27,7 +27,7 @@
 | 12 | **Ton visé plus proche de Red Hood / Hunter × Hunter que de Fullmetal Alchemist.** Pas d'écart déclaré sur FMA (précisé le 7 oct.). | Fiches Red Hood et HxH (aspect « ton »). Rien sur la fiche FMA. |
 | 13 | **« Archaïque mais pas trop »** = un style vestimentaire qui peut paraître daté. **Anachronisme** = éléments vestimentaires modernes dans un récit au cadre plus ancien : pas décidé, mais « a une part de vérité ». | Distingue deux notions que `Esthetique_vestimentaire_anachronique_Battle_Shonen.md` (§3.1) présente comme une seule (« archaïque mais pas trop (anachronique / hybride) » validée). |
 | 14 | **Le style vestimentaire est copié/inspiré de Radiant et de Runeterra.** Les cadres temporels de Radiant, Runeterra, One Piece et Naruto sont flous (époques mélangées). | Radiant devient aussi une source d'inspiration (tenue) : `statut_relation: reference`, avec emprunt sur la tenue et distance sur les autres aspects. Le MD esthétique ne cite pas Radiant. |
-| 15 | **Tenues-repères en images** : Academy Ekko (Cosmo Dumas) ; Fabula Fantasia, tome 1 (Brann Pandragon, surtout pour des « Chevaliers », inspiration moins claire) ; une tenue d'académie **envisagée** (sans lacets aux baskets) ; une image dont le style global correspond à l'univers. | Bloc `projet.esthetique_vestimentaire` : images décrites en texte, fichiers non cités. Fabula Fantasia est une nouvelle fiche. |
+| 15 | **Tenues-repères en images** : Academy Ekko (Cosmo Dumas) ; Fabula Fantasia, tome 1 (Brann, surtout pour des « Chevaliers », inspiration moins claire) ; une tenue d'académie **envisagée** (sans lacets aux baskets) ; une image dont le style global correspond à l'univers. | Bloc `projet.esthetique_vestimentaire` : images décrites en texte, fichiers non cités. Fabula Fantasia est une nouvelle fiche. |
 | 16 | **Occultisme** : penche vers l'ambiance, volontairement non tranché (terme trop vague). **Personnages d'inspiration asiatique** : envisagé. **Objets bouddhiques japonais** : goût (intérêt). **Héritages mélangés** : dans les mêmes tenues et répartis par régions, articulation non décidée. | Reportés depuis la fiche vêtements du 5 oct. dans le YAML (blocs `occultisme`, `heritages_melanges`, `inspirations_visuelles_non_decidees`). |
 | 17 | **Fabula Fantasia est un spin-off de Radiant** (Tony Valente, Ankama, tome 1 le 5 déc. 2025 ; vérifié sur Nautiljon). | Fiche Fabula Fantasia et fiche Radiant liées. Conséquence sur la limite de lecture : proposition de l'IA, à valider (voir §5). |
 
@@ -40,7 +40,7 @@ Précédemment, il avait aussi demandé de **ne rien utiliser des tomes 7 et sui
 | Personnage | Inspiré de |
 |---|---|
 | **Cosmo Dumas** | Ekko, Killua Zoldyck, Shisui Uchiha |
-| **Brann Pandragon** | Monkey D. Luffy, Yusuke Urameshi, Edward Elric, Perceval le Gallois |
+| **Brann** | Monkey D. Luffy, Yusuke Urameshi, Edward Elric, Perceval le Gallois |
 | **Harley Delphine** | Shallan Davar (The Stormlight Archive), Hermione Granger, Lisa Wilbourne aka Tattletale, Magik (Illyana Rasputin) |
 
 Ces fiches sont créées par `atelier-index.html` (création automatique au premier chargement, sans écraser une page déjà modifiée). Orthographes choisies par l'IA : « Uchiha » et « Rasputin » (graphies d'origine ; les éditions françaises écrivent « Uchiwa » et « Raspoutine »).
@@ -74,7 +74,7 @@ Source : `Fiche_creatures_et_figures_folkloriques_statuts.md` (uploads). Elle pr
 
 - **Vocabulaire :** le barreau bas s'appelle désormais « Intérêt ». « Référence » garde le sens du §3 (usage conscient d'une œuvre, avec plus ou moins de changement). Le sens générique du dépôt (tout ce qui est nommé) reste une source de confusion, non traitée.
 - **Statuts connus (fiche de l'utilisateur) :** décidé = Agrippa. Envisagés = Barbegazi (rétrogradé de « décidé » à « envisagé » à la demande de l'utilisateur, 7 oct.), Mélusine, Ankou, Mourioche, Le Petit Homme rouge, Gayant, Le Houeron, Tarasque, Gremory/Gomory, Furfur, Marbas, Stolas. Intérêt = les 24 autres créatures de la carte (32 au total, comptées sur l'image), Chasse sauvage, Cour infernale, Limbo catholique, Limbo de Magik, enfer de *Dorohedoro*, *Inferno* et *Purgatorio*, purgatoire classique. Non précisé = les autres figures du Dictionnaire infernal.
-- **Dans le YAML :** champ `statut_decision` (valeurs `non_precise | interet | envisage | decide`) sur chacune des 28 fiches. Renseigné pour BioShock Infinite (`decide`, zone industrielle, décision du 3 oct.), Mélusine et Petit Homme rouge (`envisage`) et Chasse sauvage (`interet`) ; vide pour les autres. Bloc `projet.folklore` : décidés et envisagés en liste, intérêts en deux listes (24 créatures de la carte, autres éléments). Bloc `projet.personnages_edenia` : les trois personnages et leurs inspirations (§2).
+- **Dans le YAML :** champ `statut_decision` (valeurs `non_precise | interet | envisage | decide`) sur chacune des 29 fiches. Renseigné pour BioShock Infinite (`decide`, zone industrielle, décision du 3 oct.), Mélusine et Petit Homme rouge (`envisage`) et Chasse sauvage (`interet`) ; vide pour les autres. Bloc `projet.folklore` : décidés et envisagés en liste, intérêts en deux listes (24 créatures de la carte, autres éléments). Bloc `projet.personnages_edenia` : les trois personnages et leurs inspirations (§2).
 - **Limite :** l'échelle donne le degré de décision d'un élément, pas son degré de changement par rapport à l'œuvre source ; c'est le rôle d'`emprunt_ou_ecart`. Deux axes distincts.
 
 ## 4. Passages des anciens MD devenus faux ou périmés (non corrigés)
@@ -109,3 +109,20 @@ Source : `Fiche_creatures_et_figures_folkloriques_statuts.md` (uploads). Elle pr
 - Typologie des gimmicks : identité / discipline / statut institutionnel / mixte. Hunter = statut institutionnel (licence délivrée par une association, après examen) ; confirmé par des sources pour Hunter × Hunter et Red Hood, de mémoire pour les autres séries.
 - Si Edenia a un gimmick, il pourrait appartenir à l'un de ces trois types ; rien n'est décidé.
 - Constat observé : plusieurs séries ont un arc d'examen ou de sélection lié au statut (Hunter × Hunter, Naruto, Black Clover, Kimetsu no Yaiba). Observation de mémoire, non vérifiée.
+
+---
+
+## Mise à jour du 9 oct. 2026 : matière arthurienne et nom de Brann
+
+Source : toi (U). Détail dans `fiches_references_projet.yaml`, bloc `projet.arthurien`.
+
+| # | Décision | Note |
+|---|---|---|
+| 16 | **Noms de lieux arthuriens français uniquement.** Lieux décidés : Brocéliande, Douloureuse Garde, Bénoïc, Gaunes, Trèbes, Montlair, La Terre Déserte, Le Lac (de la Dame du Lac). | Exception : lieux gardés pour la langue française du texte, même hors de France (Douloureuse Garde ; localisation non vérifiée). |
+| 17 | **Personnages arthuriens = inspirations, avec des noms différents** : Perceval, Arthur, Merlin, Lancelot, Gauvain, Morgan, Guenièvre. | Seul lien fixé : Perceval → Brann. Merlin, Arthur et Lancelot comme personnages de toile de fond : abandonné. |
+| 18 | **Se détacher de *Seven Deadly Sins* et de *Radiant* sur le plan arthurien.** | Portée exacte non précisée ; le statut de Radiant comme référence ne change pas. |
+| 19 | **Le nom de famille de Brann est retiré** (« Pandragon ») et **laissé vide**. | Les mentions « Brann Pandragon » plus haut ont été remplacées par « Brann ». |
+| 20 | **Barbegazi : envisagé** (pas décidé). La région montagnarde enneigée reste décidée. | Réponse à la question sur leur statut. |
+| 21 | **Goal de Brann : intérêt**, « devenir chevalier, ou un goal similaire ». | Statut `interet` de l'échelle : ça t'intéresse, ce n'est pas décidé. |
+| 22 | **Âge des personnages : on garde « peut-être 15-19 ans »** (pas de 17-19 ans). | Inchangé dans `inference_du_projet.md`. |
+| 23 | **Le YAML est un fichier unique** : la version épurée a remplacé l'original le 9 oct. | Les retraits sont listés dans `epuration_yaml_retire.md`. |
