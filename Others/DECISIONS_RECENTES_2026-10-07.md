@@ -3,7 +3,7 @@
 ## Statut de ce document
 
 - **En cas de contradiction avec un ancien MD du dépôt, ce document l'emporte** (règle donnée par l'utilisateur : en cas d'incohérence, la version la plus récente fait foi ; il n'a pas la force de tout ranger ni de tout synchroniser).
-- **Source unique des statuts (décision du 7 oct.) : `fiches_references_projet.yaml`.** Il fait foi pour les statuts (relation, décision, limites de lecture, gimmicks, personnages, folklore). La vue lisible `VUE_references_projet.md` en est générée (`generer_vue_md.py`, sens unique) et ne se modifie pas à la main. Ce document-ci garde les précisions, le vocabulaire et les passages périmés ; en cas d'écart sur un statut, c'est le YAML qui l'emporte.
+- **Source unique des statuts (décision du 7 oct.) : `fiches_references_projet.yaml`.** Il fait foi pour les statuts (relation, décision, limites de lecture, gimmicks, personnages, folklore). Une vue lisible (`VUE_references_projet.md`, générée par `generer_vue_md.py`) a existé ; l'utilisateur les a retirés du dépôt le 9 oct. 2026, le YAML se lit seul. Ce document-ci garde les précisions, le vocabulaire et les passages périmés ; en cas d'écart sur un statut, c'est le YAML qui l'emporte.
 - Les anciens documents ne sont **pas modifiés**. Les passages devenus faux sont listés au §4, sans correction.
 - Rappel de la règle de `01_CONTEXTE_ET_SUITE` §2 : on distingue **(U)** ce que l'utilisateur a dit ou décidé, **(IA)** les propositions de l'assistant (jamais des décisions implicites), **(dépôt)** ce qui est écrit dans les documents.
 
@@ -126,3 +126,4 @@ Source : toi (U). Détail dans `fiches_references_projet.yaml`, bloc `projet.art
 | 21 | **Goal de Brann : intérêt**, « devenir chevalier, ou un goal similaire ». | Statut `interet` de l'échelle : ça t'intéresse, ce n'est pas décidé. |
 | 22 | **Âge des personnages : on garde « peut-être 15-19 ans »** (pas de 17-19 ans). | Inchangé dans `inference_du_projet.md`. |
 | 23 | **Le YAML est un fichier unique** : la version épurée a remplacé l'original le 9 oct. | Les retraits sont listés dans `epuration_yaml_retire.md`. |
+| 24 | **Le personnage qui passe des épreuves est retiré.** | Il avait dit « oui » plus tôt. Ajusté dans `inference_du_projet.md` ; absent du YAML. |
