@@ -8,6 +8,8 @@
 
 **Partie E (sections 24 à 31)** : *The Way of Kings* (Sanderson), Prélude, Prologue et chapitres 1 à 13 (Partie Un entière, les trois interludes qui la suivent, puis les deux premiers chapitres de la Partie Deux), lus sur le PDF fourni ; rien au-delà.
 
+**Partie F (section 32)** : observations de l'utilisateur (U) du 8 octobre 2026 sur les schémas répétés, avec le niveau de preuve de l'IA à côté.
+
 **Partie B (section 7)** : cinq textes médiévaux : *L'Estoire de Merlin*, le *Lancelot propre*, *La Queste del Saint Graal* et *La Mort le roi Artu* (Cycle Vulgate, ou *Lancelot-Graal*, XIIIᵉ s.), et le *Perceval ou le Conte du Graal* de Chrétien de Troyes (vers 1180).
 
 ## Avertissements
@@ -398,3 +400,230 @@ Q7 (réception) non remplie, comme pour les autres œuvres. Q2 et Q3 sont rempli
 - Interludes (entre les chapitres 11 et 12) lus en entier le 8 oct. ; le texte de cette partie reflète donc ce que l'utilisateur a lu jusqu'ici.
 - Comparaisons non évaluatives : elles ne disent pas qu'une ouverture est meilleure.
 - Aucune lecture au-delà du ch. 13. Les mots écrits sur le début de la Partie Deux ne valent que pour deux chapitres : ce sont des observations, pas un portrait de la Partie Deux.
+
+---
+
+# Partie F — Observations de l'utilisateur sur les schémas répétés (8 octobre 2026)
+
+## 32. Ce que dit l'utilisateur (U)
+
+Ce sont ses impressions de lecteur, après sa lecture. Elles ne sont ni des résultats de l'IA ni des décisions pour le projet.
+
+1. Après lecture, il a l'impression d'une **différence de narration entre *Stormlight Archives* et *Le Seigneur des Anneaux***. (Il note que les avis Goodreads du premier tome de *La Voie des rois* n'ont pas été récoltés.)
+2. Il a remarqué que ***One Piece* suit un schéma répété**.
+3. Il a remarqué que ***Le Seigneur des Anneaux* aussi**.
+4. ***Hunter × Hunter* : « pas vraiment »** ; **pareil pour *La Voie des rois***. Il ajoute, mot pour mot : « peut-être qu'il y en a un dans la présentation et comment la structure narrative est faite ».
+
+## 33. Niveau de preuve de l'IA, à côté de chaque observation
+
+| Observation | Ce que mes fichiers contiennent | Niveau de preuve de l'IA |
+|---|---|---|
+| 1. Narration différente entre Stormlight et le *Seigneur des Anneaux* | Parties D et E : un seul fil contre plusieurs points de vue, exposition en un long chapitre contre exposition répartie, épigraphes et fins de chapitre courtes dans *The Way of Kings* | Lu sur PDF : *Communauté* Livre I (p. 6-315) ; *The Way of Kings* jusqu'au chap. 13 et trois interludes. Les langues diffèrent (traduction française, texte anglais). La voix du narrateur n'a pas été comparée |
+| 2. *One Piece* : schéma répété | Partie C : chap. 1-8 sur résumés ; partie A : rapprochements Enies Lobby et Marineford, de mémoire | Non vérifié par l'IA (résumés et mémoire, niveau C) |
+| 3. *Le Seigneur des Anneaux* : schéma répété | Partie A (tableau commun) et partie D : alternance danger/refuge dans le Livre I | Lu sur PDF pour le Livre I. Le Livre II n'a pas été relu (seuls les titres) |
+| 4a. *Hunter × Hunter* : pas vraiment | Partie D : « épreuve après épreuve, sans repos véritable » ; partie A : un arc à fils convergents | Résumés des chap. 1-8 et mémoire : l'IA ne peut ni confirmer ni infirmer pour la série |
+| 4b. *La Voie des rois* : pas vraiment ; schéma possible dans la présentation | Partie E : alternance de points de vue, épigraphes, fins de chapitre courtes, interludes | Lu jusqu'au chap. 13 seulement. Sa phrase finale ne dit pas explicitement à quelle œuvre elle se rapporte ; l'IA l'a lue comme visant *La Voie des rois* |
+
+Ces observations ne modifient ni le YAML ni les statuts.
+
+## 34. Observation de l'utilisateur sur le protagoniste central (U, 8 octobre 2026)
+
+Ce sont ses impressions de lecteur, et non des résultats de l'IA ni des décisions pour le projet.
+
+1. ***The Stormlight Archive* est la seule œuvre citée qui ne se concentre pas sur un protagoniste central unique.** Il précise qu'il parle bien de **protagoniste central**.
+2. ***Hunter × Hunter* est, selon lui, une exception**, mais elle arrive bien plus tard (arc de la Guerre de Succession).
+3. **Correction de sa part :** il avait **oublié *Game of Thrones***, qui n'a pas de protagoniste central (« tu as raison »).
+4. **Il ajoute la Vulgate :** elle n'a pas de protagoniste central. Certains diront Lancelot, mais celui-ci n'apparaît pas dans l'*Estoire de Merlin*. Il ne l'a **pas bien lue** et ne sait pas si Merlin ou Arthur est le protagoniste de l'*Estoire de Merlin*.
+5. **Conséquence qu'il voit :** cela « peut avoir des répercussions sur comment [il choisit] de traiter Edenia ». Il n'a rien décidé à ce sujet.
+
+## 35. Niveau de preuve de l'IA, à côté de chaque point
+
+| Point | Ce que mes fichiers contiennent | Niveau de preuve de l'IA |
+|---|---|---|
+| *Stormlight* sans protagoniste central | Partie E : plusieurs fils (Kaladin, Shallan, Dalinar, Adolin, Szeth), épigraphes, interludes ; chap. 1 à 13 et trois interludes | Lu sur PDF jusqu'au chap. 13. Dans cette limite : Kaladin (ch. 2, 4, 6, 9, 10, 11) et Shallan (ch. 3, 5, 7, 8) alternent ; Dalinar et Adolin ne deviennent points de vue qu'aux ch. 12-13. Le jugement vaut pour ce qui a été lu |
+| *Game of Thrones* | `fiches_oeuvres_v3.md` : « pluriel, pas de protagoniste unique », récit choral qui converge peu à peu | Série S1-S7 seulement, d'après la fiche ; non revérifié depuis |
+| Vulgate | `fiches_oeuvres_v3.md` : « pas de héros unique ». Branches : *Estoire del Saint Graal* (Joseph d'Arimathie, Josephé), *Estoire de Merlin* (naissance d'Arthur, premières guerres), *Lancelot propre*, *Queste* (Galaad), *Mort Artu* | Pas de texte lu par l'IA. Que le protagoniste change à chaque branche (« relais ») est un rapprochement tiré de la structure du cycle et de la mémoire de l'IA (🔎). Pour l'*Estoire de Merlin*, Merlin domine la première partie, puis Arthur ; non vérifié sur texte |
+| *Hunter × Hunter* : exception tardive | Fiche v3 : arcs listés (Fourmis Chimères, Guerre de Succession) | L'IA pense (🔎, mémoire) que l'arc des Fourmis Chimères alterne déjà les points de vue, avant la Guerre de Succession. Non vérifié ; l'utilisateur place le changement plus tard |
+| *La Horde du Contrevent* | Fiche v3 : 23 voix qui alternent ; Sov, scribe et narrateur principal (🔎) | L'IA n'a pas le texte. L'utilisateur n'a pas dit si elle compte comme œuvre sans protagoniste central. **Non tranché** |
+| *Jujutsu Kaisen* | Fiche v3 : le récit alterne le point de vue du héros et d'autres personnages (🔎) | Anime jusqu'à l'ép. 59 ; héros Itadori au centre. L'utilisateur ne l'a pas citée. **Non tranché** |
+| Autres références (YYH, Naruto, Bleach, One Piece, FMA, Worm, Radiant, HP, LotR, Kingkiller) | Un héros ou un point de vue central dans mes fiches | *LotR* : Livre I vu surtout par Frodon (lu sur PDF). *Kingkiller* : Prologue + ≈ 5 chapitres, narrateur unique ; non lu par l'IA sur texte |
+
+**Lecture de l'IA (inférence, non décidée).** Parmi les œuvres qu'il a citées, celles sans protagoniste central sont *Stormlight*, *GoT* et la Vulgate ; *HxH* à partir d'un certain arc. Le shōnen cité (YYH, Naruto, Bleach, One Piece, FMA) est centré sur un héros. Ses trois personnages d'Edenia seraient donc entre les deux familles. Ce rapprochement est de l'IA : l'utilisateur n'a rien décidé sur le nombre de protagonistes au sens « central ».
+
+**Lien avec la question des trois protagonistes séparés.** Il a dit plus tôt que ses trois personnages seraient probablement séparés, durée et distance inconnues. Les options relevées à ce moment (point de vue principal avec interludes, rotation, lieu de convergence) restent des idées de l'IA, non choisies.
+
+Cette observation ne modifie ni le YAML ni les statuts.
+
+---
+
+# Partie G — Choix structurants d'une œuvre : observations de l'utilisateur et guide de l'IA (8 octobre 2026)
+
+Cette partie réunit (1) ce que l'utilisateur a dit (U), (2) un guide des éléments qui pèsent sur le style, le genre et l'action (idées de l'IA, non décidées), (3) une correction de l'IA sur la mortalité, avec ce qui a été vérifié et ce qui ne l'a pas été.
+
+## 36. Ce que dit l'utilisateur (U)
+
+**Observation sur la puissance, les armes et les scènes obsolètes.** Ses mots : « l'échelle de puissance physique et "magique", ou de pouvoir, le style des combats, les armes, ont un impact sur le style de récit raconté. Certaines scènes comme la guerre peuvent être obsolètes, par exemple le sword fighting. »
+
+**Question posée.** Quels sont les autres éléments dont le choix a un gros impact sur le style ou le genre du récit et sur l'action, au-delà de l'échelle de puissance et de l'importance et du nombre de protagonistes ?
+
+**Ses réponses aux cinq questions de l'IA (tour du 8 octobre).**
+
+| Question de l'IA | Réponse de l'utilisateur |
+|---|---|
+| 1. Médium | **Manga, décidé depuis longtemps ; plus précisément un manga dans un système de parution française.** |
+| 2. Plafond de puissance et degré de règles | « Je ne sais pas » |
+| 3. Type d'affrontement dominant | « Je ne sais pas » |
+| 4. Mortalité | Il a besoin de savoir quelque chose pour trancher : c'est une question vaste ; il a vu assez de séries pour juger que l'IA manquait de nuances et de vérification pour *Game of Thrones*, *Hunter × Hunter*, *One Piece* et *Jujutsu Kaisen*. Voir §39. |
+| 5. Objectif du protagoniste | « Je ne sais pas » |
+
+Seul le médium est décidé. Les quatre autres points restent **non décidés**. Rien n'a été écrit dans le YAML.
+
+**Réaction de l'utilisateur à la partie G (U).** Il trouve les réponses de l'IA « bizarres » et ses recherches « pauvres ». Il se demande si l'IA mélange la mortalité et le rythme lié à la parution française (ou s'il a mal compris). Il note que l'IA n'a pas parlé de la mort de Yuji, qu'il situe **au chapitre 9 ou à l'épisode 3**. Vérification de l'IA : le chapitre 9 est confirmé ; l'épisode est le 5, pas le 3 (§39.3). Il demande si l'IA a bien fait ses recherches et connaît les œuvres.
+
+## 37. Guide des choix structurants (idées de l'IA, non décidées)
+
+Deux axes avaient déjà été vus : l'échelle de puissance (avec les armes et le style de combat) et le nombre et la centralité des protagonistes. Voici les autres.
+
+### A. Qui raconte et sous quelle forme
+| Choix | Ce qu'il change | Tropes et repères | Exemples tirés des œuvres du dossier |
+|---|---|---|---|
+| **Point de vue** | Le suspense, l'ironie dramatique, l'exposition, la lisibilité de l'action | Narrateur peu fiable, *fish out of water* (le novice qui sert de relais au lecteur), *info dump* | *Worm* (arcs 1-9) : première personne. *Stormlight* : plusieurs points de vue et interludes. *Kingkiller* : récit-cadre. |
+| **Médium et format de parution** | Le rythme, la fin de chapitre, le coût de l'exposition | Chapitre hebdomadaire avec *cliffhanger*, *filler* à l'adaptation, arc d'escalade | **Décidé : manga, parution française** (U). Conséquences non étudiées (voir §41). Les lecteurs de *Radiant* reprochent « trop de texte » : un coût propre au manga. |
+| **Public visé et âge des personnages** | Violence, humour, romance, morale | *Coming of age*, nekketsu (amitié, effort, victoire) | Personnages de 15 à 19 ans : inférence de l'IA, non décidée. Certains lecteurs de *Radiant* jugent la série « pour un public plus jeune ». |
+
+### B. Ce que le monde permet
+| Choix | Ce qu'il change | Tropes et repères | Exemples |
+|---|---|---|---|
+| **Degré de règles du pouvoir** (distinct de l'échelle) | Un combat se résout par une astuce (règles dures) ou par l'émotion et le mystère (règles floues) | *Hard magic / soft magic*, *rule of cool* | *HxH* : règles explicites. *Communauté* : magie floue et rare. L'utilisateur a dit que les « conditions » ne sont pas décidées. |
+| **Époque et technologie** | Rôle des armes, de la guerre, de la logistique | Fantasy médiévale, steampunk | *FMA* : armée moderne et alchimie. *Bleach*, *JJK* : monde contemporain avec une couche cachée. |
+| **Mortalité et coût** | La tension, la valeur des victoires | *Anyone can die*, *plot armor*, résurrection, *status quo is god* | Voir §39 : le premier tableau de l'IA était trop général. |
+| **Monde caché ou ouvert** | La façon d'introduire les règles | *Masquerade*, *portal fantasy* | *HP*, *Bleach*, *JJK* : monde caché. *LotR*, *Stormlight* : monde secondaire. Il a confirmé qu'il n'y a qu'un seul monde. |
+
+### C. Ce qui fait avancer l'action
+| Choix | Ce qu'il change | Tropes et repères | Exemples |
+|---|---|---|---|
+| **Objectif du protagoniste** (concret ou ouvert) | La structure, la façon de conclure | Quête, ascension, survie, enquête, *chosen one* | *OP* : objectif ouvert. *LotR* : détruire un objet. |
+| **Type d'affrontement dominant** | Le genre et la scène type | *Tournament arc*, *training arc*, *monster of the week* | *GoT* : politique. *HxH* : jeux d'esprit. *Worm* : préparation et tactique. |
+| **Progression du héros** | Gagner par l'effort, le talent, l'héritage ou un objet | Montage d'entraînement, *power creep*, mentor | *Naruto*, *Bleach*, *FMA* : schéma répété (partie F). |
+| **Antagonisme** | Épique (un grand mal) ou politique (des factions) | *Dark Lord*, ennemi aux raisons légitimes | *LotR* : un grand mal. *GoT* : des factions. Les avis sur *Radiant* se partagent entre « manichéen » et « des ennemis qui ont leurs raisons ». |
+
+### D. Comment on le raconte
+| Choix | Ce qu'il change | Tropes et repères | Exemples |
+|---|---|---|---|
+| **Ton** | L'identité du genre et le public | *Comic relief*, *grimdark* | L'humour de *Radiant* est loué par les uns, jugé lourd par les autres. |
+| **Temps du récit** | Le rythme et l'explication | *Flashback*, récit-cadre, *time skip* | Les retours en arrière de *Stormlight* divisent le public. |
+| **Thème ou propos** | Ce que la série veut dire | Allégorie, message appuyé | Le thème de l'intolérance dans *Radiant* : loué ou jugé appuyé. |
+
+## 38. Lecture d'ensemble (inférence de l'IA)
+
+- **Choix racines** (les plus lourds, selon l'IA) : médium et format, objectif, système de pouvoir (échelle plus degré de règles), nombre de protagonistes et point de vue.
+- **Conséquences** : scènes possibles, rythme, quantité d'exposition, ton.
+- Les choix s'entraînent : plus de protagonistes demande plus de points de vue ; plus de puissance demande plus de règles, donc plus d'explication ; un format court pousse à des conflits lisibles à chaque page.
+
+## 39. Mortalité : correction et ce qui a été vérifié
+
+### 39.1 Correction de l'IA
+Dans le tableau de la réponse précédente, l'IA avait écrit pour *GoT* « la mort est définitive » et pour le shōnen « les morts reviennent souvent ». C'était **trop général, et faux pour *GoT*** : la série (S1-S7) a une règle de résurrection. **Elle avait aussi omis la mort de Yuji Itadori**, pourtant la plus évidente pour *JJK* (voir §39.3). L'utilisateur avait raison de relever le manque de nuance et de vérification. La première passe était pauvre : quelques pages lues, des phrases filtrées par mots-clés, et une conclusion « non couvert » à la place d'une recherche plus poussée. Une œuvre ne se range pas dans une case « mortelle » ou « non mortelle ».
+
+### 39.2 Les dimensions (idées de l'IA : une grille pour décrire la mortalité, pas un classement)
+1. **Qui meurt** : protagoniste, allié, mentor, antagoniste, figurant.
+2. **Permanence** : définitive, réversible par une règle de l'univers, fausse mort, mort annoncée puis annulée.
+3. **Qui décide du retour** : une règle écrite dans l'univers, l'auteur, l'éditeur.
+4. **Moment** : choc précoce, milieu, fin.
+5. **Fréquence** : rare ou courante.
+6. **Fonction** : choc, coût, motivation, clôture d'un arc.
+7. **Sort des antagonistes** : tués, épargnés, convertis.
+
+*(La dimension « contexte de parution » a été retirée le 8 octobre : l'IA avait mélangé mortalité et rythme de parution, sans fondement.)*
+
+### 39.3 Ce qui a été vérifié, œuvre par œuvre
+Niveaux : **B** = lu dans une source publique consultée aujourd'hui ; **B−** = une seule source de fans, ou des sources secondaires non officielles. Rien n'est « de mémoire » dans ce tableau : ce que je n'ai pas pu vérifier est dans la dernière colonne ou au §41.
+
+Sources : Wikipédia EN (pages d'épisodes de *GoT*) ; pages de presse et de culture pop sur *GoT* (Glamour, Thrillist, Cosmopolitan UK, Vulture, CinemaBlend) ; wiki Fandom *Hunter × Hunter* (statut dans la fiche de chaque personnage) ; wiki Fandom *One Piece* (idem) ; classements de morts de *One Piece* (WatchMojo, Game Rant, FandomWire, FictionHorizon) ; wiki Fandom *JJK* (pages de chapitres et d'épisodes) ; jjk.guide (suivi des morts par épisode, qui s'arrête à l'ép. 58).
+
+#### *Game of Thrones* (S1-S7)
+| Mort ou retour | Épisode | Niveau |
+|---|---|---|
+| Robert Baratheon (sanglier) | S1E7 | B |
+| **Ned Stark décapité sur l'ordre de Joffrey** | S1E9 « Baelor » | B (4 sources) |
+| Khal Drogo étouffé par Daenerys | S1E10 | B |
+| **Robb et Catelyn Stark** au « Red Wedding » | S3E9 | B |
+| **Beric Dondarrion ressuscité « pour la sixième fois » par Thoros** | S3E5 | B |
+| Joffrey empoisonné | S4E2 | B |
+| Oberyn Martell tué par la Montagne | S4E8 | B |
+| Tywin tué par Tyrion ; Shae étranglée par Tyrion | S4E10 | B |
+| Stannis exécuté par Brienne ; **Jon Snow poignardé par ses frères de la Garde** | S5E10 | B |
+| **Jon Snow ressuscité par Melisandre** | S6E2 « Home » | B |
+| Olenna Tyrell empoisonnée | S7E3 | B |
+| Thoros de Myr meurt, ce qui, selon Thrillist, empêche une nouvelle résurrection de Beric | S7E6 | B− |
+| Littlefinger meurt | S7E7 | B− |
+
+#### *Hunter × Hunter* (pas de limite)
+| Fait | Niveau |
+|---|---|
+| **Kite est tué par Neferpitou.** Le wiki donne deux états : « décédé (humain) » et « vivant (Fourmi Chimère) » : il renaît sous une autre forme. | B |
+| Neferpitou dit que leur capacité ne peut pas ramener Kite : **une capacité de soin ne rend pas la vie aux morts.** | B |
+| Meruem, grièvement blessé et proche de la mort, est ramené par Shaiapouf et Menthuthuyoupi ; Menthuthuyoupi meurt ensuite du poison. | B |
+| Statut « décédé » sur le wiki pour : Netero, Meruem, Komugi, Neferpitou, Shaiapouf, Menthuthuyoupi, Uvogin, Pakunoda, Squala. Les Bêtes de l'ombre sont toutes mortes (évoqué par un personnage). | B |
+| Statut « vivant » pour Gon, Killua, Kurapika, Leorio, Ging, Hisoka et Chrollo. | B |
+
+#### *One Piece* (jusqu'au ch. 984)
+| Mort ou retour | Repère | Niveau |
+|---|---|---|
+| Gol D. Roger, exécuté (avant le début du récit) | ouverture | B |
+| Kuina (flashback de Zoro) | ch. 5 | B |
+| Bell-mère, tuée par Arlong | ch. 78 | B |
+| Dr Hiriluk | ch. 145 | B |
+| **Ace, tué par Akainu** ; sa mort fait mettre le voyage en pause pendant deux ans | ch. 574 | B |
+| **Barbe Blanche** à Marineford | ch. 576 | B |
+| Corazon (Rosinante), tué par Doflamingo (flashback de Law) | Dressrosa | B |
+| Oden, exécuté par Orochi et Kaido il y a vingt ans (flashback) | Wano | B |
+| Pedro, qui se sacrifie | Whole Cake | B |
+| **Brook revient grâce au Yomi Yomi no Mi** ; cette « immortalité » dure jusqu'à une deuxième mort | ch. 442 | B |
+| **Sabo tenu pour mort dans son enfance** (fausse mort) | passé | B |
+| **Antagonistes encore vivants selon le wiki :** Buggy, Kuro, Krieg, Arlong, Crocodile, Enel, Rob Lucci, Spandam, Moria, Wapol, Hody Jones, Vander Decken IX, Caesar Clown, Doflamingo, Blackbeard (Teach), Akainu, Katakuri. | 17 antagonistes choisis par l'IA, pas la liste complète | B |
+| Luffy, Zoro et Sabo : vivants | | B |
+
+#### *Jujutsu Kaisen* (anime jusqu'à l'ép. 59)
+| Mort ou retour | Repère | Niveau |
+|---|---|---|
+| **Yuji Itadori meurt à la fin de l'arc « Fearsome Womb » : Sukuna prend le contrôle de son corps, lui arrache le cœur, puis le ressuscite.** | **Manga : chapitre 9** (« Fearsome Womb, Part 4 » : Yuji « tombe mort »). **Anime : épisode 5**, et non l'épisode 3 (l'épisode 3 est « Girl of Steel », centré sur Nobara) | B |
+| Junpei Yoshino et sa mère, tués par Mahito | ép. 12 | B− |
+| Riko Amanai et Toji (ép. 28), Geto (ép. 29) | passé de Gojo | B− |
+| Mechamaru (31), Dagon (39), Jogo et Hanami (40), **Nanami (42, tué par Mahito)**, Nobara (44, statut « ambigu mais présumée morte » selon la source), Mahito (46) | Shibuya | B− (Nanami aussi par trois pages d'actualité) |
+| **Toji est « réanimé » par la technique de séance d'Ogami** : il habite le corps de son petit-fils | ép. 39 | B |
+| Naoya (49), Mai (51), le clan Zenin (51), Yaga (52), Reggie Star (58) | Culling Game | B− |
+
+### 39.4 Ce que cela permet de dire (inférence de l'IA)
+- ***GoT*** : beaucoup de morts majeures dès les premières saisons, **presque toutes définitives**. Le retour est rare et **réservé à une règle précise** : un prêtre du Seigneur de la Lumière, une fois pour Jon Snow, six fois pour Beric. Le retour de Jon est un événement unique, pas une habitude. Le texte « la mort est définitive » était donc faux, mais « tout peut revenir » le serait aussi.
+- ***One Piece*** : les morts importantes sont **peu nombreuses, définitives et souvent racontées en flashback** (Kuina, Corazon, Oden ; Ace et Barbe Blanche sont à Marineford, au présent du récit). Le retour est **encadré par un pouvoir** (Brook) et il y a des fausses morts (Sabo). Sur les 17 antagonistes que j'ai vérifiés, **tous sont vivants** : le récit les bat sans les tuer. C'est une observation sur cet échantillon, pas une règle prouvée pour toute la série.
+- ***HxH*** : la mortalité est **concentrée sur un arc** (les Fourmis Chimères : roi, gardes royaux, Netero, Kite) et sur la Troupe Fantôme, tandis que les quatre personnages centraux sont vivants. Le retour de Kite est **transformé** (renaissance sous une autre forme), et une capacité de soin ne ramène pas les morts.
+- ***JJK*** : mortalité élevée et variée dans la limite lue. **Le protagoniste meurt dès l'ép. 5 et revient** par un marché avec l'antagoniste qu'il porte. Des alliés et mentors meurent (Nanami), des antagonistes aussi. Il existe une **réanimation temporaire** (Toji, via une technique d'Ogami). Je ne sais pas ce qui arrive à Nobara après l'ép. 44.
+- Les quatre œuvres combinent plusieurs types de permanence, mais avec des **règles de retour différentes** : un prêtre (*GoT*), un fruit (*OP*), une renaissance (*HxH*), un marché avec le démon et une technique de réanimation (*JJK*). Dans aucune de ces séries le retour n'est gratuit ou général. La question utile pour Edenia : **quelle règle gouverne le retour, et qui peut en bénéficier ?**
+
+### 39.5 Questions possibles pour trancher (non décidées)
+1. Un personnage mort peut-il revenir ? Si oui, par quelle règle de l'univers et à quel prix ?
+2. Les morts frappent-elles surtout les antagonistes, les alliés, les mentors, ou aussi les protagonistes ?
+3. La mort arrive-t-elle tôt comme choc, ou plus tard comme clôture d'arc ?
+4. Les antagonistes sont-ils tués, épargnés ou convertis ?
+
+## 40. État des cinq questions pour Edenia
+
+| Point | État | Origine |
+|---|---|---|
+| Médium : manga, parution française | **Décidé** | U |
+| Plafond de puissance et degré de règles | Non décidé (« je ne sais pas ») | U |
+| Type d'affrontement dominant | Non décidé (« je ne sais pas ») | U |
+| Mortalité | Non décidée ; besoin d'informations (voir §39) | U |
+| Objectif du protagoniste | Non décidé (« je ne sais pas ») | U |
+
+## 41. Limites et ce qui n'a pas été fait
+
+- **Sources publiques seulement** pour §39 : pages Wikipédia EN, wikis Fandom et trois pages d'actualité. Pas de relecture des œuvres ; pas de comptage des morts.
+- **Limites de lecture respectées** : *JJK* après l'ép. 59 et *One Piece* après le ch. 984 ne sont pas couverts. Pour *JJK*, un résultat de recherche évoquait des événements postérieurs à la limite : ils n'ont pas été repris. Les listes de morts de *GoT*, *HxH* et *OP* ont reçu une seconde passe (§39.3) ; elles ne sont pas exhaustives : elles contiennent les morts les plus citées et des statuts de personnages choisis. Pour *HxH*, je n'ai pas vérifié le sort de Hisoka au-delà de son statut « vivant » ; pour *JJK*, le sort de Nobara après l'ép. 44 n'est pas vérifié. Pour *GoT*, des résultats de recherche contenaient des morts de la saison 8 : elles ne sont pas reprises.
+- ***GoT*** : seuls les épisodes S1-S7 ont été consultés ; rien de la saison 8 n'a été affiché.
+- **« Manga dans un système de parution française »** : l'IA n'a pas étudié ce que cela implique (rythme de parution en tomes, âge du public, classification). Ce sont des pistes à vérifier, pas des conclusions. Le YAML ne mentionne pas ce choix. **Aucun lien avec la mortalité n'est établi** : celui de la première version a été retiré.
+- Le guide §37 est une proposition de l'IA : aucune des lignes n'a été validée par l'utilisateur, sauf le médium.
+- Q8 « échelle de puissance et scènes obsolètes » proposée (idée de l'IA) : non ajoutée à la grille.
+
+Cette partie ne modifie ni le YAML ni les statuts.
