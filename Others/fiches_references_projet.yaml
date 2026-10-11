@@ -10,6 +10,9 @@
 #  statut_relation : influence = ce qui l'a façonné ; reference = point de comparaison ou éléments piochés.
 #  statut_decision : non_precise (cité sans statut) | interet (ça lui plaît, pas une décision) | envisage (possibilité réelle, non validée) | decide.
 #  limite_lecture : ce qu'il a lu ou vu ; ne rien dire au-delà (anti-spoil).
+#
+# Mise à jour du 2026-10-11 : structure du monde ; lieux arthuriens (décidé → envisagé, sauf Brocéliande et Le Lac) ; The Witcher 3 et Urban Rivals ;
+#   éléments des brouillons de worldbuilding (niveau intérêt, hors système de magie) ; limite de lecture de The Way of Kings (15 chapitres).
 
 projet:
   nom_provisoire: Edenia
@@ -21,6 +24,25 @@ projet:
   - un seul monde, une seule époque
   - 'plafond technologique théorique : 1950, hors technologie magique'
   - esthétique « archaïque mais pas trop »
+  structure_du_monde:
+    source: U
+    date: '2026-10-11'
+    plan:
+      texte: un royaume principal, plusieurs cités-États et quelques royaumes adjacents pas forcément visités
+      statut_decision: envisage
+      note: 'formulé par U (« je pense à… »)'
+    regions:
+      texte: des régions différentes par culture et par régime
+      statut_decision: envisage
+    echelle:
+      texte: 'problème ouvert : la logique d''échelle (ce que représentent un domaine, le pouvoir d''un baron, une cité-État, un royaume) ; U s''appuie sur l''échelle de la France entre 1000 et 1805, où un royaume est « ultra grand »'
+      statut_decision: non_precise
+    modele_de_monde:
+      texte: 'mélange de The Witcher 3, de Runeterra et de Fullmetal Alchemist (« je ne sais pas, les trois en mélangé ») ; dosage non précisé'
+      statut_decision: non_precise
+    carte_du_monde:
+      texte: une image de carte de fantasy sert de référence pour la carte du monde (image fournie par U, non versionnée)
+      statut_decision: interet
   gimmicks_des_grands_succes:
   - gimmick: Pirate
     oeuvre: One Piece
@@ -105,16 +127,19 @@ projet:
     - Guenièvre
     lieux_arthuriens_decides:
     - Brocéliande
+    - Le Lac (de la Dame du Lac)
+    lieux_arthuriens_envisages:
     - Douloureuse Garde
     - Bénoïc
     - Gaunes
     - Trèbes
     - Montlair
     - La Terre Déserte
-    - Le Lac (de la Dame du Lac)
+    note_lieux: 'U, 11 oct. 2026 : il a accepté ces lieux mais ne les connaît pas tous ; hormis Brocéliande et Le Lac, il n''a fait aucune recherche sur eux ; ils passent donc de décidé à envisagé'
     exception_lieux: 'exception décidée par l''utilisateur : lieux gardés pour la langue française du texte, même s''ils ne sont pas situés en France (La Douloureuse Garde ; sa localisation n''a pas été vérifiée)'
     abandonne:
     - 'Merlin, Arthur, Lancelot comme personnages de toile de fond (envisagé puis écarté le 2026-10-09)'
+    note_merlin: 'U, 11 oct. 2026 : Merlin était de base un personnage de l''œuvre ; la décision du 9 oct. le concernant reste la plus récente'
   personnages_edenia:
   - nom: Cosmo Dumas
     inspire_de:
@@ -191,6 +216,35 @@ projet:
       pour: style global
       oeuvre: illustration numérique de style manga, générée par l'utilisateur (IA) ; même personnage généré plusieurs fois dans plusieurs styles, à partir d'une illustration vue sur Pinterest ; plusieurs itérations existent
       role: on voit peu la tenue, mais le style et le design global du personnage correspondent à l'univers ; sert de moodboard, pas de canon
+  inspirations_issues_des_brouillons:
+    source: 'U, brouillons de worldbuilding (documents Worldbulding parties 1 et 2), validé le 11 oct. 2026'
+    statut_decision: interet
+    elements:
+    - 'Bibliothèque bleue (le contenu des livres ; U précise que cela n''a rien à voir avec le métier de colporteur)'
+    - 'Renaissance (la science, le folklore, les superstitions, les croyances et la magie)'
+    - bas et milieu Moyen Âge
+    - fantasy épique
+    exclusion:
+      texte: sans concept métafictionnel ni concept qui agit sur la réalité
+      note: portée non précisée (peut concerner le système de magie, mis de côté pour l'instant)
+  vocabulaire_des_brouillons:
+    source: 'U, brouillons de worldbuilding, validé le 11 oct. 2026'
+    statut_decision: interet
+    titres_et_fonctions:
+    - vassal
+    - comte
+    - baron
+    - seigneur
+    - empereur
+    - intendant
+    - shérif
+    - chambellan
+    - première lame
+    - champion
+    evenements:
+    - tournoi de chevalerie
+    - foires
+    note: éléments de vocabulaire et de décor ; aucun n'est une décision
   occultisme:
     penche_vers: ambiance (atmosphère de symboles, de décors et d'objets rituels, sans que l'histoire porte dessus)
     precision_livres: '(U, 7 oct.) les livres de sorts seraient classiques et sans effet visuel magique ; sauf peut-être un accessoire lié à un pouvoir ; rien n''est décidé, détail modifiable ; ce qui compte surtout : les symboles sur le livre'
@@ -228,6 +282,25 @@ projet:
       statut_decision: decide
       images: en attente d'images de l'utilisateur
       source: 'U, 9 oct. 2026 (« décidé, pour la région ») ; le nom reprend ses mots, formulation de l''IA'
+    zones_issues_des_brouillons:
+      source: 'U, liste de zones d''un brouillon (document sans titre 29), validée le 11 oct. 2026'
+      statut_decision: interet
+      note: 'U veut d''abord préciser le vocabulaire des paysages avant d''ajouter des zones (voir a_preciser plus haut) ; la liste mentionne aussi Ionia, Freljord, Tibétains-Yéti et Piltover-BioShock 1 / Gadgetzan, non reportés ici (validation limitée aux zones ci-dessous) ; inspirés des MMORPG et des contes (U)'
+      zones:
+      - nom: Nouvelle-Orléans / Caraïbes
+        inspiration: Bilgewater
+      - nom: Piltover / Columbia
+      - nom: mafieux années 20-30 (prohibition)
+      - nom: marais
+        description: 'marais style bayou ou marais de Shrek (U, 11 oct. 2026) ; la liste du brouillon cite Shrek et Velen (The Witcher)'
+      - nom: Brocéliande
+        description: forêt féerique avec une école (type Harry Potter)
+      - nom: Empire
+      - nom: habitat rural
+        description: village, château, donjon, maisons éparses
+      region_desertique:
+        texte: 'région désertique inspirée du Languedoc (U, 11 oct. 2026, « je crois ») ; ancien nom de brouillon : « Terre dévastée » (origine du nom non confirmée)'
+        statut_decision: non_precise
     pierres_levees: pour l'instant seulement pour l'ambiance ; rôle non décidé ; il ne préférerait pas la même scène sans les pierres (U)
     statut_des_images: moodboard, pas canon (U) ; pas de décision sur les éléments des images
 references:
@@ -241,6 +314,20 @@ references:
     source: U
     note: 'style copié/inspiré de Radiant et de Runeterra ; tenues de référence : Academy Ekko (pour Cosmo Dumas)'
   note: Référence principale du monde. Edenia en est proche (dépôt).
+  note_utilisateur: '(11 oct. 2026) Pour la structure du monde : mélange de The Witcher 3, de Runeterra et de Fullmetal Alchemist, dosage non précisé (à mettre en rapport avec la note du dépôt ci-dessus).'
+- reference: The Witcher 3 (CD Projekt Red)
+  statut_relation: reference
+  source: U
+  aspect_vise: structure du monde (plusieurs régions, cités-États et royaumes)
+  statut_decision: non_precise
+  note_utilisateur: '(11 oct. 2026) Le modèle de monde est un mélange de The Witcher 3, de Runeterra et de Fullmetal Alchemist ; dosage non précisé (« je ne sais pas, les trois en mélangé »). U avait déjà cité The Witcher 3 comme modèle du monde.'
+  limite_lecture: non précisée
+- reference: Urban Rivals
+  statut_relation: reference
+  source: U
+  aspect_vise: 'structure du monde : plusieurs zones culturelles dans un même lieu (« ville ou pays », U : « pas très clair »), avec d''autres régions ou pays à côté'
+  statut_decision: interet
+  voir_aussi: les Yétis sont inspirés des Frozn d'Urban Rivals (voir folklore)
 - reference: Warcraft / Hearthstone
   statut_relation: influence
   source: U
@@ -257,6 +344,7 @@ references:
   statut_relation: source_documentaire
   source: U
   aspect_vise: hiérarchies
+  note_utilisateur: '(brouillons, validé le 11 oct. 2026) Ne pas se focaliser seulement sur la partie populaire (les 72 démons) : le dictionnaire traite énormément d''autres sujets.'
 - reference: Folklores gréco-égyptiens
   statut_relation: corpus_de_traditions
   source: U
@@ -324,6 +412,9 @@ references:
   statut_relation: reference
   source: U
   aspect_vise: les deux traditions d'alchimie (amestrienne et sa version chinoise)
+  structure_du_monde:
+    texte: 'U (11 oct. 2026, « je crois ») : FMA correspond au modèle « un pays principal, avec des régions culturelles et des voisins pas forcément visités »'
+    statut_decision: interet
   emprunts_ou_ecarts_par_aspect:
   - aspect: cadre militaire
     valeur: distance_a_maintenir
@@ -374,7 +465,8 @@ references:
 - reference: The Stormlight Archive (Sanderson)
   statut_relation: influence
   source: U
-  limite_lecture: 'The Way of Kings : Prélude, Prologue, chapitres 1 à 13 ; rien au-delà'
+  limite_lecture: 'The Way of Kings : Prélude, Prologue, chapitres 1 à 15 et les trois interludes ; rien au-delà'
+  note_limite: 'mise à jour le 11 oct. 2026 : U a avancé de 13 à 15 chapitres'
 - reference: Game of Thrones
   statut_relation: influence
   source: U
