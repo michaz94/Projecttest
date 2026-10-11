@@ -101,3 +101,15 @@ L'IA avait proposé, comme exemple pour comprendre (pas comme intrigue) : « Que
 ## 6. Mise à jour du 9 oct. 2026
 
 - Le personnage qui passe des épreuves est retiré (demande de l'utilisateur) : §1.5, la version corrigée de la phrase de synthèse et l'illustration ont été ajustés. Rien dans le YAML n'en parlait.
+
+## 7. Mise à jour du 11 oct. 2026 (accord avec le YAML)
+
+*Source : tes validations par numéros (1 à 12) et tes corrections du 11 oct. Détail dans `fiches_references_projet.yaml`.*
+
+- **Structure du monde (envisagée) :** un royaume principal, des cités-États et des royaumes adjacents, avec des régions différentes par culture et par régime. Cela précise §1.1 (monde-mosaïque) : les « régions de conte » ne sont plus seulement des héritages, elles peuvent avoir chacune un régime politique. L'échelle (ce que représente un domaine, un baron, une cité-État, un royaume) reste non précisée.
+- **Modèle de monde :** mélange de *The Witcher 3*, de Runeterra et de *Fullmetal Alchemist* ; dosage non précisé. Ces trois œuvres ont des fiches dans le YAML.
+- **Hiérarchies (§1.2) :** la structure ci-dessus ajoute des niveaux (domaine, cité-État, royaume) qui ne sont pas encore reliés aux rangs infernaux ou aux institutions ; rien n'est tranché.
+- **Lieux arthuriens :** seuls Brocéliande et Le Lac sont décidés ; les six autres sont envisagés. Cela ne change pas §1.1, qui ne les citait pas.
+- **Zones d'ambiance et inspirations issues de tes brouillons :** niveau « intérêt » ; zone marécageuse (bayou ou marais de Shrek) ; région désertique inspirée du Languedoc (non précisé). Pas de décision de scénario.
+- **Académie et guilde (§1.5, §4) :** les brouillons mentionnent une école liée à Brocéliande, au niveau « intérêt » ; ce n'est pas une décision.
+- Rien de cette section n'ajoute une histoire : §0 reste vrai.

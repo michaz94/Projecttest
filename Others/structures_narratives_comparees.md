@@ -292,6 +292,8 @@ Le cycle compte cinq branches : *Estoire del Saint Graal*, *Estoire de Merlin*, 
 
 # Partie E — *The Way of Kings* : Prélude, Prologue, chapitres 1 à 13 et les trois premiers interludes
 
+> **Mise à jour du 11 oct. 2026 :** la limite de lecture de l'utilisateur est maintenant le chapitre 15 (avec les trois interludes). **Cette partie n'a pas été étendue** : elle analyse toujours les chapitres 1 à 13 ; les chapitres 14 et 15 n'y sont pas traités.
+
 ## 24. Sources et niveau de preuve
 
 - **Texte :** PDF fourni par l'utilisateur (édition anglaise, 1123 pages). Pages lues : du Prélude au marqueur « The End of Part One » (environ 58 600 mots), puis **les trois interludes (pages 189 à 203 du PDF, environ 5 400 mots)** et **les chapitres 12 et 13 (pages 208 à 239, environ 11 000 mots)**. **Rien au-delà du chapitre 13**, conformément à la limite fixée par l'utilisateur (mise à jour du 8 oct. : « j'ai terminé le chapitre 13 »).
