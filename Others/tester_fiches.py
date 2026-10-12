@@ -65,7 +65,12 @@ for v in p["esthetique_vestimentaire"]["references_visuelles"]:
 # 3. Décisions connues --------------------------------------------------
 check("Edenia : nom provisoire + source U", p["nom_provisoire"] == "Edenia" and p.get("source_nom_provisoire") == "U")
 check("plafond technologique 1950 théorique, hors magie", any("1950" in c and "théorique" in c and "magique" in c for c in p["cadre_valide"]))
+check("plafond des armes à feu à 1860 dans le cadre", any("1860" in c and "armes à feu" in c for c in p["cadre_valide"]))
 check("plus aucune trace du plafond 1930 dans le cadre", not any("1930" in c for c in p["cadre_valide"]))
+tech = p.get("technologie", {})
+check("technologie.plafond_armes_a_feu : decide (1860)", tech.get("plafond_armes_a_feu", {}).get("statut_decision") == "decide" and "1860" in tech.get("plafond_armes_a_feu", {}).get("texte", ""))
+check("technologie.baisse_plafond_general : envisage (1914)", tech.get("baisse_plafond_general", {}).get("statut_decision") == "envisage" and "1914" in tech.get("baisse_plafond_general", {}).get("texte", ""))
+check("technologie.inegalite_regionale : envisage (ressources)", tech.get("inegalite_regionale", {}).get("statut_decision") == "envisage" and "ressources" in tech.get("inegalite_regionale", {}).get("texte", ""))
 bs = [r for r in refs if r["reference"] == "BioShock Infinite"][0]
 check("BioShock : contrainte 1950", "1950" in bs["contrainte_liee"] and "1930" not in bs["contrainte_liee"])
 check("BioShock : zone industrielle décidée", bs["statut_decision"] == "decide")
