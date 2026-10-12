@@ -13,6 +13,8 @@
 #
 # Mise à jour du 2026-10-11 : structure du monde ; lieux arthuriens (décidé → envisagé, sauf Brocéliande et Le Lac) ; The Witcher 3 et Urban Rivals ;
 #   éléments des brouillons de worldbuilding (niveau intérêt, hors système de magie) ; limite de lecture de The Way of Kings (15 chapitres).
+# Mise à jour du 2026-10-12 : plafond des armes à feu à 1860 (décidé) ; baisse envisagée du plafond technologique général à 1914 ;
+#   inégalité technologique régionale liée aux ressources magiques et naturelles (envisagé).
 
 projet:
   nom_provisoire: Edenia
@@ -22,8 +24,24 @@ projet:
   - monde de fantasy multi-héritages
   - zone western + zone industrielle de type BioShock Infinite
   - un seul monde, une seule époque
-  - 'plafond technologique théorique : 1950, hors technologie magique'
+  - 'plafond technologique théorique : 1950, hors technologie magique (baisse à 1914 envisagée le 2026-10-12)'
+  - 'plafond des armes à feu : 1860'
   - esthétique « archaïque mais pas trop »
+  technologie:
+    source: U
+    date: '2026-10-12'
+    plafond_armes_a_feu:
+      texte: 'armes à feu plafonnées à 1860'
+      statut_decision: decide
+      note: 'précisé par U (« Ha j''avais oublié d''indiquer que les armes à feu sont plafonnées à 1860 »)'
+    baisse_plafond_general:
+      texte: 'baisser le plafond technologique général de 1950 à 1914, hors technologie magique'
+      statut_decision: envisage
+      note: 'formulé par U (« En fait je pense baisser la technologie à 1914 »)'
+    inegalite_regionale:
+      texte: 'certaines régions sont plus avancées technologiquement que d''autres ; les ressources magiques et naturelles ont un impact sur cet avancement'
+      statut_decision: envisage
+      note: 'formulé par U (« Je pense que je peux partir du principe que certaines régions sont plus avancées. Je pense que les ressources magiques et naturelles ont un impact, comme les autres modèles de référence que tu as cités »)'
   structure_du_monde:
     source: U
     date: '2026-10-11'
@@ -335,7 +353,7 @@ references:
   statut_relation: influence
   source: U
   aspect_vise: zone industrielle d'Edenia
-  contrainte_liee: plafond technologique théorique 1950, hors technologie magique
+  contrainte_liee: plafond technologique théorique 1950, hors technologie magique (baisse à 1914 envisagée le 2026-10-12)
   statut_decision: decide
 - reference: Féodalisme (Dictionnaire féodal 1820)
   statut_relation: source_documentaire
