@@ -1,0 +1,18 @@
+type,requete_ou_tag,compte,remarque
+recherche,starfire,149600,mot seul (fluctue 149.1K-149.6K selon la page)
+recherche,"""starfire"" (guillemets)",149600,identique : les guillemets ne changent rien
+recherche,star fire,421200,deux mots séparés
+recherche,starfire teen titans,40600,les trois mots
+recherche,starfireteentitans,24800,mot collé
+recherche,starfire_teen_titans,15900,avec underscores
+recherche,koriandr,7100,vrai nom du personnage
+tag_api,starfire,11657,
+tag_api,starfireteentitans,6250,
+tag_api,teentitansstarfire,2766,
+tag_api,starfirefanart,2381,
+tag_api,koriandr,1404,
+tag_api,starfiredccomic,849,
+tag_api,starfire_teen_titans,658,
+tag_api,starfirekoriandr,382,
+tag_api,starfirecosplay,256,
+tag_api,starfiredc,129,
