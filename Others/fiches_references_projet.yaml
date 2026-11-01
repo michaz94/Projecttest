@@ -15,6 +15,15 @@
 #   éléments des brouillons de worldbuilding (niveau intérêt, hors système de magie) ; limite de lecture de The Way of Kings (15 chapitres).
 # Mise à jour du 2026-10-12 : plafond des armes à feu à 1860 (décidé) ; baisse envisagée du plafond technologique général à 1914 ;
 #   inégalité technologique régionale liée aux ressources magiques et naturelles (envisagé).
+# Mise à jour du 2026-10-22 (demandée par U) : report des corrections du 12 oct. (« Terre dévastée » = proposition de l'IA ;
+#   zone mafieuse = structure sociale seulement, jamais après 1914 ; zone western = paysage ; Harley Delphine = nom provisoire,
+#   personnage non défini) ; anachronisme vestimentaire décidé (U, 15 oct.) ; couche gréco-égyptienne de l'Antiquité tardive
+#   (intérêt, U, 22 oct.). Les inférences de l'IA ne sont pas dans ce fichier.
+# Mise à jour du 2026-10-24 (demandée par U) : Rise of the Brave Tangled Dragons, origine du choix de s'inspirer de personnages
+#   d'œuvres occidentales (U, 24 oct.).
+# Mise à jour du 2026-10-28 (demandée par U) : style de dessin commun à Edenia et Arcana (U, 15 oct.) ; tests PixAI = tests de style,
+#   Cosmo Dumas = « un essai » (U, 15 oct.) ; atie1225 ajouté aux références (U, 15 oct.).
+# Mise à jour du 2026-10-28, tour 24 (demandée par U) : « l'habit suit la fonction », étendu à la coupe (décidé, U, 28 oct.).
 
 projet:
   nom_provisoire: Edenia
@@ -22,7 +31,7 @@ projet:
   genre: battle shōnen occidental durable, édition traditionnelle
   cadre_valide:
   - monde de fantasy multi-héritages
-  - zone western + zone industrielle de type BioShock Infinite
+  - 'zone western + zone industrielle de type BioShock Infinite (zone western = un paysage ; le mode de vie n''est pas encore réfléchi, U, 12 oct. 2026)'
   - un seul monde, une seule époque
   - 'plafond technologique théorique : 1950, hors technologie magique (baisse à 1914 envisagée le 2026-10-12)'
   - 'plafond des armes à feu : 1860'
@@ -177,6 +186,8 @@ projet:
       statut_decision: interet
       source: 'U, 9 oct. 2026'
   - nom: Harley Delphine
+    statut_nom: 'provisoire, non décidé (U, 12 oct. 2026)'
+    note: 'personnage non défini pour l''instant (U, 12 oct. 2026)'
     inspire_de:
     - Shallan Davar (The Stormlight Archive)
     - Hermione Granger
@@ -188,7 +199,14 @@ projet:
       archaique_mais_pas_trop: style vestimentaire qui peut paraître daté (U, 7 oct.)
       anachronisme:
         texte: éléments vestimentaires modernes présents dans un récit dont le cadre est plus ancien (U, 7 oct.)
-        statut: non décidé ; « a une part de vérité » (U)
+        statut_decision: decide
+        source: 'U, 15 oct. 2026 : esthétique vestimentaire plus moderne et anachronique, dans le style vestimentaire des 7 images de references_visuelles'
+        historique: 'non décidé ; « a une part de vérité » (U, 7 oct. 2026)'
+      habit_suit_la_fonction:
+        texte: 'la tenue et sa coupe suivent la fonction et le statut du personnage ; hors des genres à costume, c''est le rôle qui justifie une tenue moulante (infiltration, pilotage, combinaison sous armure)'
+        statut_decision: decide
+        source: 'U, 28 oct. 2026 : « c''est un élément de design que je prends déjà en compte » ; « elle a raison » (analyse externe : le genre décide de la tenue moulante, hors genre le rôle l''exige)'
+        historique: 'fonctions et statuts cités comme limite vestimentaire (U, 7 oct., voir limite_floue)'
     inspire_de:
     - Radiant
     - Runeterra
@@ -279,6 +297,18 @@ projet:
   - element: objets bouddhiques japonais (perles de prière, bâton à anneau et clochettes, dangos)
     statut_decision: interet
     note: 'goût ; pas un héritage décidé ; ce sont des objets de culte, pas seulement de style (point accepté par U)'
+  style_de_dessin:
+    meme_style_edenia_et_arcana:
+      statut_decision: decide
+      source: 'U, 15 oct. 2026 : « le style artistique sur les deux œuvres reste logiquement le même » ; certains tests, « ultra urbain et moderne », sont plus proches d''Arcana'
+    styles_cites:
+      statut_decision: non_precise
+      source: 'U, 15 oct. 2026 : « Je crois que mon style artistique se trouve dans Jujutsu Kaisen, atie1225, Shadman, Disney/Pixar, Spider-Verse, Naruto, Gachiakuta et Quirkilicious »'
+    tests_pixai:
+      statut: tests de style (U)
+      contenu: '12 images générées avec PixAI, jointes le 15 oct. 2026 ; aucune ne représente un des trois personnages principaux. Documents de tests titrés « Arcana » (PixAI Arcana 2 et 2.1, PixAI_Arcana_Art parties 1 et 2, créés le 14 sept.) ; les autres tests partent de personnages existants (Robin, Raven, Nami, Violet Parr, Gwen, Miles Morales…)'
+      cosmo_dumas: 'seul test sur un personnage d''Edenia : « un essai » (U, 15 oct.), pas une piste de design'
+      outils: 'modèles Illustrious (coco-style v2, v3 et surtout v7 ; WAI-illustrious-SDXL v16), LoRA atie1225 et Gachiakuta, accélérateur DMD2 (U, 15 oct.)'
   ambiance_des_lieux:
     statut_decision: envisage
     sources_visuelles: 'cinq images de décors naturels : trois peintures de développement de Shrek, une double page couleur du manga Naruto (chapitre 679), une illustration numérique de style manga (probablement générée par IA)'
@@ -309,6 +339,7 @@ projet:
         inspiration: Bilgewater
       - nom: Piltover / Columbia
       - nom: mafieux années 20-30 (prohibition)
+        correction: 'U, 12 oct. 2026 : on ne garde que la structure sociale (la mafia) ; jamais au-delà de 1914 (le nom ci-dessus est celui du brouillon)'
       - nom: marais
         description: 'marais style bayou ou marais de Shrek (U, 11 oct. 2026) ; la liste du brouillon cite Shrek et Velen (The Witcher)'
       - nom: Brocéliande
@@ -317,7 +348,7 @@ projet:
       - nom: habitat rural
         description: village, château, donjon, maisons éparses
       region_desertique:
-        texte: 'région désertique inspirée du Languedoc (U, 11 oct. 2026, « je crois ») ; ancien nom de brouillon : « Terre dévastée » (origine du nom non confirmée)'
+        texte: 'région désertique inspirée du Languedoc (U, 11 oct. 2026, « je crois ») ; « Terre dévastée » est une proposition de l''IA, pas un nom de brouillon de U (correction de U, 12 oct. 2026)'
         statut_decision: non_precise
     pierres_levees: pour l'instant seulement pour l'ambiance ; rôle non décidé ; il ne préférerait pas la même scène sans les pierres (U)
     statut_des_images: moodboard, pas canon (U) ; pas de décision sur les éléments des images
@@ -366,6 +397,11 @@ references:
 - reference: Folklores gréco-égyptiens
   statut_relation: corpus_de_traditions
   source: U
+  couche_antiquite_tardive:
+    texte: 'période hellénistique et Ier-Ve siècles (papyrus grecs magiques, etc.), source lointaine de la magie et des sciences de la Renaissance ; couche de fond (grimoires, symboles), pas un décor visible'
+    statut_decision: interet
+    source: 'U, 22 oct. 2026'
+    verification: 'IA, sources citées le 22 oct. 2026 : les papyrus grecs magiques étaient inconnus à la Renaissance (achetés vers 1827, publiés en 1928-1931) ; la transmission passe par le Corpus Hermeticum (traduit par Ficino en 1463, imprimé en 1471), le néoplatonisme, le Picatrix et la tradition salomonienne (Testament de Salomon) ; liens avec Agrippa (décidé) et les démons envisagés'
 - reference: Mélusine
   statut_relation: corpus_de_traditions
   source: U
@@ -506,3 +542,12 @@ references:
   statut_relation: influence
   source: U
   note_utilisateur: '(8 oct. 2026) Inspiration, non listée dans la grille des œuvres : c''est plus Tarantino, son style et sa filmographie complète, que juste une série comme les autres.'
+- reference: Rise of the Brave Tangled Dragons (crossover de fans réunissant Raiponce, Mérida, Harold et Jack Frost)
+  statut_relation: influence
+  source: U
+  note_utilisateur: '(24 oct. 2026) « mon choix de m''inspirer de personnages d''oeuvre Occidentale vient de The Rise brave of tangledd dragon »'
+- reference: atie1225 (鉄), illustrateur ; LoRA PixAI « ATIE1225 STYLE »
+  statut_relation: influence
+  source: U
+  aspect_vise: style de dessin
+  note_utilisateur: '(15 oct. 2026) Cité parmi les styles où « se trouve » son style artistique (voir projet.style_de_dessin) ; LoRA utilisé presque toujours comme base de ses tests PixAI. Le mot « sketchy » pour décrire ce style a été retiré par U le 15 oct.'
