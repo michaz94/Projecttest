@@ -42,7 +42,7 @@
 #     de concepts de l'œuvre, sans être un thème ni le sujet central ; registre tonal non « dark » toujours décidé ; note du 7 oct. archivée) ;
 #   - structure_du_monde.feodalite ajouté en envisagé (U : système politique sous-jacent présent dans beaucoup de concepts de l'univers)
 #     et fiche Féodalisme (Dictionnaire féodal 1820) précisée en conséquence ;
-#   - institutions_et_statuts_en_interet ajouté en intérêt (U) : Chevalier (couche 2 = statut social et martial lié au serment dans la féodalité,
+#   - institutions_et_statuts_en_interet ajouté en intérêt (U) : Chevalier (couche 2 = statut social et martial dans le cadre féodal,
 #     couche 1 optionnelle = armure lourde réservée à certains personnages, couche 3 = récits de chevalerie médiévaux et Renaissance gardés en
 #     intérêt ouvert sans se limiter à un seul récit) et Scholomance (école de magie type Harry Potter, mais différente) ;
 #   - pistes_systeme_de_magie ajouté (cible tactique en envisagé ; 4 briques en intérêt, U : Mana [nom provisoire], Source/Shaper/Sink/Target,
@@ -140,7 +140,7 @@ projet:
       texte: une image de carte de fantasy sert de référence pour la carte du monde (image fournie par U, non versionnée)
       statut_decision: interet
     feodalite:
-      texte: 'système politique sous-jacent présent dans beaucoup de concepts de l''univers : organisation fondée sur des liens personnels (serment d''allégeance, service contre protection) et des pouvoirs morcelés (fiefs, chartes, privilèges, droits locaux, rivalités vassaliques), qui colore le territoire, le statut des institutions (écoles, ordres, guildes), l''accès aux ressources, la friction avec les cités-États et les pôles ~1890-1914, ainsi que des structures parallèles comme la pègre'
+      texte: 'système politique sous-jacent présent dans beaucoup de concepts de l''univers , qui colore le territoire, le statut des institutions (écoles, ordres, guildes), l''accès aux ressources, la friction avec les cités-États et les pôles ~1890-1914, ainsi que des structures parallèles comme la pègre'
       statut_decision: envisage
       note: 'validé en envisagé par U le 16 nov. 2026 (carnet § 5.5 ; dépasse le simple vocabulaire ou décor local)'
   gimmicks_des_grands_succes:
@@ -400,7 +400,7 @@ projet:
   institutions_et_statuts_en_interet:
     source: 'U, 16 nov. 2026 (carnet § 5.5)'
     chevalier:
-      texte: 'retenu en intérêt d''abord comme statut social et martial dans le cadre féodal (couche 2 : combattant reconnu par un titre ou adoubement, lié par un serment, des droits et des devoirs, compatible avec la magie et des tenues souples), avec l''imagerie de l''armure lourde classique en option réservée à certains personnages ou groupes (couche 1)'
+      texte: 'retenu en intérêt d''abord comme statut social et martial dans le cadre féodal (couche 2 : combattant reconnu par un titre ou adoubement, compatible avec la magie et des tenues souples), avec l''imagerie de l''armure lourde classique en option réservée à certains personnages ou groupes (couche 1)'
       recits_de_chevalerie: 'récits de chevalier d''époque médiévale et Renaissance (couche 3, charpentes narratives) : intérêt ouvert, non limité à un seul modèle de récit afin de ne pas biaiser un choix futur (tout ce qui touche à la structure narrative reste au niveau intérêt)'
       statut_decision: interet
       note: 'U, 16 nov. 2026 (à relier au goal de Brann, au tournoi de chevalerie, à Fabula Fantasia et au Cycle de la Vulgate)'
