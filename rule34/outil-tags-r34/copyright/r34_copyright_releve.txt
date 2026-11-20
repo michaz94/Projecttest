@@ -1,0 +1,55 @@
+# Balayage de la liste des tags rule34 triée par nombre (fetch_page, 24/10/2026) — lignes de type Copyright uniquement
+# pages 1-9 (pid 0-160) : 
+1130910	nintendo	pid60
+957706	pokemon	pid80
+623995	original	pid140
+# note : video_games 533352 = Metadata (pas Copyright) ; pokemon_(species) = Character
+# pages 10-17 (pid 180-320) :
+464315	patreon	pid200
+288421	genshin_impact	pid300
+283266	my_little_pony	pid320
+280720	disney	pid320
+# pages 18-25 (pid 340-480) :
+268109	mythology	pid340
+227429	naruto_(series)	pid400
+227419	marvel	pid400
+225406	league_of_legends	pid400
+217988	friendship_is_magic	pid420
+215372	naruto	pid420
+210261	sonic_(series)	pid420
+190367	my_hero_academia	pid480
+# virtual_youtuber 250115 = Metadata ; crossover = Metadata ; artist_request = Artist
+# page 31 (pid 600, 157322-152332) : aucun Copyright
+# pages 26-30 (pid 500-580) :
+184608	overwatch	pid500
+182549	dc_comics	pid500
+180619	marvel_comics	pid500
+178558	sonic_the_hedgehog_(series)	pid520
+172870	dc	pid540
+169711	sega	pid540
+162747	one_piece	pid560
+161359	final_fantasy	pid580
+160540	fate_(series)	pid580
+# anime = Metadata ; rule_63 = Metadata. Balayage complet des pages 1 à 31 (tags ≥ 152 332 publications).
+# pages 32-39 (pid 620-760) :
+152183	mario_(series)	pid620
+148160	fire_emblem	pid620
+142265	dragon_ball	pid640
+141023	capcom	pid640
+137453	touhou	pid660
+129999	blizzard_entertainment	pid680
+128297	fortnite	pid680
+119892	zenless_zone_zero	pid720
+118976	fate/grand_order	pid740
+118970	hasbro	pid740
+114091	hololive	pid760
+# pages 40-43 (pid 780-840, jusqu'à 101 657) :
+113032	street_fighter	pid780
+112056	world_of_warcraft	pid780
+110189	bleach	pid800
+109802	naruto_shippuden	pid800
+106179	riot_games	pid820
+106082	resident_evil	pid820
+103732	cartoon_network	pid840
+102934	the_legend_of_zelda	pid840
+# ai = Metadata. Balayage complet des pages 1 à 43.

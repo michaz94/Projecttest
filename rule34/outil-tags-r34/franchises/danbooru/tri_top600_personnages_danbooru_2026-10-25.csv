@@ -1,0 +1,601 @@
+﻿rang_danbooru,tag,personnage,franchise_tag,franchise,publications,posts_1girl,posts_1boy,part_1girl,genre,retenu,motif
+1,hatsune_miku,Hatsune Miku,vocaloid,Vocaloid,148218,122591,8056,0.94,féminin,oui,
+2,hakurei_reimu,Hakurei Reimu,touhou,Touhou Project,102567,43228,5288,0.89,féminin,oui,
+3,kirisame_marisa,Kirisame Marisa,touhou,Touhou Project,88697,32039,5084,0.86,féminin,oui,
+4,flandre_scarlet,Flandre Scarlet,touhou,Touhou Project,64114,37450,2133,0.95,féminin,oui,
+5,remilia_scarlet,Remilia Scarlet,touhou,Touhou Project,63424,28024,2418,0.92,féminin,oui,
+6,izayoi_sakuya,Izayoi Sakuya,touhou,Touhou Project,53945,21716,2751,0.89,féminin,oui,
+7,artoria_pendragon_(fate),Artoria Pendragon,fate_(series),Fate,46589,33741,8892,0.79,féminin,oui,
+8,komeiji_koishi,Komeiji Koishi,touhou,Touhou Project,46052,27768,1483,0.95,féminin,oui,
+9,kochiya_sanae,Kochiya Sanae,touhou,Touhou Project,41529,20045,2242,0.9,féminin,oui,
+10,konpaku_youmu,Konpaku Youmu,touhou,Touhou Project,41307,24116,2069,0.92,féminin,oui,
+11,cirno,Cirno,touhou,Touhou Project,41297,20757,1285,0.94,féminin,oui,
+12,sensei_(blue_archive),Sensei,blue_archive,Blue Archive,40649,28968,30841,0.48,genre au choix / non défini,,genre au choix / non défini
+13,alice_margatroid,Alice Margatroid,touhou,Touhou Project,40243,16519,1877,0.9,féminin,oui,
+14,patchouli_knowledge,Patchouli Knowledge,touhou,Touhou Project,39339,18735,1745,0.91,féminin,oui,
+15,admiral_(kancolle),Admiral,kantai_collection,Kantai Collection,39110,20647,31035,0.4,genre au choix / non défini,,genre au choix / non défini
+16,yakumo_yukari,Yakumo Yukari,touhou,Touhou Project,39002,15980,2163,0.88,féminin,oui,
+17,shameimaru_aya,Shameimaru Aya,touhou,Touhou Project,34655,17086,1828,0.9,féminin,oui,
+18,reisen_udongein_inaba,Reisen Udongein Inaba,touhou,Touhou Project,31584,15467,1520,0.91,féminin,oui,
+19,komeiji_satori,Komeiji Satori,touhou,Touhou Project,31407,14420,1347,0.91,féminin,oui,
+20,fujiwara_no_mokou,Fujiwara No Mokou,touhou,Touhou Project,30991,13756,825,0.94,féminin,oui,
+21,akemi_homura,Akemi Homura,mahou_shoujo_madoka_magica,Madoka Magica,30350,10490,581,0.95,féminin,oui,
+22,kaname_madoka,Kaname Madoka,mahou_shoujo_madoka_magica,Madoka Magica,30338,9817,834,0.92,féminin,oui,
+23,hong_meiling,Hong Meiling,touhou,Touhou Project,28523,8920,999,0.9,féminin,oui,
+24,saigyouji_yuyuko,Saigyouji Yuyuko,touhou,Touhou Project,28322,13898,1347,0.91,féminin,oui,
+25,scaramouche_(genshin_impact),Scaramouche,genshin_impact,Genshin Impact,28104,10648,22155,0.32,masculin,,masculin
+26,kagamine_rin,Kagamine Rin,vocaloid,Vocaloid,26700,17170,9346,0.65,féminin,oui,
+27,inubashiri_momiji,Inubashiri Momiji,touhou,Touhou Project,26361,16805,1632,0.91,féminin,oui,
+28,doodle_sensei_(blue_archive),Doodle Sensei,blue_archive,Blue Archive,23157,16919,16293,0.51,genre au choix / non défini,,version (implique sensei_(blue_archive))
+29,yakumo_ran,Yakumo Ran,touhou,Touhou Project,23136,8964,914,0.91,féminin,oui,
+30,konpaku_youmu_(ghost),Konpaku Youmu,touhou,Touhou Project,23096,15319,725,0.95,féminin,,version (implique konpaku_youmu)
+31,kaenbyou_rin,Kaenbyou Rin,touhou,Touhou Project,23007,11589,772,0.94,féminin,oui,
+32,rumia,Rumia,touhou,Touhou Project,22669,14729,1076,0.93,féminin,oui,
+33,warrior_of_light_(ff14),Warrior Of Light,final_fantasy,Final Fantasy,22614,15817,3653,0.81,genre au choix / non défini,,genre au choix / non défini
+34,lumine_(genshin_impact),Lumine,genshin_impact,Genshin Impact,22526,13691,8480,0.62,féminin,oui,
+35,moriya_suwako,Moriya Suwako,touhou,Touhou Project,22258,11482,788,0.94,féminin,oui,
+36,kaga_(kancolle),Kaga,kantai_collection,Kantai Collection,22236,7566,2690,0.74,féminin,oui,
+37,raiden_shogun,Raiden Shogun,genshin_impact,Genshin Impact,22191,14764,4036,0.79,féminin,oui,
+38,trailblazer_(honkai:_star_rail),Trailblazer,honkai:_star_rail,Honkai: Star Rail,21734,8809,7747,0.53,genre au choix / non défini,,genre au choix / non défini
+39,link,Link,the_legend_of_zelda,The Legend of Zelda,21405,10268,15590,0.4,masculin,,masculin
+40,saber_(fate),Saber,fate_(series),Fate,21370,14375,4349,0.77,féminin,,version (implique artoria_pendragon_(fate))
+41,mash_kyrielight,Mash Kyrielight,fate_(series),Fate,21101,14643,3546,0.81,féminin,oui,
+42,reiuji_utsuho,Reiuji Utsuho,touhou,Touhou Project,20847,11165,963,0.92,féminin,oui,
+43,shimakaze_(kancolle),Shimakaze,kantai_collection,Kantai Collection,20841,13516,2532,0.84,féminin,oui,
+44,chen,Chen,touhou,Touhou Project,20815,8102,576,0.93,féminin,oui,
+45,kazami_yuuka,Kazami Yuuka,touhou,Touhou Project,20461,11304,1255,0.9,féminin,oui,
+46,miki_sayaka,Miki Sayaka,mahou_shoujo_madoka_magica,Madoka Magica,20387,5907,661,0.9,féminin,oui,
+47,ganyu_(genshin_impact),Ganyu,genshin_impact,Genshin Impact,20301,16031,2052,0.89,féminin,oui,
+48,hina_(blue_archive),Hina,blue_archive,Blue Archive,20083,14773,3162,0.82,féminin,oui,
+49,fujimaru_ritsuka_(male),Fujimaru Ritsuka,fate_(series),Fate,19321,12451,13660,0.48,masculin,,masculin
+50,yuuka_(blue_archive),Yuuka,blue_archive,Blue Archive,19286,14150,3373,0.81,féminin,oui,
+51,kasane_teto,Kasane Teto,utau,UTAU / Synthesizer V,18996,11024,594,0.95,féminin,oui,
+52,asuna_(blue_archive),Asuna,blue_archive,Blue Archive,18944,14834,2528,0.85,féminin,oui,
+53,tatara_kogasa,Tatara Kogasa,touhou,Touhou Project,18855,8927,951,0.9,féminin,oui,
+54,kawashiro_nitori,Kawashiro Nitori,touhou,Touhou Project,18831,9924,891,0.92,féminin,oui,
+55,houraisan_kaguya,Houraisan Kaguya,touhou,Touhou Project,18244,5733,720,0.89,féminin,oui,
+56,gotoh_hitori,Gotoh Hitori,bocchi_the_rock!,Bocchi the Rock!,18203,8739,805,0.92,féminin,oui,
+57,houshou_marine,Houshou Marine,hololive,Hololive (VTubers),18122,13779,1275,0.92,féminin,oui,
+58,hibiki_(kancolle),Hibiki,kantai_collection,Kantai Collection,18106,8769,1809,0.83,féminin,oui,
+59,hinanawi_tenshi,Hinanawi Tenshi,touhou,Touhou Project,18102,11294,637,0.95,féminin,oui,
+60,gardevoir,Gardevoir,pokemon,Pokémon,18076,9489,2580,0.79,espèce / créature,,espèce / créature
+61,kamishirasawa_keine,Kamishirasawa Keine,touhou,Touhou Project,17991,5979,1137,0.84,féminin,oui,
+62,shigure_(kancolle),Shigure,kantai_collection,Kantai Collection,17858,10003,1149,0.9,féminin,oui,
+63,pikachu,Pikachu,pokemon,Pokémon,17830,5229,4091,0.56,espèce / créature,,espèce / créature
+64,souryuu_asuka_langley,Souryuu Asuka Langley,neon_genesis_evangelion,Evangelion,17707,13235,2399,0.85,féminin,oui,
+65,kagamine_len,Kagamine Len,vocaloid,Vocaloid,17441,8449,12628,0.4,masculin,,masculin
+66,tifa_lockhart,Tifa Lockhart,final_fantasy,Final Fantasy,17346,13271,5014,0.73,féminin,oui,
+67,sakura_kyoko,Sakura Kyoko,mahou_shoujo_madoka_magica,Madoka Magica,17230,4639,573,0.89,féminin,oui,
+68,princess_zelda,Princess Zelda,the_legend_of_zelda,The Legend of Zelda,17092,13887,7214,0.66,féminin,oui,
+69,tomoe_mami,Tomoe Mami,mahou_shoujo_madoka_magica,Madoka Magica,16968,7497,595,0.93,féminin,oui,
+70,firefly_(honkai:_star_rail),Firefly,honkai:_star_rail,Honkai: Star Rail,16858,11671,2634,0.82,féminin,oui,
+71,fujimaru_ritsuka_(female),Fujimaru Ritsuka (version féminine),fate_(series),Fate,16648,7152,5175,0.58,féminin,oui,
+72,mika_(blue_archive),Mika,blue_archive,Blue Archive,16615,12341,2080,0.86,féminin,oui,
+73,gawr_gura,Gawr Gura,hololive,Hololive (VTubers),16569,11607,880,0.93,féminin,oui,
+74,frieren,Frieren,sousou_no_frieren,Frieren,16473,10572,3340,0.76,féminin,oui,
+75,koakuma,Koakuma,touhou,Touhou Project,16386,6877,611,0.92,féminin,oui,
+76,mystia_lorelei,Mystia Lorelei,touhou,Touhou Project,16327,8804,578,0.94,féminin,oui,
+77,nazrin,Nazrin,touhou,Touhou Project,16292,8203,878,0.9,féminin,oui,
+78,cloud_strife,Cloud Strife,final_fantasy,Final Fantasy,16280,7855,9954,0.44,masculin,,masculin
+79,shirakami_fubuki,Shirakami Fubuki,hololive,Hololive (VTubers),16277,11660,1021,0.92,féminin,oui,
+80,ibuki_suika,Ibuki Suika,touhou,Touhou Project,16203,7566,663,0.92,féminin,oui,
+81,inaba_tewi,Inaba Tewi,touhou,Touhou Project,15908,5539,614,0.9,féminin,oui,
+82,usami_renko,Usami Renko,touhou,Touhou Project,15726,3422,461,0.88,féminin,oui,
+83,wanderer_(genshin_impact),Wanderer,genshin_impact,Genshin Impact,15636,5990,12208,0.33,masculin,,version (implique scaramouche_(genshin_impact))
+84,inkling_player_character,Inkling Player Character,splatoon_(series),splatoon_(series),15633,10687,3201,0.77,genre au choix / non défini,,genre au choix / non défini
+85,hoshino_(blue_archive),Hoshino,blue_archive,Blue Archive,15525,10929,2019,0.84,féminin,oui,
+86,hoshimachi_suisei,Hoshimachi Suisei,hololive,Hololive (VTubers),15473,10754,1459,0.88,féminin,oui,
+87,maribel_hearn,Maribel Hearn,touhou,Touhou Project,15348,2955,430,0.87,féminin,oui,
+88,rio_(blue_archive),Rio,blue_archive,Blue Archive,15201,12945,2613,0.83,féminin,oui,
+89,trainer_(umamusume),Trainer,umamusume,Uma Musume,15161,8770,10976,0.44,genre au choix / non défini,,genre au choix / non défini
+90,ouro_kronii,Ouro Kronii,hololive,Hololive (VTubers),14872,10383,761,0.93,féminin,oui,
+91,hijiri_byakuren,Hijiri Byakuren,touhou,Touhou Project,14790,6454,954,0.87,féminin,oui,
+92,agnes_tachyon_(umamusume),Agnes Tachyon,umamusume,Uma Musume,14682,7862,973,0.89,féminin,oui,
+93,hu_tao_(genshin_impact),Hu Tao,genshin_impact,Genshin Impact,14677,11967,2165,0.85,féminin,oui,
+94,aether_(genshin_impact),Aether,genshin_impact,Genshin Impact,14334,6414,8109,0.44,masculin,,masculin
+95,houjuu_nue,Houjuu Nue,touhou,Touhou Project,14247,7847,759,0.91,féminin,oui,
+96,furina_(genshin_impact),Furina,genshin_impact,Genshin Impact,14220,10169,2098,0.83,féminin,oui,
+97,nanami_chiaki,Nanami Chiaki,danganronpa_(series),Danganronpa,14101,12440,2106,0.86,féminin,oui,
+98,kongou_(kancolle),Kongou,kantai_collection,Kantai Collection,14084,6124,2495,0.71,féminin,oui,
+99,megurine_luka,Megurine Luka,vocaloid,Vocaloid,14069,6568,1285,0.84,féminin,oui,
+100,elysia_(honkai_impact),Elysia,honkai_impact_3rd,Honkai Impact 3rd,13901,10716,555,0.95,féminin,oui,
+101,jeanne_d'arc_alter_(fate),Jeanne d'Arc Alter,fate_(series),Fate,13896,9580,1699,0.85,féminin,oui,
+102,manhattan_cafe_(umamusume),Manhattan Cafe,umamusume,Uma Musume,13668,8577,747,0.92,féminin,oui,
+103,nahida_(genshin_impact),Nahida,genshin_impact,Genshin Impact,13637,10444,4534,0.7,féminin,oui,
+104,inazuma_(kancolle),Inazuma,kantai_collection,Kantai Collection,13583,3977,1995,0.67,féminin,oui,
+105,inkling_girl,Inkling Girl,splatoon_(series),splatoon_(series),13540,10212,1946,0.84,féminin,,version (implique inkling_player_character)
+106,yagokoro_eirin,Yagokoro Eirin,touhou,Touhou Project,13507,4086,665,0.86,féminin,oui,
+107,stelle_(honkai:_star_rail),Stelle,honkai:_star_rail,Honkai: Star Rail,13482,4518,2920,0.61,féminin,oui,
+108,kisaki_(blue_archive),Kisaki,blue_archive,Blue Archive,13473,11896,2305,0.84,féminin,oui,
+109,akemi_homura_(magical_girl),Akemi Homura,mahou_shoujo_madoka_magica,Madoka Magica,13439,5295,278,0.95,féminin,,version (implique akemi_homura)
+110,mizuhashi_parsee,Mizuhashi Parsee,touhou,Touhou Project,13328,7472,390,0.95,féminin,oui,
+111,yasaka_kanako,Yasaka Kanako,touhou,Touhou Project,13304,4081,404,0.91,féminin,oui,
+112,doctor_(arknights),Doctor,arknights,Arknights,13259,7594,4364,0.64,genre au choix / non défini,,genre au choix / non défini
+113,akagi_(kancolle),Akagi,kantai_collection,Kantai Collection,13023,2680,1114,0.71,féminin,oui,
+114,fubuki_(kancolle),Fubuki,kantai_collection,Kantai Collection,12988,6711,1323,0.84,féminin,oui,
+115,ninomae_ina'nis,Ninomae Ina'nis,hololive,Hololive (VTubers),12973,8940,460,0.95,féminin,oui,
+116,mori_calliope,Mori Calliope,hololive,Hololive (VTubers),12884,6897,474,0.94,féminin,oui,
+117,abigail_williams_(fate),Abigail Williams,fate_(series),Fate,12776,10376,1056,0.91,féminin,oui,
+118,yae_miko,Yae Miko,genshin_impact,Genshin Impact,12564,7361,1428,0.84,féminin,oui,
+119,2b_(nier:automata),2B,nier_(series),NieR,12524,11034,2690,0.8,féminin,oui,
+120,amiya_(arknights),Amiya,arknights,Arknights,12466,8187,857,0.91,féminin,oui,
+121,toki_(blue_archive),Toki,blue_archive,Blue Archive,12368,10067,1618,0.86,féminin,oui,
+122,kagiyama_hina,Kagiyama Hina,touhou,Touhou Project,12344,8273,358,0.96,féminin,oui,
+123,yuudachi_(kancolle),Yuudachi,kantai_collection,Kantai Collection,12210,5579,926,0.86,féminin,oui,
+124,aerith_gainsborough,Aerith Gainsborough,final_fantasy,Final Fantasy,12146,8616,5437,0.61,féminin,oui,
+125,aris_(blue_archive),Aris,blue_archive,Blue Archive,12132,6878,1701,0.8,féminin,oui,
+126,usada_pekora,Usada Pekora,hololive,Hololive (VTubers),12086,7974,671,0.92,féminin,oui,
+127,tenryuu_(kancolle),Tenryuu,kantai_collection,Kantai Collection,12042,5284,1527,0.78,féminin,oui,
+128,togawa_sakiko,Togawa Sakiko,bang_dream!,BanG Dream!,11951,2992,86,0.97,féminin,oui,
+129,kayoko_(blue_archive),Kayoko,blue_archive,Blue Archive,11919,9530,1871,0.84,féminin,oui,
+130,nekomata_okayu,Nekomata Okayu,hololive,Hololive (VTubers),11897,8624,820,0.91,féminin,oui,
+131,mari_(blue_archive),Mari,blue_archive,Blue Archive,11820,10327,1900,0.84,féminin,oui,
+132,producer_(idolmaster),Producer,idolmaster,The Idolmaster,11796,7859,9202,0.46,genre au choix / non défini,,genre au choix / non défini
+133,shiroko_(blue_archive),Shiroko,blue_archive,Blue Archive,11667,8405,1623,0.84,féminin,oui,
+134,shigure_kai_ni_(kancolle),Shigure Kai Ni,kantai_collection,Kantai Collection,11622,6409,737,0.9,féminin,,version (implique shigure_(kancolle))
+135,yor_briar,Yor Briar,spy_x_family,Spy×Family,11618,8546,4350,0.66,féminin,oui,
+136,toyosatomimi_no_miko,Toyosatomimi No Miko,touhou,Touhou Project,11539,4079,357,0.92,féminin,oui,
+137,daiyousei,Daiyousei,touhou,Touhou Project,11526,3593,534,0.87,féminin,oui,
+138,nero_claudius_(fate),Nero Claudius,fate_(series),Fate,11477,8826,1304,0.87,féminin,oui,
+139,ikazuchi_(kancolle),Ikazuchi,kantai_collection,Kantai Collection,11471,3411,1810,0.65,féminin,oui,
+140,kazusa_(blue_archive),Kazusa,blue_archive,Blue Archive,11403,8484,1752,0.83,féminin,oui,
+141,nami_(one_piece),Nami,one_piece,One Piece,11332,7965,2249,0.78,féminin,oui,
+142,manjuu_(azur_lane),Manjuu,azur_lane,Azur Lane,11312,8487,228,0.97,espèce / créature,,espèce / créature
+143,gold_ship_(umamusume),Gold Ship,umamusume,Uma Musume,11256,5076,713,0.88,féminin,oui,
+144,illyasviel_von_einzbern,Illyasviel von Einzbern,fate_(series),Fate,11232,6841,1827,0.79,féminin,oui,
+145,makima_(chainsaw_man),Makima,chainsaw_man,Chainsaw Man,11208,8916,1666,0.84,féminin,oui,
+146,kirby,Kirby,kirby_(series),kirby_(series),11195,2195,1872,0.54,espèce / créature,,espèce / créature
+147,suzumiya_haruhi,Suzumiya Haruhi,suzumiya_haruhi_no_yuuutsu,La Mélancolie de Haruhi Suzumiya,11191,7347,1765,0.81,féminin,oui,
+148,chihaya_anon,Chihaya Anon,bang_dream!,BanG Dream!,11037,2131,39,0.98,féminin,oui,
+149,tohsaka_rin,Tohsaka Rin,fate_(series),Fate,11022,7156,3056,0.7,féminin,oui,
+150,megumin,Megumin,kono_subarashii_sekai_ni_shukufuku_wo!,KonoSuba,10967,8209,2591,0.76,féminin,oui,
+151,hamakaze_(kancolle),Hamakaze,kantai_collection,Kantai Collection,10954,8305,1351,0.86,féminin,oui,
+152,misaka_mikoto,Misaka Mikoto,toaru_majutsu_no_index,A Certain Magical Index / Railgun,10943,6353,1643,0.79,féminin,oui,
+153,kaname_madoka_(magical_girl),Kaname Madoka,mahou_shoujo_madoka_magica,Madoka Magica,10867,4695,292,0.94,féminin,,version (implique kaname_madoka)
+154,sakayori_iroha,Sakayori Iroha,cho_kaguya-hime!,Cho Kaguya-hime!,10852,1068,130,0.89,féminin,oui,
+155,zuikaku_(kancolle),Zuikaku,kantai_collection,Kantai Collection,10785,2700,721,0.79,féminin,oui,
+156,nishizumi_miho,Nishizumi Miho,girls_und_panzer,Girls und Panzer,10781,3609,520,0.87,féminin,oui,
+157,phainon_(honkai:_star_rail),Phainon,honkai:_star_rail,Honkai: Star Rail,10759,1742,3979,0.3,masculin,,masculin
+158,akatsuki_(kancolle),Akatsuki,kantai_collection,Kantai Collection,10697,3183,1379,0.7,féminin,oui,
+159,hoshiguma_yuugi,Hoshiguma Yuugi,touhou,Touhou Project,10694,3555,552,0.87,féminin,oui,
+160,mononobe_no_futo,Mononobe No Futo,touhou,Touhou Project,10675,4708,387,0.92,féminin,oui,
+161,takanashi_kiara,Takanashi Kiara,hololive,Hololive (VTubers),10659,5078,430,0.92,féminin,oui,
+162,shiki_eiki,Shiki Eiki,touhou,Touhou Project,10655,5159,489,0.91,féminin,oui,
+163,akiyama_mio,Akiyama Mio,k-on!,K-On!,10612,4265,287,0.94,féminin,oui,
+164,ayanami_rei,Ayanami Rei,neon_genesis_evangelion,Evangelion,10611,6900,1264,0.85,féminin,oui,
+165,haruna_(kancolle),Haruna,kantai_collection,Kantai Collection,10502,5888,1222,0.83,féminin,oui,
+166,wriggle_nightbug,Wriggle Nightbug,touhou,Touhou Project,10485,4470,600,0.88,féminin,oui,
+167,belle_(zenless_zone_zero),Belle,zenless_zone_zero,Zenless Zone Zero,10422,4517,3226,0.58,féminin,oui,
+168,shanghai_doll,Shanghai Doll,touhou,Touhou Project,10420,4484,371,0.92,objet animé,,objet animé
+169,koharu_(blue_archive),Koharu,blue_archive,Blue Archive,10418,6876,1326,0.84,féminin,oui,
+170,onozuka_komachi,Onozuka Komachi,touhou,Touhou Project,10406,4700,525,0.9,féminin,oui,
+171,rem_(re:zero),Rem,re:zero_kara_hajimeru_isekai_seikatsu,Re:Zero,10404,7641,944,0.89,féminin,oui,
+172,sakura_miko,Sakura Miko,hololive,Hololive (VTubers),10372,5933,620,0.91,féminin,oui,
+173,reze_(chainsaw_man),Reze,chainsaw_man,Chainsaw Man,10314,8975,1872,0.83,féminin,oui,
+174,rice_shower_(umamusume),Rice Shower,umamusume,Uma Musume,10302,6484,649,0.91,féminin,oui,
+175,zhongli_(genshin_impact),Zhongli,genshin_impact,Genshin Impact,10291,2781,4912,0.36,masculin,,masculin
+176,imaizumi_kagerou,Imaizumi Kagerou,touhou,Touhou Project,10234,6236,1036,0.86,féminin,oui,
+177,rover_(wuthering_waves),Rover,wuthering_waves,Wuthering Waves,10175,5454,4959,0.52,genre au choix / non défini,,genre au choix / non défini
+178,columbina_(genshin_impact),Columbina,genshin_impact,Genshin Impact,10163,4501,630,0.88,féminin,oui,
+179,fate_testarossa,Fate Testarossa,lyrical_nanoha,Magical Girl Lyrical Nanoha,10093,4970,597,0.89,féminin,oui,
+180,kashima_(kancolle),Kashima,kantai_collection,Kantai Collection,10077,7766,1270,0.86,féminin,oui,
+181,morichika_rinnosuke,Morichika Rinnosuke,touhou,Touhou Project,10070,4349,8857,0.33,masculin,,masculin
+182,tokoyami_towa,Tokoyami Towa,hololive,Hololive (VTubers),10052,7769,738,0.91,féminin,oui,
+183,mona_(genshin_impact),Mona,genshin_impact,Genshin Impact,10025,8512,2490,0.77,féminin,oui,
+184,yuudachi_kai_ni_(kancolle),Yuudachi Kai Ni,kantai_collection,Kantai Collection,9984,4956,688,0.88,féminin,,version (implique yuudachi_(kancolle))
+185,wise_(zenless_zone_zero),Wise,zenless_zone_zero,Zenless Zone Zero,9984,5702,7722,0.42,masculin,,masculin
+186,yuzuki_yukari,Yuzuki Yukari,voiceroid,VOICEROID,9956,7019,736,0.91,féminin,oui,
+187,fern_(sousou_no_frieren),Fern,sousou_no_frieren,Frieren,9881,5261,2827,0.65,féminin,oui,
+188,nagato_(kancolle),Nagato,kantai_collection,Kantai Collection,9842,2916,1224,0.7,féminin,oui,
+189,ellen_joe,Ellen Joe,zenless_zone_zero,Zenless Zone Zero,9830,7939,1737,0.82,féminin,oui,
+190,march_7th_(honkai:_star_rail),March 7th,honkai:_star_rail,Honkai: Star Rail,9803,5639,1595,0.78,féminin,oui,
+191,oma_kokichi,Oma Kokichi,danganronpa_(series),Danganronpa,9785,1353,4509,0.23,masculin,,masculin
+192,nanashi_mumei,Nanashi Mumei,hololive,Hololive (VTubers),9742,6011,254,0.96,féminin,oui,
+193,seia_(blue_archive),Seia,blue_archive,Blue Archive,9726,6939,1359,0.84,féminin,oui,
+194,dawn_(pokemon),Dawn,pokemon,Pokémon,9689,6647,1566,0.81,féminin,oui,
+195,minato_aqua,Minato Aqua,hololive,Hololive (VTubers),9686,7394,603,0.92,féminin,oui,
+196,suzuya_(kancolle),Suzuya,kantai_collection,Kantai Collection,9665,6462,1226,0.84,féminin,oui,
+197,nagasaki_soyo,Nagasaki Soyo,bang_dream!,BanG Dream!,9641,1485,56,0.96,féminin,oui,
+198,pyra_(xenoblade),Pyra,xenoblade_chronicles_(series),Xenoblade Chronicles,9603,6142,1724,0.78,féminin,oui,
+199,scathach_(fate),Scathach,fate_(series),Fate,9553,7957,1386,0.85,féminin,oui,
+200,kita_ikuyo,Kita Ikuyo,bocchi_the_rock!,Bocchi the Rock!,9488,2757,208,0.93,féminin,oui,
+201,lillie_(pokemon),Lillie,pokemon,Pokémon,9471,6159,1656,0.79,féminin,oui,
+202,kyubey,Kyubey,mahou_shoujo_madoka_magica,Madoka Magica,9468,3856,469,0.89,espèce / créature,,espèce / créature
+203,nakano_azusa,Nakano Azusa,k-on!,K-On!,9313,4364,240,0.95,féminin,oui,
+204,chun-li,Chun-li,street_fighter,Street Fighter,9312,6457,938,0.87,féminin,oui,
+205,cyrene_(honkai:_star_rail),Cyrene,honkai:_star_rail,Honkai: Star Rail,9293,7264,1455,0.83,féminin,oui,
+206,nagato_yuki,Nagato Yuki,suzumiya_haruhi_no_yuuutsu,La Mélancolie de Haruhi Suzumiya,9293,5568,1021,0.85,féminin,oui,
+207,tomoe_mami_(magical_girl),Tomoe Mami,mahou_shoujo_madoka_magica,Madoka Magica,9243,4819,267,0.95,féminin,,version (implique tomoe_mami)
+208,tamamo_no_mae_(fate),Tamamo no Mae,fate_(series),Fate,9232,7208,912,0.89,féminin,oui,
+209,hinoshita_kaho,Hinoshita Kaho,love_live!,Love Live!,9217,2383,54,0.98,féminin,oui,
+210,daiwa_scarlet_(umamusume),Daiwa Scarlet,umamusume,Uma Musume,9151,6065,629,0.91,féminin,oui,
+211,caelus_(honkai:_star_rail),Caelus,honkai:_star_rail,Honkai: Star Rail,9129,4630,5396,0.46,masculin,,version (implique trailblazer_(honkai:_star_rail))
+212,kinomoto_sakura,Kinomoto Sakura,cardcaptor_sakura,Card Captor Sakura,9119,7021,1394,0.83,féminin,oui,
+213,sunny_(omori),Sunny,omori,Omori,9100,2338,3059,0.43,masculin,,masculin
+214,kaito_(vocaloid),Kaito,vocaloid,Vocaloid,9098,2632,4812,0.35,masculin,,masculin
+215,rosa_(pokemon),Rosa,pokemon,Pokémon,9091,6863,1507,0.82,féminin,oui,
+216,toramaru_shou,Toramaru Shou,touhou,Touhou Project,9024,2467,420,0.85,féminin,oui,
+217,hirasawa_yui,Hirasawa Yui,k-on!,K-On!,8991,2592,145,0.95,féminin,oui,
+218,ryuujou_(kancolle),Ryuujou,kantai_collection,Kantai Collection,8981,3987,964,0.81,féminin,oui,
+219,himekaidou_hatate,Himekaidou Hatate,touhou,Touhou Project,8960,4117,433,0.9,féminin,oui,
+220,may_(pokemon),May,pokemon,Pokémon,8947,6367,1992,0.76,féminin,oui,
+221,mejiro_mcqueen_(umamusume),Mejiro McQueen,umamusume,Uma Musume,8921,3545,489,0.88,féminin,oui,
+222,miki_sayaka_(magical_girl),Miki Sayaka,mahou_shoujo_madoka_magica,Madoka Magica,8865,3503,201,0.95,féminin,,version (implique miki_sayaka)
+223,matoi_ryuuko,Matoi Ryuuko,kill_la_kill,Kill la Kill,8835,5177,932,0.85,féminin,oui,
+224,jeanne_d'arc_(fate),Jeanne d'Arc,fate_(series),Fate,8810,5646,1448,0.8,féminin,oui,
+225,princess_peach,Princess Peach,mario_(series),Super Mario,8759,5808,1580,0.79,féminin,oui,
+226,murasa_minamitsu,Murasa Minamitsu,touhou,Touhou Project,8758,3431,455,0.88,féminin,oui,
+227,midoriya_izuku,Midoriya Izuku,boku_no_hero_academia,My Hero Academia,8754,2455,3395,0.42,masculin,,masculin
+228,texas_(arknights),Texas,arknights,Arknights,8753,4392,425,0.91,féminin,oui,
+229,noa_(blue_archive),Noa,blue_archive,Blue Archive,8748,5674,1707,0.77,féminin,oui,
+230,basil_(omori),Basil,omori,Omori,8725,1204,3688,0.25,masculin,,masculin
+231,karin_(blue_archive),Karin,blue_archive,Blue Archive,8717,5384,1203,0.82,féminin,oui,
+232,ookami_mio,Ookami Mio,hololive,Hololive (VTubers),8685,5675,608,0.9,féminin,oui,
+233,remielle_dan,Remielle Dan,zenless_zone_zero,Zenless Zone Zero,8672,6994,1257,0.85,féminin,oui,
+234,plana_(blue_archive),Plana,blue_archive,Blue Archive,8621,5632,1258,0.82,féminin,oui,
+235,nishikigi_chisato,Nishikigi Chisato,lycoris_recoil,Lycoris Recoil,8609,2832,673,0.81,féminin,oui,
+236,venti_(genshin_impact),Venti,genshin_impact,Genshin Impact,8591,1053,4839,0.18,masculin,,masculin
+237,mythra_(xenoblade),Mythra,xenoblade_chronicles_(series),Xenoblade Chronicles,8498,5093,1210,0.81,féminin,oui,
+238,kaku_seiga,Kaku Seiga,touhou,Touhou Project,8490,3556,332,0.91,féminin,oui,
+239,paimon_(genshin_impact),Paimon,genshin_impact,Genshin Impact,8479,2686,2370,0.53,genre au choix / non défini,,genre au choix / non défini
+240,keqing_(genshin_impact),Keqing,genshin_impact,Genshin Impact,8469,5746,975,0.85,féminin,oui,
+241,nishikino_maki,Nishikino Maki,love_live!,Love Live!,8441,3510,232,0.94,féminin,oui,
+242,serval_(kemono_friends),Serval,kemono_friends,Kemono Friends,8411,3173,498,0.86,féminin,oui,
+243,denji_(chainsaw_man),Denji,chainsaw_man,Chainsaw Man,8409,4878,5609,0.47,masculin,,masculin
+244,bakugou_katsuki,Bakugou Katsuki,boku_no_hero_academia,My Hero Academia,8403,928,2729,0.25,masculin,,masculin
+245,monkey_d._luffy,Monkey D. Luffy,one_piece,One Piece,8397,2376,3169,0.43,masculin,,masculin
+246,takamachi_nanoha,Takamachi Nanoha,lyrical_nanoha,Magical Girl Lyrical Nanoha,8386,3226,536,0.86,féminin,oui,
+247,gilgamesh_(fate),Gilgamesh,fate_(series),Fate,8383,2691,3862,0.41,masculin,,masculin
+248,houshou_(kancolle),Houshou,kantai_collection,Kantai Collection,8366,3265,1069,0.75,féminin,oui,
+249,kafuu_chino,Kafuu Chino,gochuumon_wa_usagi_desu_ka?,Gochūmon wa Usagi Desu ka?,8324,5524,366,0.94,féminin,oui,
+250,joseph_joestar,Joseph Joestar,jojo_no_kimyou_na_bouken,JoJo,8296,1277,2156,0.37,masculin,,masculin
+251,hilda_(pokemon),Hilda,pokemon,Pokémon,8285,5567,1987,0.74,féminin,oui,
+252,samus_aran,Samus Aran,metroid,Metroid,8252,6820,808,0.89,féminin,oui,
+253,marnie_(pokemon),Marnie,pokemon,Pokémon,8247,6222,1224,0.84,féminin,oui,
+254,kafka_(honkai:_star_rail),Kafka,honkai:_star_rail,Honkai: Star Rail,8223,4842,1424,0.77,féminin,oui,
+255,hoshimi_miyabi,Hoshimi Miyabi,zenless_zone_zero,Zenless Zone Zero,8160,4970,1686,0.75,féminin,oui,
+256,misumi_uika,Misumi Uika,bang_dream!,BanG Dream!,8143,1775,52,0.97,féminin,oui,
+257,kiana_kaslana,Kiana Kaslana,honkai_impact_3rd,Honkai Impact 3rd,8140,4239,496,0.9,féminin,oui,
+258,hata_no_kokoro,Hata No Kokoro,touhou,Touhou Project,8133,4416,389,0.92,féminin,oui,
+259,suletta_mercury,Suletta Mercury,gundam,Gundam,8112,1421,505,0.74,féminin,oui,
+260,sparkle_(honkai:_star_rail),Sparkle,honkai:_star_rail,Honkai: Star Rail,8093,6434,1077,0.86,féminin,oui,
+261,oozora_subaru,Oozora Subaru,hololive,Hololive (VTubers),8074,5426,601,0.9,féminin,oui,
+262,adachi_rei,Adachi Rei,utau,UTAU / Synthesizer V,8051,5524,111,0.98,féminin,oui,
+263,saihara_shuichi,Saihara Shuichi,danganronpa_(series),Danganronpa,8044,2154,3399,0.39,masculin,,masculin
+264,kei_(blue_archive),Kei,blue_archive,Blue Archive,8030,5521,1761,0.76,féminin,oui,
+265,shiina_taki,Shiina Taki,bang_dream!,BanG Dream!,8028,1160,53,0.96,féminin,oui,
+266,arona_(blue_archive),Arona,blue_archive,Blue Archive,8011,4719,1342,0.78,féminin,oui,
+267,oyama_mahiro,Oyama Mahiro,onii-chan_wa_oshimai!,onii-chan_wa_oshimai!,8008,4235,401,0.91,ambigu (garçon devenu fille),,ambigu (garçon devenu fille)
+268,okita_souji_(fate),Okita Souji,fate_(series),Fate,7997,5917,817,0.88,féminin,oui,
+269,shiori_novella,Shiori Novella,hololive,Hololive (VTubers),7989,6102,409,0.94,féminin,oui,
+270,kaguya_(cho_kaguya-hime!),Kaguya,cho_kaguya-hime!,Cho Kaguya-hime!,7966,1053,83,0.93,féminin,oui,
+271,momoi_(blue_archive),Momoi,blue_archive,Blue Archive,7945,2713,979,0.73,féminin,oui,
+272,iseri_nina,Iseri Nina,girls_band_cry,Girls Band Cry,7928,1491,46,0.97,féminin,oui,
+273,emiya_shirou,Emiya Shirou,fate_(series),Fate,7914,3835,4933,0.44,masculin,,masculin
+274,baobhan_sith_(fate),Baobhan Sith,fate_(series),Fate,7909,5805,1095,0.84,féminin,oui,
+275,nico_robin,Nico Robin,one_piece,One Piece,7908,5140,1386,0.79,féminin,oui,
+276,amane_kanata,Amane Kanata,hololive,Hololive (VTubers),7895,5340,533,0.91,féminin,oui,
+277,yazawa_nico,Yazawa Nico,love_live!,Love Live!,7875,3096,237,0.93,féminin,oui,
+278,shuten_douji_(fate),Shuten Douji,fate_(series),Fate,7868,5924,1120,0.84,féminin,oui,
+279,ijichi_nijika,Ijichi Nijika,bocchi_the_rock!,Bocchi the Rock!,7858,2511,168,0.94,féminin,oui,
+280,sua_(alien_stage),Sua,alien_stage,Alien Stage,7840,2214,317,0.87,féminin,oui,
+281,tojo_nozomi,Tojo Nozomi,love_live!,Love Live!,7838,4159,314,0.93,féminin,oui,
+282,cynthia_(pokemon),Cynthia,pokemon,Pokémon,7824,6261,1146,0.85,féminin,oui,
+283,nerissa_ravencroft,Nerissa Ravencroft,hololive,Hololive (VTubers),7811,4819,368,0.93,féminin,oui,
+284,aru_(blue_archive),Aru,blue_archive,Blue Archive,7810,5430,1065,0.84,féminin,oui,
+285,murakumo_(kancolle),Murakumo,kantai_collection,Kantai Collection,7801,5062,1254,0.8,féminin,oui,
+286,amatsukaze_(kancolle),Amatsukaze,kantai_collection,Kantai Collection,7791,4957,581,0.9,féminin,oui,
+287,hakos_baelz,Hakos Baelz,hololive,Hololive (VTubers),7773,4648,388,0.92,féminin,oui,
+288,wakaba_mutsumi,Wakaba Mutsumi,bang_dream!,BanG Dream!,7765,2264,42,0.98,féminin,oui,
+289,sonoda_umi,Sonoda Umi,love_live!,Love Live!,7764,3682,197,0.95,féminin,oui,
+290,ibaraki_kasen,Ibaraki Kasen,touhou,Touhou Project,7760,4495,442,0.91,féminin,oui,
+291,yukihana_lamy,Yukihana Lamy,hololive,Hololive (VTubers),7746,5841,662,0.9,féminin,oui,
+292,kujo_jotaro,Kujo Jotaro,jojo_no_kimyou_na_bouken,JoJo,7732,1705,2473,0.41,masculin,,masculin
+293,nagae_iku,Nagae Iku,touhou,Touhou Project,7715,3974,396,0.91,féminin,oui,
+294,astolfo_(fate),Astolfo,fate_(series),Fate,7710,1221,5318,0.19,masculin,,masculin
+295,komaeda_nagito,Komaeda Nagito,danganronpa_(series),Danganronpa,7708,2291,3140,0.42,masculin,,masculin
+296,hanako_(blue_archive),Hanako,blue_archive,Blue Archive,7685,5071,1099,0.82,féminin,oui,
+297,gawr_gura_(1st_costume),Gawr Gura (1st Costume),hololive,Hololive (VTubers),7668,5425,276,0.95,féminin,,version (implique gawr_gura)
+298,fujishima_megumi,Fujishima Megumi,love_live!,Love Live!,7619,2260,46,0.98,féminin,oui,
+299,tainaka_ritsu,Tainaka Ritsu,k-on!,K-On!,7609,1627,188,0.9,féminin,oui,
+300,tartaglia_(genshin_impact),Tartaglia,genshin_impact,Genshin Impact,7604,2283,3689,0.38,masculin,,masculin
+301,miyako_yoshika,Miyako Yoshika,touhou,Touhou Project,7600,3154,358,0.9,féminin,oui,
+302,saotome_ranma,Saotome Ranma,ranma_1/2,Ranma ½,7595,4820,3378,0.59,ambigu (garçon devenu fille),,ambigu (garçon devenu fille)
+303,yamato_(kancolle),Yamato,kantai_collection,Kantai Collection,7593,3984,671,0.86,féminin,oui,
+304,mizi_(alien_stage),Mizi,alien_stage,Alien Stage,7540,1903,394,0.83,féminin,oui,
+305,female_byleth_(fire_emblem),Byleth (version féminine),fire_emblem,Fire Emblem,7496,4304,1597,0.73,féminin,oui,
+306,shibuya_rin,Shibuya Rin,idolmaster,The Idolmaster,7495,4785,994,0.83,féminin,oui,
+307,yukikaze_(kancolle),Yukikaze,kantai_collection,Kantai Collection,7478,2941,704,0.81,féminin,oui,
+308,watson_amelia,Watson Amelia,hololive,Hololive (VTubers),7473,3581,374,0.91,féminin,oui,
+309,clownpiece,Clownpiece,touhou,Touhou Project,7467,4365,243,0.95,féminin,oui,
+310,ushio_(kancolle),Ushio,kantai_collection,Kantai Collection,7453,3118,761,0.8,féminin,oui,
+311,momose_ginko,Momose Ginko,love_live!,Love Live!,7447,2027,28,0.99,féminin,oui,
+312,inugami_korone,Inugami Korone,hololive,Hololive (VTubers),7432,4541,431,0.91,féminin,oui,
+313,kawaragi_momoka,Kawaragi Momoka,girls_band_cry,Girls Band Cry,7430,1740,37,0.98,féminin,oui,
+314,shirogane_noel,Shirogane Noel,hololive,Hololive (VTubers),7428,4995,649,0.89,féminin,oui,
+315,eevee,Eevee,pokemon,Pokémon,7423,1933,889,0.68,espèce / créature,,espèce / créature
+316,kamisato_ayaka,Kamisato Ayaka,genshin_impact,Genshin Impact,7422,5715,1294,0.82,féminin,oui,
+317,tokai_teio_(umamusume),Tokai Teio,umamusume,Uma Musume,7366,3401,612,0.85,féminin,oui,
+318,lappland_(arknights),Lappland,arknights,Arknights,7346,4042,271,0.94,féminin,oui,
+319,junko_(touhou),Junko,touhou,Touhou Project,7330,3758,226,0.94,féminin,oui,
+320,miorine_rembran,Miorine Rembran,gundam,Gundam,7327,920,211,0.81,féminin,oui,
+321,saber_alter,Saber Alter,fate_(series),Fate,7326,4652,789,0.85,féminin,,version (implique artoria_pendragon_(fate))
+322,morrigan_aensland,Morrigan Aensland,darkstalkers,Darkstalkers,7320,5369,567,0.9,féminin,oui,
+323,yahata_umiri,Yahata Umiri,bang_dream!,BanG Dream!,7311,1447,21,0.99,féminin,oui,
+324,otomune_kozue,Otomune Kozue,love_live!,Love Live!,7306,1747,54,0.97,féminin,oui,
+325,son_goku,Son Goku,dragon_ball,Dragon Ball,7288,1768,3252,0.35,masculin,,masculin
+326,ayase_eli,Ayase Eli,love_live!,Love Live!,7286,2776,196,0.93,féminin,oui,
+327,klee_(genshin_impact),Klee,genshin_impact,Genshin Impact,7279,4521,1315,0.77,féminin,oui,
+328,archer_(fate),Archer,fate_(series),Fate,7266,2751,3658,0.43,masculin,,masculin
+329,kasodani_kyouko,Kasodani Kyouko,touhou,Touhou Project,7252,3202,382,0.89,féminin,oui,
+330,soga_no_tojiko,Soga No Tojiko,touhou,Touhou Project,7248,2259,184,0.92,féminin,oui,
+331,sandrone_(genshin_impact),Sandrone,genshin_impact,Genshin Impact,7225,2262,449,0.83,féminin,oui,
+332,atago_(kancolle),Atago,kantai_collection,Kantai Collection,7220,4356,899,0.83,féminin,oui,
+333,shinosawa_hiro,Shinosawa Hiro,idolmaster,The Idolmaster,7218,5956,777,0.88,féminin,oui,
+334,runami_yachiyo,Runami Yachiyo,cho_kaguya-hime!,Cho Kaguya-hime!,7204,1696,68,0.96,féminin,oui,
+335,kumoi_ichirin,Kumoi Ichirin,touhou,Touhou Project,7166,1986,1216,0.62,féminin,oui,
+336,sakura_kyoko_(magical_girl),Sakura Kyoko,mahou_shoujo_madoka_magica,Madoka Magica,7158,2096,207,0.91,féminin,,version (implique sakura_kyoko)
+337,kurodani_yamame,Kurodani Yamame,touhou,Touhou Project,7158,3263,303,0.92,féminin,oui,
+338,ako_(blue_archive),Ako,blue_archive,Blue Archive,7150,4911,1572,0.76,féminin,oui,
+339,murano_sayaka,Murano Sayaka,love_live!,Love Live!,7148,1845,35,0.98,féminin,oui,
+340,hasumi_(blue_archive),Hasumi,blue_archive,Blue Archive,7122,5709,1414,0.8,féminin,oui,
+341,nishizumi_maho,Nishizumi Maho,girls_und_panzer,Girls und Panzer,7095,2782,335,0.89,féminin,oui,
+342,meiko_(vocaloid),Meiko,vocaloid,Vocaloid,7090,3087,1315,0.7,féminin,oui,
+343,sakamata_chloe,Sakamata Chloe,hololive,Hololive (VTubers),7086,5698,539,0.91,féminin,oui,
+344,arcueid_brunestud,Arcueid Brunestud,tsukihime,Tsukihime,7077,5132,1262,0.8,féminin,oui,
+345,cu_chulainn_(fate),Cu Chulainn,fate_(series),Fate,7048,1493,3652,0.29,masculin,,masculin
+346,asuna_(bunny)_(blue_archive),Asuna (bunny),blue_archive,Blue Archive,7027,5610,902,0.86,féminin,,version (implique asuna_(blue_archive))
+347,kisaragi_chihaya,Kisaragi Chihaya,idolmaster,The Idolmaster,7022,3689,468,0.89,féminin,oui,
+348,oguri_cap_(umamusume),Oguri Cap,umamusume,Uma Musume,7006,2992,321,0.9,féminin,oui,
+349,akebono_(kancolle),Akebono,kantai_collection,Kantai Collection,6994,3000,914,0.77,féminin,oui,
+350,shoukaku_(kancolle),Shoukaku,kantai_collection,Kantai Collection,6990,2318,577,0.8,féminin,oui,
+351,kieran_(pokemon),Kieran,pokemon,Pokémon,6976,1814,4996,0.27,masculin,,masculin
+352,nozomi_(blue_archive),Nozomi,blue_archive,Blue Archive,6972,2771,1503,0.65,féminin,oui,
+353,skadi_(arknights),Skadi,arknights,Arknights,6972,5249,427,0.92,féminin,oui,
+354,joseph_joestar_(young),Joseph Joestar,jojo_no_kimyou_na_bouken,JoJo,6958,1055,1907,0.36,masculin,,version (implique joseph_joestar)
+355,matou_sakura,Matou Sakura,fate_(series),Fate,6927,3984,1251,0.76,féminin,oui,
+356,suzuran_(arknights),Suzuran,arknights,Arknights,6926,4988,547,0.9,féminin,oui,
+357,tsukino_usagi,Tsukino Usagi,bishoujo_senshi_sailor_moon,Sailor Moon,6915,4676,566,0.89,féminin,oui,
+358,inoue_takina,Inoue Takina,lycoris_recoil,Lycoris Recoil,6913,1202,267,0.82,féminin,oui,
+359,acheron_(honkai:_star_rail),Acheron,honkai:_star_rail,Honkai: Star Rail,6907,4304,439,0.91,féminin,oui,
+360,ishmael_(project_moon),Ishmael,project_moon,Project Moon (Limbus Company),6892,4637,893,0.84,féminin,oui,
+361,gloria_(pokemon),Gloria,pokemon,Pokémon,6880,4406,1445,0.75,féminin,oui,
+362,hoshii_miki,Hoshii Miki,idolmaster,The Idolmaster,6870,4058,467,0.9,féminin,oui,
+363,aqua_(konosuba),Aqua,kono_subarashii_sekai_ni_shukufuku_wo!,KonoSuba,6861,4623,2078,0.69,féminin,oui,
+364,sekibanki,Sekibanki,touhou,Touhou Project,6849,3507,332,0.91,féminin,oui,
+365,anya_(spy_x_family),Anya,spy_x_family,Spy×Family,6838,3560,3264,0.52,féminin,oui,
+366,oshino_shinobu,Oshino Shinobu,monogatari_(series),Monogatari,6837,5892,778,0.88,féminin,oui,
+367,hinata_hajime,Hinata Hajime,danganronpa_(series),Danganronpa,6826,2543,2200,0.54,masculin,,masculin
+368,hk416_(girls'_frontline),HK416,girls'_frontline,Girls' Frontline,6823,4856,504,0.91,féminin,oui,
+369,ikari_shinji,Ikari Shinji,neon_genesis_evangelion,Evangelion,6807,1690,2893,0.37,masculin,,masculin
+370,power_(chainsaw_man),Power,chainsaw_man,Chainsaw Man,6800,5075,1105,0.82,féminin,oui,
+371,kijin_seija,Kijin Seija,touhou,Touhou Project,6800,3048,457,0.87,féminin,oui,
+372,ooyodo_(kancolle),Ooyodo,kantai_collection,Kantai Collection,6799,3432,884,0.8,féminin,oui,
+373,watanabe_you,Watanabe You,love_live!,Love Live!,6788,3889,168,0.96,féminin,oui,
+374,mordred_(fate),Mordred,fate_(series),Fate,6787,4607,865,0.84,féminin,oui,
+375,kanna_(blue_archive),Kanna,blue_archive,Blue Archive,6786,5333,1379,0.79,féminin,oui,
+376,darjeeling_(girls_und_panzer),Darjeeling,girls_und_panzer,Girls und Panzer,6780,3213,327,0.91,féminin,oui,
+377,northern_ocean_princess,Northern Ocean Princess,kantai_collection,Kantai Collection,6766,2377,561,0.81,féminin,oui,
+378,kal'tsit_(arknights),Kal'tsit,arknights,Arknights,6734,4035,674,0.86,féminin,oui,
+379,osawa_rurino,Osawa Rurino,love_live!,Love Live!,6701,1852,24,0.99,féminin,oui,
+380,minamoto_no_raikou_(fate),Minamoto No Raikou,fate_(series),Fate,6698,4882,1147,0.81,féminin,oui,
+381,aki_minoriko,Aki Minoriko,touhou,Touhou Project,6696,2101,256,0.89,féminin,oui,
+382,don_quixote_(project_moon),Don Quixote,project_moon,Project Moon (Limbus Company),6692,4240,1528,0.74,féminin,oui,
+383,yamada_ryo,Yamada Ryo,bocchi_the_rock!,Bocchi the Rock!,6672,2218,137,0.94,féminin,oui,
+384,shishiro_botan,Shishiro Botan,hololive,Hololive (VTubers),6640,4528,357,0.93,féminin,oui,
+385,bb_(fate),Bb,fate_(series),Fate,6633,5338,915,0.85,féminin,oui,
+386,midori_(blue_archive),Midori,blue_archive,Blue Archive,6622,2062,820,0.72,féminin,oui,
+387,izumi_konata,Izumi Konata,lucky_star,Lucky Star,6610,2803,387,0.88,féminin,oui,
+388,roronoa_zoro,Roronoa Zoro,one_piece,One Piece,6603,1568,2352,0.4,masculin,,masculin
+389,kitakami_(kancolle),Kitakami,kantai_collection,Kantai Collection,6585,1964,881,0.69,féminin,oui,
+390,saori_(blue_archive),Saori,blue_archive,Blue Archive,6581,4903,911,0.84,féminin,oui,
+391,kitagawa_marin,Kitagawa Marin,sono_bisque_doll_wa_koi_wo_suru,My Dress-Up Darling,6578,6109,1363,0.82,féminin,oui,
+392,aubrey_(omori),Aubrey,omori,Omori,6575,4236,1673,0.72,féminin,oui,
+393,mirko,Mirko,boku_no_hero_academia,My Hero Academia,6552,5793,992,0.85,féminin,oui,
+394,hiiragi_kagami,Hiiragi Kagami,lucky_star,Lucky Star,6546,2619,283,0.9,féminin,oui,
+395,silence_suzuka_(umamusume),Silence Suzuka,umamusume,Uma Musume,6531,3951,419,0.9,féminin,oui,
+396,eula_(genshin_impact),Eula,genshin_impact,Genshin Impact,6504,4898,793,0.86,féminin,oui,
+397,mydei_(honkai:_star_rail),Mydei,honkai:_star_rail,Honkai: Star Rail,6503,355,1753,0.17,masculin,,masculin
+398,taihou_(azur_lane),Taihou,azur_lane,Azur Lane,6490,5620,978,0.85,féminin,oui,
+399,hieda_no_akyuu,Hieda No Akyuu,touhou,Touhou Project,6473,2502,379,0.87,féminin,oui,
+400,ash_ketchum,Ash Ketchum,pokemon,Pokémon,6468,2631,3622,0.42,masculin,,masculin
+401,hikari_(blue_archive),Hikari,blue_archive,Blue Archive,6465,2255,1374,0.62,féminin,oui,
+402,dio_brando,Dio Brando,jojo_no_kimyou_na_bouken,JoJo,6446,715,2019,0.26,masculin,,masculin
+403,kris_(deltarune),Kris,utdr_(toby_fox),utdr_(toby_fox),6437,3062,1542,0.67,genre au choix / non défini,,genre au choix / non défini
+404,shenhe_(genshin_impact),Shenhe,genshin_impact,Genshin Impact,6420,4425,902,0.83,féminin,oui,
+405,fuwawa_abyssgard,Fuwawa Abyssgard,hololive,Hololive (VTubers),6402,1639,367,0.82,féminin,oui,
+406,mario,Mario,mario_(series),Super Mario,6391,2473,2392,0.51,masculin,,masculin
+407,amami_haruka,Amami Haruka,idolmaster,The Idolmaster,6385,2952,495,0.86,féminin,oui,
+408,sonic_the_hedgehog,Sonic The Hedgehog,sonic_(series),sonic_(series),6377,1906,2690,0.41,masculin,,masculin
+409,red_(pokemon),Red,pokemon,Pokémon,6375,1678,2566,0.4,masculin,,masculin
+410,mutsuki_(blue_archive),Mutsuki,blue_archive,Blue Archive,6371,4449,1085,0.8,féminin,oui,
+411,rensouhou-chan,Rensouhou-chan,kantai_collection,Kantai Collection,6354,4200,370,0.92,objet animé,,objet animé
+412,morgan_le_fay_(fate),Morgan Le Fay,fate_(series),Fate,6349,4040,1058,0.79,féminin,oui,
+413,jane_doe_(zenless_zone_zero),Jane Doe,zenless_zone_zero,Zenless Zone Zero,6340,4950,1460,0.77,féminin,oui,
+414,itsumi_erika,Itsumi Erika,girls_und_panzer,Girls und Panzer,6336,2370,144,0.94,féminin,oui,
+415,mococo_abyssgard,Mococo Abyssgard,hololive,Hololive (VTubers),6325,1520,321,0.83,féminin,oui,
+416,xiao_(genshin_impact),Xiao,genshin_impact,Genshin Impact,6314,1146,3103,0.27,masculin,,masculin
+417,asashio_(kancolle),Asashio,kantai_collection,Kantai Collection,6297,4400,1005,0.81,féminin,oui,
+418,serena_(pokemon),Serena,pokemon,Pokémon,6263,4445,1581,0.74,féminin,oui,
+419,silver_wolf_(honkai:_star_rail),Silver Wolf,honkai:_star_rail,Honkai: Star Rail,6238,3820,1240,0.75,féminin,oui,
+420,houshou_marine_(1st_costume),Houshou Marine (1st Costume),hololive,Hololive (VTubers),6235,4852,380,0.93,féminin,,version (implique houshou_marine)
+421,angelina_(arknights),Angelina,arknights,Arknights,6196,5191,347,0.94,féminin,oui,
+422,gojo_satoru,Gojo Satoru,jujutsu_kaisen,Jujutsu Kaisen,6190,1148,2524,0.31,masculin,,masculin
+423,kasane_teto_(utau),Kasane Teto,utau,UTAU / Synthesizer V,6137,3290,236,0.93,féminin,,version (implique kasane_teto)
+424,asuna_(sao),Asuna,sword_art_online,Sword Art Online,6132,4378,1602,0.73,féminin,oui,
+425,anyoji_hime,Anyoji Hime,love_live!,Love Live!,6096,1610,20,0.99,féminin,oui,
+426,gumi,Gumi,vocaloid,Vocaloid,6091,3383,621,0.84,féminin,oui,
+427,shiranui_mai,Shiranui Mai,fatal_fury,Fatal Fury / King of Fighters,6079,4831,640,0.88,féminin,oui,
+428,neru_(blue_archive),Neru,blue_archive,Blue Archive,6065,3933,873,0.82,féminin,oui,
+429,toki_(bunny)_(blue_archive),Toki (bunny),blue_archive,Blue Archive,6064,5425,767,0.88,féminin,,version (implique toki_(blue_archive))
+430,prinz_eugen_(kancolle),Prinz Eugen,kantai_collection,Kantai Collection,6053,3925,516,0.88,féminin,oui,
+431,irys_(hololive),Irys,hololive,Hololive (VTubers),6045,3737,306,0.92,féminin,oui,
+432,cyrene_(demiurge)_(honkai:_star_rail),Cyrene (demiurge),honkai:_star_rail,Honkai: Star Rail,6038,4710,567,0.89,féminin,,version (implique cyrene_(honkai:_star_rail))
+433,nilou_(genshin_impact),Nilou,genshin_impact,Genshin Impact,6027,5118,706,0.88,féminin,oui,
+434,arlecchino_(genshin_impact),Arlecchino,genshin_impact,Genshin Impact,6025,3461,493,0.88,féminin,oui,
+435,la+_darknesss,La+ Darknesss,hololive,Hololive (VTubers),6004,4249,292,0.94,féminin,oui,
+436,higuchi_madoka,Higuchi Madoka,idolmaster,The Idolmaster,5990,4181,927,0.82,féminin,oui,
+437,uraraka_ochaco,Uraraka Ochaco,boku_no_hero_academia,My Hero Academia,5984,4074,1952,0.68,féminin,oui,
+438,yuuki_makoto_(persona_3),Yuuki Makoto,persona,Persona,5973,2201,3818,0.37,masculin,,masculin
+439,hecatia_lapislazuli,Hecatia Lapislazuli,touhou,Touhou Project,5967,2836,165,0.95,féminin,oui,
+440,basil_(faraway)_(omori),Basil (faraway),omori,Omori,5966,968,2514,0.28,masculin,,version (implique basil_(omori))
+441,marcille_donato,Marcille Donato,dungeon_meshi,Gloutons et Dragons (Dungeon Meshi),5965,2941,1047,0.74,féminin,oui,
+442,narukami_yu,Narukami Yu,persona,Persona,5959,1825,2272,0.45,masculin,,masculin
+443,kikuchi_makoto,Kikuchi Makoto,idolmaster,The Idolmaster,5954,3719,371,0.91,féminin,oui,
+444,raiden_mei,Raiden Mei,honkai_impact_3rd,Honkai Impact 3rd,5948,2278,372,0.86,féminin,oui,
+445,sukuna_shinmyoumaru,Sukuna Shinmyoumaru,touhou,Touhou Project,5946,2201,187,0.92,féminin,oui,
+446,sephiroth,Sephiroth,final_fantasy,Final Fantasy,5944,824,2153,0.28,masculin,,masculin
+447,uzumaki_naruto,Uzumaki Naruto,naruto_(series),Naruto,5932,2545,2542,0.5,masculin,,masculin
+448,minami_kotori,Minami Kotori,love_live!,Love Live!,5929,2788,164,0.94,féminin,oui,
+449,kotobuki_tsumugi,Kotobuki Tsumugi,k-on!,K-On!,5929,1952,126,0.94,féminin,oui,
+450,anchovy_(girls_und_panzer),Anchovy,girls_und_panzer,Girls und Panzer,5921,3356,330,0.91,féminin,oui,
+451,kaban_(kemono_friends),Kaban,kemono_friends,Kemono Friends,5914,1426,309,0.82,féminin,oui,
+452,mutsu_(kancolle),Mutsu,kantai_collection,Kantai Collection,5913,2681,579,0.82,féminin,oui,
+453,c.c.,C.C.,code_geass,Code Geass,5893,4904,1399,0.78,féminin,oui,
+454,artoria_pendragon_(lancer)_(fate),Artoria Pendragon (lancer),fate_(series),Fate,5890,4553,1475,0.76,féminin,,version (implique artoria_pendragon_(fate))
+455,cammy_white,Cammy White,street_fighter,Street Fighter,5888,4140,537,0.89,féminin,oui,
+456,medusa_(fate),Medusa,fate_(series),Fate,5881,3543,823,0.81,féminin,oui,
+457,exusiai_(arknights),Exusiai,arknights,Arknights,5878,2997,384,0.89,féminin,oui,
+458,iono_(pokemon),Iono,pokemon,Pokémon,5860,5182,701,0.88,féminin,oui,
+459,yugiri_tsuzuri,Yugiri Tsuzuri,love_live!,Love Live!,5858,1363,16,0.99,féminin,oui,
+460,boo_tao_(genshin_impact),Boo Tao,genshin_impact,Genshin Impact,5840,5130,470,0.92,espèce / créature,,espèce / créature
+461,futatsuiwa_mamizou,Futatsuiwa Mamizou,touhou,Touhou Project,5839,2482,282,0.9,féminin,oui,
+462,letty_whiterock,Letty Whiterock,touhou,Touhou Project,5821,2816,212,0.93,féminin,oui,
+463,aki_shizuha,Aki Shizuha,touhou,Touhou Project,5807,1336,180,0.88,féminin,oui,
+464,ange_katrina,Ange Katrina,nijisanji,Nijisanji (VTubers),5755,3513,217,0.94,féminin,oui,
+465,nikki_(nikki),Nikki,nikki_(series),Nikki (Infinity Nikki),5739,4798,229,0.95,féminin,oui,
+466,nice_nature_(umamusume),Nice Nature,umamusume,Uma Musume,5723,3871,556,0.87,féminin,oui,
+467,satono_diamond_(umamusume),Satono Diamond,umamusume,Uma Musume,5709,3652,555,0.87,féminin,oui,
+468,female_admiral_(kancolle),Amiral (version féminine),kantai_collection,Kantai Collection,5707,905,230,0.8,féminin,oui,
+469,tatsuta_(kancolle),Tatsuta,kantai_collection,Kantai Collection,5703,1865,948,0.66,féminin,oui,
+470,ceres_fauna,Ceres Fauna,hololive,Hololive (VTubers),5699,3631,317,0.92,féminin,oui,
+471,agnes_tachyon_(tach-nology)_(umamusume),Agnes Tachyon (tach-nology),umamusume,Uma Musume,5692,3646,335,0.92,féminin,,version (implique agnes_tachyon_(umamusume))
+472,female_rover_(wuthering_waves),Rover (version féminine),wuthering_waves,Wuthering Waves,5686,2416,1268,0.66,féminin,oui,
+473,takao_(kancolle),Takao,kantai_collection,Kantai Collection,5673,3387,723,0.82,féminin,oui,
+474,robin_(honkai:_star_rail),Robin,honkai:_star_rail,Honkai: Star Rail,5669,4552,1070,0.81,féminin,oui,
+475,ereshkigal_(fate),Ereshkigal,fate_(series),Fate,5667,4058,1054,0.79,féminin,oui,
+476,shijou_takane,Shijou Takane,idolmaster,The Idolmaster,5661,3551,468,0.88,féminin,oui,
+477,ooi_(kancolle),Ooi,kantai_collection,Kantai Collection,5648,1798,942,0.66,féminin,oui,
+478,sendai_(kancolle),Sendai,kantai_collection,Kantai Collection,5629,2898,502,0.85,féminin,oui,
+479,musashi_(kancolle),Musashi,kantai_collection,Kantai Collection,5622,3065,610,0.83,féminin,oui,
+480,yumemi_riamu,Yumemi Riamu,idolmaster,The Idolmaster,5614,4488,416,0.92,féminin,oui,
+481,okita_souji_(koha-ace),Okita Souji,fate_(series),Fate,5611,4100,583,0.88,féminin,,version (implique okita_souji_(fate))
+482,nakiri_ayame,Nakiri Ayame,hololive,Hololive (VTubers),5601,4311,407,0.91,féminin,non (hors des 388),
+483,stocking_(psg),Stocking,panty_&_stocking_with_garterbelt,Panty & Stocking with Garterbelt,5599,3233,500,0.87,féminin,non (hors des 388),
+484,miyu_(blue_archive),Miyu,blue_archive,Blue Archive,5591,4099,698,0.85,féminin,non (hors des 388),
+485,ibuki_(blue_archive),Ibuki,blue_archive,Blue Archive,5579,4285,1374,0.76,féminin,non (hors des 388),
+486,haruno_sakura,Haruno Sakura,naruto_(series),Naruto,5549,3766,2205,0.63,féminin,non (hors des 388),
+487,kachimachi_kosuzu,Kachimachi Kosuzu,love_live!,Love Live!,5541,1637,19,0.99,féminin,non (hors des 388),
+488,amamiya_ren,Amamiya Ren,persona,Persona,5538,1811,2957,0.38,masculin,,masculin
+489,edelgard_von_hresvelg,Edelgard Von Hresvelg,fire_emblem,Fire Emblem,5537,3019,922,0.77,féminin,non (hors des 388),
+490,kasane_teto_(sv),Kasane Teto,utau,UTAU / Synthesizer V,5534,3717,123,0.97,féminin,,version (implique kasane_teto)
+491,bismarck_(kancolle),Bismarck,kantai_collection,Kantai Collection,5514,2659,472,0.85,féminin,non (hors des 388),
+492,bremerton_(azur_lane),Bremerton,azur_lane,Azur Lane,5503,4883,988,0.83,féminin,non (hors des 388),
+493,yoko_littner,Yoko Littner,tengen_toppa_gurren_lagann,Gurren Lagann,5491,4473,663,0.87,féminin,non (hors des 388),
+494,omori_(omori),Omori,omori,Omori,5489,1068,1693,0.39,masculin,,masculin
+495,leon_s._kennedy,Leon S. Kennedy,resident_evil,Resident Evil,5486,1911,3904,0.33,masculin,,masculin
+496,senketsu,Senketsu,kill_la_kill,Kill la Kill,5478,3380,500,0.87,objet animé,,objet animé
+497,akashi_(kancolle),Akashi,kantai_collection,Kantai Collection,5472,2384,719,0.77,féminin,non (hors des 388),
+498,caesar_anthonio_zeppeli,Caesar Anthonio Zeppeli,jojo_no_kimyou_na_bouken,JoJo,5471,510,1465,0.26,masculin,,masculin
+499,male_rover_(wuthering_waves),Male Rover,wuthering_waves,Wuthering Waves,5460,3417,4378,0.44,masculin,,version (implique rover_(wuthering_waves))
+500,lucina_(fire_emblem),Lucina,fire_emblem,Fire Emblem,5459,3985,979,0.8,féminin,non (hors des 388),
+501,shirasaka_koume,Shirasaka Koume,idolmaster,The Idolmaster,5458,4029,471,0.9,féminin,non (hors des 388),
+502,surtr_(arknights),Surtr,arknights,Arknights,5425,4726,338,0.93,féminin,non (hors des 388),
+503,tendou_akane,Tendou Akane,ranma_1/2,Ranma ½,5419,3319,2506,0.57,féminin,non (hors des 388),
+504,shiranui_(kancolle),Shiranui,kantai_collection,Kantai Collection,5415,2550,824,0.76,féminin,non (hors des 388),
+505,d.va_(overwatch),D.va,overwatch,Overwatch,5414,4265,782,0.85,féminin,non (hors des 388),
+506,emilia_(re:zero),Emilia,re:zero_kara_hajimeru_isekai_seikatsu,Re:Zero,5411,4162,1008,0.81,féminin,non (hors des 388),
+507,sazanami_(kancolle),Sazanami,kantai_collection,Kantai Collection,5403,1970,738,0.73,féminin,non (hors des 388),
+508,zani_(wuthering_waves),Zani,wuthering_waves,Wuthering Waves,5401,4113,434,0.9,féminin,non (hors des 388),
+509,sanji_(one_piece),Sanji,one_piece,One Piece,5393,1255,2052,0.38,masculin,,masculin
+510,ishtar_(fate),Ishtar,fate_(series),Fate,5391,3675,699,0.84,féminin,non (hors des 388),
+511,rotom,Rotom,pokemon,Pokémon,5389,2422,1538,0.61,espèce / créature,,espèce / créature
+512,shiranui_flare,Shiranui Flare,hololive,Hololive (VTubers),5369,3019,427,0.88,féminin,non (hors des 388),
+513,octoling_player_character,Octoling Player Character,splatoon_(series),splatoon_(series),5332,3303,1320,0.71,genre au choix / non défini,,genre au choix / non défini
+514,raora_panthera,Raora Panthera,hololive,Hololive (VTubers),5318,4099,192,0.96,féminin,non (hors des 388),
+515,akiyama_yukari,Akiyama Yukari,girls_und_panzer,Girls und Panzer,5315,2183,126,0.95,féminin,non (hors des 388),
+516,kosaka_honoka,Kosaka Honoka,love_live!,Love Live!,5311,1948,114,0.94,féminin,non (hors des 388),
+517,hakui_koyori,Hakui Koyori,hololive,Hololive (VTubers),5310,4057,391,0.91,féminin,non (hors des 388),
+518,symboli_rudolf_(umamusume),Symboli Rudolf,umamusume,Uma Musume,5308,1898,490,0.79,féminin,non (hors des 388),
+519,fu_hua,Fu Hua,honkai_impact_3rd,Honkai Impact 3rd,5281,2639,215,0.92,féminin,non (hors des 388),
+520,wei_wuxian,Wei Wuxian,grandmaster_of_demonic_cultivation,grandmaster_of_demonic_cultivation,5278,154,2075,0.07,masculin,,masculin
+521,miyako_(blue_archive),Miyako,blue_archive,Blue Archive,5276,3761,828,0.82,féminin,non (hors des 388),
+522,meltryllis_(fate),Meltryllis,fate_(series),Fate,5273,4242,714,0.86,féminin,non (hors des 388),
+523,shu_(arknights),Shu,arknights,Arknights,5268,4403,443,0.91,féminin,non (hors des 388),
+524,koseki_bijou,Koseki Bijou,hololive,Hololive (VTubers),5262,3419,230,0.94,féminin,non (hors des 388),
+525,ui_(blue_archive),Ui,blue_archive,Blue Archive,5260,4535,678,0.87,féminin,non (hors des 388),
+526,souryuu_(kancolle),Souryuu,kantai_collection,Kantai Collection,5256,2148,630,0.77,féminin,non (hors des 388),
+527,kiryuuin_satsuki,Kiryuuin Satsuki,kill_la_kill,Kill la Kill,5247,2409,551,0.81,féminin,non (hors des 388),
+528,mari_(omori),Mari,omori,Omori,5244,3137,1701,0.65,féminin,non (hors des 388),
+529,murasaki_shion,Murasaki Shion,hololive,Hololive (VTubers),5241,3629,393,0.9,féminin,non (hors des 388),
+530,kel_(omori),Kel,omori,Omori,5238,1684,1163,0.59,masculin,,masculin
+531,kasumi_(kancolle),Kasumi,kantai_collection,Kantai Collection,5233,3102,792,0.8,féminin,non (hors des 388),
+532,yuki_miku,Yuki Miku,vocaloid,Vocaloid,5230,4658,48,0.99,féminin,,version (implique hatsune_miku)
+533,iowa_(kancolle),Iowa,kantai_collection,Kantai Collection,5227,2700,382,0.88,féminin,non (hors des 388),
+534,wakasagihime,Wakasagihime,touhou,Touhou Project,5212,2319,174,0.93,féminin,non (hors des 388),
+535,miyamoto_musashi_(fate),Miyamoto Musashi,fate_(series),Fate,5210,4259,775,0.85,féminin,non (hors des 388),
+536,kitasan_black_(umamusume),Kitasan Black,umamusume,Uma Musume,5202,2598,352,0.88,féminin,non (hors des 388),
+537,samidare_(kancolle),Samidare,kantai_collection,Kantai Collection,5201,2944,345,0.9,féminin,non (hors des 388),
+538,lily_white,Lily White,touhou,Touhou Project,5193,2568,182,0.93,féminin,non (hors des 388),
+539,takamatsu_tomori,Takamatsu Tomori,bang_dream!,BanG Dream!,5182,1168,37,0.97,féminin,non (hors des 388),
+540,kishin_sagume,Kishin Sagume,touhou,Touhou Project,5167,2851,150,0.95,féminin,non (hors des 388),
+541,special_week_(umamusume),Special Week,umamusume,Uma Musume,5160,1825,356,0.84,féminin,non (hors des 388),
+542,hoshizora_rin,Hoshizora Rin,love_live!,Love Live!,5157,2045,84,0.96,féminin,non (hors des 388),
+543,tachibana_arisu,Tachibana Arisu,idolmaster,The Idolmaster,5146,3163,931,0.77,féminin,non (hors des 388),
+544,selene_(pokemon),Selene,pokemon,Pokémon,5131,2804,852,0.77,féminin,non (hors des 388),
+545,yamashiro_(kancolle),Yamashiro,kantai_collection,Kantai Collection,5125,1568,426,0.79,féminin,non (hors des 388),
+546,minase_iori,Minase Iori,idolmaster,The Idolmaster,5120,2871,402,0.88,féminin,non (hors des 388),
+547,suigintou,Suigintou,rozen_maiden,Rozen Maiden,5120,3428,224,0.94,féminin,non (hors des 388),
+548,dan_heng_(honkai:_star_rail),Dan Heng,honkai:_star_rail,Honkai: Star Rail,5117,1150,2188,0.34,masculin,,masculin
+549,bronya_zaychik,Bronya Zaychik,honkai_impact_3rd,Honkai Impact 3rd,5109,2779,355,0.89,féminin,non (hors des 388),
+550,formidable_(azur_lane),Formidable,azur_lane,Azur Lane,5058,4265,562,0.88,féminin,non (hors des 388),
+551,nonomi_(blue_archive),Nonomi,blue_archive,Blue Archive,5029,3337,1006,0.77,féminin,non (hors des 388),
+552,tatsumaki,Tatsumaki,one-punch_man,One Punch Man,5028,4076,1276,0.76,féminin,non (hors des 388),
+553,ultimate_madoka,Ultimate Madoka,mahou_shoujo_madoka_magica,Madoka Magica,5002,1922,69,0.97,féminin,,version (implique kaname_madoka)
+554,prinz_eugen_(azur_lane),Prinz Eugen,azur_lane,Azur Lane,5001,3924,366,0.91,féminin,non (hors des 388),
+555,kuroki_tomoko,Kuroki Tomoko,watashi_ga_motenai_no_wa_dou_kangaetemo_omaera_ga_warui!,WataMote,4984,1848,523,0.78,féminin,non (hors des 388),
+556,ro-500_(kancolle),Ro-500,kantai_collection,Kantai Collection,4984,3356,357,0.9,féminin,non (hors des 388),
+557,commander_(azur_lane),Commander,azur_lane,Azur Lane,4979,3834,3895,0.5,genre au choix / non défini,,genre au choix / non défini
+558,twilight_(spy_x_family),Twilight,spy_x_family,Spy×Family,4965,2631,4060,0.39,masculin,,masculin
+559,kim_dokja,Kim Dokja,omniscient_reader's_viewpoint,omniscient_reader's_viewpoint,4963,552,1877,0.23,masculin,,masculin
+560,nagisa_kaworu,Nagisa Kaworu,neon_genesis_evangelion,Evangelion,4957,502,1584,0.24,masculin,,masculin
+561,vivian_banshee,Vivian Banshee,zenless_zone_zero,Zenless Zone Zero,4954,3781,1103,0.77,féminin,non (hors des 388),
+562,sailor_moon,Sailor Moon,bishoujo_senshi_sailor_moon,Sailor Moon,4930,3442,371,0.9,féminin,non (hors des 388),
+563,hifumi_(blue_archive),Hifumi,blue_archive,Blue Archive,4929,2984,490,0.86,féminin,non (hors des 388),
+564,shimamura_uzuki,Shimamura Uzuki,idolmaster,The Idolmaster,4919,2797,705,0.8,féminin,non (hors des 388),
+565,atago_(azur_lane),Atago,azur_lane,Azur Lane,4915,3591,576,0.86,féminin,non (hors des 388),
+566,hiei_(kancolle),Hiei,kantai_collection,Kantai Collection,4910,1549,825,0.65,féminin,non (hors des 388),
+567,akamatsu_kaede,Akamatsu Kaede,danganronpa_(series),Danganronpa,4903,3306,1721,0.66,féminin,non (hors des 388),
+568,faust_(project_moon),Faust,project_moon,Project Moon (Limbus Company),4902,3143,807,0.8,féminin,non (hors des 388),
+569,w_(arknights),W,arknights,Arknights,4901,3643,443,0.89,féminin,non (hors des 388),
+570,usada_pekora_(1st_costume),Usada Pekora (1st Costume),hololive,Hololive (VTubers),4899,3269,218,0.94,féminin,,version (implique usada_pekora)
+571,amate_yuzuriha,Amate Yuzuriha,gundam,Gundam,4898,3488,1661,0.68,féminin,non (hors des 388),
+572,herta_(honkai:_star_rail),Herta,honkai:_star_rail,Honkai: Star Rail,4887,3284,692,0.83,féminin,non (hors des 388),
+573,rosalina,Rosalina,mario_(series),Super Mario,4873,3448,392,0.9,féminin,non (hors des 388),
+574,female_corrin_(fire_emblem),Female Corrin,fire_emblem,Fire Emblem,4861,3416,968,0.78,féminin,non (hors des 388),
+575,sunna_(zenless_zone_zero),Sunna,zenless_zone_zero,Zenless Zone Zero,4851,2765,607,0.82,féminin,non (hors des 388),
+576,shiroko_terror_(blue_archive),Shiroko Terror,blue_archive,Blue Archive,4833,3544,746,0.83,féminin,non (hors des 388),
+577,sagisawa_fumika,Sagisawa Fumika,idolmaster,The Idolmaster,4817,3712,440,0.89,féminin,non (hors des 388),
+578,misty_(pokemon),Misty,pokemon,Pokémon,4816,3572,946,0.79,féminin,non (hors des 388),
+579,verniy_(kancolle),Verniy,kantai_collection,Kantai Collection,4808,2439,473,0.84,féminin,,version (implique hibiki_(kancolle))
+580,elysia_(herrscher_of_human:_ego)_(honkai_impact),Elysia (herrscher Of Human: Ego),honkai_impact_3rd,Honkai Impact 3rd,4803,3904,123,0.97,féminin,,version (implique elysia_(honkai_impact))
+581,kizuna_akari,Kizuna Akari,voiceroid,VOICEROID,4790,3222,369,0.9,féminin,non (hors des 388),
+582,curren_chan_(umamusume),Curren Chan,umamusume,Uma Musume,4785,3249,355,0.9,féminin,non (hors des 388),
+583,ganaha_hibiki,Ganaha Hibiki,idolmaster,The Idolmaster,4781,2762,300,0.9,féminin,non (hors des 388),
+584,touhoku_kiritan,Touhoku Kiritan,voiceroid,VOICEROID,4776,3160,467,0.87,féminin,non (hors des 388),
+585,mikasa_ackerman,Mikasa Ackerman,shingeki_no_kyojin,L'Attaque des Titans,4775,3862,1713,0.69,féminin,non (hors des 388),
+586,takarada_rikka,Takarada Rikka,gridman_universe,Gridman,4773,3699,637,0.85,féminin,non (hors des 388),
+587,ex-keine,Ex-keine,touhou,Touhou Project,4768,1942,186,0.91,féminin,,version (implique kamishirasawa_keine)
+588,haru_urara_(umamusume),Haru Urara,umamusume,Uma Musume,4757,2572,277,0.9,féminin,non (hors des 388),
+589,ichika_(blue_archive),Ichika,blue_archive,Blue Archive,4741,3463,717,0.83,féminin,non (hors des 388),
+590,sakuraba_ema,Sakuraba Ema,mahou_shoujo_no_majo_saiban,Mahō Shōjo no Majo Saiban,4732,2009,27,0.99,féminin,non (hors des 388),
+591,lize_helesta,Lize Helesta,nijisanji,Nijisanji (VTubers),4730,2379,443,0.84,féminin,non (hors des 388),
+592,kirishima_(kancolle),Kirishima,kantai_collection,Kantai Collection,4724,1447,711,0.67,féminin,non (hors des 388),
+593,uchiha_sasuke,Uchiha Sasuke,naruto_(series),Naruto,4720,2164,2306,0.48,masculin,,masculin
+594,shirakami_fubuki_(1st_costume),Shirakami Fubuki (1st Costume),hololive,Hololive (VTubers),4718,3473,282,0.92,féminin,,version (implique shirakami_fubuki)
+595,nakano_nino,Nakano Nino,go-toubun_no_hanayome,The Quintessential Quintuplets,4718,3367,940,0.78,féminin,non (hors des 388),
+596,uruha_rushia,Uruha Rushia,hololive,Hololive (VTubers),4717,3429,274,0.93,féminin,non (hors des 388),
+597,yelan_(genshin_impact),Yelan,genshin_impact,Genshin Impact,4711,3489,593,0.85,féminin,non (hors des 388),
+598,ump45_(girls'_frontline),Ump45,girls'_frontline,Girls' Frontline,4705,2529,457,0.85,féminin,non (hors des 388),
+599,ahri_(league),Ahri,league_of_legends,League of Legends,4702,3687,505,0.88,féminin,non (hors des 388),
+600,nagisa_(blue_archive),Nagisa,blue_archive,Blue Archive,4699,2188,707,0.76,féminin,non (hors des 388),

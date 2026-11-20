@@ -1,0 +1,29 @@
+# dernier pid (count ≈ pid+21) ; 'vide' = 0 résultat ; 0 = une seule page (≤ 42)
+kamisato_ayaka 0
+mileena 0
+mori_calliope vide
+houshou_marine 0
+rio_(blue_archive) 126
+peridot_(steven_universe) 0
+temari 0
+nejire_hado 126
+daphne_blake 0
+caitlyn_kiramman 168
+sakuya_izayoi 252
+jenny_wakeman 0
+callie_(splatoon) 0
+bayonetta_(character) 630
+miss_fortune 84
+sanae_kochiya 420
+meow_skulls_(fortnite) 378
+evelynn 0
+jean_gunnhildr 126
+lisa_(genshin_impact) 0
+D_bulma vide
+D_hana_song 0
+D_angela_ziegler 0
+D_kara_danvers 84
+D_brazilian_miku 294
+X_poppy_league_of_legends 6888 (=> poppy = Poppy de LoL)
+X_poppy_trolls vide
+# bayonetta = type Copyright (7435) : bayonetta -bayonetta_(character) -> pid 630 (≈651), non additionné (tag de licence)

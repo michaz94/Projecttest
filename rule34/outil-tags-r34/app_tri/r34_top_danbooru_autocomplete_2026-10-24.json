@@ -1,0 +1,2498 @@
+{
+"kirisame_marisa": {
+"exact": 1117,
+"propositions": [
+"kirisame_marisa (1117)",
+"kirisame_marisa_(witch_of_scarlet_dreams) (13)",
+"kirisame_marisa_(witch_of_scarlet_dreams_on_vacation) (10)",
+"kirisame_marisa_(pc-98) (4)",
+"kirisame_marisa_(lunar_war_enchanter) (1)"
+]
+},
+"flandre_scarlet": {
+"exact": 4614,
+"propositions": [
+"flandre_scarlet (4614)",
+"flandre_scarlet_(vampire_pursuing_the_hunter) (13)",
+"flandre_scarlet_(vampire_pursuing_the_hunter's_vacation) (2)",
+"flandre_scarlet_(cosplay) (2)"
+]
+},
+"remilia_scarlet": {
+"exact": 4431,
+"propositions": [
+"remilia_scarlet (4431)",
+"remilia_scarlet_(takorin) (147)",
+"remilia_scarlet_(cosplay) (3)"
+]
+},
+"izayoi_sakuya": {
+"exact": 1303,
+"propositions": [
+"izayoi_sakuya (1303)"
+]
+},
+"komeiji_koishi": {
+"exact": 843,
+"propositions": [
+"komeiji_koishi (843)",
+"komeiji_koishi_(spontaneous_white_beauty) (2)"
+]
+},
+"kochiya_sanae": {
+"exact": 1305,
+"propositions": [
+"kochiya_sanae (1305)",
+"kochiya_sanae_(naive_science_club_student) (2)",
+"kochiya_sanae_(lunar_war_oracle) (1)",
+"kochiya_sanae_(cosplay) (1)"
+]
+},
+"konpaku_youmu": {
+"exact": 966,
+"propositions": [
+"konpaku_youmu (966)",
+"konpaku_youmu_(ghost) (200)",
+"konpaku_youmu_(mysterious_sword_master) (4)",
+"konpaku_youmu_(cosplay) (2)"
+]
+},
+"cirno": {
+"exact": 1925,
+"propositions": [
+"cirno (1925)",
+"cirnosx (155)",
+"cirnos (70)",
+"cirno_vevo (23)",
+"cirno_(cookie) (2)",
+"cirnotv_(vtuber) (2)"
+]
+},
+"alice_margatroid": {
+"exact": 4352,
+"propositions": [
+"alice_margatroid (4352)",
+"alice_margatroid_(pc-98) (28)",
+"alice_margatroid_(cosplay) (13)",
+"alice_margatroid_(skilled_droid_engineer) (3)"
+]
+},
+"patchouli_knowledge": {
+"exact": 5736,
+"propositions": [
+"patchouli_knowledge (5736)",
+"patchouli_knowledge_(cosplay) (2)"
+]
+},
+"yakumo_yukari": {
+"exact": 871,
+"propositions": [
+"yakumo_yukari (871)"
+]
+},
+"shameimaru_aya": {
+"exact": 4034,
+"propositions": [
+"shameimaru_aya (4034)",
+"shameimaru_aya_(newsboy) (30)",
+"shameimaru_aya_(cosplay) (2)"
+]
+},
+"reisen_udongein_inaba": {
+"exact": 5216,
+"propositions": [
+"reisen_udongein_inaba (5216)",
+"reisen_udongein_inaba_(cosplay) (25)",
+"reisen_udongein_inaba_(rabbit_soldier) (19)",
+"reisen_udongein_inaba_(student_of_a_renowned_doctor) (1)"
+]
+},
+"komeiji_satori": {
+"exact": 548,
+"propositions": [
+"komeiji_satori (548)"
+]
+},
+"fujiwara_no_mokou": {
+"exact": 1703,
+"propositions": [
+"fujiwara_no_mokou (1703)",
+"fujiwara_no_mokou_(young) (1)"
+]
+},
+"akemi_homura": {
+"exact": 3035,
+"propositions": [
+"akemi_homura (3035)",
+"akemi_homura_(magical_girl) (14)",
+"akemi_homura_(cosplay) (6)"
+]
+},
+"kaname_madoka": {
+"exact": 906,
+"propositions": [
+"kaname_madoka (906)",
+"kaname_madoka_(magical_girl) (19)",
+"kaname_madoka_(cosplay) (7)"
+]
+},
+"hong_meiling": {
+"exact": 2686,
+"propositions": [
+"hong_meiling (2686)",
+"hong_meiling_(panda) (2)",
+"hong_meiling_(dragon) (2)",
+"hong_meiling_(cameo) (1)"
+]
+},
+"saigyouji_yuyuko": {
+"exact": 646,
+"propositions": [
+"saigyouji_yuyuko (646)",
+"saigyouji_yuyuko's_fan_design (2)"
+]
+},
+"kagamine_rin": {
+"exact": 2735,
+"propositions": [
+"kagamine_rin (2735)",
+"kagamine_rin_(future_style) (49)",
+"kagamine_rin_(cosplay) (8)",
+"kagamine_rinto (3)",
+"kagamine_rin_(roshin_yuukai/hard_rkmix) (3)",
+"kagamine_rin_(dolphin_ray) (1)"
+]
+},
+"inubashiri_momiji": {
+"exact": 951,
+"propositions": [
+"inubashiri_momiji (951)"
+]
+},
+"yakumo_ran": {
+"exact": 554,
+"propositions": [
+"yakumo_ran (554)",
+"yakumo_ran_(fox) (1)"
+]
+},
+"kaenbyou_rin": {
+"exact": 562,
+"propositions": [
+"kaenbyou_rin (562)",
+"kaenbyou_rin_(cat) (3)",
+"kaenbyou_rin_(pikara_flame) (1)"
+]
+},
+"rumia": {
+"exact": 1243,
+"propositions": [
+"rumia (1243)",
+"rumia_tingel (111)",
+"rumia_soda_(artist) (44)",
+"rumiak (3)",
+"rumiańce (2)",
+"rumia_soda (1)"
+]
+},
+"moriya_suwako": {
+"exact": 327,
+"propositions": [
+"moriya_suwako (327)"
+]
+},
+"kaga_(kancolle)": {
+"exact": 18,
+"propositions": [
+"kaga_(kancolle) (18)"
+]
+},
+"mash_kyrielight": {
+"exact": 8172,
+"propositions": [
+"mash_kyrielight (8172)",
+"mash_kyrielight_(dangerous_beast) (1334)",
+"mash_kyrielight_(dangerous_beast)_(cosplay) (1204)",
+"mash_kyrielight_(cosplay) (274)",
+"mash_kyrielight_(swimsuit_of_perpetual_summer) (110)",
+"mash_kyrielight_(swimsuit_of_perpetual_summer_ver.02) (100)"
+]
+},
+"reiuji_utsuho": {
+"exact": 543,
+"propositions": [
+"reiuji_utsuho (543)"
+]
+},
+"shimakaze_(kancolle)": {
+"exact": 231,
+"propositions": [
+"shimakaze_(kancolle) (231)",
+"shimakaze_(kancolle)_(cosplay) (121)"
+]
+},
+"chen": {
+"exact": 884,
+"propositions": [
+"chen (884)",
+"chen_qianyu_(arknights:_endfield) (446)",
+"chen_(arknights) (330)",
+"chengchezhiice (149)",
+"chen_zi (143)",
+"chenki (136)"
+]
+},
+"kazami_yuuka": {
+"exact": 577,
+"propositions": [
+"kazami_yuuka (577)",
+"kazami_yuuka_(pc-98) (16)"
+]
+},
+"miki_sayaka": {
+"exact": 1563,
+"propositions": [
+"miki_sayaka (1563)",
+"miki_sayaka_(magical_girl) (9)",
+"miki_sayaka_(cosplay) (8)",
+"miki_sayaka_(surfer_ver.) (1)"
+]
+},
+"hina_(blue_archive)": {
+"exact": 1288,
+"propositions": [
+"hina_(blue_archive) (1288)"
+]
+},
+"yuuka_(blue_archive)": {
+"exact": 4088,
+"propositions": [
+"yuuka_(blue_archive) (4088)",
+"yuuka_(blue_archive)_(cosplay) (2)",
+"yuuka_(blue_archive)\\r\\n3d (0)"
+]
+},
+"tatara_kogasa": {
+"exact": 372,
+"propositions": [
+"tatara_kogasa (372)",
+"tatara_kogasa_(beach_umbrella_castaway) (4)",
+"tatara_kogasa_(sunshine_praying_umbrella) (3)"
+]
+},
+"kawashiro_nitori": {
+"exact": 368,
+"propositions": [
+"kawashiro_nitori (368)",
+"kawashiro_nitori_(hot_pizza_delivery) (1)"
+]
+},
+"houraisan_kaguya": {
+"exact": 261,
+"propositions": [
+"houraisan_kaguya (261)"
+]
+},
+"gotoh_hitori": {
+"exact": 404,
+"propositions": [
+"gotoh_hitori (404)",
+"gotoh_hitoribocchi_the_rock! (1)",
+"gotoh_hitori_(tsuchinoko) (1)"
+]
+},
+"houshou_marine": {
+"exact": 7104,
+"propositions": [
+"houshou_marine (7104)",
+"houshou_marine_(nun) (275)",
+"houshou_marine_(1st_costume) (223)",
+"houshou_marine_(summer) (109)",
+"houshou_marine_(marching_band) (108)",
+"houshou_marine_(cosplay) (92)"
+]
+},
+"hibiki_(kancolle)": {
+"exact": 17,
+"propositions": [
+"hibiki_(kancolle) (17)"
+]
+},
+"hinanawi_tenshi": {
+"exact": 305,
+"propositions": [
+"hinanawi_tenshi (305)",
+"hinanawi_tenshi_(bunny_bloom_saber_major) (1)",
+"hinanawi_tenshi_(flaming_gale_rider) (1)"
+]
+},
+"kamishirasawa_keine": {
+"exact": 135,
+"propositions": [
+"kamishirasawa_keine (135)",
+"kamishirasawa_keine_(hakutaku) (1)"
+]
+},
+"shigure_(kancolle)": {
+"exact": 25,
+"propositions": [
+"shigure_(kancolle) (25)"
+]
+},
+"sakura_kyoko": {
+"exact": 6,
+"propositions": [
+"sakura_kyoko (6)"
+]
+},
+"tomoe_mami": {
+"exact": 3631,
+"propositions": [
+"tomoe_mami (3631)",
+"tomoe_mami_(cosplay) (19)",
+"tomoe_mami_(magical_girl) (8)",
+"tomoe_mami_(swimsuit_ver.) (1)"
+]
+},
+"firefly_(honkai:_star_rail)": {
+"exact": 5767,
+"propositions": [
+"firefly_(honkai:_star_rail) (5767)",
+"firefly_(honkai:_star_rail)_(cosplay) (2)",
+"firefly_(honkai:_star_rail)\\r\\ncaelus_(honkai:_star_rail) (0)"
+]
+},
+"fujimaru_ritsuka_(female)": {
+"exact": 2594,
+"propositions": [
+"fujimaru_ritsuka_(female) (2594)",
+"fujimaru_ritsuka_(female)_(brilliant_summer) (34)",
+"fujimaru_ritsuka_(female)_(chaldea_combat_uniform) (11)",
+"fujimaru_ritsuka_(female)gudako (11)",
+"fujimaru_ritsuka_(female)_(summer_street) (4)",
+"fujimaru_ritsuka_(female)_(decisive_battle_chaldea_uniform) (3)"
+]
+},
+"mika_(blue_archive)": {
+"exact": 2069,
+"propositions": [
+"mika_(blue_archive) (2069)"
+]
+},
+"gawr_gura": {
+"exact": 6164,
+"propositions": [
+"gawr_gura (6164)",
+"gawr_gura_(1st_costume) (144)",
+"gawr_gura_(casual) (80)",
+"gawr_gura_ch. (48)",
+"gawr_gura_(cosplay) (41)",
+"gawr_gura_(3rd_costume) (10)"
+]
+},
+"koakuma": {
+"exact": 1898,
+"propositions": [
+"koakuma (1898)",
+"koakuma_kanojo (137)",
+"koakuma-chan_(monaka_curl) (47)",
+"koakuma_femdom_kyosei_m_otoko_mesu_ka_training (7)",
+"koakumaone (3)",
+"koakuma-chan_no_yuuwaku! (2)"
+]
+},
+"mystia_lorelei": {
+"exact": 918,
+"propositions": [
+"mystia_lorelei (918)",
+"mystia_lorelei_(bird) (1)"
+]
+},
+"nazrin": {
+"exact": 1440,
+"propositions": [
+"nazrin (1440)",
+"nazrin_(fwpt8745) (1)",
+"nazrin_(fenix-fox) (1)"
+]
+},
+"shirakami_fubuki": {
+"exact": 2868,
+"propositions": [
+"shirakami_fubuki (2868)",
+"shirakami_fubuki_(1st_costume) (173)",
+"shirakami_fubuki_channel (46)",
+"shirakami_fubuki_(loungewear) (18)",
+"shirakami_fubuki_(11th_costume) (16)",
+"shirakami_fubuki_(7th_costume) (10)"
+]
+},
+"ibuki_suika": {
+"exact": 114,
+"propositions": [
+"ibuki_suika (114)"
+]
+},
+"inaba_tewi": {
+"exact": 205,
+"propositions": [
+"inaba_tewi (205)"
+]
+},
+"usami_renko": {
+"exact": 136,
+"propositions": [
+"usami_renko (136)"
+]
+},
+"hoshino_(blue_archive)": {
+"exact": 771,
+"propositions": [
+"hoshino_(blue_archive) (771)"
+]
+},
+"hoshimachi_suisei": {
+"exact": 4758,
+"propositions": [
+"hoshimachi_suisei (4758)",
+"hoshimachi_suisei_(1st_costume) (288)",
+"hoshimachi_suisei_(casual) (49)",
+"hoshimachi_suisei_(streetwear) (36)",
+"hoshimachi_suisei_(cosplay) (24)",
+"hoshimachi_suisei_(school_uniform) (22)"
+]
+},
+"maribel_hearn": {
+"exact": 468,
+"propositions": [
+"maribel_hearn (468)"
+]
+},
+"rio_(blue_archive)": {
+"exact": 7058,
+"propositions": [
+"rio_(blue_archive) (7058)",
+"rio_(blue_archive)_(cosplay) (7)",
+"rio_(blue_archive)_shinalpha (1)"
+]
+},
+"ouro_kronii": {
+"exact": 7957,
+"propositions": [
+"ouro_kronii (7957)",
+"ouro_kronii_(maid) (488)",
+"ouro_kronii_(1st_costume) (240)",
+"ouro_kronii_(goddess) (65)",
+"ouro_kronii_(casual) (59)",
+"ouro_kronii_ch. (55)"
+]
+},
+"hijiri_byakuren": {
+"exact": 1985,
+"propositions": [
+"hijiri_byakuren (1985)"
+]
+},
+"agnes_tachyon_(umamusume)": {
+"exact": 3031,
+"propositions": [
+"agnes_tachyon_(umamusume) (3031)",
+"agnes_tachyon_(umamusume)_(cosplay) (9)"
+]
+},
+"houjuu_nue": {
+"exact": 368,
+"propositions": [
+"houjuu_nue (368)",
+"houjuu_nue_(possessed_by_a_red_panda_spirit?!) (4)",
+"houjuu_nue_(cosplay) (1)"
+]
+},
+"nanami_chiaki": {
+"exact": 4820,
+"propositions": [
+"nanami_chiaki (4820)"
+]
+},
+"kongou_(kancolle)": {
+"exact": 22,
+"propositions": [
+"kongou_(kancolle) (22)"
+]
+},
+"megurine_luka": {
+"exact": 2698,
+"propositions": [
+"megurine_luka (2698)",
+"megurine_luka_(cosplay) (1)"
+]
+},
+"elysia_(honkai_impact)": {
+"exact": 1266,
+"propositions": [
+"elysia_(honkai_impact) (1266)",
+"elysia_(honkai_impact)_(cosplay) (1)"
+]
+},
+"jeanne_d'arc_alter_(fate)": {
+"exact": null,
+"propositions": []
+},
+"manhattan_cafe_(umamusume)": {
+"exact": 1062,
+"propositions": [
+"manhattan_cafe_(umamusume) (1062)"
+]
+},
+"nahida_(genshin_impact)": {
+"exact": 1561,
+"propositions": [
+"nahida_(genshin_impact) (1561)",
+"nahida_(genshin_impact)_(cosplay) (2)"
+]
+},
+"inazuma_(kancolle)": {
+"exact": 19,
+"propositions": [
+"inazuma_(kancolle) (19)"
+]
+},
+"yagokoro_eirin": {
+"exact": 184,
+"propositions": [
+"yagokoro_eirin (184)"
+]
+},
+"stelle_(honkai:_star_rail)": {
+"exact": 4482,
+"propositions": [
+"stelle_(honkai:_star_rail) (4482)",
+"stelle_(honkai:_star_rail)_(cosplay) (14)",
+"stelle_(honkai:_star_rail)\\r\\n (0)"
+]
+},
+"kisaki_(blue_archive)": {
+"exact": 1573,
+"propositions": [
+"kisaki_(blue_archive) (1573)",
+"kisaki_(blue_archive)_(cosplay) (40)"
+]
+},
+"mizuhashi_parsee": {
+"exact": 1209,
+"propositions": [
+"mizuhashi_parsee (1209)"
+]
+},
+"yasaka_kanako": {
+"exact": 149,
+"propositions": [
+"yasaka_kanako (149)"
+]
+},
+"akagi_(kancolle)": {
+"exact": 15,
+"propositions": [
+"akagi_(kancolle) (15)"
+]
+},
+"fubuki_(kancolle)": {
+"exact": 20,
+"propositions": [
+"fubuki_(kancolle) (20)"
+]
+},
+"ninomae_ina'nis": {
+"exact": null,
+"propositions": []
+},
+"mori_calliope": {
+"exact": 7114,
+"propositions": [
+"mori_calliope (7114)",
+"mori_calliope_(1st_costume) (90)",
+"mori_calliope_(streetwear) (89)",
+"mori_calliope_(sheriff) (87)",
+"mori_calliope_(sleepwear) (69)",
+"mori_calliope_ch. (66)"
+]
+},
+"abigail_williams_(fate)": {
+"exact": 229,
+"propositions": [
+"abigail_williams_(fate) (229)"
+]
+},
+"amiya_(arknights)": {
+"exact": 1052,
+"propositions": [
+"amiya_(arknights) (1052)",
+"amiya_(arknights)_(cosplay) (1)"
+]
+},
+"toki_(blue_archive)": {
+"exact": 2943,
+"propositions": [
+"toki_(blue_archive) (2943)",
+"toki_(blue_archive)_(cosplay) (3)"
+]
+},
+"kagiyama_hina": {
+"exact": 1002,
+"propositions": [
+"kagiyama_hina (1002)",
+"kagiyama_hina_(misfortune_exorcising_cheerleader) (2)",
+"kagiyama_hina_(cosplay) (1)"
+]
+},
+"yuudachi_(kancolle)": {
+"exact": 3,
+"propositions": [
+"yuudachi_(kancolle) (3)"
+]
+},
+"aris_(blue_archive)": {
+"exact": 462,
+"propositions": [
+"aris_(blue_archive) (462)",
+"aris_(blue_archive)_(cosplay) (2)"
+]
+},
+"usada_pekora": {
+"exact": 2990,
+"propositions": [
+"usada_pekora (2990)",
+"usada_pekora_(1st_costume) (107)",
+"usada_pekora_(cosplay) (46)",
+"usada_pekora_(casual) (16)",
+"usada_pekora_(furi_furi_bunny_dress) (11)",
+"usada_pekora_(summer) (10)"
+]
+},
+"tenryuu_(kancolle)": {
+"exact": 20,
+"propositions": [
+"tenryuu_(kancolle) (20)"
+]
+},
+"togawa_sakiko": {
+"exact": 676,
+"propositions": [
+"togawa_sakiko (676)",
+"togawa_sakiko_(master_of_melodia) (10)",
+"togawa_sakiko_(sarkaz) (4)"
+]
+},
+"kayoko_(blue_archive)": {
+"exact": 1290,
+"propositions": [
+"kayoko_(blue_archive) (1290)"
+]
+},
+"nekomata_okayu": {
+"exact": 3111,
+"propositions": [
+"nekomata_okayu (3111)",
+"nekomata_okayu_(1st_costume) (113)",
+"nekomata_okayu_(oversized_shirt) (56)",
+"nekomata_okayu_(wonderland) (39)",
+"nekomata_okayu_(membership) (32)",
+"nekomata_okayu_(personya_respect) (24)"
+]
+},
+"mari_(blue_archive)": {
+"exact": 1407,
+"propositions": [
+"mari_(blue_archive) (1407)",
+"mari_(blue_archive)_(cosplay) (2)"
+]
+},
+"shiroko_(blue_archive)": {
+"exact": 2529,
+"propositions": [
+"shiroko_(blue_archive) (2529)",
+"shiroko_(blue_archive)_(cosplay) (6)"
+]
+},
+"toyosatomimi_no_miko": {
+"exact": 773,
+"propositions": [
+"toyosatomimi_no_miko (773)",
+"toyosatomimi_no_miko_(owl) (1)",
+"toyosatomimi_no_miko_(cosplay) (1)"
+]
+},
+"daiyousei": {
+"exact": 830,
+"propositions": [
+"daiyousei (830)",
+"daiyousei_mob (1)"
+]
+},
+"nero_claudius_(fate)": {
+"exact": 3414,
+"propositions": [
+"nero_claudius_(fate) (3414)",
+"nero_claudius_(fate)_(all) (132)",
+"nero_claudius_(fate)_(cosplay) (30)"
+]
+},
+"ikazuchi_(kancolle)": {
+"exact": 17,
+"propositions": [
+"ikazuchi_(kancolle) (17)"
+]
+},
+"kazusa_(blue_archive)": {
+"exact": 2127,
+"propositions": [
+"kazusa_(blue_archive) (2127)",
+"kazusa_(blue_archive)_(cosplay) (8)"
+]
+},
+"gold_ship_(umamusume)": {
+"exact": 4144,
+"propositions": [
+"gold_ship_(umamusume) (4144)",
+"gold_ship_(umamusume)_(cosplay) (14)"
+]
+},
+"illyasviel_von_einzbern": {
+"exact": 2034,
+"propositions": [
+"illyasviel_von_einzbern (2034)",
+"illyasviel_von_einzbern_(swimsuit_archer)_(fate) (21)",
+"illyasviel_von_einzbern_(beast_style) (11)",
+"illyasviel_von_einzbern_(cosplay) (3)",
+"illyasviel_von_einzbern_(beast_style)_(cosplay) (1)"
+]
+},
+"suzumiya_haruhi": {
+"exact": 4246,
+"propositions": [
+"suzumiya_haruhi_no_yuuutsu (7671)",
+"suzumiya_haruhi (4246)",
+"suzumiya_haruhi_(cosplay) (15)",
+"suzumiya_haruhi_no_yuuutsu_art_style (4)"
+]
+},
+"chihaya_anon": {
+"exact": 365,
+"propositions": [
+"chihaya_anon (365)"
+]
+},
+"hamakaze_(kancolle)": {
+"exact": 43,
+"propositions": [
+"hamakaze_(kancolle) (43)"
+]
+},
+"misaka_mikoto": {
+"exact": 4947,
+"propositions": [
+"misaka_mikoto (4947)",
+"misaka_mikoto_(cosplay) (8)",
+"misaka_mikoto_level_6_shift (2)"
+]
+},
+"sakayori_iroha": {
+"exact": 340,
+"propositions": [
+"sakayori_iroha (340)",
+"sakayori_iroha_(tsukuyomi) (29)",
+"sakayori_iroha_(wego) (4)"
+]
+},
+"zuikaku_(kancolle)": {
+"exact": 2,
+"propositions": [
+"zuikaku_(kancolle) (2)"
+]
+},
+"nishizumi_miho": {
+"exact": 1530,
+"propositions": [
+"nishizumi_miho (1530)"
+]
+},
+"akatsuki_(kancolle)": {
+"exact": 1,
+"propositions": [
+"akatsuki_(kancolle) (1)"
+]
+},
+"hoshiguma_yuugi": {
+"exact": 1581,
+"propositions": [
+"hoshiguma_yuugi (1581)",
+"hoshiguma_yuugi_(promo) (11)",
+"hoshiguma_yuugi_(kimono) (5)"
+]
+},
+"mononobe_no_futo": {
+"exact": 629,
+"propositions": [
+"mononobe_no_futo (629)",
+"mononobe_no_futo_(cosplay) (1)"
+]
+},
+"takanashi_kiara": {
+"exact": 4325,
+"propositions": [
+"takanashi_kiara (4325)",
+"takanashi_kiara_(1st_costume) (831)",
+"takanashi_kiara_(2nd_costume) (330)",
+"takanashi_kiara_(fever_night) (244)",
+"takanashi_kiara_(7th_costume) (121)",
+"takanashi_kiara_(3rd_costume) (35)"
+]
+},
+"shiki_eiki": {
+"exact": 144,
+"propositions": [
+"shiki_eiki (144)"
+]
+},
+"akiyama_mio": {
+"exact": null,
+"propositions": []
+},
+"haruna_(kancolle)": {
+"exact": 50,
+"propositions": [
+"haruna_(kancolle) (50)"
+]
+},
+"wriggle_nightbug": {
+"exact": 779,
+"propositions": [
+"wriggle_nightbug (779)",
+"wriggle_nightbug\\r\\n\\r\\nabuse (0)",
+"wriggle_nightbug\\r\\n\\r\\nantennae (0)"
+]
+},
+"koharu_(blue_archive)": {
+"exact": 716,
+"propositions": [
+"koharu_(blue_archive) (716)",
+"koharu_(blue_archive)_(cosplay) (1)"
+]
+},
+"onozuka_komachi": {
+"exact": 301,
+"propositions": [
+"onozuka_komachi (301)",
+"onozuka_komachi_(happy-to-listen_cheer-up_guide) (16)"
+]
+},
+"sakura_miko": {
+"exact": 1573,
+"propositions": [
+"sakura_miko (1573)",
+"sakura_miko_(1st_costume) (69)",
+"sakura_miko_(school_uniform) (58)",
+"sakura_miko_(casual) (50)",
+"sakura_miko_(street) (11)",
+"sakura_miko_(loungewear) (10)"
+]
+},
+"rice_shower_(umamusume)": {
+"exact": 1048,
+"propositions": [
+"rice_shower_(umamusume) (1048)",
+"rice_shower_(umamusume)_(cosplay) (4)"
+]
+},
+"imaizumi_kagerou": {
+"exact": 563,
+"propositions": [
+"imaizumi_kagerou (563)"
+]
+},
+"columbina_(genshin_impact)": {
+"exact": 3114,
+"propositions": [
+"columbina_(genshin_impact) (3114)",
+"columbina_(genshin_impact)_(cosplay) (1)"
+]
+},
+"fate_testarossa": {
+"exact": 3582,
+"propositions": [
+"fate_testarossa (3582)",
+"fate_testarossa_(true_sonic_form) (2)"
+]
+},
+"kashima_(kancolle)": {
+"exact": 37,
+"propositions": [
+"kashima_(kancolle) (37)"
+]
+},
+"tokoyami_towa": {
+"exact": 2198,
+"propositions": [
+"tokoyami_towa (2198)",
+"tokoyami_towa_(1st_costume) (81)",
+"tokoyami_towa_(jirai_kei) (55)",
+"tokoyami_towa_(3rd_costume) (23)",
+"tokoyami_towa_(5th_costume) (20)",
+"tokoyami_towa_(cyberpunk) (16)"
+]
+},
+"yuzuki_yukari": {
+"exact": 1380,
+"propositions": [
+"yuzuki_yukari (1380)",
+"yuzuki_yukari_(shizuku) (28)",
+"yuzuki_yukari_(onn) (7)",
+"yuzuki_yukari_(mu) (3)",
+"yuzuki_yukari's_younger_twin_brother (2)",
+"yuzuki_yukari_(a.i._voice) (2)"
+]
+},
+"nagato_(kancolle)": {
+"exact": 6,
+"propositions": [
+"nagato_(kancolle) (6)"
+]
+},
+"march_7th_(honkai:_star_rail)": {
+"exact": 3163,
+"propositions": [
+"march_7th_(honkai:_star_rail) (3163)",
+"march_7th_(honkai:_star_rail)_pink_hair (1)",
+"march_7th_(honkai:_star_rail)\\r\\ndown_blouse\\r\\ntagme (0)"
+]
+},
+"nanashi_mumei": {
+"exact": 2185,
+"propositions": [
+"nanashi_mumei (2185)",
+"nanashi_mumei_(emo) (247)",
+"nanashi_mumei_(1st_costume) (63)",
+"nanashi_mumei_(4th_costume) (48)",
+"nanashi_mumei_(3rd_costume) (16)",
+"nanashi_mumei_(casual) (14)"
+]
+},
+"seia_(blue_archive)": {
+"exact": 719,
+"propositions": [
+"seia_(blue_archive) (719)",
+"seia_(blue_archive)_(cosplay) (4)"
+]
+},
+"minato_aqua": {
+"exact": 1765,
+"propositions": [
+"minato_aqua (1765)",
+"minato_aqua_(school_uniform) (80)",
+"minato_aqua_(1st_costume) (63)",
+"minato_aqua_(sailor) (21)",
+"minato_aqua_(hololive_summer_2019) (15)",
+"minato_aqua_(3rd_costume) (14)"
+]
+},
+"suzuya_(kancolle)": {
+"exact": 7,
+"propositions": [
+"suzuya_(kancolle) (7)",
+"suzuya_(kancolle)_(cosplay) (2)"
+]
+},
+"nagasaki_soyo": {
+"exact": 488,
+"propositions": [
+"nagasaki_soyo (488)",
+"nagasaki_soyo's_mother (1)"
+]
+},
+"scathach_(fate)": {
+"exact": 4300,
+"propositions": [
+"scathach_(fate) (4300)",
+"scathach_(fate)_(all) (241)",
+"scathach_(fate)_(sergeant_of_the_shadowlands) (30)",
+"scathach_(fate)_(cosplay) (13)"
+]
+},
+"kita_ikuyo": {
+"exact": 1654,
+"propositions": [
+"kita_ikuyo (1654)"
+]
+},
+"nakano_azusa": {
+"exact": 3,
+"propositions": [
+"nakano_azusa (3)"
+]
+},
+"cyrene_(honkai:_star_rail)": {
+"exact": 1307,
+"propositions": [
+"cyrene_(honkai:_star_rail) (1307)"
+]
+},
+"nagato_yuki": {
+"exact": 1700,
+"propositions": [
+"nagato_yuki (1700)"
+]
+},
+"tamamo_no_mae_(fate)": {
+"exact": 3448,
+"propositions": [
+"tamamo_no_mae_(fate) (3448)",
+"tamamo_no_mae_(fate)_(cosplay) (1)",
+"tamamo_no_mae_(fate)\\r\\nzoophilia (0)"
+]
+},
+"hinoshita_kaho": {
+"exact": 76,
+"propositions": [
+"hinoshita_kaho (76)",
+"hinoshita_kaho's_mother (2)",
+"hinoshita_kaho_(swimsuit) (1)",
+"hinoshita_kaho_(ishikawa_prefectural_library) (1)",
+"hinoshita_kaho's_father (1)",
+"hinoshita_kaho_(summer_loungewear) (1)"
+]
+},
+"daiwa_scarlet_(umamusume)": {
+"exact": 3857,
+"propositions": [
+"daiwa_scarlet_(umamusume) (3857)",
+"daiwa_scarlet_(umamusume), (1)"
+]
+},
+"kinomoto_sakura": {
+"exact": 11,
+"propositions": [
+"kinomoto_sakura (11)"
+]
+},
+"toramaru_shou": {
+"exact": 554,
+"propositions": [
+"toramaru_shou (554)"
+]
+},
+"hirasawa_yui": {
+"exact": 3,
+"propositions": [
+"hirasawa_yui (3)"
+]
+},
+"ryuujou_(kancolle)": {
+"exact": 7,
+"propositions": [
+"ryuujou_(kancolle) (7)"
+]
+},
+"himekaidou_hatate": {
+"exact": 204,
+"propositions": [
+"himekaidou_hatate (204)",
+"himekaidou_hatate_(cosplay) (2)"
+]
+},
+"mejiro_mcqueen_(umamusume)": {
+"exact": 1311,
+"propositions": [
+"mejiro_mcqueen_(umamusume) (1311)"
+]
+},
+"jeanne_d'arc_(fate)": {
+"exact": null,
+"propositions": []
+},
+"murasa_minamitsu": {
+"exact": 74,
+"propositions": [
+"murasa_minamitsu (74)"
+]
+},
+"texas_(arknights)": {
+"exact": 1461,
+"propositions": [
+"texas_(arknights) (1461)",
+"texas_(arknights)_(cosplay) (9)"
+]
+},
+"noa_(blue_archive)": {
+"exact": 2215,
+"propositions": [
+"noa_(blue_archive) (2215)",
+"noa_(blue_archive)_(cosplay) (1)"
+]
+},
+"karin_(blue_archive)": {
+"exact": 7334,
+"propositions": [
+"karin_(blue_archive) (7334)",
+"karin_(blue_archive)_(cosplay) (12)"
+]
+},
+"ookami_mio": {
+"exact": 2349,
+"propositions": [
+"ookami_mio (2349)",
+"ookami_mio_(1st_costume) (45)",
+"ookami_mio_(street) (33)",
+"ookami_mio_(hololive_summer_2019) (12)",
+"ookami_mio_(10th_costume) (12)",
+"ookami_mio_(5th_costume) (10)"
+]
+},
+"remielle_dan": {
+"exact": 3523,
+"propositions": [
+"remielle_dan (3523)",
+"remielle_dan_(moonlight_whispers) (829)",
+"remielle_dan_(seashade_pas_seul) (267)",
+"remielle_dan_(dreamland_fest) (12)"
+]
+},
+"plana_(blue_archive)": {
+"exact": 258,
+"propositions": [
+"plana_(blue_archive) (258)"
+]
+},
+"nishikigi_chisato": {
+"exact": 2808,
+"propositions": [
+"nishikigi_chisato (2808)"
+]
+},
+"kaku_seiga": {
+"exact": 177,
+"propositions": [
+"kaku_seiga (177)"
+]
+},
+"keqing_(genshin_impact)": {
+"exact": 7793,
+"propositions": [
+"keqing_(genshin_impact) (7793)",
+"keqing_(genshin_impact)_(cosplay) (19)",
+"keqing_(genshin_impact)genshin_impact (1)"
+]
+},
+"nishikino_maki": {
+"exact": 1576,
+"propositions": [
+"nishikino_maki (1576)",
+"nishikino_maki's_mother (94)",
+"nishikino_maki_(knuckles_form) (1)"
+]
+},
+"serval_(kemono_friends)": {
+"exact": 593,
+"propositions": [
+"serval_(kemono_friends) (593)"
+]
+},
+"takamachi_nanoha": {
+"exact": 924,
+"propositions": [
+"takamachi_nanoha (924)"
+]
+},
+"houshou_(kancolle)": {
+"exact": 3,
+"propositions": [
+"houshou_(kancolle) (3)"
+]
+},
+"kafuu_chino": {
+"exact": 178,
+"propositions": [
+"kafuu_chino (178)"
+]
+},
+"hoshimi_miyabi": {
+"exact": 6252,
+"propositions": [
+"hoshimi_miyabi (6252)",
+"hoshimi_miyabi_(dignified_blossom) (30)"
+]
+},
+"misumi_uika": {
+"exact": 467,
+"propositions": [
+"misumi_uika (467)",
+"misumi_uika_(caged_singer) (5)",
+"misumi_uika's_sister (1)",
+"misumi_uika_(perro) (1)"
+]
+},
+"kiana_kaslana": {
+"exact": 1991,
+"propositions": [
+"kiana_kaslana (1991)",
+"kiana_kaslana_(herrscher_of_finality) (285)",
+"kiana_kaslana_(herrscher_of_the_void) (283)",
+"kiana_kaslana_(herrscher_of_flamescion) (238)",
+"kiana_kaslana_(white_comet) (140)",
+"kiana_kaslana_(void_drifter) (44)"
+]
+},
+"hata_no_kokoro": {
+"exact": 1057,
+"propositions": [
+"hata_no_kokoro (1057)",
+"hata_no_kokoro_(not_so_cheerful-looking_cheerleader) (2)"
+]
+},
+"suletta_mercury": {
+"exact": 1272,
+"propositions": [
+"suletta_mercury (1272)",
+"suletta_mercury_(cosplay) (1)"
+]
+},
+"sparkle_(honkai:_star_rail)": {
+"exact": 4108,
+"propositions": [
+"sparkle_(honkai:_star_rail) (4108)",
+"sparkle_(honkai:_star_rail)_(cosplay) (6)"
+]
+},
+"oozora_subaru": {
+"exact": 2007,
+"propositions": [
+"oozora_subaru (2007)",
+"oozora_subaru_(1st_costume) (71)",
+"oozora_subaru_(hololive_summer_2019) (30)",
+"oozora_subaru_(work) (25)",
+"oozora_subaru_(police) (23)",
+"oozora_subaru_(2nd_costume) (8)"
+]
+},
+"adachi_rei": {
+"exact": 258,
+"propositions": [
+"adachi_rei (258)"
+]
+},
+"kei_(blue_archive)": {
+"exact": 669,
+"propositions": [
+"kei_(blue_archive) (669)"
+]
+},
+"shiina_taki": {
+"exact": 273,
+"propositions": [
+"shiina_taki (273)"
+]
+},
+"arona_(blue_archive)": {
+"exact": 268,
+"propositions": [
+"arona_(blue_archive) (268)",
+"arona_(blue_archive)_(cosplay) (2)"
+]
+},
+"okita_souji_(fate)": {
+"exact": 663,
+"propositions": [
+"okita_souji_(fate)_(all) (736)",
+"okita_souji_(fate) (663)",
+"okita_souji_(fate)_(cosplay) (1)"
+]
+},
+"shiori_novella": {
+"exact": 3014,
+"propositions": [
+"shiori_novella (3014)",
+"shiori_novella_(1st_costume) (158)",
+"shiori_novella_(new_year) (13)",
+"shiori_novella_(casual) (10)",
+"shiori_novella_(pajamas) (3)",
+"shiori_novella_(3rd_costume) (1)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"kaguya_(cho_kaguya-hime!)": {
+"exact": 213,
+"propositions": [
+"kaguya_(cho_kaguya-hime!) (213)",
+"kaguya_(cho_kaguya-hime!) (213)",
+"kaguya_(blue_archive) (195)",
+"kaguya_(kuroinu) (167)",
+"kaguya_(umpherio) (83)",
+"kaguya_(rune_factory) (33)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"momoi_(blue_archive)": {
+"exact": 215,
+"propositions": [
+"momoi_(blue_archive) (215)",
+"momoi_(blue_archive) (215)",
+"momoi_(maid)_(blue_archive) (7)",
+"momoi_(farlight_84) (7)",
+"momoi_(gigawolf102) (2)",
+"momoi_(armed)_(blue_archive) (2)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"iseri_nina": {
+"exact": 294,
+"propositions": [
+"iseri_nina (294)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"baobhan_sith_(fate)": {
+"exact": 1027,
+"propositions": [
+"baobhan_sith_(fate) (1027)",
+"baobhan_sith_(fate) (1027)",
+"baobhan_sith_(swimsuit_pretender)_(fate) (70)",
+"baobhan_sith_(swimsuit_pretender)_(second_ascension)_(fate) (51)",
+"baobhan_sith_(first_ascension)_(fate) (42)",
+"baobhan_sith_(second_ascension)_(fate) (30)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"amane_kanata": {
+"exact": 1133,
+"propositions": [
+"amane_kanata (1133)",
+"amane_kanata_(work) (17)",
+"amane_kanata_(nurse) (15)",
+"amane_kanata_(1st_costume) (12)",
+"amane_kanata_(another_world) (9)",
+"amane_kanata_(4th_costume) (6)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"yazawa_nico": {
+"exact": 1108,
+"propositions": [
+"yazawa_nico (1108)",
+"yazawa_nico's_mother (21)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"shuten_douji_(fate)": {
+"exact": 3184,
+"propositions": [
+"shuten_douji_(fate) (3184)",
+"shuten_douji_(fate) (3184)",
+"shuten_douji_(fate/grand_order) (456)",
+"shuten_douji_(halloween_caster)_(fate) (98)",
+"shuten_douji_(taimanin) (12)",
+"shuten_douji_(halloween_caster) (11)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"ijichi_nijika": {
+"exact": 1204,
+"propositions": [
+"ijichi_nijika (1204)",
+"ijichi_nijika's_mother (1)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"sua_(alien_stage)": {
+"exact": 398,
+"propositions": [
+"sua_(alien_stage) (398)",
+"sua_(alien_stage) (398)",
+"sua_(secret_class) (15)",
+"sua_(zombie_stage) (10)",
+"sua_(suayber) (4)",
+"sua_(black_survival) (4)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"tojo_nozomi": {
+"exact": 78,
+"propositions": [
+"tojo_nozomi (78)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"nerissa_ravencroft": {
+"exact": 3595,
+"propositions": [
+"nerissa_ravencroft (3595)",
+"nerissa_ravencroft_(casual) (87)",
+"nerissa_ravencroft_(1st_costume) (56)",
+"nerissa_ravencroft_(prisoner) (42)",
+"nerissa_ravencroft_(3rd_costume) (40)",
+"nerissa_ravencroft_(holonatsu_paradise) (10)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"aru_(blue_archive)": {
+"exact": 1564,
+"propositions": [
+"aru_(blue_archive) (1564)",
+"aru_(blue_archive) (1564)",
+"aru_(dress)_(blue_archive) (189)",
+"aru_(pixiv1293902) (75)",
+"aru_(pixiv51061317) (72)",
+"aru_(new_year)_(blue_archive) (45)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"murakumo_(kancolle)": {
+"exact": 15,
+"propositions": [
+"murakumo_(kancolle) (15)",
+"murakumo_(kantai_collection) (488)",
+"murakumo_(senran_kagura) (183)",
+"murakumo_(kancolle) (15)",
+"murakumo_(sniper) (8)",
+"murakumo_(akatsuki_en-eins) (2)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"amatsukaze_(kancolle)": {
+"exact": 4,
+"propositions": [
+"amatsukaze_(kancolle) (4)",
+"amatsukaze_(kantai_collection) (554)",
+"amatsukaze_(kancolle) (4)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"hakos_baelz": {
+"exact": 2804,
+"propositions": [
+"hakos_baelz (2804)",
+"hakos_baelz_(1st_costume) (507)",
+"hakos_baelz_(snake_eyes) (93)",
+"hakos_baelz_(4th_costume) (57)",
+"hakos_baelz_(strawberry_onesie) (52)",
+"hakos_baelz_(holonatsu_paradise) (38)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"wakaba_mutsumi": {
+"exact": 323,
+"propositions": [
+"wakaba_mutsumi (323)",
+"wakaba_mutsumi_(cautus) (10)",
+"wakaba_mutsumi_(marionette's_id) (3)",
+"wakaba_mutsumi_(doll) (1)",
+"mutsumi_wakaba (1)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"sonoda_umi": {
+"exact": 911,
+"propositions": [
+"sonoda_umi (911)",
+"sonoda_umi's_mother (2)",
+"sonoda_umihitsuji (1)",
+"umi_sonoda_(ff) (5)",
+"umi_sonoda (1)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"ibaraki_kasen": {
+"exact": 285,
+"propositions": [
+"ibaraki_kasen (285)",
+"ibaraki_kasen's_arm (6)",
+"ibaraki_kasen_(hermit_taking_a_breather) (4)",
+"ibaraki_kasen_(sociable_white_hermit) (1)",
+"kasen_ibaraki (1497)",
+"kasen_ibaraki's_arm (6)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"yukihana_lamy": {
+"exact": 1809,
+"propositions": [
+"yukihana_lamy (1809)",
+"yukihana_lamy_(1st_costume) (75)",
+"yukihana_lamy_(cyber) (14)",
+"yukihana_lamy_(roomwear) (10)",
+"yukihana_lamy_(4th_costume) (10)",
+"yukihana_lamy_(loungewear) (9)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"nagae_iku": {
+"exact": 191,
+"propositions": [
+"nagae_iku (191)",
+"iku_nagae (1017)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"hanako_(blue_archive)": {
+"exact": 2367,
+"propositions": [
+"hanako_(blue_archive) (2367)",
+"hanako_(blue_archive) (2367)",
+"hanako_(swimsuit)_(blue_archive) (845)",
+"hanako_(lyorenth-the-dragon) (192)",
+"hanako_(pokemon) (177)",
+"hanako_(disgaea) (68)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"fujishima_megumi": {
+"exact": 161,
+"propositions": [
+"fujishima_megumi (161)",
+"fujishima_megumi_(post-graduation) (2)",
+"fujishima_megumi_(setsubun_-tsuya-) (1)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"tainaka_ritsu": {
+"exact": 2,
+"propositions": [
+"tainaka_ritsu (2)",
+"ritsu_tainaka_(k-on!) (1699)"
+],
+"releve": "24/10/2026, extension au top 243"
+},
+"miyako_yoshika": {
+"exact": 211,
+"propositions": [
+"miyako_yoshika (211)",
+"miyako_yoshika_(chainsaw_nurse) (4)",
+"yoshika_miyako (390)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"yamato_(kancolle)": {
+"exact": 55,
+"propositions": [
+"yamato_(kancolle) (55)",
+"yamato_(one_piece) (11703)",
+"yamato_(kantai_collection) (781)",
+"yamato_(naruto) (148)",
+"yamato_(kancolle) (55)",
+"yamato_(tamacolle) (25)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"mizi_(alien_stage)": {
+"exact": 426,
+"propositions": [
+"mizi_(alien_stage) (426)",
+"mizi_(alien_stage) (426)",
+"mizi_(zombie_stage) (10)",
+"mizi_(mizikutsu) (2)",
+"mizi_(zoruadrawsstuff) (2)",
+"mizi_(alien_stage (1)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"shibuya_rin": {
+"exact": 1410,
+"propositions": [
+"shibuya_rin (1410)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"yukikaze_(kancolle)": {
+"exact": 13,
+"propositions": [
+"yukikaze_(kancolle) (13)",
+"yukikaze_(kantai_collection) (152)",
+"yukikaze_(azur_lane) (93)",
+"yukikaze_(kancolle) (13)",
+"yukikaze_(maou-sama_retry) (9)",
+"yukikaze_(artist) (9)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"watson_amelia": {
+"exact": 2744,
+"propositions": [
+"watson_amelia (2744)",
+"watson_amelia_(1st_costume) (92)",
+"watson_amelia_(astronaut) (14)",
+"watson_amelia_ch. (7)",
+"watson_amelia_(3rd_costume) (6)",
+"watson_amelia_(party_dress) (4)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"clownpiece": {
+"exact": 735,
+"propositions": [
+"clownpiece (735)",
+"clownpiece_(ultra_purified_hell_fairy) (8)",
+"clownpiece_(artist) (1)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"ushio_(kancolle)": {
+"exact": 22,
+"propositions": [
+"ushio_(kancolle) (22)",
+"ushio_(kantai_collection) (525)",
+"ushio_(tanatana) (43)",
+"ushio_(kancolle) (22)",
+"ushio_(hataraki_ari) (8)",
+"ushio_(myutoeve) (4)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"momose_ginko": {
+"exact": 58,
+"propositions": [
+"momose_ginko (58)",
+"momose_ginko_(summer_loungewear) (4)",
+"momose_ginko_(winter_loungewear) (2)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"inugami_korone": {
+"exact": 2356,
+"propositions": [
+"inugami_korone (2356)",
+"inugami_korone_(1st_costume) (84)",
+"inugami_korone_(doggy_god's_street) (37)",
+"inugami_korone_(kedama_form) (4)",
+"inugami_korone_(roomwear) (3)",
+"inugami_korone_(street) (3)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"kawaragi_momoka": {
+"exact": 272,
+"propositions": [
+"kawaragi_momoka (272)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"shirogane_noel": {
+"exact": 3131,
+"propositions": [
+"shirogane_noel (3131)",
+"shirogane_noel_(1st_costume) (45)",
+"shirogane_noel_(casual) (39)",
+"shirogane_noel_(summer_2020) (36)",
+"shirogane_noel_(serene_wave_knight) (33)",
+"shirogane_noel_(battle_nun) (31)"
+],
+"releve": "24/10/2026, extension au top 256"
+},
+"tokai_teio_(umamusume)": {
+"exact": 1036,
+"propositions": [
+"tokai_teio_(umamusume) (1036)"
+]
+},
+"lappland_(arknights)": {
+"exact": 1466,
+"propositions": [
+"lappland_(arknights) (1466)",
+"lappland_(arknights)_(cosplay) (7)"
+]
+},
+"junko_(touhou)": {
+"exact": 850,
+"propositions": [
+"junko_(touhou) (850)",
+"junko_(touhou)_(cosplay) (6)"
+]
+},
+"miorine_rembran": {
+"exact": 1114,
+"propositions": [
+"miorine_rembran (1114)"
+]
+},
+"yahata_umiri": {
+"exact": 228,
+"propositions": [
+"yahata_umiri (228)",
+"yahata_umiri_(moonlight_executioner) (5)",
+"yahata_umiri_(lupo) (2)"
+]
+},
+"otomune_kozue": {
+"exact": 184,
+"propositions": [
+"otomune_kozue (184)",
+"otomune_kozue_(post-graduation) (2)",
+"otomune_kozue_(summer_loungewear) (2)"
+]
+},
+"ayase_eli": {
+"exact": 1105,
+"propositions": [
+"ayase_eli (1105)"
+]
+},
+"klee_(genshin_impact)": {
+"exact": 420,
+"propositions": [
+"klee_(genshin_impact) (420)",
+"klee_(genshin_impact)_(cosplay) (1)"
+]
+},
+"kasodani_kyouko": {
+"exact": 29,
+"propositions": [
+"kasodani_kyouko (29)"
+]
+},
+"soga_no_tojiko": {
+"exact": 373,
+"propositions": [
+"soga_no_tojiko (373)"
+]
+},
+"sandrone_(genshin_impact)": {
+"exact": 1765,
+"propositions": [
+"sandrone_(genshin_impact) (1765)"
+]
+},
+"atago_(kancolle)": {
+"exact": 13,
+"propositions": [
+"atago_(kancolle) (13)"
+]
+},
+"shinosawa_hiro": {
+"exact": 408,
+"propositions": [
+"shinosawa_hiro (408)"
+]
+},
+"runami_yachiyo": {
+"exact": 221,
+"propositions": [
+"runami_yachiyo (221)",
+"runami_yachiyo_(tsukuyomi) (14)",
+"runami_yachiyo_(wego) (4)",
+"runami_yachiyo_(ex-otogibanashi) (2)",
+"runami_yachiyo_(kassen) (2)",
+"runami_yachiyo_(chibi) (1)"
+]
+},
+"kumoi_ichirin": {
+"exact": 58,
+"propositions": [
+"kumoi_ichirin (58)"
+]
+},
+"kurodani_yamame": {
+"exact": 115,
+"propositions": [
+"kurodani_yamame (115)"
+]
+},
+"ako_(blue_archive)": {
+"exact": 2288,
+"propositions": [
+"ako_(blue_archive) (2288)",
+"ako_(blue_archive)_(cosplay) (6)"
+]
+},
+"murano_sayaka": {
+"exact": 46,
+"propositions": [
+"murano_sayaka (46)",
+"murano_sayaka_(mahou_shoujo_rhythmic_heart) (1)",
+"murano_sayaka_(swimsuit) (1)"
+]
+},
+"hasumi_(blue_archive)": {
+"exact": 4476,
+"propositions": [
+"hasumi_(blue_archive) (4476)",
+"hasumi_(blue_archive)_(cosplay) (10)"
+]
+},
+"nishizumi_maho": {
+"exact": 1081,
+"propositions": [
+"nishizumi_maho (1081)"
+]
+},
+"meiko_(vocaloid)": {
+"exact": 491,
+"propositions": [
+"meiko_(vocaloid) (491)"
+]
+},
+"sakamata_chloe": {
+"exact": 1926,
+"propositions": [
+"sakamata_chloe (1926)",
+"sakamata_chloe_(1st_costume) (68)",
+"sakamata_chloe_(gyarumata) (48)",
+"sakamata_chloe_(jirai_kei) (28)",
+"sakamata_chloe_(3rd_costume) (25)",
+"sakamata_chloe_(school_uniform) (13)"
+]
+},
+"arcueid_brunestud": {
+"exact": 4218,
+"propositions": [
+"arcueid_brunestud (4218)",
+"arcueid_brunestud_(mooncancer) (27)",
+"arcueid_brunestud_(monster_cat) (21)",
+"arcueid_brunestud_(cosplay) (17)",
+"arcueid_brunestud_(dazzling_moon) (8)",
+"arcueid_brunestud_(fluffy_idol_morcueid) (2)"
+]
+},
+"kisaragi_chihaya": {
+"exact": 1228,
+"propositions": [
+"kisaragi_chihaya (1228)",
+"kisaragi_chihaya_(private_dress) (2)"
+]
+},
+"oguri_cap_(umamusume)": {
+"exact": 1012,
+"propositions": [
+"oguri_cap_(umamusume) (1012)"
+]
+},
+"akebono_(kancolle)": {
+"exact": 9,
+"propositions": [
+"akebono_(kancolle) (9)"
+]
+},
+"shoukaku_(kancolle)": {
+"exact": 5,
+"propositions": [
+"shoukaku_(kancolle) (5)"
+]
+},
+"nozomi_(blue_archive)": {
+"exact": 441,
+"propositions": [
+"nozomi_(blue_archive) (441)",
+"nozomi_(blue_archive)_(cosplay) (3)"
+]
+},
+"skadi_(arknights)": {
+"exact": 882,
+"propositions": [
+"skadi_(arknights) (882)"
+]
+},
+"matou_sakura": {
+"exact": 1587,
+"propositions": [
+"matou_sakura (1587)",
+"matou_sakura_(cosplay) (2)",
+"matou_sakura_(fate/extra) (2)",
+"matou_sakura_(deen_s&m) (2)",
+"matou_sakura_(street_choco-maid) (1)",
+"matou_sakura_(street_choco-maid)_(cosplay) (1)"
+]
+},
+"suzuran_(arknights)": {
+"exact": 341,
+"propositions": [
+"suzuran_(arknights) (341)"
+]
+},
+"inoue_takina": {
+"exact": 1781,
+"propositions": [
+"inoue_takina (1781)"
+]
+},
+"acheron_(honkai:_star_rail)": {
+"exact": 2770,
+"propositions": [
+"acheron_(honkai:_star_rail) (2770)"
+]
+},
+"ishmael_(project_moon)": {
+"exact": 100,
+"propositions": [
+"ishmael_(project_moon) (100)"
+]
+},
+"gloria_(pokemon)": {
+"exact": 5465,
+"propositions": [
+"gloria_(pokemon) (5465)",
+"gloria_(pokemon)_(cosplay) (23)"
+]
+},
+"hoshii_miki": {
+"exact": 1716,
+"propositions": [
+"hoshii_miki (1716)",
+"hoshii_miki_(awakened) (13)",
+"hoshii_miki_(cosplay) (1)"
+]
+},
+"sekibanki": {
+"exact": 712,
+"propositions": [
+"sekibanki (712)",
+"sekibanki_(artist) (3)",
+"sekibanki_day (1)",
+"sekibanki_(dullahan_on_the_beach) (1)",
+"sekibanki_(cosplay) (1)"
+]
+},
+"anya_(spy_x_family)": {
+"exact": 33,
+"propositions": [
+"anya_(spy_x_family) (33)"
+]
+},
+"oshino_shinobu": {
+"exact": 1456,
+"propositions": [
+"oshino_shinobu (1456)",
+"oshino_shinobu_(cosplay) (2)"
+]
+},
+"hk416_(girls'_frontline)": {
+"exact": null,
+"propositions": []
+},
+"kijin_seija": {
+"exact": 174,
+"propositions": [
+"kijin_seija (174)"
+]
+},
+"ooyodo_(kancolle)": {
+"exact": 2,
+"propositions": [
+"ooyodo_(kancolle) (2)"
+]
+},
+"watanabe_you": {
+"exact": 2050,
+"propositions": [
+"watanabe_you (2050)",
+"watanabe_you's_mother (6)",
+"watanabe_you_(splash_marine) (1)"
+]
+},
+"mordred_(fate)": {
+"exact": 3467,
+"propositions": [
+"mordred_(fate) (3467)",
+"mordred_(fate)_(all) (396)",
+"mordred_(fate)_(cosplay) (3)"
+]
+},
+"kanna_(blue_archive)": {
+"exact": 1893,
+"propositions": [
+"kanna_(blue_archive) (1893)",
+"kanna_(blue_archive)_(cosplay) (1)"
+]
+},
+"darjeeling_(girls_und_panzer)": {
+"exact": 26,
+"propositions": [
+"darjeeling_(girls_und_panzer) (26)"
+]
+},
+"kal'tsit_(arknights)": {
+"exact": null,
+"propositions": []
+},
+"osawa_rurino": {
+"exact": 62,
+"propositions": [
+"osawa_rurino (62)",
+"osawa_rurino_(winter_loungewear) (1)",
+"osawa_rurino's_cardboard_box (1)"
+]
+},
+"aki_minoriko": {
+"exact": 139,
+"propositions": [
+"aki_minoriko (139)"
+]
+},
+"don_quixote_(project_moon)": {
+"exact": 135,
+"propositions": [
+"don_quixote_(project_moon) (135)"
+]
+},
+"yamada_ryo": {
+"exact": 10,
+"propositions": [
+"yamada_ryou (1324)",
+"yamada_ryo_(shibarin) (11)",
+"yamada_ryo (10)",
+"yamada_ryou\\r\\naudible_ejaculation (0)",
+"yamada_ryou\\r\\nagnes_the_tiger (0)"
+]
+},
+"shishiro_botan": {
+"exact": 2290,
+"propositions": [
+"shishiro_botan (2290)",
+"shishiro_botan_(1st_costume) (74)",
+"shishiro_botan_(4th_costume) (21)",
+"shishiro_botan_(casual) (13)",
+"shishiro_botan_(jirai_kei) (10)",
+"shishiro_botan_(3rd_costume) (9)"
+]
+},
+"bb_(fate)": {
+"exact": 3382,
+"propositions": [
+"bb_(fate) (3382)",
+"bb_(fate)_(all) (19)",
+"bb_(fate)_(cosplay) (15)"
+]
+},
+"midori_(blue_archive)": {
+"exact": 130,
+"propositions": [
+"midori_(blue_archive) (130)"
+]
+},
+"izumi_konata": {
+"exact": 134,
+"propositions": [
+"izumi_konata (134)"
+]
+},
+"kitakami_(kancolle)": {
+"exact": 5,
+"propositions": [
+"kitakami_(kancolle) (5)",
+"kitakami_(kancolle)_(cosplay) (2)"
+]
+},
+"saori_(blue_archive)": {
+"exact": 1707,
+"propositions": [
+"saori_(blue_archive) (1707)"
+]
+},
+"aubrey_(omori)": {
+"exact": 1213,
+"propositions": [
+"aubrey_(omori) (1213)"
+]
+},
+"hiiragi_kagami": {
+"exact": 32,
+"propositions": [
+"hiiragi_kagami (32)"
+]
+},
+"silence_suzuka_(umamusume)": {
+"exact": 1019,
+"propositions": [
+"silence_suzuka_(umamusume) (1019)"
+]
+},
+"hieda_no_akyuu": {
+"exact": 292,
+"propositions": [
+"hieda_no_akyuu (292)"
+]
+},
+"hikari_(blue_archive)": {
+"exact": 428,
+"propositions": [
+"hikari_(blue_archive) (428)",
+"hikari_(blue_archive)_(cosplay) (3)"
+]
+},
+"fuwawa_abyssgard": {
+"exact": 1860,
+"propositions": [
+"fuwawa_abyssgard (1860)",
+"fuwawa_abyssgard_(1st_costume) (83)",
+"fuwawa_abyssgard_(new_year) (42)",
+"fuwawa_abyssgard_(casual) (7)",
+"fuwawa_abyssgard_(fluffy_flowing_summer) (1)",
+"fuwawa_abyssgard_(pajamas) (1)"
+]
+},
+"amami_haruka": {
+"exact": 1231,
+"propositions": [
+"amami_haruka (1231)",
+"amami_haruka_(tsugou_no_ii_kanojo) (2)",
+"amami_haruka_(trusty_fortune) (2)"
+]
+},
+"mutsuki_(blue_archive)": {
+"exact": 586,
+"propositions": [
+"mutsuki_(blue_archive) (586)",
+"mutsuki_(blue_archive)_(cosplay) (1)"
+]
+},
+"morgan_le_fay_(fate)": {
+"exact": 2157,
+"propositions": [
+"morgan_le_fay_(fate) (2157)",
+"morgan_le_fay_(fate)_(cosplay) (4)",
+"morgan_le_fay_(fate)\\r\\n:>= (0)"
+]
+},
+"itsumi_erika": {
+"exact": 614,
+"propositions": [
+"itsumi_erika (614)",
+"itsumi_erika's_loader (1)"
+]
+},
+"mococo_abyssgard": {
+"exact": 1719,
+"propositions": [
+"mococo_abyssgard (1719)",
+"mococo_abyssgard_(1st_costume) (79)",
+"mococo_abyssgard_(new_year) (16)",
+"mococo_abyssgard_(casual) (3)",
+"mococo_abyssgard_(pajamas) (2)",
+"mococo_abyssgard_(holonatsu_paradise) (2)"
+]
+},
+"asashio_(kancolle)": {
+"exact": 23,
+"propositions": [
+"asashio_(kancolle) (23)"
+]
+},
+"silver_wolf_(honkai:_star_rail)": {
+"exact": 3656,
+"propositions": [
+"silver_wolf_(honkai:_star_rail) (3656)",
+"silver_wolf_(honkai:_star_rail)_(cosplay) (13)",
+"silver_wolf_(honkai:_star_rail)\\r\\nchoking\\r\\nahegao\\r\\neyes_rolled_back (0)"
+]
+},
+"angelina_(arknights)": {
+"exact": 612,
+"propositions": [
+"angelina_(arknights) (612)"
+]
+},
+"anyoji_hime": {
+"exact": 56,
+"propositions": [
+"anyoji_hime (56)",
+"anyoji_hime_(summer_casual) (1)",
+"anyoji_hime_(winter_loungewear) (1)",
+"anyoji_hime_(summer_loungewear) (1)"
+]
+},
+"gumi": {
+"exact": 766,
+"propositions": [
+"gumi (766)",
+"gumi_arts (393)",
+"gumiixi (115)",
+"gumiki_bani (47)",
+"gumi_seiryu (29)",
+"gumilkx (17)"
+]
+},
+"neru_(blue_archive)": {
+"exact": 807,
+"propositions": [
+"neru_(blue_archive) (807)",
+"neru_(blue_archive)_(cosplay) (3)"
+]
+},
+"prinz_eugen_(kancolle)": {
+"exact": 12,
+"propositions": [
+"prinz_eugen_(kancolle) (12)"
+]
+},
+"irys_(hololive)": {
+"exact": 1956,
+"propositions": [
+"irys_(hololive) (1956)",
+"irys_(hololive)_(cosplay) (1)",
+"irys_(hololive)hololive (1)"
+]
+},
+"nilou_(genshin_impact)": {
+"exact": 4144,
+"propositions": [
+"nilou_(genshin_impact) (4144)",
+"nilou_(genshin_impact)_(cosplay) (15)"
+]
+},
+"la+_darknesss": {
+"exact": 691,
+"propositions": [
+"la+_darknesss (691)",
+"la+_darknesss_(1st_costume) (36)",
+"la+_darknesss_(casual) (1)",
+"la+_darknesss_(4th_costume) (1)",
+"la+_darknesss_(leader's_secret_pool) (1)"
+]
+},
+"higuchi_madoka": {
+"exact": 1493,
+"propositions": [
+"higuchi_madoka (1493)",
+"higuchi_madoka's_mother (2)"
+]
+},
+"hecatia_lapislazuli": {
+"exact": 585,
+"propositions": [
+"hecatia_lapislazuli (585)",
+"hecatia_lapislazuli_(earth) (15)",
+"hecatia_lapislazuli_(moon) (15)",
+"hecatia_lapislazuli_(cosplay) (5)",
+"hecatia_lapislazuli_(goddess_of_the_flower_garden_hell) (1)"
+]
+},
+"marcille_donato": {
+"exact": 4376,
+"propositions": [
+"marcille_donato (4376)",
+"marcille_donato_(lord) (34)",
+"marcille_donato_(cosplay) (5)",
+"marcille_donato_(dungeon_meshi) (5)",
+"marcille_donato_(half-foot) (2)"
+]
+},
+"kikuchi_makoto": {
+"exact": 853,
+"propositions": [
+"kikuchi_makoto (853)"
+]
+},
+"raiden_mei": {
+"exact": 1572,
+"propositions": [
+"raiden_mei (1572)",
+"raiden_mei_(herrscher_of_thunder) (284)",
+"raiden_mei_(apho) (195)",
+"raiden_mei_(herrscher_of_origin) (46)",
+"raiden_mei_(lightning_empress) (22)",
+"raiden_mei_(rainy_springtide) (20)"
+]
+},
+"sukuna_shinmyoumaru": {
+"exact": 236,
+"propositions": [
+"sukuna_shinmyoumaru (236)"
+]
+},
+"minami_kotori": {
+"exact": 804,
+"propositions": [
+"minami_kotori (804)",
+"minami_kotori's_mother (73)",
+"minami_kotori_(cosplay) (2)",
+"minami_kotori_(bird) (1)"
+]
+},
+"kotobuki_tsumugi": {
+"exact": 3,
+"propositions": [
+"kotobuki_tsumugi (3)"
+]
+},
+"anchovy_(girls_und_panzer)": {
+"exact": 653,
+"propositions": [
+"anchovy_(girls_und_panzer) (653)"
+]
+},
+"kaban_(kemono_friends)": {
+"exact": 282,
+"propositions": [
+"kaban_(kemono_friends) (282)"
+]
+},
+"mutsu_(kancolle)": {
+"exact": 14,
+"propositions": [
+"mutsu_(kancolle) (14)"
+]
+},
+"c.c.": {
+"exact": 4330,
+"propositions": [
+"c.c. (4330)",
+"c.c.leah (460)",
+"c.c._(code_geass) (33)",
+"c.c.p.e_(nenei) (9)",
+"c.c._cruiser_and_the_hot_rod_squad (4)",
+"c.c._triggered (3)"
+]
+},
+"medusa_(fate)": {
+"exact": 2897,
+"propositions": [
+"medusa_(fate) (2897)",
+"medusa_(fate)_strangling (1)",
+"medusa_(fate)strangling (1)"
+]
+},
+"exusiai_(arknights)": {
+"exact": 917,
+"propositions": [
+"exusiai_(arknights) (917)"
+]
+},
+"iono_(pokemon)": {
+"exact": 4704,
+"propositions": [
+"iono_(pokemon) (4704)",
+"iono_(pokemon)_(cosplay) (31)"
+]
+},
+"yugiri_tsuzuri": {
+"exact": 37,
+"propositions": [
+"yugiri_tsuzuri (37)",
+"yugiri_tsuzuri_(post-graduation) (2)"
+]
+},
+"futatsuiwa_mamizou": {
+"exact": 100,
+"propositions": [
+"futatsuiwa_mamizou (100)",
+"futatsuiwa_mamizou_(human) (37)"
+]
+},
+"letty_whiterock": {
+"exact": 439,
+"propositions": [
+"letty_whiterock (439)"
+]
+},
+"aki_shizuha": {
+"exact": 68,
+"propositions": [
+"aki_shizuha (68)"
+]
+},
+"ange_katrina": {
+"exact": 349,
+"propositions": [
+"ange_katrina (349)",
+"ange_katrina_(5th_costume) (8)",
+"ange_katrina_(4th_costume) (6)",
+"ange_katrina_(1st_costume) (4)",
+"ange_katrina_(6th_costume) (2)",
+"ange_katrina_(loungewear) (2)"
+]
+},
+"nikki_(nikki)": {
+"exact": 16,
+"propositions": [
+"nikki_(nikki) (16)"
+]
+},
+"nice_nature_(umamusume)": {
+"exact": 729,
+"propositions": [
+"nice_nature_(umamusume) (729)"
+]
+},
+"satono_diamond_(umamusume)": {
+"exact": 1294,
+"propositions": [
+"satono_diamond_(umamusume) (1294)"
+]
+},
+"female_admiral_(kancolle)": {
+"exact": 1,
+"propositions": [
+"female_admiral_(kancolle) (1)"
+]
+},
+"tatsuta_(kancolle)": {
+"exact": 3,
+"propositions": [
+"tatsuta_(kancolle) (3)"
+]
+},
+"ceres_fauna": {
+"exact": 3331,
+"propositions": [
+"ceres_fauna (3331)",
+"ceres_fauna_(goth_costume) (211)",
+"ceres_fauna_(3rd_costume) (110)",
+"ceres_fauna_(1st_costume) (29)",
+"ceres_fauna_(goth) (27)",
+"ceres_fauna_(summer_2023_swimsuit) (13)"
+]
+},
+"female_rover_(wuthering_waves)": {
+"exact": 1767,
+"propositions": [
+"female_rover_(wuthering_waves) (1767)"
+]
+},
+"takao_(kancolle)": {
+"exact": 49,
+"propositions": [
+"takao_(kancolle) (49)"
+]
+},
+"robin_(honkai:_star_rail)": {
+"exact": 2702,
+"propositions": [
+"robin_(honkai:_star_rail) (2702)",
+"robin_(honkai:_star_rail)_(cosplay) (1)"
+]
+},
+"ereshkigal_(fate)": {
+"exact": 1477,
+"propositions": [
+"ereshkigal_(fate) (1477)",
+"ereshkigal_(fate)_(cosplay) (2)"
+]
+},
+"shijou_takane": {
+"exact": 1903,
+"propositions": [
+"shijou_takane (1903)"
+]
+},
+"ooi_(kancolle)": {
+"exact": 18,
+"propositions": [
+"ooi_(kancolle) (18)"
+]
+},
+"sendai_(kancolle)": {
+"exact": 6,
+"propositions": [
+"sendai_(kancolle) (6)"
+]
+},
+"musashi_(kancolle)": {
+"exact": 27,
+"propositions": [
+"musashi_(kancolle) (27)"
+]
+},
+"yumemi_riamu": {
+"exact": 1254,
+"propositions": [
+"yumemi_riamu (1254)",
+"yumemi_riamu_(emo) (6)",
+"yumemi_riamu1girl (1)"
+]
+}
+}

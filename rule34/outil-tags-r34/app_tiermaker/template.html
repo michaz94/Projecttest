@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top 100 TierMaker × Rule34</title>
+<style>
+:root{--bg:#14161b;--card:#1d2027;--line:#2c313b;--txt:#e7e9ee;--mut:#9aa2b1;--acc:#ff7a59;--acc2:#5fb3ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:16px 18px 6px}
+h1{font-size:20px;margin:0 0 4px}
+.sub{color:var(--mut);font-size:12.5px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;padding:10px 18px;position:sticky;top:0;background:var(--bg);z-index:5;border-bottom:1px solid var(--line)}
+.tab{background:var(--card);border:1px solid var(--line);color:var(--txt);padding:7px 11px;border-radius:9px;cursor:pointer;font-size:13px;text-align:left}
+.tab small{display:block;color:var(--mut);font-size:11px}
+.tab.on{border-color:var(--acc);box-shadow:0 0 0 1px var(--acc) inset}
+main{padding:12px 18px 40px;max-width:1150px}
+.info{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:10px}
+.info b{color:#fff}
+.kpis{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px;min-width:120px}
+.kpi .v{font-size:18px;font-weight:700}
+.kpi .l{color:var(--mut);font-size:11.5px}
+.ctrl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 10px}
+.ctrl input[type=search],.ctrl select{background:var(--card);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:7px 9px;font-size:13px}
+.sw{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 10px;cursor:pointer;user-select:none}
+.sw input{accent-color:var(--acc)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:middle}
+th{font-size:11.5px;color:var(--mut);font-weight:600;background:#191c22;cursor:pointer;white-space:nowrap}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:hover td{background:#22262e}
+.pos{color:var(--mut);font-size:12px}
+.vg{width:46px;height:46px;border-radius:7px;object-fit:cover;background:#0e0f12;display:block}
+.nom{font-weight:600}
+.nom.ni{color:var(--mut);font-weight:400;font-style:italic}
+.u{color:var(--mut);font-size:11.5px}
+.tag{color:#7f8899;font-size:11px;font-family:ui-monospace,Menlo,monospace}
+.med{font-size:11px;padding:2px 7px;border-radius:20px;white-space:nowrap;border:1px solid}
+.m-Comics{color:#ffd166;border-color:#6b5a2a}.m-Cartoons{color:#7bdff2;border-color:#2a5c66}.m-Furry{color:#c3a6ff;border-color:#4d3f73}
+.m-Animanga{color:#ff9fb2;border-color:#6d3a45}.m-Jeux{color:#a0e57a;border-color:#3d5c2c}.m-Autre{color:#ccc;border-color:#555}
+.bar{height:6px;border-radius:3px;background:var(--acc);margin-top:3px;opacity:.85}
+.bar.ac{background:var(--acc2)}
+.low{display:inline-block;font-size:10px;color:#ffb347;border:1px solid #6e5222;border-radius:5px;padding:0 4px;margin-left:4px}
+.src{font-size:10.5px;color:var(--mut)}
+.note{font-size:11px;color:#c9b27a}
+.leg{color:var(--mut);font-size:12px;margin-top:10px}
+.leg span{margin-right:12px}
+.tab.an{border-color:#3a6d4f;background:#1b2a22}.tab.an.on{border-color:#5fd39a;box-shadow:0 0 0 1px #5fd39a inset}
+h2{font-size:16px;margin:22px 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{display:flex;align-items:center;gap:5px;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:4px 10px;font-size:12px;cursor:pointer;user-select:none}
+.chip input{accent-color:#5fd39a}
+button.chip{color:#e7e9ee;font-family:inherit}button.chip:hover{border-color:#5fd39a}
+.pod{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:8px}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px;display:flex;gap:9px;align-items:center}
+.pc img{width:54px;height:54px;border-radius:8px;object-fit:cover;background:#0e0f12}
+.pc .r{font-size:20px;font-weight:800;color:#5fd39a;min-width:26px;text-align:center}
+.pc .s{color:var(--mut);font-size:11px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini td,.mini th{padding:4px 6px;font-size:12.5px}
+#atb td.num{white-space:nowrap}.rks{white-space:nowrap}
+.rk{display:inline-block;min-width:20px;text-align:center;font-size:11px;border-radius:5px;padding:1px 3px;margin:1px;background:#262b34;color:#cfd5df}
+.rk.t10{background:#1f4a35;color:#9ff0c4}.rk.t30{background:#24394d;color:#a9d4ff}.rk.no{background:transparent;color:#4a505c}
+.ix{font-weight:800}
+.txt p{margin:6px 0}.txt li{margin:3px 0}
+svg text{font:10.5px system-ui,sans-serif}
+.pv{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:8px}
+.pv .info{margin:0}
+.pv ol{margin:4px 0 0;padding-left:20px}
+@media (max-width:700px){.two{grid-template-columns:1fr}}
+@media (max-width:700px){.hide-m{display:none}.tabs{position:static}td,th{padding:5px}.vg{width:38px;height:38px}}
+</style>
+</head>
+<body>
+<header>
+<h1>Top 100 TierMaker × publications Rule34</h1>
+<div class="sub" id="sub"></div>
+</header>
+<div class="tabs" id="tabs"></div>
+<main>
+<div id="vA" hidden>
+<div class="info" id="aint"></div>
+<div class="ctrl">
+<label class="sw"><input type="checkbox" id="aperim"> Périmètre Comics + Cartoons + Furry</label>
+<select id="atri">
+<option value="ix">Tri : indice de consensus</option>
+<option value="ixp">Tri : ancien indice (absence = 0 partout)</option>
+<option value="pres">Tri : présence dans les top 100</option>
+<option value="t10">Tri : nombre de top 10</option>
+<option value="med">Tri : rang médian</option>
+<option value="z">Tri : écart à la moyenne du vote</option>
+<option value="n">Tri : publications Rule34</option>
+</select>
+<select id="amed"><option value="">Tous médiums</option><option>Cartoons</option><option>Comics</option><option>Furry</option><option>Animanga</option><option>Jeux vidéo</option><option>Autre</option></select>
+<select id="amin"><option value="1">Présent dans au moins 1 vote</option><option value="2">au moins 2 votes</option><option value="3">au moins 3 votes</option><option value="4">au moins 4 votes</option><option value="5">au moins 5 votes</option></select>
+<input type="search" id="aq" placeholder="Rechercher un personnage…">
+</div>
+<div class="chips" style="margin-bottom:6px"><span class="u" style="align-self:center">Sélection rapide :</span>
+<button class="chip" data-pre="tous">Tous les votes</button><button class="chip" data-pre="cartoons">Votes dessins animés (7)</button><button class="chip" data-pre="anime">Votes ouverts à l'anime (5)</button><button class="chip" data-pre="jv">Votes ouverts au jeu vidéo (3)</button></div>
+<div class="chips" id="avotes"></div>
+<div class="kpis" id="akpis"></div>
+<h2>Les 12 personnages les plus appréciés</h2>
+<div class="pod" id="podium"></div>
+<h2>Ce qu'il faut retenir</h2>
+<div class="info txt" id="retenir"><p class="u">Texte rédigé à partir des réglages par défaut (13 votes cochés, tous médiums, sans périmètre), avec le nouvel indice qui ne compte que les votes où chaque personnage pouvait figurer, après l'ajout du vote anime 99761754. Les chiffres du reste de la page se recalculent quand vous changez les réglages ; ce texte, lui, ne bouge pas.</p>
+<ol>
+<li><b>Le nouvel indice corrige le biais vers les cartoons.</b> Avec l'ancien, un absent prenait 0 dans tous les votes, même ceux qui ne pouvaient pas le contenir ; or 7 votes sur 13 sont des votes de dessins animés. Composition du top 50 :
+<ul>
+<li>avant : 34 cartoons ;</li>
+<li>maintenant : 18 cartoons, 15 jeux vidéo, 13 anime, 3 comics, 1 Furry.</li>
+</ul>
+L'ancien indice reste disponible dans le menu de tri.</li>
+<li><b>N° 1 : 2B (98,0).</b> Elle est dans le top 100 des 5 votes qui pouvaient la contenir, n° 1 de 2 d'entre eux, et jamais plus bas que 6e.</li>
+<li><b>Ensuite, un peloton de 5 cartoons en moins de 2 points</b> : Chel (93,6), Shego (92,0), Starfire (91,9), Raven (91,7), Hélène Parr (91,5). Chacune est dans le top 100 de 9 ou 10 votes possibles. Leur ordre n'est pas significatif.</li>
+<li><b>Puis anime et jeu vidéo</b> : Mirko (85,4), Chun-Li (85,0), Tsunade (83,2), D.Va (82,3), Fubuki (81,2), devant Jessica Rabbit (79,7). Tifa, Samus, Yor Forger, Marin Kitagawa et Kim Possible suivent, entre 76 et 79.</li>
+<li><b>Par groupe de votes</b> (boutons de sélection rapide) :
+<ul>
+<li>dessins animés (7) : Hélène Parr, Chel, Shego, Starfire, Jessica Rabbit ;</li>
+<li>jeu vidéo (3) : 2B, Chun-Li, D.Va, Samus, Tifa ;</li>
+<li>ouverts à l'anime (5) : 2B, puis Raven, Starfire, Mirko, Shego. Ce groupe inclut des votes mixtes. Parmi les personnages d'anime, Mirko, Tsunade et Fubuki sont dans le top 100 des 5 votes ;</li>
+<li>mode périmètre (11 votes) : Chel (97,9), Hélène Parr (97,4), Shego (95,6).</li>
+</ul></li>
+<li><b>Le vote anime 99761754 « Top Tier Waifu »</b> (19 274 participants, 311 images) : top 5 Yor Forger, Makima, 2B, Marin Kitagawa, Tsunade. Images sans nom : 67 identifiées sur 100, les 33 autres laissées « non identifiées ».</li>
+<li><b>Votes et publications Rule34 vont davantage ensemble avec le nouvel indice</b> : corrélation de 0,52 en tous médiums (0,36 avec l'ancien), 0,47 en périmètre.
+<ul>
+<li><b>Plus appréciés que dessinés</b> : Mégara, GoGo Tomago, Tante Cass, Shego, Daphné.</li>
+<li><b>Plus dessinés qu'appréciés</b> : Loona, Ahri, Ochako, Gwen Tennyson, Judy Hopps.</li>
+</ul></li>
+<li><b>Limites.</b>
+<ul>
+<li>La couverture des votes est estimée par médium, car seul le top 100 de chaque vote est identifié. Un absent peut être classé au-delà du rang 100, ou ne pas figurer dans le modèle.</li>
+<li>Garde-fou : on divise par au moins 3 votes, pour qu'une seule apparition ne suffise pas.</li>
+<li>Le vote anime 30081640 a peu de votants par image ; le vote 436045 est encore ouvert.</li>
+</ul></li>
+</ol></div>
+<h2>Appréciation aux votes × publications Rule34</h2>
+<div class="info"><svg id="sc" viewBox="0 0 1000 470" width="100%"></svg><div class="leg" id="scleg"></div></div>
+<div class="two">
+<div><h2>Plus appréciés aux votes que dessinés</h2><table class="mini" id="plusv"></table></div>
+<div><h2>Plus dessinés qu'appréciés aux votes</h2><table class="mini" id="plusd"></table></div>
+</div>
+<h2>Classement complet</h2>
+<table id="atab"><thead><tr><th class="num">#</th><th></th><th>Personnage</th><th class="hide-m">Médium</th><th class="num">Indice</th><th class="num">Présence</th><th class="num hide-m">Rang médian</th><th class="hide-m">Rang dans chaque vote</th><th class="num">Rule34</th><th class="num hide-m">Danbooru</th><th class="num hide-m">e621</th></tr></thead><tbody id="atb"></tbody></table>
+<h2>Le top 5 de chaque vote</h2>
+<div class="pv" id="parvote"></div>
+<h2>Méthode et limites</h2>
+<div class="info txt" id="methode"></div>
+</div>
+<div id="vL">
+<div class="info" id="info"></div>
+<div class="ctrl">
+<label class="sw"><input type="checkbox" id="perim"> Périmètre Comics + Cartoons + Furry</label>
+<select id="tri">
+<option value="tm">Tri : rang TierMaker</option>
+<option value="n">Tri : publications Rule34</option>
+<option value="votants">Tri : nombre de votants</option>
+<option value="moyenne">Tri : moyenne</option>
+</select>
+<select id="med"><option value="">Tous médiums</option><option>Cartoons</option><option>Comics</option><option>Furry</option><option>Animanga</option><option>Jeux vidéo</option><option>Autre</option></select>
+<input type="search" id="q" placeholder="Rechercher un personnage…">
+</div>
+<div class="kpis" id="kpis"></div>
+<table>
+<thead><tr>
+<th class="num" data-k="pos">#</th><th></th><th class="num" data-k="tm">Rang TM</th><th data-k="nom">Personnage</th><th class="hide-m">Médium</th>
+<th class="num hide-m" data-k="moyenne">Moyenne</th><th class="num" data-k="votants">Votants</th><th class="num" data-k="n">Publications Rule34</th><th class="num hide-m" id="thr">Rang r34</th>
+</tr></thead>
+<tbody id="tb"></tbody>
+</table>
+<div class="leg" id="leg"></div>
+</div>
+</main>
+<script>
+const D=/*DATA*/null;
+let cur='A';
+const $=id=>document.getElementById(id);
+const fmt=n=>n==null?'':n.toLocaleString('fr-FR').replace(/\u202f|\u00a0/g,' ');
+const fr=(x,d=2)=>x.toFixed(d).replace('.',',');
+const PER=new Set(['Comics','Cartoons','Furry']);
+function rk(a){const s=a.map((v,i)=>[v,i]).sort((x,y)=>x[0]-y[0]);const r=new Array(a.length);let i=0;while(i<s.length){let j=i;while(j+1<s.length&&s[j+1][0]===s[i][0])j++;const m=(i+j)/2+1;for(let k=i;k<=j;k++)r[s[k][1]]=m;i=j+1;}return r;}
+function spearman(x,y){if(x.length<5)return null;const a=rk(x),b=rk(y),n=a.length;const ma=a.reduce((s,v)=>s+v,0)/n,mb=b.reduce((s,v)=>s+v,0)/n;let c=0,va=0,vb=0;for(let i=0;i<n;i++){c+=(a[i]-ma)*(b[i]-mb);va+=(a[i]-ma)**2;vb+=(b[i]-mb)**2;}return c/Math.sqrt(va*vb);}
+function median(a){if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;}
+function tabs(){
+ $('tabs').innerHTML=`<button class="tab an${cur==='A'?' on':''}" data-i="A">Analyse : les plus appréciés<small>synthèse des ${D.listes.length} votes</small></button>`+D.listes.map((l,i)=>`<button class="tab${i===cur?' on':''}" data-i="${i}">${l.titre}<small>vote ${l.id} · ${fmt(l.participants)} participants</small></button>`).join('');
+ document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{cur=b.dataset.i==='A'?'A':+b.dataset.i;tabs();render();});
+}
+function base(){
+ const l=D.listes[cur],per=$('perim').checked;
+ let rows;
+ if(per){rows=l.rows.filter(r=>r.medium===''||PER.has(r.medium)).slice(0,100);}
+ else rows=l.rows.filter(r=>!r.extra);
+ rows.forEach((r,i)=>r.pos=i+1);
+ return rows;
+}
+function render(){
+ $('vA').hidden=cur!=='A';$('vL').hidden=cur==='A';
+ $('sub').textContent=`${D.listes.length} votes en direct TierMaker, vue « Average Vote » · publications Rule34 relevées au ${D.date}`;
+ if(cur==='A'){renderA();return;}
+ if(D.listes[cur].perimetre===false){$('perim').checked=false;$('perim').disabled=true;}else $('perim').disabled=false;
+ const l=D.listes[cur],per=$('perim').checked;
+ $('sub').textContent=`${D.listes.length} votes en direct TierMaker, vue « Average Vote » · publications Rule34 relevées au ${D.date}`;
+ const all=base();
+ const retires=per?l.rows.filter(r=>!r.extra&&r.medium&&!PER.has(r.medium)).length:0;
+ $('info').innerHTML=`<b>${l.titre}</b> — modèle « ${l.modele} » · ${l.fin?`vote du ${l.debut.split('-').reverse().join('/')} au ${l.fin.split('-').reverse().join('/')}`:`vote ouvert le ${l.debut.split('-').reverse().join('/')}, <b>toujours en cours</b> (relevé du 24/10/2026)`} · <b>${fmt(l.participants)}</b> participants, ${fmt(l.votes)} votes.<br><span class="u">${l.remarque}${per?` Mode périmètre : ${retires} personnage(s) hors périmètre retiré(s)${l.id==='87784832'?' (non remplacés : les images au-delà du rang 100 ne sont pas identifiées pour ce vote)':', remplacés par les images suivantes'}.`:''}</span>`;
+ let rows=all.slice();
+ const q=$('q').value.trim().toLowerCase(),m=$('med').value;
+ if(q)rows=rows.filter(r=>(r.nom+' '+r.univers+' '+r.tag).toLowerCase().includes(q));
+ if(m)rows=rows.filter(r=>r.medium===m);
+ const t=$('tri').value;
+ rows.sort((a,b)=>t==='tm'?a.tm-b.tm:t==='n'?((b.n??-1)-(a.n??-1)):t==='votants'?b.votants-a.votants:b.moyenne-a.moyenne);
+ // stats sur les lignes affichées : personnages distincts identifiés, meilleure image
+ const best=new Map();rows.filter(r=>r.n!=null).forEach(r=>{const o=best.get(r.tag);if(!o||r.tm<o.tm)best.set(r.tag,r);});
+ const B=[...best.values()];
+ const rho=spearman(B.map(r=>r.tm),B.map(r=>-r.n));
+ const sel=B.filter(r=>r.src==='sel').length;
+ const inTop=per?B.filter(r=>r.rp!=null).length:B.filter(r=>r.rg!=null&&r.rg<=100).length;
+ $('kpis').innerHTML=[
+  [rows.length,'images affichées'],[B.length,'personnages identifiés (distincts)'],
+  [fmt(median(B.map(r=>r.n))),'publications r34 (médiane)'],
+  [inTop,per?`dans la liste r34 du périmètre (${D.perim.length})`:'dans le top 100 féminin r34'],
+  [rho==null?'—':fr(rho),'Spearman rang TM / publications']
+ ].map(([v,l])=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+ $('thr').textContent=per?'Rang r34 (périmètre)':'Rang r34 (féminin)';
+ const mx=Math.max(1,...all.filter(r=>r.n!=null).map(r=>r.n));
+ $('tb').innerHTML=rows.map(r=>{
+  const ni=r.n==null&&!r.tag;
+  const rgv=per?(r.rp??(r.tag?`<span class="u">sous ${fmt(D.seuil)}</span>`:'')):(r.rg??(r.tag?`<span class="u">sous ${fmt(D.seuil)}</span>`:''));
+  const medc=r.medium?`<span class="med m-${r.medium.split(' ')[0]}">${r.medium}</span>`:'';
+  return `<tr>
+  <td class="num pos">${r.pos}</td>
+  <td>${r.img?`<img class="vg" src="${r.img}" alt="">`:''}</td>
+  <td class="num">${r.tm}${r.extra?'<div class="u">(après 100)</div>':''}</td>
+  <td><div class="nom${ni?' ni':''}">${r.nom}</div>${r.univers?`<div class="u">${r.univers}</div>`:''}${r.tag?`<div class="tag">${r.tag}</div>`:''}${r.notes?`<div class="note">⚠ ${r.notes}</div>`:''}</td>
+  <td class="hide-m">${medc}</td>
+  <td class="num hide-m">${fr(r.moyenne,3)}</td>
+  <td class="num">${fmt(r.votants)}${r.votants<300?'<span class="low">peu</span>':''}</td>
+  <td class="num">${r.n!=null?`<b>${fmt(r.n)}</b><div class="bar${r.src==='ac'?' ac':''}" style="width:${Math.max(2,100*r.n/mx)}%;margin-left:auto"></div><div class="src">${r.src==='sel'?'sélection':'autocomplétion'}</div>`:''}</td>
+  <td class="num hide-m">${rgv}</td></tr>`;}).join('');
+ $('leg').innerHTML=`<span><b style="color:var(--acc)">■</b> compte de la sélection 388 (dédupliqué)</span><span><b style="color:var(--acc2)">■</b> compte de l'autocomplétion Rule34 (peut être en retard, variantes non fusionnées)</span><span><span class="low">peu</span> moins de 300 votants</span><br>Moyenne : S = 5 … D = 1. Spearman et médiane calculés sur les lignes affichées (personnages distincts, meilleure image). Périmètre : médiums Comics, Cartoons / films d'animation occidentaux et Furry (5 espèces Pokémon/Digimon rangées en Furry) ; Raven et Starfire en Cartoons.`;
+}
+['perim','tri','med'].forEach(id=>$(id).onchange=render);$('q').oninput=render;
+document.querySelectorAll('th[data-k]').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(['tm','n','votants','moyenne'].includes(k)){$('tri').value=k;render();}});
+// ---------- page Analyse ----------
+const ON=new Set(D.listes.map(l=>l.id));
+function medc(m){return m?`<span class="med m-${m.split(' ')[0]}">${m}</span>`:'';}
+function rowsVote(l,per){const r=per?l.rows.filter(x=>x.medium===''||PER.has(x.medium)).slice(0,100):l.rows.filter(x=>!x.extra);return r;}
+// Médiums que chaque modèle peut contenir (null = tous). Un vote compte dans l'indice d'un personnage s'il couvre son médium OU si le personnage est dans son top 100.
+const VCOV={'87784832':null,'80408816':null,'436045':['Cartoons','Comics','Furry','Animanga'],'30081640':['Animanga'],'99761754':['Animanga'],
+ '73568440':['Jeux vidéo','Comics','Furry'],'81614596':[],'5058287':['Cartoons','Comics','Furry'],'8447367':['Cartoons','Comics','Furry'],'88691896':['Cartoons','Comics','Furry'],
+ '91860172':['Cartoons','Comics','Furry'],'30083716':['Cartoons','Comics','Furry'],'20899730':['Cartoons','Comics','Furry']};
+const couvre=(id,m)=>{const v=VCOV[id];return v===undefined||v===null||v.includes(m);};
+function agreg(per,ids){
+ const M=new Map();
+ D.listes.filter(l=>ids.includes(l.id)).forEach(l=>{
+  rowsVote(l,per).forEach((r,i)=>{
+   if(!r.tag)return; const pos=i+1;
+   let c=M.get(r.tag);
+   if(!c){c={tag:r.tag,nom:r.nom,univers:r.univers,medium:r.medium,n:r.n,src:r.src,img:r.img,best:999,rk:{},z:{},vt:{}};M.set(r.tag,c);}
+   if(l.id!=='87784832'&&!c.fromC){c.nom=r.nom;c.fromC=true;}  // nom français des votes dessins animés de préférence
+   if(r.univers&&!c.univers)c.univers=r.univers;
+   if(c.rk[l.id]==null||pos<c.rk[l.id]){c.rk[l.id]=pos;c.z[l.id]=(r.moyenne-l.stats.moy)/l.stats.et;c.vt[l.id]=r.votants;}
+   if(pos<c.best){c.best=pos;if(r.img)c.img=r.img;}
+  });
+ });
+ const N=ids.length,C=[...M.values()];
+ C.forEach(c=>{const v=Object.values(c.rk);c.pres=v.length;c.t10=v.filter(x=>x<=10).length;const so_=v.reduce((s,x)=>s+101-x,0);c.nel=ids.filter(i=>c.rk[i]!=null||couvre(i,c.medium)).length;c.ix=so_/Math.max(c.nel,Math.min(3,N));c.ixp=so_/N;
+  c.med=median(v);const zz=Object.values(c.z);c.zm=zz.reduce((s,x)=>s+x,0)/zz.length;c.vmin=Math.min(...Object.values(c.vt));});
+ C.sort((a,b)=>b.ix-a.ix||b.pres-a.pres||b.zm-a.zm);C.forEach((c,i)=>c.rc=i+1);
+ return C;
+}
+function renderA(){
+ const per=$('aperim').checked;
+ $('avotes').innerHTML=D.listes.map(l=>`<label class="chip"><input type="checkbox" data-id="${l.id}"${ON.has(l.id)?' checked':''}${per&&l.perimetre===false?' disabled':''}>${l.titre} <span class="u">${l.id}${per&&l.perimetre===false?' · sans objet en mode périmètre':''}</span></label>`).join('');
+ document.querySelectorAll('#avotes input').forEach(x=>x.onchange=()=>{x.checked?ON.add(x.dataset.id):ON.delete(x.dataset.id);if(!ON.size){ON.add(x.dataset.id);}renderA();});
+ const OK=l=>ON.has(l.id)&&!(per&&l.perimetre===false);  // votes 100 % animanga : sans objet en mode périmètre
+ const ids=D.listes.filter(OK).map(l=>l.id), L=D.listes.filter(OK);
+ const C=agreg(per,ids);
+ const part=L.reduce((s,l)=>s+l.participants,0),vot=L.reduce((s,l)=>s+l.votes,0);
+ $('aint').innerHTML=`<b>Qui sont les personnages les plus appréciés ?</b> Synthèse de <b>${ids.length}</b> vote(s) TierMaker (vue « Average Vote », top 100 de chaque vote${per?' après retrait des personnages hors périmètre':''}) : ${fmt(part)} participations et ${fmt(vot)} votes au total, croisés avec les publications Rule34 (et Danbooru / e621 quand le personnage figure dans le relevé des 195 personnages les plus publiés).<br><span class="u">Indice de consensus = moyenne de (101 − rang de la meilleure image dans le top 100), calculée seulement sur les votes cochés où le personnage pouvait figurer : ceux qui couvrent son médium, ou dont il est dans le top 100. On divise par au moins 3 votes. Dans un vote qui pouvait le contenir, un personnage absent du top 100 compte 0. Détails dans « Méthode » ; l'ancien indice (absence = 0 partout) est dans le menu de tri.</span>`;
+ let R=C.slice();const q=$('aq').value.trim().toLowerCase(),m=$('amed').value,mn=+$('amin').value,t=$('atri').value;
+ R=R.filter(c=>c.pres>=mn);if(m)R=R.filter(c=>c.medium===m);if(q)R=R.filter(c=>(c.nom+' '+c.univers+' '+c.tag).toLowerCase().includes(q));
+ const so={ix:(a,b)=>a.rc-b.rc,ixp:(a,b)=>b.ixp-a.ixp||a.rc-b.rc,pres:(a,b)=>b.pres-a.pres||a.rc-b.rc,t10:(a,b)=>b.t10-a.t10||a.rc-b.rc,med:(a,b)=>a.med-b.med||a.rc-b.rc,z:(a,b)=>b.zm-a.zm,n:(a,b)=>(b.n??-1)-(a.n??-1)};R.sort(so[t]);
+ const multi=C.filter(c=>c.pres>=2).length,all3=C.filter(c=>c.pres===ids.length).length;
+ const W=C.filter(c=>c.n!=null);const rho=spearman(W.map(c=>-c.ix),W.map(c=>-c.n));
+ $('akpis').innerHTML=[[C.length,'personnages distincts dans les top 100'],[multi,'présents dans au moins 2 votes'],[all3,`présents dans les ${ids.length} votes`],[C[0]?C[0].nom:'—','n° 1 du consensus'],[rho==null?'—':fr(rho),'Spearman indice / publications r34']].map(([v,l])=>`<div class="kpi"><div class="v">${v}</div><div class="l">${l}</div></div>`).join('');
+ // podium
+ $('podium').innerHTML=C.slice(0,12).map(c=>`<div class="pc"><div class="r">${c.rc}</div>${c.img?`<img src="${c.img}" alt="">`:''}<div><div class="nom">${c.nom}</div><div class="s">indice <b style="color:#fff">${fr(c.ix,1)}</b> · top 100 dans ${c.pres}/${c.nel} votes possibles · ${c.t10} fois top 10</div><div class="s">${c.n!=null?fmt(c.n)+' publ. r34':'pas de compte r34'}</div></div></div>`).join('');
+ // nuage
+ scatter(C,ids);
+ // écarts
+ const E=C.filter(c=>c.n!=null&&c.pres>=Math.min(2,ids.length));const byN=[...E].sort((a,b)=>b.n-a.n);byN.forEach((c,i)=>c.rn=i+1);const byI=[...E].sort((a,b)=>a.rc-b.rc);byI.forEach((c,i)=>c.ri=i+1);
+ const head='<tr><th></th><th>Personnage</th><th class="num">Rang votes</th><th class="num">Rang publications</th><th class="num">Publications</th></tr>';
+ const line=c=>`<tr><td>${c.img?`<img class="vg" style="width:34px;height:34px" src="${c.img}">`:''}</td><td><div class="nom">${c.nom}</div><div class="u">${c.pres} vote(s)</div></td><td class="num">${c.ri}</td><td class="num">${c.rn}</td><td class="num">${fmt(c.n)}</td></tr>`;
+ $('plusv').innerHTML=head+E.filter(c=>c.ri<=40).sort((a,b)=>(b.rn-b.ri)-(a.rn-a.ri)).slice(0,10).map(line).join('');
+ $('plusd').innerHTML=head+E.filter(c=>c.rn<=40).sort((a,b)=>(a.rn-a.ri)-(b.rn-b.ri)).slice(0,10).map(line).join('');
+ // tableau
+ const S=D.sites||{};
+ $('atb').innerHTML=R.slice(0,300).map(c=>{const s=S[c.tag]||{};return `<tr><td class="num pos">${c.rc}</td><td>${c.img?`<img class="vg" src="${c.img}" alt="">`:''}</td>
+ <td><div class="nom">${c.nom}</div>${c.univers?`<div class="u">${c.univers}</div>`:''}<div class="tag">${c.tag}</div>${c.vmin<300?'<span class="low">peu de votants</span>':''}</td><td class="hide-m">${medc(c.medium)}</td>
+ <td class="num ix">${fr(c.ix,1)}</td><td class="num" title="top 100 / votes où le personnage pouvait figurer">${c.pres}/${c.nel}</td><td class="num hide-m">${String(c.med).replace(".",",")}</td>
+ <td class="hide-m rks">${L.map(l=>{const r=c.rk[l.id];return `<span class="rk${r==null?' no':r<=10?' t10':r<=30?' t30':''}" title="${l.titre} (${l.id})">${r??'·'}</span>`;}).join('')}</td>
+ <td class="num">${c.n!=null?fmt(c.n):'<span class="u">—</span>'}</td><td class="num hide-m">${s.danbooru!=null?fmt(s.danbooru):'<span class="u">—</span>'}</td><td class="num hide-m">${s.e621!=null?fmt(s.e621):'<span class="u">—</span>'}</td></tr>`;}).join('')+(R.length>300?`<tr><td colspan="11" class="u">… ${R.length-300} autres (affinez avec les filtres)</td></tr>`:'');
+ // top 5 par vote
+ $('parvote').innerHTML=L.map(l=>`<div class="info"><b>${l.titre}</b> <span class="u">vote ${l.id} · ${fmt(l.participants)} participants</span><ol>${rowsVote(l,per).slice(0,5).map(r=>`<li>${r.tag||r.nom!=='non identifiée'?r.nom:'<i class="u">non identifiée</i>'} <span class="u">${fr(r.moyenne,2)} · ${fmt(r.votants)} votants</span></li>`).join('')}</ol></div>`).join('');
+ $('methode').innerHTML=`<ul>
+<li><b>Sources</b> : votes en direct TierMaker (fichiers du serveur live-event), classés par moyenne (S = 5 … D = 1 ; pour les votes à palier « Hard Pass » / « Ewwwwww », ce palier = note la plus basse sur 6, et les votes « Who? » sont retirés). Publications : Rule34 (sélection 336 dédupliquée, pages 1 à 360 de la liste des tags, sinon autocomplétion du 24 oct. 2026) ; Danbooru et e621 : relevé du 23 oct. 2026, limité aux 195 personnages les plus publiés sur Rule34 (« — » = hors relevé, pas zéro).</li>
+<li><b>Une seule image par personnage et par vote</b> : la mieux classée. Les autres images du même personnage sont ignorées.</li>
+<li><b>Indice de consensus</b> : pour chaque vote, 101 − rang dans le top 100 (n° 1 = 100 points, 100e = 1 point, absent = 0), puis moyenne sur les <b>votes où le personnage pouvait figurer</b>. Un vote compte s'il couvre le médium du personnage, ou si le personnage est dans son top 100. Garde-fou : on divise toujours par au moins 3 votes (ou par le nombre de votes cochés s'il est plus petit), pour qu'une seule apparition ne suffise pas à monter en tête.
+<ul><li>Couverture par vote : 87784832 et 80408816 = tous médiums ; 436045 = cartoons, comics, Furry et anime (pas de jeux vidéo) ; 30081640 et 99761754 = anime ; 73568440 = jeux vidéo, plus les personnages de comics et Furry présents dans les jeux ; les votes dessins animés = cartoons, comics et Furry ; le vote Disney/Pixar 81614596 ne compte que pour les personnages présents dans son top 100, car il ne contient que des personnages Disney/Pixar.</li>
+<li>C'est une approximation par médium : on ne connaît pas le contenu complet de chaque modèle (seul le top 100 est identifié). Un personnage absent d'un vote qui couvre son médium peut avoir été classé au-delà du rang 100, ou ne pas figurer dans le modèle.</li>
+<li>« Présence » affiche top 100 / votes possibles. L'ancien indice (absence = 0 dans tous les votes cochés) reste disponible dans le menu de tri : il mesure surtout la présence dans beaucoup de votes, donc favorise les cartoons, majoritaires parmi les votes.</li></ul></li>
+<li><b>Rang dans chaque vote</b> : <span class="rk t10">1–10</span> <span class="rk t30">11–30</span> <span class="rk">31–100</span> <span class="rk no">·</span> = hors top 100 ou absent. En mode périmètre, le rang est recalculé après retrait des personnages hors périmètre.</li>
+<li><b>Écart à la moyenne du vote</b> (tri) : moyenne de la meilleure image moins la moyenne de toutes les images du vote, divisée par leur écart-type ; permet de comparer des votes aux barèmes différents.</li>
+<li><b>Fiabilité</b> : « peu de votants » = au moins un des rangs repose sur moins de 300 votants. Les images non identifiées (ou sans tag rule34) ne comptent pas. Les mêmes personnes ont pu voter à plusieurs votes : on additionne des participations, pas des personnes.</li></ul>`;
+}
+function scatter(C,ids){
+ const P=C.filter(c=>c.n!=null&&c.n>0);const sv=$('sc');if(!P.length){sv.innerHTML='';return;}
+ const x0=Math.floor(Math.log10(Math.min(...P.map(c=>c.n)))),x1=Math.ceil(Math.log10(Math.max(...P.map(c=>c.n))));
+ const y1=Math.max(10,Math.ceil(Math.max(...P.map(c=>c.ix))/10)*10);
+ const X=v=>60+(Math.log10(v)-x0)/(x1-x0)*910,Y=v=>430-v/y1*400;
+ const col={Cartoons:'#7bdff2',Comics:'#ffd166',Furry:'#c3a6ff',Animanga:'#ff9fb2','Jeux vidéo':'#a0e57a',Autre:'#ccc'};
+ let g='';
+ for(let e=x0;e<=x1;e++){g+=`<line x1="${X(10**e)}" x2="${X(10**e)}" y1="30" y2="430" stroke="#2c313b"/><text x="${X(10**e)}" y="447" fill="#9aa2b1" text-anchor="middle">${fmt(10**e)}</text>`;}
+ for(let v=0;v<=y1;v+=10){g+=`<line x1="60" x2="970" y1="${Y(v)}" y2="${Y(v)}" stroke="#2c313b"/><text x="52" y="${Y(v)+4}" fill="#9aa2b1" text-anchor="end">${v}</text>`;}
+ g+=`<text x="515" y="466" fill="#9aa2b1" text-anchor="middle">Publications Rule34 (échelle logarithmique)</text><text x="14" y="230" fill="#9aa2b1" text-anchor="middle" transform="rotate(-90 14 230)">Indice de consensus</text>`;
+ const lab=new Set([...P].sort((a,b)=>b.ix-a.ix).slice(0,11).map(c=>c.tag).concat([...P].sort((a,b)=>b.n-a.n).slice(0,6).map(c=>c.tag)));
+ P.forEach(c=>{const r=3+c.pres*1.2;g+=`<circle cx="${X(c.n)}" cy="${Y(c.ix)}" r="${r}" fill="${col[c.medium]||'#888'}" fill-opacity=".55" stroke="${col[c.medium]||'#888'}"><title>${c.nom} — indice ${fr(c.ix,1)}, ${c.pres}/${c.nel} votes possibles, ${fmt(c.n)} publications</title></circle>`;});
+ P.filter(c=>lab.has(c.tag)).forEach(c=>{g+=`<text x="${X(c.n)+6}" y="${Y(c.ix)-5}" fill="#e7e9ee">${c.nom.split(' / ')[0].split(' (')[0]}</text>`;});
+ sv.innerHTML=g;
+ $('scleg').innerHTML=Object.entries(col).map(([k,v])=>`<span><b style="color:${v}">●</b> ${k}</span>`).join('')+'<span>taille du point = nombre de votes où le personnage est dans le top 100 ; survol = détail</span>';
+}
+const ANIME_V=['87784832','80408816','30081640','436045','99761754'];
+const JV_V=['87784832','80408816','73568440'];
+const CART_V=['5058287','8447367','88691896','91860172','81614596','30083716','20899730'];
+document.querySelectorAll('[data-pre]').forEach(b=>b.onclick=()=>{ON.clear();D.listes.forEach(l=>{const a=ANIME_V.includes(l.id);if(b.dataset.pre==='tous'||(b.dataset.pre==='anime'&&a)||(b.dataset.pre==='cartoons'&&CART_V.includes(l.id))||(b.dataset.pre==='jv'&&JV_V.includes(l.id)))ON.add(l.id);});if(b.dataset.pre==='anime'||b.dataset.pre==='jv')$('aperim').checked=false;renderA();});
+['aperim','atri','amed','amin'].forEach(id=>$(id).onchange=renderA);$('aq').oninput=renderA;
+tabs();render();
+</script>
+</body>
+</html>

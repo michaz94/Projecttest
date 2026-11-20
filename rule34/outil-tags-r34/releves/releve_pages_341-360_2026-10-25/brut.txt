@@ -1,0 +1,80 @@
+# Tags de personnage et de copyright relevés sur les pages 341-360 (pid 6800-7180) de la liste des tags rule34.xxx triée par compteur, 25/10/2026.
+# Pages : du compteur 6 234 (haut de la page 341) au compteur 5 693 (bas de la page 360). Numéro de page exact de chaque tag non noté.
+# Personnages (tag compteur type)
+vi 6222 Character
+jaiden 6220 Character, ambiguous
+isabella_valentine 6191 Character
+luigi 6177 Character, ambiguous
+gawr_gura 6164 Character, ambiguous
+misato_katsuragi 6164 Character
+robin_(dc) 6158 Character
+trixie_(mlp) 6137 Character
+tenten 6132 Character
+felicia_(darkstalkers) 6117 Character
+orihime_inoue 6109 Character
+beerus 6078 Character
+kit_(gameoverse) 6069 Character, ambiguous
+hestia_(danmachi) 6063 Character
+ashley_graham_(ella_freya) 6057 Character
+max_caulfield 6042 Character
+sayori_(doki_doki_literature_club) 6010 Character
+ranma_saotome 5998 Character
+vaggie_(hazbin_hotel) 5958 Character
+midnight_lycanroc 5951 Character
+mitsuki_bakugou 5948 Character
+uzumaki_boruto 5944 Character, ambiguous
+kallen_stadtfeld 5920 Character
+sailor_moon 5912 Character
+melony_(pokemon) 5911 Character
+raven_team_leader 5862 Character
+clark_kent 5852 Character
+chel_(the_road_to_el_dorado) 5849 Character
+lapis_lazuli_(steven_universe) 5844 Character
+female_chara 5842 Character
+roronoa_zoro 5823 Character
+lucyna_kushinada 5815 Character
+katarina_du_couteau 5811 Character
+jill_valentine_(julia_voth) 5811 Character
+komi_shuuko 5778 Character, ambiguous
+firefly_(honkai:_star_rail) 5770 Character
+taihou_(azur_lane) 5769 Character
+rangiku_matsumoto 5765 Character
+son_gohan 5762 Character
+edelgard_von_hresvelg 5756 Character
+mavuika_(genshin_impact) 5748 Character
+satoru_gojo 5745 Character
+patchouli_knowledge 5736 Character
+villager_(animal_crossing) 5732 Character
+ghislaine_dedoldia 5699 Character
+star_butterfly 5697 Character
+tharja_(fire_emblem) 5693 Character
+# Ignorés (type General) : rexouium, lombax, wyvern, bat_pony
+# Copyright (tag compteur)
+shueisha 6229
+clash_(series) 6206
+plants_vs._zombies 6185
+samurai_shodown 6173
+ok_k.o.!_let's_be_heroes 6170
+final_fantasy_x 6162
+solo_leveling 6153
+ragnarok_online 6149
+kanojo_okarishimasu 6145
+japanese_mythology 6137
+creepypasta 6123
+fnf 6077
+wizards_of_the_coast 6071
+left_4_dead_(series) 6066
+strike_witches 6057
+kuroinu_~kedakaki_seijo_wa_hakudaku_ni_somaru~ 6038
+soul_eater 6024
+tekken_7 5993
+totally_spies 5987
+seiken_densetsu_3 5944
+ninja_gaiden 5933
+destiny_(game) 5846
+sly_cooper_(series) 5809
+clash_royale 5784
+newgrounds 5776
+lucky_star 5760
+smite 5737
+black_lagoon 5711

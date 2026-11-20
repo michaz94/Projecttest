@@ -1,0 +1,79 @@
+rang_communaute,personnage,tag_danbooru,danbooru_2026_10_23,score_site,score_normalise,nb_listes,r34_2026_09_27,live_avg,live_rang_avg,live_most,live_pctS,live_votes
+1,2B,2b_(nier:automata),12523,5.7,0.807,13,42454,4.192,1,S,59.3,626
+2,Tifa Lockhart,tifa_lockhart,17342,5.3,0.821,12,53420,3.717,29,S,38.7,2880
+3,Samus Aran,samus_aran,8251,5.15,0.79,12,36750,3.495,59,S,37.5,863
+5,D.Va,d.va_(overwatch),5414,4.9,0.593,13,35323,3.521,50,S,36.9,1358
+6,Mythra,mythra_(xenoblade),8498,4.55,0.727,11,,3.0,218,B,15.7,2192
+7,Pyra,pyra_(xenoblade),9603,4.55,0.657,12,,2.931,249,B,19.0,1584
+10,Eve (Stellar Blade),eve_(stellar_blade),1089,4.35,0.681,11,,3.411,73,S,33.9,781
+11,Cynthia,cynthia_(pokemon),7823,4.25,0.524,12,,3.213,132,S,31.6,1571
+12,Cammy,cammy_white,5886,4.2,0.753,10,,3.286,112,S,34.0,482
+13,Lisa (Genshin),lisa_(genshin_impact),2451,4.15,0.628,11,,3.469,61,S,32.1,1008
+14,Zelda,princess_zelda,17086,4.05,0.673,10,39082,2.567,470,D,14.0,749
+16,Tracer,tracer_(overwatch),1992,3.95,0.577,11,,2.608,447,D,14.8,398
+17,Raiden Shogun,raiden_shogun,22186,3.9,0.648,10,,3.271,117,S,26.6,779
+19,Sonia (Pokémon),sonia_(pokemon),3048,3.85,0.548,10,,2.844,300,D,20.0,449
+20,Rias Gremory,rias_gremory,1775,3.85,0.819,8,,3.735,27,S,47.4,249
+21,Jane Doe (ZZZ),jane_doe_(zenless_zone_zero),6337,3.85,0.614,10,,3.764,22,S,42.8,1397
+22,Mercy,mercy_(overwatch),3479,3.8,0.521,11,,3.112,174,S,24.0,730
+23,Ellen Joe,ellen_joe,9828,3.75,0.592,10,,3.674,34,S,42.8,549
+24,Yoruichi,shihouin_yoruichi,3129,3.6,0.804,8,,4.1,3,S,56.8,280
+27,Baiken,baiken,1543,3.6,0.485,10,,2.783,337,D,20.7,290
+28,Erza Scarlet,erza_scarlet,1238,3.55,0.789,8,,3.316,100,A,22.9,231
+29,Peach,princess_peach,8756,3.55,0.52,11,50129,2.525,517,D,14.6,705
+31,Mona (Genshin),mona_(genshin_impact),10023,3.55,0.669,8,,3.312,102,S,29.3,426
+32,Juri Han,han_juri,4445,3.5,0.623,9,,3.0,216,S,32.6,233
+36,Chun-Li,chun-li,9310,3.4,0.668,9,40023,3.616,40,S,42.8,568
+38,Albedo (Overlord),albedo_(overlord),1590,3.4,0.705,8,,3.947,8,S,47.6,246
+46,Lucina,lucina_(fire_emblem),5459,3.2,0.569,9,,2.274,742,D,5.8,226
+49,Asuna,asuna_(sao),6132,3.2,0.462,10,,3.604,42,S,37.0,1987
+50,Yoko Littner,yoko_littner,5480,3.15,0.84,7,,3.496,57,S,28.6,234
+51,Makima,makima_(chainsaw_man),11206,3.15,0.732,8,33343,3.587,43,S,40.1,269
+52,Yae Miko,yae_miko,12558,3.15,0.619,8,,3.396,77,S,29.8,963
+53,Ganyu,ganyu_(genshin_impact),20295,3.15,0.561,9,,3.231,126,S,23.2,823
+55,Nemona,nemona_(pokemon),2288,3.1,0.452,8,,1.909,1045,D,8.1,1487
+62,Lucy Heartfilia,lucy_heartfilia,1500,3.05,0.759,7,,3.004,215,B,16.1,223
+63,Eula,eula_(genshin_impact),6504,3.05,0.635,8,,2.94,245,B,14.4,583
+68,Amber (Genshin),amber_(genshin_impact),3448,3.0,0.646,7,,2.921,258,B,16.5,417
+69,Tharja,tharja_(fire_emblem),2029,3.0,0.623,8,,2.87,288,D,17.3,346
+70,Felicia,felicia_(darkstalkers),2451,3.0,0.485,8,,2.732,361,D,19.7,380
+76,Power,power_(chainsaw_man),6799,2.9,0.704,7,,3.195,138,A,19.9,241
+79,Camilla,camilla_(fire_emblem),3040,2.9,0.545,8,,3.338,92,S,34.0,515
+84,Aerith,aerith_gainsborough,12144,2.8,0.699,7,,2.655,410,D,11.7,377
+87,Dawn (Pokémon),dawn_(pokemon),9688,2.8,0.465,8,,2.033,935,D,7.3,303
+88,Mallow,mallow_(pokemon),2644,2.8,0.401,8,,1.92,1034,D,8.4,1389
+91,Krystal,krystal,408,2.8,0.371,7,,1.857,1089,D,8.0,237
+93,Yor Forger,yor_briar,11613,2.75,0.827,6,,4.03,5,S,50.8,264
+96,Hu Tao,hu_tao_(genshin_impact),14676,2.75,0.499,8,,3.13,164,S,29.1,361
+101,Arlecchino,arlecchino_(genshin_impact),6024,2.7,0.671,6,,3.223,128,S,30.8,399
+103,Ada Wong,ada_wong,2560,2.65,0.735,7,,3.892,16,S,45.8,277
+104,Nami,nami_(one_piece),11327,2.65,0.808,6,56885,3.475,60,S,32.5,265
+108,Kafka (HSR),kafka_(honkai:_star_rail),8223,2.6,0.663,7,,3.527,48,S,35.6,863
+115,Widowmaker,widowmaker_(overwatch),1905,2.55,0.417,9,31708,3.088,182,S,29.9,696
+117,Cortana,cortana,259,2.55,0.531,7,,3.324,97,S,27.9,247
+122,Jessie (FF7),jessie_rasberry,305,2.45,0.526,7,,1.855,1092,D,3.2,339
+123,Ashe (Overwatch),ashe_(overwatch),320,2.45,0.415,8,,2.911,264,A,14.3,280
+132,Lumine,lumine_(genshin_impact),22517,2.4,0.607,6,,2.437,603,D,8.4,453
+144,Emilia,emilia_(re:zero),5408,2.3,0.617,6,,3.06,196,S,24.5,216
+146,Ahri,ahri_(league),4702,2.3,0.495,7,,2.85,295,D,20.2,327
+147,Taihou,taihou_(azur_lane),6490,2.3,0.524,6,,2.696,388,B,10.7,655
+152,Mavuika,mavuika_(genshin_impact),2601,2.3,0.595,6,,3.377,82,S,28.6,1661
+153,Clorinde,clorinde_(genshin_impact),2874,2.25,0.625,6,,3.084,184,B,18.3,1231
+156,Pauline,pauline_(nintendo),660,2.25,0.437,8,,2.636,423,D,18.5,324
+158,Fern,fern_(sousou_no_frieren),9879,2.25,0.548,6,,2.992,220,D,20.3,236
+160,Furina,furina_(genshin_impact),14219,2.25,0.446,6,,2.76,341,D,18.8,404
+174,Shenhe,shenhe_(genshin_impact),6420,2.15,0.542,6,,3.061,194,B,17.5,992
+183,Lara Croft,lara_croft,582,2.1,0.53,6,32532,3.238,124,B,22.8,307
+192,Yelan,yelan_(genshin_impact),4711,2.05,0.494,6,,3.2,135,B,23.3,571
+193,Ishtar (Fate),ishtar_(fate),5391,2.05,0.494,6,,2.759,342,D,17.1,328
+202,Bronya (HSR),bronya_rand,1203,2.0,0.435,6,,2.342,673,D,5.9,421
+204,Sheik,sheik,917,2.0,0.413,7,,2.338,679,D,13.1,222
+211,Citlali,citlali_(genshin_impact),4052,2.0,0.415,7,,2.586,464,D,14.4,355
+215,Ruto,princess_ruto,330,1.95,0.351,6,,1.768,1151,D,3.3,211
+228,Dehya,dehya_(genshin_impact),1875,1.9,0.333,6,,3.125,167,B,16.4,2850
+233,Jinx (Arcane),jinx_(league),3628,1.85,0.512,6,,2.61,445,D,15.5,277
+235,Keqing,keqing_(genshin_impact),8468,1.85,0.345,6,,2.541,501,B,9.1,451
+236,Symmetra,symmetra_(overwatch),375,1.85,0.334,7,,2.509,534,D,9.8,275
+237,Lyra (Pokémon),lyra_(pokemon),3024,1.85,0.298,6,,1.523,1269,D,1.8,218
+278,Mipha,mipha,740,1.7,0.357,6,,2.031,936,D,9.7,226
+298,Brighid,brighid_(xenoblade),521,1.6,0.298,6,,2.317,698,D,5.0,379

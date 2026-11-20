@@ -1,0 +1,34 @@
+# Dépendances et builds (Node / Vite / Next)
+node_modules/
+dist/
+.next/
+out/
+build/
+
+# Variables d'environnement
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Système
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*

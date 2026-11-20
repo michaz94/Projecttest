@@ -1,0 +1,233 @@
+element;influence;type;points;preuve;source
+Monde : structure, zones, géographie politique (pôle B2);Runeterra (LoL, Arcane, Legends of Runeterra);U;2;Note du dépôt : « Référence principale du monde. Edenia en est proche »;YAML
+Monde : structure, zones, géographie politique (pôle B2);Runeterra (LoL, Arcane, Legends of Runeterra);E;2;"Plan politique envisagé (royaume principal, cités-États, royaumes adjacents) ; modèle de monde « W3 + Runeterra + FMA »";YAML, U 11 oct.
+Monde : structure, zones, géographie politique (pôle B2);Runeterra (LoL, Arcane, Legends of Runeterra);I;1;Zone de brouillon « Nouvelle-Orléans / Caraïbes » inspirée de Bilgewater;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);Runeterra (LoL, Arcane, Legends of Runeterra);I;1;Zone de brouillon « Piltover / Columbia »;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);The Witcher 3;U;2;Aspect visé : structure du monde (« U avait déjà cité The Witcher 3 comme modèle du monde »);YAML
+Monde : structure, zones, géographie politique (pôle B2);The Witcher 3;E;2;"Plan envisagé ; modèle de monde « W3 + Runeterra + FMA »";YAML, U 11 oct.
+Monde : structure, zones, géographie politique (pôle B2);The Witcher 3;I;1;Zone marais : le brouillon cite Velen;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);Fullmetal Alchemist;E;2;"Plan envisagé ; modèle de monde « W3 + Runeterra + FMA »";YAML, U 11 oct.
+Monde : structure, zones, géographie politique (pôle B2);Fullmetal Alchemist;I;1;« FMA correspond au modèle un pays principal, avec des régions culturelles et des voisins »;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);BioShock Infinite;D;3;Zone industrielle de type BioShock Infinite;YAML (décidé)
+Monde : structure, zones, géographie politique (pôle B2);BioShock Infinite;I;1;Zone de brouillon « Piltover / Columbia »;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);BioShock (premier du nom);I;1;"« Piltover-BioShock 1 / Gadgetzan » (brouillon) ; source de la zone mafieuse";"YAML ; U 12 oct."
+Monde : structure, zones, géographie politique (pôle B2);Légende arthurienne (Perceval, Vulgate);D;3;"Lieux décidés Brocéliande et Le Lac ; règle « lieux arthuriens français uniquement »";YAML (décidé)
+Monde : structure, zones, géographie politique (pôle B2);Légende arthurienne (Perceval, Vulgate);E;2;Six lieux envisagés (Douloureuse Garde, Bénoïc, Gaunes, Trèbes, Montlair, Terre Déserte);YAML (envisagé)
+Monde : structure, zones, géographie politique (pôle B2);Légende arthurienne (Perceval, Vulgate);I;1;Zone de brouillon « Brocéliande, forêt féerique avec une école »;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);Folklore français (carte « Mythical Beasts of France »);E;2;Région montagnarde enneigée (décidée) avec les Barbegazi comme créature locale (envisagés);YAML
+Monde : structure, zones, géographie politique (pôle B2);Folklore français (carte « Mythical Beasts of France »);U;2;Héritage francophone gardé entre les zones;U 12 oct.
+Monde : structure, zones, géographie politique (pôle B2);Folklore français (carte « Mythical Beasts of France »);I;1;Héritages « répartis par régions » (une des deux façons retenues);YAML
+Monde : structure, zones, géographie politique (pôle B2);Occultisme et ésotérisme;U;2;Règle France, sinon Angleterre et Allemagne : « pays principaux de l'occultisme »;U 12 oct.
+Monde : structure, zones, géographie politique (pôle B2);Shrek;I;1;Zone marais « style bayou ou marais de Shrek »;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);Urban Rivals;U;2;« attrait […] pour les univers hétéroclites, avec des gangs et des designs reconnaissables »;influences-atelier.md
+Monde : structure, zones, géographie politique (pôle B2);Urban Rivals;I;1;Aspect visé : plusieurs zones culturelles dans un même lieu;YAML (intérêt)
+Monde : structure, zones, géographie politique (pôle B2);Fondation SCP (dont la Chicago Spirit);U;2;"Chicago Spirit citée comme source de la zone mafieuse ; structure sociale gardée";U 12 oct.
+Monde : structure, zones, géographie politique (pôle B2);Warcraft / Hearthstone;I;1;Gadgetzan dans la liste de zones du brouillon (rapprochement déjà fait par toi);"YAML ; U 12 oct."
+Monde : structure, zones, géographie politique (pôle B2);Warcraft / Hearthstone;H;0.5;Monde en mosaïque de factions hérité des jeux de cartes (principe P-D);IA, 12 oct.
+Monde : structure, zones, géographie politique (pôle B2);La Princesse et la Grenouille (Disney, 2009);I;1;Les deux images vont à la zone marais (« style bayou »);"U 12 oct. ; zone en intérêt"
+Monde : structure, zones, géographie politique (pôle B2);La Princesse et la Grenouille (Disney, 2009);I;1;Les deux images vont à la zone Nouvelle-Orléans / Caraïbes;"U 12 oct. ; zone en intérêt"
+Monde : structure, zones, géographie politique (pôle B2);The Stormlight Archive;I;1;Zone désertique pensée d'après les Plaines Brisées de Roshar;U 12 oct.
+Technologie et époque (pôle B2);BioShock Infinite;I;1;Contrainte liée dans la fiche : le plafond technologique (1950, baisse à 1914 envisagée);YAML
+Technologie et époque (pôle B2);BioShock Infinite;H;0.5;1914 (envisagé) proche de 1912, date de BioShock Infinite;IA (déduction 7)
+Technologie et époque (pôle B2);Occultisme et ésotérisme;U;2;"Occultisme des années 1890-1910 en tête ; « je ne veux pas dépasser 1914 »";U 12 oct.
+Technologie et époque (pôle B2);Occultisme et ésotérisme;H;0.5;1914 ferme aussi la grande époque des sociétés occultes (Belle Époque);IA (abduction 10)
+Technologie et époque (pôle B2);Fondation SCP (dont la Chicago Spirit);I;1;Chicago Spirit, organisation du début du XXᵉ siècle, gardée sous 1914;U 12 oct.
+Technologie et époque (pôle B2);BioShock (premier du nom);I;1;Gardé seulement pour ce qui tient sous 1914;U 12 oct.
+Technologie et époque (pôle B2);Radiant / Fabula Fantasia (Tony Valente);I;1;Cadre temporel flou comme Radiant;YAML
+Technologie et époque (pôle B2);Runeterra (LoL, Arcane, Legends of Runeterra);I;1;Cadre temporel flou comme Runeterra;YAML
+Technologie et époque (pôle B2);Runeterra (LoL, Arcane, Legends of Runeterra);H;0.5;Inégalité régionale par les ressources « comme les autres modèles » (Piltover);IA (interprétation)
+Technologie et époque (pôle B2);One Piece;I;1;Cadre temporel flou comme One Piece;YAML
+Technologie et époque (pôle B2);Naruto;I;1;Cadre temporel flou comme Naruto;YAML
+Technologie et époque (pôle B2);Renaissance (période);I;1;Renaissance : science, folklore, superstitions, croyances, magie;YAML (intérêt)
+Technologie et époque (pôle B2);Moyen Âge, bas et milieu (période);I;1;Bas et milieu Moyen Âge;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dictionnaire infernal (Collin de Plancy);D;3;Agrippa;YAML (décidé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dictionnaire infernal (Collin de Plancy);E;2;Gremory/Gomory;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dictionnaire infernal (Collin de Plancy);E;2;Furfur;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dictionnaire infernal (Collin de Plancy);E;2;Marbas;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dictionnaire infernal (Collin de Plancy);E;2;Stolas;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dictionnaire infernal (Collin de Plancy);I;1;Figures non précisées : Faust, Albert le Grand, Grandier, Merlin, Abel de Larue;YAML
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dictionnaire infernal (Collin de Plancy);I;1;Cour infernale;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklore français (carte « Mythical Beasts of France »);E;2;Barbegazi;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklore français (carte « Mythical Beasts of France »);E;2;Mélusine;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklore français (carte « Mythical Beasts of France »);E;2;Ankou;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklore français (carte « Mythical Beasts of France »);E;2;Mourioche, Petit Homme rouge, Gayant, Houeron, Tarasque;YAML (envisagé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklore français (carte « Mythical Beasts of France »);I;1;Loup-garou, Vouivre, Fée…;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklore français (carte « Mythical Beasts of France »);I;1;Gargouille, Dame verte, Chien noir de Pontgibaud…;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklore français (carte « Mythical Beasts of France »);I;1;Les 24 créatures de la carte en intérêt;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Légende arthurienne (Perceval, Vulgate);D;3;Personnages arthuriens : des inspirations seulement, sous d'autres noms;YAML (décidé)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Occultisme et ésotérisme;I;1;"Penche vers l'ambiance (symboles, décors, objets rituels) ; livres de sorts : « ce qui compte surtout : les symboles sur le livre » ; volontairement non tranché";YAML, U 7 oct.
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Renaissance (période);I;1;Renaissance : folklore, superstitions, croyances, magie;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Bibliothèque bleue;I;1;Le contenu des livres de la Bibliothèque bleue;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Bibliothèque bleue;H;0.5;Matrice commune de la chevalerie, du conte et de la superstition;IA (abduction 4)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dante (Inferno, Purgatorio);I;1;Inferno;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dante (Inferno, Purgatorio);I;1;Purgatorio;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Tradition catholique (Limbes, purgatoire);I;1;Limbo catholique;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Tradition catholique (Limbes, purgatoire);I;1;Purgatoire classique;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);X-Men / Marvel (Magik);I;1;Limbo de Magik;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Dorohedoro;I;1;Enfer et démons de Dorohedoro;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);The Witcher 3;I;1;Chasse sauvage, découverte avec The Witcher 3;YAML, fiche créatures
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Hellboy;I;1;Chasse sauvage, retrouvée dans Hellboy;fiche créatures
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Urban Rivals;I;1;Yétis (groupe), inspirés des Frozn;YAML (intérêt)
+Matière : folklore, légendes, occultisme, au-delà (pôle B);La Princesse et la Grenouille (Disney, 2009);H;0.5;Masques, statuettes et bougies du salon : l'occultisme d'ambiance vers lequel tu penches;IA, 12 oct.
+Matière : folklore, légendes, occultisme, au-delà (pôle B);Folklores gréco-égyptiens;I;1;Corpus cité, sans usage précisé;YAML
+Société et institutions : rangs, titres, organisations (pôle B);Dictionnaire infernal (Collin de Plancy);U;2;Aspect visé : les hiérarchies;YAML
+Société et institutions : rangs, titres, organisations (pôle B);Dictionnaire infernal (Collin de Plancy);I;1;Cour infernale;YAML (intérêt)
+Société et institutions : rangs, titres, organisations (pôle B);Dictionnaire infernal (Collin de Plancy);H;0.5;L'enfer copie la monarchie humaine (Abigor, Adraméleck, Léonard dans tes extraits);IA (déduction 4, L3)
+Société et institutions : rangs, titres, organisations (pôle B);Dictionnaire féodal (1820);I;1;Source documentaire du dépôt (titres, chevalerie, champions);YAML (dépôt)
+Société et institutions : rangs, titres, organisations (pôle B);Dictionnaire féodal (1820);H;0.5;Chevalerie interdite au roturier;IA (BRIEF A5)
+Société et institutions : rangs, titres, organisations (pôle B);Bleach;U;2;Aspect visé : la structure du Gotei 13;YAML, U 8 oct.
+Société et institutions : rangs, titres, organisations (pôle B);Hunter × Hunter;I;1;Gimmick Hunter : un statut délivré par une institution;YAML
+Société et institutions : rangs, titres, organisations (pôle B);The Hunters Guild: Red Hood;H;0.5;Modèle de la guilde;IA (7 oct.)
+Société et institutions : rangs, titres, organisations (pôle B);Runeterra (LoL, Arcane, Legends of Runeterra);E;2;"École ou académie à cadre vestimentaire imposé (envisagée) ; tenue Academy Ekko";YAML
+Société et institutions : rangs, titres, organisations (pôle B);Harry Potter (films et livres);I;1;École de type Harry Potter à Brocéliande;YAML (intérêt)
+Société et institutions : rangs, titres, organisations (pôle B);Légende arthurienne (Perceval, Vulgate);H;0.5;Goal « devenir chevalier » = goal d'ouverture de Perceval;IA (déduction 5)
+Société et institutions : rangs, titres, organisations (pôle B);Radiant / Fabula Fantasia (Tony Valente);I;1;Tenue Fabula Fantasia : « surtout pour des personnages de profession Chevalier »;YAML
+Société et institutions : rangs, titres, organisations (pôle B);Fondation SCP (dont la Chicago Spirit);U;2;Zone mafieuse : seulement la structure sociale;U 12 oct.
+Société et institutions : rangs, titres, organisations (pôle B);Warcraft / Hearthstone;I;1;Gadgetzan : ville tenue par des familles criminelles;U 12 oct.
+Pouvoirs et gimmick (pôle B2, système);Fullmetal Alchemist;U;2;Aspect visé : les deux traditions d'alchimie;YAML
+Pouvoirs et gimmick (pôle B2, système);Fullmetal Alchemist;I;1;Gimmick Alchimiste;YAML
+Pouvoirs et gimmick (pôle B2, système);Bleach;U;2;Aspect visé : le Bankai;YAML, U 8 oct.
+Pouvoirs et gimmick (pôle B2, système);Bleach;I;1;Gimmick Shinigami;YAML
+Pouvoirs et gimmick (pôle B2, système);One Piece;I;1;Gimmick Pirate;YAML
+Pouvoirs et gimmick (pôle B2, système);Naruto;I;1;Gimmick Ninja;YAML
+Pouvoirs et gimmick (pôle B2, système);Hunter × Hunter;I;1;Gimmick Hunter;YAML
+Pouvoirs et gimmick (pôle B2, système);Jujutsu Kaisen;H;0.5;« Version améliorée et modernisée de Bleach et de YYH » (ton jugement, pas un usage);YAML, U 8 oct.
+Pouvoirs et gimmick (pôle B2, système);Légende arthurienne (Perceval, Vulgate);H;0.5;« Chevalier » comme gimmick latent;IA (abduction 3)
+Pouvoirs et gimmick (pôle B2, système);Dictionnaire infernal (Collin de Plancy);H;0.5;"Grandier comme matière du gimmick Exorciste ; rites à conditions";IA (addendum §8)
+Personnages (pôle C);One Piece;U;2;Luffy, inspiration de Brann;YAML
+Personnages (pôle C);Yu Yu Hakusho;U;2;Yusuke, inspiration de Brann;YAML
+Personnages (pôle C);Fullmetal Alchemist;U;2;Edward, inspiration de Brann;YAML
+Personnages (pôle C);Légende arthurienne (Perceval, Vulgate);U;2;Perceval, inspiration de Brann;YAML
+Personnages (pôle C);Légende arthurienne (Perceval, Vulgate);H;0.5;Goal de Brann = goal d'ouverture de Perceval;IA (déduction 5)
+Personnages (pôle C);Runeterra (LoL, Arcane, Legends of Runeterra);U;2;Ekko, inspiration de Cosmo;YAML
+Personnages (pôle C);Hunter × Hunter;U;2;Killua, inspiration de Cosmo;YAML
+Personnages (pôle C);Hunter × Hunter;H;0.5;Cosmo construit comme le « second aimé »;IA (induction 4)
+Personnages (pôle C);Naruto;U;2;Shisui, inspiration de Cosmo;YAML
+Personnages (pôle C);The Stormlight Archive;U;2;Shallan, inspiration de Harley;YAML
+Personnages (pôle C);Harry Potter (films et livres);U;2;Hermione, inspiration de Harley;YAML
+Personnages (pôle C);Harry Potter (films et livres);U;2;Luna Lovegood, personnalité visée pour Harley;U 12 oct.
+Personnages (pôle C);Harry Potter (films et livres);I;1;Le nom « Harley » rapproche d'Hermione;U 12 oct.
+Personnages (pôle C);Worm;U;2;Tattletale, inspiration de Harley;YAML
+Personnages (pôle C);X-Men / Marvel (Magik);U;2;Magik, inspiration de Harley;YAML
+Personnages (pôle C);Soul Eater;U;2;Maka Albarn, personnalité visée pour Harley;U 12 oct.
+Personnages (pôle C);Ben 10;I;1;Gwen Tennyson : prénom et modèle d'origine de Harley;U 12 oct.
+Personnages (pôle C);Ben 10;I;1;« Bran » rapproché de Ben 10;U 12 oct.
+Personnages (pôle C);Game of Thrones;I;1;Le nom « Bran » vient de GoT;U 12 oct.
+Personnages (pôle C);Warcraft / Hearthstone;I;1;« Brann » vient de Hearthstone;U 12 oct.
+Visuel : trait et style de dessin (pôle A1);Disney / Pixar (style d'animation);U;2;« Disney Pixar est le style que je cherche à atteindre »;U 12 oct.
+Visuel : trait et style de dessin (pôle A1);Codes du manga (yeux, forme du visage);U;2;« légèrement différent, pour qu'il soit plus manga compatible, c'est surtout pour les yeux et la forme du visage »;U 12 oct.
+Visuel : trait et style de dessin (pôle A1);Cartoon semi-réaliste (famille de styles);U;2;« J'aime bien le style semi-realistic cartoon, je trouve que ça peut rendre bien en manga »;U 12 oct.
+Visuel : trait et style de dessin (pôle A1);Shadman;U;2;« Mes autres références en termes de dessin »;U 12 oct.
+Visuel : trait et style de dessin (pôle A1);Quirkilicious (Drake Tsui);U;2;« Mes autres références en termes de dessin »;U 12 oct.
+Visuel : trait et style de dessin (pôle A1);Jujutsu Kaisen;U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);atie1225 (鉄, illustrateur sur X);U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Shadman;U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Disney / Pixar (style d'animation);U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Spider-Verse (films d'animation Spider-Man);U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Naruto;U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Gachiakuta (Kei Urana, graffitis d'Ando Hideyoshi);U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Quirkilicious (Drake Tsui);U;2;« Je crois que mon style artistique se trouve dans […] » (liste de 8 noms);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);atie1225 (鉄, illustrateur sur X);U;2;« Atie1225 me sert plus comme un Lora de base » (le mot « sketchy », jugé trop fort, retiré par toi le 15 oct.);U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Gachiakuta (Kei Urana, graffitis d'Ando Hideyoshi);U;2;« Gachiakuta (il y a deux modèles que j'utilise), c'est le deuxième Lora qui me sert de base »;U 15 oct.
+Visuel : trait et style de dessin (pôle A1);Quirkilicious (Drake Tsui);U;2;« Quirikilicious surtout son style sur S.I.N est le style artistique que j'aime le plus »;doc. PixAI « Arcana 2 » (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Jujutsu Kaisen;U;2;Tag positif habituel : « Jujutsu Kaisen Style (et ces dérivés) »;doc. PixAI « Arcana 2 » (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Capcom / Street Fighter (jeux de combat);I;1;Tags habituels : « parfois Street Fighters Characters »;doc. PixAI « Arcana 2 » (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Shadman;I;1;« Lora Préféré : Shadman, Gachiakuta, Attie, Kanoaya Sachiko, Quirkilicious, Disney Pixar, DreamWorks »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Gachiakuta (Kei Urana, graffitis d'Ando Hideyoshi);I;1;« Lora Préféré : Shadman, Gachiakuta, Attie, Kanoaya Sachiko, Quirkilicious, Disney Pixar, DreamWorks »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);atie1225 (鉄, illustrateur sur X);I;1;« Lora Préféré : Shadman, Gachiakuta, Attie, Kanoaya Sachiko, Quirkilicious, Disney Pixar, DreamWorks »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Kaneoya Sachiko (écrit « Kanoaya Sachiko »);I;1;« Lora Préféré : Shadman, Gachiakuta, Attie, Kanoaya Sachiko, Quirkilicious, Disney Pixar, DreamWorks »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Quirkilicious (Drake Tsui);I;1;« Lora Préféré : Shadman, Gachiakuta, Attie, Kanoaya Sachiko, Quirkilicious, Disney Pixar, DreamWorks »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Disney / Pixar (style d'animation);I;1;« Lora Préféré : Shadman, Gachiakuta, Attie, Kanoaya Sachiko, Quirkilicious, Disney Pixar, DreamWorks »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);DreamWorks Animation (style);I;1;« Lora Préféré : Shadman, Gachiakuta, Attie, Kanoaya Sachiko, Quirkilicious, Disney Pixar, DreamWorks »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Jomaro Kindred (concept artist, Hearthstone);I;1;« Artiste non loraisé mais que j'aime bien : Jomaro Kindred, Joe Madureira, Tetsuya Nomura »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Joe Madureira;I;1;« Artiste non loraisé mais que j'aime bien : Jomaro Kindred, Joe Madureira, Tetsuya Nomura »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Tetsuya Nomura / Kingdom Hearts (style de personnages);I;1;« Artiste non loraisé mais que j'aime bien : Jomaro Kindred, Joe Madureira, Tetsuya Nomura »;doc. PixAI « Arcana Art », partie 1 (PDF, sept.)
+Visuel : trait et style de dessin (pôle A1);Raiponce / Tangled (Disney, 2010);I;1;Cinq dessins de Raiponce donnés comme exemples du style cherché;U 12 oct.
+Visuel : trait et style de dessin (pôle A1);Runeterra (LoL, Arcane, Legends of Runeterra);I;1;Art de Runeterra perçu comme « plus semi-réaliste stylisé et plus compatible avec le manga shōnen »;Benchmark Oeuvre/01_CONTEXTE_ET_SUITE
+Visuel : chara-design et tenues (pôle A3);Runeterra (LoL, Arcane, Legends of Runeterra);D;3;« Archaïque mais pas trop » (décidé), inspiré de Radiant et de Runeterra;YAML
+Visuel : chara-design et tenues (pôle A3);Runeterra (LoL, Arcane, Legends of Runeterra);U;2;Emprunt de tenue : Academy Ekko, « tenue qui l'inspire le plus » (Cosmo);YAML, U 7 oct.
+Visuel : chara-design et tenues (pôle A3);Radiant / Fabula Fantasia (Tony Valente);D;3;« Archaïque mais pas trop » (décidé), inspiré de Radiant et de Runeterra;YAML
+Visuel : chara-design et tenues (pôle A3);Radiant / Fabula Fantasia (Tony Valente);U;2;Emprunt de tenue : « style copié/inspiré de Radiant »;YAML, U 7 oct.
+Visuel : chara-design et tenues (pôle A3);Radiant / Fabula Fantasia (Tony Valente);U;2;Fabula Fantasia : tenue de Brann (« moins claire »);YAML
+Visuel : chara-design et tenues (pôle A3);Harry Potter (films et livres);E;2;Harry Potter (films) : aspect visé esthétique et visuels;YAML (envisagé)
+Visuel : chara-design et tenues (pôle A3);Harry Potter (films et livres);I;1;Test de tenue « proche de Harry Potter », dont tu aimes beaucoup le rendu;YAML
+Visuel : chara-design et tenues (pôle A3);Jujutsu Kaisen;I;1;Même test de tenue : « un peu de Jujutsu Kaisen »;YAML
+Visuel : chara-design et tenues (pôle A3);Capcom / Street Fighter (jeux de combat);U;2;Projet de jeu à 16 ans : « esthétique Capcom de Street Fighter », légèrement transféré dans tes mangas;influences-atelier.md
+Visuel : chara-design et tenues (pôle A3);Urban Rivals;U;2;"« des designs reconnaissables » ; designs du projet de jeu";influences-atelier.md
+Visuel : chara-design et tenues (pôle A3);Overwatch;I;1;Designs du projet de jeu;influences-atelier.md
+Visuel : chara-design et tenues (pôle A3);Dictionnaire infernal (Collin de Plancy);U;2;Gremory, Furfur, Marbas et Stolas sont choisis « surtout pour leur design et leur représentation artistique »;YAML, fiche créatures
+Visuel : chara-design et tenues (pôle A3);Raiponce / Tangled (Disney, 2010);U;2;Harley : « pour moi son apparence ressemble à Raiponce de Tangled »;U 12 oct.
+Visuel : chara-design et tenues (pôle A3);Raiponce / Tangled (Disney, 2010);H;0.5;Raiponce est un conte des Grimm, donc allemand : cohérent avec ta règle France, Angleterre, Allemagne;IA, 12 oct.
+Visuel : chara-design et tenues (pôle A3);Naruto;H;0.5;Ch. 679 : tenues d'aventuriers de fantasy européenne (cotte de mailles, cape, chapeau de mage);IA, 12 oct.
+Visuel : chara-design et tenues (pôle A3);Inspirations asiatiques (source non précisée);E;2;Personnages d'inspiration asiatique;YAML (envisagé)
+Visuel : chara-design et tenues (pôle A3);Inspirations asiatiques (source non précisée);I;1;Objets bouddhiques japonais;YAML (intérêt)
+Visuel : chara-design et tenues (pôle A3);The Boondocks;I;1;Cosmo, test de design : « (the boondocks:1.2) »;tests PixAI « Cosmo Dumas » (docs Arcana 2 et Arcana Art, sept.)
+Visuel : chara-design et tenues (pôle A3);Naruto;I;1;Cosmo, test de design : « shisui uchiha », « blue tunic, baggy pants, leg bandages »;tests PixAI « Cosmo Dumas » (docs Arcana 2 et Arcana Art, sept.)
+Visuel : chara-design et tenues (pôle A3);Tetsuya Nomura / Kingdom Hearts (style de personnages);I;1;Cosmo, test de design : « kingdom hearts Character style »;tests PixAI « Cosmo Dumas » (docs Arcana 2 et Arcana Art, sept.)
+Visuel : chara-design et tenues (pôle A3);Jujutsu Kaisen;I;1;Cosmo, test de design : « Jujutsu Kaisen Character style »;tests PixAI « Cosmo Dumas » (docs Arcana 2 et Arcana Art, sept.)
+Visuel : chara-design et tenues (pôle A3);Capcom / Street Fighter (jeux de combat);I;1;Cosmo, test de design : « street fighter Characters style »;tests PixAI « Cosmo Dumas » (docs Arcana 2 et Arcana Art, sept.)
+Visuel : décors et ambiance (pôle A2);Occultisme et ésotérisme;I;1;Cosmo, test de design : « (Occultism aesthetic), esoterism »;tests PixAI « Cosmo Dumas » (docs Arcana 2 et Arcana Art, sept.)
+Visuel : décors et ambiance (pôle A2);Shrek;D;3;Forêt de conte (décidée) : 3 des 5 images de décor sont des peintures de développement de Shrek;YAML
+Visuel : décors et ambiance (pôle A2);Shrek;E;2;Ambiance des lieux (envisagée) : peinture de développement de Shrek n° 1 (planche d'origine);YAML
+Visuel : décors et ambiance (pôle A2);Shrek;E;2;Ambiance des lieux : peinture de développement de Shrek n° 2 (planche d'origine);YAML
+Visuel : décors et ambiance (pôle A2);Shrek;E;2;Ambiance des lieux : peinture de développement de Shrek n° 3 (planche d'origine);YAML
+Visuel : décors et ambiance (pôle A2);Shrek;E;2;Ambiance des lieux : foule aux torches et épouvantail au crépuscule;U 12 oct.
+Visuel : décors et ambiance (pôle A2);Shrek;E;2;Ambiance des lieux : pierres levées au clair de lune;U 12 oct.
+Visuel : décors et ambiance (pôle A2);Shrek;E;2;Ambiance des lieux : colline et grand arbre au coucher du soleil;U 12 oct.
+Visuel : décors et ambiance (pôle A2);Shrek;I;1;Marais de Shrek;YAML (intérêt)
+Visuel : décors et ambiance (pôle A2);Shrek;I;1;Test de tenue dans un lieu « Shrekien »;YAML
+Visuel : décors et ambiance (pôle A2);Naruto;I;1;Forêt de conte : 1 des 5 images (ch. 679);YAML
+Visuel : décors et ambiance (pôle A2);Naruto;E;2;Ambiance des lieux (envisagée) : double page couleur du ch. 679;YAML
+Visuel : décors et ambiance (pôle A2);Warcraft / Hearthstone;U;2;« grande influence sur l'esthétique […] surtout les paysages forestiers »;influences-atelier.md
+Visuel : décors et ambiance (pôle A2);Warcraft / Hearthstone;H;0.5;The Witchwood : forêt corrompue, loups-garous;IA (§11.1)
+Visuel : décors et ambiance (pôle A2);Runeterra (LoL, Arcane, Legends of Runeterra);U;2;« Mais en vrai, l'esthétique d'Edenia est beaucoup plus proche de Runeterra » (dit à propos des paysages);influences-atelier.md
+Visuel : décors et ambiance (pôle A2);BioShock Infinite;H;0.5;Le « type BioShock Infinite » de la zone industrielle est aussi un modèle visuel;IA
+Visuel : décors et ambiance (pôle A2);La Princesse et la Grenouille (Disney, 2009);E;2;Ambiance des lieux : marais bleu, bateau coincé dans un cyprès (arbre de Mama Odie);U 12 oct.
+Visuel : décors et ambiance (pôle A2);La Princesse et la Grenouille (Disney, 2009);E;2;Ambiance des lieux : salon du sorcier (« Dr. Duvalier », masques, bougies, cartes);U 12 oct.
+Visuel : décors et ambiance (pôle A2);Frère des ours (Disney, 2003);E;2;Ambiance des lieux : vallée, rivière et montagnes;U 12 oct.
+Visuel : décors et ambiance (pôle A2);Contes européens (tradition);U;2;« atmosphère de conte européen au sens large (tous types de contes) »;YAML
+Narration : structure et intrigue (pôle D1-D2);The Stormlight Archive;U;2;"Seule œuvre citée sans protagoniste central ; « peut avoir des répercussions sur comment [tu traites] Edenia »";structures… §34
+Narration : structure et intrigue (pôle D1-D2);The Stormlight Archive;I;1;Narration différente de celle du Seigneur des anneaux;structures… §32
+Narration : structure et intrigue (pôle D1-D2);The Stormlight Archive;I;1;« cette impression de maîtrise »;influences-atelier.md
+Narration : structure et intrigue (pôle D1-D2);Game of Thrones;I;1;Pas de protagoniste central (ta correction);structures… §34
+Narration : structure et intrigue (pôle D1-D2);Légende arthurienne (Perceval, Vulgate);I;1;Vulgate : pas de protagoniste central;structures… §34
+Narration : structure et intrigue (pôle D1-D2);Hunter × Hunter;U;2;« l'exposition est une épreuve » (ton addendum);structures… §2
+Narration : structure et intrigue (pôle D1-D2);Hunter × Hunter;I;1;"Pas de schéma répété ; exception tardive au protagoniste central";structures… §32, §34
+Narration : structure et intrigue (pôle D1-D2);One Piece;U;2;« montrée, pas dite » (ton addendum);structures… §2
+Narration : structure et intrigue (pôle D1-D2);One Piece;I;1;Schéma répété;structures… §32
+Narration : structure et intrigue (pôle D1-D2);Le Seigneur des anneaux;I;1;Schéma répété;structures… §32
+Narration : structure et intrigue (pôle D1-D2);Bleach;U;2;Aspect visé : « la narration sur le Gotei 13 »;YAML, U 8 oct.
+Narration : structure et intrigue (pôle D1-D2);Worm;I;1;"« surtout à partir de l'arc 3, où ils font un braquage » ; « déconstruction du genre »";influences-atelier.md
+Narration : structure et intrigue (pôle D1-D2);L'Attaque des Titans;I;1;« impression de maîtrise »;influences-atelier.md
+Narration : structure et intrigue (pôle D1-D2);Quentin Tarantino;H;0.5;Le lieu de convergence installé tôt (Inglourious Basterds);IA (structures… §2, P5)
+Narration : ton et émotion (pôle D3);Hunter × Hunter;U;2;Ton visé « plus proche de Red Hood / HxH que de FMA »;YAML, U 7 oct.
+Narration : ton et émotion (pôle D3);The Hunters Guild: Red Hood;U;2;Ton visé « plus proche de Red Hood / HxH que de FMA »;YAML, U 7 oct.
+Narration : ton et émotion (pôle D3);Quentin Tarantino;I;1;"« c'est plus Tarantino, son style et sa filmographie complète » (l'élément visé n'est pas précisé ; rangé ici par l'IA)";YAML, U 8 oct.
+Narration : ton et émotion (pôle D3);The Hunters Guild: Red Hood;I;1;Relecture de contes (associée à Shrek, 3 oct.);YAML
+Narration : ton et émotion (pôle D3);Shrek;I;1;Relecture de contes (3 oct.);YAML
+Narration : ton et émotion (pôle D3);Game of Thrones;I;1;« plus sérieux »;influences-atelier.md
+Narration : ton et émotion (pôle D3);L'Attaque des Titans;I;1;"« tellement différent » ; « plus sérieux »";influences-atelier.md
+Narration : ton et émotion (pôle D3);Worm;I;1;« rationnel et réaliste »;influences-atelier.md
+Narration : ton et émotion (pôle D3);The Stormlight Archive;I;1;« ancré dans le réel (grounded) et réaliste, avec des enjeux élevés où l'on ressent la tension »;influences-atelier.md
+Narration : ton et émotion (pôle D3);Watchmen;I;1;"Une de tes œuvres préférées ; Worm = « HxH + Watchmen »";influences-atelier.md, YAML
+Action et combats (pôle E);Worm;U;2;« J'adore les combats tactiques »;influences-atelier.md
+Action et combats (pôle E);The Stormlight Archive;U;2;« des combats stratégiques »;influences-atelier.md
+Action et combats (pôle E);Capcom / Street Fighter (jeux de combat);I;1;Projet de jeu : personnages de mêlée à combos, légèrement transféré dans tes mangas;influences-atelier.md
+Action et combats (pôle E);Gigantic;I;1;Projet de jeu : modèle Gigantic (mêlée et tireurs);influences-atelier.md
+Action et combats (pôle E);Hunter × Hunter;I;1;« À peu près tout ce que je dis sur Worm […] se retrouve dans Hunter x Hunter »;influences-atelier.md
+Action et combats (pôle E);Films d'arts martiaux;H;0.5;Dans ton répertoire, sans usage dit;répertoire
+Action et combats (pôle E);Catch (WWE, NJPW, AEW);H;0.5;Dans ton répertoire (et les Huracan d'Urban Rivals), sans usage dit;répertoire
+Action et combats (pôle E);Dictionnaire infernal (Collin de Plancy);H;0.5;Mélye : l'épée bat l'enchantement (rejoint le plafond 1860);IA (addendum §8.4 F)
+Poids biographique : ce que tu dis de toi (hors œuvre);Warcraft / Hearthstone;U;2;« t'a donné l'envie de créer cette œuvre de fantasy »;U 12 oct.
+Poids biographique : ce que tu dis de toi (hors œuvre);Warcraft / Hearthstone;U;2;« grande influence sur l'esthétique d'Edenia »;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);Warcraft / Hearthstone;I;1;Environ huit ans de jeu (2015-2023);"U 12 oct. ; calendrier vérifié"
+Poids biographique : ce que tu dis de toi (hors œuvre);Fondation SCP (dont la Chicago Spirit);U;2;« source d'inspiration première, celle qui relie énormément de choses » (surtout Arcana);influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);Urban Rivals;U;2;"« une énorme source d'inspiration » ; « une grande part d'influence »";influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);Worm;U;2;Rangé dans les « inspirations majeures »;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);The Stormlight Archive;U;2;Rangé dans les « inspirations majeures »;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);Hunter × Hunter;I;1;A détrôné One Piece vers 14 ans;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);One Piece;I;1;Manga préféré vers 11 ans;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);L'Attaque des Titans;I;1;« passé devant »;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);H. P. Lovecraft;I;1;« mon auteur de romans préféré »;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);Watchmen;I;1;« une de mes œuvres préférées »;influences-atelier.md
+Poids biographique : ce que tu dis de toi (hors œuvre);Capcom / Street Fighter (jeux de combat);I;1;Projet de jeu vers 16 ans;influences-atelier.md

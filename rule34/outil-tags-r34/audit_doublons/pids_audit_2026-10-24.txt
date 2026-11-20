@@ -1,0 +1,193 @@
+# Audit complet des doublons (24/10/2026) : recherche OU, page au-delà de la fin (pid=42000 ou 84000) → pid de la dernière page ; effectif ≈ pid+21 (±21)
+harley_quinn ~ harleen_quinzel ~ harley_quinn_(classic) ~ harley_quinn_(injustice) ~ harley_quinn_(arkham) ~ harley_quinn_(arkham_knight) ~ harley_quinn_(suicide_squad_game) ~ harley_quinn_(fortnite) ~ harley_quinn_(arkham_city)	26334
+tifa_lockhart ~ tifa_lockhart_(shining_spirit) ~ tifa_lockhart_(refined_dress)	54516
+hyuuga_hinata ~ uzumaki_hinata ~ hinata_hyuuga ~ hyuuga_hinata_(genin) ~ hyuuga_hinata_(naruto:_the_last)	50148
+rouge_the_bat ~ rouge_the_bat_(nottanj) ~ rouge_the_bat_(warfaremchine) ~ rouge_the_bat_(kabalmystic)	45318
+sakura_haruno ~ haruno_sakura ~ sakura_haruno_(genin) ~ haruno_sakura_(genin)	41790
+hatsune_miku ~ miku_hatsune ~ hatsune_miku_(collared_bikini)	41538
+chun-li ~ chun-li_(fortnite) ~ chun-li_(street_fighter_6) ~ chun-li_(battle_ouffit_sfv)	41160
+tsunade ~ tsunade_(naruto) ~ tsunade_senju	41118
+amy_rose ~ amy_rose_(boom)	41664
+d.va ~ d.va_(overwatch_2_suit) ~ d.va_(overwatch)	35826
+himiko_toga ~ toga_himiko	15750
+ochako_uraraka ~ uraraka_ochako ~ ochako_uraraka_(hero_outfit) ~ uraraka_ochako_(hero_outfit)	35238
+lara_croft ~ lara_croft_(survivor) ~ lara_croft_(classic) ~ lara_croft_(l.a.u.)	32844
+mercy ~ mercy_(overwatch) ~ mercy_(overwatch_2_suit)	30618
+ahri ~ ahri_(league_of_legends)	29946
+jill_valentine ~ jill_valentine_(sasha_zotova) ~ jill_valentine_(julia_voth) ~ jill_valentine_(blonde)	25536
+toriel ~ toriel_(undertale) ~ toriel_(deltarune)	24066
+ada_wong ~ ada_wong_(adriana) ~ ada_wong_(ty_brenneman) ~ ada_wong_(caroline_ribeiro)	23226
+wonder_woman ~ diana_prince ~ wonder_woman_(injustice)	23058
+kitagawa_marin ~ marin_kitagawa	29862
+inoue_orihime ~ orihime_inoue	21168
+momo_yaoyorozu ~ yaoyorozu_momo	18942
+matsumoto_rangiku ~ rangiku_matsumoto	19488
+mina_ashido ~ ashido_mina	17766
+ino_yamanaka ~ yamanaka_ino	16926
+kugisaki_nobara ~ nobara_kugisaki	15162
+sarada_uchiha ~ uchiha_sarada	13818
+tsuyu_asui ~ asui_tsuyu	13272
+kuchiki_rukia ~ rukia_kuchiki	13860
+uzumaki_kushina ~ kushina_uzumaki	10752
+ayase_momo ~ momo_ayase	11340
+reimu_hakurei ~ hakurei_reimu	10542
+akeno_himejima ~ himejima_akeno	11214
+juri_han ~ han_juri	17388
+rei_ayanami ~ ayanami_rei	10122
+hayase_nagatoro ~ nagatoro_hayase	23184
+kanroji_mitsuri ~ mitsuri_kanroji	16800
+kochou_shinobu ~ shinobu_kocho	14658
+pomni_(the_amazing_digital_circus) ~ pomni ~ pomni_(tadc)	12516
+charlie_morningstar_(hazbin_hotel) ~ charlie_morningstar	10584
+roxanne_wolf_(fnaf) ~ roxanne_wolf	11424
+makima_(chainsaw_man) ~ makima	34734
+loona_(helluva_boss) ~ loona	42966
+# tag principal seul, même méthode (contrôle du décalage autocomplete / recherche)
+hayase_nagatoro	23100
+#nagatoro_hayase -hayase_nagatoro : 2 pages (43 à 84 posts)
+momo_yaoyorozu	18774
+mina_ashido	17346
+kugisaki_nobara	14994
+chun-li	41118
+harley_quinn	25746
+tsunade	40698
+ino_yamanaka	16926
+kitagawa_marin	28938
+uzumaki_kushina	10374
+reimu_hakurei	9954
+akeno_himejima	11046
+juri_han	17388
+rei_ayanami	9954
+tsuyu_asui	12936
+kuchiki_rukia	13860
+inoue_orihime	21168
+# --- gains directs : posts portant l'alias SANS le tag principal (recherche avec négation) ; gain ≈ pid+21, « 0 » = aucun résultat, « p1 » = une seule page (1 à 42) ---
+shinobu_kocho -kochou_shinobu	210
+mitsuri_kanroji -kanroji_mitsuri	882
+rangiku_matsumoto -matsumoto_rangiku	0 (aucun)
+charlie_morningstar -charlie_morningstar_(hazbin_hotel)	252
+makima -makima_(chainsaw_man)	126
+( uzumaki_hinata ~ hinata_hyuuga ) -hyuuga_hinata	p1
+haruno_sakura -sakura_haruno	0 (aucun)
+uraraka_ochako -ochako_uraraka	1470
+( zelda_(tears_of_the_kingdom) ~ zelda_(breath_of_the_wild) ) -princess_zelda	210
+yor_forger -yor_briar	1722
+( rumi_usagiyama ~ mirko ) -miruko	4368
+yoruichi_shihouin -shihouin_yoruichi	0 (aucun)
+misty_(pokemon) -kasumi_(pokemon)	0 (aucun)
+kara_zor-el -supergirl	1932
+karen_starr -power_girl	210
+( asuna_(sao) ~ asuna_yuuki ) -yuuki_asuna	672
+psylocke_(kwannon) -psylocke	2478
+( akali_jhomen_tethi ~ akali_(league_of_legends) ) -akali	1008
+( nezuko_kamado ~ nezuko_(demon_form) ) -kamado_nezuko	756
+sadako_yamamura -yamamura_sadako	420
+( ilulu_(maidragon) ~ ilulu ) -ilulu_(dragon_maid)	252
+kobeni_higashiyama -higashiyama_kobeni	336
+sona_(league_of_legends) -sona_buvelle	336
+toga_himiko -himiko_toga	420
+( mercy_(overwatch) ~ mercy_(overwatch_2_suit) ) -mercy	126
+( tracer_(overwatch) ~ tracer_(overwatch_2_suit) ~ widowmaker_(overwatch) ~ widowmaker_(overwatch_2_suit) ) -tracer -widowmaker	42
+( bulma_(dragon_ball) ~ bulma_briefs_(frieza_saga) ~ bulma_(bunny) ) -bulma_briefs	210
+( chichi_(majin_buu_saga) ~ chichi_(dragon_ball) ~ videl_(short_hair) ~ videl_(long_hair) ~ videl_(dragon_ball_super) ) -chichi -videl	42
+( mythra_(xenoblade) ~ pyra_(xenoblade) ) -mythra -pyra	1428
+chel_(the_road_to_el_dorado) -chel	504
+( krystal_(star_fox) ~ krystal_(assault_outfit) ) -krystal	378
+artoria_pendragon_(fate) -artoria_pendragon	1302
+( yae_miko_(genshin_impact) ~ lumine ) -yae_miko -lumine_(genshin_impact)	42
+( tatsumaki_(one-punch_man) ~ frieren_(sousou_no_frieren) ~ shadowheart_(baldur%27s_gate) ~ lamb_(lol) ~ rebecca_(cyberpunk) ~ kasane_teto_(sv) ) -tatsumaki -frieren -shadowheart -lamb_(league_of_legends) -rebecca_(edgerunners) -kasane_teto	252
+( gwen_tennyson_(classic) ~ gwen_tennyson_(alien_force) ~ gwen_tennyson_(ultimate_alien) ~ gwen_tennyson_(omniverse) ) -gwen_tennyson	p1
+mythra_(xenoblade) -mythra	924
+pyra_(xenoblade) -pyra	714
+kasane_teto_(sv) -kasane_teto	p1
+( supergirl_(injustice) ~ supergirl_(my_adventures_with_superman) ~ supergirl_(dcau) ~ supergirl_(sasha_calle) ~ power_girl_(injustice) ~ power_girl_(injustice_2) ) -supergirl -kara_zor-el -power_girl -karen_starr	p1
+( catwoman_(injustice) ~ catwoman_(arkham) ~ catwoman_(arkham_knight) ~ catwoman_(dcau) ~ catwoman_(arkham_city) ~ selina_kyle ) -catwoman	126
+( emma_frost_(marvel_rivals) ~ emma_frost_(x-revolution) ~ emma_frost_(white_wave_queen) ) -emma_frost	168
+( black_cat_(marvel_rivals) ~ black_cat_(insomniac) ~ black_cat_(fortnite) ~ felicia_hardy ) -black_cat_(marvel)	p1
+( psylocke_(marvel_rivals) ~ psylocke_(sai)_(vengeance) ~ psylocke_(sai)_(breezy_butterfly) ) -psylocke -psylocke_(kwannon)	p1
+( starfire_(teen_titans) ~ starfire_(comics) ~ gwen_stacy_(spider-verse) ~ gwen_stacy_(classic) ) -starfire -gwen_stacy -spider-gwen	168
+( tatsumaki_(one-punch_man) ~ frieren_(sousou_no_frieren) ) -tatsumaki -frieren	42
+shadowheart_(baldur%27s_gate) -shadowheart	p1
+( gwen_stacy_(spider-verse) ~ gwen_stacy_(classic) ~ spider-gwen ) -gwen_stacy	378
+( starfire_(teen_titans) ~ starfire_(comics) ~ koriand%27r ) -starfire	126
+( ashley_graham_(ella_freya) ~ ashley_graham_(brooke_elizabeth_mathieson) ~ claire_redfield_(jordan_mcewen) ~ elizabeth_comstock_(burial_at_sea) ~ cammy_white_(street_fighter_6) ) -ashley_graham -claire_redfield -elizabeth_comstock -cammy_white	p1
+( byleth_(summer)_(fire_emblem)_(female) ~ byleth_(female)_(fire_emblem) ~ jane_doe_(nocturne_of_light)_(zenless_zone_zero) ~ jinx_(arcane) ~ lamb_(lol) ~ rebecca_(cyberpunk) ) -byleth_(fire_emblem)_(female) -jane_doe_(zenless_zone_zero) -jinx_(league_of_legends) -lamb_(league_of_legends) -rebecca_(edgerunners)	252
+( twilight_sparkle ~ fluttershy ~ rarity ~ rainbow_dash ~ pinkie_pie ~ applejack ~ princess_celestia ~ princess_luna ) -twilight_sparkle_(mlp) -fluttershy_(mlp) -rarity_(mlp) -rainbow_dash_(mlp) -pinkie_pie_(mlp) -applejack_(mlp) -princess_celestia_(mlp) -princess_luna_(mlp)	p1
+# shantae = Copyright (liste des tags) ; shantae_(character) = Character -> tag retenu inchangé
+jinx_(arcane) -jinx_(league_of_legends)	p1
+( byleth_(summer)_(fire_emblem)_(female) ~ byleth_(female)_(fire_emblem) ) -byleth_(fire_emblem)_(female)	p1
+toy_chica_(love_taste) -toy_chica_(fnaf)	p1
+rebecca_(cyberpunk) -rebecca_(edgerunners)	84
+jane_doe_(nocturne_of_light)_(zenless_zone_zero) -jane_doe_(zenless_zone_zero)	p1
+lamb_(lol) -lamb_(league_of_legends)	84
+( anna_marie ~ rogue_(marvel_rivals) ~ rogue_(evolution) ~ rogue_(savage_land) ) -rogue_(x-men)	210   # Rogue : 8 410 (autocomplétion) + 231 = 8 641 < seuil 8 651 -> non ajoutée
+# --- personnages des top 5 / top 8 hors sélection féminine ---
+( monkey_d._luffy ~ luffy ) -monkey_d_luffy	336
+midoriya_izuku -izuku_midoriya	630
+naruto_uzumaki -uzumaki_naruto	0 (aucun)
+( gojou_satoru ~ gojo_satoru ) -satoru_gojo	84
+( yuji_itadori ~ itadori_yuji ) -itadori_yuuji	p1
+tanjiro_kamado -kamado_tanjirou	168
+giyu_tomioka -tomioka_giyuu	p1
+maki_zenin -zenin_maki	p1
+lux_(league_of_legends) -luxanna_crownguard	p1
+peter_parker -spider-man	714
+malfoid -draco_malfoy_(redteneri)	p1
+# autocomplétion 24/10 : monkey_d_luffy 12703, izuku_midoriya 27847, uzumaki_naruto 35637, satoru_gojo 5742, itadori_yuuji 4361, kamado_tanjirou 3884, tomioka_giyuu 2614, zenin_maki 7300, luxanna_crownguard 7669, spider-man 20179, draco_malfoy_(redteneri) 3035, rogue_(x-men) 8410
+# Relevé pages 271-280 (24/10/2026) : nouvelles candidates
+rin_tohsaka -tohsaka_rin	0 résultat
+stocking_(psg) -stocking_anarchy	42
+( marceline_abadeer ~ marceline_the_vampire_queen ) -marceline	p1
+minamoto_no_raikou_(fate) -minamoto_no_raikou_(fate/grand_order)	672   # Raikou : 8 282 + 693 = 8 975
+( minamoto_no_raikou_(swimsuit_lancer) ~ minamoto_no_raikou_(swimsuit_lancer)_(fate) ) -minamoto_no_raikou_(fate/grand_order) -minamoto_no_raikou_(fate)	p1
+( android_21_(human) ~ android_21_(evil) ~ android_21_(good) ) -android_21	p1
+# Rogue : mesure déjà faite plus haut (210 → +231 = 8 641), maintenant ajoutée car le seuil passe à ~8 200
+# Pages 281-290 (24/10/2026), méthode A
+( barbara_gordon ~ batgirl_(barbara_gordon) ~ batgirl_(cassandra_cain) ~ batgirl_(gotham_knights) ~ batgirl_(arkham_knight) ~ batgirl_(dcau) ~ batgirl_(stephanie_brown) ) -batgirl	966   # Batgirl : 8 195 + 987 = 9 182
+( mash_kyrielight_(dangerous_beast) ~ shielder_(fate/grand_order) ~ shielder_(fate) ~ mash_kyrielight_(swimsuit_of_perpetual_summer) ) -mash_kyrielight	420   # Mash : 8 183 + 441 = 8 624
+marie_rose_(devilish_servant_against_the_splashing_waves) -marie_rose	p1
+( ouro_kronii_(maid) ~ ouro_kronii_(1st_costume) ) -ouro_kronii	p1
+loba_andrade -loba_(apex_legends)	p1
+( squirrel_girl_(marvel_rivals) ~ squirrel_girl ~ doreen_green ~ squirrel_girl_(sunshine_squirrel) ~ squirrel_girl_(symbiote_squirrel) ) -squirrel_girl_(marvel)	2184   # Squirrel Girl : 7 888 + 2 205 = 10 093
+( natasha_romanoff ~ black_widow_(marvel_rivals) ~ black_widow ~ black_widow_(aquatic_assassin) ) -black_widow_(marvel)	126   # ≈ 147 ≤ 150 : Black Widow inchangée
+( white_queen ~ emma_frost_(marvel_rivals) ~ emma_frost_(x-revolution) ~ emma_frost_(white_wave_queen) ) -emma_frost	168   # ≈ 189, identique à la mesure précédente : white_queen n'ajoute rien, Emma Frost inchangée
+# ada_wong_(adriana), ahri_(league_of_legends), harley_quinn_(classic) : déjà inclus dans les unions mesurées plus haut
+# Pages 291-300 (24/10/2026), méthode A
+( keqing_(opulent_splendor)_(genshin_impact) ~ keqing ) -keqing_(genshin_impact)	p1
+( jennifer_walters ~ she-hulk_(fortnite) ~ she-hulk_(endlessillusion) ) -she-hulk	84   # ≈ 105 ≤ 150
+( mary_jane_watson_(insomniac) ~ mary_jane_watson_(fortnite) ~ mary_jane_watson_(spider-man:_the_animated_series) ) -mary_jane_watson	p1
+soraka_(league_of_legends) -soraka	p1
+( lucoa ~ lucoa_(maidragon) ~ quetzalcoatl_(miss_kobayashi's_dragon_maid) ~ quetzalcoatl_(maidragon) ) -quetzalcoatl_(dragon_maid)	1134   # Lucoa : 7 517 + 1 155 = 8 672
+brigitte_lindholm -brigitte	p1
+( jirou_kyouka ~ jiro_kyoka ) -kyoka_jiro	p1
+kefla_(dragon_ball) -kefla	p1
+( karen_starr ~ kara_zor-l ) -power_girl	210   # ≈ 231, identique à l'audit : kara_zor-l n'ajoute rien, Power Girl inchangée
+# koriand'r : déjà dans la mesure de Starfire (≈ 147) ; psylocke : déjà dans la sélection (union) ; gwen_tennyson_(classic) : version enfant, gain non mesuré ni ajouté
+# Pages 301-310 (24/10/2026), méthode A
+( pamela_isley ~ poison_ivy_(dcau) ~ poison_ivy_(arkham) ~ poison_ivy_(arkham_knight) ~ poison_ivy_(fortnite) ~ poison_ivy_(harley_quinn) ~ pamela_isley_(shg) ~ poison_ivy_(injustice) ) -poison_ivy	42   # ≈ 63 ≤ 150 : ces tags accompagnent presque toujours poison_ivy
+zero_two -zero_two_(darling_in_the_franxx)	42   # ≈ 63 ≤ 150
+( jasmine_(aladdin) ~ princess_jasmine_(disney) ) -princess_jasmine	210   # Jasmine : 7 287 + 231 = 7 518
+( sailor_moon ~ tsukino_usagi ) -usagi_tsukino	630   # Usagi : 7 255 + 651 = 7 906 (sailor_moon = tag de personnage, 5 911)
+amelie_lacroix -widowmaker	p1   # doublon : Widowmaker inchangée
+( kakudate_karin ~ karin_kakudate ) -karin_(blue_archive)	p1
+queen_chrysalis -queen_chrysalis_(mlp)	p1
+nino_nakano -nakano_nino	42   # ≈ 63 ≤ 150
+( noelle_holiday_(dark_world_form) ~ noelle_holiday_(light_world_form) ) -noelle_holiday	0 (aucun)
+( luz_noceda_(beta) ~ luz_noceda_(titan) ~ luz_noceda_(timeskip) ) -luz_noceda	p1
+( k/da_ahri ~ k/da_ahri_prestige_edition ) -ahri -ahri_(league_of_legends)	p1   # doublon : Ahri inchangée
+# gwen_stacy_(spider-verse) et toga_himiko : déjà dans les unions de gwen_stacy et himiko_toga ; artoria_pendragon_(lancer) : autre Servant, non additionné (règle de l'audit) ; zenin_maki : mesure maki_zenin déjà faite (p1)
+# Personnages masculins ajoutés à l'application de tri (24/10/2026), même méthode
+( batman_(bruce_wayne) ~ bruce_wayne ~ bruce_wayne_(injustice_2) ) -batman	126   # ≈ 147 ≤ 150
+( gudao ~ ritsuka_fujimaru_(male) ~ fujimaru_ritsuka_(male)_(decisive_battle_chaldea_uniform) ~ fujimaru_ritsuka_(male)_(tropical_summer) ~ fujimaru_ritsuka_(male)_(polar_chaldea_uniform) ~ fujimaru_ritsuka_(male)_(summer_street) ) -fujimaru_ritsuka_(male)	42
+( boyfriend_(fnf) ~ boyfriend_(friday_night_funkin') ) -boyfriend_(friday_night_funkin)	p1
+( asriel_dreemurr_(god_form) ~ asriel ) -asriel_dreemurr	84   # ≈ 105
+uchiha_sasuke -sasuke_uchiha	168   # Sasuke : 8 584 + 189 = 8 773
+freddy_fazbear -freddy_(fnaf)	p1
+( garfield_logan ~ beast_boy_(young_justice) ~ beast_boy_(teen_titans) ~ beast_boy_(dc) ~ beast_boy_(fortnite) ~ beast_boy_(dcamu) ~ beast_boy_(teen_titans_go!) ~ beast_boy_(new_52) ) -beast_boy	42
+( leon_s._kennedy ~ leon_kennedy ) -leon_scott_kennedy	p1
+( venti ~ venti_(archon)_(genshin_impact) ) -venti_(genshin_impact)	p1
+( knuckles_(boom) ~ knuckles ) -knuckles_the_echidna	42
+denji_(hybrid_form) -denji_(chainsaw_man)	p1
+( big_macintosh ~ big_macintosh_(eg) ) -big_macintosh_(mlp)	p1
+( 9s_(nier:automata) ~ yorha_no._9_type_s ) -yorha_9s	84   # ≈ 105
+raikage raikage_art	798   # ≈ 819 publications de raikage portent aussi le tag d'artiste raikage_art (1re page vérifiée : bien le personnage A / Raikage)

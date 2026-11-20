@@ -1,0 +1,23 @@
+﻿personnage,univers,rang_ancien,tags,tag_principal_seul,tags_secondaires_seuls,somme_brute,union_dedupliquee,gain,gain_pct,recouvrement_pct
+Hinata Hyûga,Naruto,5,hyuuga_hinata ∪ uzumaki_hinata ∪ hinata_hyuuga,44141,uzumaki_hinata=20786; hinata_hyuuga=15694,80621,50127,5986,13.6,84.0
+Misty (Ondine en VF),Pokémon,70,kasumi_(pokemon) ∪ misty_(pokemon),18082,misty_(pokemon)=16617,34699,23163,5081,28.1,69.0
+Miruko,My Hero Academia,29,miruko ∪ rumi_usagiyama ∪ mirko,26877,rumi_usagiyama=25437; mirko=12621,64935,31353,4476,16.7,88.0
+Psylocke,Marvel,hors sélection,psylocke ∪ psylocke_(kwannon),7507,psylocke_(kwannon)=2743,10250,9975,2468,32.9,10.0
+Supergirl,DC Comics,105,supergirl ∪ kara_zor-el,14422,kara_zor-el=11687,26109,16359,1937,13.4,83.0
+Yor Forger (Briar),Spy×Family,22,yor_briar ∪ yor_forger,31138,yor_forger=24622,55760,32865,1727,5.5,93.0
+Sakura Haruno,Naruto,12,sakura_haruno ∪ haruno_sakura,40018,haruno_sakura=12743,52761,41727,1709,4.3,87.0
+Ochako Uraraka,My Hero Academia,19,ochako_uraraka ∪ uraraka_ochako,33620,uraraka_ochako=12342,45962,35175,1555,4.6,87.0
+Princesse Zelda,The Legend of Zelda,14,princess_zelda ∪ zelda_(tears_of_the_kingdom) ∪ zelda_(breath_of_the_wild),39561,zelda_(tears_of_the_kingdom)=12837; zelda_(breath_of_the_wild)=11895,64293,39879,318,0.8,99.0
+Gwen Stacy,Marvel,59,gwen_stacy ∪ spider-gwen,19317,spider-gwen=15414,34731,19635,318,1.6,98.0
+Emma Frost,Marvel,53,emma_frost ∪ emma_frost_(marvel_rivals),20080,emma_frost_(marvel_rivals)=13189,33269,20223,143,0.7,99.0
+Ankha,Animal Crossing,73,ankha ∪ ankha_(animal_crossing),17729,ankha_(animal_crossing)=11597,29326,17871,142,0.8,99.0
+Samus Aran,Metroid,15,samus_aran ∪ zero_suit_samus,37248,zero_suit_samus=13043,50291,37359,111,0.3,99.0
+Wonder Woman,DC Comics,41,wonder_woman ∪ diana_prince,22974,diana_prince=12295,35269,23079,105,0.5,99.0
+Helen Parr (Elastigirl),Les Indestructibles,84,helen_parr ∪ elastigirl,15935,elastigirl=10375,26310,15981,46,0.3,100.0
+Midna,The Legend of Zelda,96,midna ∪ imp_midna,15085,imp_midna=11545,26630,15099,14,0.1,100.0
+Jill Valentine,Resident Evil,34,jill_valentine ∪ jill_valentine_(sasha_zotova),25551,jill_valentine_(sasha_zotova)=11337,36888,25557,6,0.0,100.0
+Raven,DC Comics,11,raven_(dc) ∪ rachel_roth,39707,rachel_roth=23448,63155,39711,4,0.0,100.0
+Femme invisible (Sue Storm),Marvel (Les 4 Fantastiques),147,invisible_woman ∪ sue_storm,10816,sue_storm=10286,21102,10815,-1,-0.0,100.0
+Black Cat (Felicia Hardy),Marvel,95,black_cat_(marvel) ∪ felicia_hardy,15118,felicia_hardy=15113,30231,15099,-19,-0.1,100.0
+Lara Croft,Tomb Raider,20,lara_croft ∪ lara_croft_(survivor),32891,lara_croft_(survivor)=17043,49934,32865,-26,-0.1,100.0
+Ellie,The Last of Us,148,ellie_(the_last_of_us) ∪ ellie_williams,10765,ellie_williams=10674,21439,10731,-34,-0.3,100.0

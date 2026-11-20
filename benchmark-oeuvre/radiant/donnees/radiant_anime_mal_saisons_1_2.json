@@ -1,0 +1,672 @@
+{
+ "meta": {
+  "source": "MyAnimeList (pages principales et pages Reviews), collecté le 2026-10-05",
+  "regle_exclusion": "Dans chaque critique, les phrases qui parlent des épisodes filler du début de la saison 1 (y compris suites directes et phrases où le filler n'est pas localisé précisément) sont retirées de 'texte_filtre' et listées dans 'phrases_exclues' avec un motif. Rien d'autre n'est modifié. Les phrases proches mais conservées sont signalées dans 'phrases_proches_conservees'.",
+  "limites": "Seules les critiques visibles sur MAL sont incluses (36 pour la saison 1, 12 pour la saison 2). Ce sont des avis individuels, pas un échantillon représentatif. Textes en anglais, non traduits.",
+  "note_sur_notes": "'note' = note donnée par le critique (1-10) ; elle n'est pas recalculée après filtrage."
+ },
+ "saisons": [
+  {
+   "saison": 1,
+   "titre": "Radiant",
+   "url": "https://myanimelist.net/anime/37202/Radiant",
+   "score": 6.88,
+   "nb_votes": 87105,
+   "rang": 5557,
+   "popularite": 1241,
+   "membres": 234589,
+   "episodes": 21,
+   "diffusion": "Oct 6, 2018 to Feb 23, 2019",
+   "studio": "Lerche",
+   "synopsis": "Nemeses—powerful and mysterious demonic entities that fall from the sky and vaporize anything they touch. The only ones who can combat these creatures are Sorcerers, those who have survived an encounter with a Nemesis but were infected in the process. Seth, a Sorcerer from Pompo Hills, sets out on an adventure to exterminate all these Nemeses. Accompanying him are Doc and Mélie, fellow Sorcerers who share his ideal. Their main objective is to bring about a world where Sorcerers are no longer persecuted for being infected, and to that end, desire to destroy the source of the Nemeses themselves: the mythical Radiant. [Written by MAL Rewrite]",
+   "nb_critiques": 36,
+   "note_moyenne_des_critiques": 6.5,
+   "critiques": [
+    {
+     "auteur": "Karhu",
+     "date": "Feb 24, 2019",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 195,
+     "texte_filtre": "Episode 01,\nSeth: I am Seth and I want to be the best wizard in the world.\nMy..\nMe: Yeah yeah I know who you're, Naruto or whatever your name was.\nI am here for the cute looking girl.\nShe's about your age.\nWhere. is. she?\nEpisode 02,\nSeth: This is the state of the world pretty much.\nCommoners hate us sorcerers and there is also.....\nMe: Listen to me, Natsu!\nShe has like really huge hair and green-ish eyes.\nI am sure you must have seen her around?\nEpisode 03,\nSeth: ......So, anyway, there is this guild thing and the legendary Radiant, evil people lurking around the corners and all sort\nof cool stuff going on in this anime such as...\nMe: Is this the wrong cover picture?\nAm I not watching the right series?\nI was promised waifu material.\nIs this what they call false advertisement?\nEpisode 04,\nSeth: I met a girl during this episode, her name is Melie..\nMe: SEASON TWO WHEN\n[story]\nClassic shonen.\nSlow paced, generic plot points, overall over half of the series is slice of life.\nIts strong sides lie within the light comedy and world building.\nThose who are looking for a meaningful story or epic writing stuff won't find any from here.\nHowever, those who have wished for a series that is somewhat like \"cute girls doing cute things\" from its style/approach but wanted to see this being implemented inside fighting tournament shonen story line, will see how their prayers are answered here and now, and without a doubt there will never be a series quite like this one as an alternative.\n[characters]\nI can't help but to be reminded of Sketch Dance when seeing this cast.\nMelie is so quality she end up being my main reason for enjoying this series so much.\nSplit personality girl with ridiculously well-planned character design, and characteristics and behavior that serves her cuteness.\nSeth is more generic shonen lead except he doesn't yell all that much and his morals aren't there to ruin the fun.\nThe side casting contains no annoying archetypes or contrarian buttholes which is all for the better.\nThe light comedic approach also can be seen to effect the cast which ultimately serves the idea of the show.\nThe good part being that the characters still feel genuine and are practically never used as comedic devices or fanservice figures in the series, excluding some animation scenes that use some commonly seen goofs, but these are not really executed with character behavior, just movement.\nMost of the cast members are super happy and positive which again, further adds to the CGDCT-like style.\nSmart decisions.\n[sounds]\nUtopia is a 9/10 opening song.\nBGM is chill and well-though.\nThey play goddamn jazz during coffee drinking scenes. //argument.\nMelie's seiyuu work is amazing be she making a weird, untranslatable anime sound or going nuts with her other personality, it all delivers.\nSome bigger names are here along less-known seiyuus, but they all do good job, meaning if they stand out they only do so because their work is so pleasant to listen.\n[art, animation]\nBright color pallet.\nSoft, fluffy and cute are things that were prioritized in design.\nThe simplicity of the animation is a pleasure to watch.\nNot too much and not too little.\nBalance exist among this work.\nNaturally, Melie's hair takes 90% of the screen whenever she is there, but it can be forgiven for it is the fluffiest piece of hair seen in anime.\n[enjoyment]\nNever expected to like this series so much.\nI am not familiar with the source material so I can't speak on the behalf of those who wanted a loyal adaptation, but as an anime only watcher, this type of light series with its fresh approach was exactly what I needed.\nThose who thought \"I could enjoy a show like this\" when reading this review most likely will.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": [
+      "Slow paced, generic plot points, overall over half of the series is slice of life."
+     ]
+    },
+    {
+     "auteur": "Stark700",
+     "date": "Feb 23, 2019",
+     "note": 4,
+     "recommandation": "Not Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 90,
+     "texte_filtre": "Oh no, Radiant isn’t a perfect adaptation!\nWhat has the world come to?!\nWe get it.\nThis isn’t one of those anime that will meet our expectations by adaptation standards.\nFrom the beginning, I’ve heard of comments about how the anime changed the tone of the story and even the way the main protagonist has been adapted into it.\nFor the sake of this review, it will be based from an anime viewer’s perspective.\nI’m not going to go into the French series to look and compare every episode to see what was wrong with it.\nNow with that mushy stuff out of the way, you may\nbe wondering what exactly is Radiant.\nAs a French comic, there’s actually not much difference to tell between this and Japanese manga.\nArtwork resembles shounen style characters with a fantasy world setting and even the speech patterns.\nNot to be judgmental but I think it’s pretty clear that Radiant is aimed for a wider audience.\nThe story takes place in a fictional world where monsters exists.\nKnown as “Nemesis”, they are creatures with catastrophic powers that fell into the world of humanity and causing devastating damage.\nA young man named Seth survived the catastrophe and vows to hunt down the Nemesis as a Sorcerer and one day hope to bring peace in their world.\nSo begins his quest to find the legendary Radiant, the origins of the Nemesis.\nI’m not going to lie, the first few episodes had me bite my lips a few times.\nEssentially, I see Seth as a brat who may be easily be the type to die young.\nHis recklessness and daredevil personality from the start makes him hard to follow.\nNot to mention, he isn’t very talented in the art of magic as demonstrated by his flying skills.\nThe only move in the boy’s arsenal that makes a difference is his signature “Titan Punch”.\nBut if you look just a bit carefully, it’s pretty much a shounen-style punch powered up with a signature pose and name shout.\nThat’s damn disappointing.\nTo make matters worse, Seth isn’t exactly a Brainiac either.\nThe boy is so eager to prove himself that he puts an entire town in danger just so he can show the world what he can do.\nLooking back now, I can easily say that Seth is nothing short of a dumbass.\nNow, don’t worry.\nThis show isn’t just about Seth as the adventure begins to take off after around 5 episodes.\nAfter all, it’s his quest and we follow him on his journey find this “Radiant”.\nOn his quest, Seth encounters new allies named Melie and Doc.\nNow, both of these characters made a different impression to me.\nFor instance, Melie is a bit naïve and too friendly as a girl.\nSometimes, I could easily say she’s inattentive.\nA plot device also reveals that her personality can change into a much fierier badass when under distress.\nWith this type of character, it’s not hard to make us wonder about the importance of her split personality.\nHowever, the anime plays it out more of a comic relief and after you’ve seen it a dozen times, it quickly becomes stale.\nOn the other hand, Melie does make a valuable asset for the team as she seems to be a skilled Sorcerer with defensive abilities.\nThis is a contrast to Doc, the researcher who comes off as absolutely useless in their adventure.\nDriven as an anti-fighter, Doc tries to avoid danger whenever possible while trying to woo Miss Melba, a café waitress that he seems to be in love with.\nWith this oddball group of adventurers together, what could possibly go wrong?\nActually, there’s a lot of wrong things about Radiant that could have been executed much better as a story.\nAt its very baseline, I feel like the story took way too long to get us to care about it.\nMost of the first few episodes made me dislike the main protagonist for his childish personality.\nIt’s very easy to find Seth irritating along with his questionable logic.\nThink about some of his actions and it’s not far from those of an underage teenager.\nAdditionally, the story itself seems to be running around in circles without getting the viewers emotionally attached to it.\nI’m not going to lie, before I even began watching this show, I thought there would be at least some emotional value.\nThe premise almost made the show sounded like a tragic story but instead, we get a cartoony version of a fantasy quest.\nIt took far too long to get the show moving and by the time the gears really started kicking, it’s too late to turn back.\nBelieve me, a story like this really needed a likable protagonist but Seth is about as one dimensional as he can get.\nHe’s far from a larger than life character and an incredibly difficult to tolerate with his personality.\nThe other two on his journey are hardly any better.\nMelie is too nice as a girl and hard to really talk about besides her split personality.\nDoc is pretty much the butt monkey in the show where it’s easy to point fingers at how useless he is.\nHowever, there are some supporting cast that I want to address as discarding them would be unfair.\nTo start with, Alma is a character that I grew interest in after seeing her wisdom.\nShe is not only a Nemesis Hunter but also a skilled Sorcerer while serving as a parental figure for Seth.\nThe show could have taken the opportunity to build more between their relationship but instead, she is pretty much left over after the first episodes.\nThen, there’s Grim, the mysterious figure that our adventurous trio encounters.\nI was intrigued by his debut but over time, I didn’t find his character to be appealing at all.\nThe fact is, we don’t know his true agenda in the show besides lending in some occasional help to the protagonists.\nNow, what about the Inquisition?\nEvery fantasy anime like this needs a military group and government to control their world, right?\nTo be honest, I feel like there’s little creativity put in for such an organization.\nThey seem to have a prejudice against infected people and made up of ranks among its staff to carry out their goals.\nIf you’re familiar with military organizations, then it’s easy to recognize some of their ranks such as general, colonel, commander, cadet, etc.\nUnfortunately, the show falls short on investing into the higher ranked characters.\nGuys like Dart Dragunov and Konrad are easily forgettable.\nThe latter even seems to play the role of a stereotypical commander who abides with its organization’s goals.\nAt some point in the show, I question if the Inquisition were hiding something beyond what they seem to be.\nFor a 2-cour show, that didn’t really seem possible with such pacing.\nNow that brings back to my original point.\nThis series suffers not just pacing problems but the way it made its characters.\nNone of them are worth investing into and in the long run, they are too damaged to be repaired.\nAdapted by studio Lerche, their resume is a bit questionable when people talk about their fantasy projects.\nAnime like Saijaku Muhai no Bahamut and the more recent Shichisei no Subaru were mediocre at best in terms of production quality.\nJudging on Radiant by itself, there’s hardly anything eye catchy about the visual quality either.\nThe character designs gives off a blend feel between shounen and fantasy.\nMeanwhile, the Sorcerers themselves are decorated with some degree of distinction.\n(see Melie) Then, there’s Seth, our reckless protagonist who possesses inhuman characteristics such as his horns.\nThe battle choreography in the show remains fluid on some levels although it’s nothing spectacular.\nTrust me, once you’ve seen the first fight, it almost feels like you’ve seen them all.\nOn the other hand, I do praise the world fiction of the show.\nIt’s not only crafted with a decent amount of fantasy elements but also reinforces the importance of its setting through storytelling.\nLet me just say that Radiant could have been a big hitter or at least make a strong impression for a foreign project outside of Japan.\nIt should have at least tried to get the audience’s attention.\nThe key word here is “tried”.\nBecause the reality is, Radiant didn’t manage to capitalize on what it advertised.\nInstead, it’s a show that threw away its chances and made itself look like a fool.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Zerity",
+     "date": "Feb 23, 2019",
+     "note": 9,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 62,
+     "texte_filtre": "In this season nothing for the most part happens.\nWe have two real arcs and that's about it.\nHowever it is still something worth watching.\nThe whole premise of the show is for Seth to find Radiant to destroy it and save the world.\nSounds fun let's go and save the world, but why.\nOne thing I like about this anime is how they deal with the discrimination against sorcerers.\nIn the arc were the go to Rumble Town Seth is forced to really understand what he is trying to do and who is he trying to save.\nI very much like this because even\nthough his answer is something anyone would guess he would say he does struggle trying to understand why he is doing all of this and for who.\nMost of the episodes is just slice of life stuff.\nA lot of the episodes are just Seth, Melie, and Doc doing shit in the Sorcery city.\nEven though now much of anything happens they are still fun episodes which fans of the show can enjoy.\nAs well as helps us see more of the city they stay in.\nOne of the main strengths is the animation.\nThe animation is very strong from start to finish.\nThe fight scenes are so fucking beautiful which makes the show even more of a blast to watch.\nIn conclusion the ending left on a bit of a cliff hanger but seems like shit will go down in the next season which I am excited for.\nCan't wait to see what the next season will do.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": [
+      "Most of the episodes is just slice of life stuff."
+     ]
+    },
+    {
+     "auteur": "Flexstyle",
+     "date": "Feb 28, 2019",
+     "note": 3,
+     "recommandation": "Not Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 45,
+     "texte_filtre": "Radiant is the spiritual successor to Black Clover.\nI say this because the same strengths/issues I have with that series are present here.\nStory (5/10):\nThe story is about a cursed boy named Seth who becomes a sorcerer and goes out on a quest to find Radiant in order to defeat the Nemesis which inhabit this world.\nIt’s pretty much your typical shounen premise where Seth yells he’s going to find Radiant and become the Wizard King/Hokage!\nYou know how important first impressions are?\nRadiant only starts to get\ngood during its first arc- Rumble Town at ep.11.\nCharacters (5/10):\nSeth is like Asta’s twin brother.\nSeth is dense, dumb as bricks, reckless, childish, loud and annoying.\nPretty much your typical shounen protagonist.\nHis constant screaming isn’t as annoying as Asta, but it’s still obnoxious.\nAdmittedly, he does get some character development later on this season e.g. he questions whether nemesis are really bad, which is good.\nMelie is probably my favourite out of the main cast.\nI like her design and her split personality caused by her curse.\nIf she weren’t so ditzy, going along with Seth’s shenanigans and got more focus on her then i’d say she has potential to be a great character.\nDoc is arguably the worst character in the series.\nHe’s a annoying, one dimensional comedic relief character.\nLiterally the only things to come out of his mouth is about debt or him fantasising about being with Ms Melba.\nWe get it, you like Ms Melba, now change it up!\nWhen I first saw Grimm I thought he’d be more than a cool, mysterious character.\nTurns out i was wrong.\nHe doesn’t have much going for him character wise.\nIt may change in he future.\nThe Inquistion are the military faction in this series, and I have to say they’re pretty bland compared to others I’ve seen in shounen.\nThe writer didn’t put in any effort to creating them and it shows:\nThe newbie- no depth, bland design.\nThe boy doesn’t even have a name.\nThe vice captain- Same issue.\nThe only character that stands out is Captain Dragunov.\nHe’s cool, badass and seems to care about his men.\nThe villains are generic and poorly written.\nFor example, Konrad is pretty much a mustache twirling, shallow racist.\nAnimation (5/10):\nThe animation is pretty medicore, however I despise how bland all the spells look like green sparkles.\nSound (4/10):\nThe opening song is pretty enjoyable, but some of the osts are forgettable.\nOsts play a big part in the appeal for battle shounens, so that’s disappointing.\nOverall (3/10):\nI didn’t enjoy Radiant for the longest time.\nI often questioned why I continued watching it.\nI do believe the show gets better once you get to Rumble Town arc, so I reccomend watching up to there before making your decision whether to continue.\nIf you’re looking for another battle shounen where you can kick back and relax then you may enjoy Radiant.\nIt follows the typical shounen troupes and doesn’t try to be anything other than that.",
+     "phrases_exclues": [
+      {
+       "texte": "Well the first 10 episodes leave a lot to be desired considering they’re more or less filler content.",
+       "motif": "filler explicite, début S1 (10 premiers épisodes)"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Kipo0007",
+     "date": "Nov 13, 2018",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 6,
+     "votes_utiles": 40,
+     "texte_filtre": "An Anime series from a French Manga which made me watch it , as it piqued my interest for a refreshing change from the usual japanese manga adaptations.\nThe story revolves around a world which is affected by chaos and destruction caused by creatures called as Nemesis who fall from the sky originating from a legendary place of myth called \"Radiant\".\nPeople who survive these creatures get infected and receive abilities and powers and are mostly referred to as sorcerers.\nThese Sorcerers being the only people who can fight back against the nemesis are feared,shunned and persecuted by the rest of the humanity.\nEnters our\nYoung Hero Seth who is another survivor of Nemesis raised by his mother figure and master, a sorceress named Alma.\nSeth has a resolve and goal of eradicating all nemesis and bringing peace and resolve between sorcerers and Humanity with his allies, Melie and Doc.\nThe setting is of a historical and modern era with background and environment made for a world with all kinds of people, sorcerers, mysterious creatures mainly the nemesis and other kinds of magical elements which might remind you a bit of Harry Potter.\nArt is really well made by Lerche studios, detail drawings of character, magic particles and other creatures, bright and vibrant colours with a good finish. quality stuff.\nBeing a French adaptation, i am really interested in this.\nStory is still yet developing and it will give you the feeling of a general shonen anime like naruto, bleach, fairy tail etc.\nBut it has a unique element to it as well which is good.\nAlso lots of mysteries and plot is getting revealed in a really slow but good and interesting manner so please be a bit patient and do give it some time while watching the series.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Greenphonix",
+     "date": "Dec 19, 2018",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 9,
+     "votes_utiles": 24,
+     "texte_filtre": "Its target audience are most likely children or jung teens but if you get some episodes in its still enjoyable.\nIf know that you have some tolerance for not so serious storys go for it if seinen is your most liked gerne I woun't recommend it too you.\nIt also starts very mediocre like most shounen but I think it will get better with time.\nAt the beginning I didn't liked the characters but that changed over time.\nIts still ongoing and will have more that 20 episodes if you hate to only watch 12 before a series ends.\nAnimes/Series that are similar would be Fariy Tail, Wakfu,\nor Black Clover but it still has its own traits.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "KingShnebs",
+     "date": "Nov 18, 2018",
+     "note": 5,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": 7,
+     "votes_utiles": 19,
+     "texte_filtre": "so based on the story so far the anime is about men and woman who control chaos to fight chaos creatures\nmy main problem is the mc is bland and most of the normal human characters feel un-redeemable, they essentially treat people who control chaos as alpha stigma barres and that is where the problem starts, so they treat thier protectors like trash until its time for protecting and then there is still a chance they are going to be hurling insults while they are being protected, and the main character is meant to be ok with that, to be fair his goal boils down to\ni will become the hokage and then everyone will love us and the acceptance of the abuse from the normal people is to the point where some of the villians are just wizards who are tired of being punching bags\nthe music feels quite generic too, it feels like you could insert it into most other shonen shows and it would fit ok\noverall i give the show a 5, i've seen much worse",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Stytch",
+     "date": "Jan 10, 2019",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 14,
+     "votes_utiles": 5,
+     "texte_filtre": "After 14 episodes, it doesn't feel like any of the characters are too dynamic and that this is going to be another shounen basic show.\nBut I got up to date with the manga translations and the characters actually gain quite a bit of depth rather quickly.\nSeth is what you'd expect from a kid with a big dream, he's really basic at first.\nHowever, with the way journeys go, he starts to act like he's seen some things slowly as the story progresses.\nMelie starts out really annoying too, but once she grows in confidence from hanging around Seth for a bit, she gets\na good amount less annoying.\nI feel like it started out weak, but definitely got stronger over the course of a few episodes.\nBy the current release of episode 14, the story is starting to hit its stride.\nThe art is good and the story is pretty good too.\nDon't sleep on this, I wouldn't drop it too quickly.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "LoliKicksBucket",
+     "date": "Jan 26, 2019",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 17,
+     "votes_utiles": 5,
+     "texte_filtre": "About eps 11 onwards Only the shows starts to become pretty good during the main arc, Not to spoil much, but the early vibe of air-headed happy go luckyish kind of anime is kinda deceptive, it gets intense and starts to introduce some serious and interesting plot.\nThe main characters are probably pretty weak in terms of personality.\nNothing really interesting about them yet, quite surprisingly the new characters introduced in the Rumble Town arc are able to carry the show better than Seth and Mélie.\nProbably the reason this anime will get a low score, dropped by many viewers and not garner any attention",
+     "phrases_exclues": [
+      {
+       "texte": "due to the self cucked boring intros, fillers from the starting 10 eps.",
+       "motif": "filler explicite, début S1 (10 premiers épisodes)"
+      },
+      {
+       "texte": "Overall it's a not bad shounen anime if you can survive past the boring intros and fillers.",
+       "motif": "filler explicite, début S1 (suite directe)"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Zryn",
+     "date": "Feb 23, 2019",
+     "note": 6,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 10,
+     "texte_filtre": "I've heard that the manga is different, I don't know how its different so this will be my critique on the anime alone.\nRadiant had the potential to be something far greater, it even displayed that for a portion of the show, don't simply look at the score I or anyone else have given it and pass it off as bad.\nRadiant is your basic shonen anime with your pointy haired snot-nosed brat protagonist who wants to save everyone and stop the bad guys.\nNothing really unique there.\nA good chunk of the show is spent dabbling in miscellaneous adventures that don't add anything to the\nstory, this is where most people dropped the show and why Radiant is rated so lowly.\nI would say Radiant doesn't actually get to be pretty good until the second arc and the climax of the second arc (which is basically a quarter of the show.\nIf Radiant had pushed out content as heart-racing and emotionally moving as the second arc did but for the entire show instead of wasting screen-time, then the show would have easily been an 8 or a 9.\nRadiant very much makes me think of Black Clover in this way, an extremely mediocre and unoriginal start of the show, the setting, and an unneeded time waster of an opening explaining the show to us every episode LOL.\nBut with patience and time you'll see that there is something more to this show.\nUnfortunately I can really only commend Radiant on a job well done for about 5 episodes but I still enjoyed this show and am looking forward to the season 2 since it was announced at the end of the last episode.\nI hope season 2 will continue with the level of content that the second arc ended with.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Astagami",
+     "date": "May 2, 2020",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 4,
+     "texte_filtre": "Radiant is one of the rarest anime adaptations.\nRecently upon making this review, this I believe is one of the only anime adaptations where the source material does not come from Japan\nRadiant is an adaptation of a French manga (manfra) which already is a rare occurrence in anime.\nRadiant has fantastic world building and storytelling with interesting characters and is one hell of a slow burner anime.\nRight off the bat, it has a lighthearted tone with its major strong point being comedy and it feels as if it's a slice of life anime at times.\nThe problem with that is it isn't attractive, it's\nnot too interesting but it's bearable to watch.\nThe first half though is overshadowed by the series' intense second half, which practically changes almost everything you knew about this show.\nThis story is not as generic in the first half as you may think, it's simply just too lighthearted and not as intense as you want from a Shonen.\nSeth doesn't aim to be the best sorcerer unlike many claim, but his motivation is more comparable to the likes of Luffy from One Piece, where in Seth's case he searches for Radiant.\nHe's unlikable to a degree, but to an understandable point.\nHe's been discriminated his entire life due to being an infected person and always on the run with Alma.\nSeth lacked the proper interaction with other people since he was always feared.\nThe story's strongest points in the first half though is practically hiding how intense the story is with how lighthearted it goes about things.\nFor the first ten episodes of Radiant, do not expect much.\nIt's a slice of life comedy mixed in with action and world building which becomes every important in the second half of Radiant.\nThe Rumble Town Arc is what makes Radiant good, and the mood completely changes, and it may even shock you a bit.\nIt goes in depth into the injustice for the infected and how they are discriminated.\nThis whole arc is filled to the brim with amazing character development and action.\nThe second half alone makes Radiant a 9/10 story, even if it feels slow in the beginning, I assure you the second half sure as hell makes up for what it lacked.\nRadiant does not have the best animation, it's average at best.\nThe animation lacks the intensity and fluidity that you want in a fight scene in anime.\nThe art remains consistent throughout the series, and the animation does as well.\nThe best fight in this season has to be Seth vs Konrad, the choreography was very well done, but it lacked the fluidity it needed to truly shine.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": [
+      "For the first ten episodes of Radiant, do not expect much.",
+      "It's a slice of life comedy mixed in with action and world building which becomes every important in the second half of Radiant."
+     ]
+    },
+    {
+     "auteur": "nokinoks",
+     "date": "Mar 2, 2019",
+     "note": 3,
+     "recommandation": "Not Recommended",
+     "episodes_vus_si_precise": 2,
+     "votes_utiles": 5,
+     "texte_filtre": "When watching Anime, you do not say to yourself \"Maybe this will be trash\" rather you say \"maybe this will be my kind of trash\".\nThat being said, this is pretty much almost trash.\nThe one caveat is that if you are very new to shounen and aren't tired of all the tropes and can tolerate this show's lazy writing then I suppose it's alright.\nIt's for kids to young people (15 and below) the trope of consequences not being solid enough (kid destroys a ranch and sets off a rampage of cows) and his punishment is cleaning the wall of their residence.\nEven if\nthe other sorcerer was the one to take the brunt of the blame, the tone of it just screams \"for kids\".\nHow they keep smiling in between shots like idiots, or posing in between dire situations, I particularly remember the cows falling on top of each other in neat rows.\nThis show is not meant to be taken seriously but then the protagonist goes serious and says \"I want to protect everyone\", how am I supposed to take that seriously if the show by its tone is NOT meant to be taken seriously.\nIn just comes off as \"Naruto-ish\" but I think this is a fair statement.\nNaruto doesn NOT have monopoly on \"I want to protect everyone\" but the thing is, when Naruto said it, you believed him.\nWhen this dude says it, I'm just bored.\nEveryone laughs like an idiot, no sense of urgency, then suddenly we're supposed to take this kid seriously?\nYeah, no, doesn't work like that.\nSo if this is your kind of trash, I think that's great and I'm excited because you are most likely new(ish) to anime and you have a lot to look forward to, to most people tho, this won't be your kind of trash.\nTL;DR\nThe show doesn't take itself seriously at all, but wants us to take the protagonist seriously.\nSo in the end, it's boring and you won't care.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "charliechuckle",
+     "date": "Dec 31, 2019",
+     "note": 3,
+     "recommandation": "Not Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 2,
+     "texte_filtre": "Story: 2\nThe story is meaningless nonsense.\nSince this story was originally written by a French person; it could be a misunderstood culture.\nThey constantly switch between serious and over the top unbelievable comedy.\nIt's too bad the serious scenes come off as boring because there is no sense of risk.\nThe comedy ruins the pacing of the show when used in serious situations, and they do it often.\nAlso, the jokes are on the level of cringy, puny dad jokes.\nA giant kracken just took our friend and will eat him soon.\nLets spend the next few episodes\njoking about how funny it is.\nThe training is completely out of place, badly paced, and the power ups are awkward boring.\nHe literally had his seven tails power take over his body to rampage.\nDecisions made by the people don't make sense (For example: Season 2, episode 1; The leader of the army believes his own soldier is the enemy disguise and orders his underlings to fire cannons at it.\nThen the not smart guy says, lets wait and see if he can talk.\nTurns out he was just a soldier.\nThe joke falls very flat) Ex machina nonsense solves problems more than common sense.\nThis dude uses his My Hero Academy Detroit Smash attack far too much.\nHis mana gives him God powers randomly and it doesn't even make sense.\nThe explanation isn't satisfying.\nHe should be able to use his God powers all the time; but plot dictates when he can or cannot use them.\nThe commoners are either dumber than monkeys, or 99.99% of the world population are racist bigots.\nI could go on and on.\nArt: 8\nI have low standards, and there are no complaints here.\nSound: 6\nThe English voice actors are fairly bad, but not pure trash.\nThe translation from French to English may not come out as well.\nCharacter: 2\nTotally bad.\nNot one of the main characters has common sense.\nA extremely high proportion of all the characters are complete morons or bigoted racists.\nYou are better off living with a gorilla than with one of these characters.\nEnjoyment: 6\nI had more questions about this show afterwards, then I did while watching it.\nWhy don't they show how someone gets cursed?\nWhy wasn't the mucus cursed kid contagious and how did he know it was safe?\nIn reality, 99.9999999% of humans would know mucus, snot, bodily fluids spread disease.\nWhy isn't anyone worried about disease in this show? or is the main character just a complete idiot?\nWhy does the imperial army employ sorcerers, but simultaneously executes proven good ones without a second thought?\nWhy would immigrants take a airship to Artimus \"trash land\" instead of the other 99% better villages around the world?\nHow could soldiers murder each other with swords and get away with blaming it on non-sword wielding children? oh, in every episode something moronic happens and the answer is: NOTHING HAS ANY MEANING AT ALL.\nOverall: 3\nYa, I watched the entire first season.\nPowerful people are scum, and attack the innocent weaklings.\nI assume 99.9999% of the towns don't have their own self defenses; because literally everyone is evil or too stupid to be trusted.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "FishMAL",
+     "date": "Feb 10, 2019",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 19,
+     "votes_utiles": 2,
+     "texte_filtre": "Radiant is a solid series that starts to shine during it's main arc.\nThe basic story is that sorceres hunt beings that fall from the sky called the Nemesis.\nHowever, it takes depths that other shonen anime with similar premisses do not have: The sorcerers are considered tainted outcasts, barely better\nthan the monsters they hunt.\nAcceptance, finding one's place in the world and human error are only a fraction of what themes this anime coveres.\nHowever, because of the rather slow pacing and it's toning down the intensity of the comic the first 10 episodes just scratch the surface - the real story begins ep 11 with the main arc - and it's good.\nThe sound and art direction is alright.\nIt's design doesn't stand out too much compared to other shonen - it's strength is definitely the colorful character design and the world design itself.\nIt has a solid magic system and, what I personally always enjoy, a political hierarchy with a couple plot twists here and there.\nOther than that the anime has not the best fighting scenes but it's doing enough to make it look interesting and flashy, if not always polished.\nSadly the main character is the most bland of the cast.\nHe has a generic goal and is more on the annoying side at the beginning of the story but as he powers up even he gets more interesting.\nThe rest of the group is totally different and actually has interesting personalities.\nFriends and foes alike have funny quirks and great designs.\nThere are a couple characters who are on the grey side, either with political or personal interests.\nIt's a bliss to watch them interact with each other and see layers of depth revealed as backgrounds get explained and the story continues.\nThe target audience is younger kids but as the story grows it starts to talk about more mature themes as well.\nThe original comic handles this better with a faster pacing and adding more mature jokes that the anime looses for most parts.\nHowever: If you can get past a slow beginning I recommend checking this out.\nOverall it's a good watch and has a lot more depth than the beginning of the series shows.\nAt the time I've written this review the anime is not quite at it's end (at ep 19/21) but the main arc is finished.\nThis leaves the last 2 eps with a bit of epilogue filler that won't change this rating.",
+     "phrases_exclues": [
+      {
+       "texte": "It is a shame that the first volume of the even better french comic was stretched out to the first 10 episodes.",
+       "motif": "épisodes de début S1 étirés (10 premiers épisodes)"
+      },
+      {
+       "texte": "A lot of bland filler content makes the beginning of the anime a rather boring and only mildly funny watch - but it's worth it when the real adventure begins at episode 11.",
+       "motif": "filler explicite, début S1"
+      },
+      {
+       "texte": "There is always the option to skip the filler (and only watch ep 1-3, maybe 9 and then 11+) but I actually enjoyed the funny parts and the character interactions.",
+       "motif": "filler explicite, début S1 (conseil de les sauter)"
+      }
+     ],
+     "phrases_proches_conservees": [
+      "However, because of the rather slow pacing and it's toning down the intensity of the comic the first 10 episodes just scratch the surface - the real story begins ep 11 with the main arc - and it's good.",
+      "This leaves the last 2 eps with a bit of epilogue filler that won't change this rating."
+     ]
+    },
+    {
+     "auteur": "CrumbleGarden",
+     "date": "Feb 26, 2019",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 4,
+     "texte_filtre": "Radiant is a firework you think you've seen before, but it turns out it was something different entirely, only for it to burn out quickly.\nGoing into this show, I was expecting just the usual.\nFantasy magical battle trash, something mindless I could just enjoy.\nAnd at first it did seem just like that with some of its lamer episodes and bizarre idea of character design.\nBut once the show moved into its second half, something else reared it's head and revealed this show understood more than it was letting on.\nStory is pretty simple, nothing incredible but it's mostly competent at what it does.\nThe story is slow during the first half of the show, mostly focusing on Seth's growing as a mage and learning something about the world.\nThe second half however starts greying the morality of the characters, opens up new possible ideas and peaks with a monstrous villain and a tragic villain.\nIt's got potential to continue improving but as it stands, it feels like the jumping off point for something far better.\nThe actual writing is up and down, a lot of the comedic elements tend to fall flat, but there are some standout running gags that continue to be amusing.\nThe story is easily the biggest bar to entry as i'm sure it'll turn off the more discerning viewer and that is a shame because there is more to unpack than you initially see.\nArt is pretty decent.\nThe spell effects are nice and clear, the animation during fight scenes is pretty good, there's not too many flubs I could spot but it's nothing spectacular.\nIt serves the purpose it's needed for.\nSound is pretty forgettable.\nI can't remember any distinct tracks from it, the voice acting is just fine.\nI've not got a lot to say on it and even the intro i'm already forgetting and getting mixed up with other shows.\nThe characters are easily the best part of this show.\nThis anime was adapted from a French manga, (or manfra, idk) and it definitely shows in some of the odder designs but there's some real standouts among the cast.\nWhilst at first some of the characters are irritating and simple, they do develop as the story goes, Seth especially becomes a far more endearing character during the second half and whilst he's definitely not Asta levels of annoying, there's a lot to be desired.\nThe supporting cast are pretty decent, Doc serves to be a consistent source of good humour and even the villains get larger personalities than i'd expect from a show like this, Black Clover again being a good point of comparison as to how villains usually are in shows like this.\nI didn't expect to enjoy this show as much as I did.\nI must admit I put it off for a good couple weeks due to the nature of the show but when I did get back into it, I was hooked for each week it was on.\nIf you can get through it's first half and find yourself enjoying the characters and the writing, you're in for a treat in the second half.\nRadiant is definitely screaming for a second season to really expand it and show off everything it has to offer.\nI can't help but feel doubtful it will get one though due to its popularity and that big barrier to entry which is a real shame.\nIf you have any interest in a show with this kind of premise, you'll enjoy it.\nIf you don't, you probably won't be able to push through to when it really starts to shine, so just go at your own pace.\nIn the end, Radiant really brought to light with a generic looking fantasy battle anime can do once it spreads its wings and starts to fly.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "TheDiv",
+     "date": "Jul 14, 2024",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 3,
+     "texte_filtre": "This anime either needs a long review or a very short one.\nSo, I'll opt for a brief and direct one.\n\"Radiant\" is a practically standard shonen anime.\nAt one point, I even thought or mentioned that it seemed like an exact copy of \"Naruto\" and \"One Piece.\nHowever, upon further investigation, I discovered that the story is literally based on and inspired by them.\nAs an anime drawing inspiration from others, I give it a 10 out of 10.\nIf you enjoyed \"Naruto\" or \"One Piece,\" you'll definitely like \"Radiant.\nHowever, always keep in mind that this anime is like a bird that never took\nflight; it leaves you with a feeling that things could have been better.\nNow, why do I recommend it?\nPrimarily for two reasons: First, as a standard shonen, it meets all the requirements and follows the formula in a very conventional way, which creates a sense of familiarity if you've seen or enjoyed other shonen anime.\nSecond, \"Radiant\" isn't a Japanese anime; it's Italian.\nFor that reason alone, I think it's worth giving it a watch.\nI recommend this anime if:\n- You liked \"Naruto\" and \"One Piece.\"\n- You enjoy protagonists who start as standard shonen characters but gradually evolve into something slightly different.\n- The concept of a magical shonen appeals to you, especially if it's better written than \"Fairy Tail\" (by which I mean it takes a slightly more realistic approach to character development).\n- You appreciate characters with an appearance reminiscent of wealthy ladies or gentlemen.\nI don't recommend this anime if:\n- You're not a fan of fantasy.\n---------\nEspañol\n---------\nEste anime necesita obligatoriamente una reseña larga o una reseña muy corta.\nAsí que optaré por colocar una breve y directa.\n\"Radiant\" es un anime shonen prácticamente estándar.\nEn su momento, llegué incluso a pensar o mencionar que parecía una copia exacta de \"Naruto\" y \"One Piece\".\nSin embargo, al investigar un poco más sobre el anime, descubrí que la historia está literalmente basada e inspirada en ellos.\nComo un anime que se inspira en otros, le doy una calificación de 10 sobre 10.\nSi te gustó \"Naruto\" o \"One Piece\", definitivamente te gustará \"Radiant\".\nNo obstante, siempre debemos recordar que este anime es como un ave que nunca voló; siempre nos deja con la sensación de que las cosas podrían haber sido mejores.\nAhora, ¿por qué lo recomiendo?\nPrincipalmente, por dos razones: en primer lugar, como un shonen estándar, cumple con todos los requisitos y sigue la fórmula de manera muy convencional, lo que genera una sensación de familiaridad si has visto o disfrutado de otros shonen.\nEn segundo lugar, \"Radiant\" no es un anime japonés, sino italiano.\nPor esta razón, creo que sería interesante observarlo un poco.\nTe recomiendo este anime si:\n- Te gustaron \"Naruto\" y \"One Piece\".\n- Disfrutas de protagonistas estándar del shonen que evolucionan gradualmente hacia algo un poco diferente.\n- Encuentras interesante o curioso el concepto de un shonen mágico, mejor escrito que \"Fairy Tail\" (me refiero a que se aborda desde una perspectiva más realista en el desarrollo de personajes).\n- Te atraen los personajes con cierta apariencia de madame o señorita adinerada.\nNo te recomiendo este anime si:\n- No llegaste al menos a la saga de Arabasta en \"One Piece\" (muchos capítulos de \"Radiant\" se sienten como relleno y no aportan mucho a la trama).\n- No eres seguidor o fanático de la fantasía.",
+     "phrases_exclues": [
+      {
+       "texte": "- You haven't at least reached the Arabasta saga in \"One Piece\" (many episodes of \"Radiant\" feel like filler and don't contribute much to the plot).",
+       "motif": "filler explicite, épisodes non localisés précisément"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Oriotiar",
+     "date": "Apr 5, 2019",
+     "note": 5,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": 8,
+     "votes_utiles": 3,
+     "texte_filtre": "As someone who discovers the series with the manga, I was quite hyped when I learn that it would be adapted.\nI try to like it, I mean I consider the manga to be one of the best shonen I've read, but na the anime is mediocre and as an adaptation it's trash.\nI'm giving it a 5 only because if you consider it as a kids show for a young audience it's not that bad.\nSo the anime follow Seth a sorcerer whose goal is to find the radiant, which is the supposed nest of the nemesis a race of monsters who fall from the\nsky and kill most people they touch.\nOn his quest, he is quickly joined by 2 companions Meli and Doc.\nTo begin with some positif:\n- The anime look good, be it the environments or the characters.\n- sound wise both the opening and ending are really good, and aside from the MC the VA are well choose.\nAnd that's it, the story and character are also probably not that terrible but I can only see them as degenerated versions so who know.\nConcerning the problems:\n- the passing is bad\n- the characters are rather annoying especially Seth which is your typical shounen MC stupid but sturdy and determine\n- It's cliché everywhere\nAnd the main problem: it's one of the worst adaptation I've seen, think a mix of Black Clover and Tokyo Ghoul.\nThe tone of the series is way more childish, for example in one of Seth flashback we see other children beating him which trigger his power, in the manga, it's because they were taking a knife to torture him).\nThat alone it wouldn't have been much of a problem but combined with the fact that they made every character stupid, add more moral and remove the part which show why people have reasons to fear sorcerers, when you combine all of that it just feels like a version for stupid (or children, it's kind of the same thing).\nThe characters really being the worst part, Meli is a different person and Seth now doesn’t develop at all and stay the morron that he is at the begining.\nConclusion: you should try the manga and if you need to entertain children for a few hours and want a show a little less stupid than your average kiddy show then that anime could do the job.",
+     "phrases_exclues": [
+      {
+       "texte": "And they add useless filler while slowing the whole thing.",
+       "motif": "filler explicite, épisodes non localisés précisément"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "debsen",
+     "date": "Jul 9, 2023",
+     "note": 10,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 4,
+     "texte_filtre": "I generally don't write reviews, but this anime is such a gem and an underrated one that I was forced to.\nSuch great character building and storytelling was also relatable and full of surprises.\nLoved it!\nAll age group would enjoy the anime as it doesn't have any explicit content like seven deadly sins does, I'm not sure how those series gets so much attention and yet anime like this are underrated.\nArt style and animation was really incredible.\nThe character building was also great, they portrayed scenarios similarly as normal humans would do.\nReally liked the anime!\nHoping for a new season ❤️❤️",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Hyouron",
+     "date": "Apr 11, 2020",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "Note: This is from someone who hasn’t read the manga.\nRadiant is about Seth, who started off as a naive, stubborn, wide-eyed pubescent who seemed socially inept; he didn’t follow rules or reason.\nHe is a sorcerer, one who has survived an encounter with a “Nemesis” - monsters that attack humans.\nAlthough these people with magic or fantasia are able to use their powers to protect people from the Nemesis, sorcerers are usually stigmatized or feared by normies.\nThe young warlock brings it upon himself to end the hate and discrimination; he hears the the legend of the origin of all Nemesis, Radiant, and decides\ndestroy it.\nA similar set up is seen over and over again, like with Saiyuki, Blood +, Claymore (made a review for that), even X-Men, etc.: those same people who have the \"evil\" are the ones who are protecting the \"normal humans.\nIt all depends on the writing, character and plot development that will differentiate an anime from this somewhat basic storyline.\nAt the beginning, Radiant just felt like a kid’s show.\nSeth goes about his journey to this mythical place and meets strange characters, such as an equally naive chick with a split personality disorder, and others that seem flat, as they only react and don’t seem to think for themselves.\nSo many random things were happening that didn’t contribute to the build-up of the story, which was so frustrating.\nRight off the bat, silly mini-plots were presented with characters that seemed empty-headed.\nThere were too many coincidences that were too close for comfort.\nI actually almost stopped watching because every episode Seth would announce how determined he was to go to Radiant.\nYES, OKAY, so stop dilly-dallying.\nIt made me feel like I just wanted it over with, or I was wasting my time on such a childish/superficial plot.\nIt was for viewers who just wanted to enjoy in-the-moment entertainment, without there needing to be any progression, which is usually appropriate for children.\nCome the second half of the season, the much needed plot development finally arrived.\nFrom what I’ve researched, this is where the show comes to terms with the manga.\nNo explicit spoilers will be disclosed, but it was quite a jump from inane mundanities to great growth, excellent dialogue, and deep reflections of current realities.\nThough it lacked shelling out or explaining some phenomena, there was good enough alignment in its story elements that really propelled the narration forward, and even pushed the seemingly shallow characters.\nRadiant became a story on the rawness and innocence of a child who just wanted to make things better for the world, but has yet to face nor succumb to its harshness.\nIt became a tale on how he’s growing up and really just learning about life.\nHis innocent beliefs, values, and convictions - on kindness, discrimination - come to face with the “real world,” and how the dialogue executed that was beautiful.\nIt’s precisely his adamant childlike spirit that pulls the audience.\nSometimes, even if the plot can be predictable, with good writing and screenplay chemistry, it will definitely draw you in.\nIf it weren’t for the feeble first half of the show, some loopholes, and “convenient” storytelling, this anime would have definitely had a higher rating.\nFor now, a blind eye may be turned towards all the writing problems.\nHopefully, Season 2 will not disappoint.",
+     "phrases_exclues": [
+      {
+       "texte": "The first ten episodes felt like fillers.",
+       "motif": "filler explicite, début S1 (10 premiers épisodes)"
+      },
+      {
+       "texte": "Usually, fillers come after the audience has been able to “bond” or become invested in the characters, but not with Radiant.",
+       "motif": "filler explicite, début S1 (suite directe)"
+      }
+     ],
+     "phrases_proches_conservees": [
+      "If it weren’t for the feeble first half of the show, some loopholes, and “convenient” storytelling, this anime would have definitely had a higher rating."
+     ]
+    },
+    {
+     "auteur": "Praetori_Samurai",
+     "date": "Feb 20, 2021",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "As the first French attempt at Japanese style shonen - 10/10\nAs a manga adaptation - 4/10 (manga always had really pretty and vibrant color pages whereas the anime art mostly feels flat)\nMusic 6/10 opening was pretty nice but the score itself is forgettably generic.\nIt serves the anime when it needs to but never exceeds its’ station, so to speak.\nAnimation - 7/10\nSPOILERS\nCharacters - 9/10 interesting, pass the silhouette test (makes sense coming from the French, a culture that so highly values fashion), the curses are unique and inventive, the voice acting (dubbed) is pretty good on a whole except when it comes to Seth.\nHis voice actor portrays him as way too pathetic and fails to make him cool outside of fights.\nHe shines brightest when giving potency to moments of pathos but is grating in most other scenes.\nAs a protagonist Seth is fairly generic with his can do attitude and Naruto style rejection by society (replace the swing with being burned at the stake and replace the orange jumpsuit with a dudebro sleeveless hoodie) he doesn’t get much development until the second half where he learns that there are decent inquisition members and that the Nemesis aren’t always evil monsters.\nI’m interested to see how his “save all the good people” works in the long run.\nMelie’s defense and offense bipolarity acts as an excellent compliment to Seth’s bullheaded brawler style.\nHer curse of split-personality swap reminds me a lot of Launch from Dragonball but with more depth.\nI’m looking forward to seeing her flashbacks in season two that explain the backstory hinted at in this season.\nDoc acts as the reluctant voice of reason that frequently gets the comedic relief treatment as well (a little too often IMO) but he has the kids best interests at heart and generally knows what he’s doing.\nI can tell that his curse of xenomorph-style resurrecting himself will be highly valuable in later seasons.\nIt’s actually refreshing to see the older-than-they-look character be shota instead of loli.\nGrimm has excellent style, a cool aesthetic and badass combat abilities.\nIt’s clear that he’s after some specific Domitors and am curious to see where his character is going.\nAlma is the wise, rough, one-armed (Shanks) and badass mentor to Seth.\nWhile Grimm is the too cool for school mysterious badass, Alma is the no nonsense matriarch with memory loss.\nPlot - 7/10 pacing is not great, it has its proper generic shonen setup but then the pacing slows too much when developing the world building and training Seth (would have liked to see more traditional training) the Rumble town was excellent with proper escalation climax and deescalation of conflict over a satisfying 6 episodes.\nThe amount of deescalation does seem a little excessive however since the climax was 2 episodes long (16-17) and then the deescalation of 5 episodes after sort of morphs into the next arc that doesn’t even really start until the next season.\nSummary: Radiant is a fantastic start for French shonen with distinct vibes of both Fairy Tail (combat punchy magic) and especially One Piece (traveling from island to island in search of the Radiant=the One Piece, three factions of navy=inquisition, pirates=sorcerers, and the common folk caught in the middle, the MC’s family are revolutionary badasses) the wild card that mixes things up, however, is the Nemesis.\nThey act as both the central mystery (are they mindless monsters?\nWhere is the radiant?\nWhat is it and why do Nemesis come from there?) and the third faction in the show\nP.S. whether or not you enjoyed Radiant (and the second season is looking leagues better than the first) y'all should check out Ankama's other animated works!\nWakfu is amazing and the 4th and final season just got crowd-funded on kickstarter, meeting its goal in half a day and becoming the most funded animated show ever on Kickstarter!\nThe movie Dofus Book 1: Julith is also fantastic and one of my favorite animated movies not to mention Mutafukaz which is just as amazing.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "therealab",
+     "date": "May 3, 2024",
+     "note": 9,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 2,
+     "texte_filtre": "This is an underrated anime.\nScreenplay - 9/10\nThe story is simple on surface yet it touches so many deep dark crevices of the society - Racism, Hate speeches, Riots, Fear, PTSD, self doubt and are depicted in a way that do justice to those arcs.\nThere is humor added to prevent the dark tone from taking over.\nCharacters - 9/10\nThe characters have some generic anime traits yet they are unique in their own way with each one depicting real emotions, fears.\nThe reason for the main characters behaving the way they do and their growth is shown wonderfully.\nAnimation and fights - 8/10\nBeing an action adventure anime, it has\ndecent fight scenes.\nThe animation quality was good.\nDirection - 6/10\nThis is where the series hits a nail on its leg.\nUneven pace - Slow character introduction arcs yet deep impactful scenes are handled faster.\nThe overall speed of the anime appears slow for this reason.\nIt does get better after 11-12 eps.\nThere are deep meaningful parts in the early episodes too but their depth isn't as much as the final arc of S1.\nOverall - 8/10\nIf you can power through the first 11-12 eps, you are in for an amazing binge worthy series.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Jpk8",
+     "date": "Jun 17, 2022",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 2,
+     "texte_filtre": "THIS REVIEW MAY CONTAIN SOME SPOILERS\nSEASON 1 REVIEW\nThis will be the first review I have ever done. soo Radiant is not a bad anime and I\nmust say the characters and the story had me hooked by the 8th episode yes this anime does have a rather slow and boring start but just power through it and I promise that you won't be disappointed I give this anime an 8\\10 story is a bit slow that's why I didn't give it a 10/10 I give it my full recommendation for anyone who loves action and adventure anime.\nYes, this anime may put you off at first believe me it did for me as well but you don't have to worry the anime redeem itself 100% my favorite character was most definitely Melie for sure yea she comes off as annoying at first but she really shines in the half way point.\nall in all, you won't be disappointed with this anime and it has more episodes than most new anime out there.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "WDUNE",
+     "date": "Aug 20, 2023",
+     "note": 6,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "Radiant, a foray into a world ravaged by demons plummeting from the sky, presents a premise that initially seems like a familiar journey through the Shonen landscape.\nDemons called Nemesis cause havoc, survivors are cursed, and a lucky bunch can wield Fantasia as sorcerers.\nWhile this setup echoes the Shonen formula, Radiant tries to put its own spin on things, even if it takes a while to uncover.\nIn the midst of Radiant's well-trodden foundations—complete with a youthful and naive protagonist, extravagant battles, and an impossible mission—there are some elements that appear to set it apart.\nThe series introduces the notion of sorcerers as an oppressed\nminority, a refreshing twist, and their plight under the scrutiny of the Inquisition adds intrigue.\nAs Seth, Mélie, and Doc take center stage and embark on their mission in Rumble Town, the scope of the world's complexity becomes evident.\nWhile Radiant's first season allocates much of its time to character introductions and world-building, there's a sense of inconsistency as certain moments might feel less impactful.\nAs the story unfolds, the narrative starts to find its footing, leading to a more pronounced conflict in the latter half that concludes in an engaging manner, leaving room for anticipation.\nRadiant's maiden voyage might not be a resounding triumph, yet it does manage to capture some attention—particularly from those with a passing interest in anime.\nFor enthusiasts of the Shonen genre, it enters the scene with a degree of promise, treading familiar ground while attempting to infuse it with a different perspective.\nThe show's visuals boast a lively quality, and its core characters are well-rounded, lending it a semblance of uniqueness.\nWhat stands out is Radiant's subtle exploration of real-world themes, coupled with a focus on character evolution that slightly distinguishes it from the typical Shonen blueprint.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Blueruby24",
+     "date": "Jul 4, 2024",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "Honestly I love this anime as it isn't the whole I'm a over powered mc that has too much magic off the bat it nice the story is easily to follow along and it gains my full attention with my little ADHD brain which struggles to follow along or stay to watch certain animes it kept me engaged no episode did I feel bored I liked watching Seth slowly gain more power and a better understanding of he's magic with new spells in the first season even if it was a little amount but it was generally enjoyable and a great anime to start\nwith to get back into watching anime after a 3 year gap so in a small simple way this anime made my ADHD brain go wooo with every episode",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "nnidorion",
+     "date": "Jun 24, 2020",
+     "note": 9,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 18,
+     "votes_utiles": 1,
+     "texte_filtre": "Summary: Great shounen anime marred by viewer expectations of an adaptation.\nGive this a watch and ignore its current overal viewer rating!!\nThis is my first review, and I felt I had to write it given how unjust I feel the current overall rating of 6.9 is for this anime.\nI come from a completely unbiased background having never heard of this anime or adaptation.\nThis is honestly a great anime with amazing artwork and good story with actually decent comedy moments mixed with heart felt betrayal and great fighting scenes.\nComing across this anime for the first time and seeing a rating of 6.9 completely put\nme off, but I am so grateful I gave this show a go.\nIt looks like everyone who rated this show below an 8 are people pissed for whatever reason that this anime isnt up to their expectations of the adaptation.\nAs a standalone to me this anime is well worth a 9 and I can't wait to watch season 2.\nScrew all of you that rated this so poor, alot of people searching for non-mainstream anime are missing out on this gem!",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "LizzieMallow",
+     "date": "Jun 24, 2022",
+     "note": 5,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "I just...\nI can't enjoy it\nI mean I would have dropped the anime at episode three or four out of boredom had I not read the original material.\nI don't blame people who still enjoyed the anime, while being stripped from almost everything that truly made its success, but I've watched here and there a few episodes depending on the particular scenes I wanted to see animated and it just hurts to watch.\nSo if people were wondering why they find the adaptation kind of boring or bland, I'll explain, while avoiding spoilers as much as possible.\nThe anime is slow.\nLike, Naruto-level slow.\nAnd I forgave that\n15 years ago, but I can't do that past 2017.\nEspecially since the original material is quite quick-paced and always seems to know where it's going.\nSecond, the characters are off?\nLike, all of them?\nI mean, even Mélie, whose character is so tied to the storyline, somehow looks like a weaker, less capable version of herself ?\nIt's a shame since the author is so attached to giving his feminine characters space to develop and stand their ground...\nAnd why is Seth so bland?\nHe's actually supposed to be a thoughtful, genuine, witty character you know ?\n(at least after his origin-story arc)\nThen, while I know it's so tied to the language it was written in, but the lines were supposed to be so direct, precise, and full of jokes and puns...\nI can actually guess the adaptation is not that far from the japanese-translated material...\nBecause culture is tied to language.\nAnd, well, those characters were supposed to be French.\n(I'll miss you Dragunov...)\nI've seen people praise the coloring, but I'm so used to the author amazing color-spread and beautiful color palettes, I just wish they had someone like that to adjust the lighting.\nThe anime scenes look bland in comparison...\nThe animation is barely passable.\nOn today's standards I would say it's awful.\nThe characters lack expressiveness, the way they move barely gives any emotion...\nIn a nutshell, this version is both sexist and disrespectful of the manga.\nIf you can, learn French and get the original material.\nThe English translation is decent too.\nBut then, if you enjoy this version somehow, I'm glad, for real !\nI just want people to know that it could have been even better",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "ZB_Blades",
+     "date": "Feb 23, 2019",
+     "note": 6,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 4,
+     "texte_filtre": "Radiant is a first for me and the anime community in that it is a french manga (yes, apparently they do exist) turned into an anime.\nThis alone compelled me to check out the anime as it was something different.\nAt least, that's what I initially thought.\nStory - 5\nI thought that with a french manga we would get an original story with a different perspective on the medium we know and love.\nInstead, I got just another cliche ridden shounen.\nWhich if executed well can turn out pretty good.\nUnfortunately, this is not one of those times.\nFrom the beginning I could tell this\nwas going to be a disappointment as the first episode was probably the most boring first episode of any anime I had seen in recent memory.\nNow, I'm not one to make knee jerk reactions after one episode so I stuck around to see how the story would play out.\nAs expected they kept the same style at the same sluggish pace.\nEven when the story gets to its \"hype\" moments later on they still feel underwhelming just because of how the show was handled.\nSo the story was lacking, but there are ways around this.\nCharacters - 5\nThat way is compelling characters which this story has very few of.\nOff the bat we are introduced to our main character Seth, a sorcerer, who acts very much like your standard shounen protagonist.\nHis power isn't very creative either so its not like he stands out from the crowd very much.\nThe side kicks that go alongside our main character have nice designs but personality is lacking.\nAs the series progresses we are introduced to a few more from the cast who in my opinion are far more interesting then our main group.\nYet, they don't stick around for very long but I'm hopeful they will play a more vital role in the future.\nAnimation - 7\nI was surprised that a foreign property like Radiant would have some nice animation and art so it was a pleasant surprise.\nThe animation stays consistent for the most part and its easy on the eyes.\nThe characters themselves do not look cookie cutter which I like.\nThey look like they actually have some personality even if that is sadly not the case.\nAction scenes are decently handled as well.\nOverall, for a non Japanese manga turned anime the animation was quite good.\nSound - 8\nBy far and away this is the main reason why you should watch Radiant.\nThe opening song alone is straight fire and instantly gets me hyped for the coming episode.\nEven if you don't end up watching the anime, at least watch the opening.\nThe ending song is decent and the voice acting is fine as far as I can tell, but the opening is something else.\nEnjoyment - 6\nThe characters outside of a couple later on were not very compelling nor was I interested in their motivations or journey.\nI liked the music and the animation though so maybe I'm just a sucker for a good OP, but overall it was a decent enough watch.\nI am curious to see where the story will go next as of the time of writing this a season 2 was announced.\nHere's hoping for some more compelling story lines.\nMy recommendation would be to check out the opening and then decide from there.",
+     "phrases_exclues": [
+      {
+       "texte": "The story for the most part was slow, boring, and what felt like filler even though this is a decently sized series at 21 episodes.",
+       "motif": "filler explicite, épisodes non localisés précisément"
+      },
+      {
+       "texte": "The show started off slow and most of the filler episodes which took up a good bit were boring, but the content towards the end was decent enough.",
+       "motif": "filler explicite, épisodes non localisés précisément"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "demetri_123",
+     "date": "Mar 21, 2022",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": null,
+     "texte_filtre": "Radiant is very much like fairy tail in that there is a lot of unnecessary dialogue with not enough action.\nYou need to get through the first season to really enjoy the anime in the second, from there I'm sure you will want to continue watching Radiant as there is a lot more action, comedy, character development, and overall enjoyment...\nTrust me.\nThe story on its own is a great one!\nThe art is as good\nas fairy tale( its good )\nThe sound is as good as the average anime\nThe characters are okay and will get better in the second season\nEnjoyment for this season is a 7 rating as it is just (good) nothing more nothing less.\nOverall I would have to give it a 7 for this season",
+     "phrases_exclues": [
+      {
+       "texte": "Overall the first season may seem a bit slow with a lot of filler episodes but allows you to get a clear understanding of the characters and the storyline.",
+       "motif": "filler explicite, épisodes non localisés précisément"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Elyshion",
+     "date": "Apr 22, 2026",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": null,
+     "texte_filtre": "Radiant, a French mangaka who shines with originality and humor!\nOverall, generally speaking, Tony Valente undoubtedly wants to make his manga a Shōnen classic, aiming to appeal to a Japanese audience.\nThis includes a boy with a secret power that can wreak havoc but can't control, and who trains hard to master it (Seth), a girl with a split personality (Mélie), an enemy who isn't so bad after all (Dart Dragunov), a sensei (Alma), a guy with terrible jokes (Doc), and above all, friends or even more than that, the famous power of friendship.\nAnd that's what you'll find in this anime.\nBUT be careful!\nThat doesn't mean it's bad.\nAt least, that's what I think.\nFurthermore, I really like the fact that they provide explanations during the eyecatch moments.\nThe second season is much better as the plot unfolds more and more.\nI really enjoyed the introduction of new characters like Queen Boadicea, Myr, Jill, and Ocoho, especially the fact that she's Black/mixed-race, which is very rare in Japanese anime.\nThe animation and character design are lovely, even if the somewhat polished look doesn't bother me too much.\nAs for the soundtrack, I really liked both the opening and ending themes.\nThe OST fits the anime's atmosphere perfectly.\nIn short, for an anime made by a French mangaka, I think it's pretty good.\nAlthough I wish he had created his manga the way he truly wanted, instead of trying so hard to appeal to the Japanese audience.\nNevertheless, I really appreciate the initiative.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "gbrain",
+     "date": "Dec 10, 2019",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 2,
+     "texte_filtre": "I have to be honest, MyAL is getting a lot more negative over the past few years that I have been using it.\nThis anime is definitely above a 7 and less than an 8, which is why I gave it an 8 (because the reviews were just so negative).\nThere is a lot to like about the series.\nIt introduces you to a world that is quite different from what you'd typically see in a shounen anime.\nFurthermore, there are a lot of themes that this anime explores that are never explored in other anime; the content of its first season is surprisingly relevant to\nmodern political problems.\nThe story starts off as showing the the world divided between Magicians and the \"Inquisition\".\nThe theme is very reminiscent of One Piece, in the sense that you are rooting for the Magicians who are _against_ the law in a certain sense.\nWe are introduced to \"Seth\" a burgeoning young magician who has a mysterious past, and uses is power in a different way to most magicians.\nSeth sets off on a journey to find a way to defeat the \"monsters\" that attack people once and for all.\nLittle does he know that his resolve is going to be altered significantly; everything is not what it seems.\nRadiant is an anime that reminds me a lot of how Naruto, Fairy Tail and other greats started off - small and with a growing cost of characters.\nI think that this will be remedied in the next season, so I hope you can bear with this season for the next one.\nI enjoyed this season, and I strongly look forward to the next season that the anime has in store.\nSo please, don't give into the haters, and give this anime a chance.\nIts interesting, funny, slightly insightful and something that you can definitely relax to.",
+     "phrases_exclues": [
+      {
+       "texte": "The only problem with this particular season is that it has a lot of filler episodes that make things a little annoying.",
+       "motif": "filler explicite, épisodes non localisés précisément"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Reshind",
+     "date": "Aug 8, 2019",
+     "note": 5,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": 7,
+     "votes_utiles": 2,
+     "texte_filtre": "Story-\nThe story is clear cut on what the protagonist's objective is.\nThat can be a good thing but it's too simple to get me to continue to watch.\nArt-\nArt is what i'd expect from a shounen.\nIt's not bad but not spectacular.\nSound\nThe sound wasn't too distracting and I'm somewhat in favor of the opening.\nCharacters-\nThe protagonist has an irritating personalty, shows little gratitude, and is so thick headed that it's sickening.\nA supporting character is just there for the sake of disruption and the other is there for comic relief.\nThese can be good things but there's not much that makes me love this characters enough to continue.\nEnjoyment-\nIt's not great but I don't hate.\nOverall-\nJust another generic shounen.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "maougha",
+     "date": "Jan 5, 2020",
+     "note": 6,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": 2,
+     "votes_utiles": 2,
+     "texte_filtre": "I really want to like this show, it does have everything that I look for in anime/manga.\nA fantasy world, magic systems - and a pretty cool magic system at that.\nAnd I think of shonen anime/manga as a comfy and safe genera that I'm always happy to just lose myself in.\nThat being said, every time I find myself getting into this story.\nGetting into the world setup and the plot starting to move along.\nA character (usually the main, or doc) has to open their mouth and ruin it for me.\nRight now, my only real complaint that's keeping me from being less\nharsh on this show is.\nThe main character is just too dumb.\nAt first I thought he was regular level shonen hero dumb.\nWhich is fine, you learn to love the dimwitted hero with a heart of gold.\nOr at least I do.\nBut Seth is really pushing the boundary of 'naive if not a little slow' to 'how does he know to dress himself?' almost to 'if he feels hunger pains, does someone still have to tell him to eat?'\nCase in point, it's season 2 and other characters have to remind Seth what his goal in life is.\nYou know the main plot, his 'I'm going to find the one piece/become hokage/catch them all?\nAt this point I've got 2 or 3 more episodes left in me before I'll need to take a step back, and if I can't restart it after a few weeks, I'll have to mark this as did not finish.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Zonticore",
+     "date": "Oct 4, 2019",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 2,
+     "texte_filtre": "I was skeptical going into this show, and for the first 10 or so episodes the show is really not that great.\nBut then the story picks up and holy shit you will be glad you started watching it.\nThe story is really what carries this show, everything else is only slightly above average.\nThe show is a little bit like black clover in a few ways but it does everything that it had in common a thousand times better.\nThe animation was pretty good in everything besides when the action picks up. they do this stupid animation technique where they blink past and forward frames really\nfast to try and make it look like something is moving fast. it just end up looking lazy and bad.\nThe characters are interesting and none of them are too annoying, but they butchered my boy g's character later in the show.\nOverall a solid show and is for sure worth the watch.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": [
+      "I was skeptical going into this show, and for the first 10 or so episodes the show is really not that great."
+     ]
+    },
+    {
+     "auteur": "Disfemisef",
+     "date": "Jun 21, 2020",
+     "note": 7,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "Radiant follows Seth, a sorcerer who is in search of the titular Radiant hell bent on destroying it.\nApparently, Radiant spawns monsters called nemesis that wreck havoc and sorcerers are the only ones that stand a chance.\nRadiant is also notable because as far as I know, it's the first French anime to be produced.\nThat said, how does it fare as a story?\nThis could easily he seen as a generic Shonen title and in many ways it is, however, it really impressed me with its strong anti-racism themes.\nSorcerers are hated simply because they have powers others don't and are thereby discriminated against.Seth's\nplan is to destroy Radiant in the hopes of stopping said discrimination.\nSpeaking of Seth, in the pantheon of Shonen protagonists, he'd probably place somewhere in the middle: better than Natsu, not as cool as Tanjiro.\nAlso, there were some logical inconsistencies that plagued this show that I found hard to look past.\nFor instance, sorcerers are hated for the powers they possess, however, the inquisitors (the team that hunts them) also have weird powers, but aren't feared by the people...\nThat's odd.\nAlso of note is the world mechanics.\nI think the world of Radiant can be pretty intriguing, but I think it'll need more building in the second season, so I'll probably withhold judgment on that.\nFinally, it had some decent animation and music and the opening theme song is by a band I've recently started to enjoy, so there's that.\nIf you are a Shonen fan, this is certainly one you'd appreciate and enjoy.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "MidniteAndBeyond",
+     "date": "Dec 27, 2024",
+     "note": 5,
+     "recommandation": "Not Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 4,
+     "texte_filtre": "This is a review of seasons 1 and 2\nDespite One Piece being my favorite anime, I tend to not watch any other long-running shonen or shonen-esque shows.\nBut I heard a lot of buzz about this one back when it was airing, so I opted to check it out.\nAnd look.\nI REALLY don't like to pit different shonen against one another.\nI don't think it's fair to compare every one of them to the one that I've been personally backing for most of my life.\nThese shows can all co-exist and we can be fans of them all, simultaneously... but I'm sorry.\nThe similarities\nwere just far too frequent and far too prevalent to ignore.\nThis show wanted to be One Piece SO badly.\nI do like the overall premise and message its focused on, but the similar plot points, story beats, running gags, character tropes, friend dynamics, magic macguffins, and so many other details just kept One Piece in the back of my mind all throughout this show.\nIt was still an ok show and I'll continue to watch it if and when more seasons release.\nBut I hope this series eventually evolves into something all of its own, rather than living in the shadows of the story that very clearly inspired it.\n5/10",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "aoikimahri",
+     "date": "May 14, 2020",
+     "note": 1,
+     "recommandation": "Not Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 4,
+     "texte_filtre": "I only watched past episode 10 because the reviews said it gets much better.\nUnfortunately, getting much better means ham-fisting vapid social commentary using the vocabulary and mindset of a four year old.\nI probably skipped half the show, jumping ten seconds at a time, to avoid the cringe worthy repetitive dialogue and time wasting kindergarten jokes.\nRadiant is supposedly adapted from a French manga.\nI don't know how that's supposed to work.\nIsn't that just a comic book?\nIt doesn't really matter since the whole show is no different than your typical Japanese fantasy shounen with an overpowered MC, magic, monsters, and flying ships.\nExcept\nit is one of the worst around, with highly simplistic plot threads and storytelling aimed at a grade school audience, cheap animation, cheap fight scenes, bland art and sound, and an utterly detestable and braindead protagonist that blindly runs around and screams nonstop like a crying toddler that didn't get his way.\nIf he's not screaming and yelling and acting like a loud simpleton, he's running headfirst into things and destroying everything within sight, repeating some tired childish mantra about being the best or saving the world every five seconds, or being a complete dufus in conversations so the writers can stretch the runtime and explain the premise for the umpteenth time.\nIt's the worst of Fairy Tail, One Piece, Naruto, and Black Clover with none of the charm.\nHe is so bad, I spent most of my time skipping any and all scenes with him in it.\nAnd the one or two other characters in his party are either just convenient tools for plot armor, or just for some grating juvenile humor, and have dimensionless otherwise.\nMost of the villains end up being far more interesting.\nSpeaking of Fairy Tail, the art style is basically a dumbed down version of it, with some characters, like the inquisitor general, being just a ripped off version of Gajeel.\nThe MC in particular looks like a deformed version of that useless black haired kid in the Fairy Tail guild.\nI always have to look askew whenever the MC's face is prominently in a scene because it's so repulsive.\nThe proportions are all wrong, and it's like that 100% of the time, meaning it's intentional and not some bad outsourced work.\nThe attempt at social commentary starts from the very first second, with the MC constantly complaining and bitching about being ostracized and hated for being a sorceror and possessing magic, without even an ounce of thought to his own actions.\nHe's literally bringing death, destruction, and famine with his antics and utter recklessness, running around blowing things up for fun, destroying crops, buildings, water sources, and people's livelihoods.\nHe continues this trend all along his journey, any loss of life, limb, or property can be smiled away, never learning.\nIt completely undermines any arguments over equality, acceptance, bigotry, etc. that he frequently spouts.\nHe is the living embodiment of everything people fear him to be.\nIt becomes quite meta as the adults are frequently scolding him for his simplemindedness and stupidity, and yet he never changes and most consequences are brushed off as trivial in the story.\nThe author is basically making a mockery of himself in which he secretly criticizes his own work.\nDuring the second half, the social commentary shifts over to larger scale xenophobia as an inquisitor in a factory town attempts to purge the \"dirty and impure\" immigrant population within.\nLike everything else in the show, it's poorly supported with zero nuance and dumbed down for a grade school audience and drawn with the simplest lines.\nIt's basically a parody of a serious situation.\nA really bad disney movie with a cartoon villain.\nNot once did I care for their plight.\nThere are no real consequences after all.\nThere's even a magic coffin that can hide people during the whole ordeal.\nThere is a last ditch effort at the end of the season to convey angst, introspection, and SOME character development in the MC, but it's ulimately meaningless and he goes back to being the same buffoon he's always been.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    }
+   ]
+  },
+  {
+   "saison": 2,
+   "titre": "Radiant 2nd Season",
+   "url": "https://myanimelist.net/anime/39355/Radiant_2nd_Season",
+   "score": 7.55,
+   "nb_votes": 48999,
+   "rang": 2009,
+   "popularite": 2134,
+   "membres": 122074,
+   "episodes": 21,
+   "diffusion": "Oct 2, 2019 to Feb 26, 2020",
+   "studio": "Lerche",
+   "synopsis": "After fleeing from Rumble Town, Seth, Doc and Melie are back at the Artemis Institute. Thanks to Alma, Seth learns more about Piodon, his mysterious brother. But the quest for the Nemeses mythical nest Radiant has already waited too long, so the Horned Boy and his friends head to the island-continent of the Wizard Knights. This location may be a new city for audiences, but it's a decaying world that's falling apart! Not only must Seth deal with these hardships, but he must also face a personal phenomenon where visions are invading his mind a little more each day. (Source: monstersandcritics)",
+   "nb_critiques": 12,
+   "note_moyenne_des_critiques": 7.75,
+   "critiques": [
+    {
+     "auteur": "KANLen09",
+     "date": "Feb 28, 2020",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 52,
+     "texte_filtre": "If like many people, falling off the bandwagon after the atrocity that is the prequel, I highly implore you to give this series a 2nd chance with the sequel.\nSeason 2 here covers the long-running Caislean Merlin arc of Tony Valente's manfra, and for another\n21 episodes, it could not be more fitting than that to show just how massive the divide between the massive character cast is.\nWithout spoiling anything, it was literally an all-out war between regular humans (a.k.a the Inquisition plus a band of people) vs. the sorcerers (a.k.a Seth and his brothers alongside support from Melie, Doc and others), and pick your side of the battle, because this battlefight outrageously affects those who are involved and maligned to the cause of their own calling.\nNeedless to say, there are deaths in battle to fight for what's right, but to the mainstay character cast (Seth, Melie, Doc), endless inquiring about them looking forward to find Radiant once again, just got caught on the wayside with facing the Inquisition again after what happened in the Rumble Town arc in Season 1.\nAll I can say was, it was a battle of epic proportions, and it's a redemption all to itself.\nTo add onto the insanity, if the same production staff and Lerche absolutely bogged the comedy in Season 1, the seriousness in tone is just as goog (not great, mind you) coming into Season 2 with a fleshed-out plot and visuals that still make the manga better than the anime, but where the latter nails it is in the pacing and story restructuring that's better than the former.\nTHIS is what fans of the manfra have been waiting for the series to truly flex its story, just that the beginning journey is more rough to swallow than it is here, and unfortunately having to stomach Season 1 just disappointed both fans and newcomers and this gets shunned immediately.\nSo for Season 2 here to go back to its roots, I've gotta commend the staff for doing such a good job bringing Tony Valente's vision to light, and also to check out the manga as well (besides being an advertisement for the source material DUH).\nMusic aside, the OP/ED pairing is fine, though I'd like Emi Nakamura's song as well on the levels of Season 1's OP and ED.\nRe-stating the point overall, to either end this show's run or continue with a Season 3 (in the future), it's time to revisit Radiant and binge it for all its pretty good hype and worth.\nJust as decent for the myriad of Shounen series overall, but definitely not bad than expected, at all.",
+     "phrases_exclues": [
+      {
+       "texte": "If there was anything to redeem this series as a whole, it would be the series' continuation a.k.a Season 2 here, as Season 1 is mainly just relegated to character introductions and development in the beginning arcs of small dosages, and absolutely creamed with fillers (because the story structure just doesn't fit easily to 21 episodes (whereas the standard is 24-26)).",
+       "motif": "phrase mixte : filler S1 + avis sur la saison 2"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "gumpngreen",
+     "date": "Jan 29, 2020",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 14,
+     "votes_utiles": 45,
+     "texte_filtre": "While the first season of the Radiant anime adaptation was fairly interesting it just doesn't hold a candle to the second season.\nThe new story arc gives the characters much-needed emotional depth and develops the plot with some twists.\nThe Caislean Merlin arc was more than enough for 21 episodes and, as such, the second season also followed the French manga series by Tony Valente\nmuch more closely.\nThe biggest difference was that NHK Educational TV apparently asked studio Lerche to tone down the sexual jokes and crude humor.\nOtherwise, anything skipped or reordered was minor.\nIf you enjoyed the first season then you'll definitely enjoy the second.\nNewcomers are advised to start from the first season since it does most of the worldbuilding.",
+     "phrases_exclues": [
+      {
+       "texte": "The first season's first half was mostly filler episodes, although some of the anime original content fleshed out side characters better (and introduced anime-only characters).",
+       "motif": "filler explicite, première moitié S1"
+      },
+      {
+       "texte": "Arguably, this was necessary since the first two story arcs were not long enough for 21 episodes.",
+       "motif": "suite directe de la phrase précédente (justifie le filler)"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Tenkay",
+     "date": "Feb 26, 2020",
+     "note": 10,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 21,
+     "votes_utiles": 19,
+     "texte_filtre": "Well damn its over.\nA series I never thought I would get one season of has just finished its second.\nI remember back before season one was announced when i was translating the manga for myself from french using google translate the best i could just cause i loved the character designs so much.\nAnyway Seth is back and hes on his was to Cyfandir to try to learn about Radiant.\nIf you loved the first season you will i think love this one even more.\nWhere the second half of season one started really ramping up the world building this takes it to a new\nlevel.\nIn the land of Cyfandir you will get lots expansion on the lore of the world.\nTons of great colorful characters make their introduction and the battles continue to amp up and get more epic.\nAt the time of writing this there isnt enough current manga for a season 3 but hey it ends with \"See you again someday.\", so we can hope.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "lenompasbanal",
+     "date": "Dec 7, 2020",
+     "note": 9,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 15,
+     "texte_filtre": "(spoiler free)\nWhile I was cruising through MAL to find an anime that I would surely enjoy, I came across Radiant.\nWhile the first season was kind of underwhelming, the second season was extremely satisfying.\nWhile yes, it did follow many shonen stereotypes, Radiant only picked the good ones and left the boring and annoying one out of the window.\nThis season kept its standart up regarding both the animation and the sound design.\nIt's not out of this world though, it's just sitting comfortably above most animes.\nA reachable ideal.\nI'm not much of an OP or ED fan for any kind of show, and I've not\nchanged my mind with this anime.\nYou'd probably enjoy them, i'm not someone you should really listen on this matter.\n(not that you should listen to me for anything, i'm just an everyday anime fan)\nNow, let's elaborate on why I've said it's an extremely satisfying season :\nMost of the pre-existing story gets fleshed out, while very interesting new parts are brought up.\nThe first season set the ground (if I can say so since most of the land is actually suspended in the air) for the characters to flourish.\nSeth loses some of his brattiness and further the distance between Asta from Black Clover and himself.\nMany character seemed to have gain 2 years of maturity.\nOverall the show grows a little in maturity.\nYou can also begin to target a big bad villain for the whole story now, but the quest for the Radiant is still on-going.\nLike a proper 21 episodes season, every episode is relevant and important.\nYou're not left at a Cliffhanger at the end of the season, but it's far from finished !\nOverall it's a great season, a major improvement, and a satisfying finish.\nIf you want to compare it to major animes, pick classic shonens.\nBecause only there you'll be able to see it's actually top-tier.\nIt will not change your regard on life though, it's only a good, fun, reliable ride.\nBut then, if you're looking for reviews on the second season, you should have been able to bare the first season, so go for it.\nYou will not dislike it.\nI definitetly recommend this one.\n(disclaimer, i'm no godly individual, enjoy what you want, i'm not one to tell you what to do)",
+     "phrases_exclues": [
+      {
+       "texte": "We're also far from the first 4 episodes filler of season 1.",
+       "motif": "filler explicite, 4 premiers épisodes S1"
+      }
+     ],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "SCUBAST3V3N",
+     "date": "Feb 26, 2020",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": 21,
+     "votes_utiles": 11,
+     "texte_filtre": "Today, the last episode of Season 2, of Radiant aired.\nIn my opinion, this anime doesn’t get enough credit, or recognition.\nThe art and animation are solid, and the story, is just different enough to give off its own flair, while maintaining a lot of things that are common place in the action/adventure genres.\nWith that being said, let me say that the 2nd season of Radiant did a solid job of delivering in different ways than the first season did.\nPersonally, I think the first season, and the rumble town arc, namely, had better action scenes.\nHowever, that doesn’t mean The 2nd season didn’t deliver\nits own punch, and in my opinion, it brought a more emotional vibe overall, than the first season did.\nI think, the first season had a lot of introductory stuff to dig through, and thus, it started pretty slow.\nIt was nice to have the 2nd season just pick up relatively quickly, in comparison.\nI loved the introductions of the new characters, and the world building is pretty impressive, in the fact that you can see them adding importance to each area that Seth visits, and the potential impacts that those places could have in the future seasons.\nI rate S2 of Radiant an 8/10.\nIt’s definitely worth the watch if you’ve seen the first season- and if you haven’t- then I do suggest watching both seasons.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Disfemisef",
+     "date": "Jun 29, 2020",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 9,
+     "texte_filtre": "First off, Season 2 was way better than Season 1.\nThis season follows Seth and Co as they get caught up in another adventure.\nThis time, in the city of Cyfandir where sorcerers and humans live harmoniously.\nSo, the characters.\nIt was a criticism I had about the first season that I didn't really get to connect with the characters.\nMaybe because it's a long running series, in this second season I really got to understand the characters a lot more.\nSeth feels like a typical Shonen protagonist, but, I think he's a bit more nuanced.\nAs for the world building, I don't think this season\nadded too much to what I understood from the first season, but that might be because of the plot which I found well woven and nicely tied together.\nWhat really struck me about this show is the idea of stakes.\nSee, one of my biggest problems with Shonen is that there never seem to be any stakes.\nThings happen, bad guys attack, but everything seems to be fixed immediately after with no repercussions.\nFor instance, Fairy Tail where literally no one dies and even Lisanna who was supposedly dead before the show started was brought back later on.\nBut, Radiant S2 had stakes.\nThere were consequences for what they fought for.\nThis helped to immerse me in the story even more and I completely enjoyed it.\nAll in all, I enjoyed this a whole lot more than I thought I would.\nThis is a show that will go under the radar when compared to other shows in the genre, but I'll reckon it's actually one of the better Shonen shows.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "KyomaBritannia",
+     "date": "Jul 7, 2022",
+     "note": 6,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "There's a great story hidden within this mediocre one.\nCharacters with extensive backgrounds and complex motives, adventures and fights on the level of Naruto, maybe even HxH if there was enough care put into its making.\nBut the imagination cannot make up for all that is lacking.\nSeth is similar to Naruto in that he's dumb but wants to help his friends, only turned up to an almost unbearable level.\nThe Inquisitors at first seem like an enemy who has either good intentions but have been fooled by subterfuge into being too harsh on the sorcerers, or are villains pulling off an intricate plan to solidify\nthemselves as the heroes for nefarious gains.\nAnd then suddenly they are acting like some kind of racists against not just sorcerers and intelligent creatures, but even other humans who were born in a different country.\nDoc has shown subtle hints of becoming more, but then he is constantly used as a source of poor comedic punchlines.\nThe characters all have varied powers that are interesting or exciting, and open up plenty of avenues for deeper lore, but are usually just large blobs of color in passable animation work.\nThe sorcerers' spells are usually green or blue while the inquisitors are gold.\nMakes me wonder if they were going after the look of lightsabers in Star Wars.\nThe sounds don't feel out of place, but most of it isn't helping the show in any way.\nBetter than dead silence but nothing memorable.\nThe good thing is that season 2 does improve on the first a bit.\nJust maybe season 3 could do the same and get a bit closer to what this story deserves.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Jpk8",
+     "date": "Jun 17, 2022",
+     "note": 10,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 2,
+     "texte_filtre": "THIS REVIEW MAY CONTAIN SOME SPOILERS.\nSEASON 2 REVIEW.\nWell, where should I start my review?\nlet's begin with the animation\\art in my opinion, the animation was simply perfect the weird hairstyles did through me off for a bit but once I got used to it got better.\nThe fight scenes were not half bad at all I love the animation and the art style loved every second of it art\\animation I give it a 10\\10.\nThe sound was perfect all the scenes match the sound and the music perfectly sound I give a 9\\10.\nThe characters were simply awe-inspiring in my opinion the way they struggle and\nthe way they choose to overcome is awesome.\nthe story was just as amazing if not more amazing than some newer anime the story was simply put the best I have seen.\nI really enjoyed the overall experience the whole anime was soo good.\nnow about the story part, I must say it was soo much better than in season 1 the way he works on finding radiant is just inspiring.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Brute_Boi26",
+     "date": "Feb 25, 2020",
+     "note": 5,
+     "recommandation": "Mixed Feelings",
+     "episodes_vus_si_precise": 20,
+     "votes_utiles": 5,
+     "texte_filtre": "First thing i want to say is that the characters seem a bit bland and just generic like seth just has no defining personality he has what every bland protag has save my friends and the people i love at all costs attitude but nothing else ill give him one thing he is a caring person but nothing else i cant see one defining thing about him and his backstory is just poorly explained even the bits of it that we get it just seems bad but the seasons not over yet so i will have to wait and see what they give us on\nthe 21st episode of radiant .",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "therealab",
+     "date": "May 5, 2024",
+     "note": 8,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": null,
+     "texte_filtre": "This is an underrated anime.\nScreenplay - 8/10\nThe story continues from Season 1 and touches so many dark crevices of the society - Racism, Deforestation, Utter lack of respect for nature, Greed, Fear, Monster within you, self doubt and are depicted in a way that do justice to those arcs.\nThere is humor added to prevent the dark tone from taking over.\nCharacters - 8/10\nThe characters have grown from season 1 and new ones added with real emotions, fears and a gray personality (no complete black and white).\nThe reason for the characters behaving the way they do and their growth is shown wonderfully.\nAnimation and fights - 8/10\nBeing\nan action adventure anime, it has decent fight scenes.\nThe animation quality was good.\nDirection - 6/10\nThis is where the series hits a nail on its leg.\nUneven pace - Slow character introduction arc yet again in season 2.\nBut deep impactful scenes are handled faster.\nThe overall speed of the anime appears slow for this reason.\nIt does get better after early eps.\nIt seems a repeat of review of season 1.\nBut the second season is pretty much same in that manner.\nIt has same structure and setup.\nIt is almost as if same mold was used to build both seasons.\nThere are still too many mysteries to unfold including identity and truths about major characters.\nOverall - 7.5/10\nThis season is slower than 1st season, has more character development of side characters and long training arc.\nDepth increased at the cost of pace.",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "GosuDRM",
+     "date": "Jan 20, 2021",
+     "note": 9,
+     "recommandation": "Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 1,
+     "texte_filtre": "Well first of I was a little skeptical about this and the first few episodes I was starting to give up on the anime but if you grin the first few episodes the anime actually is very much enjoyable the story at first was a bit dragging on my opinion.\nThe main has a very interesting background lots of mysteries about his past, the anime it self is funny and the more episodes you go through the anime is beginning to go even more interesting, the animation is very good and the soundtracks as well and the story line is super interesting and exciting cant\nwait to see this anime full potential when people become to realize how good this anime actually is, the anime is like mixing One Piece, Fairy Tail and Black Clover.\nI very much enjoy this anime and highly recommended it to anybody else!",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    },
+    {
+     "auteur": "Teddys92",
+     "date": "Jun 10, 2022",
+     "note": 4,
+     "recommandation": "Not Recommended",
+     "episodes_vus_si_precise": null,
+     "votes_utiles": 7,
+     "texte_filtre": "This my opinion, other have they too\nFor me this anime Too much talk shit even in the war, just too much talk shit than action, plot = decent, dont feel really hype for the next episode\nArt is okay\nSound okay but..\nCharacter not strong enough, and no much variation for long anime\nEnjoyment kinda boring\nWatch for your self\nIts feels like this anime wont go anywhere\nMain character training get stronger by talk shit than pyshical training not even skill training, mind speak talk bla bla bla\nThinking that i wasted my time watching this\nThe story not to much tell about the mc but the others\nMc are stupid and useless\nAjajajajananaananjaa anna a ajana aauaikqnw jana ajwna ajaianaa jajana a jaan ahaja abauana ajauajanawjnsns ajajnajajaanj",
+     "phrases_exclues": [],
+     "phrases_proches_conservees": []
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "note": "Relecture manuelle du 05/10/2026, avis Goodreads en anglais, notes <= 3/5, tomes 1-2 : Radiant, Naruto, One Piece, FMA, HxH, JJK, Red Hood. Un id est « confirmé » si le défaut vise bien l'œuvre (récit, rythme, protagoniste), « rejeté » sinon (dessin, personnage secondaire, citation, éloge). Jugements du relecteur, discutables.",
+ "confirmes": {
+  "derive": [
+   "goodreads.v1.jYmz5wovxMi15XjghKd98w",
+   "goodreads.v1.THxH8Cq88PK8YqYpSqzj7w",
+   "goodreads.v1.AFGSSmaWVakfZYpc3FBhCg",
+   "goodreads.v1.1uFZMnRdInuZPKdwnzHW-g",
+   "GR1-HlqQvA",
+   "GR1-rwG-nA",
+   "GR1-4uyxZA",
+   "GR1-3091906853",
+   "GR1-4685643922",
+   "GR1-2678253068"
+  ],
+  "lent": [
+   "goodreads.v1.jYmz5wovxMi15XjghKd98w",
+   "goodreads.v1.hQ48eL9cGZgFI7TdJJXQWA",
+   "goodreads.v1.e0W8YtxQIOeaXbDcL4J5RA",
+   "goodreads.v1.OImXWZYOViJaK92Zmuo28A",
+   "goodreads.v1.8ziO0x_HkkArN5p9A3yvzQ",
+   "goodreads.v1.VyNT4mKxzJCDZFO6epcskw",
+   "goodreads.v1.-WjqMmoarzbGZc5M7Sl2oQ",
+   "goodreads.v2.2023121013.d049ad52-afaa-4fcc-8723-d6d449b3f628",
+   "goodreads.v1.1a3ZhOy6ux8CbVihFQMRlA",
+   "GR1-BhObyw",
+   "GR1-3091906853",
+   "GR1-7036192683",
+   "GR1-4781301884",
+   "GR1-2545279294"
+  ],
+  "bavard": [
+   "goodreads.v1.-WjqMmoarzbGZc5M7Sl2oQ",
+   "GR1-HlqQvA",
+   "GR1-3091906853",
+   "GR1-4339019526"
+  ],
+  "tension": [
+   "goodreads.v1.e0W8YtxQIOeaXbDcL4J5RA",
+   "goodreads.v2.2023121013.d049ad52-afaa-4fcc-8723-d6d449b3f628"
+  ],
+  "combat": [
+   "GR1-2545279294"
+  ],
+  "heros": [
+   "goodreads.v1.AeOmXjGwUf7J9hGqT3t_rA",
+   "goodreads.v1._ilHwfF9cR_zfe0np58uhg",
+   "goodreads.v1.1nJBHY8g-Mgaga6m3T2PEA",
+   "GR1-rwG-nA",
+   "GR1-4564513442",
+   "GR1-2700378034",
+   "GR1-2721675243",
+   "GR1-2545279294",
+   "GR1-2952947638"
+  ]
+ },
+ "rejets": {
+  "derive": [
+   "goodreads.v1.orWR_HFJjYkkGU7LSiMKmA",
+   "goodreads.v1.C4_m7OrrZVFDYGibj0nyPg",
+   "GR1-4564513442"
+  ],
+  "lent": [
+   "goodreads.v1.5_B4gAHfVJzbj_1fIue8eA",
+   "goodreads.v1.iIR4KZsMsM03sQvVg-oskw",
+   "goodreads.v1.1uFZMnRdInuZPKdwnzHW-g",
+   "goodreads.v1.orWR_HFJjYkkGU7LSiMKmA"
+  ],
+  "bavard": [],
+  "tension": [
+   "goodreads.v1.zfwCtZskoxtIFyih8VkQ9w"
+  ],
+  "combat": [],
+  "heros": [
+   "goodreads.v1.XjMwcvi91026xVsObGlkAw",
+   "goodreads.v1.FpGu8_SoAtVG57ifcbgQCA",
+   "goodreads.v1.iIR4KZsMsM03sQvVg-oskw",
+   "goodreads.v1.Lq0xft7ut5T_fkhD9mMrrw",
+   "GR1-3091906853"
+  ]
+ }
+}

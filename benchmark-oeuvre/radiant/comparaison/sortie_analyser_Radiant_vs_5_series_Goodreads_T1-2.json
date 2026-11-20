@@ -1,0 +1,793 @@
+{
+  "parametres": {
+    "cible": "Radiant",
+    "references": [
+      "Fullmetal Alchemist",
+      "Hunter x Hunter",
+      "Jujutsu Kaisen",
+      "One Piece",
+      "Red Hood",
+      "Naruto"
+    ],
+    "seuil_avis_bas": 0.6,
+    "langue": "en",
+    "validation": true
+  },
+  "echantillon": {
+    "avis_lus": 428,
+    "avis_retenus": 343,
+    "methode_langue": {
+      "heuristique_mots_vides": 57,
+      "langdetect": 314,
+      "champ_langue": 57
+    }
+  },
+  "series": {
+    "Fullmetal Alchemist": {
+      "role": "reference",
+      "avis": 43,
+      "avis_notes": 42,
+      "avis_bas": 10,
+      "part_avis_bas": 0.238,
+      "note_moyenne_sur_100": 82.4,
+      "themes": {
+        "derive": {
+          "tous_avis": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "lent": {
+          "tous_avis": {
+            "candidats": 3,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 2
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        },
+        "bavard": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "tension": {
+          "tous_avis": {
+            "candidats": 2,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        },
+        "combat": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "heros": {
+          "tous_avis": {
+            "candidats": 2,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        }
+      }
+    },
+    "Hunter x Hunter": {
+      "role": "reference",
+      "avis": 39,
+      "avis_notes": 38,
+      "avis_bas": 4,
+      "part_avis_bas": 0.105,
+      "note_moyenne_sur_100": 87.4,
+      "themes": {
+        "derive": {
+          "tous_avis": {
+            "candidats": 4,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 3
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "lent": {
+          "tous_avis": {
+            "candidats": 5,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 4
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "bavard": {
+          "tous_avis": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "tension": {
+          "tous_avis": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "combat": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "heros": {
+          "tous_avis": {
+            "candidats": 2,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 2
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        }
+      }
+    },
+    "Jujutsu Kaisen": {
+      "role": "reference",
+      "avis": 52,
+      "avis_notes": 50,
+      "avis_bas": 16,
+      "part_avis_bas": 0.32,
+      "note_moyenne_sur_100": 75.6,
+      "themes": {
+        "derive": {
+          "tous_avis": {
+            "candidats": 2,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "lent": {
+          "tous_avis": {
+            "candidats": 5,
+            "confirmes": 1,
+            "rejetes": 1,
+            "non_relus": 3
+          },
+          "avis_bas": {
+            "candidats": 2,
+            "confirmes": 1,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        },
+        "bavard": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "tension": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "combat": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "heros": {
+          "tous_avis": {
+            "candidats": 2,
+            "confirmes": 0,
+            "rejetes": 2,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 2,
+            "confirmes": 0,
+            "rejetes": 2,
+            "non_relus": 0
+          }
+        }
+      }
+    },
+    "One Piece": {
+      "role": "reference",
+      "avis": 48,
+      "avis_notes": 47,
+      "avis_bas": 6,
+      "part_avis_bas": 0.128,
+      "note_moyenne_sur_100": 82.1,
+      "themes": {
+        "derive": {
+          "tous_avis": {
+            "candidats": 4,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 4
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "lent": {
+          "tous_avis": {
+            "candidats": 6,
+            "confirmes": 2,
+            "rejetes": 0,
+            "non_relus": 4
+          },
+          "avis_bas": {
+            "candidats": 2,
+            "confirmes": 2,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "bavard": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "tension": {
+          "tous_avis": {
+            "candidats": 2,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "combat": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "heros": {
+          "tous_avis": {
+            "candidats": 4,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 3
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        }
+      }
+    },
+    "Red Hood": {
+      "role": "reference",
+      "avis": 55,
+      "avis_notes": 55,
+      "avis_bas": 30,
+      "part_avis_bas": 0.545,
+      "note_moyenne_sur_100": 66.2,
+      "themes": {
+        "derive": {
+          "tous_avis": {
+            "candidats": 2,
+            "confirmes": 2,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 2,
+            "confirmes": 2,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "lent": {
+          "tous_avis": {
+            "candidats": 6,
+            "confirmes": 4,
+            "rejetes": 1,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 5,
+            "confirmes": 4,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        },
+        "bavard": {
+          "tous_avis": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "tension": {
+          "tous_avis": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "combat": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "heros": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        }
+      }
+    },
+    "Naruto": {
+      "role": "reference",
+      "avis": 49,
+      "avis_notes": 48,
+      "avis_bas": 11,
+      "part_avis_bas": 0.229,
+      "note_moyenne_sur_100": 82.1,
+      "themes": {
+        "derive": {
+          "tous_avis": {
+            "candidats": 4,
+            "confirmes": 0,
+            "rejetes": 2,
+            "non_relus": 2
+          },
+          "avis_bas": {
+            "candidats": 2,
+            "confirmes": 0,
+            "rejetes": 2,
+            "non_relus": 0
+          }
+        },
+        "lent": {
+          "tous_avis": {
+            "candidats": 4,
+            "confirmes": 1,
+            "rejetes": 1,
+            "non_relus": 2
+          },
+          "avis_bas": {
+            "candidats": 2,
+            "confirmes": 1,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        },
+        "bavard": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "tension": {
+          "tous_avis": {
+            "candidats": 1,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "combat": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "heros": {
+          "tous_avis": {
+            "candidats": 7,
+            "confirmes": 3,
+            "rejetes": 0,
+            "non_relus": 4
+          },
+          "avis_bas": {
+            "candidats": 3,
+            "confirmes": 3,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        }
+      }
+    },
+    "Radiant": {
+      "role": "cible",
+      "avis": 57,
+      "avis_notes": 57,
+      "avis_bas": 34,
+      "part_avis_bas": 0.596,
+      "note_moyenne_sur_100": 64.6,
+      "themes": {
+        "derive": {
+          "tous_avis": {
+            "candidats": 8,
+            "confirmes": 6,
+            "rejetes": 1,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 7,
+            "confirmes": 6,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        },
+        "lent": {
+          "tous_avis": {
+            "candidats": 6,
+            "confirmes": 5,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 5,
+            "confirmes": 5,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "bavard": {
+          "tous_avis": {
+            "candidats": 4,
+            "confirmes": 3,
+            "rejetes": 0,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 3,
+            "confirmes": 3,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "tension": {
+          "tous_avis": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 0,
+            "confirmes": 0,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "combat": {
+          "tous_avis": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          },
+          "avis_bas": {
+            "candidats": 1,
+            "confirmes": 1,
+            "rejetes": 0,
+            "non_relus": 0
+          }
+        },
+        "heros": {
+          "tous_avis": {
+            "candidats": 8,
+            "confirmes": 6,
+            "rejetes": 1,
+            "non_relus": 1
+          },
+          "avis_bas": {
+            "candidats": 7,
+            "confirmes": 6,
+            "rejetes": 1,
+            "non_relus": 0
+          }
+        }
+      }
+    }
+  },
+  "comparaison_cible_vs_references": {
+    "derive": {
+      "cible": {
+        "candidats": 7,
+        "confirmes": 6,
+        "rejetes": 1,
+        "non_relus": 0
+      },
+      "references_groupees": {
+        "candidats": 6,
+        "confirmes": 4,
+        "rejetes": 2,
+        "non_relus": 0
+      },
+      "p_candidats": 0.1048,
+      "p_confirmes": 0.0653
+    },
+    "lent": {
+      "cible": {
+        "candidats": 5,
+        "confirmes": 5,
+        "rejetes": 0,
+        "non_relus": 0
+      },
+      "references_groupees": {
+        "candidats": 13,
+        "confirmes": 9,
+        "rejetes": 4,
+        "non_relus": 0
+      },
+      "p_candidats": 1.0,
+      "p_confirmes": 0.758
+    },
+    "bavard": {
+      "cible": {
+        "candidats": 3,
+        "confirmes": 3,
+        "rejetes": 0,
+        "non_relus": 0
+      },
+      "references_groupees": {
+        "candidats": 1,
+        "confirmes": 1,
+        "rejetes": 0,
+        "non_relus": 0
+      },
+      "p_candidats": 0.0847,
+      "p_confirmes": 0.0847
+    },
+    "tension": {
+      "cible": {
+        "candidats": 0,
+        "confirmes": 0,
+        "rejetes": 0,
+        "non_relus": 0
+      },
+      "references_groupees": {
+        "candidats": 3,
+        "confirmes": 2,
+        "rejetes": 1,
+        "non_relus": 0
+      },
+      "p_candidats": 0.5515,
+      "p_confirmes": 1.0
+    },
+    "combat": {
+      "cible": {
+        "candidats": 1,
+        "confirmes": 1,
+        "rejetes": 0,
+        "non_relus": 0
+      },
+      "references_groupees": {
+        "candidats": 0,
+        "confirmes": 0,
+        "rejetes": 0,
+        "non_relus": 0
+      },
+      "p_candidats": 0.3063,
+      "p_confirmes": 0.3063
+    },
+    "heros": {
+      "cible": {
+        "candidats": 7,
+        "confirmes": 6,
+        "rejetes": 1,
+        "non_relus": 0
+      },
+      "references_groupees": {
+        "candidats": 7,
+        "confirmes": 3,
+        "rejetes": 4,
+        "non_relus": 0
+      },
+      "p_candidats": 0.1216,
+      "p_confirmes": 0.0229
+    }
+  },
+  "avertissements": [
+    "Repérage par mots-clés : les « candidats » ne sont PAS des constats. Relire avec la sous-commande `extraits` avant de citer un chiffre.",
+    "Un chiffre « confirmé » n'existe que pour les avis listés dans le fichier --validation ; les autres restent « non_relus ».",
+    "Les effectifs sont petits : une valeur p n'est qu'un ordre de grandeur, et ne prouve aucune cause.",
+    "6 thèmes sont testés sans correction pour tests multiples : une valeur p isolée proche de 0,05 ne suffit pas.",
+    "Les valeurs « confirmées » dépendent du jugement de la personne qui a relu ; elles sont discutables.",
+    "Fréquence dans les avis bas ≠ cause du rejet. Les avis bas viennent des seuls lecteurs qui ont écrit un avis.",
+    "Les échantillons ne sont comparables que si leur collecte l'est (tri, nombre d'avis par tome). La part d'avis bas entre séries ne doit pas être comparée sans cette vérification.",
+    "Lexique anglais : les avis non anglais sont écartés et ne sont pas comptés."
+  ]
+}

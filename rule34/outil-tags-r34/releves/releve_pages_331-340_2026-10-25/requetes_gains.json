@@ -1,0 +1,15 @@
+{
+"marinette_dupain-cheng": "( marinette_cheng ~ marinette_cheng_(pv) ~ marinette_dupain-cheng_(pv) ~ ladybug_(character) ) -marinette_dupain-cheng",
+"hyuuga_hanabi": "( hanabi_hyuuga ~ hinata_hanabi ) -hyuuga_hanabi",
+"ragatha_(the_amazing_digital_circus)": "( ragatha ~ ragatha_(tadc) ~ ragatha_(pub_outfit) ~ ragatha_(dancer_outfit) ~ ragatha_(beach_outfit) ) -ragatha_(the_amazing_digital_circus)",
+"amity_blight": "amity_blight_(beta) -amity_blight",
+"bridget": "bridget_(guilty_gear) -bridget",
+"saber": "saber -artoria_pendragon -artoria_pendragon_(fate)",
+"marin_kitagawa": "marin_kitagawa -kitagawa_marin",
+"yaoyorozu_momo": "yaoyorozu_momo -momo_yaoyorozu",
+"dick_grayson": "( nightwing ~ robin_(dick_grayson) ~ nightwing_(series) ) -dick_grayson",
+"jax_(the_amazing_digital_circus)": "( jax_(tadc) ~ jax_(dancer_outfit) ) -jax_(the_amazing_digital_circus)",
+"ichigo_kurosaki": "kurosaki_ichigo -ichigo_kurosaki",
+"ash_ketchum": "satoshi_(pokemon) -ash_ketchum",
+"sakura_futaba": "( sakura_futaba_(oracle) ~ sakura_futaba_(swimsuit) ~ sakura_futaba_(strikers_casual) ~ sakura_futaba_(tsui_yuri_okaa_san_ni_wa_naisho_da_yo) ) -sakura_futaba"
+}

@@ -1,0 +1,22 @@
+# Unions OR rule34 (liste de posts, syntaxe ( a ~ b ), pid de la dernière page « >> » ; total ≈ pid + 1 à 42) — 24/10/2026
+naruto	( naruto_(series) ~ naruto ~ naruto_shippuden )	232638
+marvel	( marvel ~ marvel_comics ~ marvel_rivals )	227094
+dc	( dc ~ dc_comics )	184338
+sonic	( sonic_(series) ~ sonic_the_hedgehog_(series) ~ sonic_the_hedgehog )	212772
+my_little_pony	( my_little_pony ~ friendship_is_magic )	283584
+my_hero_academia	( my_hero_academia ~ boku_no_hero_academia )	192108
+fate	( fate_(series) ~ fate/grand_order )	163674
+overwatch	( overwatch ~ overwatch_2 )	184548
+mario	( mario_(series) ~ super_mario_bros. )	153678
+dragon_ball	( dragon_ball ~ dragon_ball_z ~ dragon_ball_super )	144858
+final_fantasy	( final_fantasy ~ final_fantasy_vii ~ final_fantasy_xiv )	175056
+fire_emblem	( fire_emblem ~ fire_emblem:_three_houses ~ fire_emblem_heroes )	148848
+street_fighter	( street_fighter ~ street_fighter_6 )	112938
+bleach	( bleach ~ bleach:_the_thousand-year_blood_war )	110838
+hololive	( hololive ~ hololive_english ~ hololive_japan )	114324
+fortnite	( fortnite ~ fortnite:_battle_royale )	127932
+resident_evil	( resident_evil ~ resident_evil_2 ~ resident_evil_4 ~ resident_evil_8:_village )	106008
+warcraft	( world_of_warcraft ~ warcraft )	118650
+five_nights_at_freddys	( five_nights_at_freddy's ~ ..._security_breach ~ ..._2 )	97734
+# Contrôle yaoi (24/10) : my_hero_academia yaoi ≈ 13 524 (pid dernière page) ; one_piece yaoi ≈ 6 132
+# Doublons manqués par selection_205 (trouvés le 24/10) : Tsunade 40366 -> 41118 (tsunade ~ tsunade_(naruto) ~ tsunade_senju) ; Mitsuri 15752 -> 16800 (+ mitsuri_kanroji) ; Shinobu 14338 -> 14658 (+ shinobu_kocho)

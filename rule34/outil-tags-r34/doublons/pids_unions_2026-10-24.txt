@@ -1,0 +1,28 @@
+# dernier pid de la recherche OU (relevé 24/10/2026) ; effectif ≈ pid+21 (±21)
+hyuuga_hinata ~ uzumaki_hinata ~ hinata_hyuuga	50106
+raven_(dc) ~ rachel_roth	39690
+sakura_haruno ~ haruno_sakura	41706
+princess_zelda ~ zelda_(tears_of_the_kingdom) ~ zelda_(breath_of_the_wild)	39858
+samus_aran ~ zero_suit_samus	37338
+ochako_uraraka ~ uraraka_ochako	35154
+lara_croft ~ lara_croft_(survivor)	32844
+yor_briar ~ yor_forger	32844
+miruko ~ rumi_usagiyama ~ mirko	31332
+jill_valentine ~ jill_valentine_(sasha_zotova)	25536
+psylocke ~ psylocke_(kwannon)	9954
+wonder_woman ~ diana_prince	23058
+gwen_stacy ~ spider-gwen	19614
+helen_parr ~ elastigirl	15960
+emma_frost ~ emma_frost_(marvel_rivals)	20202
+kasumi_(pokemon) ~ misty_(pokemon)	23142
+ankha ~ ankha_(animal_crossing)	17850
+midna ~ imp_midna	15078
+black_cat_(marvel) ~ felicia_hardy	15078
+invisible_woman ~ sue_storm	10794
+ellie_(the_last_of_us) ~ ellie_williams	10710
+supergirl ~ kara_zor-el	16338
+# --- compléments (hors sélection / décomposition), non lus par unions.py ---
+#magik_(illyana_rasputin) ~ magik_(marvel_rivals) ~ magik_(marvel_tokon) ~ magik_(x-men)	5670
+#spider-gwen -gwen_stacy	294
+#gwen_stacy -spider-gwen	4200
+#gwen_stacy -spider-gwen gwen_stacy_(spider-verse)	1302

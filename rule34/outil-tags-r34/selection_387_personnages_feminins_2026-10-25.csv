@@ -1,0 +1,388 @@
+﻿rang,personnage,univers,tag,publications,date_releve,source
+1,Nami,One Piece,nami_(one_piece),56885,2026-09-27,pages 1-107
+2,Tifa Lockhart,Final Fantasy VII,tifa_lockhart,53420,2026-09-27,pages 1-107
+3,Princesse Peach,Super Mario,princess_peach,50129,2026-09-27,pages 1-107
+4,Rouge the Bat,Sonic the Hedgehog,rouge_the_bat,45037,2026-09-27,pages 1-107
+5,Hinata Hyûga,Naruto,hyuuga_hinata,42866,2026-09-27,pages 1-107
+6,Loona,Helluva Boss,loona_(helluva_boss),42510,2026-09-27,pages 1-107
+7,2B,NieR: Automata,yorha_2b,42454,2026-09-27,pages 1-107
+8,Amy Rose,Sonic the Hedgehog,amy_rose,41365,2026-09-27,pages 1-107
+9,Hatsune Miku,Vocaloid,hatsune_miku,40842,2026-09-27,pages 1-107
+10,Chun-Li,Street Fighter,chun-li,40023,2026-09-27,pages 1-107
+11,Raven,DC Comics,raven_(dc),39582,2026-09-27,pages 1-107
+12,Sakura Haruno,Naruto,sakura_haruno,39451,2026-09-27,pages 1-107
+13,Tsunade,Naruto,tsunade,39326,2026-09-27,pages 1-107
+14,Princesse Zelda,The Legend of Zelda,princess_zelda,39082,2026-09-27,pages 1-107
+15,Samus Aran,Metroid,samus_aran,36750,2026-09-27,pages 1-107
+16,D.Va,Overwatch,d.va,35323,2026-09-27,pages 1-107
+17,Nico Robin,One Piece,nico_robin,34138,2026-09-27,pages 1-107
+18,Makima,Chainsaw Man,makima_(chainsaw_man),33343,2026-09-27,pages 1-107
+19,Ochako Uraraka,My Hero Academia,ochako_uraraka,33046,2026-09-27,pages 1-107
+20,Lara Croft,Tomb Raider,lara_croft,32532,2026-09-27,pages 1-107
+21,Widowmaker,Overwatch,widowmaker,31708,2026-09-27,pages 1-107
+22,Yor Forger (Briar),Spy×Family,yor_briar,31098,2026-10-23,pages 108-118
+23,Twilight Sparkle,My Little Pony,twilight_sparkle_(mlp),30889,2026-10-23,pages 108-118
+24,C-18,Dragon Ball,android_18,30855,2026-10-23,pages 108-118
+25,Mercy,Overwatch,mercy,30457,2026-10-23,pages 108-118
+26,Ahri,League of Legends,ahri,29823,2026-10-23,pages 108-118
+27,Marin Kitagawa,My Dress-Up Darling,kitagawa_marin,28918,2026-10-23,pages 108-118
+28,Frieren,Frieren,frieren,28736,2026-10-23,pages 108-118
+29,Miruko,My Hero Academia,miruko,26875,2026-10-23,pages 119-128
+30,Fluttershy,My Little Pony,fluttershy_(mlp),26441,2026-10-23,pages 119-128
+31,Judy Hopps,Zootopie,judy_hopps,26153,2026-10-23,pages 119-128
+32,Harley Quinn,DC Comics,harley_quinn,25769,2026-10-23,pages 119-128
+33,Raiden Shogun,Genshin Impact,raiden_shogun,25746,2026-10-23,pages 119-128
+34,Jill Valentine,Resident Evil,jill_valentine,25547,2026-10-23,pages 119-128
+35,Harmonie (Rosalina),Super Mario,princess_rosalina,24439,2026-10-23,pages 129-138
+36,Tatsumaki,One Punch Man,tatsumaki,24163,2026-10-23,pages 129-138
+37,Toriel,Undertale,toriel,24135,2026-10-23,pages 129-138
+38,Rainbow Dash,My Little Pony,rainbow_dash_(mlp),23921,2026-10-23,pages 129-138
+39,Ada Wong,Resident Evil,ada_wong,23269,2026-10-23,pages 129-138
+40,Tracer,Overwatch,tracer,23061,2026-10-23,pages 129-138
+41,Wonder Woman,DC Comics,wonder_woman,22972,2026-10-23,pages 129-138
+42,Nagatoro,"Arrête de me chauffer, Nagatoro",hayase_nagatoro,22645,2026-10-23,pages 129-138
+43,Rarity,My Little Pony,rarity_(mlp),22555,2026-10-23,pages 129-138
+44,Mai Shiranui,Fatal Fury / King of Fighters,mai_shiranui,22129,2026-10-23,pages 139-150
+45,Cynthia,Pokémon,cynthia_(pokemon),22055,2026-10-23,pages 139-150
+46,Yoruichi,Bleach,shihouin_yoruichi,21905,2026-10-23,pages 139-150
+47,Bulma,Dragon Ball,bulma_briefs,21867,2026-10-23,pages 139-150
+48,Starfire,DC Comics,starfire,21783,2026-10-23,pages 139-150
+49,Gwen Tennyson,Ben 10,gwen_tennyson,21459,2026-10-23,pages 139-150
+50,Marie (Isabelle),Animal Crossing,isabelle_(animal_crossing),20827,2026-10-23,pages 139-150
+51,Daisy,Super Mario,princess_daisy,20747,2026-10-23,pages 139-150
+52,Ciri,The Witcher,ciri,20511,2026-10-23,pages 139-150
+53,Emma Frost,Marvel,emma_frost,20038,2026-10-23,pages 139-150
+54,Boa Hancock,One Piece,boa_hancock,19864,2026-10-23,pages 139-150
+55,Aqua,Konosuba,aqua_(konosuba),19835,2026-10-23,pages 139-150
+56,Fern,Frieren,fern_(sousou_no_frieren),19564,2026-10-23,pages 151-160
+57,Pinkie Pie,My Little Pony,pinkie_pie_(mlp),19482,2026-10-23,pages 151-160
+58,Krystal,Star Fox,krystal,19385,2026-10-23,pages 151-160
+59,Gwen Stacy,Marvel,gwen_stacy,19315,2026-10-23,pages 151-160
+60,Artoria Pendragon,Fate,artoria_pendragon,19239,2026-10-23,pages 151-160
+61,Girlfriend,Friday Night Funkin',girlfriend_(friday_night_funkin),19238,2026-10-23,pages 151-160
+62,Orihime Inoue,Bleach,inoue_orihime,19204,2026-10-23,pages 151-160
+63,Asuka Langley,Evangelion,asuka_langley_sohryu,19150,2026-10-23,pages 151-160
+64,Cammy,Street Fighter,cammy_white,18733,2026-10-23,pages 151-160
+65,Momo Yaoyorozu,My Hero Academia,momo_yaoyorozu,18694,2026-10-23,pages 151-160
+66,Applejack,My Little Pony,applejack_(mlp),18411,2026-10-23,pages 151-160
+67,Lucy Heartfilia,Fairy Tail,lucy_heartfilia,18248,2026-10-23,pages 151-160
+68,Jinx,League of Legends / Arcane,jinx_(league_of_legends),18139,2026-10-23,pages 151-160
+69,May (Flora en VF),Pokémon,may_(pokemon),18103,2026-10-23,pages 161-170
+70,Misty (Ondine en VF),Pokémon,kasumi_(pokemon),18081,2026-10-23,pages 161-170
+71,Yang Xiao Long,RWBY,yang_xiao_long,17949,2026-10-23,pages 161-170
+72,Rangiku Matsumoto,Bleach,matsumoto_rangiku,17738,2026-10-23,pages 161-170
+73,Ankha,Animal Crossing,ankha,17722,2026-10-23,pages 161-170
+74,Mina Ashido,My Hero Academia,mina_ashido,17367,2026-10-23,pages 161-170
+75,Erza Scarlet,Fairy Tail,erza_scarlet,17357,2026-10-23,pages 161-170
+76,Rias Gremory,High School DxD,rias_gremory,17236,2026-10-23,pages 161-170
+77,Juri Han,Street Fighter,juri_han,17122,2026-10-23,pages 161-170
+78,Princesse Celestia,My Little Pony,princess_celestia_(mlp),17046,2026-10-23,pages 161-170
+79,Princesse Luna,My Little Pony,princess_luna_(mlp),16859,2026-10-23,pages 161-170
+80,Yae Miko,Genshin Impact,yae_miko,16470,2026-10-23,pages 171-180
+81,Ganyu,Genshin Impact,ganyu_(genshin_impact),16464,2026-10-23,pages 171-180
+82,Ino Yamanaka,Naruto,ino_yamanaka,16445,2026-10-23,pages 171-180
+83,Power,Chainsaw Man,power_(chainsaw_man),16178,2026-10-23,pages 171-180
+84,Helen Parr (Elastigirl),Les Indestructibles,helen_parr,15949,2026-10-23,pages 171-180
+85,Aerith Gainsborough,Final Fantasy VII,aerith_gainsborough,15795,2026-10-23,pages 171-180
+86,Mitsuri Kanroji,Demon Slayer,kanroji_mitsuri,15748,2026-10-23,pages 171-180
+87,Ruby Rose,RWBY,ruby_rose,15698,2026-10-23,pages 171-180
+88,Rosa,Pokémon,rosa_(pokemon),15544,2026-10-23,pages 171-180
+89,Hilda,Pokémon,hilda_(pokemon),15536,2026-10-23,pages 171-180
+90,Lumine,Genshin Impact,lumine_(genshin_impact),15313,2026-10-23,pages 171-180
+91,Himiko Toga,My Hero Academia,himiko_toga,15262,2026-10-23,pages 181-190
+92,Pharah,Overwatch,pharah,15241,2026-10-23,pages 181-190
+93,Megumin,KonoSuba,megumin,15204,2026-10-23,pages 181-190
+94,Blaze the Cat,Sonic,blaze_the_cat,15167,2026-10-23,pages 181-190
+95,Black Cat (Felicia Hardy),Marvel,black_cat_(marvel),15114,2026-10-23,pages 181-190
+96,Midna,The Legend of Zelda,midna,15085,2026-10-23,pages 181-190
+97,Velma Dinkley,Scooby-Doo,velma_dinkley,14933,2026-10-23,pages 181-190
+98,Toy Chica,Five Nights at Freddy's,toy_chica_(fnaf),14895,2026-10-23,pages 181-190
+99,Elsa,La Reine des neiges,elsa_(frozen),14888,2026-10-23,pages 181-190
+100,Ahsoka Tano,Star Wars,ahsoka_tano,14806,2026-10-23,pages 181-190
+101,Nobara Kugisaki,Jujutsu Kaisen,kugisaki_nobara,14758,2026-10-23,pages 181-190
+102,Mona,Genshin Impact,mona_(genshin_impact),14643,2026-10-23,pages 181-190
+103,Fubuki,One-Punch Man,fubuki_(one-punch_man),14448,2026-10-23,pages 181-190
+104,Chichi,Dragon Ball,chichi,14435,2026-10-23,pages 181-190
+105,Supergirl,DC Comics,supergirl,14415,2026-10-23,pages 181-190
+106,Shinobu Kocho,Demon Slayer,kochou_shinobu,14346,2026-10-23,pages 181-190
+107,Weiss Schnee,RWBY,weiss_schnee,14098,2026-10-23,pages 191-200
+108,Hu Tao,Genshin Impact,hu_tao_(genshin_impact),14051,2026-10-23,pages 191-200
+109,Dawn (Aurore en VF),Pokémon,dawn_(pokemon),14047,2026-10-23,pages 191-200
+110,Mei,Overwatch,mei_(overwatch),13901,2026-10-23,pages 191-200
+111,Sarada Uchiha,Naruto / Boruto,sarada_uchiha,13790,2026-10-23,pages 191-200
+112,Korra,La Légende de Korra,korra,13753,2026-10-23,pages 191-200
+113,Power Girl,DC Comics,power_girl,13709,2026-10-23,pages 191-200
+114,Ryuko Matoi,Kill la Kill,matoi_ryuuko,13694,2026-10-23,pages 191-200
+115,Mikasa Ackerman,L'Attaque des Titans,mikasa_ackerman,13546,2026-10-23,pages 191-200
+116,Pyra,Xenoblade Chronicles 2,pyra,13518,2026-10-23,pages 191-200
+117,Tsuyu Asui,My Hero Academia,tsuyu_asui,13001,2026-10-23,pages 201-210
+118,Yennefer,The Witcher,yennefer,12855,2026-10-23,pages 201-210
+119,Hornet,Hollow Knight,hornet_(hollow_knight),12628,2026-10-23,pages 201-210
+120,Pomni,The Amazing Digital Circus,pomni_(the_amazing_digital_circus),12589,2026-10-23,pages 201-210
+121,Azula,"Avatar, le dernier maître de l'air",azula,12586,2026-10-23,pages 201-210
+122,Rukia Kuchiki,Bleach,kuchiki_rukia,12548,2026-10-23,pages 201-210
+123,Monika,Doki Doki Literature Club,monika_(doki_doki_literature_club),12511,2026-10-23,pages 201-210
+124,Claire Redfield,Resident Evil,claire_redfield,12503,2026-10-23,pages 201-210
+125,Kim Possible,Kim Possible,kimberly_ann_possible,12436,2026-10-23,pages 201-210
+126,Jessica Rabbit,Qui veut la peau de Roger Rabbit,jessica_rabbit,12176,2026-10-23,pages 211-220
+127,Katara,"Avatar, le dernier maître de l'air",katara,12083,2026-10-23,pages 211-220
+128,Shantae,Shantae,shantae_(character),11862,2026-10-23,pages 211-220
+129,Elizabeth,BioShock Infinite,elizabeth_comstock,11857,2026-10-23,pages 211-220
+130,Lady Dimitrescu,Resident Evil Village,alcina_dimitrescu,11843,2026-10-23,pages 211-220
+131,Darkness,KonoSuba,darkness_(konosuba),11769,2026-10-23,pages 211-220
+132,Emilia,Re:Zero,emilia_(re:zero),11694,2026-10-23,pages 211-220
+133,Yamato,One Piece,yamato_(one_piece),11681,2026-10-23,pages 211-220
+134,Jessie (Team Rocket),Pokémon,jessie_(pokemon),11615,2026-10-23,pages 211-220
+135,Asuna,Blue Archive,asuna_(blue_archive),11607,2026-10-23,pages 211-220
+136,Shouko Komi,Komi cherche ses mots,komi_shouko,11482,2026-10-23,pages 221-230
+137,Roxanne Wolf,Five Nights at Freddy's,roxanne_wolf_(fnaf),11401,2026-10-23,pages 221-230
+138,Momo Ayase,Dandadan,ayase_momo,11272,2026-10-23,pages 221-230
+139,Morrigan Aensland,Darkstalkers,morrigan_aensland,11256,2026-10-23,pages 221-230
+140,Vanilla,Sonic,vanilla_the_rabbit,11234,2026-10-23,pages 221-230
+141,Ashley Graham,Resident Evil 4,ashley_graham,11186,2026-10-23,pages 221-230
+142,Akeno Himejima,High School DxD,akeno_himejima,10952,2026-10-23,pages 221-230
+143,Byleth (version féminine),Fire Emblem,byleth_(fire_emblem)_(female),10952,2026-10-23,pages 221-230
+144,Triss Merigold,The Witcher,triss_merigold,10951,2026-10-23,pages 221-230
+145,Blake Belladonna,RWBY,blake_belladonna,10876,2026-10-23,pages 221-230
+146,Chel,La Route d'Eldorado (DreamWorks),chel,10864,2026-10-23,pages 231-240
+147,Femme invisible (Sue Storm),Marvel (Les 4 Fantastiques),invisible_woman,10813,2026-10-23,pages 231-240
+148,Ellie,The Last of Us,ellie_(the_last_of_us),10767,2026-10-23,pages 231-240
+149,Albedo,Overlord,albedo_(overlord),10586,2026-10-23,pages 231-240
+150,Eula,Genshin Impact,eula_(genshin_impact),10554,2026-10-23,pages 231-240
+151,Ann Takamaki,Persona 5,ann_takamaki,10520,2026-10-23,pages 231-240
+152,Cream the Rabbit,Sonic,cream_the_rabbit,10518,2026-10-23,pages 231-240
+153,Nessa (Donna en VF),Pokémon,nessa_(pokemon),10468,2026-10-23,pages 231-240
+154,Furina,Genshin Impact,furina_(genshin_impact),10422,2026-10-23,pages 231-240
+155,Black Widow (Natasha Romanoff),Marvel,black_widow_(marvel),10382,2026-10-23,pages 231-240
+156,Liara T'Soni,Mass Effect,liara_t'soni,10343,2026-10-23,pages 231-240
+157,Jane Doe,Zenless Zone Zero,jane_doe_(zenless_zone_zero),10339,2026-10-23,pages 231-240
+158,Charlie Morningstar,Hazbin Hotel,charlie_morningstar_(hazbin_hotel),10328,2026-10-23,pages 231-240
+159,Marina,Splatoon,marina_(splatoon),10290,2026-10-23,pages 231-240
+160,Kushina Uzumaki,Naruto,uzumaki_kushina,10276,2026-10-23,pages 231-240
+161,Sombra,Overwatch,sombra,10222,2026-10-23,pages 241-250
+162,Catwoman (Selina Kyle),DC Comics,catwoman,10165,2026-10-23,pages 241-250
+163,Shadowheart (Cœur-Ombre),Baldur's Gate 3,shadowheart,10031,2026-10-23,pages 241-250
+164,Videl,Dragon Ball,videl,9995,2026-10-23,pages 241-250
+165,Kiriko,Overwatch,kiriko_(overwatch),9984,2026-10-23,pages 241-250
+166,Reimu Hakurei,Touhou Project,reimu_hakurei,9981,2026-10-23,pages 241-250
+167,Princesse Chewing-gum,Adventure Time,princess_bubblegum,9973,2026-10-23,pages 241-250
+168,Rei Ayanami,Neon Genesis Evangelion,rei_ayanami,9879,2026-10-23,pages 241-250
+169,Ellen Joe,Zenless Zone Zero,ellen_joe,9743,2026-10-23,pages 241-250
+170,Rem,Re:Zero,rem_(re:zero),9730,2026-10-23,pages 241-250
+171,"Mythra (Homura, autre forme de Pyra)",Xenoblade Chronicles 2,mythra,9657,2026-10-23,pages 241-250
+172,Toph Beifong,"Avatar, le dernier maître de l'air",toph_bei_fong,9642,2026-10-23,pages 241-250
+173,Asuna Yuuki,Sword Art Online,yuuki_asuna,9577,2026-10-24,pages 251-260
+174,Sally Acorn,Sonic the Hedgehog,sally_acorn,9562,2026-10-24,pages 251-260
+175,Belle,Zenless Zone Zero,belle_(zenless_zone_zero),9531,2026-10-24,pages 251-260
+176,Susie,Deltarune,susie_(deltarune),9501,2026-10-24,pages 251-260
+177,Kafka,Honkai: Star Rail,kafka_(honkai:_star_rail),9473,2026-10-24,pages 251-260
+178,Arlecchino,Genshin Impact,arlecchino_(genshin_impact),9440,2026-10-24,pages 251-260
+179,Ilulu,Miss Kobayashi's Dragon Maid,ilulu_(dragon_maid),9382,2026-10-24,pages 251-260
+180,Rebecca,Cyberpunk: Edgerunners,rebecca_(edgerunners),9371,2026-10-24,pages 251-260
+181,Nicole Watterson,Le Monde incroyable de Gumball,nicole_watterson,9366,2026-10-24,pages 251-260
+182,Sadako Yamamura,Ring (roman et films),yamamura_sadako,9347,2026-10-24,pages 251-260
+183,Reze,Chainsaw Man,reze_(chainsaw_man),9293,2026-10-24,pages 251-260
+184,Kasane Teto,UTAU / Synthesizer V,kasane_teto,9269,2026-10-24,pages 251-260
+185,Satsuki Kiryuin,Kill la Kill,kiryuuin_satsuki,9215,2026-10-24,pages 251-260
+186,Rosemary (Marnie),Pokémon,marnie_(pokemon),9208,2026-10-24,pages 251-260
+187,Nicole Demara,Zenless Zone Zero,nicole_demara,9149,2026-10-24,pages 251-260
+188,Serena,Pokémon,serena_(pokemon),9105,2026-10-24,pages 261-270
+189,Millie,Helluva Boss,millie_(helluva_boss),9057,2026-10-24,pages 261-270
+190,Elsa-Mina (Lusamine),Pokémon,lusamine_(pokemon),9049,2026-10-24,pages 261-270
+191,Nezuko Kamado,Demon Slayer,kamado_nezuko,8977,2026-10-24,pages 261-270
+192,"Bowsette (version féminine de Bowser, création de fans, 2018)",Super Mario,bowsette,8977,2026-10-24,pages 261-270
+193,Yelan,Genshin Impact,yelan_(genshin_impact),8929,2026-10-24,pages 261-270
+194,Natsuki,Doki Doki Literature Club,natsuki_(doki_doki_literature_club),8919,2026-10-24,pages 261-270
+195,Akali,League of Legends,akali,8918,2026-10-24,pages 261-270
+196,Lucina,Fire Emblem,lucina_(fire_emblem),8865,2026-10-24,pages 261-270
+197,Kobeni Higashiyama,Chainsaw Man,higashiyama_kobeni,8827,2026-10-24,pages 261-270
+198,"Agneau (Lamb, moitié féminine de Kindred)",League of Legends,lamb_(league_of_legends),8777,2026-10-24,pages 261-270
+199,Kasumi,Dead or Alive,kasumi_(doa),8751,2026-10-24,pages 261-270
+200,Sona,League of Legends,sona_buvelle,8740,2026-10-24,pages 261-270
+201,Coco Bandicoot,Crash Bandicoot,coco_bandicoot,8730,2026-10-24,pages 261-270
+202,Makoto Niijima,Persona 5,makoto_niijima,8698,2026-10-24,pages 261-270
+203,Shenhe,Genshin Impact,shenhe_(genshin_impact),8671,2026-10-24,pages 261-270
+204,Lilie (Lillie),Pokémon,lillie_(pokemon),8651,2026-10-24,pages 261-270
+205,Hana Uzaki,Uzaki-chan veut traîner !,uzaki_hana,8621,2026-10-24,pages 271-280
+206,Rin Tohsaka,Fate,tohsaka_rin,8612,2026-10-24,pages 271-280
+207,Lola Bunny,Looney Tunes,lola_bunny,8547,2026-10-24,pages 271-280
+208,Yuri,Doki Doki Literature Club,yuri_(doki_doki_literature_club),8466,2026-10-24,pages 271-280
+209,Stocking Anarchy,Panty & Stocking with Garterbelt,stocking_anarchy,8450,2026-10-24,pages 271-280
+210,Mavis Dracula,Hôtel Transylvanie,mavis_dracula,8447,2026-10-24,pages 271-280
+211,Malicia (Rogue),Marvel,rogue_(x-men),8410,2026-10-24,pages 271-280
+212,Palutena,Kid Icarus,palutena,8318,2026-10-24,pages 271-280
+213,Marceline,Adventure Time,marceline,8284,2026-10-24,pages 271-280
+214,Minamoto no Raikou,Fate,minamoto_no_raikou_(fate/grand_order),8282,2026-10-24,pages 271-280
+215,Eve,Stellar Blade,eve_(stellar_blade),8265,2026-10-24,pages 271-280
+216,C-21 (Android 21),Dragon Ball,android_21,8209,2026-10-24,pages 271-280
+217,Batgirl,DC Comics,batgirl,8195,2026-10-24,pages 281-290
+218,Mash Kyrielight,Fate,mash_kyrielight,8183,2026-10-24,pages 281-290
+219,Marie Rose,Dead or Alive,marie_rose,8052,2026-10-24,pages 281-290
+220,Marge Simpson,Les Simpson,marge_simpson,8044,2026-10-24,pages 281-290
+221,Magicienne des Ténèbres (Dark Magician Girl),Yu-Gi-Oh!,dark_magician_girl,8007,2026-10-24,pages 281-290
+222,Ouro Kronii,Hololive,ouro_kronii,7959,2026-10-24,pages 281-290
+223,Camilla,Fire Emblem,camilla_(fire_emblem),7940,2026-10-24,pages 281-290
+224,Loba,Apex Legends,loba_(apex_legends),7917,2026-10-24,pages 281-290
+225,Marie,Splatoon,marie_(splatoon),7911,2026-10-24,pages 281-290
+226,Squirrel Girl,Marvel,squirrel_girl_(marvel),7888,2026-10-24,pages 281-290
+227,Shego,Kim Possible,shego,7856,2026-10-24,pages 281-290
+228,Panam Palmer,Cyberpunk 2077,panam_palmer,7822,2026-10-24,pages 281-290
+229,Keqing,Genshin Impact,keqing_(genshin_impact),7793,2026-10-24,pages 291-300
+230,Noelle Silva,Black Clover,noelle_silva,7773,2026-10-24,pages 291-300
+231,Commandant Shepard (version féminine),Mass Effect,femshep,7700,2026-10-24,pages 291-300
+232,Sonia,Pokémon,sonia_(pokemon),7693,2026-10-24,pages 291-300
+233,She-Hulk,Marvel,she-hulk,7675,2026-10-24,pages 291-300
+234,Lux,League of Legends,luxanna_crownguard,7671,2026-10-24,pages 291-300
+235,Violette Parr,Les Indestructibles,violet_parr,7665,2026-10-24,pages 291-300
+236,Miranda Lawson,Mass Effect,miranda_lawson,7641,2026-10-24,pages 291-300
+237,Mary Jane Watson,Marvel,mary_jane_watson,7592,2026-10-24,pages 291-300
+238,Soraka,League of Legends,soraka,7538,2026-10-24,pages 291-300
+239,Lucoa (Quetzalcoatl),Miss Kobayashi's Dragon Maid,quetzalcoatl_(dragon_maid),7517,2026-10-24,pages 291-300
+240,Brigitte,Overwatch,brigitte,7504,2026-10-24,pages 291-300
+241,Kyoka Jiro,My Hero Academia,kyoka_jiro,7493,2026-10-24,pages 291-300
+242,Kefla,Dragon Ball,kefla,7491,2026-10-24,pages 291-300
+243,Poison Ivy,DC Comics,poison_ivy,7409,2026-10-24,pages 301-310
+244,Zero Two,Darling in the Franxx,zero_two_(darling_in_the_franxx),7392,2026-10-24,pages 301-310
+245,Karin (Kakudate Karin),Blue Archive,karin_(blue_archive),7334,2026-10-24,pages 301-310
+246,Reine Chrysalis,My Little Pony,queen_chrysalis_(mlp),7334,2026-10-24,pages 301-310
+247,Nino Nakano,The Quintessential Quintuplets,nakano_nino,7314,2026-10-24,pages 301-310
+248,Maki Zen’in,Jujutsu Kaisen,zenin_maki,7312,2026-10-24,pages 301-310
+249,Colette,Brawl Stars,colette_(brawl_stars),7293,2026-10-24,pages 301-310
+250,Jasmine,Aladdin,princess_jasmine,7287,2026-10-24,pages 301-310
+251,Noelle Holiday,Deltarune,noelle_holiday,7286,2026-10-24,pages 301-310
+252,Zhu Yuan,Zenless Zone Zero,zhu_yuan,7274,2026-10-24,pages 301-310
+253,Usagi Tsukino (Sailor Moon),Sailor Moon,usagi_tsukino,7255,2026-10-24,pages 301-310
+254,Hitori Gotō,Bocchi the Rock!,gotou_hitori,7250,2026-10-24,pages 301-310
+255,Luz Noceda,Luz à Osville (The Owl House),luz_noceda,7228,2026-10-24,pages 301-310
+256,Kamisato Ayaka,Genshin Impact,kamisato_ayaka,7125,2026-10-24,pages 311-330
+257,Mileena,Mortal Kombat,mileena,7123,2026-10-24,pages 311-330
+258,Caulifla,Dragon Ball,caulifla,7120,2026-10-24,pages 311-330
+259,Mori Calliope,Hololive,mori_calliope,7114,2026-10-24,pages 311-330
+260,Houshou Marine,Hololive,houshou_marine,7105,2026-10-24,pages 311-330
+261,Rio (Tsukatsuki Rio),Blue Archive,rio_(blue_archive),7060,2026-10-24,pages 311-330
+262,Diane Foxington,Les Bad Guys,diane_foxington,7036,2026-10-24,pages 311-330
+263,Péridot,Steven Universe,peridot_(steven_universe),7018,2026-10-24,pages 311-330
+264,Temari,Naruto,temari,7018,2026-10-24,pages 311-330
+265,Nejire Hado,My Hero Academia,nejire_hado,7003,2026-10-24,pages 311-330
+266,Chica,Five Nights at Freddy's,chica_(fnaf),6995,2026-10-24,pages 311-330
+267,Evelyn Chevalier,Zenless Zone Zero,evelyn_chevalier,6964,2026-10-24,pages 311-330
+268,Daphné Blake,Scooby-Doo,daphne_blake,6963,2026-10-24,pages 311-330
+269,Hermione Granger,Harry Potter,hermione_granger,6949,2026-10-24,pages 311-330
+270,Princesse Cadance,My Little Pony,princess_cadance_(mlp),6936,2026-10-24,pages 311-330
+271,Poppy,League of Legends,poppy,6933,2026-10-24,pages 311-330
+272,Caitlyn Kiramman,League of Legends / Arcane,caitlyn_kiramman,6928,2026-10-24,pages 311-330
+273,Mère de Lana (Néphie en VF),Pokémon,lana's_mother_(pokemon),6923,2026-10-24,pages 311-330
+274,Ashley,WarioWare,ashley_graves,6921,2026-10-24,pages 311-330
+275,Bea (Faïza en VF),Pokémon,bea_(pokemon),6916,2026-10-24,pages 311-330
+276,Sakuya Izayoi,Touhou Project,sakuya_izayoi,6900,2026-10-24,pages 311-330
+277,Tsuki Uzaki (mère de Hana),Uzaki-chan veut traîner !,uzaki_tsuki,6896,2026-10-24,pages 311-330
+278,Jenny Wakeman (XJ-9),Ma vie de robot ado,jenny_wakeman,6893,2026-10-24,pages 311-330
+279,Yoko Littner,Gurren Lagann,yoko_littner,6881,2026-10-24,pages 311-330
+280,Burnice White,Zenless Zone Zero,burnice_white,6871,2026-10-24,pages 311-330
+281,Callie,Splatoon,callie_(splatoon),6865,2026-10-24,pages 311-330
+282,Bayonetta,Bayonetta,bayonetta_(character),6850,2026-10-24,pages 311-330
+283,Miss Fortune (Sarah Fortune),League of Legends,miss_fortune,6820,2026-10-24,pages 311-330
+284,Sanae Kochiya,Touhou Project,sanae_kochiya,6786,2026-10-24,pages 311-330
+285,Judy Alvarez,Cyberpunk 2077,judy_alvarez,6752,2026-10-24,pages 311-330
+286,Frankie Foster,"Foster, la maison des amis imaginaires",frankie_foster,6704,2026-10-24,pages 311-330
+287,Lisa,Genshin Impact,lisa_(genshin_impact),6659,2026-10-24,pages 311-330
+288,Meow Skulls,Fortnite,meow_skulls_(fortnite),6650,2026-10-24,pages 311-330
+289,Evelynn,League of Legends,evelynn,6637,2026-10-24,pages 311-330
+290,Jean Gunnhildr,Genshin Impact,jean_gunnhildr,6610,2026-10-24,pages 311-330
+291,Nemona,Pokémon,nemona_(pokemon),6592,2026-10-24,pages 311-330
+292,Skyla (Carolina en VF),Pokémon,skyla_(pokemon),6588,2026-10-24,pages 311-330
+293,Ayane,Dead or Alive,ayane_(doa),6531,2026-10-25,pages 331-340
+294,Ashe,Overwatch,ashe_(overwatch),6446,2026-10-25,pages 331-340
+295,Tristana,League of Legends,tristana,6442,2026-10-25,pages 331-340
+296,Marinette Dupain-Cheng (Ladybug),Miraculous,marinette_dupain-cheng,6437,2026-10-25,pages 331-340
+297,Amity Blight,Luz à Osville (The Owl House),amity_blight,6411,2026-10-25,pages 331-340
+298,Anna,La Reine des neiges,anna_(frozen),6383,2026-10-25,pages 331-340
+299,Lois Griffin,Les Griffin (Family Guy),lois_griffin,6381,2026-10-25,pages 331-340
+300,Bridget,Guilty Gear,bridget,6349,2026-10-25,pages 331-340
+301,Hanabi Hyūga,Naruto,hyuuga_hanabi,6341,2026-10-25,pages 331-340
+302,Honoka,Dead or Alive,honoka_(doa),6332,2026-10-25,pages 331-340
+303,Futaba Sakura,Persona 5,sakura_futaba,6319,2026-10-25,pages 331-340
+304,Ragatha,The Amazing Digital Circus,ragatha_(the_amazing_digital_circus),6289,2026-10-25,pages 331-340
+305,Reine Marika l’Éternelle,Elden Ring,queen_marika_the_eternal,6277,2026-10-25,pages 331-340
+306,Miyabi Hoshimi,Zenless Zone Zero,hoshimi_miyabi,6264,2026-10-25,pages 331-340
+307,Vi,League of Legends / Arcane,vi,6222,2026-10-25,pages 341-360
+308,Ivy Valentine (Isabella Valentine),Soulcalibur,isabella_valentine,6191,2026-10-25,pages 341-360
+309,Gawr Gura,Hololive,gawr_gura,6164,2026-10-25,pages 341-360
+310,Misato Katsuragi,Evangelion,misato_katsuragi,6164,2026-10-25,pages 341-360
+311,Trixie Lulamoon,My Little Pony,trixie_(mlp),6137,2026-10-25,pages 341-360
+312,Tenten,Naruto,tenten,6132,2026-10-25,pages 341-360
+313,Felicia,Darkstalkers,felicia_(darkstalkers),6117,2026-10-25,pages 341-360
+314,Kit (Kit Bodega),Gameoverse,kit_(gameoverse),6069,2026-10-25,pages 341-360
+315,Hestia,DanMachi,hestia_(danmachi),6063,2026-10-25,pages 341-360
+316,Max Caulfield,Life is Strange,max_caulfield,6042,2026-10-25,pages 341-360
+317,Sayori,Doki Doki Literature Club,sayori_(doki_doki_literature_club),6010,2026-10-25,pages 341-360
+318,Vaggie,Hazbin Hotel,vaggie_(hazbin_hotel),5958,2026-10-25,pages 341-360
+319,Mitsuki Bakugo,My Hero Academia,mitsuki_bakugou,5948,2026-10-25,pages 341-360
+320,Kallen Stadtfeld (Kozuki),Code Geass,kallen_stadtfeld,5920,2026-10-25,pages 341-360
+321,Melony (Lona),Pokémon,melony_(pokemon),5911,2026-10-25,pages 341-360
+322,Raven Team Leader,Fortnite,raven_team_leader,5862,2026-10-25,pages 341-360
+323,Lapis Lazuli,Steven Universe,lapis_lazuli_(steven_universe),5844,2026-10-25,pages 341-360
+324,Chara (version féminine),Undertale,female_chara,5842,2026-10-25,pages 341-360
+325,Lucy (Lucyna Kushinada),Cyberpunk: Edgerunners,lucyna_kushinada,5815,2026-10-25,pages 341-360
+326,Katarina,League of Legends,katarina_du_couteau,5811,2026-10-25,pages 341-360
+327,Shuuko Komi (mère de Shouko),Komi cherche ses mots,komi_shuuko,5778,2026-10-25,pages 341-360
+328,Firefly,Honkai: Star Rail,firefly_(honkai:_star_rail),5770,2026-10-25,pages 341-360
+329,Taihou,Azur Lane,taihou_(azur_lane),5769,2026-10-25,pages 341-360
+330,Edelgard von Hresvelg,Fire Emblem,edelgard_von_hresvelg,5756,2026-10-25,pages 341-360
+331,Mavuika,Genshin Impact,mavuika_(genshin_impact),5748,2026-10-25,pages 341-360
+332,Patchouli Knowledge,Touhou Project,patchouli_knowledge,5736,2026-10-25,pages 341-360
+333,Ghislaine Dedoldia,Mushoku Tensei,ghislaine_dedoldia,5699,2026-10-25,pages 341-360
+334,Star Butterfly,Star vs. les forces du mal,star_butterfly,5697,2026-10-25,pages 341-360
+335,Tharja,Fire Emblem,tharja_(fire_emblem),5693,2026-10-25,pages 341-360
+336,Muffet,Undertale,muffet,5667,2026-10-25,pages 361-390
+337,Ty Lee,"Avatar, le dernier maître de l'air",ty_lee,5660,2026-10-25,pages 361-390
+338,Magik (Illyana Rasputin),Marvel,magik_(illyana_rasputin),5651,2026-10-25,pages 361-390
+339,Surge the Tenrec,Sonic,surge_the_tenrec,5619,2026-10-25,pages 361-390
+340,Chika Fujiwara,Kaguya-sama: Love is War,fujiwara_chika,5609,2026-10-25,pages 361-390
+341,Juno,Overwatch,juno_(overwatch),5599,2026-10-25,pages 361-390
+342,Sakura Kasugano,Street Fighter,sakura_kasugano,5587,2026-10-25,pages 361-390
+343,Samui,Naruto,samui,5534,2026-10-25,pages 361-390
+344,Jaina Proudmoore,Warcraft,jaina_proudmoore,5532,2026-10-25,pages 361-390
+345,Miku Nakano,The Quintessential Quintuplets,nakano_miku,5515,2026-10-25,pages 361-390
+346,Luna Snow (Seol Hee),Marvel,luna_snow,5510,2026-10-25,pages 361-390
+347,Corrin (version féminine),Fire Emblem,corrin_(fire_emblem)_(female),5496,2026-10-25,pages 361-390
+348,April O'Neil,Les Tortues Ninja,april_o'neil,5475,2026-10-25,pages 361-390
+349,Gloria,Pokémon,gloria_(pokemon),5465,2026-10-25,pages 361-390
+350,Kai'Sa,League of Legends,kai'sa,5448,2026-10-25,pages 361-390
+351,Raiponce (Rapunzel),Raiponce (Disney),rapunzel,5445,2026-10-25,pages 361-390
+352,La mère de Dexter,Le Laboratoire de Dexter,dexter's_mom,5439,2026-10-25,pages 361-390
+353,Esdeath,Akame ga Kill!,esdeath_(akame_ga_kill!),5435,2026-10-25,pages 361-390
+354,Tohru,Miss Kobayashi's Dragon Maid,tohru_(dragon_maid),5408,2026-10-25,pages 361-390
+355,Riesz,Trials of Mana (Seiken Densetsu 3),riesz,5402,2026-10-25,pages 361-390
+356,Annie Leonhart,L'Attaque des Titans,annie_leonhardt,5392,2026-10-25,pages 361-390
+357,Poison,Final Fight,poison_(final_fight),5362,2026-10-25,pages 361-390
+358,Rey,Star Wars,rey,5353,2026-10-25,pages 361-390
+359,Perle (Pearl),Steven Universe,pearl_(steven_universe),5347,2026-10-25,pages 361-390
+360,Tawna Bandicoot,Crash Bandicoot,tawna_bandicoot,5343,2026-10-25,pages 361-390
+361,Kaguya Shinomiya,Kaguya-sama: Love is War,shinomiya_kaguya,5313,2026-10-25,pages 361-390
+362,Jolyne Cujoh (Kujo),JoJo's Bizarre Adventure,jolyne_kujo,5302,2026-10-25,pages 361-390
+363,Gwen,League of Legends,gwen_(league_of_legends),5283,2026-10-25,pages 361-390
+364,Marisa Kirisame,Touhou Project,marisa_kirisame,5270,2026-10-25,pages 361-390
+365,Retsu Unohana,Bleach,unohana_retsu,5262,2026-10-25,pages 361-390
+366,Undyne,Undertale,undyne,5244,2026-10-25,pages 361-390
+367,Irelia,League of Legends,irelia_xan,5234,2026-10-25,pages 361-390
+368,Ranma-chan (Ranma sous sa forme féminine),Ranma ½,ranma-chan,5228,2026-10-25,pages 361-390
+369,Reisen Udongein Inaba,Touhou Project,reisen_udongein_inaba,5217,2026-10-25,pages 361-390
+370,Amber,Genshin Impact,amber_(genshin_impact),5210,2026-10-25,pages 361-390
+371,Maître Tigresse,Kung Fu Panda,master_tigress,5210,2026-10-25,pages 361-390
+372,Pyrrha Nikos,RWBY,pyrrha_nikos,5207,2026-10-25,pages 361-390
+373,Xayah,League of Legends,xayah,5186,2026-10-25,pages 361-390
+374,Alisa Mikhailovna Kujou (Alya),Roshidere,alisa_mikhailovna_kujou,5173,2026-10-25,pages 361-390
+375,Vex,League of Legends,vex_(league_of_legends),5165,2026-10-25,pages 361-390
+376,Suguha Kirigaya (Leafa),Sword Art Online,kirigaya_suguha,5144,2026-10-25,pages 361-390
+377,Yukari Yakumo,Touhou Project,yukari_yakumo,5138,2026-10-25,pages 361-390
+378,Astrid Hofferson,Dragons (DreamWorks),astrid_hofferson,5127,2026-10-25,pages 361-390
+379,Purah,The Legend of Zelda,purah,5114,2026-10-25,pages 361-390
+380,Ariel,La Petite Sirène (Disney),ariel,5095,2026-10-25,pages 361-390
+381,Seiko Ayase (grand-mère de Momo),Dandadan,ayase_seiko,5088,2026-10-25,pages 361-390
+382,"V (version féminine, Valerie)",Cyberpunk 2077,valerie_(cyberpunk_2077),5080,2026-10-25,pages 361-390
+383,Hilda Valentine Goneril,Fire Emblem,hilda_valentine_goneril,5056,2026-10-25,pages 361-390
+384,Fionna,Adventure Time,fionna_the_human_girl,5055,2026-10-25,pages 361-390
+385,Wendy Corduroy,Gravity Falls,wendy_corduroy,5038,2026-10-25,pages 361-390
+386,Haru Okumura,Persona 5,haru_okumura,5036,2026-10-25,pages 361-390
+387,Haydee,Haydee,haydee,5011,2026-10-25,pages 361-390

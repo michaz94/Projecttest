@@ -1,0 +1,15 @@
+{'debut': '2014-12-14', 'fin': '2015-12-14', 'total_site': 336824, 'spider-gwen': 32, 'spider-gwen_par_M': 95.0, 'union gwen_stacy|spider-gwen': 33, 'union gwen_stacy|spider-gwen_par_M': 98.0}
+{'debut': '2015-12-14', 'fin': '2016-12-14', 'total_site': 357522, 'spider-gwen': 37, 'spider-gwen_par_M': 103.5, 'union gwen_stacy|spider-gwen': 39, 'union gwen_stacy|spider-gwen_par_M': 109.1}
+{'debut': '2016-12-14', 'fin': '2017-12-14', 'total_site': 385432, 'spider-gwen': 37, 'spider-gwen_par_M': 96.0, 'union gwen_stacy|spider-gwen': 37, 'union gwen_stacy|spider-gwen_par_M': 96.0}
+{'debut': '2017-12-14', 'fin': '2018-12-14', 'total_site': 393273, 'spider-gwen': 15, 'spider-gwen_par_M': 38.1, 'union gwen_stacy|spider-gwen': 15, 'union gwen_stacy|spider-gwen_par_M': 38.1}
+{'debut': '2018-12-14', 'fin': '2019-12-14', 'total_site': 367997, 'spider-gwen': 146, 'spider-gwen_par_M': 396.7, 'union gwen_stacy|spider-gwen': 161, 'union gwen_stacy|spider-gwen_par_M': 437.5}
+{'debut': '2019-12-14', 'fin': '2020-12-14', 'total_site': 532779, 'spider-gwen': 55, 'spider-gwen_par_M': 103.2, 'union gwen_stacy|spider-gwen': 65, 'union gwen_stacy|spider-gwen_par_M': 122.0}
+{'debut': '2020-12-14', 'fin': '2021-12-14', 'total_site': 729891, 'spider-gwen': 115, 'spider-gwen_par_M': 157.6, 'union gwen_stacy|spider-gwen': 128, 'union gwen_stacy|spider-gwen_par_M': 175.4}
+{'debut': '2021-12-14', 'fin': '2022-12-14', 'total_site': 918446, 'spider-gwen': 189, 'spider-gwen_par_M': 205.8, 'union gwen_stacy|spider-gwen': 247, 'union gwen_stacy|spider-gwen_par_M': 268.9}
+{'debut': '2022-12-14', 'fin': '2023-12-14', 'total_site': 1079363, 'spider-gwen': 391, 'spider-gwen_par_M': 362.3, 'union gwen_stacy|spider-gwen': 451, 'union gwen_stacy|spider-gwen_par_M': 417.8}
+{'debut': '2023-12-14', 'fin': '2024-12-14', 'total_site': 1579672, 'spider-gwen': 258, 'spider-gwen_par_M': 163.3, 'union gwen_stacy|spider-gwen': 300, 'union gwen_stacy|spider-gwen_par_M': 189.9}
+{'debut': '2024-12-14', 'fin': '2025-12-14', 'total_site': 1860863, 'spider-gwen': 199, 'spider-gwen_par_M': 106.9, 'union gwen_stacy|spider-gwen': 254, 'union gwen_stacy|spider-gwen_par_M': 136.5}
+{'debut': '2025-12-14', 'fin': '2026-10-24', 'total_site': 2004289, 'spider-gwen': 232, 'spider-gwen_par_M': 115.8, 'union gwen_stacy|spider-gwen': 286, 'union gwen_stacy|spider-gwen_par_M': 142.7}
+{'debut': '2022-12-02', 'fin': '2023-06-02', 'total_site': 494873, 'spider-gwen': 65, 'spider-gwen_par_M': 131.3, 'union gwen_stacy|spider-gwen': 80, 'union gwen_stacy|spider-gwen_par_M': 161.7}
+{'debut': '2023-06-02', 'fin': '2023-12-02', 'total_site': 574225, 'spider-gwen': 325, 'spider-gwen_par_M': 566.0, 'union gwen_stacy|spider-gwen': 369, 'union gwen_stacy|spider-gwen_par_M': 642.6}
+{'spider-gwen': 1709, 'union gwen_stacy|spider-gwen': 2019} 1557
