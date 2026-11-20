@@ -24,36 +24,105 @@
 # Mise à jour du 2026-10-28 (demandée par U) : style de dessin commun à Edenia et Arcana (U, 15 oct.) ; tests PixAI = tests de style,
 #   Cosmo Dumas = « un essai » (U, 15 oct.) ; atie1225 ajouté aux références (U, 15 oct.).
 # Mise à jour du 2026-10-28, tour 24 (demandée par U) : « l'habit suit la fonction », étendu à la coupe (décidé, U, 28 oct.).
+# Mise à jour du 2026-11-16 (demandée par U, synchronisation YAML + Edenia.html + carnet de bord) :
+#   - plafond technologique général à 1914 (hors technologie magique) passé d'envisagé à décidé (U, 16 nov.) ; armes à feu toujours à 1860 (décidé) ;
+#   - report des réponses de U des 12-18 oct. présentes dans Edenia.html (origine du prénom de Brann ; pistes provisoires d'Harley ;
+#     sources de la zone mafieuse ; images de La Princesse et la Grenouille sur Nouvelle-Orléans et marais ; Plaines Brisées et western
+#     sur la région désertique ; 5 images vestimentaires du 15 oct. ; rejet du jean sur tests 09-10 ; LoRA N&B du 17 oct. ; tier liste du 18 oct.) ;
+#   - report du cadre éditorial et du registre visé du carnet de bord (§ 2, § 3.2, § 3.3 : circuit français, Action + Fantasy, 20-30 tomes,
+#     approche littéraire, tonalité non « dark », rejet gag et ecchi, usage visé de l'arthurien, œuvres citées) ;
+#   - report des 5 clarifications du carnet (§ 5.4) avec les statuts fixés par U le 16 nov. : registre occulte/marais/pègre non « dark » (décidé) ;
+#     règle vestimentaire opératoire hors jean/lacets réservés à Arcana (envisagé) ; chara-design et rendu N&B 4 valeurs/trames (envisagé) ;
+#     modernité ~1890-1914 répartie par pôles (envisagé) ; western ancré Languedoc/causses et contraste du trio (intérêt). L'hypothèse du point 6
+#     reste hors de ce fichier ; limites de lecture confirmées inchangées (U, 16 nov.).
+# Mise à jour du 2026-11-16, passe 2 (demandée par U, synchronisation carnet § 5.5 + YAML + Edenia.html) :
+#   - positionnement d'ensemble (envisagé, U) : fantasy classique dans le fond, renouvelée par la forme manga shōnen, un folklore différent
+#     et un système + des combats pensés au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter ;
+#   - occultisme.place_dans_l_oeuvre passé en envisagé (U, cran 2 : esthétique et grammaire/culture concrète du surnaturel présente dans beaucoup
+#     de concepts de l'œuvre, sans être un thème ni le sujet central ; registre tonal non « dark » toujours décidé ; note du 7 oct. archivée) ;
+#   - structure_du_monde.feodalite ajouté en envisagé (U : système politique sous-jacent présent dans beaucoup de concepts de l'univers)
+#     et fiche Féodalisme (Dictionnaire féodal 1820) précisée en conséquence ;
+#   - institutions_et_statuts_en_interet ajouté en intérêt (U) : Chevalier (couche 2 = statut social et martial lié au serment dans la féodalité,
+#     couche 1 optionnelle = armure lourde réservée à certains personnages, couche 3 = récits de chevalerie médiévaux et Renaissance gardés en
+#     intérêt ouvert sans se limiter à un seul récit) et Scholomance (école de magie type Harry Potter, mais différente) ;
+#   - pistes_systeme_de_magie ajouté (cible tactique en envisagé ; 4 briques en intérêt, U : Mana [nom provisoire], Source/Shaper/Sink/Target,
+#     Body/Mind/Soul, Consciences ; le système lui-même reste non arrêté) ; ajout de la fiche Fondation SCP (wiki et Tales).
+# Mise à jour complémentaire du 2026-11-16 (U, réaffirmation de la direction artistique) :
+#   - orientation envisagée : œuvre située à la Belle Époque ; pour les zones rurales, conte merveilleux/fantastique dans l'esprit du Château ambulant / Miyazaki ;
+#   - les musiques de BioShock, BioShock Infinite et Fallout ravivent cette envie (références d'ambiance sonore, pas transposition visuelle ni nouveaux faits de monde) ;
+#   - rejet explicite de l'image test de garçon `test_tenue_edenia_garcon.png` et du rendu « beau gosse manhwa » ; cette image n'est ni canon ni référence à reprendre ;
+#   - le registre occultisme non « dark » reste décidé ; aucun plafond technologique, statut de zone ou règle vestimentaire antérieure n'est modifié.
 
 projet:
   nom_provisoire: Edenia
   source_nom_provisoire: U
   genre: battle shōnen occidental durable, édition traditionnelle
+  format_editorial:
+    source: 'U, carnet de bord (§ 1, § 2, § 3.1, § 3.2), 16 nov. 2026'
+    circuit:
+      texte: 'parution française traditionnelle par tomes complets (~180-200 pages, rythme solo de 1 à 2 tomes/an ; éditeurs de référence du créneau : Ankama, Pika, Kana, Glénat)'
+      statut_decision: decide
+    creneau:
+      texte: Action + Fantasy
+      statut_decision: decide
+    longueur_visee:
+      texte: '20 à 30 tomes (avec nécessité de convaincre et fonctionner dès une première tranche de 3 à 5 tomes)'
+      statut_decision: decide
+    second_projet:
+      texte: 'Arcana : second projet d''univers urbain et moderne ; partage le même style de dessin qu''Edenia (décidé, U, 15 oct. 2026) ; les matières urbaines contemporaines comme le jean et les lacets modernes lui seraient réservées (envisagé, U, 16 nov. 2026)'
+      statut_decision: non_precise
+  registre_et_ton:
+    source: 'U, carnet de bord (§ 3.3, § 3.5, § 5.4 et § 5.5), 16 nov. 2026'
+    positionnement_d_ensemble:
+      texte: 'fantasy classique assumée dans le fond, renouvelée sur trois plans : la forme (manga shōnen), un folklore différent et un système de magie ainsi que des combats pensés pour être au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter'
+      statut_decision: envisage
+      source: 'U, 16 nov. 2026 (carnet § 5.5)'
+    approche_d_inspiration:
+      texte: 'puiser prioritairement dans les œuvres littéraires et hors-manga (romans, webromans, sources historiques et folkloriques européennes et françaises), tout en conservant les mangas de référence et les exigences de narration d''un manga shōnen'
+      statut_decision: envisage
+    construction_d_univers:
+      texte: 'univers bien construits à logique sociale, historique et matérielle ; refus d''utiliser la mythologie ou le folklore comme simple étiquette décorative (façon Seven Deadly Sins) ; intérêt pour le fonctionnement concret des organisations et des systèmes (Gotei 13, Cour infernale du Dictionnaire infernal, enfer de Dorohedoro, figures historiques et savantes, folklore français)'
+      statut_decision: interet
+    tonalite_visee:
+      texte: 'ton non « dark » : merveilleux, mystère et aventure (Harry Potter, Le Château ambulant / Miyazaki, Le Seigneur des Anneaux), humour sec ou d''observation (Tarantino, légère touche de Terry Pratchett hors absurde), tension dramatique (Hunter × Hunter), combats tactiques (Jujutsu Kaisen, arc des Rank B Wars de World Trigger), systèmes de magie à règles définies (hard magic ; architecture non arrêtée, premiers mots-clés notés en intérêt dans pistes_systeme_de_magie), ampleur épique et vraisemblance (Worm, The Stormlight Archive : conséquences et psychologie traitées sérieusement)'
+      statut_decision: envisage
+    exclusions_de_ton:
+      texte: 'rejet de l''humour gag et de l''ecchi japonais (carnet § 3.3) ; registre de l''occulte, du marais et de la pègre non « dark », sans gothique poisseux ni grimdark (décidé, U, 16 nov. 2026 ; voir occultisme.registre_tonal)'
+      statut_decision: decide
+    orientation_belle_epoque_et_merveilleux_rural:
+      texte: 'envie de situer l’œuvre à la Belle Époque, avec pour les zones rurales un registre de conte merveilleux et fantastique, dans l’esprit du Château ambulant / Miyazaki ; la réécoute des musiques de BioShock, BioShock Infinite et Fallout ravive cette direction (inspiration musicale/émotionnelle, pas une demande de transposition de leur univers)'
+      statut_decision: envisage
+      source: 'U, 16 nov. 2026 ; formulation personnelle « je pense que je veux », donc orientation exprimée, sans nouvelle répartition détaillée des zones'
+      note: 'ne modifie pas le plafond technologique général déjà décidé à 1914 ni le principe des pôles d’époque inégaux encore envisagé ; registre occulte non « dark » demeure décidé'
   cadre_valide:
   - monde de fantasy multi-héritages
   - 'zone western + zone industrielle de type BioShock Infinite (zone western = un paysage ; le mode de vie n''est pas encore réfléchi, U, 12 oct. 2026)'
   - un seul monde, une seule époque
-  - 'plafond technologique théorique : 1950, hors technologie magique (baisse à 1914 envisagée le 2026-10-12)'
+  - 'plafond technologique général : 1914, hors technologie magique (abaissé depuis le plafond théorique initial de 1950 ; envisagé le 2026-10-12, décidé le 2026-11-16)'
   - 'plafond des armes à feu : 1860'
   - esthétique « archaïque mais pas trop »
   technologie:
     source: U
-    date: '2026-10-12'
+    date: '2026-10-12 (mis à jour le 2026-11-16)'
     plafond_armes_a_feu:
-      texte: 'armes à feu plafonnées à 1860'
+      texte: armes à feu plafonnées à 1860
       statut_decision: decide
       note: 'précisé par U (« Ha j''avais oublié d''indiquer que les armes à feu sont plafonnées à 1860 »)'
     baisse_plafond_general:
-      texte: 'baisser le plafond technologique général de 1950 à 1914, hors technologie magique'
-      statut_decision: envisage
-      note: 'formulé par U (« En fait je pense baisser la technologie à 1914 »)'
+      texte: 'plafond technologique général fixé à 1914, hors technologie magique (abaissé depuis le plafond théorique initial de 1950)'
+      statut_decision: decide
+      note: 'envisagé le 12 oct. 2026 (« En fait je pense baisser la technologie à 1914 »), passé en décidé par U le 16 nov. 2026'
     inegalite_regionale:
-      texte: 'certaines régions sont plus avancées technologiquement que d''autres ; les ressources magiques et naturelles ont un impact sur cet avancement'
+      texte: certaines régions sont plus avancées technologiquement que d'autres ; les ressources magiques et naturelles ont un impact sur cet avancement
       statut_decision: envisage
       note: 'formulé par U (« Je pense que je peux partir du principe que certaines régions sont plus avancées. Je pense que les ressources magiques et naturelles ont un impact, comme les autres modèles de référence que tu as cités »)'
+    repartition_par_poles:
+      texte: 'modernité ~1890-1914 concentrée dans certains pôles coexistant avec des campagnes féodales / Renaissance et des forêts de conte : l''époque n''est pas uniforme, elle est répartie par pôle'
+      statut_decision: envisage
+      note: 'carnet de bord (§ 5.4, point 4), classé en envisagé par U le 16 nov. 2026 ; cohérent avec le pôle occulte/mafieux plafonné à 1914, l''occultisme 1890-1910 et BioShock 1'
   structure_du_monde:
     source: U
-    date: '2026-10-11'
+    date: '2026-10-11 (complété le 2026-11-16)'
     plan:
       texte: un royaume principal, plusieurs cités-États et quelques royaumes adjacents pas forcément visités
       statut_decision: envisage
@@ -70,6 +139,10 @@ projet:
     carte_du_monde:
       texte: une image de carte de fantasy sert de référence pour la carte du monde (image fournie par U, non versionnée)
       statut_decision: interet
+    feodalite:
+      texte: 'système politique sous-jacent présent dans beaucoup de concepts de l''univers : organisation fondée sur des liens personnels (serment d''allégeance, service contre protection) et des pouvoirs morcelés (fiefs, chartes, privilèges, droits locaux, rivalités vassaliques), qui colore le territoire, le statut des institutions (écoles, ordres, guildes), l''accès aux ressources, la friction avec les cités-États et les pôles ~1890-1914, ainsi que des structures parallèles comme la pègre'
+      statut_decision: envisage
+      note: 'validé en envisagé par U le 16 nov. 2026 (carnet § 5.5 ; dépasse le simple vocabulaire ou décor local)'
   gimmicks_des_grands_succes:
   - gimmick: Pirate
     oeuvre: One Piece
@@ -140,10 +213,14 @@ projet:
   arthurien:
     source: U
     decide:
-    - 'noms de lieux arthuriens français uniquement'
+    - noms de lieux arthuriens français uniquement
     - 'personnages arthuriens : des inspirations seulement, avec des noms différents (aucun nom direct comme Arthur, Merlin, Lancelot)'
     - 'nom de famille de Brann : « Pandragon » retiré, et le nom est laissé vide (U, 9 oct. 2026)'
     - 'se détacher de Seven Deadly Sins et de Radiant sur le plan arthurien (portée exacte non précisée ; le statut de Radiant comme référence ne change pas dans ce fichier)'
+    usage_vise:
+      texte: 'la dimension symbolique et allégorique n''intéresse pas U ; l''intérêt porte sur l''ambiance médiévale et sur l''étude généalogique des archétypes, tropes et procédés narratifs qui font écho à ceux du manga shōnen'
+      statut_decision: interet
+      source: 'U, carnet de bord (§ 3.3), 16 nov. 2026'
     personnages_arthuriens_inspirations:
     - Perceval
     - Arthur
@@ -165,7 +242,7 @@ projet:
     note_lieux: 'U, 11 oct. 2026 : il a accepté ces lieux mais ne les connaît pas tous ; hormis Brocéliande et Le Lac, il n''a fait aucune recherche sur eux ; ils passent donc de décidé à envisagé'
     exception_lieux: 'exception décidée par l''utilisateur : lieux gardés pour la langue française du texte, même s''ils ne sont pas situés en France (La Douloureuse Garde ; sa localisation n''a pas été vérifiée)'
     abandonne:
-    - 'Merlin, Arthur, Lancelot comme personnages de toile de fond (envisagé puis écarté le 2026-10-09)'
+    - Merlin, Arthur, Lancelot comme personnages de toile de fond (envisagé puis écarté le 2026-10-09)
     note_merlin: 'U, 11 oct. 2026 : Merlin était de base un personnage de l''œuvre ; la décision du 9 oct. le concernant reste la plus récente'
   personnages_edenia:
   - nom: Cosmo Dumas
@@ -174,7 +251,9 @@ projet:
     - Killua Zoldyck
     - Shisui Uchiha
     tenue_inspiration: Academy Ekko (deux images), voir esthetique_vestimentaire
+    note_test_pixai: 'dans les documents de tests PixAI : seul essai sur un personnage d''Edenia (« un essai », U, 15 oct. 2026), pas une piste de design (hors des 12 images du wiki)'
   - nom: Brann
+    origine_prenom: 'Ben 10, puis Game of Thrones (« Bran »), puis Hearthstone (« Brann ») (U, 12 oct. 2026)'
     inspire_de:
     - Monkey D. Luffy
     - Yusuke Urameshi
@@ -184,15 +263,22 @@ projet:
     goal:
       valeur: devenir chevalier, ou un goal similaire
       statut_decision: interet
-      source: 'U, 9 oct. 2026'
+      source: U, 9 oct. 2026
   - nom: Harley Delphine
-    statut_nom: 'provisoire, non décidé (U, 12 oct. 2026)'
-    note: 'personnage non défini pour l''instant (U, 12 oct. 2026)'
+    statut_nom: provisoire, non décidé (U, 12 oct. 2026)
+    note: personnage non défini pour l'instant (U, 12 oct. 2026)
     inspire_de:
     - Shallan Davar (The Stormlight Archive)
     - Hermione Granger
     - Lisa Wilbourne (Tattletale, Worm)
     - Magik (Illyana Rasputin)
+    pistes_provisoires:
+      statut_decision: interet
+      source: 'U, 12 oct. 2026 ; carnet de bord (§ 5.4, point 5), classé en intérêt par U le 16 nov. 2026'
+      personnalite_visee: Shallan Davar, Maka Albarn (Soul Eater), Luna Lovegood (Harry Potter)
+      apparence: '« pour moi son apparence ressemble à Raiponce de Tangled » (U, 12 oct. 2026)'
+      origine_prenom: Gwen Tennyson (Ben 10) (U, 12 oct. 2026)
+      contraste_trio: 'piste ouverte de contraste face à Brann (élan brut) et Cosmo (sang-froid agile et urbain) (carnet § 5.4, point 5)'
   esthetique_vestimentaire:
     decide_depuis_le_3_oct: archaïque mais pas trop
     definitions:
@@ -200,13 +286,17 @@ projet:
       anachronisme:
         texte: éléments vestimentaires modernes présents dans un récit dont le cadre est plus ancien (U, 7 oct.)
         statut_decision: decide
-        source: 'U, 15 oct. 2026 : esthétique vestimentaire plus moderne et anachronique, dans le style vestimentaire des 7 images de references_visuelles'
+        source: 'U, 15 oct. 2026 : esthétique vestimentaire plus moderne et anachronique, dans le style vestimentaire des 7 images de la galerie vestimentaire'
         historique: 'non décidé ; « a une part de vérité » (U, 7 oct. 2026)'
       habit_suit_la_fonction:
         texte: 'la tenue et sa coupe suivent la fonction et le statut du personnage ; hors des genres à costume, c''est le rôle qui justifie une tenue moulante (infiltration, pilotage, combinaison sous armure)'
         statut_decision: decide
         source: 'U, 28 oct. 2026 : « c''est un élément de design que je prends déjà en compte » ; « elle a raison » (analyse externe : le genre décide de la tenue moulante, hors genre le rôle l''exige)'
-        historique: 'fonctions et statuts cités comme limite vestimentaire (U, 7 oct., voir limite_floue)'
+        historique: fonctions et statuts cités comme limite vestimentaire (U, 7 oct., voir limite_floue)
+      regle_operatoire:
+        texte: 'coupes shōnen dynamiques + matières et finitions d''époque (drap, cuir, laiton, broderies, sangles, pièces d''armure), hors matières urbaines contemporaines (jean, lacets modernes) réservées à Arcana ; le tout guidé par la fonction et le statut du personnage'
+        statut_decision: envisage
+        source: 'carnet de bord (§ 5.4, point 1), classé en envisagé par U le 16 nov. 2026 ; recoupe la réserve sur le jean des tests PixAI 09 et 10 (U, 15 oct. 2026) et sur les lacets de Barrier Mage (U, 7 oct. 2026)'
     inspire_de:
     - Radiant
     - Runeterra
@@ -215,7 +305,13 @@ projet:
     - Runeterra
     - One Piece
     - Naruto
-    limite_floue: '(U, 7 oct.) il ne sait pas encore où commence sa limite d''esthétique vestimentaire : elle dépend des fonctions et des statuts des personnages, et consiste parfois en éléments historiques repris dans une coupe moderne ; problème déjà cité, car ses inspirations (Radiant, Runeterra) mélangent l''histoire du vêtement dans leurs designs ; constat personnel, pas une décision'
+    limite_floue: '(U, 7 oct.) il ne sait pas encore où commence sa limite d''esthétique vestimentaire : elle dépend des fonctions et des statuts des personnages, et consiste parfois en éléments historiques repris dans une coupe moderne ; problème déjà cité, car ses inspirations (Radiant, Runeterra) mélangent l''histoire du vêtement dans leurs designs ; constat personnel, pas une décision (voir definitions.habit_suit_la_fonction, décidé le 28 oct., et definitions.regle_operatoire, envisagé le 16 nov.)'
+    precisions_tests_15_oct: 'les 12 tests visuels PixAI sont « Edenia compatible », sauf les tests 09 et 10 qui doivent sonner légèrement moins moderne à cause du jean (U, 15 oct. 2026)'
+    image_test_garcon_rejetee:
+      texte: 'U n’aime pas l’image test test_tenue_edenia_garcon.png et demande de l’oublier ; rejet explicite du côté « beau gosse manhwa »'
+      statut_decision: decide
+      portee: 'image non canon et non-référence à reprendre ; rejet de ce rendu précis, sans déduction sur les autres personnages masculins ou sur le genre manhwa en général'
+      source: U, 16 nov. 2026
     cadre_vestimentaire_ecole:
       statut_decision: envisage
       texte: école ou académie avec un cadre vestimentaire imposé, ou voisin d'une tenue à l'autre ; peut être présente
@@ -241,7 +337,7 @@ projet:
       role: idem
     - image: Tenue d'académie envisagée (couverture fictive « Barrier Mage »)
       pour: tenues d'académie
-      oeuvre: provenance inconnue (couverture fictive « Barrier Mage », vraisemblablement générée par IA)
+      oeuvre: provenance inconnue (couverture fictive « Barrier Mage », vraisemblablement générée par IA / Grok)
       role: 'tenue envisagée, pas canon (U, 7 oct. : « juste des tests » sur le sujet des tenues d''académie) ; seule différence voulue : pas de lacets aux baskets (trop moderne)'
       statut_decision: envisage
     - image: Test de tenue (style proche de Harry Potter avec un peu de Jujutsu Kaisen, dans un lieu « Shrekien »)
@@ -252,19 +348,39 @@ projet:
       pour: style global
       oeuvre: illustration numérique de style manga, générée par l'utilisateur (IA) ; même personnage généré plusieurs fois dans plusieurs styles, à partir d'une illustration vue sur Pinterest ; plusieurs itérations existent
       role: on voit peu la tenue, mais le style et le design global du personnage correspondent à l'univers ; sert de moodboard, pas de canon
+    - image: 'Duo en forêt : bras en armure, blazer d''école et baskets'
+      pour: galerie vestimentaire (15 oct.)
+      oeuvre: provenance non précisée
+      role: 'fournie par U le 15 oct. 2026 pour illustrer le style vestimentaire anachronique visé (non canon)'
+    - image: 'Groupe sous un ciel étoilé : manteaux longs, sangles et bottes'
+      pour: galerie vestimentaire (15 oct.)
+      oeuvre: générée avec Grok (d'après le nom d'origine)
+      role: 'fournie par U le 15 oct. 2026 pour illustrer le style vestimentaire anachronique visé (non canon)'
+    - image: 'Garçon à l''auréole et au corbeau : robe brodée, brassards dorés, bottes de combat'
+      pour: galerie vestimentaire (15 oct.)
+      oeuvre: provenance non précisée
+      role: 'fournie par U le 15 oct. 2026 pour illustrer le style vestimentaire anachronique visé (non canon)'
+    - image: Vieil homme en fauteuil roulant à entrelacs celtiques
+      pour: galerie vestimentaire (15 oct.)
+      oeuvre: concept art, auteur non identifié
+      role: 'fournie par U le 15 oct. 2026 pour illustrer le style vestimentaire anachronique visé (non canon)'
+    - image: Sorcière sur son balai
+      pour: galerie vestimentaire (15 oct.)
+      oeuvre: 'illustration (filigrane visible : YuumeiArt.com)'
+      role: 'fournie par U le 15 oct. 2026 pour illustrer le style vestimentaire anachronique visé (non canon)'
   inspirations_issues_des_brouillons:
-    source: 'U, brouillons de worldbuilding (documents Worldbulding parties 1 et 2), validé le 11 oct. 2026'
+    source: U, brouillons de worldbuilding (documents Worldbulding parties 1 et 2), validé le 11 oct. 2026
     statut_decision: interet
     elements:
-    - 'Bibliothèque bleue (le contenu des livres ; U précise que cela n''a rien à voir avec le métier de colporteur)'
-    - 'Renaissance (la science, le folklore, les superstitions, les croyances et la magie)'
+    - Bibliothèque bleue (le contenu des livres ; U précise que cela n'a rien à voir avec le métier de colporteur)
+    - Renaissance (la science, le folklore, les superstitions, les croyances et la magie)
     - bas et milieu Moyen Âge
     - fantasy épique
     exclusion:
       texte: sans concept métafictionnel ni concept qui agit sur la réalité
       note: portée non précisée (peut concerner le système de magie, mis de côté pour l'instant)
   vocabulaire_des_brouillons:
-    source: 'U, brouillons de worldbuilding, validé le 11 oct. 2026'
+    source: U, brouillons de worldbuilding, validé le 11 oct. 2026
     statut_decision: interet
     titres_et_fonctions:
     - vassal
@@ -280,11 +396,49 @@ projet:
     evenements:
     - tournoi de chevalerie
     - foires
-    note: éléments de vocabulaire et de décor ; aucun n'est une décision
+    note: 'éléments de vocabulaire et de décor (aucun n''est une décision) ; voir aussi structure_du_monde.feodalite (envisagé, 16 nov. 2026) et institutions_et_statuts_en_interet.chevalier (intérêt, 16 nov. 2026)'
+  institutions_et_statuts_en_interet:
+    source: 'U, 16 nov. 2026 (carnet § 5.5)'
+    chevalier:
+      texte: 'retenu en intérêt d''abord comme statut social et martial dans le cadre féodal (couche 2 : combattant reconnu par un titre ou adoubement, lié par un serment, des droits et des devoirs, compatible avec la magie et des tenues souples), avec l''imagerie de l''armure lourde classique en option réservée à certains personnages ou groupes (couche 1)'
+      recits_de_chevalerie: 'récits de chevalier d''époque médiévale et Renaissance (couche 3, charpentes narratives) : intérêt ouvert, non limité à un seul modèle de récit afin de ne pas biaiser un choix futur (tout ce qui touche à la structure narrative reste au niveau intérêt)'
+      statut_decision: interet
+      note: 'U, 16 nov. 2026 (à relier au goal de Brann, au tournoi de chevalerie, à Fabula Fantasia et au Cycle de la Vulgate)'
+    scholomance:
+      texte: 'école ou institution de magie pensée sur le principe « Harry Potter, mais différent » (les différentes manières de s''en distinguer restent ouvertes ; orthographe usuelle : Scholomance, mot-clé jugé limpide et évocateur par U)'
+      statut_decision: interet
+      note: 'U, 16 nov. 2026 (à relier à Harry Potter et à la piste d''école en Brocéliande)'
+  pistes_systeme_de_magie:
+    source: 'U, 16 nov. 2026 (carnet § 5.5)'
+    note_statut: 'termes, mots-clés et concepts jugés limpides, évocateurs et bien accordés à l''univers par U ; le système de magie n''est pas encore arrêté (les quatre briques sont au statut intérêt)'
+    cible_tactique:
+      texte: 'système de magie et combats pensés pour être au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter'
+      statut_decision: envisage
+      source: 'U, 16 nov. 2026'
+    briques:
+    - element: Mana (nom provisoire)
+      texte: 'source de la magie : évoque un système doté d''une source ésotérique (nom explicitement provisoire)'
+      statut_decision: interet
+    - element: 'Source, Shaper, Sink, Target'
+      texte: 'quatre composantes évoquant un système de magie complexe mais clair (source d''énergie, façonnage/direction, absorption du contrecoup, cible/effet ; terminologie issue des conférences de thaumatologie de la GOC sur le wiki de la Fondation SCP)'
+      statut_decision: interet
+    - element: Body, Mind and Soul
+      texte: 'catégorisation de pouvoirs (Corps, Esprit, Âme ; appréciée par U pour le principe de catégorisation claire)'
+      statut_decision: interet
+    - element: Consciences
+      texte: 'terme lié à la fois à la mécanique du système et au thème de l''univers'
+      statut_decision: interet
   occultisme:
-    penche_vers: ambiance (atmosphère de symboles, de décors et d'objets rituels, sans que l'histoire porte dessus)
+    place_dans_l_oeuvre:
+      texte: 'esthétique et grammaire/culture concrète du surnaturel présente dans beaucoup de concepts de l''œuvre (savoirs d''initiés et savoir caché, symboles, traités, pratiques, objets et milieux variés) : dépasse le simple habillage visuel, sans constituer un thème philosophique ou mystique ni le sujet central (« cran 2 » validé par U ; U précise que le mot « thème » n''était pas adéquat)'
+      statut_decision: envisage
+      source: 'U, 16 nov. 2026 (carnet § 5.5)'
+    historique_7_oct: 'le 7 oct. 2026, penchait vers la seule ambiance (atmosphère de symboles, de décors et d''objets rituels, sans que l''histoire porte dessus), place alors laissée non tranchée car le terme était jugé trop vague'
     precision_livres: '(U, 7 oct.) les livres de sorts seraient classiques et sans effet visuel magique ; sauf peut-être un accessoire lié à un pouvoir ; rien n''est décidé, détail modifiable ; ce qui compte surtout : les symboles sur le livre'
-    statut: 'volontairement non tranché : l''utilisateur juge le terme trop vague ; ni thème ni sujet central pour l''instant'
+    registre_tonal:
+      texte: 'registre de l''occulte, du marais et de la pègre : conte théâtral, vivant et aventureux (esprit Facilier / Mama Odie / Shrek), non « dark », sans glisser vers le gothique poisseux ni le grimdark'
+      statut_decision: decide
+      source: 'carnet de bord (§ 5.4, point 3), validé en décidé par U le 16 nov. 2026'
   heritages_melanges:
     facons_retenues:
     - dans les mêmes tenues
@@ -296,19 +450,26 @@ projet:
     note: pas décidé
   - element: objets bouddhiques japonais (perles de prière, bâton à anneau et clochettes, dangos)
     statut_decision: interet
-    note: 'goût ; pas un héritage décidé ; ce sont des objets de culte, pas seulement de style (point accepté par U)'
+    note: goût ; pas un héritage décidé ; ce sont des objets de culte, pas seulement de style (point accepté par U)
   style_de_dessin:
     meme_style_edenia_et_arcana:
+      texte: même style artistique pour Edenia et Arcana (certains tests très urbains et modernes sont plus proches d'Arcana)
       statut_decision: decide
       source: 'U, 15 oct. 2026 : « le style artistique sur les deux œuvres reste logiquement le même » ; certains tests, « ultra urbain et moderne », sont plus proches d''Arcana'
     styles_cites:
+      texte: Jujutsu Kaisen, atie1225, Shadman, Disney/Pixar, Spider-Verse, Naruto, Gachiakuta et Quirkilicious
       statut_decision: non_precise
       source: 'U, 15 oct. 2026 : « Je crois que mon style artistique se trouve dans Jujutsu Kaisen, atie1225, Shadman, Disney/Pixar, Spider-Verse, Naruto, Gachiakuta et Quirkilicious »'
+    chara_design_et_rendu:
+      texte: 'expressivité d''animation occidentale (visages variés, regards francs, nez et sourcils dessinés, hors registre moe) + encrage shōnen nerveux + noir et blanc lumineux à 4 valeurs et trames de points'
+      statut_decision: envisage
+      source: 'carnet de bord (§ 5.4, point 2), classé en envisagé par U le 16 nov. 2026'
     tests_pixai:
-      statut: tests de style (U)
-      contenu: '12 images générées avec PixAI, jointes le 15 oct. 2026 ; aucune ne représente un des trois personnages principaux. Documents de tests titrés « Arcana » (PixAI Arcana 2 et 2.1, PixAI_Arcana_Art parties 1 et 2, créés le 14 sept.) ; les autres tests partent de personnages existants (Robin, Raven, Nami, Violet Parr, Gwen, Miles Morales…)'
-      cosmo_dumas: 'seul test sur un personnage d''Edenia : « un essai » (U, 15 oct.), pas une piste de design'
-      outils: 'modèles Illustrious (coco-style v2, v3 et surtout v7 ; WAI-illustrious-SDXL v16), LoRA atie1225 et Gachiakuta, accélérateur DMD2 (U, 15 oct.)'
+      statut: tests de style, non canon (U)
+      contenu: '12 images générées avec PixAI jointes le 15 oct. 2026 (aucune de ces 12 images ne représente Brann, Cosmo ou Harley ; toutes dites « Edenia compatible », tests 09 et 10 à rendre légèrement moins modernes à cause du jean) + versions noir et blanc des tests 11 et 12 jointes le 16 oct. 2026. Documents de tests titrés « Arcana » (PixAI Arcana 2 et 2.1, PixAI_Arcana_Art parties 1 et 2, créés le 14 sept.) ; les autres tests partent de personnages existants (Robin, Raven, Nami, Violet Parr, Gwen, Miles Morales…)'
+      cosmo_dumas: 'dans les documents de tests : seul essai portant sur un personnage d''Edenia (« un essai », U, 15 oct. 2026), pas une piste de design (hors des 12 images du wiki)'
+      outils: 'modèles Illustrious (coco-style v2, v3 et surtout v7 ; WAI-NSFW-illustrious-SDXL v14 ; WAI-illustrious-SDXL v16), LoRA ATIE1225 STYLE et Gachiakuta (Manga Style + Cover Art Style), LoRA manga noir et blanc « JUJUTSU KAISEN style(MANGA) | Gege Akutami style [OLD] » (tests 11 et 12 N&B, U, 17 oct. 2026), accélérateur DMD2 (U, 15-17 oct. 2026)'
+      tier_liste_tags: '11 tags de personnages classés par U le 18 oct. 2026 selon le rendu PixAI (S : Violet Parr, Gwen Stacy/Spider-Verse, Gwen Tennyson, Raiponce ; A : Astrid, Raven, Miles Morales, Robin ; B : Nami, Shego, Starfire) ; préférence pour le LoRA Raven SHDBS sur le tag'
   ambiance_des_lieux:
     statut_decision: envisage
     sources_visuelles: 'cinq images de décors naturels : trois peintures de développement de Shrek, une double page couleur du manga Naruto (chapitre 679), une illustration numérique de style manga (probablement générée par IA)'
@@ -331,25 +492,28 @@ projet:
       images: en attente d'images de l'utilisateur
       source: 'U, 9 oct. 2026 (« décidé, pour la région ») ; le nom reprend ses mots, formulation de l''IA'
     zones_issues_des_brouillons:
-      source: 'U, liste de zones d''un brouillon (document sans titre 29), validée le 11 oct. 2026'
+      source: U, liste de zones d'un brouillon (document sans titre 29), validée le 11 oct. 2026
       statut_decision: interet
       note: 'U veut d''abord préciser le vocabulaire des paysages avant d''ajouter des zones (voir a_preciser plus haut) ; la liste mentionne aussi Ionia, Freljord, Tibétains-Yéti et Piltover-BioShock 1 / Gadgetzan, non reportés ici (validation limitée aux zones ci-dessous) ; inspirés des MMORPG et des contes (U)'
       zones:
       - nom: Nouvelle-Orléans / Caraïbes
         inspiration: Bilgewater
+        precisions: 'deux images de La Princesse et la Grenouille (le bayou, le salon du sorcier) rattachées à cette zone et au marais (U, 12 oct. 2026 ; vigilance : le film se passe dans les années 1920, seuls les décors respectent le plafond décidé de 1914) ; registre non « dark » de conte théâtral et vivant décidé le 16 nov. 2026'
       - nom: Piltover / Columbia
       - nom: mafieux années 20-30 (prohibition)
         correction: 'U, 12 oct. 2026 : on ne garde que la structure sociale (la mafia) ; jamais au-delà de 1914 (le nom ci-dessus est celui du brouillon)'
+        sources_citees: 'Chicago Spirit (Fondation SCP), occultisme des années 1890-1910, BioShock 1 (U, 12 oct. 2026) ; registre non « dark » décidé le 16 nov. 2026'
       - nom: marais
-        description: 'marais style bayou ou marais de Shrek (U, 11 oct. 2026) ; la liste du brouillon cite Shrek et Velen (The Witcher)'
+        description: marais style bayou ou marais de Shrek (U, 11 oct. 2026) ; la liste du brouillon cite Shrek et Velen (The Witcher)
+        precisions: 'deux images de La Princesse et la Grenouille rattachées le 12 oct. 2026 (U) ; registre non « dark » de conte théâtral, vivant et aventureux (esprit Facilier / Mama Odie / Shrek) décidé le 16 nov. 2026'
       - nom: Brocéliande
         description: forêt féerique avec une école (type Harry Potter)
       - nom: Empire
       - nom: habitat rural
         description: village, château, donjon, maisons éparses
       region_desertique:
-        texte: 'région désertique inspirée du Languedoc (U, 11 oct. 2026, « je crois ») ; « Terre dévastée » est une proposition de l''IA, pas un nom de brouillon de U (correction de U, 12 oct. 2026)'
-        statut_decision: non_precise
+        texte: 'région désertique inspirée du Languedoc (U, 11 oct. 2026, « je crois »), des Plaines Brisées (The Stormlight Archive) et du western comme paysage (U, 12 oct. 2026) ; piste ouverte d''ancrage du paysage « western » dans une Europe / France via un Sud minéral de type Languedoc / causses (carnet § 5.4, point 5, classé en intérêt par U le 16 nov. 2026) ; « Terre dévastée » est une proposition de l''IA, pas un nom de brouillon de U (correction de U, 12 oct. 2026)'
+        statut_decision: interet
     pierres_levees: pour l'instant seulement pour l'ambiance ; rôle non décidé ; il ne préférerait pas la même scène sans les pierres (U)
     statut_des_images: moodboard, pas canon (U) ; pas de décision sur les éléments des images
 references:
@@ -380,19 +544,35 @@ references:
 - reference: Warcraft / Hearthstone
   statut_relation: influence
   source: U
+  note_utilisateur: '(12 oct. 2026) L''orthographe « Brann » du prénom de Brann vient aussi de Hearthstone (après Ben 10 et Game of Thrones).'
+- reference: Musiques de BioShock et BioShock Infinite
+  statut_relation: influence
+  source: U
+  aspect_vise: ambiance sonore et émotionnelle
+  statut_decision: interet
+  note_utilisateur: 'U indique que la réécoute des musiques ravive son envie de créer une œuvre de merveilleux fantastique à la Belle Époque ; cela ne vaut pas transposition de l’univers ni de ses visuels (16 nov. 2026).'
+- reference: Musiques de Fallout
+  statut_relation: influence
+  source: U
+  aspect_vise: ambiance sonore et émotionnelle
+  statut_decision: interet
+  note_utilisateur: 'U indique que la réécoute des musiques ravive son envie de créer une œuvre de merveilleux fantastique à la Belle Époque ; cela ne vaut pas transposition de l’univers ni de ses visuels (16 nov. 2026).'
 - reference: BioShock Infinite
   statut_relation: influence
   source: U
   aspect_vise: zone industrielle d'Edenia
-  contrainte_liee: plafond technologique théorique 1950, hors technologie magique (baisse à 1914 envisagée le 2026-10-12)
+  contrainte_liee: plafond technologique général 1914, hors technologie magique (abaissé depuis le plafond théorique initial de 1950 ; envisagé le 2026-10-12, décidé le 2026-11-16)
   statut_decision: decide
+  voir_aussi: BioShock 1 cité aussi le 12 oct. 2026 parmi les sources de la zone mafieuse (plafonnée à 1914)
 - reference: Féodalisme (Dictionnaire féodal 1820)
   statut_relation: source_documentaire
   source: depot
+  aspect_vise: 'féodalité envisagée comme système politique sous-jacent présent dans beaucoup de concepts de l''univers (U, 16 nov. 2026 ; voir structure_du_monde.feodalite et vocabulaire_des_brouillons)'
+  statut_decision: envisage
 - reference: Dictionnaire infernal (Collin de Plancy, éd. 1825)
   statut_relation: source_documentaire
   source: U
-  aspect_vise: hiérarchies
+  aspect_vise: hiérarchies (Cour infernale), figures historiques et savantes, créatures
   note_utilisateur: '(brouillons, validé le 11 oct. 2026) Ne pas se focaliser seulement sur la partie populaire (les 72 démons) : le dictionnaire traite énormément d''autres sujets.'
 - reference: Folklores gréco-égyptiens
   statut_relation: corpus_de_traditions
@@ -400,7 +580,7 @@ references:
   couche_antiquite_tardive:
     texte: 'période hellénistique et Ier-Ve siècles (papyrus grecs magiques, etc.), source lointaine de la magie et des sciences de la Renaissance ; couche de fond (grimoires, symboles), pas un décor visible'
     statut_decision: interet
-    source: 'U, 22 oct. 2026'
+    source: U, 22 oct. 2026
     verification: 'IA, sources citées le 22 oct. 2026 : les papyrus grecs magiques étaient inconnus à la Renaissance (achetés vers 1827, publiés en 1928-1931) ; la transmission passe par le Corpus Hermeticum (traduit par Ficino en 1463, imprimé en 1471), le néoplatonisme, le Picatrix et la tradition salomonienne (Testament de Salomon) ; liens avec Agrippa (décidé) et les démons envisagés'
 - reference: Mélusine
   statut_relation: corpus_de_traditions
@@ -414,10 +594,31 @@ references:
   statut_relation: corpus_de_traditions
   source: U
   statut_decision: interet
+- reference: Cycle de la Vulgate (Lancelot-Graal)
+  statut_relation: reference
+  source: U
+  aspect_vise: ambiance médiévale ; généalogie des archétypes, tropes et procédés narratifs faisant écho au manga shōnen (la dimension symbolique et allégorique n'intéresse pas U)
+  statut_decision: interet
+  note_utilisateur: '(16 nov. 2026, carnet § 3.3) Source littéraire arthurienne étudiée ; voir aussi les règles décidées dans projet.arthurien (noms de lieux français uniquement, personnages en inspiration seulement).'
+  limite_lecture: aucune indiquée
 - reference: Shrek
   statut_relation: influence
   source: U
-  note: Associé à Red Hood dans les décisions du 3 oct. (relecture de contes). Rien d'autre n'est précisé.
+  aspect_vise: relecture de contes ; ambiance de marais et de forêt de conte ; registre théâtral, vivant et aventureux non « dark »
+  note: 'Associé à Red Hood dans les décisions du 3 oct. (relecture de contes) ; cité pour le marais (11 oct.) et dans le registre occulte/marais/pègre non « dark » décidé le 16 nov. 2026 (carnet § 5.4).'
+- reference: La Princesse et la Grenouille (Disney)
+  statut_relation: reference
+  source: U
+  aspect_vise: 'ambiance visuelle de bayou et de salon occulte (Nouvelle-Orléans / Caraïbes et marais) ; registre de conte théâtral, vivant et aventureux non « dark » (esprit Facilier / Mama Odie, décidé le 16 nov. 2026)'
+  statut_decision: interet
+  contrainte_liee: 'le film se passe dans les années 1920 : les décors passent sous le plafond décidé de 1914, pas les tenues ni la technologie des années 1920'
+  note_utilisateur: '(12 oct. et 16 nov. 2026) Deux images rattachées en moodboard (non canon) à Nouvelle-Orléans / Caraïbes et au marais ; registre non « dark » décidé le 16 nov. 2026 (voir projet.occultisme.registre_tonal).'
+- reference: Le Château ambulant / Hayao Miyazaki
+  statut_relation: influence
+  source: U
+  aspect_vise: atmosphère de merveilleux, de mystère et d'aventure (ton non « dark »)
+  statut_decision: interet
+  note_utilisateur: '(16 nov. 2026, carnet § 3.3) Cité aux côtés de Harry Potter et du Seigneur des Anneaux pour la tonalité de merveilleux et de mystère.'
 - reference: Radiant (manga)
   statut_relation: reference
   source: U
@@ -441,7 +642,7 @@ references:
 - reference: Hunter × Hunter
   statut_relation: influence
   source: U
-  aspect_vise: 'ton (U, 7 oct. : ton visé plus proche de Red Hood / HxH que de FMA)'
+  aspect_vise: 'ton et tension dramatique (U, 7 oct. : ton visé plus proche de Red Hood / HxH que de FMA ; carnet § 3.3) ; exigence tactique du système de magie et des combats, aux côtés de World Trigger et Jujutsu Kaisen (envisagé, U, 16 nov. 2026)'
   limite_lecture: aucune indiquée
 - reference: Yu Yu Hakusho
   statut_relation: influence
@@ -488,12 +689,37 @@ references:
 - reference: Jujutsu Kaisen (anime)
   statut_relation: influence
   source: U
+  aspect_vise: 'exigence tactique du système de magie et des combats, aux côtés de World Trigger et Hunter × Hunter (carnet § 3.3 et § 5.5, envisagé, U, 16 nov. 2026) ; style de dessin (U, 15 oct. 2026)'
   limite_lecture: anime S1 à S3, jusqu'à l'épisode 59 ; manga non lu
   note_utilisateur: œuvre que l'utilisateur aime beaucoup (dit le 7 oct. 2026)
+- reference: World Trigger
+  statut_relation: reference
+  source: U
+  aspect_vise: 'exigence tactique du système de magie et des combats (dont l''arc des Rank B Wars), aux côtés de Jujutsu Kaisen et Hunter × Hunter'
+  statut_decision: envisage
+  note_utilisateur: '(16 nov. 2026, carnet § 3.3 et § 5.5) Référence d''exigence pour le système et les combats tactiques (avec Jujutsu Kaisen et Hunter × Hunter).'
+- reference: Dorohedoro
+  statut_relation: reference
+  source: U
+  aspect_vise: fonctionnement de l'enfer et représentation des démons
+  statut_decision: interet
+  voir_aussi: cité aussi dans projet.folklore.interet.autres (« Enfer et démons de Dorohedoro »)
+  note_utilisateur: '(16 nov. 2026, carnet § 3.3) Retenu pour le fonctionnement concret de l''enfer et la représentation des démons.'
+- reference: Soul Eater
+  statut_relation: reference
+  source: U
+  aspect_vise: personnalité de Maka Albarn (piste provisoire pour Harley Delphine)
+  statut_decision: interet
+  note_utilisateur: '(12 oct. 2026 ; confirmé en intérêt le 16 nov. 2026) Cité avec Shallan Davar et Luna Lovegood pour la personnalité visée d''Harley (personnage encore non défini).'
+- reference: Gachiakuta (Kei Urana)
+  statut_relation: influence
+  source: U
+  aspect_vise: style de dessin
+  note_utilisateur: '(15 oct. 2026) Cité parmi les styles où « se trouve » son style artistique (voir projet.style_de_dessin) ; LoRA utilisés comme base dans ses tests PixAI.'
 - reference: 'The Hunters Guild: Red Hood'
   statut_relation: influence+reference
   source: depot
-  aspect_vise: 'ton (U, 7 oct. : ton visé plus proche de Red Hood / HxH que de FMA)'
+  aspect_vise: 'ton (U, 7 oct. : ton visé plus proche de Red Hood / HxH que de FMA) ; cas d''étude éditorial et narratif (carnet § 4.2)'
 - reference: Fabula Fantasia (Tony Valente)
   source: U
   aspect_vise: tenues de personnages de type « Chevalier » (inspiration pour Brann, « moins claire »)
@@ -503,28 +729,41 @@ references:
 - reference: Harry Potter (films)
   statut_relation: influence
   source: U
-  aspect_vise: esthétique et visuels
+  aspect_vise: esthétique et visuels ; atmosphère de merveilleux et de mystère (carnet § 3.3, 16 nov. 2026)
   limite_lecture: films vus
   statut_decision: envisage
 - reference: Harry Potter (livres)
   statut_relation: influence
   source: U
-  note: 'Constat de l''utilisateur (7 oct. 2026) : les livres contiennent du matériau supplémentaire absent des films, jugé intéressant. Constat, pas décision de fonction.'
+  note: 'Constat de l''utilisateur (7 oct. 2026) : les livres contiennent du matériau supplémentaire absent des films, jugé intéressant. Constat, pas décision de fonction. Luna Lovegood citée le 12 oct. parmi les pistes provisoires de personnalité pour Harley.'
+  voir_aussi: 'Scholomance (intérêt, U, 16 nov. 2026) : école de magie pensée sur le principe « Harry Potter, mais différent » (manières de la différencier ouvertes).'
   limite_lecture: quelques livres lus ; pas la série complète ; ne pas présumer de connaissance au-delà
 - reference: Worm (Wildbow)
   statut_relation: influence
   source: U
+  aspect_vise: ampleur épique et vraisemblance (conséquences et psychologie traitées sérieusement ; carnet § 3.3, 16 nov. 2026)
   limite_lecture: fin de l'arc 9, Sentinel (avril 2012) ; rien de postérieur
-  note_utilisateur: 'rapprochement personnel : « HxH + Watchmen »'
+  note_utilisateur: 'rapprochement personnel : « HxH + Watchmen » ; webroman principal nourrissant l''approche littéraire (carnet § 3.3).'
+- reference: Fondation SCP (wiki et Tales)
+  statut_relation: influence
+  source: U
+  aspect_vise: 'terminologie Source, Shaper, Sink, Target pour la mécanique de magie (thaumatologie GOC, intérêt, U, 16 nov. 2026) ; Chicago Spirit parmi les sources de la zone mafieuse ≤ 1914 (U, 12 oct. 2026) ; Tales de référence pour l''écriture de scène et l''articulation mission/personnages (carnet § 3.5, 16 nov. 2026)'
+  note_utilisateur: '(12 oct. et 16 nov. 2026) Corpus parmi les plus lus par U ; Tales favoris cités au carnet § 3.5 : Rascal One Actual (GOC / Sparkplug), clef101, Clockwork Time, Duke ''till Dawn, Incident 239-B - Clef-Kondraki.'
+- reference: Mother of Learning (et webromans type Royal Road)
+  statut_relation: influence
+  source: U
+  note_utilisateur: '(16 nov. 2026, carnet § 3.3) Cité parmi les webromans nourrissant l''approche littéraire (aux côtés de Worm) ; Lord of the Mysteries est seulement cité de loin sans avoir été vraiment exploré.'
 - reference: The Stormlight Archive (Sanderson)
   statut_relation: influence
   source: U
+  aspect_vise: ampleur épique et vraisemblance (carnet § 3.3, 16 nov. 2026) ; Plaines Brisées citées pour la région désertique (U, 12 oct. 2026)
   limite_lecture: 'The Way of Kings : Prélude, Prologue, chapitres 1 à 15 et les trois interludes ; rien au-delà'
-  note_limite: 'mise à jour le 11 oct. 2026 : U a avancé de 13 à 15 chapitres'
+  note_limite: 'mise à jour le 11 oct. 2026 : U a avancé de 13 à 15 chapitres (confirmé inchangé le 16 nov. 2026)'
 - reference: Game of Thrones
   statut_relation: influence
   source: U
   limite_lecture: série S1 à S7 ; livres non lus
+  note_utilisateur: '(12 oct. 2026) « Bran » cité parmi les origines du prénom de Brann (entre Ben 10 et Hearthstone).'
 - reference: The Kingkiller Chronicle (Rothfuss)
   statut_relation: influence
   source: U
@@ -537,15 +776,33 @@ references:
 - reference: Le Seigneur des Anneaux
   statut_relation: influence
   source: U
+  aspect_vise: atmosphère de merveilleux, de mystère et d'aventure (carnet § 3.3, 16 nov. 2026)
   limite_lecture: La Communauté de l'Anneau, jusqu'au livre II ch. 10
+- reference: Terry Pratchett
+  statut_relation: reference
+  source: U
+  aspect_vise: légère touche d'humour sec ou d'observation (hors absurde)
+  statut_decision: interet
+  note_utilisateur: '(16 nov. 2026, carnet § 3.3) Associé à Tarantino pour une légère touche d''humour sec ou d''observation, sans verser dans l''absurde.'
 - reference: Quentin Tarantino (filmographie complète)
   statut_relation: influence
   source: U
+  aspect_vise: humour sec ou d'observation (carnet § 3.3, 16 nov. 2026)
   note_utilisateur: '(8 oct. 2026) Inspiration, non listée dans la grille des œuvres : c''est plus Tarantino, son style et sa filmographie complète, que juste une série comme les autres.'
 - reference: Rise of the Brave Tangled Dragons (crossover de fans réunissant Raiponce, Mérida, Harold et Jack Frost)
   statut_relation: influence
   source: U
   note_utilisateur: '(24 oct. 2026) « mon choix de m''inspirer de personnages d''oeuvre Occidentale vient de The Rise brave of tangledd dragon »'
+- reference: Raiponce (Tangled, Disney)
+  statut_relation: influence
+  source: U
+  aspect_vise: apparence provisoire d'Harley Delphine (U, 12 oct. 2026) ; tag classé rang S dans les tests PixAI (U, 18 oct. 2026)
+  statut_decision: interet
+  note_utilisateur: '(12 oct. 2026 ; confirmé en intérêt le 16 nov. 2026) « pour moi son apparence ressemble à Raiponce de Tangled » (à propos d''Harley, personnage encore non défini).'
+- reference: Ben 10
+  statut_relation: influence
+  source: U
+  aspect_vise: origine du prénom de Brann et du prénom provisoire d'Harley (Gwen Tennyson) (U, 12 oct. 2026) ; tag Gwen Tennyson classé rang S dans les tests PixAI (U, 18 oct. 2026)
 - reference: atie1225 (鉄), illustrateur ; LoRA PixAI « ATIE1225 STYLE »
   statut_relation: influence
   source: U
