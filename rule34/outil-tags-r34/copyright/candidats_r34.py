@@ -1,0 +1,14 @@
+import json, time, urllib.request, urllib.parse, sys
+C="""pokemon nintendo marvel marvel_comics dc dc_comics disney video_games game_freak league_of_legends riot_games overwatch blizzard_entertainment fortnite epic_games genshin_impact hoyoverse mihoyo honkai:_star_rail zenless_zone_zero naruto one_piece dragon_ball my_hero_academia boku_no_hero_academia my_little_pony hasbro friendship_is_magic sonic_the_hedgehog_(series) sonic_(series) sega fire_emblem the_legend_of_zelda super_mario_bros. mario_(series) final_fantasy square_enix capcom street_fighter resident_evil touhou fate_(series) fate/grand_order type-moon blue_archive nexon hololive vtuber nijisanji kantai_collection azur_lane arknights umamusume idolmaster vocaloid five_nights_at_freddy's undertale deltarune helluva_boss hazbin_hotel vivziepop star_wars teen_titans avatar_the_last_airbender rwby dc_extended_universe batman_(series) spider-man_(series) x-men star_fox animal_crossing splatoon kirby_(series) metroid xenoblade_chronicles_(series) persona persona_5 atlus bandai_namco tekken dead_or_alive koei_tecmo nier nier:_automata square_enix final_fantasy_vii chainsaw_man jujutsu_kaisen demon_slayer kimetsu_no_yaiba spy_x_family attack_on_titan shingeki_no_kyojin bleach jojo's_bizarre_adventure one-punch_man the_simpsons family_guy cartoon_network nickelodeon warner_brothers dreamworks pixar the_elder_scrolls skyrim fallout bethesda_softworks mass_effect bioware valorant apex_legends minecraft roblox halo_(series) call_of_duty the_witcher cd_projekt_red cyberpunk_2077 elden_ring fromsoftware dark_souls mortal_kombat nintendo_switch pokemon_(game) pokemon_(anime) zootopia frozen_(film) the_amazing_digital_circus ben_10 scooby-doo kim_possible adventure_time steven_universe gravity_falls the_owl_house totally_spies danny_phantom marvel_rivals marvel_cinematic_universe goddess_of_victory:_nikke nikke project_moon girls'_frontline azur_lane honkai_impact_3rd honkai_(series) wuthering_waves love_live! precure sword_art_online re:zero konosuba dragon_quest monster_hunter digimon yu-gi-oh! sailor_moon bishoujo_senshi_sailor_moon neon_genesis_evangelion evangelion gundam code_geass fairy_tail hunter_x_hunter the_loud_house invader_zim original""".split()
+out={}
+for t in dict.fromkeys(C):
+    u="https://api.rule34.xxx/autocomplete.php?q="+urllib.parse.quote(t)
+    try:
+        d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=30))
+        m=[x for x in d if x['value']==t]
+        out[t]=int(m[0]['label'].rsplit('(',1)[1].rstrip(')')) if m else None
+    except Exception as e: out[t]=f"err {e}"
+    time.sleep(0.4)
+json.dump(out,open("candidats_r34_autocomplete_2026-10-24.json","w"),indent=1)
+for t,n in sorted(((k,v) for k,v in out.items() if isinstance(v,int)),key=lambda x:-x[1])[:60]: print(n,t)
+print("absents:",[k for k,v in out.items() if not isinstance(v,int)])

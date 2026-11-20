@@ -1,0 +1,9 @@
+﻿personnage,tag_principal,recherche,tag_seul_autocomplete,dernier_pid,union,gain,gain_pct,retenu,date_releve
+Catwoman,catwoman,catwoman ∪ selina_kyle,10167,10290,10311,144,1.4,tag seul (gain ≤ bruit ±150),2026-10-24
+Femme invisible,invisible_woman,invisible_woman ∪ sue_storm ∪ invisible_woman_(marvel_rivals),10816,10836,10857,41,0.4,tag seul (gain ≤ bruit ±150),2026-10-24
+Serena,serena_(pokemon),serena_(pokemon) ∪ serena_(pokemon_games),9105,9072,9093,-12,-0.1,tag seul (gain ≤ bruit ±150),2026-10-24
+Nezuko Kamado,kamado_nezuko,kamado_nezuko ∪ nezuko_kamado ∪ nezuko_(demon_form),8977,9786,9807,830,9.2,union,2026-10-24
+Akali,akali,akali ∪ akali_jhomen_tethi ∪ akali_(league_of_legends),8918,9912,9933,1015,11.4,union,2026-10-24
+Kobeni Higashiyama,higashiyama_kobeni,higashiyama_kobeni ∪ kobeni_higashiyama,8827,9156,9177,350,4.0,union,2026-10-24
+Sona,sona_buvelle,sona_buvelle ∪ sona_(league_of_legends),8740,9072,9093,353,4.0,union,2026-10-24
+Makoto Niijima,makoto_niijima,makoto_niijima ∪ makoto_niijima_(queen) ∪ niijima_makoto,8698,8694,8715,17,0.2,tag seul (gain ≤ bruit ±150),2026-10-24

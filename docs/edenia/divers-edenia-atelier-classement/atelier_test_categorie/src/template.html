@@ -1,0 +1,688 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Atelier — Catégorie : Lieux (test de design)</title>
+<style>
+/* ============ TOKENS (repris de atelier-index.html) ============ */
+:root{
+  --bg:#0d0b09;--bgsoft:#14110d;--panel:#171310;--panel2:#201a14;--line:#2b241b;
+  --ink:#f3eadf;--inkmut:#a89a89;--acc:#eebf4d;--acc2:#c99a2e;
+  --cc:#4cc38a; /* couleur de la catégorie Lieux dans l'Atelier */
+  --st-decide:#eebf4d;--st-envisage:#4da3ff;--st-interet:#8f7bff;--st-np:#9a9ca6;
+  --radius:14px;--contentw:1240px;
+  --fontd:"Cinzel","Trajan Pro","Cormorant Garamond",Georgia,serif;
+  --fontu:"Manrope","Segoe UI",system-ui,-apple-system,sans-serif;
+  --safe-t:env(safe-area-inset-top,0px);--safe-b:env(safe-area-inset-bottom,0px);
+  --tb-h:56px;--nav-h:calc(64px + var(--safe-b));
+  --bevel:polygon(10px 0,100% 0,100% calc(100% - 10px),calc(100% - 10px) 100%,0 100%,0 10px);
+  --bevel-sm:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{max-width:100%;overflow-x:hidden}
+body{font-family:var(--fontu);background:#17171a;color:var(--ink);font-size:15px;line-height:1.5;min-height:100vh}
+button{font-family:inherit;color:inherit;background:none;border:none;cursor:pointer}
+a{color:inherit;text-decoration:none}
+svg{display:block;flex:0 0 auto}
+::selection{background:var(--acc);color:#1a1405}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:6px}
+
+/* ============ TOPBAR ============ */
+.topbar{position:fixed;top:0;left:0;right:0;z-index:30;height:calc(var(--tb-h) + var(--safe-t));padding:var(--safe-t) 12px 0;
+  display:flex;align-items:center;justify-content:space-between;
+  background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.topbar__icon{width:40px;height:40px;display:grid;place-items:center;color:var(--inkmut);border-radius:10px;transition:.2s}
+.topbar__icon:hover{color:var(--ink)}
+.topbar__icon svg{width:21px;height:21px}
+.wordmark{font-family:var(--fontd);font-weight:700;font-size:19px;letter-spacing:.18em;display:flex;align-items:center;gap:8px}
+.wordmark__dot{width:7px;height:7px;border-radius:50%;background:var(--acc);box-shadow:0 0 10px var(--acc);animation:pulse 2.8s infinite}
+@keyframes pulse{50%{transform:scale(1.25)}}
+main{padding-top:calc(var(--tb-h) + var(--safe-t))}
+.banner-test{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;
+  background:#20222b;border-bottom:1px solid var(--line);color:#cfd2dc;font-size:12px;padding:7px 12px;text-align:center}
+.banner-test b{color:var(--acc)}
+
+/* ============ VUE ============ */
+.view{padding:0 16px calc(var(--nav-h) + 40px);animation:fade-in .35s ease}
+.view[hidden]{display:none}
+@keyframes fade-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.shell{max-width:var(--contentw);margin:0 auto;min-width:0}
+
+/* ============ HERO CATÉGORIE ============ */
+.c-hero{position:relative;margin:0 -16px;padding:22px 16px 18px;min-height:250px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.c-hero__img{position:absolute;inset:0;background:#17171a center 40%/cover no-repeat;z-index:-2}
+.c-hero::after{content:"";position:absolute;inset:0;z-index:-1;
+  background:linear-gradient(180deg,rgba(23,23,26,.35) 0%,rgba(23,23,26,.25) 35%,rgba(23,23,26,.85) 78%,#17171a 100%)}
+.crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:12px;color:var(--inkmut);margin-bottom:auto;padding-bottom:40px}
+.crumbs a:hover{color:var(--ink)}
+.crumbs span{opacity:.6}
+.c-hero__row{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.c-hero__ico{width:46px;height:46px;border-radius:12px;display:grid;place-items:center;color:var(--cc);
+  background:color-mix(in srgb,var(--cc) 18%,rgba(0,0,0,.4));border:1px solid color-mix(in srgb,var(--cc) 40%,transparent);backdrop-filter:blur(6px)}
+.c-hero__ico svg{width:23px;height:23px}
+.c-hero__title{font-family:var(--fontd);font-weight:900;font-size:clamp(30px,8vw,46px);line-height:1.05;text-shadow:0 2px 14px rgba(0,0,0,.7)}
+.count{min-width:30px;height:26px;padding:0 9px;display:grid;place-items:center;background:var(--acc);color:#1a1405;font-weight:800;font-size:13px;clip-path:var(--bevel-sm)}
+.c-hero__sub{color:#d6cbbd;font-size:14px;margin-top:8px;max-width:640px;text-shadow:0 1px 6px rgba(0,0,0,.8)}
+.c-hero__credit{position:absolute;right:12px;top:12px;font-size:10.5px;color:rgba(255,255,255,.65);background:rgba(0,0,0,.45);padding:3px 8px;border-radius:10px}
+
+/* ============ HUD STATUTS ============ */
+.hud{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:14px 0 16px}
+/* Bandeau du haut : « Plus consultées » / « Modifiées récemment » (remplace les boutons de statut) */
+.top{margin:14px 0 18px}
+.top__tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:10px}
+.top__tabs button{padding:8px 12px;font-size:13px;font-weight:800;color:var(--inkmut);border-bottom:2px solid transparent;margin-bottom:-1px}
+.top__tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--cc)}
+.top__row{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(210px,1fr);gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.top__row::-webkit-scrollbar{display:none}
+.top-card{display:flex;align-items:center;gap:10px;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:8px 10px;min-width:0}
+.top-card:hover{background:var(--panel2)}
+.top-card__ico{flex:0 0 auto;width:40px;height:40px;border-radius:9px;overflow:hidden;display:grid;place-items:center;color:var(--cc);background:color-mix(in srgb,var(--cc) 14%,transparent)}
+.top-card__ico img{width:100%;height:100%;object-fit:cover}
+.top-card__ico svg{width:18px;height:18px}
+.top-card h3{font-size:13.5px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.top-card p{font-size:11.5px;color:var(--inkmut);display:flex;align-items:center;gap:6px}
+.top-card__txt{min-width:0}
+.top__empty{font-size:13px;color:var(--inkmut);background:var(--panel);border:1px dashed var(--line);border-radius:12px;padding:12px 14px}
+.top__note{font-size:11.5px;color:var(--inkmut);margin-top:6px}
+/* Recherche du site (loupe de la barre du haut) */
+.sbox{position:fixed;inset:0;z-index:60;background:rgba(0,0,0,.6);display:flex;justify-content:center;align-items:flex-start;padding:calc(var(--tb-h) + 10px) 12px 12px}
+.sbox[hidden]{display:none}
+.sbox__panel{width:100%;max-width:560px;background:var(--bgsoft);border:1px solid var(--line);border-radius:14px;padding:12px;box-shadow:0 12px 40px rgba(0,0,0,.5)}
+.sbox__panel input{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:10px;color:var(--ink);font:inherit;font-size:15px;padding:11px 12px;outline:none}
+.sbox__res{margin-top:8px;max-height:60vh;overflow:auto;display:flex;flex-direction:column;gap:6px}
+.sbox__res .top-card{width:100%}
+.sbox__hint{font-size:11.5px;color:var(--inkmut);margin-top:8px}
+.stat{position:relative;text-align:left;background:var(--panel);border:1px solid var(--line);clip-path:var(--bevel-sm);padding:11px 12px 10px;transition:.2s}
+.stat::before{content:"";position:absolute;left:0;top:0;right:0;height:3px;background:var(--sc)}
+.stat b{display:block;font-family:var(--fontd);font-size:24px;line-height:1.1;color:var(--sc)}
+.stat span{font-size:11.5px;color:var(--inkmut);font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.stat:hover{background:var(--panel2)}
+.stat[aria-pressed="true"]{background:color-mix(in srgb,var(--sc) 14%,var(--panel));border-color:color-mix(in srgb,var(--sc) 55%,transparent)}
+
+/* ============ OUTILS ============ */
+.tools{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.search{position:relative}
+.search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);width:17px;height:17px;color:var(--inkmut);pointer-events:none}
+.search input{width:100%;background:var(--panel);border:1px solid var(--line);border-radius:12px;color:var(--ink);font:inherit;font-size:14px;padding:12px 14px 12px 40px;outline:none}
+.search input:focus{border-color:color-mix(in srgb,var(--acc) 45%,transparent)}
+.search input::placeholder{color:var(--inkmut)}
+.chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;padding:7px 13px;border-radius:20px;background:var(--panel);border:1px solid var(--line);color:var(--inkmut);font-size:12.5px;font-weight:700;transition:.2s}
+.chip b{font-size:11px;font-weight:800}
+.chip[aria-pressed="true"]{background:color-mix(in srgb,var(--acc) 14%,transparent);border-color:color-mix(in srgb,var(--acc) 50%,transparent);color:var(--acc)}
+.bar2{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.seg{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:3px}
+.seg button{display:flex;align-items:center;gap:6px;padding:6px 11px;border-radius:8px;font-size:12.5px;font-weight:700;color:var(--inkmut)}
+.seg button svg{width:15px;height:15px}
+.seg button[aria-pressed="true"]{background:var(--panel2);color:var(--ink);box-shadow:inset 0 0 0 1px var(--line)}
+.bar2 .sels{display:flex;gap:8px;flex-wrap:wrap}
+.sortsel{background:var(--panel);border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:7px 10px;font:inherit;font-size:12.5px;font-weight:700}
+.result-line{color:var(--inkmut);font-size:12.5px;margin:2px 0 10px}
+
+/* ============ MOODBOARD ============ */
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:18px 0 10px}
+.sec-head h2{font-family:var(--fontd);font-size:17px;font-weight:700;display:flex;align-items:center;gap:9px}
+.sec-head h2 i{width:8px;height:8px;background:var(--cc);transform:rotate(45deg);display:block}
+.sec-head small{color:var(--inkmut);font-size:12px}
+.mood{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.mood::-webkit-scrollbar{display:none}
+.mood figure{flex:0 0 auto;width:210px;scroll-snap-align:start;cursor:zoom-in}
+.mood img{width:100%;height:120px;object-fit:cover;border-radius:10px;border:1px solid var(--line);display:block;transition:.25s}
+.mood figure:hover img{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.45)}
+.mood figcaption{font-size:11.5px;color:var(--inkmut);margin-top:5px;line-height:1.35}
+.tag-canon{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#cfd2dc;border:1px solid #3a3d48;border-radius:6px;padding:1px 6px}
+
+/* ============ GROUPES + CARTES ============ */
+.group{margin-bottom:6px}
+.group > summary{list-style:none;cursor:pointer}
+.group > summary::-webkit-details-marker{display:none}
+.group > summary .chev{transition:transform .2s;color:var(--inkmut)}
+.group[open] > summary .chev{transform:rotate(90deg)}
+.list-card{display:flex;gap:13px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;margin-bottom:9px;transition:.2s;cursor:pointer;width:100%;text-align:left}
+.list-card:hover{background:var(--panel2);transform:translateX(2px)}
+.list-card__ico{flex:0 0 auto;width:44px;height:44px;border-radius:11px;display:grid;place-items:center;overflow:hidden;color:var(--cc);background:color-mix(in srgb,var(--cc) 14%,transparent)}
+.list-card__ico img{width:100%;height:100%;object-fit:cover}
+.list-card__ico svg{width:19px;height:19px}
+.list-card__txt{flex:1;min-width:0}
+.list-card__txt h3{font-weight:800;font-size:14.5px;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.list-card__txt p{color:var(--inkmut);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.badge{flex:0 0 auto;display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:800;padding:3px 8px;border-radius:7px;color:var(--sc);background:color-mix(in srgb,var(--sc) 13%,transparent);border:1px solid color-mix(in srgb,var(--sc) 38%,transparent);white-space:nowrap}
+.badge::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--sc)}
+.s-decide{--sc:var(--st-decide)}.s-envisage{--sc:var(--st-envisage)}.s-interet{--sc:var(--st-interet)}.s-np{--sc:var(--st-np)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(165px,1fr));gap:12px;margin-bottom:12px}
+.g-card{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;cursor:pointer;text-align:left;transition:.22s;display:flex;flex-direction:column}
+.g-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.g-card__img{height:104px;background:color-mix(in srgb,var(--cc) 10%,var(--panel2)) center/cover no-repeat;display:grid;place-items:center;color:color-mix(in srgb,var(--cc) 70%,transparent)}
+.g-card__img svg{width:30px;height:30px;opacity:.7}
+.g-card__body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.g-card__body h3{font-size:14px;font-weight:800;line-height:1.25}
+.g-card__body p{font-size:12px;color:var(--inkmut);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.g-card .badge{align-self:flex-start;margin-top:auto}
+
+.az-letters{display:flex;flex-wrap:wrap;gap:4px;margin:0 0 12px}
+.az-letters a,.az-letters span{min-width:28px;height:28px;display:grid;place-items:center;border-radius:7px;font-size:12.5px;font-weight:800}
+.az-letters a{background:var(--panel);border:1px solid var(--line);color:var(--acc)}
+.az-letters span{color:#4a4339}
+.az-block{margin-bottom:14px}
+.az-block h3{font-family:var(--fontd);color:var(--acc);font-size:18px;border-bottom:1px solid var(--line);padding-bottom:4px;margin-bottom:8px}
+.az-block ul{list-style:none;columns:2;column-gap:20px}
+.az-block li{break-inside:avoid;margin-bottom:7px;font-size:14px;display:flex;align-items:center;gap:8px}
+.az-block li button{color:#8fc4ff;text-align:left}
+.az-block li button:hover{text-decoration:underline}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--sc);flex:0 0 auto}
+
+.empty{text-align:center;padding:36px 20px;color:var(--inkmut);font-size:13.5px}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:12px;color:var(--inkmut);margin:16px 0 0;padding-top:12px;border-top:1px solid var(--line)}
+.legend span{display:flex;align-items:center;gap:6px}
+.foot-cats{margin-top:14px;font-size:12px;color:var(--inkmut);display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.foot-cats .chip{padding:4px 10px;font-size:11.5px}
+
+/* ============ PAGE ARTICLE ============ */
+.a-head{position:relative;margin:0 -16px;padding:18px 16px 16px;min-height:150px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.a-head__img{position:absolute;inset:0;z-index:-2;background:linear-gradient(135deg,color-mix(in srgb,var(--cc) 22%,#17171a),#17171a) center/cover no-repeat}
+.a-head::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(23,23,26,.2),rgba(23,23,26,.92) 85%,#17171a)}
+.a-head.has-img{min-height:240px}
+.backbtn{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:var(--inkmut);margin-bottom:auto;padding:6px 10px 6px 6px;border-radius:9px;background:rgba(0,0,0,.35);align-self:flex-start}
+.backbtn:hover{color:var(--ink)}
+.backbtn svg{width:17px;height:17px}
+.a-title{font-family:var(--fontd);font-size:clamp(26px,7vw,38px);font-weight:900;line-height:1.1;margin-top:28px;text-shadow:0 2px 12px rgba(0,0,0,.7)}
+.a-meta{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px;font-size:12.5px;color:var(--inkmut)}
+.a-layout{display:grid;gap:16px;margin-top:14px}
+.a-lead{font-size:15.5px;line-height:1.65}
+.a-lead b{color:var(--ink)}
+.a-sec h2{font-family:var(--fontd);font-size:16px;margin:16px 0 6px;color:var(--ink);display:flex;gap:8px;align-items:center}
+.a-sec h2 i{width:7px;height:7px;background:var(--cc);transform:rotate(45deg);display:block}
+.a-sec p,.a-sec li{font-size:14px;line-height:1.65;color:#ddd3c6}
+.a-sec ul{padding-left:18px}
+.note{background:#20222b;border-left:3px solid var(--acc);border-radius:4px;padding:9px 12px;font-size:13px;color:#e6e6e6;margin:10px 0}
+.note.blue{border-left-color:var(--st-envisage)}.note.red{border-left-color:#ff7a5c}
+.infobox{background:var(--panel);border:1px solid var(--line);clip-path:var(--bevel);overflow:hidden;align-self:start}
+.infobox__title{background:color-mix(in srgb,var(--cc) 16%,var(--panel2));padding:10px 14px;font-family:var(--fontd);font-weight:700;font-size:15px;text-align:center;border-bottom:1px solid var(--line)}
+.infobox img{width:100%;display:block;cursor:zoom-in}
+.infobox__cap{font-size:11.5px;color:var(--inkmut);padding:6px 12px;border-bottom:1px solid var(--line)}
+.infobox dl{display:grid;grid-template-columns:auto 1fr;font-size:13px}
+.infobox dt{padding:8px 12px;color:var(--inkmut);font-weight:700;border-bottom:1px solid var(--line);background:rgba(255,255,255,.015)}
+.infobox dd{padding:8px 12px;border-bottom:1px solid var(--line)}
+.infobox dd button{color:#8fc4ff;text-align:left}
+.pn{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.pn button{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px;text-align:left;font-size:12px;color:var(--inkmut)}
+.pn button b{display:block;color:var(--ink);font-size:13.5px;margin-top:2px}
+.pn button:last-child{text-align:right}
+.pn button:hover{background:var(--panel2)}
+
+/* ============ BOTTOM NAV ============ */
+.bottomnav{position:fixed;left:0;right:0;bottom:0;z-index:35;display:flex;padding-bottom:var(--safe-b);background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(14px);border-top:1px solid var(--line)}
+.bnav{flex:1;display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 0 8px;color:var(--inkmut);font-size:11px;font-weight:700}
+.bnav svg{width:21px;height:21px}
+.bnav.is-active{color:var(--acc)}
+.bnav-mid{flex:0 0 auto;width:72px;display:flex;justify-content:center}
+.bnav-create{width:56px;height:56px;border-radius:50%;transform:translateY(-12px);display:grid;place-items:center;background:linear-gradient(135deg,var(--acc2),var(--acc));color:#000;box-shadow:0 10px 34px -6px var(--acc)}
+.bnav-create svg{width:26px;height:26px}
+
+/* ============ LIGHTBOX + TOAST ============ */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(5,5,7,.92);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;gap:10px}
+.lb[hidden]{display:none}
+.lb img{max-width:100%;max-height:78vh;border-radius:8px}
+.lb p{color:#d6cbbd;font-size:13px;text-align:center;max-width:640px}
+.lb button{position:absolute;top:14px;right:14px;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.08);display:grid;place-items:center}
+.toast{position:fixed;left:50%;bottom:calc(var(--nav-h) + 18px);transform:translateX(-50%) translateY(20px);opacity:0;background:var(--panel2);border:1px solid var(--line);color:var(--ink);padding:10px 16px;border-radius:12px;font-size:13px;z-index:90;transition:.25s;pointer-events:none;max-width:90vw;text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ============ GRAND ÉCRAN ============ */
+.side{display:none}
+@media (min-width:960px){
+  .view{padding:0 28px 60px}
+  .c-hero,.a-head{margin:0 -28px;padding-left:28px;padding-right:28px}
+  .c-hero{min-height:300px}
+  .cat-layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:26px;align-items:start}
+  .side{display:block;position:sticky;top:calc(var(--tb-h) + 16px)}
+  .side h4{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--inkmut);margin:4px 0 8px}
+  .side-nav{display:flex;flex-direction:column;gap:3px;margin-bottom:18px}
+  .side-nav button{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-radius:9px;font-size:13.5px;font-weight:700;color:var(--inkmut);text-align:left}
+  .side-nav button:hover{background:var(--panel);color:var(--ink)}
+  .side-nav button[aria-pressed="true"]{background:color-mix(in srgb,var(--cc) 12%,var(--panel));color:var(--ink);box-shadow:inset 3px 0 0 var(--cc)}
+  .side-nav b{font-size:11.5px;color:var(--inkmut)}
+  .tools .chips.subcats{display:none}
+  .hud{grid-template-columns:repeat(4,minmax(0,170px))}
+  .top__row{grid-auto-flow:row;grid-template-columns:repeat(3,minmax(0,1fr));overflow:visible}
+  .a-layout{grid-template-columns:minmax(0,1fr) 320px;gap:28px}
+  .a-layout .infobox{grid-column:2;grid-row:1 / span 3;position:sticky;top:calc(var(--tb-h) + 16px)}
+  .bottomnav{display:none}
+  .toast{bottom:24px}
+}
+@media (max-width:959px){
+  .c-hero__credit{position:static;align-self:flex-start;margin-top:10px;order:9}
+  .a-head.has-img ~ .a-layout .infobox img{display:none}
+}
+@media (max-width:420px){
+  .hud{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .az-block ul{columns:1}
+  .seg button span{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <button class="topbar__icon" aria-label="Menu" data-toast="Le menu latéral de l'Atelier n'est pas inclus dans ce test."><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  <a class="wordmark" href="#/lieux"><span class="wordmark__dot"></span>ATELIER</a>
+  <button class="topbar__icon" aria-label="Rechercher" id="tbSearch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+</header>
+
+<main>
+  <div class="banner-test"><b>Test de design</b> · page de catégorie de l'Atelier · données réelles du YAML d'Edenia (12 oct. 2026) · mise en page à valider</div>
+
+  <!-- ========== VUE CATÉGORIE ========== -->
+  <section class="view" id="view-cat">
+    <div class="shell">
+      <div class="c-hero">
+        <div class="c-hero__img" id="heroImg"></div>
+        <span class="c-hero__credit">Shrek (2001) · ambiance, pas canon</span>
+        <nav class="crumbs" aria-label="Fil d'Ariane"><a href="#/lieux" data-toast="Accueil de l'Atelier (hors test)">Atelier</a><span>›</span><a href="#/lieux" data-toast="Page du monde Edenia (hors test)">Edenia</a><span>›</span><a href="#/lieux" data-toast="Grille des catégories (hors test)">Catégories</a><span>›</span><b style="color:var(--ink)">Lieux</b></nav>
+        <div class="c-hero__row">
+          <div class="c-hero__ico" aria-hidden="true">__ICON_CASTLE__</div>
+          <h1 class="c-hero__title">Lieux</h1>
+          <span class="count" id="catCount">0</span>
+        </div>
+        <p class="c-hero__sub">Zones, régions et lieux d'Edenia. Les statuts viennent du YAML, la seule source des statuts : <b>décidé</b>, <b>envisagé</b>, <b>intérêt</b> ou <b>non précisé</b>.</p>
+      </div>
+
+      <section class="top" aria-label="Accès rapide">
+        <div class="top__tabs" role="tablist">
+          <button role="tab" data-tab="vues" aria-selected="false">Plus consultées</button>
+          <button role="tab" data-tab="modifs" aria-selected="false">Modifiées récemment</button>
+        </div>
+        <div id="topBody"></div>
+      </section>
+
+      <div class="cat-layout">
+        <aside class="side" aria-label="Sous-catégories">
+          <h4>Sous-catégories</h4>
+          <div class="side-nav" id="sideNav"></div>
+          <h4>Légende</h4>
+          <div class="legend" style="flex-direction:column;border:0;margin:0;padding:0" id="legendSide"></div>
+        </aside>
+
+        <div>
+          <div class="tools">
+            
+            <div class="chips subcats" id="subChips" role="group" aria-label="Sous-catégories"></div>
+            <div class="bar2">
+              <div class="seg" role="group" aria-label="Affichage">
+                <button data-view="list" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span>Liste</span></button>
+                <button data-view="grid" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Galerie</span></button>
+                <button data-view="az" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 16l4-10 4 10M4.5 12h5M15 6h6l-6 10h6"/></svg><span>A–Z</span></button>
+              </div>
+              <div class="sels"><select class="sortsel" id="fst" aria-label="Filtrer par statut"></select>
+              <select class="sortsel" id="sort" aria-label="Trier">
+                <option value="statut">Tri : par statut</option>
+                <option value="alpha">Tri : alphabétique</option>
+              </select></div>
+            </div>
+          </div>
+          <p class="result-line" id="resultLine" aria-live="polite"></p>
+          <div id="results"></div>
+
+          <div class="sec-head"><h2><i></i>Ambiance de la catégorie</h2><small><span class="tag-canon">pas canon</span></small></div>
+          <div class="mood" id="mood"></div>
+
+          <div class="legend" id="legend"></div>
+          <div class="foot-cats">Catégorie parente : <span class="chip">Edenia</span><span class="chip">Monde</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VUE ARTICLE ========== -->
+  <section class="view" id="view-art" hidden>
+    <div class="shell" id="artShell"></div>
+  </section>
+</main>
+
+<nav class="bottomnav">
+  <button class="bnav" data-toast="Accueil (hors test)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9.5 12 3l9 6.5V20a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></svg>Accueil</button>
+  <button class="bnav is-active" onclick="location.hash='#/lieux'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>Mondes</button>
+  <div class="bnav-mid"><button class="bnav-create" aria-label="Créer" data-toast="Création d'article : hors test"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></button></div>
+  <button class="bnav" data-toast="Réglages (hors test)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 4h-7M10 4H3M21 12h-9M8 12H3M21 20h-5M12 20H3M14 2v4M8 10v4M16 18v4"/></svg>Réglages</button>
+</nav>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image agrandie">
+  <button id="lbClose" aria-label="Fermer"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+</div>
+<div class="sbox" id="sbox" hidden role="dialog" aria-modal="true" aria-label="Rechercher dans l'Atelier">
+  <div class="sbox__panel"><input id="sq" type="search" placeholder="Rechercher dans l'Atelier…" autocomplete="off">
+  <div class="sbox__res" id="sres"></div><p class="sbox__hint">Dans ce test, seuls les lieux sont chargés. Toucher à côté (ou Échap) pour fermer.</p></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const IMG = __IMGS__;
+const ICON = {castle:`__ICON_CASTLE__`, map:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg>`,
+  tree:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-6"/><path d="M12 2 5 12h4l-3 4h12l-3-4h4L12 2Z"/></svg>`,
+  mountain:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3Z"/></svg>`,
+  sword:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 17.5 3 6V3h3l11.5 11.5"/><path d="m13 19 6-6M16 16l4 4M19 21l2-2"/></svg>`,
+  scroll:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h12a2 2 0 0 0 2-2v-2H10v2a2 2 0 1 1-4 0V5a2 2 0 1 0-4 0v3h4"/><path d="M19 17V5a2 2 0 0 0-2-2H4"/></svg>`,
+  back:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg>`,
+  chev:`<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg>`};
+
+const STATUTS = {
+  decide:  {lbl:"Décidé", cls:"s-decide"},
+  envisage:{lbl:"Envisagé", cls:"s-envisage"},
+  interet: {lbl:"Intérêt", cls:"s-interet"},
+  np:      {lbl:"Non précisé", cls:"s-np"}
+};
+const ORDER = ["decide","envisage","interet","np"];
+const SUBCATS = {
+  cadre:     {lbl:"Cadre validé", ico:"map"},
+  naturelles:{lbl:"Zones naturelles", ico:"tree"},
+  arthurien: {lbl:"Lieux arthuriens", ico:"sword"},
+  brouillon: {lbl:"Zones de brouillon", ico:"scroll"}
+};
+
+/* Données : reprises du YAML (fiches_references_projet.yaml, commit b1bffb0) et de tes réponses du 12 oct. Rien d'ajouté. */
+const LIEUX = [
+  {slug:"zone-western", t:"Zone western", sub:"cadre", st:"decide",
+   ex:"Zone du cadre validé. Pour l'instant, le western est un paysage.",
+   lead:"La <b>zone western</b> fait partie du cadre validé d'Edenia (« zone western + zone industrielle de type BioShock Infinite »).",
+   secs:[["Ce qui est dit",["Pour toi, le western est un <b>paysage</b> ; le mode de vie n'est pas encore pensé (12 oct.)."]],
+         ["Lien",["La région désertique est inspirée des Plaines Brisées (Stormlight) et du western (12 oct.)."]]],
+   src:"YAML · cadre_valide ; U 12 oct.", rel:["region-desertique"]},
+  {slug:"zone-industrielle", t:"Zone industrielle", sub:"cadre", st:"decide",
+   ex:"Zone de type BioShock Infinite, sous le plafond technologique.",
+   lead:"La <b>zone industrielle</b> est « de type BioShock Infinite ». Elle fait partie du cadre validé.",
+   secs:[["Contraintes liées",["Plafond technologique théorique : 1950, hors technologie magique ; baisse à <b>1914</b> envisagée (12 oct.).","Armes à feu plafonnées à <b>1860</b> (décidé)."]],
+         ["Envisagé aussi",["Certaines régions plus avancées que d'autres ; les ressources magiques et naturelles jouent sur cet avancement."]]],
+   src:"YAML · cadre_valide, technologie, référence BioShock Infinite (statut décidé)"},
+  {slug:"foret-de-conte", t:"Forêt de conte", sub:"naturelles", st:"decide", img:"naruto",
+   imgcap:"Naruto, ch. 679 : l'une des 5 images d'origine de la planche d'ambiance.",
+   ex:"Feuillus et conifères, collines herbeuses avec pierres dressées, champs et chemins.",
+   lead:"<b>Forêt de conte</b> : forêts de feuillus et de conifères, collines herbeuses avec pierres dressées, champs et chemins ; quelques constructions anciennes en bois ou en pierre ; atmosphère de conte européen, aventureuse.",
+   secs:[["Origine",["Zone demandée le 8 oct. d'après tes images de décors, puis dite « décidée » le 9 oct.","Pierres levées : pour l'instant seulement pour l'ambiance ; tu ne préférerais pas la même scène sans elles."]]],
+   warn:"Le nom et la formulation de la description sont de l'IA, à valider.",
+   src:"YAML · ambiance_des_lieux.zones_naturelles"},
+  {slug:"region-montagnarde", t:"Région montagnarde enneigée", sub:"naturelles", st:"decide",
+   ex:"Région de montagne enneigée. Créature locale : les Barbegazi (envisagés).",
+   lead:"<b>Région montagnarde enneigée</b> : « décidé, pour la région » (9 oct.).",
+   secs:[["Créature locale",["<b>Barbegazi</b> : envisagés, pas décidés (9 oct.)."]],["Images",["En attente de tes images."]]],
+   src:"YAML · ambiance_des_lieux.zones_naturelles"},
+  {slug:"broceliande", t:"Brocéliande", sub:"arthurien", st:"decide",
+   ex:"Lieu arthurien décidé. Dans tes brouillons : forêt féerique avec une école.",
+   lead:"<b>Brocéliande</b> fait partie des deux lieux arthuriens décidés.",
+   secs:[["Dans tes brouillons",["« Forêt féerique avec une école (type Harry Potter) » : zone en intérêt."]],["Règle",["Noms de lieux arthuriens français uniquement (décidé)."]]],
+   src:"YAML · arthurien.lieux_arthuriens_decides ; zones_issues_des_brouillons"},
+  {slug:"le-lac", t:"Le Lac", sub:"arthurien", st:"decide",
+   ex:"Le Lac de la Dame du Lac. Lieu arthurien décidé.",
+   lead:"<b>Le Lac</b> (de la Dame du Lac) fait partie des deux lieux arthuriens décidés.",
+   secs:[["Règle",["Noms de lieux arthuriens français uniquement (décidé)."]]],
+   src:"YAML · arthurien.lieux_arthuriens_decides"},
+  ...["Douloureuse Garde","Bénoïc","Gaunes","Trèbes","Montlair","La Terre Déserte"].map(n=>({
+   slug:n.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z]+/g,"-"),
+   t:n, sub:"arthurien", st:"envisage",
+   ex:"Lieu arthurien envisagé : accepté, pas encore recherché.",
+   lead:`<b>${n}</b> fait partie des six lieux arthuriens envisagés.`,
+   secs:[["Statut",["Tu as accepté ces lieux sans tous les connaître. Hormis Brocéliande et Le Lac, tu n'as pas fait de recherche : ils sont passés de décidé à envisagé (11 oct.)."]],
+         ...(n==="La Terre Déserte" ? [["Recherche (hors canon)",["Une recherche sur la Terre Déserte de la légende arthurienne (royaume du roi Claudas) a été faite le 21 oct. : voir <a href=\"#/recherches/terre-deserte\">Terre Déserte</a>, dans la catégorie Recherches. Ce n'est pas une page d'Edenia, et le statut de ce lieu ne change pas."]]] : [])],
+   ...(["La Terre Déserte","Bénoïc","Gaunes"].includes(n) ? {rel:["recherches/terre-deserte"]} : {}),
+   warn: n==="Douloureuse Garde" ? "Exception décidée : lieu gardé pour la langue française du texte, même s'il n'est pas situé en France ; sa localisation n'a pas été vérifiée." : null,
+   src:"YAML · arthurien.lieux_arthuriens_envisages"})),
+  {slug:"nouvelle-orleans", t:"Nouvelle-Orléans / Caraïbes", sub:"brouillon", st:"interet", img:"salon",
+   imgcap:"La Princesse et la Grenouille : salon du sorcier (« Dr. Duvalier »). Planche d'inspiration, pas canon.",
+   ex:"Zone de brouillon inspirée de Bilgewater (Runeterra).",
+   lead:"<b>Nouvelle-Orléans / Caraïbes</b> : zone de ton brouillon, inspirée de <b>Bilgewater</b>.",
+   secs:[["Images rattachées (12 oct.)",["Les deux images de <i>La Princesse et la Grenouille</i> (le bayou, le salon du sorcier), rattachées à cette zone et au marais."]]],
+   warn:"Vigilance 1914 : le film se passe dans les années 1920. Les décors passent ; les tenues et la technologie de l'époque, non.",
+   src:"YAML · zones_issues_des_brouillons ; U 12 oct.", rel:["marais"], gal:["salon","bayou"]},
+  {slug:"piltover-columbia", t:"Piltover / Columbia", sub:"brouillon", st:"interet",
+   ex:"Zone de brouillon. Aucune description pour l'instant.",
+   lead:"<b>Piltover / Columbia</b> : zone de ton brouillon, sans description.",
+   secs:[],src:"YAML · zones_issues_des_brouillons"},
+  {slug:"zone-mafieuse", t:"Zone mafieuse", sub:"brouillon", st:"interet",
+   ex:"Seule la structure sociale est gardée. Jamais au-delà de 1914.",
+   lead:"Dans ton brouillon : « mafieux années 20-30 (prohibition) ».",
+   secs:[["Ta précision du 12 oct.",["Tu gardes seulement la <b>structure sociale</b>, sans dépasser <b>1914</b>.","Sources citées : la Chicago Spirit (Fondation SCP), l'occultisme des années 1890-1910, BioShock 1."]]],
+   src:"YAML · zones_issues_des_brouillons ; U 12 oct."},
+  {slug:"marais", t:"Marais", sub:"brouillon", st:"interet", img:"bayou",
+   imgcap:"La Princesse et la Grenouille : marais, bateau coincé dans un cyprès (arbre de Mama Odie). Planche d'inspiration, pas canon.",
+   ex:"« Style bayou ou marais de Shrek ». Le brouillon cite aussi Velen.",
+   lead:"<b>Marais</b> : « style bayou ou marais de Shrek » (11 oct.).",
+   secs:[["Dans ton brouillon",["La liste cite Shrek et Velen (The Witcher 3)."]],["Images rattachées (12 oct.)",["Les deux images de <i>La Princesse et la Grenouille</i>."]]],
+   src:"YAML · zones_issues_des_brouillons ; U 11 et 12 oct.", rel:["nouvelle-orleans"], gal:["bayou","salon"]},
+  {slug:"empire", t:"Empire", sub:"brouillon", st:"interet",
+   ex:"Zone de brouillon. Aucune description pour l'instant.",
+   lead:"<b>Empire</b> : zone de ton brouillon, sans description.", secs:[], src:"YAML · zones_issues_des_brouillons"},
+  {slug:"habitat-rural", t:"Habitat rural", sub:"brouillon", st:"interet",
+   ex:"Village, château, donjon, maisons éparses.",
+   lead:"<b>Habitat rural</b> : village, château, donjon, maisons éparses.", secs:[], src:"YAML · zones_issues_des_brouillons"},
+  {slug:"region-desertique", t:"Région désertique", sub:"brouillon", st:"np",
+   ex:"Liée au Languedoc ; inspirée des Plaines Brisées et du western.",
+   lead:"<b>Région désertique</b> inspirée du Languedoc (« je crois », 11 oct.).",
+   secs:[["Ta précision du 12 oct.",["Inspirée des Plaines Brisées (Stormlight) et du western, et liée au Languedoc. Le western y est un paysage."]]],
+   warn:"« Terre dévastée » est une proposition de l'IA, pas ton nom de brouillon (correction du 12 oct.). Le YAML dit encore le contraire.",
+   src:"YAML · region_desertique ; U 11 et 12 oct.", rel:["zone-western"]},
+];
+
+const MOOD = [
+  ["colline","Shrek (2001) : la colline"],
+  ["pierres","Shrek (2001) : les pierres levées"],
+  ["foule","Shrek (2001) : la foule aux torches"],
+  ["bayou","La Princesse et la Grenouille : marais, arbre de Mama Odie"],
+  ["salon","La Princesse et la Grenouille : salon du sorcier"],
+  ["vallee","Frère des ours (2003) : vallée, rivière et montagnes"],
+  ["naruto","Naruto, chapitre 679 : double page"]
+];
+
+/* ============ ÉTAT ============ */
+const state = {st:null, sub:"all", q:"", view:"list", sort:"statut", tab:null};
+
+/* « Modifiées récemment » : dans ce test, aucune fiche n'a de vraie date d'enregistrement.
+   On prend la date la plus récente citée dans la fiche (« 11 oct. », « U 11 et 12 oct. »…). Fiche sans date : non classée. */
+const MOIS = {janv:1,"févr":2,mars:3,avr:4,mai:5,juin:6,juil:7,"août":8,sept:9,oct:10,nov:11,"déc":12};
+function lastDate(l){
+  const txt = [l.lead,l.ex,l.src,l.warn||"",l.imgcap||"",...(l.secs||[]).flat(2)].join(" ").replace(/<[^>]+>/g,"");
+  let best = null;
+  for(const m of txt.matchAll(/((?:\d{1,2}\s*(?:,|et)\s*)*\d{1,2})\s*(janv|févr|mars|avr|mai|juin|juil|août|sept|oct|nov|déc)\.?/g)){
+    for(const d of m[1].match(/\d{1,2}/g)){ const v = MOIS[m[2]]*100 + +d; if(!best||v>best.v) best = {v, d:+d, m:m[2]}; }
+  }
+  return best;
+}
+/* « Plus consultées » : vrai compteur des fiches ouvertes, gardé dans le navigateur (localStorage). */
+const VUES_KEY = "atelier-test-vues";
+let VUES = {};
+try{ VUES = JSON.parse(localStorage.getItem(VUES_KEY)||"{}"); }catch(e){ VUES = {}; }
+function addVue(slug){ VUES[slug] = (VUES[slug]||0)+1; try{ localStorage.setItem(VUES_KEY, JSON.stringify(VUES)); }catch(e){} }
+function topCard(l, meta){
+  const ico = l.img?`<img src="${IMG[l.img]}" alt="">`:ICON[SUBCATS[l.sub].ico];
+  return `<button class="top-card" data-go="${l.slug}"><div class="top-card__ico">${ico}</div>
+    <div class="top-card__txt"><h3>${esc(l.t)}</h3><p><i class="dot ${STATUTS[l.st].cls}" title="${STATUTS[l.st].lbl}"></i>${meta}</p></div></button>`;
+}
+function renderTop(){
+  const vus = LIEUX.filter(l=>VUES[l.slug]).sort((a,b)=>VUES[b.slug]-VUES[a.slug]||byAlpha(a,b));
+  if(!state.tab) state.tab = vus.length ? "vues" : "modifs";
+  document.querySelectorAll(".top__tabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===state.tab));
+  let html;
+  if(state.tab==="vues"){
+    html = vus.length
+      ? `<div class="top__row">${vus.slice(0,6).map(l=>topCard(l, `${VUES[l.slug]} consultation${VUES[l.slug]>1?"s":""}`)).join("")}</div>
+         <p class="top__note">Compte les fiches ouvertes sur cet appareil.</p>`
+      : `<div class="top__empty">Aucune fiche ouverte pour l'instant. Ce classement compte les fiches que tu ouvres sur cet appareil : il se remplira à l'usage.</div>`;
+  } else {
+    const dat = LIEUX.map(l=>[l,lastDate(l)]).filter(x=>x[1]).sort((a,b)=>b[1].v-a[1].v||byAlpha(a[0],b[0]));
+    const sans = LIEUX.length - dat.length;
+    html = `<div class="top__row">${dat.slice(0,6).map(([l,d])=>topCard(l, `${d.d} ${d.m}.`)).join("")}</div>
+      <p class="top__note">Dans ce test, la date est la plus récente citée dans la fiche${sans?` (${sans} fiche${sans>1?"s":""} sans date, non classée${sans>1?"s":""})`:""}. Dans l'Atelier, ce sera la date d'enregistrement.</p>`;
+  }
+  $("#topBody").innerHTML = html;
+}
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+const byAlpha = (a,b)=>a.t.localeCompare(b.t,"fr",{sensitivity:"base"});
+const bySt = (a,b)=>ORDER.indexOf(a.st)-ORDER.indexOf(b.st)||byAlpha(a,b);
+const badge = st => `<span class="badge ${STATUTS[st].cls}">${STATUTS[st].lbl}</span>`;
+
+function filtered(){
+  const q = norm(state.q.trim());
+  return LIEUX.filter(l=>(!state.st||l.st===state.st)&&(state.sub==="all"||l.sub===state.sub)&&
+    (!q||norm(l.t+" "+l.ex+" "+(l.lead||"").replace(/<[^>]+>/g,"")).includes(q)))
+    .sort(state.sort==="alpha"?byAlpha:bySt);
+}
+
+/* ============ RENDU CATÉGORIE ============ */
+function renderStatic(){
+  $("#heroImg").style.backgroundImage = `url("${IMG.hero}")`;
+  $("#catCount").textContent = LIEUX.length;
+  const leg = ORDER.map(s=>`<span><i class="dot ${STATUTS[s].cls}"></i>${STATUTS[s].lbl}</span>`).join("");
+  $("#legend").innerHTML = leg + `<span style="margin-left:auto">Source : YAML du dépôt, commit b1bffb0 · réponses du 12 oct.</span>`;
+  $("#legendSide").innerHTML = leg;
+  $("#mood").innerHTML = MOOD.map(([k,c])=>`<figure data-lb="${k}" data-cap="${esc(c)}"><img src="${IMG[k]}" alt="${esc(c)}" loading="lazy"><figcaption>${esc(c)}</figcaption></figure>`).join("");
+}
+function renderControls(){
+  const inSub = LIEUX.filter(l=>state.sub==="all"||l.sub===state.sub);
+  $("#fst").innerHTML = `<option value="">Statut : tous (${inSub.length})</option>` +
+    ORDER.map(k=>`<option value="${k}">${STATUTS[k].lbl} (${inSub.filter(l=>l.st===k).length})</option>`).join("");
+  $("#fst").value = state.st||"";
+  const subs = [["all","Toutes",LIEUX.length],...Object.entries(SUBCATS).map(([k,v])=>[k,v.lbl,LIEUX.filter(l=>l.sub===k).length])];
+  $("#subChips").innerHTML = subs.map(([k,l,n])=>`<button class="chip" data-sub="${k}" aria-pressed="${state.sub===k}">${esc(l)}<b>${n}</b></button>`).join("");
+  $("#sideNav").innerHTML = subs.map(([k,l,n])=>`<button data-sub="${k}" aria-pressed="${state.sub===k}">${esc(l)}<b>${n}</b></button>`).join("");
+  document.querySelectorAll(".seg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.view===state.view));
+  $("#sort").value = state.sort; $("#sort").disabled = state.view==="az";
+}
+function cardList(l){
+  const ico = l.img?`<img src="${IMG[l.img]}" alt="">`:ICON[SUBCATS[l.sub].ico];
+  return `<button class="list-card" data-go="${l.slug}"><div class="list-card__ico">${ico}</div>
+    <div class="list-card__txt"><h3>${esc(l.t)}</h3><p>${esc(l.ex)}</p></div>${badge(l.st)}</button>`;
+}
+function cardGrid(l){
+  const bg = l.img?` style="background-image:url('${IMG[l.img]}')"`:"";
+  return `<button class="g-card" data-go="${l.slug}"><div class="g-card__img"${bg}>${l.img?"":ICON[SUBCATS[l.sub].ico]}</div>
+    <div class="g-card__body"><h3>${esc(l.t)}</h3><p>${esc(l.ex)}</p>${badge(l.st)}</div></button>`;
+}
+function renderResults(){
+  const list = filtered();
+  const parts = [];
+  if(state.st) parts.push(STATUTS[state.st].lbl.toLowerCase());
+  if(state.sub!=="all") parts.push(SUBCATS[state.sub].lbl.toLowerCase());
+  $("#resultLine").textContent = `${list.length} lieu${list.length>1?"x":""}${parts.length?" · "+parts.join(" · "):""}${state.q?` · « ${state.q} »`:""}`;
+  const box = $("#results");
+  if(!list.length){box.innerHTML=`<div class="empty">Aucun lieu ne correspond. <button class="chip" id="reset" style="margin-left:6px">Tout afficher</button></div>`;return;}
+  if(state.view==="az"){
+    const groups = {};
+    list.slice().sort(byAlpha).forEach(l=>{const k=norm(l.t.replace(/^(la|le|les|l')\s*/i,""))[0].toUpperCase();(groups[k]=groups[k]||[]).push(l);});
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    box.innerHTML = `<div class="az-letters">${letters.map(L=>groups[L]?`<a href="javascript:void 0" data-az="${L}">${L}</a>`:`<span>${L}</span>`).join("")}</div>`+
+      Object.keys(groups).sort().map(L=>`<div class="az-block" id="az-${L}"><h3>${L}</h3><ul>${groups[L].map(l=>`<li><i class="dot ${STATUTS[l.st].cls}" title="${STATUTS[l.st].lbl}"></i><button data-go="${l.slug}">${esc(l.t)}</button></li>`).join("")}</ul></div>`).join("")+
+      `<p class="result-line">Index façon Fandom : l'article « La » ou « Le » est ignoré pour le classement.</p>`;
+    return;
+  }
+  const render = state.view==="grid" ? (ls=>`<div class="grid">${ls.map(cardGrid).join("")}</div>`) : (ls=>ls.map(cardList).join(""));
+  if(state.sub==="all" && state.sort==="statut" && !state.q){
+    box.innerHTML = Object.entries(SUBCATS).map(([k,v])=>{
+      const ls = list.filter(l=>l.sub===k); if(!ls.length) return "";
+      return `<details class="group" open><summary class="sec-head"><h2><i></i>${esc(v.lbl)}</h2><small style="display:flex;gap:6px;align-items:center">${ls.length}<span class="chev">${ICON.chev}</span></small></summary>${render(ls)}</details>`;
+    }).join("");
+  } else box.innerHTML = render(list);
+}
+function renderCat(){ renderTop(); renderControls(); renderResults(); }
+
+/* ============ RENDU ARTICLE ============ */
+function renderArticle(slug){
+  const i = LIEUX.findIndex(l=>l.slug===slug);
+  if(i<0){location.hash="#/lieux";return;}
+  const l = LIEUX[i], sib = LIEUX.slice().sort(bySt), k = sib.indexOf(l);
+  const prev = sib[(k-1+sib.length)%sib.length], next = sib[(k+1)%sib.length];
+  const rel = (l.rel||[]).map(s=>LIEUX.find(x=>x.slug===s)).filter(Boolean);
+  const secs = (l.secs||[]).map(([h,ps])=>`<div class="a-sec"><h2><i></i>${esc(h)}</h2>${ps.length>1?`<ul>${ps.map(p=>`<li>${p}</li>`).join("")}</ul>`:`<p>${ps[0]}</p>`}</div>`).join("");
+  const gal = (l.gal||[]).filter(g=>g!==l.img);
+  $("#artShell").innerHTML = `
+    <div class="a-head ${l.img?"has-img":""}"><div class="a-head__img"${l.img?` style="background-image:url('${IMG[l.img]}')"`:""}></div>
+      <button class="backbtn" data-back>${ICON.back}Lieux</button>
+      <h1 class="a-title">${esc(l.t)}</h1>
+      <div class="a-meta">${badge(l.st)}<span>${esc(SUBCATS[l.sub].lbl)}</span><span>·</span><span>Catégorie : Lieux</span></div>
+    </div>
+    <div class="a-layout">
+      <aside class="infobox">
+        <div class="infobox__title">${esc(l.t)}</div>
+        ${l.img?`<img src="${IMG[l.img]}" alt="${esc(l.imgcap||"")}" data-lb="${l.img}" data-cap="${esc(l.imgcap||"")}"><div class="infobox__cap">${esc(l.imgcap||"")}</div>`:""}
+        <dl>
+          <dt>Statut</dt><dd>${badge(l.st)}</dd>
+          <dt>Groupe</dt><dd>${esc(SUBCATS[l.sub].lbl)}</dd>
+          ${rel.length?`<dt>Lié à</dt><dd>${rel.map(r=>`<button data-go="${r.slug}">${esc(r.t)}</button>`).join("<br>")}</dd>`:""}
+          <dt>Source</dt><dd style="font-size:12px;color:var(--inkmut)">${esc(l.src)}</dd>
+        </dl>
+      </aside>
+      <p class="a-lead">${l.lead}</p>
+      <div>
+        ${l.warn?`<div class="note ${/IA|Vigilance|YAML/.test(l.warn)?"red":""}">${esc(l.warn)}</div>`:""}
+        ${secs||`<div class="note blue">Rien d'autre n'est noté pour l'instant. Une page vide n'est pas une erreur : c'est l'état réel du projet.</div>`}
+        ${gal.length?`<div class="a-sec"><h2><i></i>Galerie</h2></div><div class="mood">${gal.map(g=>{const c=(MOOD.find(m=>m[0]===g)||[g,""])[1];return `<figure data-lb="${g}" data-cap="${esc(c)}"><img src="${IMG[g]}" alt="${esc(c)}"><figcaption>${esc(c)} · <span class="tag-canon">pas canon</span></figcaption></figure>`}).join("")}</div>`:""}
+        <div class="foot-cats">Catégories : <button class="chip" data-back>Lieux</button><span class="chip">${esc(SUBCATS[l.sub].lbl)}</span><span class="chip ${STATUTS[l.st].cls}" style="color:var(--sc)">${STATUTS[l.st].lbl}</span></div>
+        <div class="pn"><button data-go="${prev.slug}">‹ Précédent<b>${esc(prev.t)}</b></button><button data-go="${next.slug}">Suivant ›<b>${esc(next.t)}</b></button></div>
+      </div>
+    </div>`;
+}
+
+/* ============ ROUTEUR (hash) ============ */
+let lastCatScroll = 0;
+function route(){
+  const h = location.hash.replace(/^#\/?/,"");
+  const [a,b] = h.split("/");
+  if(a==="lieux" && b){
+    if(!$("#view-cat").hidden) lastCatScroll = scrollY;
+    $("#view-cat").hidden = true; $("#view-art").hidden = false;
+    addVue(decodeURIComponent(b)); renderArticle(decodeURIComponent(b)); scrollTo(0,0);
+    document.title = (LIEUX.find(l=>l.slug===b)||{t:"Lieu"}).t+" — Atelier";
+  } else {
+    $("#view-art").hidden = true; $("#view-cat").hidden = false;
+    renderCat(); requestAnimationFrame(()=>scrollTo(0,lastCatScroll));
+    document.title = "Atelier — Catégorie : Lieux (test de design)";
+  }
+}
+addEventListener("hashchange", route);
+
+/* ============ ÉVÉNEMENTS ============ */
+document.addEventListener("click", e=>{
+  const t = e.target.closest("[data-tab],[data-st],[data-sub],[data-view],[data-go],[data-back],[data-lb],[data-az],[data-toast],#reset");
+  if(!t) return;
+  if(t.dataset.tab){state.tab = t.dataset.tab; renderTop();}
+  else if(t.dataset.st){state.st = state.st===t.dataset.st?null:t.dataset.st; renderCat();}
+  else if(t.dataset.sub){state.sub = t.dataset.sub; renderCat();}
+  else if(t.dataset.view){state.view = t.dataset.view; renderCat();}
+  else if(t.dataset.go){closeSearch(); location.hash = "#/lieux/"+t.dataset.go;}
+  else if(t.hasAttribute("data-back")){ location.hash="#/lieux"; }
+  else if(t.dataset.lb){openLb(t.dataset.lb,t.dataset.cap);}
+  else if(t.dataset.az){document.getElementById("az-"+t.dataset.az)?.scrollIntoView({behavior:"smooth",block:"start"});}
+  else if(t.dataset.toast){e.preventDefault(); toast(t.dataset.toast);}
+  else if(t.id==="reset"){Object.assign(state,{st:null,sub:"all",q:""}); renderCat();}
+});
+$("#fst").addEventListener("change", e=>{state.st = e.target.value||null; renderResults();});
+$("#sort").addEventListener("change", e=>{state.sort = e.target.value; renderResults();});
+/* Recherche du site : la loupe de la barre du haut (plus de champ propre à la catégorie) */
+function renderSearch(){
+  const q = norm($("#sq").value.trim());
+  const ls = q ? LIEUX.filter(l=>norm(l.t+" "+l.ex+" "+(l.lead||"").replace(/<[^>]+>/g,"")).includes(q)).sort(byAlpha) : [];
+  $("#sres").innerHTML = !q ? "" : ls.length ? ls.map(l=>topCard(l, esc(SUBCATS[l.sub].lbl))).join("") : `<div class="top__empty">Aucun résultat.</div>`;
+}
+function openSearch(){ $("#sbox").hidden = false; $("#sq").focus(); renderSearch(); }
+function closeSearch(){ $("#sbox").hidden = true; }
+$("#tbSearch").addEventListener("click", openSearch);
+$("#sq").addEventListener("input", renderSearch);
+$("#sbox").addEventListener("click", e=>{ if(e.target.id==="sbox") closeSearch(); });
+function openLb(k,c){$("#lbImg").src=IMG[k]; $("#lbImg").alt=c||""; $("#lbCap").textContent=c||""; $("#lb").hidden=false; $("#lbClose").focus();}
+function closeLb(){$("#lb").hidden=true;}
+$("#lbClose").addEventListener("click", closeLb);
+$("#lb").addEventListener("click", e=>{ if(e.target.id==="lb") closeLb(); });
+addEventListener("keydown", e=>{ if(e.key==="Escape"){ if(!$("#sbox").hidden) closeSearch(); else if(!$("#lb").hidden) closeLb(); else if(!$("#view-art").hidden) location.hash="#/lieux"; } });
+let tt; function toast(m){const t=$("#toast"); t.textContent=m; t.classList.add("show"); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove("show"),2200);}
+
+renderStatic();
+if(!location.hash) history.replaceState(null,"","#/lieux");
+route();
+</script>
+</body>
+</html>

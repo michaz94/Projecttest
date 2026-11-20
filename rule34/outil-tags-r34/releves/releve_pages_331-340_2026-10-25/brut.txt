@@ -1,0 +1,27 @@
+# tags type Character relevés (page|tag|posts|type) — liste des tags triée par publications, pid 6600-6780, 25/10/2026
+331|ayane_(doa)|6531|C
+332|ren_amamiya|6500|C
+333|superman|6474|C
+333|robin_(fire_emblem)|6456|C
+333|ashe_(overwatch)|6446|C
+334|tristana|6442|C
+334|zangoose|6439|C
+334|marinette_dupain-cheng|6437|C
+334|amity_blight|6411|C
+335|deathclaw|6406|C
+335|anna_(frozen)|6383|C
+335|lois_griffin|6381|C
+336|wolf_o'donnell|6360|C
+336|bridget|6349|CA
+336|hyuuga_hanabi|6341|CA
+336|guilmon|6338|C
+337|honoka_(doa)|6332|CA
+337|marin_kitagawa|6327|C
+338|sakura_futaba|6319|C
+338|yaoyorozu_momo|6294|C
+339|saber|6291|CA
+339|ragatha_(the_amazing_digital_circus)|6289|C
+339|ganondorf|6286|C
+339|queen_marika_the_eternal|6277|C
+340|hoshimi_miyabi|6264|CA
+# fin page 340 : 6234

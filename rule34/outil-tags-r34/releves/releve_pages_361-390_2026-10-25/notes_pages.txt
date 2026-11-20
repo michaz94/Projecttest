@@ -1,0 +1,31 @@
+# Notes de relevé page par page (tags de personnage et de copyright), pages 361-390 (pid 7200-7780), 25/10/2026
+361 (5692-5660) : muffet 5667 Character, ambiguous | Copyright : weekly_shonen_jump 5677
+362 (5660-5633) : ty_lee 5660 Character ; magik_(illyana_rasputin) 5651 Character | Copyright : shonen_jump 5657 ; five_nights_at_freddy's:_sister_location 5643
+363 (5631-5603) : surge_the_tenrec 5619 Character, ambiguous ; fujiwara_chika 5609 Character | Copyright : frozen_2 5627 ; godzilla_(series) 5623 (ambiguous)
+364 (5601-5573) : super_crown 5601 Character ; juno_(overwatch) 5599 Character ; satoshi_(pokemon) 5599 Character ; sakura_kasugano 5587 Character | Copyright : dragon_ball_gt 5584 ; mega_man_x 5579
+365 (5573-5546) : orc_(warcraft) 5569 Character ; ashido_mina 5563 Character | Copyright : lucasfilm 5561
+366 (5544-5527) : krystal_(star_fox) 5544 Character ; falco_lombardi 5534 Character ; samui 5534 Character ; jaina_proudmoore 5532 Character
+367 (5526-5497) : nakano_miku 5515 Character ; luna_snow 5510 Character | Copyright : persona_5_royal 5524 ; call_of_duty_modern_warfare_2_(2022) 5502
+368 (5496-5480) : corrin_(fire_emblem)_(female) 5496 Character ; gintoki_sakata 5489 Character | Copyright : guild_wars 5495 ; mahou_shoujo_lyrical_nanoha 5492 ; she-ra_and_the_princesses_of_power 5490
+369 (5479-5464) : april_o'neil 5475 Character, ambiguous ; gloria_(pokemon) 5465 Character ; ben_tennyson 5465 Character
+370 (5463-5449) : (aucun personnage) | Copyright : mob_entertainment 5461 ; dandys_world 5452
+371 (5448-5422) : kai'sa 5448 Character ; rapunzel 5445 Character, ambiguous ; dexter's_mom 5439 Character, ambiguous ; esdeath_(akame_ga_kill!) 5435 Character ; v_(cyberpunk_2077) 5435 Character | Copyright : dragon_age 5444 ; arknights:_endfield 5438 ; shrek_(series) 5425
+372 (5422-5398) : luxray 5419 Character ; tohru_(dragon_maid) 5408 Character ; riesz 5402 Character ; pomni 5400 Character, ambiguous ; ninetales 5398 Character | Copyright : xenoblade_chronicles_3 5400
+373 (5396-5380) : annie_leonhardt 5392 Character | Copyright : powerpuff_girls 5394
+374 (5380-5353) : harley_quinn_(injustice) 5378 Character ; poison_(final_fight) 5362 Character ; rey 5353 Character | Copyright : smile_precure 5365
+375 (5351-5333) : pearl_(steven_universe) 5347 Character ; tawna_bandicoot 5343 Character
+376 (5331-5315) : main_character_(summertime_saga) 5318 Character | Copyright : nijisanji_en 5331 ; shin_megami_tensei 5321 ; hololive_gen_2 5316
+377 (5314-5298) : shinomiya_kaguya 5313 Character ; scout_(team_fortress_2) 5311 Character ; jolyne_kujo 5302 Character ; luna_snow_(marvel_rivals) 5301 Character
+378 (5297-5282) : salazzle 5291 Character ; gwen_(league_of_legends) 5283 Character
+379 (5282-5260) : sunflower_(pvz) 5282 Character ; marisa_kirisame 5270 Character, ambiguous ; unohana_retsu 5262 Character | Copyright : the_addams_family 5280 ; paramount_pictures 5276 ; atelier_(series) 5270 ; fire_emblem:_path_of_radiance 5267 ; half-life_2 5261
+380 (5258-5239) : undyne 5244 Character, ambiguous | Copyright : boruto:_two_blue_vortex 5258 ; night_in_the_woods 5247 ; ubisoft 5240
+381 (5236-5213) : irelia_xan 5234 Character ; caelus_(honkai:_star_rail) 5228 Character, ambiguous ; ranma-chan 5228 Character ; reisen_udongein_inaba 5217 Character | Copyright : lego 5224
+382 (5210-5188) : amber_(genshin_impact) 5210 Character ; master_tigress 5210 Character ; pyrrha_nikos 5207 Character ; quarian 5191 Character | Copyright : wakfu 5191 ; pocketpair 5188
+383 (5187-5161) : xayah 5186 Character ; psylocke_(marvel_rivals) 5182 Character ; alisa_mikhailovna_kujou 5173 Character ; anubis 5173 Character ; riolu 5171 Character ; vex_(league_of_legends) 5165 Character
+384 (5159-5134) : kirigaya_suguha 5144 Character ; yukari_yakumo 5138 Character ; zeraora 5136 Character | Copyright : hololive_indonesia 5157 ; borderlands 5142 ; puella_magi_madoka_magica 5140 (ambiguous) ; disney_villains 5136 ; miraculous:_tales_of_ladybug_and_cat_noir 5134
+385 (5130-5109) : astrid_hofferson 5127 Character ; purah 5114 Character
+386 (5109-5088) : ariel 5095 Character ; ayase_seiko 5088 Character | Copyright : mario_bros 5099 ; mass_effect_3 5088
+387 (5088-5067) : valerie_(cyberpunk_2077) 5080 Character ; vegeta 5067 Character | Copyright : haydee_(game) 5086 ; shokugeki_no_souma 5079
+388 (5065-5039) : lena_oxton 5058 Character ; hilda_valentine_goneril 5056 Character ; fionna_the_human_girl 5055 Character | Copyright : bang_dream! 5061 ; rain_world 5053 ; star_wars_rebels 5045 ; fnf_mods 5039
+389 (5038-5021) : wendy_corduroy 5038 Character ; haru_okumura 5036 Character ; kirlia 5029 Character, ambiguous ; naoto_hachioji_(senpai) 5025 Character
+390 (5018-5003) : artoria_pendragon_(fate) 5017 Character ; haydee 5011 Character

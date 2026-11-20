@@ -1,0 +1,50 @@
+﻿site,franchise,rang,personnage,tags,publications,methode,date
+rule34,Marvel,1,Spider-Man (Peter Parker),spider-man,20914,tag 20 179 + gain d’union 735 (peter_parker -spider-man),2026-10-24
+rule34,Marvel,2,Emma Frost,emma_frost,20269,tag 20 080 + gain d’union 189 (sélection auditée),2026-10-24
+rule34,Marvel,3,Gwen Stacy (dont Spider-Gwen),gwen_stacy,19716,tag 19 317 + gain d’union 399 (sélection auditée),2026-10-24
+rule34,Marvel,4,Black Cat (Felicia Hardy),black_cat_(marvel),15119,tag seul (sélection auditée),2026-10-24
+rule34,Marvel,5,Venom,venom_(marvel),13138,tag seul,2026-10-24
+rule34,Marvel,6,Femme invisible (Sue Storm),invisible_woman,10816,tag seul (sélection auditée),2026-10-24
+rule34,Marvel,7,Black Widow (Natasha Romanoff),black_widow_(marvel),10379,tag seul (sélection auditée),2026-10-24
+rule34,Marvel,8,Psylocke,psylocke ∪ psylocke_(kwannon),10006,tag 7 507 + gain d’union 2499 (sélection auditée),2026-10-24
+rule34,DC,1,Raven,raven_(dc),39707,tag seul (sélection auditée),2026-10-24
+rule34,DC,2,Harley Quinn,harley_quinn,26362,tag 25 774 + gain d’union 588 (sélection auditée),2026-10-24
+rule34,DC,3,Wonder Woman,wonder_woman,22974,tag seul (sélection auditée),2026-10-24
+rule34,DC,4,Starfire,starfire,21791,tag seul (sélection auditée),2026-10-24
+rule34,DC,5,Supergirl,supergirl,16375,tag 14 422 + gain d’union 1953 (sélection auditée),2026-10-24
+rule34,DC,6,Power Girl,power_girl,13942,tag 13 711 + gain d’union 231 (sélection auditée),2026-10-24
+rule34,DC,7,Catwoman (Selina Kyle),catwoman,10167,tag seul (sélection auditée),2026-10-24
+rule34,DC,8,Batman (Bruce Wayne),batman,9505,tag seul (alias ≈ +113),2026-10-24
+rule34,Nintendo,1,Princesse Peach,princess_peach,50552,tag seul (sélection auditée),2026-10-24
+rule34,Nintendo,2,Princesse Zelda,princess_zelda,39792,tag 39 561 + gain d’union 231 (sélection auditée),2026-10-24
+rule34,Nintendo,3,Samus Aran,samus_aran,37248,tag seul (sélection auditée),2026-10-24
+rule34,Nintendo,4,Link,link,32889,tag seul,2026-10-24
+rule34,Nintendo,5,Harmonie (Rosalina),princess_rosalina,24442,tag seul (sélection auditée),2026-10-24
+rule34,Nintendo,6,Cynthia,cynthia_(pokemon),22058,tag seul (sélection auditée),2026-10-24
+rule34,Nintendo,7,Bowser,bowser,21352,tag seul,2026-10-24
+rule34,Nintendo,8,Marie (Isabelle),isabelle_(animal_crossing),20826,tag seul (sélection auditée),2026-10-24
+danbooru,Marvel,1,Spider-Man (Peter Parker),~spider-man ~peter_parker,3121,union OR counts,2026-10-24
+danbooru,Marvel,2,Wolverine,wolverine_(x-men),2283,tag seul,2026-10-24
+danbooru,Marvel,3,Deadpool,deadpool,2037,tag seul,2026-10-24
+danbooru,Marvel,4,Gwen Stacy (dont Spider-Gwen),~spider-gwen ~gwen_stacy,2019,union OR counts,2026-10-24
+danbooru,Marvel,5,Psylocke,psylocke (psylocke_(vengeance) inclus),1683,union OR counts = tag seul,2026-10-24
+danbooru,Marvel,6,Iron Man (Tony Stark),~tony_stark ~iron_man,1540,union OR counts,2026-10-24
+danbooru,Marvel,7,Captain America (Steve Rogers),~steve_rogers ~captain_america,1480,union OR counts,2026-10-24
+danbooru,Marvel,8,Emma Frost,emma_frost,1302,tag seul,2026-10-24
+danbooru,DC,1,Batman (Bruce Wayne),~batman ~bruce_wayne,2241,union OR counts,2026-10-24
+danbooru,DC,2,Raven,raven_(dc),1954,tag seul,2026-10-24
+danbooru,DC,3,Harley Quinn,harley_quinn,1438,tag seul,2026-10-24
+danbooru,DC,4,Superman (Clark Kent),~superman ~clark_kent,1427,union OR counts,2026-10-24
+danbooru,DC,5,Jason Todd,~jason_todd ~red_hood_(dc),1280,union OR counts,2026-10-24
+danbooru,DC,6,Wonder Woman,~wonder_woman ~diana_prince,1163,union OR counts,2026-10-24
+danbooru,DC,7,Dick Grayson (Nightwing),~dick_grayson ~nightwing,1118,union OR counts,2026-10-24
+danbooru,DC,8,Supergirl,supergirl,1020,tag seul (robin_(dc) 1073 exclu : manteau partage),2026-10-24
+danbooru,Nintendo,1,Link,link,21405,tag seul,2026-10-24
+danbooru,Nintendo,2,Princesse Zelda,princess_zelda,17092,tag seul,2026-10-24
+danbooru,Nintendo,3,Kirby,kirby,11195,tag seul,2026-10-24
+danbooru,Nintendo,4,Aurore (Dawn),dawn_(pokemon),9689,tag seul,2026-10-24
+danbooru,Nintendo,5,Pyra,pyra_(xenoblade),9603,tag seul,2026-10-24
+danbooru,Nintendo,6,Lilie (Lillie),lillie_(pokemon),9470,tag seul,2026-10-24
+danbooru,Nintendo,7,Rosa,rosa_(pokemon),9091,tag seul,2026-10-24
+danbooru,Nintendo,8,Flora (May),may_(pokemon),8947,tag seul,2026-10-24
+rule34,Nintendo,—,Misty (Pokémon),kasumi_(pokemon),18082,sortie du top 8 : ancienne union abandonnée (misty_(pokemon) -kasumi_(pokemon) = 0). Recherche directe du 24/10 ≈ 23 163 : compteur de la liste des tags périmé,2026-10-24

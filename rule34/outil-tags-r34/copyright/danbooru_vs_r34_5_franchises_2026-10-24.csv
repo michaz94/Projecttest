@@ -1,0 +1,7 @@
+franchise,danbooru_tag,danbooru_publications,danbooru_rang_franchises,r34_publications,r34_rang_franchises,ratio_danbooru_sur_r34,note
+one_piece,one_piece,56191,28,162747,13,0.345,
+my_hero_academia,boku_no_hero_academia,45928,35,192108,8,0.239,comparaison
+league_of_legends,league_of_legends,35590,39,225406,6,0.158,wild_rift implique league_of_legends sur Danbooru
+marvel,marvel,30137,47,227094,5,0.133,marvel_rivals/x-men/spider-man_(series) impliquent marvel ; marvel_comics = 0 sur Danbooru
+naruto,naruto_(series),27522,54,232638,4,0.118,naruto_shippuuden/naruto_(classic)/boruto_(series) impliquent naruto_(series)
+dc,dc_comics,15395,90,184338,10,0.084,batman_(series)/superman_(series) impliquent dc_comics ; tag dc = 0

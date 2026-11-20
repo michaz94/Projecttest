@@ -1,0 +1,27 @@
+rang,franchise,tags_inclus,publications,methode,remarque,date
+1,pokemon,pokemon,957706,compte du tag (liste des tags),,2026-10-24
+2,genshin_impact,genshin_impact,288421,compte du tag,,2026-10-24
+3,my_little_pony,my_little_pony ~ friendship_is_magic,283584,union OR (liste de posts),,2026-10-24
+4,naruto,naruto_(series) ~ naruto ~ naruto_shippuden,232638,union OR,,2026-10-24
+5,marvel,marvel ~ marvel_comics ~ marvel_rivals,227094,union OR,univers partagé (plusieurs séries),2026-10-24
+6,league_of_legends,league_of_legends,225406,compte du tag,,2026-10-24
+7,sonic,sonic_(series) ~ sonic_the_hedgehog_(series) ~ sonic_the_hedgehog,212772,union OR,,2026-10-24
+8,my_hero_academia,my_hero_academia ~ boku_no_hero_academia,192108,union OR,,2026-10-24
+9,overwatch,overwatch ~ overwatch_2,184548,union OR,quasi ex aequo avec dc (210 d'écart),2026-10-24
+10,dc,dc ~ dc_comics,184338,union OR,univers partagé (plusieurs séries),2026-10-24
+11,final_fantasy,final_fantasy ~ final_fantasy_vii ~ final_fantasy_xiv,175056,union OR,,2026-10-24
+12,fate,fate_(series) ~ fate/grand_order,163674,union OR,,2026-10-24
+13,one_piece,one_piece,162747,compte du tag,,2026-10-24
+14,mario,mario_(series) ~ super_mario_bros.,153678,union OR,,2026-10-24
+15,fire_emblem,fire_emblem ~ fire_emblem:_three_houses ~ fire_emblem_heroes,148848,union OR,,2026-10-24
+16,dragon_ball,dragon_ball ~ dragon_ball_z ~ dragon_ball_super,144858,union OR,,2026-10-24
+17,touhou,touhou,137453,compte du tag,,2026-10-24
+18,fortnite,fortnite ~ fortnite:_battle_royale,127932,union OR,,2026-10-24
+19,zenless_zone_zero,zenless_zone_zero,119892,compte du tag,,2026-10-24
+20,warcraft,world_of_warcraft ~ warcraft,118650,union OR,,2026-10-24
+,(21) hololive,hololive ~ hololive_english ~ hololive_japan,114324,union OR,marque d'agence (VTubers),2026-10-24
+,(22) street_fighter,street_fighter ~ street_fighter_6,112938,union OR,,2026-10-24
+,(23) bleach,bleach ~ bleach:_the_thousand-year_blood_war,110838,union OR,,2026-10-24
+,(24) resident_evil,resident_evil ~ resident_evil_2 ~ resident_evil_4 ~ resident_evil_8:_village,106008,union OR,,2026-10-24
+,(25) the_legend_of_zelda,the_legend_of_zelda,102934,compte du tag,,2026-10-24
+,(26) five_nights_at_freddy's,five_nights_at_freddy's ~ ..._security_breach ~ ..._2,97734,union OR,,2026-10-24

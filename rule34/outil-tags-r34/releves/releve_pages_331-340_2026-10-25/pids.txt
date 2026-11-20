@@ -1,0 +1,14 @@
+# dernier pid (count ≈ pid+21) ; 'vide' = 0 résultat ; 0 = une seule page (≤ 42) — 25/10/2026
+marinette_dupain-cheng 0
+hyuuga_hanabi 126
+ragatha_(the_amazing_digital_circus) 0
+amity_blight 0
+bridget vide
+saber 840
+marin_kitagawa 924
+yaoyorozu_momo 168
+dick_grayson 168
+jax_(the_amazing_digital_circus) 210
+ichigo_kurosaki 168
+ash_ketchum vide
+sakura_futaba 0

@@ -1,0 +1,31 @@
+site,franchise,rang,personnage,tags,publications,methode,date
+rule34,One Piece,1,Nami,nami_(one_piece),58263,tag seul (relevé 24/10),2026-10-24
+rule34,One Piece,2,Nico Robin,nico_robin,35080,tag seul,2026-10-24
+rule34,One Piece,3,Boa Hancock,boa_hancock,19886,tag seul,2026-10-24
+rule34,One Piece,4,Monkey D. Luffy,monkey_d_luffy ~ monkey_d._luffy ~ luffy,13062,union OR,2026-10-24
+rule34,One Piece,5,Yamato,yamato_(one_piece),11696,tag seul,2026-10-24
+rule34,My Hero Academia,1,Ochako Uraraka,ochako_uraraka ~ variantes,35175,union OR (relevé),2026-10-24
+rule34,My Hero Academia,2,Mirko,mirko ~ rumi_usagiyama ~ usagiyama_rumi,29064,union OR,2026-10-24
+rule34,My Hero Academia,3,Izuku Midoriya,izuku_midoriya ~ midoriya_izuku,28350,union OR,2026-10-24
+rule34,My Hero Academia,4,Momo Yaoyorozu,momo_yaoyorozu ~ yaoyorozu_momo,18942,union OR,2026-10-24
+rule34,My Hero Academia,5,Mina Ashido,mina_ashido ~ ashido_mina,17766,union OR,2026-10-24
+rule34,League of Legends,1,Ahri,ahri ~ ahri_(league_of_legends),29946,union OR,2026-10-24
+rule34,League of Legends,2,Jinx,jinx_(league_of_legends) ~ jinx_(arcane),18270,union OR,2026-10-24
+rule34,League of Legends,3,Akali,akali ~ akali_jhomen_tethi ~ akali_(league_of_legends),9933,union OR (relevé),2026-10-24
+rule34,League of Legends,4,Sona,sona_buvelle ~ sona_(league_of_legends),9093,union OR (relevé),2026-10-24
+rule34,League of Legends,5,Lux,luxanna_crownguard ~ lux_(league_of_legends),7686,union OR,2026-10-24
+danbooru,One Piece,1,Nami,nami_(one_piece),11332,tag,2026-10-24
+danbooru,One Piece,2,Monkey D. Luffy,monkey_d._luffy,8397,tag,2026-10-24
+danbooru,One Piece,3,Nico Robin,nico_robin,7908,tag,2026-10-24
+danbooru,One Piece,4,Roronoa Zoro,roronoa_zoro,6603,tag,2026-10-24
+danbooru,One Piece,5,Sanji,sanji_(one_piece),5393,tag,2026-10-24
+danbooru,My Hero Academia,1,Izuku Midoriya,midoriya_izuku,8754,tag,2026-10-24
+danbooru,My Hero Academia,2,Katsuki Bakugo,bakugou_katsuki,8403,tag,2026-10-24
+danbooru,My Hero Academia,3,Mirko,mirko,6552,tag,2026-10-24
+danbooru,My Hero Academia,4,Ochako Uraraka,uraraka_ochaco,5984,tag,2026-10-24
+danbooru,My Hero Academia,5,Himiko Toga,toga_himiko,3848,tag,2026-10-24
+danbooru,League of Legends,1,Ahri,ahri_(league),4702,tag,2026-10-24
+danbooru,League of Legends,2,Jinx,jinx_(league) (inclut arcane_jinx),3628,tag,2026-10-24
+danbooru,League of Legends,3,Vi,vi_(league) (inclut arcane_vi),1854,tag,2026-10-24
+danbooru,League of Legends,4,Caitlyn,caitlyn_(league) (inclut arcane_caitlyn),1673,tag (ex aequo avec Gwen),2026-10-24
+danbooru,League of Legends,4,Gwen,gwen_(league),1673,tag (ex aequo avec Caitlyn),2026-10-24

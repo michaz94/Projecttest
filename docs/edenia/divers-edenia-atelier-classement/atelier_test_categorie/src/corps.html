@@ -1,0 +1,1130 @@
+<body>
+
+<header class="topbar">
+  <button class="topbar__icon" aria-label="Menu" id="btnMenu" aria-controls="drawer" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  <a class="wordmark" href="#/"><span class="wordmark__dot"></span>ATELIER</a>
+  <button class="topbar__icon" aria-label="Rechercher" id="tbSearch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+</header>
+
+<main>
+
+  <!-- ========== ACCUEIL EDENIA (page d'accueil façon Fandom) ========== -->
+  <section class="view" id="view-home" hidden>
+    <div class="shell fx">
+      <!-- En-tête de communauté (wordmark + nom du wiki + navigation locale) -->
+      <header class="fx-ch">
+        <div class="fx-ch__bg" id="fxBanner"></div>
+        <div class="fx-ch__row">
+          <a class="fx-ch__mark" href="#/" aria-hidden="true" id="fxMark"></a>
+          <div class="fx-ch__name"><a href="#/">Wiki Edenia</a><small>Brouillon de l'Atelier · nom provisoire</small></div>
+        </div>
+        <nav class="fx-nav" aria-label="Navigation du wiki">
+          <div class="fx-nav__item fx-dd"><button class="fx-nav__btn" aria-haspopup="true" aria-expanded="false" id="fxExplore"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36z"/></svg>Explorer<svg class="fx-caret" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg></button>
+            <div class="fx-dd__menu" id="fxExploreMenu" hidden>
+              <a href="#/">Accueil</a><button data-random>Fiche au hasard</button><a href="#/univers/cadre-valide">Cadre validé</a><button data-search>Rechercher</button>
+            </div></div>
+          <div id="fxNavCats" class="fx-nav__cats"></div>
+        </nav>
+      </header>
+
+      <!-- En-tête de page -->
+      <div class="fx-ph">
+        <h1 class="fx-ph__title">Wiki Edenia</h1>
+        <div class="fx-ph__actions">
+          <button class="fx-pbtn" data-toast="La modification se fait dans le YAML, pas ici"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>Modifier</button>
+          <button class="fx-pbtn" data-toast="Historique : à venir dans l'Atelier">Historique</button>
+        </div>
+      </div>
+
+      <div class="fx-cols">
+        <!-- Colonne de gauche (mainpage-leftcolumn) -->
+        <div class="fx-lcs">
+          <section class="fx-welcome">
+            <h2>Bienvenue sur le Wiki Edenia !</h2>
+            <p id="fxLede"></p>
+            <p class="fx-warn"><b>Attention :</b> ce wiki est un brouillon de travail. Les images sont un moodboard, <b>pas canon</b>, et chaque fiche indique son statut. Le YAML est la seule source des statuts : pour en changer un, c'est le YAML qu'il faut modifier.</p>
+          </section>
+
+          <div class="fx-portals" id="fxPortals"></div>
+
+          <section class="fx-box">
+            <h2 class="fx-box__h">Explorer l'univers</h2>
+            <div class="fx-box__b"><ul class="fx-index" id="fxIndex"></ul></div>
+          </section>
+
+          <section class="fx-box">
+            <h2 class="fx-box__h">Le monde d'Edenia</h2>
+            <div class="fx-box__b">
+              <h3 class="fx-h3">Le cadre validé</h3>
+              <ul class="fx-ul" id="fxCadre"></ul>
+              <h3 class="fx-h3">Repères chronologiques <small>pas à l'échelle</small></h3>
+              <ol class="fx-chrono" id="fxChrono"></ol>
+              <h3 class="fx-h3">Structure du monde</h3>
+              <div class="fx-monde" id="fxMonde"></div>
+              <p class="fx-note">Pas de carte canon : la carte du monde est seulement « en intérêt ».</p>
+              <button class="fx-more" data-go="univers/cadre-valide">Lire la suite…</button></div>
+          </section>
+
+          <section class="fx-box">
+            <h2 class="fx-box__h">Personnages</h2>
+            <div class="fx-box__b"><div class="fx-persos" id="fxPersos"></div></div>
+          </section>
+
+          <section class="fx-box">
+            <h2 class="fx-box__h">Fiche au hasard<button class="fx-box__act" data-reroll aria-label="Tirer une autre fiche"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>Une autre</button></h2>
+            <div class="fx-box__b" id="fxRandom"></div>
+          </section>
+
+          <section class="fx-box">
+            <h2 class="fx-box__h">Lieux</h2>
+            <div class="fx-box__b"><div class="fx-gal" id="fxLieux"></div>
+              <button class="fx-more" data-back="lieux">Tous les lieux…</button></div>
+          </section>
+
+          <section class="fx-box">
+            <h2 class="fx-box__h">Le saviez-vous ?</h2>
+            <div class="fx-box__b"><ul class="fx-ul fx-dyk" id="fxDyk"></ul></div>
+          </section>
+
+          <section class="fx-box">
+            <h2 class="fx-box__h">À trancher</h2>
+            <div class="fx-box__b"><p class="fx-note">Les points que le YAML laisse ouverts. Rien ici n'est une décision.</p><ul class="fx-open" id="fxOpen"></ul></div>
+          </section>
+        </div>
+
+        <!-- Colonne de droite (mainpage-rightcolumn, 300 px) -->
+        <aside class="fx-rcs">
+          <section class="fx-box">
+            <h2 class="fx-box__h">Avancement</h2>
+            <div class="fx-box__b" id="fxStats"></div>
+          </section>
+          <section class="fx-box">
+            <h2 class="fx-box__h">Citation au hasard<button class="fx-box__act" data-requote aria-label="Une autre citation"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>Une autre</button></h2>
+            <div class="fx-box__b" id="fxQuote"></div>
+          </section>
+          <section class="fx-box">
+            <h2 class="fx-box__h">Pages populaires</h2>
+            <div class="fx-box__b" id="fxPop"></div>
+          </section>
+          <section class="fx-box">
+            <h2 class="fx-box__h">Activité récente</h2>
+            <div class="fx-box__b" id="fxRecent"></div>
+          </section>
+          <section class="fx-box">
+            <h2 class="fx-box__h">Folklore</h2>
+            <div class="fx-box__b" id="fxFolk"></div>
+          </section>
+          <section class="fx-box">
+            <h2 class="fx-box__h">Légende</h2>
+            <div class="fx-box__b"><div class="fx-legend" id="legendHome"></div></div>
+          </section>
+        </aside>
+      </div>
+
+      <!-- Pleine largeur, sous les colonnes -->
+      <section class="fx-box fx-wide">
+        <h2 class="fx-box__h">Œuvres de référence</h2>
+        <div class="fx-box__b"><p class="fx-note">Les œuvres qui t'ont façonné ou que tu cites. Chaque fiche donne sa limite de lecture.</p><p class="fx-bullets" id="fxOeuvres"></p></div>
+      </section>
+      <div class="fx-foot">Source : <span id="fxSrc"></span></div>
+    </div>
+  </section>
+
+  <!-- ========== VUE CATÉGORIE ========== -->
+  <section class="view" id="view-cat" hidden>
+    <div class="shell" id="catShell">
+      <div class="c-hero">
+        <div class="c-hero__img" id="heroImg"></div>
+        <span class="c-hero__credit" id="heroCredit"></span>
+        <nav class="crumbs" aria-label="Fil d'Ariane"><a href="#/" data-toast="Accueil de l'Atelier (hors brouillon)">Atelier</a><span>›</span><a href="#/">Edenia</a><span>›</span><b style="color:var(--ink)" id="crumbCat"></b></nav>
+        <div class="c-hero__row">
+          <div class="c-hero__ico" aria-hidden="true" id="catIco"></div>
+          <h1 class="c-hero__title" id="catTitle"></h1>
+          <span class="count" id="catCount">0</span>
+        </div>
+        <p class="c-hero__sub" id="catSub"></p>
+      </div>
+
+      <section class="top" aria-label="Accès rapide">
+        <div class="top__tabs" role="tablist">
+          <button role="tab" data-tab="vues" aria-selected="false">Plus consultées</button>
+          <button role="tab" data-tab="modifs" aria-selected="false">Modifiées récemment</button>
+        </div>
+        <div id="topBody"></div>
+      </section>
+
+      <div class="cat-layout">
+        <aside class="side" aria-label="Sous-catégories">
+          <h4>Sous-catégories</h4>
+          <div class="side-nav" id="sideNav"></div>
+          <h4>Légende</h4>
+          <div class="legend" style="flex-direction:column;border:0;margin:0;padding:0" id="legendSide"></div>
+        </aside>
+
+        <div>
+          <div class="tools">
+            <div class="chips subcats" id="subChips" role="group" aria-label="Sous-catégories"></div>
+            <div class="bar2">
+              <div class="seg" role="group" aria-label="Affichage">
+                <button data-view="list" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span>Liste</span></button>
+                <button data-view="grid" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg><span>Galerie</span></button>
+                <button data-view="az" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 16l4-10 4 10M4.5 12h5M15 6h6l-6 10h6"/></svg><span>A–Z</span></button>
+              </div>
+              <div class="sels"><select class="sortsel" id="fst" aria-label="Filtrer par statut"></select>
+              <select class="sortsel" id="sort" aria-label="Trier">
+                <option value="statut">Tri : par statut</option>
+                <option value="alpha">Tri : alphabétique</option>
+              </select></div>
+            </div>
+          </div>
+          <p class="result-line" id="resultLine" aria-live="polite"></p>
+          <div id="results"></div>
+
+          <div id="moodWrap" hidden>
+            <div class="sec-head"><h2><i></i>Ambiance de la catégorie</h2><small><span class="tag-canon">pas canon</span></small></div>
+            <div class="mood" id="mood"></div>
+          </div>
+
+          <div class="legend" id="legend"></div>
+          <div class="foot-cats">Catégorie parente : <a class="chip" href="#/">Edenia</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VUE ARTICLE ========== -->
+  <section class="view" id="view-art" hidden>
+    <div class="shell" id="artShell"></div>
+  </section>
+</main>
+
+<nav class="bottomnav">
+  <button class="bnav" data-toast="Accueil de l'Atelier (hors brouillon)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9.5 12 3l9 6.5V20a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></svg>Accueil</button>
+  <button class="bnav is-active" onclick="location.hash='#/'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>Mondes</button>
+  <div class="bnav-mid"><button class="bnav-create" aria-label="Créer" data-toast="Création d'article : hors brouillon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg></button></div>
+  <button class="bnav" data-toast="Réglages (hors brouillon)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 4h-7M10 4H3M21 12h-9M8 12H3M21 20h-5M12 20H3M14 2v4M8 10v4M16 18v4"/></svg>Réglages</button>
+</nav>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Image agrandie">
+  <button id="lbClose" aria-label="Fermer"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+  <img id="lbImg" alt="">
+  <p id="lbCap"></p>
+</div>
+<div class="sbox" id="sbox" hidden role="dialog" aria-modal="true" aria-label="Rechercher dans Edenia">
+  <div class="sbox__panel"><input id="sq" type="search" placeholder="Rechercher dans Edenia…" autocomplete="off">
+  <div class="sbox__res" id="sres"></div><p class="sbox__hint">Cherche dans les titres et les résumés de toutes les catégories. Toucher à côté (ou Échap) pour fermer.</p></div>
+</div>
+<!-- Tiroir (menu ☰). Structure reprise du vrai menu de communauté de FandomMobile
+     (code source mobile du Superpower Wiki, ton PDF « Code Catégorie Power ») :
+     en-tête (nom du wiki + ✕), panneaux repliables, sous-menus en sous-panneaux avec retour,
+     puis le Sommaire EN DERNIER. « En vedette » est volontairement absent (ta décision du 16 oct.).
+     Apparence : celle du tiroir de l'Atelier. -->
+<div class="drawer-ov" id="drawerOv" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Menu du wiki" aria-hidden="true">
+  <div class="drawer__main">
+    <div class="drawer__head"><a class="drawer__site" href="#/">Wiki Edenia</a><button class="drawer__x" data-dclose aria-label="Fermer le menu de navigation"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+    <div class="dpanel is-open" id="dpWiki">
+      <button type="button" class="dpanel__head" aria-expanded="true"><span>Menu Wiki</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg></button>
+      <div class="dpanel__body"><ul class="dlist" id="drawerNav"></ul></div>
+    </div>
+    <div class="dpanel dtoc is-open" id="drawerToc" hidden>
+      <button type="button" class="dpanel__head" aria-expanded="true"><span>Sommaire</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 15-6-6-6 6"/></svg></button>
+      <div class="dpanel__body" id="drawerTocList"></div>
+    </div>
+  </div>
+  <div id="drawerSubs"></div>
+</aside>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const IMG = __IMGS__;
+__ICON__
+Object.assign(ICON, {
+  users:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>`,
+  moon:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>`,
+  compass:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36z"/></svg>`,
+  book:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15Z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>`,
+  image:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg>`,
+  globe:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>`
+});
+
+const STATUTS = {
+  decide:  {lbl:"Décidé", cls:"s-decide"},
+  envisage:{lbl:"Envisagé", cls:"s-envisage"},
+  interet: {lbl:"Intérêt", cls:"s-interet"},
+  np:      {lbl:"Non précisé", cls:"s-np"},
+  mix:     {lbl:"Plusieurs statuts", cls:"s-mix"},
+  hc:      {lbl:"Hors canon", cls:"s-hc"}   /* pages de recherche : pas un statut du YAML */
+};
+const ORDER = ["decide","envisage","interet","np","mix","hc"];
+
+/* Catégories : couleurs et icônes de l'Atelier (Personnages bleu, Lieux vert, Concepts cyan) ; Folklore et Œuvres : catégories ajoutées */
+const CATS = {
+  lieux:{lbl:"Lieux", one:"lieu", many:"lieux", color:"#4cc38a", ico:"castle", hero:"hero", credit:"Shrek (2001) · ambiance, pas canon", mood:true,
+    desc:"Zones, régions et lieux d'Edenia. Les statuts viennent du YAML, la seule source des statuts : <b>décidé</b>, <b>envisagé</b>, <b>intérêt</b> ou <b>non précisé</b>.",
+    subs:{cadre:{lbl:"Cadre validé", ico:"map"}, naturelles:{lbl:"Zones naturelles", ico:"tree"}, arthurien:{lbl:"Lieux arthuriens", ico:"sword"}, brouillon:{lbl:"Zones de brouillon", ico:"scroll"}}},
+  personnages:{lbl:"Personnages", one:"personnage", many:"personnages", color:"#4da3ff", ico:"users",
+    desc:"Les trois personnages nommés d'Edenia et la règle sur les inspirations arthuriennes. Le YAML ne donne pas de statut aux fiches de personnages."},
+  univers:{lbl:"Univers", one:"fiche", many:"fiches", color:"#5fd4e6", ico:"compass",
+    desc:"Cadre validé, technologie, structure du monde, esthétique : ce que tu as décidé, envisagé ou noté. Une fiche qui regroupe plusieurs points porte « plusieurs statuts »."},
+  folklore:{lbl:"Folklore", one:"entrée", many:"entrées", color:"#c58cff", ico:"moon",
+    desc:"Créatures, figures et pistes du folklore, telles que le YAML les range : 1 décidée, 12 envisagées, 33 en intérêt."},
+  oeuvres:{lbl:"Œuvres de référence", one:"œuvre", many:"œuvres", color:"#ff9f5c", ico:"book",
+    desc:"Les œuvres qui t'ont façonné (influences) ou que tu cites (références), avec leurs limites de lecture : rien n'est dit au-delà."},
+  recherches:{lbl:"Recherches", one:"article", many:"articles", color:"#f07b6e", ico:"scroll",
+    desc:"Articles de <b>recherche, de brouillon et d'exploration de concepts</b> : des pages d'influence ou de référence sur des sources extérieures (mythes, textes, œuvres). <b>Hors canon</b> : rien ici ne décrit Edenia ni ne décide quoi que ce soit. Chaque affirmation renvoie à une source numérotée."},
+  tests:{lbl:"Tests visuels", one:"fiche", many:"fiches", color:"#f2c14e", ico:"image", hero:"test09", credit:"Test PixAI · pas canon", view:"grid", mood:"pages", srcline:"Source : images PixAI envoyées le 15 oct. · tes documents PixAI (sept.)",
+    desc:"Images générées avec PixAI pour <b>tester des styles et des designs</b>. <b>Rien n'est canon</b>, et aucune ne représente Brann, Cosmo ou Harley. Les titres et descriptions sont une lecture de l'IA ; projet, but du test et avis restent à compléter par toi."}
+};
+const SUBS_YAML = __SUBS__;
+for(const [k,v] of Object.entries(SUBS_YAML)) CATS[k].subs = Object.fromEntries(Object.entries(v).map(([s,l])=>[s,{lbl:l, ico:CATS[k].ico}]));
+
+/* ---- Lieux : fiches écrites à la main (YAML + réponses du 12 oct.) ---- */
+__LIEUX__
+__MOOD__
+
+/* ---- Autres catégories : générées depuis le YAML par src/donnees_yaml.py ---- */
+const AUTRES = __PAGES__;
+const PAGES = [...LIEUX.map(l=>({...l, cat:"lieux", rel:(l.rel||[]).map(r=>r.includes("/")?r:"lieux/"+r)})), ...AUTRES];
+const key = p => p.cat+"/"+p.slug;
+const BYKEY = Object.fromEntries(PAGES.map(p=>[key(p),p]));
+
+/* ============ ÉTAT ============ */
+const state = {cat:null, st:null, sub:"all", view:"list", sort:"statut", tab:null};
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+const strip = s => String(s||"").replace(/<[^>]+>/g,"");
+const byAlpha = (a,b)=>a.t.localeCompare(b.t,"fr",{sensitivity:"base"});
+const bySt = (a,b)=>ORDER.indexOf(a.st)-ORDER.indexOf(b.st)||byAlpha(a,b);
+const badge = st => `<span class="badge ${STATUTS[st].cls}">${STATUTS[st].lbl}</span>`;
+const icoOf = p => p.img ? `<img src="${IMG[p.img]}" alt="">` : ICON[(CATS[p.cat].subs[p.sub]||{}).ico || CATS[p.cat].ico];
+const inCat = () => PAGES.filter(p=>p.cat===state.cat);
+
+/* « Modifiées récemment » : aucune fiche n'a encore de vraie date d'enregistrement.
+   Date = la plus récente citée dans la fiche (« 11 oct. », « U 11 et 12 oct. », « 2026-10-11 »). Fiche sans date : non classée. */
+const MOIS = {janv:1,"févr":2,mars:3,avr:4,mai:5,juin:6,juil:7,"août":8,sept:9,oct:10,nov:11,"déc":12};
+const MOIS_LBL = Object.fromEntries(Object.entries(MOIS).map(([k,v])=>[v,k]));
+function lastDate(p){
+  const txt = strip([p.lead,p.ex,p.src,p.warn||"",p.imgcap||"",...(p.secs||[]).flat(2)].join(" "));
+  let best = null;
+  const take = (m,d) => { const v = m*100 + d; if(!best||v>best.v) best = {v, d, m:MOIS_LBL[m]}; };
+  for(const m of txt.matchAll(/((?:\d{1,2}\s*(?:,|et)\s*)*\d{1,2})\s*(janv|févr|mars|avr|mai|juin|juil|août|sept|oct|nov|déc)(?![a-zà-ÿ])\.?/g))
+  {
+    const an = txt.slice(m.index+m[0].length).match(/^\.?\s*(\d{4})/);
+    if(an && an[1]!=="2026") continue;   /* ex. « tome 1 le 5 déc. 2025 » : date de parution, pas une modification */
+    for(const d of m[1].match(/\d{1,2}/g)) take(MOIS[m[2]], +d);
+  }
+  for(const m of txt.matchAll(/2026-(\d{2})-(\d{2})/g)) take(+m[1], +m[2]);
+  return best;
+}
+const DATES = Object.fromEntries(PAGES.map(p=>[key(p), lastDate(p)]));
+/* « Plus consultées » : vrai compteur des fiches ouvertes, gardé dans le navigateur. */
+const VUES_KEY = "atelier-edenia-vues";
+let VUES = {};
+try{ VUES = JSON.parse(localStorage.getItem(VUES_KEY)||"{}"); }catch(e){ VUES = {}; }
+function addVue(k){ VUES[k] = (VUES[k]||0)+1; try{ localStorage.setItem(VUES_KEY, JSON.stringify(VUES)); }catch(e){} }
+
+function topCard(p, meta, showCat){
+  return `<button class="top-card" data-go="${key(p)}" style="--cc:${CATS[p.cat].color}"><div class="top-card__ico">${icoOf(p)}</div>
+    <div class="top-card__txt"><h3>${esc(p.t)}</h3><p><i class="dot ${STATUTS[p.st].cls}" title="${STATUTS[p.st].lbl}"></i>${showCat?`<span>${esc(CATS[p.cat].lbl)}</span><span>·</span>`:""}${meta}</p></div></button>`;
+}
+function renderTop(el, list, showCat){
+  const vus = list.filter(p=>VUES[key(p)]).sort((a,b)=>VUES[key(b)]-VUES[key(a)]||byAlpha(a,b));
+  if(!state.tab) state.tab = Object.keys(VUES).length ? "vues" : "modifs";
+  el.closest(".top").querySelectorAll(".top__tabs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.tab===state.tab));
+  if(state.tab==="vues"){
+    el.innerHTML = vus.length
+      ? `<div class="top__row">${vus.slice(0,6).map(p=>topCard(p, `${VUES[key(p)]} consultation${VUES[key(p)]>1?"s":""}`, showCat)).join("")}</div>
+         <p class="top__note">Compte les fiches ouvertes sur cet appareil.</p>`
+      : `<div class="top__empty">Aucune fiche ouverte ici pour l'instant. Ce classement compte les fiches que tu ouvres sur cet appareil : il se remplira à l'usage.</div>`;
+  } else {
+    const dat = list.filter(p=>DATES[key(p)]).sort((a,b)=>DATES[key(b)].v-DATES[key(a)].v||byAlpha(a,b));
+    const sans = list.length - dat.length;
+    el.innerHTML = `<div class="top__row">${dat.slice(0,6).map(p=>{const d=DATES[key(p)];return topCard(p, `${d.d} ${d.m}.`, showCat);}).join("")}</div>
+      <p class="top__note">Date = la plus récente citée dans la fiche${sans?` (${sans} fiche${sans>1?"s":""} sans date, non classée${sans>1?"s":""})`:""}. Dans l'Atelier, ce sera la date d'enregistrement.</p>`;
+  }
+}
+const legendHTML = () => ORDER.map(s=>`<span><i class="dot ${STATUTS[s].cls}"></i>${STATUTS[s].lbl}</span>`).join("");
+
+/* ============ ACCUEIL ============ */
+const HOME = __HOME__;
+function renderHome(){
+  const H = HOME, nbTest = PAGES.filter(p=>p.cat==="tests"&&/^test-\d+$/.test(p.slug)).length, nbImg = MOOD.length, nbTen = Object.keys(IMG).filter(k=>k.startsWith("ten")).length, nbFiches = PAGES.filter(p=>p.cat!=="tests"&&p.cat!=="recherches").length, nbCats = Object.keys(CATS).filter(k=>k!=="tests"&&k!=="recherches").length, nbRech = PAGES.filter(p=>p.cat==="recherches").length, nbFTest = PAGES.filter(p=>p.cat==="tests").length;
+  $("#fxBanner").style.backgroundImage = `url("${IMG.hero}")`;
+  $("#fxMark").innerHTML = ICON.globe;
+  /* Barre du haut : mêmes entrées que le tiroir ; le nom mène à l'article, le menu déroulant aux sous-entrées (comme Fandom sur ordinateur). */
+  $("#fxNavCats").innerHTML = NAVW.map((n,i)=>`<div class="fx-nav__item fx-dd" data-hover>
+      <a class="fx-nav__btn" href="#/${n.go}">${ICON[n.ico]||""}${esc(n.t)}</a><button class="fx-nav__car" data-dd="nav${i}" aria-haspopup="true" aria-expanded="false" aria-label="Sous-menu ${esc(n.t)}"><svg class="fx-caret" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg></button>
+      <div class="fx-dd__menu" id="dd-nav${i}" hidden>${navItems(n).map(x=>x.hdr?`<span class="fx-dd__hdr">${esc(x.lbl)}</span>`:`<a href="${x.href}">${esc(x.lbl)}</a>`).join("")}</div></div>`).join("");
+  /* Les menus déroulants sont rangés dans <body> : dans la barre (.fx-nav a un backdrop-filter et un défilement horizontal),
+     un menu en position fixe serait décalé et coupé. */
+  document.querySelectorAll(".fx-nav .fx-dd__menu").forEach(m=>{ document.querySelectorAll("body > #"+m.id).forEach(o=>o.remove()); m.classList.add("fx-dd__menu--layer"); document.body.appendChild(m); });
+  $("#fxLede").innerHTML = `Le wiki de travail consacré à <b>Edenia</b> (nom provisoire), un ${esc(H.genre)}, dans un monde de fantasy multi-héritages. Ce wiki contient actuellement <b>${nbFiches} fiches</b> réparties en ${nbCats} catégories, <b>${nbImg} images</b> d'ambiance et <b>${nbTen} références de tenues</b>, plus la catégorie Tests visuels : <b>${nbTest} tests</b> (pas canon) et ${nbFTest-nbTest} fiche${nbFTest-nbTest>1?"s":""} d'outils ; enfin, la catégorie Recherches : <b>${nbRech} article${nbRech>1?"s":""} de recherche</b> (hors canon).`;
+
+  /* Portails (blocs image + titre + accroche + « En savoir plus ») */
+  const PORT = {lieux:"hero", univers:"vallee", folklore:"pierres", tests:"test09"};
+  $("#fxPortals").innerHTML = Object.entries(CATS).map(([k,c])=>{
+    const n = PAGES.filter(p=>p.cat===k).length, im = PORT[k];
+    return `<a class="fx-portal${im?"":" no-img"}" href="#/${k}" style="--cc:${c.color}${im?`;background-image:url('${IMG[im]}')`:""}">
+      ${im?"":`<span class="fx-portal__ico">${ICON[c.ico]}</span>`}
+      <span class="fx-portal__txt"><b>${esc(c.lbl)}</b><small>${n} ${n>1?c.many:c.one}</small><i>En savoir plus ›</i></span></a>`;
+  }).join("");
+
+  /* Explorer l'univers : les 3 articles du menu (19 oct.), avec leurs sous-entrées */
+  $("#fxIndex").innerHTML = NAVW.map(n=>{
+    const a = BYKEY[n.go], C = CATS[a.cat];
+    const parts = navItems(n).filter(x=>!x.hdr).map(x=>`<a class="fx-link" href="${x.href}">${esc(x.lbl)}</a>`);
+    return `<li style="--cc:${C.color}"><span class="fx-index__ico">${ICON[n.ico]||ICON[C.ico]}</span><div><a class="fx-index__t" href="#/${n.go}">${esc(a.t)}</a> — ${esc(a.ex)}<br><small>${parts.join(" · ")}</small></div></li>`;
+  }).join("");
+
+  /* Cadre */
+  $("#fxCadre").innerHTML = BYKEY["univers/cadre-valide"].secs[0][1].map(x=>`<li>${x} ${badge("decide")}</li>`).join("");
+
+  $("#fxChrono").innerHTML = H.frise.map(f=>`<li><button data-go="${f.go}"><b>${esc(f.an)}</b><span>${esc(f.lbl)}</span></button>${badge(f.st)}</li>`).join("");
+  $("#fxMonde").innerHTML = H.monde.map(m=>`<span class="fx-monde__i" title="${esc(strip(m.txt))}">${esc(m.lbl)} ${badge(m.st)}</span>`).join("");
+
+  /* Personnages (grille de portraits, ici des monogrammes : pas d'image canon) */
+  $("#fxPersos").innerHTML = PAGES.filter(p=>p.cat==="personnages").map(p=>{
+    const ini = p.slug==="inspirations-arthuriennes" ? "✦" : p.t.split(" ").map(w=>w[0]).join("");
+    return `<button class="fx-perso" data-go="${key(p)}"><span class="fx-perso__mono">${esc(ini)}</span><b>${esc(p.t)}</b>${badge(p.st)}</button>`;
+  }).join("");
+
+  renderRandom();
+  renderQuote();
+
+  /* Lieux : galerie (image si elle existe, sinon icône) */
+  $("#fxLieux").innerHTML = PAGES.filter(p=>p.cat==="lieux").sort(bySt).map(p=>{
+    const im = p.img || (p.gal||[])[0];
+    return `<button class="fx-thumb" data-go="${key(p)}"><span class="fx-thumb__img"${im?` style="background-image:url('${IMG[im]}')"`:""}>${im?"":ICON[CATS.lieux.subs[p.sub].ico]}</span><span class="fx-thumb__cap"><i class="dot ${STATUTS[p.st].cls}"></i>${esc(p.t)}</span></button>`;
+  }).join("");
+
+  /* Le saviez-vous ? : uniquement des faits du YAML ou de tes réponses datées */
+  const DYK = [
+    ["univers/technologie", "… que les armes à feu d'Edenia sont plafonnées à <b>1860</b> ?", "decide"],
+    ["personnages/brann", "… que le nom de famille « Pandragon » de <b>Brann</b> a été retiré le 9 oct. ?", "decide"],
+    ["oeuvres/runeterra-league-of-legends", "… que <b>Runeterra</b> est noté comme la référence principale du monde ?", null],
+    ["folklore/agrippa", "… qu'<b>Agrippa</b>, seule entrée décidée du folklore, « mourut à l'hôpital de Grenoble » d'après le Dictionnaire infernal ?", "decide"],
+    ["folklore/barbegazi", "… que les <b>Barbegazi</b> seraient la créature locale de la région montagnarde enneigée ?", "envisage"],
+    ["univers/esthetique-vestimentaire", "… que les tenues d'Edenia mêlent pièces anciennes et <b>éléments modernes anachroniques</b> (décidé le 15 oct.) ?", "decide"],
+    ["oeuvres/fabula-fantasia-tony-valente", "… que <b>Fabula Fantasia</b>, qui inspire la tenue de Brann, est un spin-off de Radiant ?", null],
+  ];
+  $("#fxDyk").innerHTML = DYK.map(([k,t,s])=>`<li><button data-go="${k}">${t}</button> ${s?badge(s):""}</li>`).join("");
+
+  /* À trancher */
+  $("#fxOpen").innerHTML = H.ouverts.map(o=>`<li><button data-go="${o.go}"><b>${esc(o.t)}</b><span>${esc(o.txt)}</span></button></li>`).join("");
+
+  /* Colonne de droite */
+  const tot = PAGES.length;
+  $("#fxStats").innerHTML = `<div class="stbar fx-stbar">${ORDER.map(s=>{const m=PAGES.filter(p=>p.st===s).length;return m?`<i class="${STATUTS[s].cls}" style="flex:${m}"></i>`:"";}).join("")}</div>
+    <table class="fx-tab">${ORDER.map(s=>{const m=PAGES.filter(p=>p.st===s).length;return `<tr><td><i class="dot ${STATUTS[s].cls}"></i>${STATUTS[s].lbl}</td><td>${m}</td></tr>`;}).join("")}
+    <tr class="fx-tab__tot"><td>Total</td><td>${tot}</td></tr></table>
+    <table class="fx-tab">${Object.entries(CATS).map(([k,c])=>`<tr><td><a href="#/${k}" style="color:${c.color}">${esc(c.lbl)}</a></td><td>${PAGES.filter(p=>p.cat===k).length}</td></tr>`).join("")}</table>`;
+  const vus = PAGES.filter(p=>VUES[key(p)]).sort((a,b)=>VUES[key(b)]-VUES[key(a)]||byAlpha(a,b)).slice(0,5);
+  $("#fxPop").innerHTML = vus.length
+    ? `<ol class="fx-rlist">${vus.map(p=>`<li><button data-go="${key(p)}"><span class="fx-rlist__ico" style="--cc:${CATS[p.cat].color}">${icoOf(p)}</span><span><b>${esc(p.t)}</b><small>${esc(CATS[p.cat].lbl)} · ${VUES[key(p)]} vue${VUES[key(p)]>1?"s":""}</small></span></button></li>`).join("")}</ol>`
+    : `<p class="fx-note">Aucune fiche ouverte sur cet appareil pour l'instant. Ce module compte les fiches que tu ouvres.</p>`;
+  const rec = PAGES.filter(p=>DATES[key(p)]).sort((a,b)=>DATES[key(b)].v-DATES[key(a)].v||byAlpha(a,b)).slice(0,6);
+  $("#fxRecent").innerHTML = `<ol class="fx-rlist">${rec.map(p=>{const d=DATES[key(p)];return `<li><button data-go="${key(p)}"><span class="fx-rlist__ico" style="--cc:${CATS[p.cat].color}">${icoOf(p)}</span><span><b>${esc(p.t)}</b><small>${esc(CATS[p.cat].lbl)} · ${d.d} ${d.m}.</small></span></button></li>`;}).join("")}</ol>
+    <p class="fx-note">Date la plus récente citée dans la fiche (pas encore de date d'enregistrement).</p>`;
+  const F = PAGES.filter(p=>p.cat==="folklore");
+  $("#fxFolk").innerHTML = `<p class="fx-note" style="margin-top:0">Décidé :</p><p><button class="fx-link" data-go="folklore/agrippa">Agrippa</button></p>
+    <p class="fx-note">Envisagés :</p><p class="fx-bullets">${F.filter(p=>p.st==="envisage").sort(byAlpha).map(p=>`<button class="fx-link" data-go="${key(p)}">${esc(p.t)}</button>`).join(" • ")}</p>
+    <p class="fx-note">En intérêt : <button class="fx-link" data-gosub="folklore:carte">${F.filter(p=>p.sub==="carte").length} créatures de la carte</button> • <button class="fx-link" data-gosub="folklore:autres">${F.filter(p=>p.sub==="autres").length} autres pistes</button></p>`;
+  $("#legendHome").innerHTML = ORDER.map(s=>`<span><i class="dot ${STATUTS[s].cls}"></i>${STATUTS[s].lbl}</span>`).join("");
+
+  /* Pleine largeur : toutes les œuvres, séparées par des puces (comme les listes de wikis liés) */
+  $("#fxOeuvres").innerHTML = PAGES.filter(p=>p.cat==="oeuvres").sort(byAlpha).map(p=>`<button class="fx-link" data-go="${key(p)}">${esc(p.t)}</button>`).join(" • ");
+  $("#fxSrc").textContent = `YAML du dépôt (commit b1bffb0) et tes réponses du 12 oct. · images : ${H.ambiance.images}`;
+}
+/* Citation au hasard : uniquement tes propres mots, tels que le YAML les cite */
+const QUOTES = [
+  ["archaïque mais pas trop","esthétique décidée (cadre validé)","univers/esthetique-vestimentaire"],
+  ["Ha j'avais oublié d'indiquer que les armes à feu sont plafonnées à 1860","précisé par toi · Technologie","univers/technologie"],
+  ["En fait je pense baisser la technologie à 1914","formulé par toi · Technologie","univers/technologie"],
+  ["Je pense que je peux partir du principe que certaines régions sont plus avancées. Je pense que les ressources magiques et naturelles ont un impact, comme les autres modèles de référence que tu as cités","formulé par toi · Technologie","univers/technologie"],
+  ["je ne sais pas, les trois en mélangé","toi, 11 oct. · modèle de monde","univers/structure-du-monde"],
+];
+let lastQ = -1;
+function renderQuote(){
+  let i; do{ i = Math.floor(Math.random()*QUOTES.length); }while(i===lastQ && QUOTES.length>1); lastQ = i;
+  const [q,src,go] = QUOTES[i];
+  $("#fxQuote").innerHTML = `<blockquote class="fx-quote">« ${esc(q)} »</blockquote><p class="fx-quote__src">— <button class="fx-link" data-go="${go}">${esc(src)}</button></p>`;
+}
+function renderRandom(){
+  const pool = PAGES.filter(p=>p.cat!=="tests" && strip(p.lead).length>30);
+  const p = pool[Math.floor(Math.random()*pool.length)];
+  const im = p.img || (p.gal||[])[0];
+  const more = (p.secs&&p.secs[0]) ? strip(p.secs[0][1].join(" · ")) : "";
+  $("#fxRandom").innerHTML = `<div class="fx-rand">${im?`<span class="fx-rand__img" style="background-image:url('${IMG[im]}')"></span>`:`<span class="fx-rand__img no-img" style="--cc:${CATS[p.cat].color}">${ICON[CATS[p.cat].ico]}</span>`}
+    <div><p class="fx-rand__meta">${esc(CATS[p.cat].lbl)} ${badge(p.st)}</p><h3><button data-go="${key(p)}">${esc(p.t)}</button></h3>
+    <p>${strip(p.lead)} ${more?`<span class="fx-rand__more">${esc(more.length>220?more.slice(0,220).replace(/\s\S*$/,"")+"…":more)}</span>`:""}</p>
+    <button class="fx-more" data-go="${key(p)}">Lire la suite…</button></div></div>`;
+}
+
+/* ============ CATÉGORIE ============ */
+function filtered(){
+  return inCat().filter(p=>(!state.st||p.st===state.st)&&(state.sub==="all"||p.sub===state.sub))
+    .sort(state.sort==="alpha"?byAlpha:bySt);
+}
+function renderCatStatic(){
+  const c = CATS[state.cat];
+  $("#catShell").style.setProperty("--cc", c.color);
+  const hi = $("#heroImg");
+  hi.style.backgroundImage = c.hero ? `url("${IMG[c.hero]}")` : "";
+  hi.classList.toggle("no-img", !c.hero);
+  $("#heroCredit").textContent = c.credit||""; $("#heroCredit").hidden = !c.credit;
+  $("#crumbCat").textContent = c.lbl; $("#catTitle").textContent = c.lbl;
+  $("#catIco").innerHTML = ICON[c.ico];
+  $("#catCount").textContent = inCat().length;
+  $("#catSub").innerHTML = c.desc;
+  $("#legend").innerHTML = legendHTML() + `<span style="margin-left:auto">${c.srcline||"Source : YAML du dépôt, commit b1bffb0 · réponses du 12 oct."}</span>`;
+  $("#legendSide").innerHTML = legendHTML();
+  $("#moodWrap").hidden = !c.mood;
+  $("#mood").classList.toggle("mood--portrait", c.mood==="pages");
+  const M = c.mood==="pages" ? inCat().filter(p=>p.img).sort(byAlpha).map(p=>[p.img, p.t]) : MOOD;
+  $("#mood").innerHTML = c.mood ? M.map(([k,cap])=>`<figure data-lb="${k}" data-cap="${esc(cap)}"><img src="${IMG[k]}" alt="${esc(cap)}" loading="lazy"><figcaption>${esc(cap)}</figcaption></figure>`).join("") : "";
+}
+function renderControls(){
+  const c = CATS[state.cat], all = inCat();
+  const inSub = all.filter(p=>state.sub==="all"||p.sub===state.sub);
+  $("#fst").innerHTML = `<option value="">Statut : tous (${inSub.length})</option>` +
+    ORDER.map(k=>{const n=inSub.filter(p=>p.st===k).length; return n||state.st===k?`<option value="${k}">${STATUTS[k].lbl} (${n})</option>`:"";}).join("");
+  $("#fst").value = state.st||"";
+  const subs = [["all","Toutes",all.length],...Object.entries(c.subs).map(([k,v])=>[k,v.lbl,all.filter(p=>p.sub===k).length]).filter(x=>x[2])];
+  $("#subChips").innerHTML = subs.map(([k,l,n])=>`<button class="chip" data-sub="${k}" aria-pressed="${state.sub===k}">${esc(l)}<b>${n}</b></button>`).join("");
+  $("#sideNav").innerHTML = subs.map(([k,l,n])=>`<button data-sub="${k}" aria-pressed="${state.sub===k}">${esc(l)}<b>${n}</b></button>`).join("");
+  document.querySelectorAll(".seg button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.view===state.view));
+  $("#sort").value = state.sort; $("#sort").disabled = state.view==="az";
+}
+function cardList(p){
+  return `<button class="list-card" data-go="${key(p)}"><div class="list-card__ico">${icoOf(p)}</div>
+    <div class="list-card__txt"><h3>${esc(p.t)}</h3><p>${strip(p.ex)}</p></div>${badge(p.st)}</button>`;
+}
+function cardGrid(p){
+  const bg = p.img?` style="background-image:url('${IMG[p.img]}')${p.cat==="tests"?";background-position:center 18%":""}"`:"";
+  return `<button class="g-card" data-go="${key(p)}"><div class="g-card__img"${bg}>${p.img?"":ICON[(CATS[p.cat].subs[p.sub]||{}).ico||CATS[p.cat].ico]}</div>
+    <div class="g-card__body"><h3>${esc(p.t)}</h3><p>${strip(p.ex)}</p>${badge(p.st)}</div></button>`;
+}
+function renderResults(){
+  const c = CATS[state.cat], list = filtered(), parts = [];
+  if(state.st) parts.push(STATUTS[state.st].lbl.toLowerCase());
+  if(state.sub!=="all") parts.push(c.subs[state.sub].lbl.toLowerCase());
+  $("#resultLine").textContent = `${list.length} ${list.length>1?c.many:c.one}${parts.length?" · "+parts.join(" · "):""}`;
+  const box = $("#results");
+  if(!list.length){box.innerHTML=`<div class="empty">Aucune fiche ne correspond. <button class="chip" id="reset" style="margin-left:6px">Tout afficher</button></div>`;return;}
+  if(state.view==="az"){
+    const groups = {};
+    list.slice().sort(byAlpha).forEach(p=>{const k=(norm(p.t.replace(/^(la|le|les|l')\s*/i,""))[0]||"#").toUpperCase();(groups[k]=groups[k]||[]).push(p);});
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    box.innerHTML = `<div class="az-letters">${letters.map(L=>groups[L]?`<a href="javascript:void 0" data-az="${L}">${L}</a>`:`<span>${L}</span>`).join("")}</div>`+
+      Object.keys(groups).sort().map(L=>`<div class="az-block" id="az-${L}"><h3>${L}</h3><ul>${groups[L].map(p=>`<li><i class="dot ${STATUTS[p.st].cls}" title="${STATUTS[p.st].lbl}"></i><button data-go="${key(p)}">${esc(p.t)}</button></li>`).join("")}</ul></div>`).join("")+
+      `<p class="result-line">Index façon Fandom : l'article « La » ou « Le » est ignoré pour le classement.</p>`;
+    return;
+  }
+  const render = state.view==="grid" ? (ls=>`<div class="grid">${ls.map(cardGrid).join("")}</div>`) : (ls=>ls.map(cardList).join(""));
+  if(state.sub==="all" && state.sort==="statut"){
+    box.innerHTML = Object.entries(c.subs).map(([k,v])=>{
+      const ls = list.filter(p=>p.sub===k); if(!ls.length) return "";
+      return `<details class="group" open><summary class="sec-head"><h2><i></i>${esc(v.lbl)}</h2><small style="display:flex;gap:6px;align-items:center">${ls.length}<span class="chev">${ICON.chev}</span></small></summary>${render(ls)}</details>`;
+    }).join("");
+  } else box.innerHTML = render(list);
+}
+function renderCat(){ renderCatStatic(); renderTop($("#topBody"), inCat(), false); renderControls(); renderResults(); }
+
+/* ============ ARTICLE ============ */
+function renderArticle(k){
+  const p = BYKEY[k];
+  if(!p){location.hash="#/";return;}
+  const c = CATS[p.cat];
+  const sib = PAGES.filter(x=>x.cat===p.cat).sort(bySt), i = sib.indexOf(p);
+  const prev = sib[(i-1+sib.length)%sib.length], next = sib[(i+1)%sib.length];
+  const rel = (p.rel||[]).map(r=>BYKEY[r]).filter(Boolean);
+  const gal0 = (p.gal||[]).filter(g=>g!==p.img);
+  /* Ancres façon Fandom/MediaWiki : le titre, espaces remplacés par « _ » (ex. #Les_quatre_principes_majeurs) */
+  const usedA = {}, anchorOf = t=>{ let a = String(t).trim().replace(/\s+/g,"_"); const b = a; let n = 1; while(usedA[a]) a = b+"_"+(++n); usedA[a] = 1; return a; };
+  const tocItems = (p.secs||[]).map(([h])=>({id:anchorOf(h), name:h}));
+  const galId = gal0.length ? anchorOf("Galerie") : "";
+  if(gal0.length) tocItems.push({id:galId, name:"Galerie"});
+  const mainArt = m => m&&m.length ? `<div class="mainart">Article${m.length>1?"s":""} principa${m.length>1?"ux":"l"} : ${m.map(k=>k.startsWith("cat:")?`<a href="#/${k.slice(4)}">Catégorie ${esc(CATS[k.slice(4)].lbl)}</a>`:BYKEY[k]?`<a href="#/${k}">${esc(BYKEY[k].t)}</a>`:"").join(", ")}</div>` : "";
+  /* p.prose (pages de recherche) : un paragraphe par élément ; un tableau ou une liste reste un bloc */
+  const blk = x => /^\s*<(div|table|ol|ul)\b/.test(x) ? x : `<p>${x}</p>`;
+  const secs = (p.secs||[]).map(([h,ps,mn],i)=>`<div class="a-sec"><h2 id="${esc(tocItems[i].id)}"><i></i>${esc(h)}</h2>${mainArt(mn)}${p.prose?ps.map(blk).join(""):ps.length>1?`<ul>${ps.map(x=>`<li>${x}</li>`).join("")}</ul>`:`<p>${ps[0]}</p>`}</div>`).join("");
+  const gal = (p.gal||[]).filter(g=>g!==p.img);
+  const sub = (c.subs[p.sub]||{lbl:""}).lbl;
+  $("#artShell").style.setProperty("--cc", c.color);
+  $("#artShell").innerHTML = `
+    <div class="a-head"><div class="a-head__img"></div>
+      <button class="backbtn" data-back="${p.cat}">${ICON.back}${esc(c.lbl)}</button>
+      <h1 class="a-title">${esc(p.t)}</h1>
+      <div class="a-meta">${badge(p.st)}<span>${esc(sub)}</span><span>·</span><span>Catégorie : ${esc(c.lbl)}</span></div>
+    </div>
+    <div class="a-layout">
+      ${p.noib?"":`<aside class="infobox">
+        <div class="infobox__title">${esc(p.t)}</div>
+        ${p.img?`<img class="infobox__img" src="${IMG[p.img]}" alt="${esc(p.imgcap||"")}" data-lb="${p.img}" data-cap="${esc(p.imgcap||"")}"><div class="infobox__cap">${esc(p.imgcap||"")}</div>`:""}
+        <dl>
+          ${(p.ib||[]).map(([l,v])=>`<dt>${esc(l)}</dt><dd>${v}</dd>`).join("")}
+          <dt>Statut</dt><dd>${badge(p.st)}</dd>
+          <dt>Groupe</dt><dd>${esc(sub)}</dd>
+          ${rel.length?`<dt>Lié à</dt><dd>${rel.map(r=>`<button data-go="${key(r)}">${esc(r.t)}</button>${r.cat!==p.cat?` <small style="color:var(--inkmut)">(${esc(CATS[r.cat].lbl)})</small>`:""}`).join("<br>")}</dd>`:""}
+          <dt>Source</dt><dd style="font-size:12px;color:var(--inkmut)">${esc(p.src)}</dd>
+        </dl>
+      </aside>`}
+      <p class="a-lead">${p.lead}</p>
+      <div>
+        ${p.st==="hc"?`<div class="note hcban"><b>Page de recherche · hors canon.</b> Elle résume des sources extérieures pour explorer un concept. Elle ne décrit pas Edenia et ne décide rien ; les numéros [1], [2]… renvoient aux Références en bas de page.</div>`:""}
+        ${p.warn?`<div class="note ${/IA|Vigilance|YAML|V7/.test(p.warn)?"red":""}">${esc(p.warn)}</div>`:""}
+        <nav class="wtoc" id="artToc" hidden aria-label="Sommaire"></nav>
+        ${secs||`<div class="note blue">Rien d'autre n'est noté pour l'instant. Une page courte n'est pas une erreur : c'est l'état réel du projet.</div>`}
+        ${gal.length?`<div class="a-sec"><h2 id="${esc(galId)}"><i></i>Galerie</h2></div><div class="mood${p.galvar?" mood--var":""}">${gal.map(g=>{const cp=(p.galcap&&p.galcap[g])||(MOOD.find(m=>m[0]===g)||[g,""])[1];return `<figure data-lb="${g}" data-cap="${esc(cp)}"><img src="${IMG[g]}" alt="${esc(cp)}"><figcaption>${esc(cp)} · <span class="tag-canon">pas canon</span></figcaption></figure>`;}).join("")}</div>`:""}
+        ${p.noib?`<p class="a-src">Source : ${esc(p.src)}</p>`:""}
+        <div class="foot-cats">Catégories : <button class="chip" data-back="${p.cat}">${esc(c.lbl)}</button>${sub?`<button class="chip" data-gosub="${p.cat}:${p.sub}" title="Toutes les fiches de la sous-catégorie ${esc(sub)}">${esc(sub)}</button>`:""}<button class="chip ${STATUTS[p.st].cls}" style="color:var(--sc)" data-gost="${p.cat}:${p.st}" title="Les fiches de la catégorie ${esc(c.lbl)} avec ce statut">${STATUTS[p.st].lbl}</button></div>
+        <div class="pn"><button data-go="${key(prev)}">‹ Précédent<b>${esc(prev.t)}</b></button><button data-go="${key(next)}">Suivant ›<b>${esc(next.t)}</b></button></div>
+      </div>
+    </div>`;
+  buildToc(k, tocItems);
+  if(p.tier) mountTier(p);
+}
+
+/* ============ SOMMAIRE ============
+   Comme Fandom : sommaire automatique dès 4 titres (Help:Table of contents ; noté dans le dépôt,
+   Export 2/apercu-modele-article.html). Comme l'Atelier : sur ordinateur (≥ 820 px), carte dans
+   la page avant le premier titre ; sur mobile, bloc « Sommaire » en dernier dans le tiroir ☰.
+   Balisage ol.toc-list et numérotation par compteurs CSS : d'après WikiaMobile toc.js / toc.scss
+   (GPL-2.0), repris de l'Atelier. La numérotation n'est jamais modifiée. */
+const TOC_MIN = 4;
+let tocKey = null;
+function tocListHTML(items){
+  return `<ol class="toc-list level">${items.map(s=>`<li><a href="#" data-toc="${esc(s.id)}"><span class="toc-text">${esc(s.name)}</span></a></li>`).join("")}</ol>`;
+}
+function setPanelOpen(panel, open){
+  panel.classList.toggle("is-open", !!open);
+  panel.querySelector(".dpanel__head").setAttribute("aria-expanded", String(!!open));
+}
+function buildToc(k, items){
+  const has = items.length >= TOC_MIN;
+  if(k !== tocKey){ tocKey = k; setPanelOpen($("#drawerToc"), true); }
+  const nav = $("#artToc");
+  if(has){
+    nav.innerHTML = `<button class="wtoc__btn" type="button" aria-expanded="true" data-toctoggle><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13"/><circle cx="3.5" cy="6" r="1"/><circle cx="3.5" cy="12" r="1"/><circle cx="3.5" cy="18" r="1"/></svg><span>Sommaire</span><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="m9 6 6 6-6 6"/></svg></button><div class="wtoc__list">${tocListHTML(items)}</div>`;
+    nav.hidden = false;
+  } else { nav.innerHTML = ""; nav.hidden = true; }
+  $("#drawerTocList").innerHTML = has ? tocListHTML(items) : "";
+  $("#drawerToc").hidden = !has;
+}
+function goToSection(id, instant){
+  const el = document.getElementById(id); if(!el) return;
+  const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  el.scrollIntoView({behavior: (instant||reduce) ? "auto" : "smooth", block: "start"});
+}
+/* Comme sur Fandom (vérifié sur hunterxhunter.fandom.com/fr/wiki/Nen#Les_quatre_principes_majeurs) :
+   un titre du sommaire ajoute « #Titre_de_la_section » à l'adresse et compte comme une page
+   dans l'historique : Retour ramène à l'endroit d'avant. Ici : #/personnages/brann#Tenue */
+function curAnchor(){ const f = location.hash, i = f.indexOf("#",1); if(i<0) return ""; try{ return decodeURIComponent(f.slice(i+1)); }catch(_){ return f.slice(i+1); } }
+function tocGo(id){
+  if(curAnchor() === id){ goToSection(id); return; }
+  location.hash = "#/"+current+"#"+id;   /* → hashchange → route() : même page, on descend à la section */
+}
+
+/* ============ NAVIGATION DU WIKI (19 oct.) ============
+   Comme MediaWiki:Wiki-navigation du wiki Hunter × Hunter (révision du 18 sept. 2024) : chaque entrée
+   principale mène à un ARTICLE (Media → « Hunter × Hunter », Characters → « List of Characters »,
+   World → « World of Hunter × Hunter ») ; les catégories, pages de navigation, ne sont que des sous-entrées.
+   Pas d'entrée « Pouvoirs » (équivalent du Nen) : le système de pouvoirs est mis de côté dans le YAML. */
+const NAVW = [
+  {t:"Edenia", go:"univers/edenia", ico:"castle", items:[["cat","oeuvres"],["cat","recherches"],["cat","tests"],["page","tests/outils-pixai","Outils PixAI"],["page","tests/tier-liste-personnages","Tier liste"]]},
+  {t:"Personnages", go:"personnages/liste-des-personnages", ico:"users", items:[["hdr","Personnages principaux"],["page","personnages/brann"],["page","personnages/cosmo-dumas"],["page","personnages/harley-delphine"],["hdr","Voir aussi"],["page","personnages/inspirations-arthuriennes"]]},
+  {t:"Monde", go:"univers/monde-d-edenia", ico:"map", items:[["cat","lieux"],["cat","folklore"],["page","univers/technologie"],["page","univers/esthetique-vestimentaire"],["page","univers/structure-du-monde"]]}
+];
+/* Une sous-entrée : catégorie (« Catégorie Lieux » dans le texte d'aide, « Lieux » dans le menu), fiche, ou intertitre. */
+const navItem = ([ty,k,l]) => ty==="hdr" ? {hdr:true, lbl:k} : ty==="cat" ? {href:"#/"+k, lbl:l||CATS[k].lbl, cat:true} : BYKEY[k] ? {href:"#/"+k, lbl:l||BYKEY[k].t} : null;
+const navItems = n => n.items.map(navItem).filter(Boolean);
+
+/* ============ TIROIR (menu ☰) ============
+   Menu Wiki = la même navigation que la barre du wiki sur ordinateur (Explorer + catégories),
+   comme sur Fandom où le menu mobile reprend MediaWiki:Wiki-navigation.
+   Chaque entrée ouvre un sous-panneau (retour ‹ + ✕), comme sur FandomMobile. */
+const DR_CHEV = '<svg class="dchev" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>';
+const DR_BACK = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg>';
+const DR_X = '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>';
+const DR_EXPLORE = '<svg class="dico" viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-2.12 6.36-6.36 2.12 2.12-6.36z"/></svg>';
+function drSub(id, back, title, items){
+  return `<div class="dsub" id="dsub-${id}" aria-hidden="true">
+    <div class="dsub__head"><button class="dsub__back" data-dback="${id}">${DR_BACK}<span>${esc(back)}</span></button><button class="drawer__x" data-dclose aria-label="Fermer le menu de navigation">${DR_X}</button></div>
+    <div class="dsub__title">${title}</div>
+    <ul class="dlist">${items}</ul></div>`;
+}
+function renderDrawerNav(){
+  $("#drawerNav").innerHTML =
+    `<li><button class="ditem" data-dsub="explorer">${DR_EXPLORE}<span>Explorer</span>${DR_CHEV}</button></li>` +
+    NAVW.map((n,i)=>`<li><button class="ditem" data-dsub="nav${i}"><span>${esc(n.t)}</span>${DR_CHEV}</button></li>`).join("");
+  $("#drawerSubs").innerHTML =
+    drSub("explorer", "Wiki Edenia", "Explorer",
+      `<li><a class="ditem" href="#/"><span>Page d'accueil</span></a></li>
+       <li><button class="ditem" data-random><span>Fiche au hasard</span></button></li>
+       <li><a class="ditem" href="#/univers/cadre-valide"><span>Cadre validé</span></a></li>
+       <li><button class="ditem" data-search><span>Rechercher</span></button></li>`) +
+    NAVW.map((n,i)=>drSub("nav"+i, "Wiki Edenia", `<a href="#/${n.go}">${esc(n.t)}</a>`,
+      navItems(n).map(x=>x.hdr ? `<li class="dhdr">${esc(x.lbl)}</li>` : `<li><a class="ditem" href="${x.href}"><span>${esc(x.lbl)}</span></a></li>`).join(""))).join("");
+}
+function closeSubs(){ document.querySelectorAll("#drawerSubs .dsub.open").forEach(d=>{ d.classList.remove("open"); d.setAttribute("aria-hidden","true"); }); $("#drawer .drawer__main").inert = false; }
+let drawerLastFocus = null;
+function openDrawer(){
+  renderDrawerNav();
+  /* Une entrée d'historique pour le menu : le bouton Retour du téléphone ferme le menu
+     au lieu de changer de page (comme l'Atelier ; sur Fandom, Retour laisse le menu ouvert). */
+  try{ history.pushState({edDrawer:1}, "", location.href); }catch(_){}
+  drawerLastFocus = document.activeElement;
+  $("#drawerOv").hidden = false;
+  requestAnimationFrame(()=>{ $("#drawer").classList.add("open"); $("#drawerOv").classList.add("open"); });
+  $("#drawer").setAttribute("aria-hidden","false"); $("#btnMenu").setAttribute("aria-expanded","true");
+  document.body.classList.add("no-scroll");
+  $("#drawer .drawer__main .drawer__x").focus({preventScroll:true});
+}
+/* Remplace le hash sans ajouter d'entrée d'historique.
+   Dans un aperçu en iframe « srcdoc » (origine nulle), history.replaceState avec une URL relative lève une erreur
+   qui arrêtait tout le script au démarrage (accueil vide, images absentes) : on passe par l'URL complète, puis location.replace. */
+function safeReplaceHash(hh){
+  try{ history.replaceState(null, "", location.href.split("#")[0] + hh); return; }catch(_){}
+  try{ location.replace(hh); }catch(_){}
+}
+function closeDrawer(){
+  if(!$("#drawer").classList.contains("open")) return;
+  if(history.state && history.state.edDrawer){ history.back(); return; }   /* popstate → closeDrawerVisual() */
+  closeDrawerVisual();
+}
+/* Ferme le menu (en retirant son entrée d'historique), PUIS lance l'action :
+   sinon le Retour annulerait la page qu'on vient d'ouvrir (même logique que closeDrawerThen de l'Atelier). */
+function closeDrawerThen(cb){
+  if(!(history.state && history.state.edDrawer)){ closeDrawerVisual(); setTimeout(cb, 0); return; }
+  let done = false, t = null;
+  const run = ()=>{ if(done) return; done = true; removeEventListener("popstate", run); clearTimeout(t); setTimeout(cb, 40); };
+  addEventListener("popstate", run); t = setTimeout(run, 550);
+  history.back();
+}
+addEventListener("popstate", ()=>{ if($("#drawer").classList.contains("open") && !(history.state && history.state.edDrawer)) closeDrawerVisual(); });
+function closeDrawerVisual(){
+  if(!$("#drawer").classList.contains("open")) return;
+  $("#drawer").classList.remove("open"); $("#drawerOv").classList.remove("open");
+  $("#drawer").setAttribute("aria-hidden","true"); $("#btnMenu").setAttribute("aria-expanded","false");
+  document.body.classList.remove("no-scroll");
+  $("#drawerOv").hidden = true;   /* Fandom : le voile disparaît d'un coup (display:none) */
+  setTimeout(()=>{ if(!$("#drawer").classList.contains("open")) closeSubs(); }, 300);
+  if(drawerLastFocus && drawerLastFocus.focus) drawerLastFocus.focus({preventScroll:true});
+}
+$("#btnMenu").addEventListener("click", ()=> $("#drawer").classList.contains("open") ? closeDrawer() : openDrawer());
+$("#drawerOv").addEventListener("click", closeDrawer);
+/* Liens du sommaire (page et tiroir) et liens du menu */
+document.addEventListener("click", e=>{
+  const a = e.target.closest("[data-toc]");
+  if(a){ e.preventDefault(); e.stopPropagation(); const id = a.dataset.toc;
+    if($("#drawer").classList.contains("open")) closeDrawerThen(()=>tocGo(id)); else tocGo(id);
+    return; }
+  const tg = e.target.closest("[data-toctoggle]");
+  if(tg){ const l = tg.nextElementSibling; l.hidden = !l.hidden; tg.setAttribute("aria-expanded", String(!l.hidden)); tg.classList.toggle("is-closed", l.hidden); return; }
+  if(!e.target.closest("#drawer")) return;
+  const ph = e.target.closest(".dpanel__head");
+  if(ph){ e.stopPropagation(); const pn = ph.closest(".dpanel"); setPanelOpen(pn, !pn.classList.contains("is-open")); return; }
+  const ds = e.target.closest("[data-dsub]");
+  if(ds){ e.stopPropagation(); const d = $("#dsub-"+ds.dataset.dsub); d.classList.add("open"); d.setAttribute("aria-hidden","false"); $("#drawer .drawer__main").inert = true; const b = d.querySelector(".dsub__back"); setTimeout(()=>b.focus({preventScroll:true}), 50); return; }
+  const db = e.target.closest("[data-dback]");
+  if(db){ e.stopPropagation(); const d = $("#dsub-"+db.dataset.dback); d.classList.remove("open"); d.setAttribute("aria-hidden","true"); $("#drawer .drawer__main").inert = false; return; }
+  if(e.target.closest("[data-dclose]")){ e.stopPropagation(); closeDrawer(); return; }
+  /* lien ou action du menu : on ferme d'abord le menu, puis on rejoue le clic (navigation, hasard, recherche, sous-catégorie) */
+  const act = e.target.closest("a, [data-gosub], [data-random], [data-search]");
+  if(act && $("#drawer").classList.contains("open")){ e.preventDefault(); e.stopPropagation(); closeDrawerThen(()=>act.click()); }
+}, true);
+
+/* Liens internes <a href="#/…"> : dans un aperçu en srcdoc (Arena), un lien relatif se résout contre l'adresse
+   de la page parente et chargerait une autre page dans le cadre. On change donc seulement le hash, ce qui marche partout. */
+document.addEventListener("click", e=>{
+  if(e.defaultPrevented || e.button || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
+  const a = e.target.closest('a[href^="#"]'); if(!a) return;
+  const h = a.getAttribute("href"); if(h === "#") return;
+  e.preventDefault(); closeExplore();
+  if(location.hash !== h) location.hash = h;
+});
+
+/* ============ ROUTEUR (hash) : #/  ·  #/lieux  ·  #/lieux/marais ============ */
+const scrolls = {};
+let current = "";
+function show(id){ ["#view-home","#view-cat","#view-art"].forEach(v=>$(v).hidden = v!==id); }
+function route(){
+  const full = location.hash.replace(/^#\/?/,""), cut = full.indexOf("#");
+  const h = cut<0 ? full : full.slice(0,cut);   /* la page (avant le 2e #) */
+  const anchor = curAnchor();                     /* la section (après le 2e #) */
+  /* Même fiche, seule la section change (sommaire, ou Retour après un saut) : on ne recharge pas la fiche.
+     Sans section, le navigateur remet tout seul la position d'avant. */
+  if(h === current && !$("#view-art").hidden){ if(anchor) goToSection(anchor); return; }
+  if(current) scrolls[current] = scrollY;
+  if(h !== current) setPanelOpen($("#dpWiki"), true);   /* Fandom : rubriques repliées oubliées au changement de page */
+  const [a,b] = h.split("/").map(decodeURIComponent);
+  current = h;
+  if(a && CATS[a] && b){
+    show("#view-art"); addVue(a+"/"+b); renderArticle(a+"/"+b);
+    if(anchor) requestAnimationFrame(()=>goToSection(anchor, true)); else scrollTo(0,0);
+    document.title = ((BYKEY[a+"/"+b]||{}).t||"Fiche")+" — Edenia";
+  } else if(a && CATS[a]){
+    $("#drawerToc").hidden = true; tocKey = null;
+    if(state.cat!==a) Object.assign(state,{cat:a, st:null, sub:"all", view:CATS[a].view||"list"});
+    show("#view-cat"); renderCat(); requestAnimationFrame(()=>scrollTo(0,scrolls[h]||0));
+    document.title = CATS[a].lbl+" — Edenia";
+  } else {
+    if(h) { safeReplaceHash("#/"); current = ""; }
+    $("#drawerToc").hidden = true; tocKey = null;
+    show("#view-home"); renderHome(); requestAnimationFrame(()=>scrollTo(0,scrolls[""]||0));
+    document.title = "Edenia — Atelier (brouillon)";
+  }
+}
+addEventListener("hashchange", route);
+
+/* ============ TIER LISTE INTERACTIVE (18 oct.) ============
+   Glisser une carte pour la déplacer (souris : tout de suite ; tactile : appui long, pour laisser le défilement libre).
+   Toucher une carte : fiche avec « Déplacer vers », image et détails.
+   Classement et images gardés dans le navigateur (localStorage). Dans un aperçu protégé, localStorage est refusé :
+   les changements restent en mémoire jusqu'à la fermeture. */
+const TIER_KEY = "edenia-tier-v1";
+const TIER_ROWS = [["S","Excellent"],["A","Bien"],["B","Moyen"],["C","Raté"],["pool","À classer"]];
+let tierMem = null, tierPage = null, tierSt = null, tierPersist = true;
+/* Écouteurs de fenêtre posés une seule fois ; ils appellent ceux de la tier liste affichée. */
+let tierPM = null, tierPU = null;
+addEventListener("pointermove", e=>{ tierPM && tierPM(e); });
+addEventListener("pointerup", e=>{ tierPU && tierPU(e); });
+function tierLoad(){ try{ const s = JSON.parse(localStorage.getItem(TIER_KEY)||"null"); if(s) return s; }catch(_){ tierPersist = false; } return tierMem; }
+function tierSave(){ tierMem = JSON.parse(JSON.stringify(tierSt)); try{ localStorage.setItem(TIER_KEY, JSON.stringify(tierSt)); tierPersist = true; }catch(_){ tierPersist = false; } tierNote(); }
+function tierDefault(p){ const o = {}; TIER_ROWS.forEach(([r])=>o[r]=[]); p.tier.forEach(c=>o[c.r].push(c.id)); return {order:o, imgs:{}, extra:[]}; }
+function tierCards(){ const m = {}; tierPage.tier.forEach(c=>m[c.id]=c); (tierSt.extra||[]).forEach(c=>m[c.id]=c); return m; }
+function tierPrepare(p){
+  let st = tierLoad(); if(!st || !st.order) st = tierDefault(p);
+  st.imgs = st.imgs||{}; st.extra = st.extra||[];
+  TIER_ROWS.forEach(([r])=>{ st.order[r] = st.order[r]||[]; });
+  const known = new Set([...p.tier.map(c=>c.id), ...st.extra.map(c=>c.id)]), placed = new Set();
+  Object.keys(st.order).forEach(r=>{ st.order[r] = st.order[r].filter(id=>known.has(id) && !placed.has(id) && placed.add(id)); });
+  p.tier.forEach(c=>{ if(!placed.has(c.id)) st.order[c.r].push(c.id); });
+  st.extra.forEach(c=>{ if(!placed.has(c.id)) st.order.pool.push(c.id); });
+  return st;
+}
+function tierInitials(n){ return String(n).split(/[\s-]+/).filter(Boolean).slice(0,2).map(w=>w[0].toUpperCase()).join(""); }
+function tierHue(id){ let h = 0; for(const ch of String(id)) h = (h*31 + ch.charCodeAt(0)) % 360; return h; }
+function tierCardHTML(c){
+  const img = tierSt.imgs[c.id];
+  return `<button type="button" class="tl-card" data-id="${esc(c.id)}" aria-label="${esc(c.nom)}">
+    <span class="tl-img${img?" has-img":""}" style="${img?`background-image:url('${img}')`:`--h:${tierHue(c.id)}`}">${img?"":esc(tierInitials(c.nom))}</span>
+    <span class="tl-name">${esc(c.nom)}</span></button>`;
+}
+function tierNote(){ const n = document.querySelector(".tl-note"); if(n) n.hidden = tierPersist; }
+function renderTier(){
+  const box = document.querySelector(".tl"); if(!box) return;
+  const cards = tierCards();
+  box.querySelector(".tl-rows").innerHTML = TIER_ROWS.map(([r,l])=>`
+    <div class="tl-row tier-${r}">
+      <div class="tl-lbl">${r==="pool"?`<small>${l}</small>`:`<b>${r}</b><small>${l}</small>`}</div>
+      <div class="tl-cards" data-drop="${r}">${tierSt.order[r].map(id=>cards[id]?tierCardHTML(cards[id]):"").join("")}</div>
+    </div>`).join("");
+  tierNote();
+}
+function mountTier(p){
+  const mount = document.querySelector("#artShell .tl-mount"); if(!mount) return;
+  tierPage = p; tierSt = tierPrepare(p);
+  const box = document.createElement("div");
+  box.className = "tl";
+  box.innerHTML = `
+    <div class="tl-bar">
+      <span class="tl-help">Glisse une carte pour la déplacer (sur téléphone : appui long, puis glisse). Touche une carte pour ajouter une image ou la déplacer.</span>
+      <span class="tl-btns"><button type="button" data-tl="add">+ Personnage</button><button type="button" data-tl="reset">Réinitialiser</button><button type="button" data-tl="shot">Capture</button></span>
+    </div>
+    <div class="tl-note" hidden>Aperçu protégé : tes changements ne seront pas gardés à la fermeture. Ouvre le fichier téléchargé dans ton navigateur pour les garder.</div>
+    <div class="tl-rows"></div>`;
+  (mount.closest("p")||mount).replaceWith(box);
+  renderTier();
+  tierBindDrag(box);
+  box.addEventListener("click", e=>{
+    const b = e.target.closest("[data-tl]");
+    if(b && b.dataset.tl==="reset"){ tierSheet({reset:true}); return; }
+    if(b && b.dataset.tl==="add"){ tierSheet({add:true}); return; }
+    if(b && b.dataset.tl==="shot"){ tierCaptureSheet(); return; }
+  });
+}
+/* ---- Glisser-déposer ---- */
+function tierBindDrag(box){
+  let card = null, ghost = null, dragging = false, timer = 0, sx = 0, sy = 0, lx = 0, ly = 0, raf = 0, mode = "";
+  const start = ()=>{
+    dragging = true; navigator.vibrate && navigator.vibrate(12);
+    const r = card.getBoundingClientRect();
+    ghost = card.cloneNode(true); ghost.classList.add("tl-ghost");
+    ghost.style.width = r.width+"px"; ghost.style.height = r.height+"px";
+    document.body.appendChild(ghost); card.classList.add("tl-dragging"); box.classList.add("is-dragging");
+    move(lx, ly); loop();
+  };
+  const loop = ()=>{ if(!dragging) return; if(ly < 80) scrollBy(0,-9); else if(ly > innerHeight-110) scrollBy(0,9); place(lx, ly); raf = requestAnimationFrame(loop); };
+  const move = (x,y)=>{ lx = x; ly = y; if(ghost){ ghost.style.transform = `translate(${x - ghost.offsetWidth/2}px, ${y - ghost.offsetHeight*0.6}px)`; } };
+  const place = (x,y)=>{
+    const el = document.elementFromPoint(x,y); if(!el) return;
+    const row = el.closest(".tl-row"); if(!row || !box.contains(row)) return;
+    const cont = row.querySelector(".tl-cards");
+    const over = el.closest(".tl-card");
+    if(over && over !== card && cont.contains(over)){
+      const r = over.getBoundingClientRect(), after = x > r.left + r.width/2;
+      const ref = after ? over.nextSibling : over;
+      if(ref !== card && card.nextSibling !== ref) cont.insertBefore(card, ref);
+    } else if(!over && card.parentNode !== cont) cont.appendChild(card);
+  };
+  const finish = ()=>{
+    cancelAnimationFrame(raf); clearTimeout(timer);
+    if(dragging){
+      box.querySelectorAll(".tl-cards").forEach(c=>{ tierSt.order[c.dataset.drop] = [...c.querySelectorAll(".tl-card")].map(x=>x.dataset.id); });
+      tierSave();
+    }
+    if(ghost) ghost.remove();
+    if(card) card.classList.remove("tl-dragging");
+    box.classList.remove("is-dragging");
+    const wasDrag = dragging; card = null; ghost = null; dragging = false; mode = "";
+    return wasDrag;
+  };
+  /* Tactile : appui long (260 ms) sans bouger ; si le doigt bouge avant, c'est un défilement normal. */
+  box.addEventListener("touchstart", e=>{
+    const c = e.target.closest(".tl-card"); if(!c || e.touches.length > 1) return;
+    card = c; mode = "touch"; const t = e.touches[0]; sx = lx = t.clientX; sy = ly = t.clientY;
+    timer = setTimeout(start, 260);
+  }, {passive:true});
+  box.addEventListener("touchmove", e=>{
+    if(mode !== "touch") return;
+    const t = e.touches[0];
+    if(!dragging){ if(Math.hypot(t.clientX-sx, t.clientY-sy) > 10){ clearTimeout(timer); card = null; mode = ""; } return; }
+    e.preventDefault(); move(t.clientX, t.clientY);
+  }, {passive:false});
+  box.addEventListener("touchend", e=>{
+    if(mode !== "touch") return;
+    const c = card, wasDrag = finish();
+    e.preventDefault();                      /* pas de clic fantôme après le toucher */
+    if(!wasDrag && c) tierSheet({id:c.dataset.id});
+  });
+  box.addEventListener("touchcancel", ()=>{ if(mode === "touch") finish(); });
+  /* Souris / stylet : on glisse dès 5 px */
+  box.addEventListener("pointerdown", e=>{
+    if(e.pointerType === "touch" || e.button !== 0) return;
+    const c = e.target.closest(".tl-card"); if(!c) return;
+    card = c; mode = "mouse"; sx = lx = e.clientX; sy = ly = e.clientY;
+  });
+  tierPM = e=>{
+    if(mode !== "mouse") return;
+    if(!dragging){ if(Math.hypot(e.clientX-sx, e.clientY-sy) > 5){ lx = e.clientX; ly = e.clientY; start(); } return; }
+    move(e.clientX, e.clientY);
+  };
+  tierPU = e=>{
+    if(mode !== "mouse") return;
+    const c = card, wasDrag = finish();
+    if(!wasDrag && c && document.body.contains(c)) tierSheet({id:c.dataset.id});
+  };
+  box.addEventListener("contextmenu", e=>{ if(e.target.closest(".tl-card")) e.preventDefault(); });
+  /* Clavier : Entrée ou Espace sur une carte ouvre sa fiche */
+  box.addEventListener("keydown", e=>{ const c = e.target.closest(".tl-card"); if(c && (e.key === "Enter" || e.key === " ")){ e.preventDefault(); tierSheet({id:c.dataset.id}); } });
+}
+/* ---- Fiche (feuille du bas) ---- */
+/* ---- Capture de la tier liste en image PNG (dessinée sur un canvas, sans bibliothèque externe) ---- */
+function tierLoadImg(src){ return new Promise(ok=>{ if(!src) return ok(null); const im = new Image(); im.onload = ()=>ok(im); im.onerror = ()=>ok(null); im.src = src; }); }
+function tierRound(g, x, y, w, h, r){ g.beginPath(); g.moveTo(x+r,y); g.arcTo(x+w,y,x+w,y+h,r); g.arcTo(x+w,y+h,x,y+h,r); g.arcTo(x,y+h,x,y,r); g.arcTo(x,y,x+w,y,r); g.closePath(); }
+function tierFit(g, t, max){ if(g.measureText(t).width <= max) return t; while(t.length > 1 && g.measureText(t+"…").width > max) t = t.slice(0,-1); return t+"…"; }
+async function tierCapture(){
+  const cards = tierCards(), css = getComputedStyle(document.documentElement);
+  const fontD = css.getPropertyValue("--fontd").trim() || "Georgia,serif";
+  const fontU = getComputedStyle(document.body).fontFamily || "sans-serif";
+  const colors = {S:"#ff7f7f", A:"#ffbf7f", B:"#ffdf7f", C:"#bfff7f", pool:"#3a332b"};
+  const W = 1080, PAD = 20, LBL = 130, CARD = 140, NAME = 34, GAP = 8, HEAD = 92, FOOT = 40;
+  const cols = Math.floor((W - PAD*2 - LBL - GAP + GAP) / (CARD + GAP));
+  /* La ligne « À classer » n'apparaît sur l'image que si elle contient des cartes. */
+  const rows = TIER_ROWS.filter(([r])=>r !== "pool" || tierSt.order.pool.length).map(([r,l])=>{
+    const ids = tierSt.order[r].filter(id=>cards[id]);
+    const lines = Math.max(1, Math.ceil(ids.length / cols));
+    return {r, l, ids, h: GAP + lines*(CARD+NAME+GAP)};
+  });
+  const H = HEAD + rows.reduce((s,x)=>s+x.h+4, 0) + FOOT;
+  const imgs = {}; await Promise.all(Object.keys(cards).map(async id=>{ imgs[id] = await tierLoadImg(tierSt.imgs[id]); }));
+  const cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+  const g = cv.getContext("2d");
+  g.fillStyle = "#0a0908"; g.fillRect(0,0,W,H);
+  g.fillStyle = "#f3ead8"; g.font = `700 34px ${fontD}`; g.textBaseline = "middle";
+  g.fillText("Tier liste des tags de personnages", PAD, 38);
+  g.fillStyle = "#a89d8a"; g.font = `500 18px ${fontU}`;
+  g.fillText("Qualité des tags dans PixAI · Edenia", PAD, 70);
+  let y = HEAD;
+  rows.forEach(row=>{
+    g.fillStyle = "#1a1714"; g.fillRect(PAD, y, W-PAD*2, row.h);
+    g.fillStyle = colors[row.r]; g.fillRect(PAD, y, LBL, row.h);
+    g.textAlign = "center"; g.fillStyle = row.r === "pool" ? "#f3ead8" : "#17130f";
+    if(row.r === "pool"){ g.font = `800 17px ${fontU}`; g.fillText(row.l.toUpperCase(), PAD+LBL/2, y+row.h/2); }
+    else { g.font = `700 52px ${fontD}`; g.fillText(row.r, PAD+LBL/2, y+row.h/2-12); g.font = `800 14px ${fontU}`; g.fillText(row.l.toUpperCase(), PAD+LBL/2, y+row.h/2+30); }
+    row.ids.forEach((id,i)=>{
+      const c = cards[id], x = PAD + LBL + GAP + (i % cols)*(CARD+GAP), cy = y + GAP + Math.floor(i/cols)*(CARD+NAME+GAP);
+      g.save(); tierRound(g, x, cy, CARD, CARD+NAME, 8); g.clip();
+      g.fillStyle = "#26211c"; g.fillRect(x, cy, CARD, CARD+NAME);
+      const im = imgs[id];
+      if(im){ const k = Math.max(CARD/im.width, CARD/im.height), w = im.width*k, h = im.height*k; g.drawImage(im, x+(CARD-w)/2, cy+(CARD-h)/2, w, h); }
+      else {
+        const hue = tierHue(id), gr = g.createLinearGradient(x, cy, x+CARD, cy+CARD);
+        gr.addColorStop(0, `hsl(${hue} 45% 38%)`); gr.addColorStop(1, `hsl(${hue+40} 40% 22%)`);
+        g.fillStyle = gr; g.fillRect(x, cy, CARD, CARD);
+        g.fillStyle = "#fff"; g.font = `700 42px ${fontD}`; g.fillText(tierInitials(c.nom), x+CARD/2, cy+CARD/2);
+      }
+      g.fillStyle = "#f3ead8"; g.font = `700 15px ${fontU}`; g.fillText(tierFit(g, c.nom, CARD-10), x+CARD/2, cy+CARD+NAME/2);
+      g.restore();
+    });
+    g.textAlign = "left"; y += row.h + 4;
+  });
+  g.fillStyle = "#7d7364"; g.font = `500 14px ${fontU}`;
+  g.fillText("Classement : avis de l'auteur · " + new Date().toLocaleDateString("fr-FR"), PAD, H - FOOT/2);
+  return cv;
+}
+async function tierCaptureSheet(){
+  tierClose();
+  const cv = await tierCapture();
+  const url = cv.toDataURL("image/png");
+  const name = "tier-liste-edenia-" + new Date().toISOString().slice(0,10) + ".png";
+  const s = document.createElement("div");
+  s.className = "tl-sheet";
+  s.innerHTML = `<div class="tl-sheet__in" role="dialog" aria-modal="true">
+    <h3>Capture de la tier liste</h3>
+    <img class="tl-shot" src="${url}" alt="Capture de la tier liste">
+    <p class="tl-sub">Si « Télécharger » ne fait rien (ça peut arriver dans l'aperçu d'Arena), fais un appui long sur l'image puis « Télécharger l'image », si ton navigateur le propose.</p>
+    <div class="tl-acts">
+      <a class="tl-dl is-main" href="${url}" download="${name}">Télécharger</a>
+      <button type="button" data-a="share" hidden>Partager</button>
+      <button type="button" data-a="close">Fermer</button>
+    </div></div>`;
+  document.body.appendChild(s); document.body.classList.add("no-scroll");
+  const sh = s.querySelector("[data-a=share]");
+  cv.toBlob(b=>{
+    if(!b) return;
+    try{ const f = new File([b], name, {type:"image/png"}); if(navigator.canShare && navigator.canShare({files:[f]})){ sh.hidden = false; sh.onclick = ()=>navigator.share({files:[f], title:"Tier liste Edenia"}).catch(()=>{}); } }catch(_){}
+  }, "image/png");
+  s.addEventListener("click", e=>{ if(e.target === s || e.target.closest("[data-a=close]")) tierClose(); });
+}
+function tierClose(){ const s = document.querySelector(".tl-sheet"); if(s) s.remove(); document.body.classList.remove("no-scroll"); }
+function tierSheet(o){
+  tierClose();
+  const cards = tierCards();
+  let body = "";
+  if(o.reset){
+    body = `<h3>Réinitialiser ?</h3><p>Les cartes reviennent à ton classement du 18 oct. Les images ajoutées sont gardées.</p>
+      <div class="tl-acts"><button type="button" data-a="doReset" class="is-main">Réinitialiser</button><button type="button" data-a="close">Annuler</button></div>`;
+  } else if(o.add){
+    body = `<h3>Ajouter un personnage</h3>
+      <label>Nom<input type="text" id="tlNom" maxlength="40" autocomplete="off"></label>
+      <label>Œuvre<input type="text" id="tlOeuvre" maxlength="40" autocomplete="off"></label>
+      <div class="tl-acts"><button type="button" data-a="doAdd" class="is-main">Ajouter dans « À classer »</button><button type="button" data-a="close">Annuler</button></div>`;
+  } else {
+    const c = cards[o.id]; if(!c) return;
+    const cur = TIER_ROWS.find(([r])=>tierSt.order[r].includes(c.id));
+    const img = tierSt.imgs[c.id];
+    body = `<div class="tl-head">${tierCardHTML(c).replace('class="tl-card"','class="tl-card is-static" tabindex="-1"')}<div><h3>${esc(c.nom)}</h3>${c.oeuvre?`<p class="tl-sub">${esc(c.oeuvre)}</p>`:""}</div></div>
+      ${c.ecr?`<p>À écrire dans PixAI : <code>${esc(c.ecr)}</code></p><p class="tl-sub">Tag Danbooru <code>${esc(c.tag)}</code> · ${c.n} images, dont ${c.g} tout public</p>`:`<p class="tl-sub">Personnage ajouté par toi.</p>`}
+      <p class="tl-lab">Déplacer vers</p>
+      <div class="tl-move">${TIER_ROWS.map(([r,l])=>`<button type="button" data-a="move" data-r="${r}" class="tier-${r}${cur&&cur[0]===r?" is-cur":""}">${r==="pool"?l:r}</button>`).join("")}</div>
+      <div class="tl-acts">
+        <label class="tl-file">${img?"Changer l'image":"Ajouter une image"}<input type="file" accept="image/*" data-a="file"></label>
+        ${img?`<button type="button" data-a="noimg">Retirer l'image</button>`:""}
+        ${c.ecr?"":`<button type="button" data-a="del">Supprimer</button>`}
+        <button type="button" data-a="close">Fermer</button>
+      </div>`;
+  }
+  const s = document.createElement("div");
+  s.className = "tl-sheet"; s.innerHTML = `<div class="tl-sheet__in" role="dialog" aria-modal="true">${body}</div>`;
+  document.body.appendChild(s); document.body.classList.add("no-scroll");
+  const first = s.querySelector("input[type=text]") || s.querySelector("button"); first && first.focus({preventScroll:true});
+  s.addEventListener("click", e=>{
+    if(e.target === s){ tierClose(); return; }
+    const b = e.target.closest("[data-a]"); if(!b || b.tagName === "INPUT") return;
+    const a = b.dataset.a;
+    if(a === "close"){ tierClose(); return; }
+    if(a === "doReset"){ const keep = tierSt.imgs, extra = tierSt.extra; tierSt = tierDefault(tierPage); tierSt.imgs = keep; tierSt.extra = extra; extra.forEach(c=>tierSt.order.pool.push(c.id)); tierSave(); renderTier(); tierClose(); return; }
+    if(a === "doAdd"){
+      const nom = s.querySelector("#tlNom").value.trim(); if(!nom){ s.querySelector("#tlNom").focus(); return; }
+      const id = "perso-" + Date.now().toString(36);
+      tierSt.extra.push({id, nom, oeuvre:s.querySelector("#tlOeuvre").value.trim()}); tierSt.order.pool.push(id);
+      tierSave(); renderTier(); tierClose(); return;
+    }
+    if(a === "move"){ Object.keys(tierSt.order).forEach(r=>{ tierSt.order[r] = tierSt.order[r].filter(x=>x!==o.id); }); tierSt.order[b.dataset.r].push(o.id); tierSave(); renderTier(); tierClose(); return; }
+    if(a === "noimg"){ delete tierSt.imgs[o.id]; tierSave(); renderTier(); tierClose(); return; }
+    if(a === "del"){ tierSt.extra = tierSt.extra.filter(c=>c.id!==o.id); Object.keys(tierSt.order).forEach(r=>{ tierSt.order[r] = tierSt.order[r].filter(x=>x!==o.id); }); delete tierSt.imgs[o.id]; tierSave(); renderTier(); tierClose(); return; }
+  });
+  const f = s.querySelector("input[type=file]");
+  if(f) f.addEventListener("change", ()=>{
+    const file = f.files && f.files[0]; if(!file) return;
+    const rd = new FileReader();
+    rd.onload = ()=>{
+      const im = new Image();
+      im.onload = ()=>{
+        /* Carré de 200 px, recadré au centre comme une case TierMaker, en JPEG léger (environ 10 à 20 Ko). */
+        const S = 200, cv = document.createElement("canvas"); cv.width = cv.height = S;
+        const k = Math.max(S/im.width, S/im.height), w = im.width*k, h = im.height*k;
+        cv.getContext("2d").drawImage(im, (S-w)/2, (S-h)/2, w, h);
+        tierSt.imgs[o.id] = cv.toDataURL("image/jpeg", 0.82);
+        tierSave(); renderTier(); tierClose();
+      };
+      im.src = rd.result;
+    };
+    rd.readAsDataURL(file);
+  });
+}
+addEventListener("keydown", e=>{ if(e.key === "Escape" && document.querySelector(".tl-sheet")) tierClose(); });
+addEventListener("hashchange", tierClose);
+
+/* ============ ÉVÉNEMENTS ============ */
+document.addEventListener("click", e=>{
+  if(!e.target.closest(".fx-dd, .fx-dd__menu")) closeExplore();
+  const t = e.target.closest("[data-tab],[data-sub],[data-view],[data-go],[data-gosub],[data-gost],[data-back],[data-lb],[data-az],[data-toast],[data-random],[data-search],[data-reroll],[data-requote],[data-dd],#fxExplore,#reset");
+  if(!t) return;
+  if(t.id==="fxExplore"){ toggleDD($("#fxExploreMenu"), t); return; }
+  if(t.dataset.dd){ toggleDD($("#dd-"+t.dataset.dd), t); return; }
+  if(t.dataset.reroll!==undefined){ renderRandom(); return; }
+  if(t.dataset.requote!==undefined){ renderQuote(); return; }
+  if(t.dataset.random!==undefined){ closeExplore(); const pool=PAGES.filter(x=>x.cat!=="tests"); const p=pool[Math.floor(Math.random()*pool.length)]; location.hash="#/"+key(p); return; }
+  if(t.dataset.search!==undefined){ closeExplore(); openSearch(); return; }
+  if(t.dataset.gosub){ const [c,sb] = t.dataset.gosub.split(":"); Object.assign(state,{cat:c, sub:sb, st:null, view:CATS[c].view||"list"}); location.hash = "#/"+c; return; }
+  if(t.dataset.gost){ const [c,sv] = t.dataset.gost.split(":"); Object.assign(state,{cat:c, sub:"all", st:sv, view:CATS[c].view||"list"}); location.hash = "#/"+c; return; }
+  if(t.dataset.tab){state.tab = t.dataset.tab; renderTop($("#topBody"), inCat(), false);}
+  else if(t.dataset.sub){state.sub = t.dataset.sub; if(state.st && !inCat().some(p=>p.st===state.st&&(state.sub==="all"||p.sub===state.sub))) state.st=null; renderControls(); renderResults();}
+  else if(t.dataset.view){state.view = t.dataset.view; renderControls(); renderResults();}
+  else if(t.dataset.go){closeSearch(); location.hash = "#/"+t.dataset.go;}
+  else if(t.dataset.back){ location.hash="#/"+t.dataset.back; }
+  else if(t.dataset.lb){openLb(t.dataset.lb,t.dataset.cap);}
+  else if(t.dataset.az){document.getElementById("az-"+t.dataset.az)?.scrollIntoView({behavior:"smooth",block:"start"});}
+  else if(t.dataset.toast){e.preventDefault(); toast(t.dataset.toast);}
+  else if(t.id==="reset"){Object.assign(state,{st:null,sub:"all"}); renderControls(); renderResults();}
+});
+$("#fst").addEventListener("change", e=>{state.st = e.target.value||null; renderResults();});
+$("#sort").addEventListener("change", e=>{state.sort = e.target.value; renderResults();});
+/* Recherche du site : la loupe de la barre du haut */
+function renderSearch(){
+  const q = norm($("#sq").value.trim());
+  const ls = q ? PAGES.filter(p=>norm(p.t+" "+strip(p.ex)+" "+strip(p.lead)).includes(q)).sort(byAlpha) : [];
+  $("#sres").innerHTML = !q ? "" : ls.length ? ls.slice(0,40).map(p=>topCard(p, esc((CATS[p.cat].subs[p.sub]||{lbl:""}).lbl), true)).join("") : `<div class="top__empty">Aucun résultat.</div>`;
+}
+/* Menus déroulants de la barre du haut (Explorer + les 3 entrées) : un seul ouvert à la fois ; position fixe sous le bouton. */
+let ddOpen = null, ddTimer = 0;
+function toggleDD(m, btn){ if(!m) return; const open = m.hidden; closeExplore(); if(open){ m.hidden = false; ddOpen = {m, btn, it:btn.closest(".fx-dd")}; btn.setAttribute("aria-expanded","true"); placeExplore(); } }
+function closeExplore(){ if(!ddOpen) return; ddOpen.m.hidden = true; ddOpen.btn.setAttribute("aria-expanded","false"); ddOpen = null; }
+/* Souris : le menu s'ouvre au survol de l'entrée, comme sur Fandom */
+document.addEventListener("pointerover", e=>{ if(e.pointerType!=="mouse") return; if(ddOpen && ddOpen.m.contains(e.target)){ clearTimeout(ddTimer); return; } const it = e.target.closest(".fx-dd[data-hover]"); if(!it) return; clearTimeout(ddTimer); if(!ddOpen || ddOpen.it!==it){ const b = it.querySelector("[data-dd]"); toggleDD($("#dd-"+b.dataset.dd), b); } });
+document.addEventListener("pointerout", e=>{ if(e.pointerType!=="mouse" || !ddOpen || !ddOpen.it.hasAttribute("data-hover")) return; if(ddOpen.it.contains(e.relatedTarget) || ddOpen.m.contains(e.relatedTarget)) return; clearTimeout(ddTimer); ddTimer = setTimeout(closeExplore, 180); });
+function openSearch(){ $("#sbox").hidden = false; $("#sq").focus(); renderSearch(); }
+function closeSearch(){ $("#sbox").hidden = true; }
+$("#tbSearch").addEventListener("click", openSearch);
+$("#sq").addEventListener("input", renderSearch);
+$("#sbox").addEventListener("click", e=>{ if(e.target.id==="sbox") closeSearch(); });
+function openLb(k,c){$("#lbImg").src=IMG[k]; $("#lbImg").alt=c||""; $("#lbCap").textContent=c||""; $("#lb").hidden=false; $("#lbClose").focus();}
+function closeLb(){$("#lb").hidden=true;}
+$("#lbClose").addEventListener("click", closeLb);
+$("#lb").addEventListener("click", e=>{ if(e.target.id==="lb") closeLb(); });
+function placeExplore(){ if(!ddOpen) return; const m = ddOpen.m, r = ddOpen.it.getBoundingClientRect(); if(r.bottom<0||r.top>innerHeight){ closeExplore(); return; } m.style.top=r.bottom+"px"; m.style.left=Math.max(8, Math.min(r.left, innerWidth - m.offsetWidth - 8))+"px"; }
+addEventListener("scroll", placeExplore, {passive:true}); addEventListener("resize", placeExplore);
+addEventListener("keydown", e=>{ if(e.key==="Escape" && $("#drawer").classList.contains("open")){ closeDrawer(); return; } if(e.key==="Escape"){ closeExplore(); if(!$("#sbox").hidden) closeSearch(); else if(!$("#lb").hidden) closeLb(); else if(!$("#view-art").hidden) history.back(); } });
+let tt; function toast(m){const t=$("#toast"); t.textContent=m; t.classList.add("show"); clearTimeout(tt); tt=setTimeout(()=>t.classList.remove("show"),2200);}
+
+if(!location.hash) safeReplaceHash("#/");
+if(history.state && history.state.edDrawer){ try{ history.replaceState(null,"",location.href); }catch(_){} }   /* rechargé menu ouvert */
+route();
+</script>
+</body>
+</html>

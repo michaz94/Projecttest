@@ -1,0 +1,732 @@
+{
+ "muffet": {
+  "retenu": [
+   "muffet",
+   577,
+   4
+  ],
+  "essais": [
+   [
+    "muffet",
+    "muffet",
+    577
+   ]
+  ]
+ },
+ "ty_lee": {
+  "retenu": [
+   "ty_lee",
+   305,
+   4
+  ],
+  "essais": [
+   [
+    "ty_lee",
+    "ty_lee",
+    305
+   ]
+  ]
+ },
+ "magik_(illyana_rasputin)": {
+  "retenu": [
+   "magik_(x-men)",
+   1113,
+   4
+  ],
+  "essais": [
+   [
+    "magik_(marvel)",
+    "magik_(marvel)",
+    null
+   ],
+   [
+    "illyana_rasputin",
+    "illyana_rasputin",
+    0
+   ]
+  ]
+ },
+ "surge_the_tenrec": {
+  "retenu": [
+   "surge_the_tenrec",
+   181,
+   4
+  ],
+  "essais": [
+   [
+    "surge_the_tenrec",
+    "surge_the_tenrec",
+    181
+   ]
+  ]
+ },
+ "fujiwara_chika": {
+  "retenu": [
+   "fujiwara_chika",
+   2285,
+   4
+  ],
+  "essais": [
+   [
+    "fujiwara_chika",
+    "fujiwara_chika",
+    2285
+   ]
+  ]
+ },
+ "juno_(overwatch)": {
+  "retenu": [
+   "juno_(overwatch)",
+   336,
+   4
+  ],
+  "essais": [
+   [
+    "juno_(overwatch)",
+    "juno_(overwatch)",
+    336
+   ]
+  ]
+ },
+ "sakura_kasugano": {
+  "retenu": [
+   "kasugano_sakura",
+   2091,
+   4
+  ],
+  "essais": [
+   [
+    "kasugano_sakura",
+    "kasugano_sakura",
+    2091
+   ]
+  ]
+ },
+ "samui": {
+  "retenu": [
+   "samui_(naruto)",
+   161,
+   4
+  ],
+  "essais": [
+   [
+    "samui_(naruto)",
+    "samui_(naruto)",
+    161
+   ]
+  ]
+ },
+ "jaina_proudmoore": {
+  "retenu": [
+   "jaina_proudmoore",
+   113,
+   4
+  ],
+  "essais": [
+   [
+    "jaina_proudmoore",
+    "jaina_proudmoore",
+    113
+   ]
+  ]
+ },
+ "nakano_miku": {
+  "retenu": [
+   "nakano_miku",
+   4188,
+   4
+  ],
+  "essais": [
+   [
+    "nakano_miku",
+    "nakano_miku",
+    4188
+   ]
+  ]
+ },
+ "luna_snow": {
+  "retenu": [
+   "luna_snow",
+   710,
+   4
+  ],
+  "essais": [
+   [
+    "luna_snow",
+    "luna_snow",
+    710
+   ]
+  ]
+ },
+ "corrin_(fire_emblem)_(female)": {
+  "retenu": [
+   "female_corrin_(fire_emblem)",
+   4861,
+   4
+  ],
+  "essais": [
+   [
+    "corrin_(female)_(fire_emblem)",
+    "female_corrin_(fire_emblem)",
+    4861
+   ]
+  ]
+ },
+ "april_o'neil": {
+  "retenu": [
+   "april_o'neil",
+   228,
+   4
+  ],
+  "essais": [
+   [
+    "april_o'neil",
+    "april_o'neil",
+    228
+   ]
+  ]
+ },
+ "gloria_(pokemon)": {
+  "retenu": [
+   "gloria_(pokemon)",
+   6880,
+   4
+  ],
+  "essais": [
+   [
+    "gloria_(pokemon)",
+    "gloria_(pokemon)",
+    6880
+   ]
+  ]
+ },
+ "kai'sa": {
+  "retenu": [
+   "kai'sa_(league)",
+   723,
+   4
+  ],
+  "essais": [
+   [
+    "kai'sa",
+    "kai'sa_(league)",
+    723
+   ]
+  ]
+ },
+ "rapunzel": {
+  "retenu": [
+   "rapunzel_(disney)",
+   555,
+   4
+  ],
+  "essais": [
+   [
+    "rapunzel_(disney)",
+    "rapunzel_(disney)",
+    555
+   ]
+  ]
+ },
+ "dexter's_mom": {
+  "retenu": null,
+  "essais": [
+   [
+    "dexter's_mom",
+    "dexter's_mom",
+    0
+   ]
+  ]
+ },
+ "esdeath_(akame_ga_kill!)": {
+  "retenu": [
+   "esdeath",
+   607,
+   4
+  ],
+  "essais": [
+   [
+    "esdeath",
+    "esdeath",
+    607
+   ]
+  ]
+ },
+ "tohru_(dragon_maid)": {
+  "retenu": [
+   "tohru_(maidragon)",
+   2274,
+   4
+  ],
+  "essais": [
+   [
+    "tohru_(maidragon)",
+    "tohru_(maidragon)",
+    2274
+   ]
+  ]
+ },
+ "riesz": {
+  "retenu": [
+   "riesz",
+   1511,
+   4
+  ],
+  "essais": [
+   [
+    "riesz",
+    "riesz",
+    1511
+   ]
+  ]
+ },
+ "annie_leonhardt": {
+  "retenu": [
+   "annie_leonhart",
+   1254,
+   4
+  ],
+  "essais": [
+   [
+    "annie_leonhart",
+    "annie_leonhart",
+    1254
+   ]
+  ]
+ },
+ "poison_(final_fight)": {
+  "retenu": [
+   "poison_(final_fight)",
+   862,
+   4
+  ],
+  "essais": [
+   [
+    "poison_(final_fight)",
+    "poison_(final_fight)",
+    862
+   ]
+  ]
+ },
+ "rey": {
+  "retenu": [
+   "rey_(star_wars)",
+   212,
+   4
+  ],
+  "essais": [
+   [
+    "rey_(star_wars)",
+    "rey_(star_wars)",
+    212
+   ]
+  ]
+ },
+ "pearl_(steven_universe)": {
+  "retenu": [
+   "pearl_(steven_universe)",
+   422,
+   4
+  ],
+  "essais": [
+   [
+    "pearl_(steven_universe)",
+    "pearl_(steven_universe)",
+    422
+   ]
+  ]
+ },
+ "tawna_bandicoot": {
+  "retenu": [
+   "tawna_bandicoot",
+   76,
+   4
+  ],
+  "essais": [
+   [
+    "tawna_bandicoot",
+    "tawna_bandicoot",
+    76
+   ]
+  ]
+ },
+ "shinomiya_kaguya": {
+  "retenu": [
+   "shinomiya_kaguya",
+   2588,
+   4
+  ],
+  "essais": [
+   [
+    "shinomiya_kaguya",
+    "shinomiya_kaguya",
+    2588
+   ]
+  ]
+ },
+ "jolyne_kujo": {
+  "retenu": [
+   "kujo_jolyne",
+   4499,
+   4
+  ],
+  "essais": [
+   [
+    "kujo_jolyne",
+    "kujo_jolyne",
+    4499
+   ]
+  ]
+ },
+ "gwen_(league_of_legends)": {
+  "retenu": [
+   "gwen_(league)",
+   1673,
+   4
+  ],
+  "essais": [
+   [
+    "gwen_(league_of_legends)",
+    "gwen_(league)",
+    1673
+   ]
+  ]
+ },
+ "marisa_kirisame": {
+  "retenu": [
+   "kirisame_marisa",
+   88710,
+   4
+  ],
+  "essais": [
+   [
+    "kirisame_marisa",
+    "kirisame_marisa",
+    88710
+   ]
+  ]
+ },
+ "unohana_retsu": {
+  "retenu": [
+   "unohana_retsu",
+   725,
+   4
+  ],
+  "essais": [
+   [
+    "unohana_retsu",
+    "unohana_retsu",
+    725
+   ]
+  ]
+ },
+ "undyne": {
+  "retenu": [
+   "undyne",
+   1036,
+   4
+  ],
+  "essais": [
+   [
+    "undyne",
+    "undyne",
+    1036
+   ]
+  ]
+ },
+ "irelia_xan": {
+  "retenu": [
+   "irelia_(league)",
+   538,
+   4
+  ],
+  "essais": [
+   [
+    "irelia_(league_of_legends)",
+    "irelia_(league_of_legends)",
+    0
+   ],
+   [
+    "irelia",
+    "irelia_(league)",
+    538
+   ]
+  ]
+ },
+ "ranma-chan": {
+  "retenu": [
+   "saotome_ranma_(female)",
+   4428,
+   4
+  ],
+  "essais": [
+   [
+    "ranma-chan",
+    "saotome_ranma_(female)",
+    4428
+   ]
+  ]
+ },
+ "reisen_udongein_inaba": {
+  "retenu": [
+   "reisen_udongein_inaba",
+   31587,
+   4
+  ],
+  "essais": [
+   [
+    "reisen_udongein_inaba",
+    "reisen_udongein_inaba",
+    31587
+   ]
+  ]
+ },
+ "amber_(genshin_impact)": {
+  "retenu": [
+   "amber_(genshin_impact)",
+   3450,
+   4
+  ],
+  "essais": [
+   [
+    "amber_(genshin_impact)",
+    "amber_(genshin_impact)",
+    3450
+   ]
+  ]
+ },
+ "master_tigress": {
+  "retenu": [
+   "tigress_(kung_fu_panda)",
+   83,
+   4
+  ],
+  "essais": [
+   [
+    "tigress_(kung_fu_panda)",
+    "tigress_(kung_fu_panda)",
+    83
+   ]
+  ]
+ },
+ "pyrrha_nikos": {
+  "retenu": [
+   "pyrrha_nikos",
+   741,
+   4
+  ],
+  "essais": [
+   [
+    "pyrrha_nikos",
+    "pyrrha_nikos",
+    741
+   ]
+  ]
+ },
+ "xayah": {
+  "retenu": [
+   "xayah_(league)",
+   586,
+   4
+  ],
+  "essais": [
+   [
+    "xayah",
+    "xayah_(league)",
+    586
+   ]
+  ]
+ },
+ "alisa_mikhailovna_kujou": {
+  "retenu": [
+   "alisa_mikhailovna_kujou",
+   1786,
+   4
+  ],
+  "essais": [
+   [
+    "alisa_mikhailovna_kujou",
+    "alisa_mikhailovna_kujou",
+    1786
+   ]
+  ]
+ },
+ "vex_(league_of_legends)": {
+  "retenu": [
+   "vex_(league)",
+   373,
+   4
+  ],
+  "essais": [
+   [
+    "vex_(league_of_legends)",
+    "vex_(league)",
+    373
+   ]
+  ]
+ },
+ "kirigaya_suguha": {
+  "retenu": [
+   "kirigaya_suguha",
+   2181,
+   4
+  ],
+  "essais": [
+   [
+    "kirigaya_suguha",
+    "kirigaya_suguha",
+    2181
+   ]
+  ]
+ },
+ "yukari_yakumo": {
+  "retenu": [
+   "yakumo_yukari",
+   39005,
+   4
+  ],
+  "essais": [
+   [
+    "yakumo_yukari",
+    "yakumo_yukari",
+    39005
+   ]
+  ]
+ },
+ "astrid_hofferson": {
+  "retenu": [
+   "astrid_hofferson",
+   186,
+   4
+  ],
+  "essais": [
+   [
+    "astrid_hofferson",
+    "astrid_hofferson",
+    186
+   ]
+  ]
+ },
+ "purah": {
+  "retenu": [
+   "purah",
+   1427,
+   4
+  ],
+  "essais": [
+   [
+    "purah",
+    "purah",
+    1427
+   ]
+  ]
+ },
+ "ariel": {
+  "retenu": [
+   "ariel_(disney)",
+   636,
+   4
+  ],
+  "essais": [
+   [
+    "ariel_(disney)",
+    "ariel_(disney)",
+    636
+   ]
+  ]
+ },
+ "ayase_seiko": {
+  "retenu": [
+   "ayase_seiko",
+   888,
+   4
+  ],
+  "essais": [
+   [
+    "ayase_seiko",
+    "ayase_seiko",
+    888
+   ]
+  ]
+ },
+ "valerie_(cyberpunk_2077)": {
+  "retenu": null,
+  "essais": [
+   [
+    "v_(cyberpunk)",
+    "v_(cyberpunk)",
+    344
+   ]
+  ]
+ },
+ "hilda_valentine_goneril": {
+  "retenu": [
+   "hilda_valentine_goneril",
+   3141,
+   4
+  ],
+  "essais": [
+   [
+    "hilda_valentine_goneril",
+    "hilda_valentine_goneril",
+    3141
+   ]
+  ]
+ },
+ "fionna_the_human_girl": {
+  "retenu": [
+   "fionna_campbell",
+   271,
+   4
+  ],
+  "essais": [
+   [
+    "fionna_campbell",
+    "fionna_campbell",
+    271
+   ]
+  ]
+ },
+ "wendy_corduroy": {
+  "retenu": [
+   "wendy_corduroy",
+   254,
+   4
+  ],
+  "essais": [
+   [
+    "wendy_corduroy",
+    "wendy_corduroy",
+    254
+   ]
+  ]
+ },
+ "haru_okumura": {
+  "retenu": [
+   "okumura_haru",
+   1594,
+   4
+  ],
+  "essais": [
+   [
+    "okumura_haru",
+    "okumura_haru",
+    1594
+   ]
+  ]
+ },
+ "haydee": {
+  "retenu": [
+   "haydee_(haydee)",
+   49,
+   4
+  ],
+  "essais": [
+   [
+    "haydee_(game)",
+    "haydee_(game)",
+    52
+   ]
+  ]
+ }
+}

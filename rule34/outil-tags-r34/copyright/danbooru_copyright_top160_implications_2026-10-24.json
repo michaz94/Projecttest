@@ -1,0 +1,904 @@
+[
+{
+"name": "original",
+"post_count": 1609389,
+"parents": []
+},
+{
+"name": "touhou",
+"post_count": 1111159,
+"parents": []
+},
+{
+"name": "kantai_collection",
+"post_count": 547569,
+"parents": []
+},
+{
+"name": "blue_archive",
+"post_count": 467991,
+"parents": []
+},
+{
+"name": "pokemon",
+"post_count": 419632,
+"parents": []
+},
+{
+"name": "fate_(series)",
+"post_count": 412343,
+"parents": []
+},
+{
+"name": "hololive",
+"post_count": 335034,
+"parents": []
+},
+{
+"name": "genshin_impact",
+"post_count": 321470,
+"parents": []
+},
+{
+"name": "fate/grand_order",
+"post_count": 309180,
+"parents": [
+"fate_(series)"
+]
+},
+{
+"name": "idolmaster",
+"post_count": 289752,
+"parents": []
+},
+{
+"name": "umamusume",
+"post_count": 244162,
+"parents": []
+},
+{
+"name": "arknights",
+"post_count": 236115,
+"parents": []
+},
+{
+"name": "vocaloid",
+"post_count": 212977,
+"parents": []
+},
+{
+"name": "honkai_(series)",
+"post_count": 194391,
+"parents": []
+},
+{
+"name": "azur_lane",
+"post_count": 159195,
+"parents": []
+},
+{
+"name": "honkai:_star_rail",
+"post_count": 137470,
+"parents": [
+"honkai_(series)"
+]
+},
+{
+"name": "idolmaster_cinderella_girls",
+"post_count": 137325,
+"parents": [
+"idolmaster"
+]
+},
+{
+"name": "love_live!",
+"post_count": 130309,
+"parents": []
+},
+{
+"name": "fire_emblem",
+"post_count": 129897,
+"parents": []
+},
+{
+"name": "zenless_zone_zero",
+"post_count": 123919,
+"parents": []
+},
+{
+"name": "hololive_english",
+"post_count": 116779,
+"parents": [
+"hololive"
+]
+},
+{
+"name": "final_fantasy",
+"post_count": 110503,
+"parents": []
+},
+{
+"name": "nijisanji",
+"post_count": 93557,
+"parents": []
+},
+{
+"name": "indie_virtual_youtuber",
+"post_count": 92515,
+"parents": []
+},
+{
+"name": "mahou_shoujo_madoka_magica",
+"post_count": 85536,
+"parents": []
+},
+{
+"name": "girls'_frontline",
+"post_count": 81352,
+"parents": []
+},
+{
+"name": "girls_und_panzer",
+"post_count": 74336,
+"parents": []
+},
+{
+"name": "gundam",
+"post_count": 72533,
+"parents": []
+},
+{
+"name": "precure",
+"post_count": 70060,
+"parents": []
+},
+{
+"name": "danganronpa_(series)",
+"post_count": 69909,
+"parents": []
+},
+{
+"name": "mahou_shoujo_madoka_magica_(anime)",
+"post_count": 60692,
+"parents": [
+"mahou_shoujo_madoka_magica"
+]
+},
+{
+"name": "bang_dream!",
+"post_count": 60389,
+"parents": []
+},
+{
+"name": "wuthering_waves",
+"post_count": 59549,
+"parents": []
+},
+{
+"name": "kemono_friends",
+"post_count": 58675,
+"parents": []
+},
+{
+"name": "one_piece",
+"post_count": 56191,
+"parents": []
+},
+{
+"name": "honkai_impact_3rd",
+"post_count": 55826,
+"parents": [
+"honkai_(series)"
+]
+},
+{
+"name": "jojo_no_kimyou_na_bouken",
+"post_count": 55818,
+"parents": []
+},
+{
+"name": "granblue_fantasy",
+"post_count": 53519,
+"parents": []
+},
+{
+"name": "project_moon",
+"post_count": 51872,
+"parents": []
+},
+{
+"name": "persona",
+"post_count": 51031,
+"parents": []
+},
+{
+"name": "goddess_of_victory:_nikke",
+"post_count": 49638,
+"parents": []
+},
+{
+"name": "chainsaw_man",
+"post_count": 47099,
+"parents": []
+},
+{
+"name": "idolmaster_shiny_colors",
+"post_count": 46567,
+"parents": [
+"idolmaster"
+]
+},
+{
+"name": "boku_no_hero_academia",
+"post_count": 45928,
+"parents": []
+},
+{
+"name": "yu-gi-oh!",
+"post_count": 45229,
+"parents": []
+},
+{
+"name": "idolmaster_(classic)",
+"post_count": 44791,
+"parents": [
+"idolmaster"
+]
+},
+{
+"name": "fate/stay_night",
+"post_count": 44314,
+"parents": [
+"fate_(series)"
+]
+},
+{
+"name": "final_fantasy_vii",
+"post_count": 42501,
+"parents": [
+"final_fantasy"
+]
+},
+{
+"name": "bang_dream!_it's_mygo!!!!!",
+"post_count": 41544,
+"parents": [
+"bang_dream!"
+]
+},
+{
+"name": "the_legend_of_zelda",
+"post_count": 39698,
+"parents": []
+},
+{
+"name": "love_live!_school_idol_project",
+"post_count": 39197,
+"parents": [
+"love_live!"
+]
+},
+{
+"name": "limbus_company",
+"post_count": 38961,
+"parents": [
+"project_moon"
+]
+},
+{
+"name": "love_live!_hasu_no_sora_jogakuin_school_idol_club",
+"post_count": 37646,
+"parents": [
+"love_live!"
+]
+},
+{
+"name": "neon_genesis_evangelion",
+"post_count": 36657,
+"parents": []
+},
+{
+"name": "league_of_legends",
+"post_count": 35590,
+"parents": []
+},
+{
+"name": "fire_emblem_heroes",
+"post_count": 35448,
+"parents": [
+"fire_emblem"
+]
+},
+{
+"name": "final_fantasy_xiv",
+"post_count": 35396,
+"parents": [
+"final_fantasy"
+]
+},
+{
+"name": "pokemon_sword_and_shield",
+"post_count": 35218,
+"parents": [
+"pokemon"
+]
+},
+{
+"name": "street_fighter",
+"post_count": 34533,
+"parents": []
+},
+{
+"name": "splatoon_(series)",
+"post_count": 33837,
+"parents": []
+},
+{
+"name": "idolmaster_million_live!",
+"post_count": 33721,
+"parents": [
+"idolmaster"
+]
+},
+{
+"name": "pokemon_scarlet_and_violet",
+"post_count": 33448,
+"parents": [
+"pokemon"
+]
+},
+{
+"name": "fire_emblem:_three_houses",
+"post_count": 32517,
+"parents": [
+"fire_emblem"
+]
+},
+{
+"name": "ragnarok_online",
+"post_count": 32416,
+"parents": []
+},
+{
+"name": "bocchi_the_rock!",
+"post_count": 32253,
+"parents": []
+},
+{
+"name": "project_sekai",
+"post_count": 32086,
+"parents": []
+},
+{
+"name": "mario_(series)",
+"post_count": 31708,
+"parents": []
+},
+{
+"name": "dragon_ball",
+"post_count": 30743,
+"parents": []
+},
+{
+"name": "marvel",
+"post_count": 30137,
+"parents": []
+},
+{
+"name": "utau",
+"post_count": 30103,
+"parents": []
+},
+{
+"name": "xenoblade_chronicles_(series)",
+"post_count": 29701,
+"parents": []
+},
+{
+"name": "gakuen_idolmaster",
+"post_count": 28463,
+"parents": [
+"idolmaster"
+]
+},
+{
+"name": "pokemon_(anime)",
+"post_count": 28350,
+"parents": [
+"pokemon"
+]
+},
+{
+"name": "toaru_majutsu_no_index",
+"post_count": 28256,
+"parents": []
+},
+{
+"name": "princess_connect!",
+"post_count": 27866,
+"parents": []
+},
+{
+"name": "sousou_no_frieren",
+"post_count": 27619,
+"parents": []
+},
+{
+"name": "k-on!",
+"post_count": 27589,
+"parents": []
+},
+{
+"name": "naruto_(series)",
+"post_count": 27522,
+"parents": []
+},
+{
+"name": "danganronpa_2:_goodbye_despair",
+"post_count": 27497,
+"parents": [
+"danganronpa_(series)"
+]
+},
+{
+"name": "lyrical_nanoha",
+"post_count": 25940,
+"parents": []
+},
+{
+"name": "world_witches_series",
+"post_count": 25885,
+"parents": []
+},
+{
+"name": "suzumiya_haruhi_no_yuuutsu",
+"post_count": 25743,
+"parents": []
+},
+{
+"name": "voiceroid",
+"post_count": 25481,
+"parents": []
+},
+{
+"name": "danganronpa_v3:_killing_harmony",
+"post_count": 25311,
+"parents": [
+"danganronpa_(series)"
+]
+},
+{
+"name": "jujutsu_kaisen",
+"post_count": 25227,
+"parents": []
+},
+{
+"name": "pokemon_sun_and_moon",
+"post_count": 25020,
+"parents": [
+"pokemon"
+]
+},
+{
+"name": "reverse:1999",
+"post_count": 24962,
+"parents": []
+},
+{
+"name": "omori",
+"post_count": 24580,
+"parents": []
+},
+{
+"name": "re:zero_kara_hajimeru_isekai_seikatsu",
+"post_count": 24424,
+"parents": []
+},
+{
+"name": "mega_man_(series)",
+"post_count": 24237,
+"parents": []
+},
+{
+"name": "love_live!_sunshine!!",
+"post_count": 23599,
+"parents": [
+"love_live!"
+]
+},
+{
+"name": "guilty_gear",
+"post_count": 23135,
+"parents": []
+},
+{
+"name": "bleach",
+"post_count": 22720,
+"parents": []
+},
+{
+"name": "fire_emblem_fates",
+"post_count": 22648,
+"parents": [
+"fire_emblem"
+]
+},
+{
+"name": "kono_subarashii_sekai_ni_shukufuku_wo!",
+"post_count": 22542,
+"parents": []
+},
+{
+"name": "fate/extra",
+"post_count": 22496,
+"parents": [
+"fate_(series)"
+]
+},
+{
+"name": "love_live!_nijigasaki_high_school_idol_club",
+"post_count": 22370,
+"parents": [
+"love_live!"
+]
+},
+{
+"name": "digimon",
+"post_count": 22325,
+"parents": []
+},
+{
+"name": "xenoblade_chronicles_2",
+"post_count": 21698,
+"parents": [
+"xenoblade_chronicles_(series)"
+]
+},
+{
+"name": "real_life",
+"post_count": 21656,
+"parents": []
+},
+{
+"name": "utdr_(toby_fox)",
+"post_count": 21597,
+"parents": []
+},
+{
+"name": "monogatari_(series)",
+"post_count": 21380,
+"parents": []
+},
+{
+"name": "tales_of_(series)",
+"post_count": 21063,
+"parents": []
+},
+{
+"name": "kimetsu_no_yaiba",
+"post_count": 21046,
+"parents": []
+},
+{
+"name": "dragon_quest",
+"post_count": 20664,
+"parents": []
+},
+{
+"name": "senran_kagura",
+"post_count": 20360,
+"parents": []
+},
+{
+"name": "overwatch",
+"post_count": 20268,
+"parents": []
+},
+{
+"name": "pokemon_black_and_white",
+"post_count": 20022,
+"parents": [
+"pokemon"
+]
+},
+{
+"name": "bishoujo_senshi_sailor_moon",
+"post_count": 19676,
+"parents": []
+},
+{
+"name": "sword_art_online",
+"post_count": 19374,
+"parents": []
+},
+{
+"name": "arknights:_endfield",
+"post_count": 19166,
+"parents": [
+"arknights"
+]
+},
+{
+"name": "sonic_(series)",
+"post_count": 18841,
+"parents": []
+},
+{
+"name": "persona_5",
+"post_count": 18153,
+"parents": [
+"persona"
+]
+},
+{
+"name": "final_fantasy_vii_remake",
+"post_count": 17926,
+"parents": [
+"final_fantasy_vii"
+]
+},
+{
+"name": "toaru_kagaku_no_railgun",
+"post_count": 17764,
+"parents": [
+"toaru_majutsu_no_index"
+]
+},
+{
+"name": "strike_witches",
+"post_count": 17737,
+"parents": [
+"world_witches_series"
+]
+},
+{
+"name": "touken_ranbu",
+"post_count": 17494,
+"parents": []
+},
+{
+"name": "pokemon_diamond/pearl/platinum",
+"post_count": 17324,
+"parents": [
+"pokemon"
+]
+},
+{
+"name": "fire_emblem_awakening",
+"post_count": 17292,
+"parents": [
+"fire_emblem"
+]
+},
+{
+"name": "fate/apocrypha",
+"post_count": 17288,
+"parents": [
+"fate_(series)"
+]
+},
+{
+"name": "science_adventure",
+"post_count": 17258,
+"parents": []
+},
+{
+"name": "nier_(series)",
+"post_count": 17211,
+"parents": []
+},
+{
+"name": "spy_x_family",
+"post_count": 17146,
+"parents": []
+},
+{
+"name": "gochuumon_wa_usagi_desu_ka?",
+"post_count": 17027,
+"parents": []
+},
+{
+"name": "nijisanji_en",
+"post_count": 17002,
+"parents": [
+"nijisanji"
+]
+},
+{
+"name": "the_king_of_fighters",
+"post_count": 16975,
+"parents": []
+},
+{
+"name": "tsukihime",
+"post_count": 16855,
+"parents": []
+},
+{
+"name": "touhou_(pc-98)",
+"post_count": 16825,
+"parents": [
+"touhou"
+]
+},
+{
+"name": "persona_3",
+"post_count": 16597,
+"parents": [
+"persona"
+]
+},
+{
+"name": "kill_la_kill",
+"post_count": 16494,
+"parents": []
+},
+{
+"name": "mahou_shoujo_no_majo_saiban",
+"post_count": 16467,
+"parents": []
+},
+{
+"name": "persona_4",
+"post_count": 16458,
+"parents": [
+"persona"
+]
+},
+{
+"name": "idolmaster_cinderella_girls_starlight_stage",
+"post_count": 16419,
+"parents": [
+"idolmaster_cinderella_girls"
+]
+},
+{
+"name": "alien_stage",
+"post_count": 16235,
+"parents": []
+},
+{
+"name": "fate/zero",
+"post_count": 16176,
+"parents": [
+"fate_(series)"
+]
+},
+{
+"name": "kirby_(series)",
+"post_count": 16033,
+"parents": []
+},
+{
+"name": "bang_dream!_girls_band_party!",
+"post_count": 15859,
+"parents": [
+"bang_dream!"
+]
+},
+{
+"name": "shingeki_no_kyojin",
+"post_count": 15552,
+"parents": []
+},
+{
+"name": "dc_comics",
+"post_count": 15395,
+"parents": []
+},
+{
+"name": "resident_evil",
+"post_count": 15207,
+"parents": []
+},
+{
+"name": "code_geass",
+"post_count": 15172,
+"parents": []
+},
+{
+"name": "nier:automata",
+"post_count": 15004,
+"parents": [
+"nier_(series)"
+]
+},
+{
+"name": "danganronpa:_trigger_happy_havoc",
+"post_count": 15000,
+"parents": [
+"danganronpa_(series)"
+]
+},
+{
+"name": "dungeon_meshi",
+"post_count": 14867,
+"parents": []
+},
+{
+"name": "lucky_star",
+"post_count": 14801,
+"parents": []
+},
+{
+"name": "pokemon_legends:_z-a",
+"post_count": 14752,
+"parents": [
+"pokemon"
+]
+},
+{
+"name": "neptune_(series)",
+"post_count": 14611,
+"parents": []
+},
+{
+"name": "idolmaster_million_live!_theater_days",
+"post_count": 14593,
+"parents": [
+"idolmaster_million_live!"
+]
+},
+{
+"name": "vspo!",
+"post_count": 14498,
+"parents": []
+},
+{
+"name": "overwatch_1",
+"post_count": 14467,
+"parents": []
+},
+{
+"name": "cho_kaguya-hime!",
+"post_count": 14414,
+"parents": []
+},
+{
+"name": "higurashi_no_naku_koro_ni",
+"post_count": 14197,
+"parents": []
+},
+{
+"name": "go-toubun_no_hanayome",
+"post_count": 14081,
+"parents": []
+},
+{
+"name": "saibou_shinkyoku",
+"post_count": 14008,
+"parents": []
+},
+{
+"name": "dragon_ball_z",
+"post_count": 13982,
+"parents": [
+"dragon_ball"
+]
+},
+{
+"name": "tokyo_afterschool_summoners",
+"post_count": 13971,
+"parents": []
+},
+{
+"name": "ranma_1/2",
+"post_count": 13789,
+"parents": []
+},
+{
+"name": "eiyuu_densetsu",
+"post_count": 13684,
+"parents": []
+},
+{
+"name": "elden_ring",
+"post_count": 13678,
+"parents": []
+},
+{
+"name": "ensemble_stars!",
+"post_count": 13648,
+"parents": []
+}
+]

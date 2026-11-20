@@ -1,0 +1,27 @@
+# dernier pid (count ≈ pid+21) ; 'vide' = 0 résultat ; 0 = une seule page (≤ 42) — 25/10/2026, pages 361-390
+miku_nakano -nakano_miku 0
+( magik_(marvel_rivals) ~ magik_(marvel_tokon) ~ magik_(infernal_idol) ~ magik_(punkchild) ~ magik_(darkchylde) ~ illyana_rasputin ) -magik_(illyana_rasputin) 84
+( luna_snow_(marvel_rivals) ~ luna_snow_(cool_summer) ) -luna_snow 0
+( tohru_(maidragon) ~ tohru_(miss_kobayashi's_dragon_maid) ) -tohru_(dragon_maid) 84
+kirisame_marisa -marisa_kirisame 294
+yakumo_yukari -yukari_yakumo 168
+( esdeath ~ esdeath_(akame_ga_kill) ) -esdeath_(akame_ga_kill!) 294
+( april_o'neil_(tmnt_1987) ~ april_o'neil_(tmnt_2012) ~ april_o'neil_(rise_of_the_tmnt) ~ april_o'neil_(tmnt_2003) ) -april_o'neil 0
+sakura_kasugano_(fortnite) -sakura_kasugano 0
+( rapunzel_(tangled) ~ rapunzel_tangled ~ rapunzel_(disney) ) -rapunzel 882
+tawna_bandicoot_(crash_4) -tawna_bandicoot 0
+jolyne_cujoh -jolyne_kujo vide
+( undyne_(deltarune) ~ undyne_(undertale) ) -undyne 0
+( purah_(tears_of_the_kingdom) ~ purah_(age_of_calamity) ~ purah_(breath_of_the_wild) ) -purah 0
+ariel_(the_little_mermaid) -ariel 1470
+( hilda_valentine_goneril_(summer) ~ (helping_hand) ~ (winter) ~ (timeskip) ) -hilda_valentine_goneril 0
+( fionna_the_human ~ fionna_campbell ) -fionna_the_human_girl 0
+( haru_okumura_(noir) ~ okumura_haru ) -haru_okumura 0
+( unohana_yachiru ~ retsu_unohana ) -unohana_retsu 0
+( leafa ~ leafa_(sao) ) -kirigaya_suguha 378
+# doublons d'entrées déjà retenues
+lena_oxton -tracer vide
+harley_quinn_(injustice) -harley_quinn 0
+( ashido_mina ~ ashido_mina_time-skip ) -mina_ashido 378   (≈ 399 : correspond au gain d'union de 420 déjà compté pour mina_ashido)
+pomni -pomni_(the_amazing_digital_circus) 0
+# e621 (API tags.json, 25/10/2026) : muffet 3 774 ; surge_the_tenrec 4 342 ; master_tigress 5 263 ; tawna_bandicoot 2 640 ; undyne 6 331 ; xayah 1 ; tohru_(dragon_maid) 470 ; vex_(league_of_legends) 6 ; reisen_udongein_inaba 319

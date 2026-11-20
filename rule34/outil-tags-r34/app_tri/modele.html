@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Top Personnages · Rule34 &amp; Danbooru</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#e1e7f5;font-family:Verdana,Arial,"Lucida Grande",sans-serif;font-size:11px;color:#323232;line-height:1.5}
+a{color:#1c439b;text-decoration:none}a:hover{text-decoration:underline}
+#wrap{max-width:1060px;margin:0 auto;background:#fff;min-height:100vh;box-shadow:0 0 6px rgba(0,0,0,.15)}
+/* en-tête façon MAL */
+#logo{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;background:#fff}
+#logo .l{font-family:Arial,sans-serif;font-weight:700;font-size:26px;letter-spacing:-1px;color:#2e51a2}
+#logo .l span{color:#4f74c8;font-weight:400}
+#logo .d{color:#888;font-size:10px;text-align:right}
+#nav{background:#2e51a2;display:flex;flex-wrap:wrap}
+#nav a{color:#fff;font-weight:700;font-size:12px;padding:8px 14px;cursor:pointer}
+#nav a:hover,#nav a.on{background:#4065ba;text-decoration:none}
+#crumb{padding:6px 14px;color:#888;font-size:10px;border-bottom:1px solid #ebebeb}
+h1{font-family:Avenir,"Lucida Grande",Arial,sans-serif;font-size:16px;margin:0;padding:10px 14px 6px;color:#000;font-weight:700;border-bottom:1px solid #e5e5e5}
+/* onglets */
+#tabs{display:flex;flex-wrap:wrap;gap:2px;padding:8px 14px 0;border-bottom:1px solid #bebebe}
+#tabs a{padding:5px 10px;font-size:11px;font-weight:700;color:#1c439b;border:1px solid transparent;border-bottom:none;margin-bottom:-1px;cursor:pointer;border-radius:2px 2px 0 0}
+#tabs a.on{background:#fff;border-color:#bebebe;color:#000}
+#tabs a small{color:#888;font-weight:400}
+#main{display:flex;gap:14px;padding:10px 14px 20px;align-items:flex-start}
+#content{flex:1;min-width:0}
+#side{width:250px;flex:none}
+/* barre site */
+#sitebar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-bottom:8px}
+#sitebar .lab{font-weight:700}
+.seg{display:inline-flex;border:1px solid #2e51a2;border-radius:3px;overflow:hidden}
+.seg button{border:0;background:#fff;color:#2e51a2;font:700 11px Verdana,Arial,sans-serif;padding:5px 10px;cursor:pointer}
+.seg button+button{border-left:1px solid #2e51a2}
+.seg button.on{background:#2e51a2;color:#fff}
+#count{margin-left:auto;color:#888}
+/* tableau */
+table.top{width:100%;border-collapse:collapse}
+table.top th{background:#2e51a2;color:#fff;font-weight:700;font-size:11px;padding:6px 6px;text-align:center;white-space:nowrap;cursor:pointer;user-select:none}
+table.top th.l{text-align:left}
+table.top th .ar{opacity:.7;font-size:9px}
+table.top td{border-bottom:1px solid #ebebeb;padding:8px 6px;vertical-align:middle;text-align:center}
+table.top tr:hover td{background:#f6f8fc}
+td.rk{width:64px;font-family:Avenir,"Lucida Grande",Arial,sans-serif;font-size:26px;font-weight:700;color:#888;line-height:1}
+td.rk.r1{color:#f2b200}td.rk.r2{color:#9aa4ad}td.rk.r3{color:#c4824b}
+table.top td.nm{text-align:left}
+.who{display:flex;align-items:center;gap:8px}
+.av{width:42px;height:56px;flex:none;border-radius:2px;display:flex;align-items:center;justify-content:center;color:#fff;font:700 15px Arial,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.25)}
+.who .t{font-size:12px;font-weight:700;cursor:pointer}
+.who .u{color:#555;font-size:10px}
+.who .k{color:#888;font-size:9px;font-family:Consolas,monospace;word-break:break-all}
+.tag{display:inline-block;font-size:9px;padding:0 4px;border-radius:2px;margin-left:3px;vertical-align:1px;font-weight:700}
+.tag.g{background:#e6f1e1;color:#3a7d24}.tag.m{background:#eef0f7;color:#4065ba}.tag.na{background:#f3f3f3;color:#888}.tag.e{background:#e8f4ea;color:#2f7a3b}
+#cpact{display:none;flex-wrap:wrap;gap:5px;padding:0 10px 8px}
+#cpact.on{display:flex}
+#cpact .lab{color:#555;font-weight:700;margin-right:2px;align-self:center}
+.cpa{display:inline-flex;align-items:center;gap:4px;border:1px solid;border-radius:12px;padding:2px 4px 2px 8px;font-size:10px;font-weight:700;cursor:pointer;background:#fff;user-select:none}
+.cpa.inc{border-color:#3a9b3a;color:#2e7d2e;background:#f0f8ef}
+.cpa.exc{border-color:#d23a3a;color:#b02a2a;background:#fdf1f1}
+.cpa .x{display:inline-flex;width:14px;height:14px;border-radius:50%;align-items:center;justify-content:center;font-size:11px;line-height:1;color:#666}
+.cpa .x:hover{background:rgba(0,0,0,.1);color:#000}
+.cpchip.clk{cursor:pointer}.cpchip.clk:hover{background:#eef1f8;border-color:#4065ba}
+.cpchip.on{background:#f0f8ef;border-color:#3a9b3a;color:#2e7d2e}
+.cpchip.med{font-family:Verdana,Arial,sans-serif}
+.cpg.med{flex-basis:190px}
+td.num{width:96px;font-size:12px;font-weight:700;color:#323232}
+td.num .bar{height:3px;background:#e1e7f5;margin-top:4px;border-radius:2px;overflow:hidden}
+td.num .bar i{display:block;height:100%}
+td.num .sub{font-size:9px;color:#888;font-weight:400}
+td.num.act{background:#fbfcff}
+td.md{width:84px;font-size:10px;color:#555}
+td.ra{width:70px;font-size:11px}
+.pager{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px;margin:12px 0 6px}
+.pager button{background:#fff;border:1px solid #bebebe;color:#1c439b;font:700 11px Verdana,Arial,sans-serif;min-width:28px;padding:4px 7px;cursor:pointer;border-radius:2px}
+.pager button.on{background:#2e51a2;border-color:#2e51a2;color:#fff;cursor:default}
+.pager button:disabled{color:#bbb;cursor:default}
+.pager .dots{color:#888;padding:0 2px}
+#pinfo{text-align:center;color:#888;font-size:10px;margin-bottom:8px}
+/* filtre Copyright façon « Content Filter » de MAL */
+#cpw{border:1px solid #d8dde8;border-radius:3px;margin-bottom:10px;background:#fafbfd}
+#cphd{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;padding:7px 10px;cursor:pointer;user-select:none}
+#cphd b{font-size:12px;color:#000}
+#cphd .hint{color:#555}
+#cphd .ok{color:#3a9b3a;font-weight:700}#cphd .no{color:#d23a3a;font-weight:700}
+#cphd a{cursor:pointer}
+#cphd .chev{margin-left:auto;color:#2e51a2;font-weight:700}
+#cpbody{display:none;padding:0 10px 10px}
+#cpw.open #cpbody{display:block}
+#cpmode{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-bottom:8px}
+#cpmode .seg button{padding:3px 8px;font-size:10px}
+#cpgrid{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px;align-items:flex-start}
+.cpg{flex:0 0 205px;border:1px solid #d8dde8;border-radius:2px;background:#fff}
+.cpg h4{margin:0;padding:6px 9px;font-size:11px;background:#eef1f8;border-bottom:1px solid #d8dde8;color:#000}
+.cpg ul{list-style:none;margin:0;padding:5px 6px 6px}
+.cpg li{display:flex;align-items:center;gap:6px;padding:3px 3px;cursor:pointer;border-radius:2px;line-height:1.3}
+.cpg li:hover{background:#f3f5fb}
+.cpg li .bx{flex:none;width:13px;height:13px;border:1px solid #9aa3b5;border-radius:2px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;background:#fff}
+.cpg li.inc .bx{border-color:#3a9b3a;color:#3a9b3a}
+.cpg li.exc .bx{border-color:#d23a3a;color:#d23a3a}
+.cpg li.exc .lb{text-decoration:line-through;color:#999}
+.cpg li .lb small{color:#888}
+.cpg .more{display:block;margin:2px 0 0 26px;font-size:10px;cursor:pointer}
+.cpchips{display:flex;flex-wrap:wrap;gap:4px}
+.cpchip{font-size:9px;border:1px solid #dfe4f0;border-radius:2px;padding:0 4px;color:#4065ba;background:#fff;font-family:Consolas,monospace}
+.empty{padding:30px;text-align:center;color:#888}
+/* barre latérale façon MAL */
+.box{margin-bottom:14px}
+.box h2{font-size:12px;font-weight:700;color:#000;margin:0 0 6px;padding-bottom:2px;border-bottom:1px solid #bebebe}
+.box label{display:block;font-weight:700;margin:7px 0 2px;color:#444}
+.box input[type=text],.box input[type=number],.box select{width:100%;font:11px Verdana,Arial,sans-serif;padding:4px;border:1px solid #bebebe;border-radius:2px;background:#fff}
+.box .rad{display:flex;gap:4px;flex-wrap:wrap}
+.box .rad button{flex:1;border:1px solid #bebebe;background:#f7f7f7;font:11px Verdana,Arial,sans-serif;padding:3px 4px;cursor:pointer;border-radius:2px;color:#323232}
+.box .rad button.on{background:#e1e7f5;border-color:#2e51a2;color:#2e51a2;font-weight:700}
+.btn{display:block;width:100%;margin-top:9px;background:#2e51a2;color:#fff;border:0;padding:6px;font:700 11px Verdana,Arial,sans-serif;border-radius:2px;cursor:pointer}
+.btn.lt{background:#fff;color:#2e51a2;border:1px solid #2e51a2}
+.stat{display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px dotted #ddd}
+.stat b{color:#000}
+.note{color:#666;font-size:10px}
+#ftog{display:none}
+/* fiche */
+#ov{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;align-items:center;justify-content:center;padding:12px;z-index:9}
+#ov.on{display:flex}
+#card{background:#fff;max-width:560px;width:100%;max-height:92vh;overflow:auto;border-radius:3px;box-shadow:0 4px 20px rgba(0,0,0,.3)}
+#card .hd{background:#2e51a2;color:#fff;padding:8px 12px;display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:13px}
+#card .hd button{background:none;border:0;color:#fff;font-size:18px;cursor:pointer;line-height:1}
+#card .bd{display:flex;gap:12px;padding:12px}
+#card .bd .av{width:90px;height:120px;font-size:30px}
+#card table{border-collapse:collapse;width:100%;font-size:11px}
+#card td{border-bottom:1px solid #ebebeb;padding:4px 3px;vertical-align:top}
+#card td:first-child{color:#555;font-weight:700;width:42%}
+#card .lk{padding:0 12px 12px;display:flex;gap:8px;flex-wrap:wrap}
+#card .lk a{border:1px solid #2e51a2;padding:4px 8px;border-radius:2px;font-weight:700}
+/* page Franchises */
+#fran{padding:0 0 20px}
+#fran .fb{padding:10px 14px 0}
+#fbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:10px}
+#fbar .lab{font-weight:700}
+#fbar input{font:11px Verdana,Arial,sans-serif;padding:4px 6px;border:1px solid #bebebe;border-radius:2px;width:190px}
+.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.fgrid h3{font-size:12px;margin:0 0 4px;color:#000}
+.fgrid h3 small{color:#888;font-weight:400}
+table.fr{width:100%;border-collapse:collapse}
+table.fr th{background:#2e51a2;color:#fff;font-size:11px;padding:5px 6px;text-align:center;white-space:nowrap}
+table.fr th{cursor:pointer;user-select:none}
+table.fr th .ar{opacity:.75;font-size:9px}
+table.fr td.tg{width:118px;font-weight:700}
+table.fr td.tg code{display:block;font:400 9px Consolas,monospace;color:#888;word-break:break-all;margin-top:2px}
+table.fr td.tg .bar{height:3px;background:#eee;margin-top:3px;border-radius:2px;overflow:hidden}
+table.fr td.tg .bar i{display:block;height:100%;background:#7f8c8d}
+table.fr th.l,table.fr td.l{text-align:left}
+table.fr td{border-bottom:1px solid #ebebeb;padding:6px;text-align:center;vertical-align:middle}
+table.fr tr.row{cursor:pointer}
+table.fr tr.row:hover td{background:#f6f8fc}
+table.fr td.rk{width:40px;font-size:18px}
+table.fr td.fn{font-weight:700;color:#1c439b;font-size:12px}
+table.fr td.fn .sx{display:block;font-weight:400;color:#888;font-size:9px}
+table.fr td.pb{width:110px;font-weight:700}
+table.fr td.pb .bar{height:3px;background:#e1e7f5;margin-top:3px;border-radius:2px;overflow:hidden}
+table.fr td.pb .bar i{display:block;height:100%}
+table.fr td.x{color:#555;font-size:10px;width:70px}
+table.fr tr.det td{background:#fafbfd;text-align:left;font-size:10px;color:#444;padding:6px 10px 9px}
+.chip{display:inline-block;border:1px solid #dfe4f0;background:#fff;border-radius:2px;padding:1px 5px;margin:2px 3px 2px 0}
+.chip.m{border-color:#c9d3ee;background:#eef0f7}.chip.a{border-color:#e3e3e3;background:#f3f3f3}
+.fcom{margin:12px 0 0;padding:8px 10px;background:#f6f8fc;border:1px solid #e1e7f5;border-radius:2px}
+#fran .note{margin-top:10px}
+@media (max-width:780px){.fgrid{grid-template-columns:1fr}table.fr td.x,table.fr th.x{display:none}#fbar input{width:100%}table.fr td,table.fr th{padding:5px 3px}table.fr td.tg,table.fr td.pb{width:auto}table.fr td.tg code{display:none}}
+/* page MyAnimeList */
+#mal{padding:10px 14px 20px}
+#mbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:8px}
+#mbar .lab{font-weight:700}
+#mbar input{font:11px Verdana,Arial,sans-serif;padding:4px 6px;border:1px solid #bebebe;border-radius:2px;width:190px}
+#msum{margin:0 0 6px;color:#555}
+table.fr td.mn{text-align:left}
+table.fr td.mn b{color:#1c439b;font-size:12px}
+table.fr td.mn .sx{display:block;color:#888;font-size:9px;margin-top:1px}
+table.fr td.mn .tag{margin-left:4px}
+table.fr tr.lnk{cursor:pointer}
+table.fr tr.lnk:hover td{background:#f6f8fc}
+table.fr td.mu{text-align:left;font-size:11px;color:#333}
+table.fr td.ms{width:44px}
+table.fr td.mf{width:120px;font-weight:700}
+table.fr td.mf .bar{height:3px;background:#e1e7f5;margin-top:3px;border-radius:2px;overflow:hidden}
+table.fr td.mf .bar i{display:block;height:100%;background:#2e51a2}
+table.fr td.mc{width:96px;font-size:11px}
+table.fr td.mc .sub{font-size:9px;color:#888}
+table.fr td.mc .no{color:#bbb}
+table.fr td.ml a{font-size:10px;font-weight:700;white-space:nowrap}
+@media (max-width:780px){table.fr td.mu,table.fr th.mu,table.fr td.ml,table.fr th.ml{display:none}#mbar input{width:100%}table.fr td.mf{width:auto}}
+footer{border-top:1px solid #e5e5e5;padding:10px 14px 18px;color:#777;font-size:10px}
+footer p{margin:4px 0}
+@media (max-width:780px){
+  #main{flex-direction:column;padding:8px}
+  #content{width:100%}
+  .cpg{flex-basis:180px}
+  #side{order:-1}
+  #side .extra{display:none}
+  #side.open .extra{display:block}
+  #side{width:100%}
+  #ftog{display:block;margin:0 0 8px}
+  #side .filters{display:none}
+  #side.open .filters{display:block}
+  td.md,th.md,td.ra,th.ra{display:none}
+  td.rk{width:40px;font-size:18px}
+  td.num{width:70px;font-size:11px}
+  .av{width:32px;height:42px;font-size:12px}
+  .who .k{display:none}
+  #logo .d{display:none}
+  #count{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="logo"><div class="l">Edenia<span>List</span></div><div class="d">Relevé du 24 octobre 2026<br>rule34.xxx · danbooru.donmai.us</div></div>
+  <div id="nav"><a class="on" data-v="top" data-l="r">Sélection Rule34</a><a data-v="top" data-l="d">Top Danbooru</a><a data-v="fran">Franchises</a><a data-v="mal">MyAnimeList</a><a data-v="meth">Méthode</a></div>
+  <div id="crumb">Personnages › <span id="crumbList">Sélection Rule34</span> › <span id="crumbSite">Rule34</span></div>
+  <h1 id="title">Sélection Rule34 · classée par Rule34</h1>
+  <div id="tabs"></div>
+  <div id="main">
+    <div id="content">
+      <div id="cpw" class="open">
+        <div id="cphd"><b>Filtre par tags</b><span class="hint">Clique une fois pour inclure <span class="ok">✓</span>, deux fois pour exclure <span class="no">✗</span></span><a id="cpclear">Tout effacer</a><span id="cpsum" class="note"></span><span class="chev" id="cpchev">▴</span></div>
+        <div id="cpact"></div>
+        <div id="cpbody">
+          <div id="cpmode"><span class="lab"><b>Tags inclus :</b></span><div class="seg" id="cpmodeSeg"><button data-m="ou" class="on">au moins un</button><button data-m="et">tous</button></div><span class="note">(appliqué séparément aux tags Médium et type et aux tags Copyright ; entre les deux, il faut les deux critères : Furry + Nintendo = personnages Furry de Nintendo)</span><span class="note">Groupe « Médium et type » : classement EdeniaList · autres groupes : tags de type Copyright de rule34.xxx · nombre de personnages de la liste entre parenthèses</span></div>
+          <div id="cpgrid"></div>
+        </div>
+      </div>
+      <div id="sitebar">
+        <span class="lab">Classer par :</span>
+        <div class="seg" id="siteSeg"><button data-s="r" class="on">Rule34</button><button data-s="d">Danbooru</button><button data-s="x">Écart</button></div>
+        <span id="count"></span>
+      </div>
+      <table class="top">
+        <thead><tr>
+          <th data-k="rank">Rang</th>
+          <th class="l" data-k="n">Personnage</th>
+          <th class="md" data-k="m">Médium</th>
+          <th data-k="r">Rule34</th>
+          <th data-k="d">Danbooru</th>
+          <th class="ra" data-k="x" title="Publications Danbooru pour 100 publications Rule34">Dan./R34</th>
+        </tr></thead>
+        <tbody id="tb"></tbody>
+      </table>
+      <div class="pager" id="pager"></div><div id="pinfo"></div>
+    </div>
+    <div id="side">
+      <button class="btn lt" id="ftog">Filtres et statistiques ▾</button>
+      <div class="filters">
+        <div class="box"><h2>Recherche</h2>
+          <input type="text" id="q" placeholder="Nom, œuvre ou tag…">
+        </div>
+        <div class="box"><h2>Filtres</h2>
+          <label>Sexe</label>
+          <div class="rad" id="sexe"><button data-v="" class="on">Tous</button><button data-v="F">Féminin</button><button data-v="M">Masculin</button></div>
+          <div id="espw"><label>Espèces <span class="note" style="font-weight:400">(liste Rule34)</span></label>
+          <div class="rad" id="esp"><button data-v="" class="on">Non</button><button data-v="1" id="espOui">Oui</button></div>
+          <div class="note" style="margin-top:3px">Ajoute les espèces au design défini d'une œuvre précise (Gardevoir, Twi'lek, Inkling…).</div></div>
+          <label for="fr">Œuvre / franchise</label>
+          <select id="fr"></select>
+          <label for="minr">Rule34 minimum</label>
+          <input type="number" id="minr" min="0" step="1000" placeholder="0">
+          <label for="mind">Danbooru minimum</label>
+          <input type="number" id="mind" min="0" step="500" placeholder="0">
+          <label>Doublons de tags</label>
+          <div class="rad" id="dup"><button data-v="" class="on">Tous</button><button data-v="g">Avec gain</button><button data-v="s">Tag seul</button></div>
+          <button class="btn" id="reset">Réinitialiser</button>
+          <button class="btn lt" id="csv">Exporter la vue (CSV)</button>
+        </div>
+      </div>
+      <div class="box extra"><h2>Statistiques de la vue</h2><div id="stats"></div></div>
+      <div class="box extra"><h2>Lecture</h2>
+        <p class="note"><b>Écart</b> : publications Danbooru pour 100 publications Rule34. Moyenne de la base ≈ <span id="avgx"></span>. Un écart élevé = personnage surtout dessiné dans le style anime/illustration ; un écart faible = surtout présent sur Rule34 (3D, comics, furry…).</p>
+        <p class="note">Les nombres de Danbooru comptent toutes les images (pas seulement explicites).</p>
+      </div>
+    </div>
+  </div>
+  <div id="fran" style="display:none">
+    <div id="ftabs" style="display:flex;flex-wrap:wrap;gap:2px;padding:8px 14px 0;border-bottom:1px solid #bebebe"></div>
+    <div class="fb">
+      <div id="fbar">
+        <span id="fbaseW"><span class="lab">Base Rule34 :</span>
+        <div class="seg" id="fbase"><button data-b="T" class="on">Tous les personnages</button><button data-b="F">Filles seules</button></div></span>
+        <input type="text" id="fq" placeholder="Franchise ou personnage…">
+      </div>
+      <div id="fout"></div>
+      <div class="note" id="fnote"></div>
+    </div>
+  </div>
+  <div id="mal" style="display:none">
+    <div id="mbar">
+      <span class="lab">Sexe :</span>
+      <div class="seg" id="msx"><button data-s="" class="on">Tous</button><button data-s="F">Filles</button><button data-s="M">Garçons</button><button data-s="?">Non défini</button></div>
+      <span class="lab">Dans EdeniaList :</span>
+      <div class="seg" id="mlk"><button data-l="" class="on">Tous</button><button data-l="1">Oui</button><button data-l="0">Non</button></div>
+      <input type="text" id="mq" placeholder="Personnage ou œuvre…">
+    </div>
+    <p id="msum"></p>
+    <div id="mout"></div>
+    <div class="note" id="mnote" style="margin-top:10px">Source : <a href="https://myanimelist.net/character.php" target="_blank" rel="noopener">myanimelist.net/character.php</a> (« Most Favorited »), relevé du 25 octobre 2026. <b>Favoris</b> = nombre de membres de MyAnimeList qui ont ajouté le personnage à leurs favoris ; le classement de MAL mélange filles et garçons. Nom affiché, œuvre et sexe ajoutés à la main (sexe « non défini » : Hange Zoë, dont l'auteur laisse le genre ouvert, et Rimuru Tempest, slime sans sexe). <b>Rule34 / Danbooru</b> : seulement pour les personnages déjà présents dans EdeniaList, avec les compteurs de l'application (sélection Rule34 : audités, gain d'union compris ; Top Danbooru : compteur Rule34 de l'autocomplétion ; « tag seul » : masculins du classement des franchises, compteur du tag sans audit). Aucun nouveau compteur n'a été relevé pour cette page : « — » ne veut pas dire 0. Touche une ligne marquée ▸ pour ouvrir sa fiche. Données : <code>app_tri/donnees_mal_2026-10-25.json</code> (<code>python3 donnees_mal.py</code>), CSV : <code>myanimelist/top100_personnages_favoris_mal_2026-10-25.csv</code>.</div>
+  </div>
+  <div id="meth" style="display:none;padding:12px 14px 20px;font-size:12px;line-height:1.6">
+    <h2 style="font-size:13px;border-bottom:1px solid #bebebe">Méthode et sources</h2>
+    <p><b>Personnages :</b> les 388 personnages féminins de la sélection auditée (tous les tags de personnage ≥ 5 011 publications sur rule34.xxx, pages 1 à 390 de la liste des tags ; 29 ajoutés le 25/10 avec les pages 341-360 et 52 avec les pages 361-390) et 46 personnages masculins notés dans les relevés des pages 1 à 330 (tags ≥ 6 576 publications) : les 23 de la comparaison entre sites du 23/10, plus 18 ajoutés le 24/10 (Batman, Sasuke, Venti, Denji…) et 5 le 25/10 (Dick Grayson, Jax, Shining Armor, Ichigo, Sacha). Les 19 masculins des pages 331 à 390 (Ren Amamiya, Superman, Wolf O'Donnell, Ganondorf, Luigi, Robin (DC), Beerus, Boruto, Zoro, Gohan, Gojo, Falco, Gintoki, Ben Tennyson, le protagoniste de Summertime Saga, Scout, Caelus, Vegeta, Naoto Hachiōji) ne sont pas dans cette liste ; ils ne comptent que dans le classement des franchises « tous les personnages ».</p>
+    <p><b>Rule34 :</b> compteur du tag principal (liste des tags / autocomplétion, 24/10/2026 ; 25/10 pour les pages 331-390) + gain réel d'union quand il dépasse 150 : posts qui portent un autre tag du même personnage sans le tag principal, mesurés par recherche négative (fichier <code>audit_doublons/pids_audit_2026-10-24.txt</code>). Les masculins ne sont audités que pour Luffy, Izuku, Naruto, Spider-Man, 14 des 18 ajoutés le 24/10 et 4 des 5 ajoutés le 25/10 (mention « non audité » sinon).</p>
+    <p><b>Danbooru :</b> <code>post_count</code> du tag de personnage via l'API (24/10/2026). Un seul tag par personnage (Danbooru fusionne les alias). Akali, Sona et Lamb ont été renommés <code>_(league)</code> sur Danbooru.</p>
+    <p><b>Médium :</b> classement v12 (médium de création ; Raven et Starfire en dessins animés à ta demande ; Furry séparé). Masculins : même règle.</p>
+    <p><b>Top Danbooru :</b> les 388 personnages féminins les plus fréquents sur Danbooru (au moins 5 614 images ; top 600 des tags de personnage, genre par le ratio 1girl/1boy vérifié à la main ; avatars au genre au choix, espèces, objets et versions exclus ; fichier <code>franchises/danbooru/selection_388_personnages_feminins_danbooru_2026-10-25.csv</code> ; compteurs Danbooru du 24/10). Pour chacun, le compteur Rule34 vient de l'autocomplétion du 24/10 (25/10 pour les 14 ajoutés en passant de 293 à 307 les 29 ajoutés en passant de 307 à 336 et les 52 ajoutés en passant de 336 à 388 ; Northern Ocean Princess, d'apparence enfantine : compteur Rule34 non relevé, affiché 0). Le tag Rule34 retenu est le plus utilisé parmi le nom Danbooru, le nom inversé (Rule34 écrit souvent Touhou dans l'ordre occidental : <code>marisa_kirisame</code>) et la variante de qualificatif de la même œuvre (<code>kaga_(kantai_collection)</code> au lieu de <code>kaga_(kancolle)</code>). Ces compteurs ne sont pas audités pour les doublons (mention « non audité »), sauf pour les 81 personnages présents aussi dans la sélection Rule34, qui gardent leurs données auditées. Médium : même règle (médium de création) ; VTubeuses, voix de synthèse et la série animée web sud-coréenne Alien Stage dans « Autres ».</p>
+    <p><b>Limite connue :</b> le compteur de la liste des tags de rule34 peut être en retard sur la recherche directe (ex. Hinata ≈ 50 100 en recherche, Misty ≈ 23 160) ; le classement Rule34 reste sur la base de ce compteur pour tous.</p>
+    <p><b>Groupe « Médium et type » du filtre :</b> ce ne sont pas des tags rule34 mais le classement d'EdeniaList. « Fiche espèce (option) » = les fiches ajoutées par l'option Espèces. Animanga, Jeux vidéo, Comics, Cartoons / anim. occ. et Autres = médium d'origine ; les personnages Furry gardent aussi leur médium d'origine (Toriel = Furry + Jeux vidéo), donc ces tags comptent un peu plus de personnages que les onglets. <b>Jeux vidéo</b> inclut aussi les personnages <b>jouables dans Marvel Rivals</b> (liste des 54 héros au 25/10/2026), quel que soit leur médium d'origine : Emma Frost, Femme invisible, Squirrel Girl, Psylocke, Malicia, Black Cat, Black Widow, Magik, Luna Snow, Spider-Man et Venom (Gwen Stacy, She-Hulk et Mary Jane ne sont pas jouables). Leur onglet de médium ne change pas (Comics). <b>Film</b> = œuvre principale qui est un long métrage de cinéma : Zootopie, Les Indestructibles, La Reine des neiges, Star Wars, Roger Rabbit, La Route d'Eldorado, Hôtel Transylvanie, Aladdin, Les Bad Guys, Ring, Alien, La Petite Sirène, Raiponce, Dragons, Kung Fu Panda (y compris quand le film adapte un roman ou un conte, si le personnage tel qu'il est dessiné vient du film) ; les adaptations au cinéma de personnages venus des comics (Spider-Verse, films Marvel ou DC) ne comptent pas.</p>
+    <p><b>Espèces (option, désactivée par défaut) :</b> 67 tags d'espèce relevés dans les pages 1 à 390 de la liste des tags rule34 (Mangriff, Deathclaw et Guilmon ajoutés le 25/10 ; aucune nouvelle espèce dans les pages 341-360, <code>midnight_lycanroc</code> étant une forme de Lycanroc ; 9 avec les pages 361-390 : Orc de Warcraft, Luxray, Feunard, Malamandre, Tournesol de Plants vs. Zombies, Quarien, Riolu, Zeraora, Kirlia), retenus seulement si l'espèce a un design défini et vient d'une œuvre précise (Pokémon, races de Warcraft et de Final Fantasy XIV, Inkling, Asari, Twi'lek, Xénomorphe…). Écartés : robloxian (avatar personnalisable), protogen (espèce furry originale, pas d'une œuvre), humain de World of Warcraft, mobian_(species), vastaya, gem_(species) et pal_(species) (designs trop variés). Les tags généraux (mythologie, oc / original_character…) ne sont pas inclus. Classement Furry avec les mêmes critères que les personnages (créature animale et indice e621 ≥ 2) : 47 espèces sur 67. Sangheili (indice 4,0), Xénomorphe (3,0) et Yordle (3,5) restent hors Furry (extraterrestres ou humanoïdes), Hypnomade aussi (indice 1,3). Compteurs Danbooru et e621 : API, 25/10/2026 ; pas de tag Danbooru pour les Changelins de My Little Pony, l'Orc de Warcraft et le Tournesol ; pour l'Orc, e621 n'a que le tag général <code>orc</code>, non utilisé. Doublons de tags non audités pour les espèces.</p>
+    <p><b>Filtre Copyright :</b> uniquement des tags de type <i>Copyright</i> sur rule34.xxx (type vérifié dans la liste des tags le 25/10/2026 ; <code>movie</code>, de type Metadata, et <code>toby_fox</code>, de type Artist, sont écartés). Un personnage reçoit un tag selon le studio, l'éditeur ou le magazine d'origine de sa franchise. Franchises rachetées plus tard (Marvel, Star Wars et Les Simpson chez Disney ; DC, Scooby-Doo et Mortal Kombat chez Warner ; Tomb Raider chez Square Enix ; Persona chez Sega ; Mass Effect chez EA ; Fallout, créé par Interplay, chez Bethesda) : tag gardé seulement si au moins 10 % des posts de la franchise le portent aussi sur rule34 (mesuré : Marvel ∧ disney 3,3 %, Star Wars 2,9 %, Simpson 2,8 %, DC ∧ warner_brothers 1,8 %, Mortal Kombat 1,2 %, Tomb Raider ∧ square_enix 0,8 %, Persona 5 ∧ sega 8,8 % → non ; Mass Effect ∧ electronic_arts 10,3 %, Fallout ∧ bethesda_softworks 27 %, Bayonetta ∧ sega 16 % et ∧ nintendo 12 % → oui ; Les Tortues Ninja, rachetées par Nickelodeon, ∧ nickelodeon 9,1 % → non). <b>Marvel Rivals</b> est attribué par personnage quand au moins 10 % de ses posts portent <code>marvel_rivals</code> (Femme invisible 81 %, Squirrel Girl 70 %, Psylocke 68 %, Emma Frost 64 %, Venom 29 %, Malicia 25 %, Black Cat 22 %, Spider-Man 14 %, Black Widow 14 %, Luna Snow 96 %, Magik 73 % ; Gwen Stacy, She-Hulk et Mary Jane sous 2 %). <b>Sony Pictures Animation</b> (films Spider-Verse) suit la même règle par personnage, mesurée avec les deux tags Copyright des films, car le tag du studio n'est posé que sur ≈ 1,4 % des posts Gwen Stacy : Gwen Stacy ≈ 50 %, Spider-Man ≈ 12 % → oui. Raven, Starfire et Beast Boy reçoivent aussi <code>cartoon_network</code> (séries Teen Titans de la chaîne). Shōnen Jump regroupe Weekly Shōnen Jump et Shōnen Jump+. Touhou Project → <code>team_shanghai_alice</code> (cercle de ZUN, 1 421 publications ; le tag de la franchise, <code>touhou</code>, n'est pas un studio). Inclusion : « au moins un » (OU) ou « tous » (ET), appliqué séparément à chaque famille (Copyright, Médium et type, Espèce) ; entre familles, tous les critères doivent être remplis ; une exclusion retire toujours le personnage. Les tags d'éditeur sont posés irrégulièrement sur rule34 (seuls ≈ 5,7 % des posts One Piece portent <code>shounen_jump</code>) : le filtre suit la franchise, pas le tag de chaque post. Détail : <code>app_tri/donnees_copyright.py</code>.</p>
+    <p><b>Groupe « Espèce » du filtre :</b> espèce ou race du personnage <b>définie par son œuvre</b> (Inkling, Saiyan, Hylien, Mobien, Yordle, Vastaya, Faunus, Kryptonien, Mutant de Marvel, Thiren de ZZZ, tribus de poneys de My Little Pony, Hellhound et Imp de Helluva Boss, Kanmusu et Abyssales de KanColle, KAN-SEN d'Azur Lane, Uma Musume, races d'Arknights, Gemmes, Mewmains, Hommes-bêtes de Mushoku Tensei, Sheikah, Sankta d'Arknights, Haloviens de Star Rail…). Pas de tag Humain, pas d'animaux réels (renard, lapin…), pas de créatures génériques du folklore (démon, vampire, elfe, ange, fée, dragon, oni, kitsune) ni de robots. Les yôkai de Touhou sont des créatures du folklore japonais, donc non inclus (seuls Lunarien, Lapin lunaire et Demi-fantôme, propres à l'œuvre). Laissés sans espèce car douteux ou génériques : Shadow, Blaze, Ralsei, Bowsette, Squirrel Girl, Charlie Morningstar, Gwen Tennyson, Kit (Gameoverse), Felicia, Raven Team Leader, Vaggie, Firefly, Tohru (dragonne), Ariel (sirène), Luna Snow, Marcille (demi-elfe). Les fiches de l'option Espèces reçoivent leur propre tag (Inkling, Gardevoir…) : avec l'option activée, « Inkling » affiche Callie, Marie et la fiche Inkling. Ce groupe ne dépend pas de l'option Espèces. Détail : <code>app_tri/especes_filtre.py</code>.</p>
+    <p><b>MyAnimeList :</b> top 100 des personnages favoris de MyAnimeList (page « Most Favorited » de <code>myanimelist.net/character.php</code>, relevé du 25/10/2026, filles et garçons mélangés comme sur MAL). Compteurs Rule34 et Danbooru affichés seulement pour les 33 personnages déjà présents dans EdeniaList (26 de la sélection Rule34, 3 du Top Danbooru, 4 masculins du classement des franchises au compteur du tag seul) ; aucun nouveau compteur relevé pour cette page. Pages brutes : <code>myanimelist/brut/</code>.</p>
+    <p><b>Franchises :</b> trois classements : Rule34 avec tous les personnages (459 : 388 féminins, 65 masculins, 6 au genre non défini ou au choix), Rule34 filles seules (388) et Danbooru filles (388). Publications cumulées = somme des personnages de la franchise (une image à deux personnages compte deux fois). Les noms de franchise diffèrent parfois entre les deux sites (Hololive, Final Fantasy VII, Xenoblade Chronicles 2, NieR: Automata) et sont rapprochés à la main. Colonne <b>Tag franchise</b> : publications totales du tag de la franchise (rule34 : autocomplétion du tag principal, unions mesurées pour Avatar et Fatal Fury / King of Fighters ; 14 franchises ajoutées après le relevé 311-330 par <code>ajout_releve_311-330.py</code>, 6 après le relevé 331-340 par <code>ajout_releve_331-340.py</code> , 14 après le relevé 341-360 par <code>ajout_releve_341-360.py</code> et 24 après le relevé 361-390 par <code>ajout_releve_361-390.py</code> (liste des tags ; <code>dexter's_laboratory</code> : compteur de l'autocomplétion, type non vérifiable à cause de l'apostrophe) ; Danbooru : API), détail dans <code>franchises/tags_franchise/tags_franchise_2026-10-24.csv</code>. Tri : clique sur l'en-tête d'une colonne (un 2e clic inverse l'ordre). Données : <code>app_tri/donnees_franchises_2026-10-24.json</code> (<code>python3 donnees_franchises.py</code>).</p>
+  </div>
+  <footer>
+    <p>Données : <code>outil_tags_r34/app_tri/donnees_app_2026-10-24.json</code> (régénérer : <code>python3 donnees.py</code> puis <code>python3 build.py</code>).</p>
+    <p>Style inspiré de la page « Top Characters » de MyAnimeList. Aucune image n'est chargée : les vignettes sont des initiales colorées par médium.</p>
+  </footer>
+</div>
+<div id="ov"><div id="card"></div></div>
+<script>
+const DATA_R=/*DATA*/[];
+const DATA_E=/*DATA_E*/[];
+const DATA_D=/*DATA_D*/[];
+let DATA=DATA_R,LIST="r";
+const FRD=/*DATA_F*/{};
+const MAL=/*DATA_M*/[];
+const CP=/*DATA_C*/{};
+const CPT={};CP.tags.forEach(t=>CPT[t.t]=t);
+DATA_R.forEach((o,i)=>o.c=CP.r[i]);DATA_D.forEach((o,i)=>o.c=CP.d[i]);DATA_E.forEach((o,i)=>o.c=CP.e[i]);
+const DATA_RE=DATA_R.concat(DATA_E).map(o=>({...o})); // liste Rule34 + espèces (rangs recalculés)
+const CPG=[...new Set(CP.tags.map(t=>t.g))];
+const LNAME={r:"Sélection Rule34",d:"Top Danbooru"};
+const MCOL={"Animanga":"#2e51a2","Jeux vidéo":"#c0392b","Comics":"#8e44ad","Cartoons":"#16a085","Furry":"#d4831a","Autres":"#7f8c8d"};
+const MEDS=["Animanga","Jeux vidéo","Comics","Cartoons","Furry","Autres"];
+const MLAB={"Cartoons":"Cartoons / anim. occ."};
+const st={tab:"",site:"r",sort:null,dir:-1,q:"",sexe:"",fr:"",minr:0,mind:0,dup:"",page:0,cp:{},cpm:"ou",cpx:{},esp:false};
+const fmt=n=>n.toLocaleString("fr-FR").replace(/\u202f/g," ");
+// rangs globaux, calculés dans chaque liste
+function prep(D){D.forEach((o,i)=>{o.id=i;o.x=o.r?o.d/o.r*100:0;});
+  ["r","d","x"].forEach(k=>{[...D].sort((p,q)=>q[k]-p[k]).forEach((o,i)=>o["g"+k]=i+1);});}
+prep(DATA_R);prep(DATA_D);prep(DATA_RE);
+function curR(){return st.esp?DATA_RE:DATA_R;}
+let AVGX=0;
+function setAvg(){AVGX=DATA.reduce((s,o)=>s+o.d,0)/DATA.reduce((s,o)=>s+o.r,0)*100;document.getElementById("avgx").textContent=AVGX.toFixed(1);}
+setAvg();
+const $=id=>document.getElementById(id);
+function initials(n){const w=n.replace(/\(.*?\)/g,"").trim().split(/[\s\-]+/).filter(Boolean);return ((w[0]||"")[0]+((w[1]||"")[0]||"")).toUpperCase();}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+function cpok(o){const inc=[],exc=[];for(const k in st.cp){(st.cp[k]===1?inc:exc).push(k);}
+  if(exc.some(k=>o.c.includes(k)))return false;
+  if(!inc.length)return true;
+  const G={};inc.forEach(k=>(G[CPT[k].k]=G[CPT[k].k]||[]).push(k)); // ET entre familles (Médium et type, Espèce, Copyright) ; à l'intérieur : OU ou ET
+  return Object.values(G).every(L=>st.cpm==="et"?L.every(k=>o.c.includes(k)):L.some(k=>o.c.includes(k)));}
+function base(nocp){ // filtres hors onglet
+  const q=st.q.toLowerCase();
+  return DATA.filter(o=>(nocp||cpok(o))&&(!st.sexe||o.s===st.sexe)&&(!st.fr||o.u===st.fr)&&o.r>=st.minr&&o.d>=st.mind&&
+    (!st.dup||(st.dup==="g"?o.g>0:o.g===0))&&(!q||(o.n+" "+o.u+" "+o.t+" "+o.td).toLowerCase().includes(q)));
+}
+function view(){
+  let v=base().filter(o=>!st.tab||o.m===st.tab);
+  const k=st.site;
+  v.sort((a,b)=>b[k]-a[k]||a.n.localeCompare(b.n));
+  v.forEach((o,i)=>o._rk=i+1);
+  if(st.sort&&st.sort!=="rank"){const s=st.sort,d=st.dir;
+    v.sort((a,b)=>{const x=a[s],y=b[s];return (typeof x==="string"?x.localeCompare(y,"fr"):x-y)*d;});}
+  else if(st.sort==="rank") v.reverse();
+  return v;
+}
+function tabs(){
+  const b=base();const c={};b.forEach(o=>c[o.m]=(c[o.m]||0)+1);
+  let h=`<a data-t="" class="${st.tab===""?"on":""}">Tous <small>(${b.length})</small></a>`;
+  MEDS.forEach(m=>{if(!c[m]&&st.tab!==m&&!DATA.some(o=>o.m===m))return;h+=`<a data-t="${m}" class="${st.tab===m?"on":""}">${MLAB[m]||m} <small>(${c[m]||0})</small></a>`;});
+  $("tabs").innerHTML=h;
+}
+function franchises(){
+  const c={};DATA.forEach(o=>c[o.u]=(c[o.u]||0)+1);
+  const l=Object.keys(c).sort((a,b)=>c[b]-c[a]||a.localeCompare(b,"fr"));
+  $("fr").innerHTML=`<option value="">Toutes (${l.length})</option>`+l.map(u=>`<option value="${esc(u)}">${esc(u)} (${c[u]})</option>`).join("");
+}
+function cprender(){
+  const b=base(true),c={};b.forEach(o=>o.c.forEach(k=>c[k]=(c[k]||0)+1));
+  $("cpgrid").innerHTML=CPG.map(g=>{
+    const all=CP.tags.filter(t=>t.g===g&&(c[t.t]||st.cp[t.t])).sort((x,y)=>(c[y.t]||0)-(c[x.t]||0)||x.l.localeCompare(y.l,"fr"));
+    if(!all.length)return "";
+    const open=st.cpx[g],L=open?all:all.filter((t,i)=>i<8||st.cp[t.t]);
+    return `<div class="cpg${g.startsWith("Médium")||g==="Espèce"?" med":""}"><h4>${esc(g)}</h4><ul>${L.map(t=>{const v=st.cp[t.t]||0;
+      return `<li data-t="${esc(t.t)}" class="${v===1?"inc":v===-1?"exc":""}" title="${esc(t.k==="m"||(t.k==="s"&&t.p==null)?t.l+" · "+t.n:t.t+" · "+fmt(t.p)+" publications sur rule34"+(t.n?" · "+t.n:""))}"><span class="bx">${v===1?"✓":v===-1?"✗":""}</span><span class="lb">${esc(t.l)} <small>(${c[t.t]||0})</small></span></li>`;}).join("")}</ul>${all.length>8?`<a class="more" data-g="${esc(g)}">${open?"Moins":"Tout afficher ("+all.length+")"}</a>`:""}</div>`;}).join("")||'<div class="note">Aucun tag pour cette vue.</div>';
+  const n=Object.keys(st.cp).length;
+  $("cpact").classList.toggle("on",n>0);
+  $("cpact").innerHTML=n?'<span class="lab">Tags choisis :</span>'+Object.keys(st.cp).map(k=>{const v=st.cp[k],t=CPT[k];
+    return `<span class="cpa ${v===1?"inc":"exc"}" data-t="${esc(k)}" title="${v===1?"Inclus":"Exclu"} · cliquer pour ${v===1?"exclure":"retirer"}">${v===1?"✓":"✗"} ${esc(t.l)} <span class="x" data-x="1" title="Retirer">×</span></span>`;}).join(""):"";
+  $("cpsum").textContent=n?n+" tag"+(n>1?"s":"")+" actif"+(n>1?"s":""):"";
+}
+function pager(pages){
+  if(pages<=1){$("pager").innerHTML="";return;}
+  const p=st.page,set=new Set(pages<=12?[...Array(pages).keys()]:[0,pages-1,p-2,p-1,p,p+1,p+2].filter(i=>i>=0&&i<pages));
+  let h=`<button data-p="${p-1}" ${p===0?"disabled":""} aria-label="Page précédente">‹</button>`,last=-1;
+  [...set].sort((a,b)=>a-b).forEach(i=>{if(i-last>1)h+='<span class="dots">…</span>';h+=`<button data-p="${i}" class="${i===p?"on":""}">${i+1}</button>`;last=i;});
+  h+=`<button data-p="${p+1}" ${p>=pages-1?"disabled":""} aria-label="Page suivante">›</button>`;
+  $("pager").innerHTML=h;
+}
+function render(){
+  tabs();cprender();
+  const v=view(),k=st.site;
+  const maxR=Math.max(1,...v.map(o=>o.r)),maxD=Math.max(1,...v.map(o=>o.d));
+  const pages=Math.max(1,Math.ceil(v.length/50));if(st.page>=pages)st.page=pages-1;
+  const sl=v.slice(st.page*50,st.page*50+50);
+  const sname={r:"Rule34",d:"Danbooru",x:"écart Danbooru / Rule34"}[k];
+  $("title").textContent=LNAME[LIST]+" · classée par "+({r:"Rule34",d:"Danbooru",x:"écart Danbooru / Rule34"}[k])+(st.tab?" · "+(MLAB[st.tab]||st.tab):"");
+  $("crumbList").textContent=LNAME[LIST];
+  $("crumbSite").textContent={r:"Rule34",d:"Danbooru",x:"Écart"}[k];
+  $("count").textContent=`${v.length} personnage${v.length>1?"s":""} · rang selon ${sname}`;
+  $("tb").innerHTML=sl.length?sl.map(o=>{
+    const rc=o._rk<=3?" r"+o._rk:"";
+    const tg=o.g>0?`<span class="tag g" title="gain d'union">+${fmt(o.g)}</span>`:(o.a?"":`<span class="tag na">non audité</span>`);
+    return `<tr><td class="rk${rc}">${o._rk}</td>
+    <td class="nm"><div class="who"><div class="av" style="background:${MCOL[o.m]}">${initials(o.n)}</div>
+      <div><div class="t" data-id="${o.id}">${esc(o.n)}</div><div class="u">${esc(o.u)}${o.s==="M"?' <span class="tag m">M</span>':o.s==="E"?' <span class="tag e">espèce</span>':""}</div><div class="k">${esc(o.t)}</div></div></div></td>
+    <td class="md">${MLAB[o.m]||o.m}</td>
+    <td class="num${k==="r"?" act":""}">${fmt(o.r)}${tg}<div class="bar"><i style="width:${o.r/maxR*100}%;background:#2e51a2"></i></div><div class="sub">#${o.gr} général</div></td>
+    <td class="num${k==="d"?" act":""}">${fmt(o.d)}<div class="bar"><i style="width:${o.d/maxD*100}%;background:#c0392b"></i></div><div class="sub">#${o.gd} général</div></td>
+    <td class="ra${k==="x"?" act":""}"><b>${o.x.toFixed(1)}</b><div class="sub" style="font-size:9px;color:#888">×${(o.x/AVGX).toFixed(2)} moy.</div></td></tr>`;}).join("")
+    :`<tr><td colspan="6" class="empty">Aucun personnage ne correspond aux filtres.</td></tr>`;
+  pager(pages);
+  $("pinfo").textContent=v.length?`Page ${st.page+1} sur ${pages} · personnages ${st.page*50+1} à ${Math.min(v.length,st.page*50+50)} sur ${v.length}`:"";
+  document.querySelectorAll("th[data-k]").forEach(th=>{const a=th.querySelector(".ar");if(a)a.remove();
+    const on=st.sort?st.sort===th.dataset.k:th.dataset.k==="rank";if(on)th.insertAdjacentHTML("beforeend",` <span class="ar">${!st.sort?"▲":st.sort==="rank"?"▼":(st.dir===-1?"▼":"▲")}</span>`);});
+  const sr=v.reduce((s,o)=>s+o.r,0),sd=v.reduce((s,o)=>s+o.d,0);
+  const xs=v.map(o=>o.x).sort((a,b)=>a-b),med=xs.length?(xs.length%2?xs[(xs.length-1)/2]:(xs[xs.length/2-1]+xs[xs.length/2])/2):0;
+  $("stats").innerHTML=[["Personnages",v.length],["Rule34 cumulé",fmt(sr)],["Danbooru cumulé",fmt(sd)],["Écart global",v.length?(sd/sr*100).toFixed(1):"—"],["Écart médian",v.length?med.toFixed(1):"—"],["Avec gain d'union",v.filter(o=>o.g>0).length]]
+    .map(([a,b])=>`<div class="stat"><span>${a}</span><b>${b}</b></div>`).join("");
+}
+function card(o){
+  const r34="https://rule34.xxx/index.php?page=post&s=list&tags="+encodeURIComponent(o.t.split(" ∪ ")[0]);
+  const db="https://danbooru.donmai.us/posts?tags="+encodeURIComponent(o.td);
+  const medRank=DATA.filter(p=>p.m===o.m).sort((a,b)=>b.r-a.r).indexOf(o)+1;
+  const cop=o.c.filter(k=>!k.startsWith("m:")&&!k.startsWith("s:")),med=o.c.filter(k=>k.startsWith("m:")),esp=o.c.filter(k=>k.startsWith("s:"));
+  const chip=(k,m)=>`<span class="cpchip clk${m?" med":""}${st.cp[k]===1?" on":""}" data-t="${esc(k)}" title="Cliquer pour filtrer : ${esc(CPT[k].l)}">${esc(m?CPT[k].l:k)}</span>`;
+  $("card").innerHTML=`<div class="hd"><span>${esc(o.n)}</span><button id="cx" aria-label="Fermer">×</button></div>
+  <div class="bd"><div class="av" style="background:${MCOL[o.m]}">${initials(o.n)}</div><table>
+  <tr><td>Œuvre</td><td>${esc(o.u)}</td></tr>
+  <tr><td>Copyright (rule34)</td><td>${cop.length?`<div class="cpchips">${cop.map(k=>chip(k,0)).join("")}</div>`:'<span class="note">aucun tag de la liste de filtres</span>'}</td></tr>
+  <tr><td>Médium</td><td>${MLAB[o.m]||o.m}${o.mo?`<div class="note">${esc(o.mo)}</div>`:""}<div class="cpchips" style="margin-top:4px">${med.map(k=>chip(k,1)).join("")}</div></td></tr>
+  <tr><td>Espèce</td><td>${esp.length?`<div class="cpchips">${esp.map(k=>chip(k,1)).join("")}</div>`:'<span class="note">aucune espèce propre à l’œuvre</span>'}</td></tr>
+  <tr><td>Sexe</td><td>${o.s==="F"?"Féminin":o.s==="E"?"Espèce (tous genres confondus)":"Masculin"}</td></tr>
+  <tr><td>Rule34</td><td><b>${fmt(o.r)}</b> · #${o.gr} sur ${DATA.length} · #${medRank} en ${MLAB[o.m]||o.m}</td></tr>
+  <tr><td>Tag Rule34</td><td><code>${esc(o.t)}</code> : ${fmt(o.b)}</td></tr>
+  <tr><td>Doublons</td><td>${o.g>0?`gain d'union +${fmt(o.g)}`:o.g<0?`correction ${fmt(o.g)} (publications d'un autre personnage retirées)`:(o.a?"tag seul":"non audité")}${o.q?`<div class="note">${esc(o.q)}</div>`:""}</td></tr>
+  <tr><td>Danbooru</td><td><b>${fmt(o.d)}</b> · #${o.gd} sur ${DATA.length}</td></tr>
+  <tr><td>Tag Danbooru</td><td><code>${esc(o.td)}</code></td></tr>
+  <tr><td>Écart Dan./R34</td><td>${o.x.toFixed(1)} pour 100 (×${(o.x/AVGX).toFixed(2)} la moyenne) · #${o.gx}</td></tr>
+  </table></div>
+  <div class="lk"><a href="${r34}" target="_blank" rel="noopener">Voir sur Rule34 ↗</a>${o.td?`<a href="${db}" target="_blank" rel="noopener">Voir sur Danbooru ↗</a>`:""}</div>`;
+  $("ov").classList.add("on");$("cx").onclick=()=>$("ov").classList.remove("on");
+  $("card").querySelectorAll(".cpchip.clk").forEach(c=>c.onclick=()=>{st.cp[c.dataset.t]=1;st.page=0;$("ov").classList.remove("on");
+    $("cpw").classList.add("open");$("cpchev").textContent="▴";render();$("cpw").scrollIntoView({block:"start"});});
+}
+// événements
+$("tabs").onclick=e=>{const a=e.target.closest("a");if(!a)return;st.tab=a.dataset.t;st.page=0;render();};
+$("siteSeg").onclick=e=>{const b=e.target.closest("button");if(!b)return;st.site=b.dataset.s;st.sort=null;st.page=0;
+  document.querySelectorAll("#siteSeg button").forEach(x=>x.classList.toggle("on",x===b));render();};
+document.querySelector("thead").onclick=e=>{const th=e.target.closest("th");if(!th)return;const k=th.dataset.k;
+  if(k==="rank"){st.sort=st.sort==="rank"?null:"rank";}
+  else{st.dir=st.sort===k?-st.dir:(k==="n"||k==="m"?1:-1);st.sort=k;}
+  st.page=0;render();};
+$("q").oninput=e=>{st.q=e.target.value.trim();st.page=0;render();};
+$("fr").onchange=e=>{st.fr=e.target.value;st.page=0;render();};
+$("minr").oninput=e=>{st.minr=+e.target.value||0;st.page=0;render();};
+$("mind").oninput=e=>{st.mind=+e.target.value||0;st.page=0;render();};
+function radio(id,key){$(id).onclick=e=>{const b=e.target.closest("button");if(!b)return;st[key]=b.dataset.v;st.page=0;
+  $(id).querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));render();};}
+radio("sexe","sexe");radio("dup","dup");
+$("reset").onclick=()=>{Object.assign(st,{tab:"",sort:null,dir:-1,q:"",sexe:"",fr:"",minr:0,mind:0,dup:"",page:0,cp:{}});setEsp(false);
+  $("q").value="";$("fr").value="";$("minr").value="";$("mind").value="";
+  ["sexe","dup"].forEach(id=>$(id).querySelectorAll("button").forEach((x,i)=>x.classList.toggle("on",i===0)));render();};
+$("pager").onclick=e=>{const b=e.target.closest("button");if(!b||b.disabled||b.classList.contains("on"))return;st.page=+b.dataset.p;render();window.scrollTo(0,0);};
+$("cphd").onclick=e=>{if(e.target.id==="cpclear"){st.cp={};st.page=0;render();return;}
+  $("cpw").classList.toggle("open");$("cpchev").textContent=$("cpw").classList.contains("open")?"▴":"▾";};
+$("cpgrid").onclick=e=>{const m=e.target.closest(".more");if(m){st.cpx[m.dataset.g]=!st.cpx[m.dataset.g];cprender();return;}
+  const li=e.target.closest("li");if(!li)return;const k=li.dataset.t,v=st.cp[k]||0;
+  if(v===0)st.cp[k]=1;else if(v===1)st.cp[k]=-1;else delete st.cp[k];st.page=0;render();};
+$("cpact").onclick=e=>{const c=e.target.closest(".cpa");if(!c)return;const k=c.dataset.t;
+  if(e.target.closest(".x")||st.cp[k]===-1)delete st.cp[k];else st.cp[k]=-1;st.page=0;render();};
+function setEsp(on){st.esp=on;$("esp").querySelectorAll("button").forEach(x=>x.classList.toggle("on",!!x.dataset.v===on));
+  if(LIST==="r"){DATA=curR();setAvg();st.fr="";$("fr").value="";franchises();}}
+$("esp").onclick=e=>{const b=e.target.closest("button");if(!b)return;setEsp(!!b.dataset.v);st.page=0;render();};
+$("espOui").textContent="Oui (+"+DATA_E.length+")";
+$("cpmodeSeg").onclick=e=>{const b=e.target.closest("button");if(!b)return;st.cpm=b.dataset.m;
+  $("cpmodeSeg").querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));st.page=0;render();};
+$("tb").onclick=e=>{const t=e.target.closest(".t");if(t)card(DATA[+t.dataset.id]);};
+$("ov").onclick=e=>{if(e.target.id==="ov")$("ov").classList.remove("on");};
+document.addEventListener("keydown",e=>{if(e.key==="Escape")$("ov").classList.remove("on");});
+$("ftog").onclick=()=>{$("side").classList.toggle("open");$("ftog").textContent="Filtres et statistiques "+($("side").classList.contains("open")?"▴":"▾");};
+function setList(l){if(l===LIST)return;LIST=l;DATA=l==="d"?DATA_D:curR();setAvg();$("espw").style.display=l==="d"?"none":"";
+  Object.assign(st,{tab:"",site:l==="d"?"d":"r",sort:null,dir:-1,fr:"",page:0});$("fr").value="";
+  document.querySelectorAll("#siteSeg button").forEach(x=>x.classList.toggle("on",x.dataset.s===st.site));
+  $("ov").classList.remove("on");franchises();}
+
+// ---- page Franchises ----
+const fst={v:"top",base:"T",q:"",open:{},sort:{}};
+const FV=[["top","Top 25 Rule34 × Danbooru"],["T","Rule34 · tous les personnages"],["F","Rule34 · filles seules"],["D","Danbooru · filles"]];
+const FNAME={T:"Rule34 · tous les personnages (459)",F:"Rule34 · filles seules (388)",D:"Danbooru · filles (388)"};
+const FNOTE={
+ T:"<b>Base :</b> les 459 personnages relevés dans les pages 1 à 390 de la liste des tags de rule34.xxx (au moins ≈ 5 000 publications) : 388 féminins (sélection auditée), 65 masculins et 6 au genre non défini ou au choix (Kris, Frisk, MalO, Sensei de Blue Archive, Robin de Fire Emblem, Villageois·e d'Animal Crossing). Byleth, le Commandant Shepard, Kindred, Chara, Corrin, Ranma et V (Cyberpunk 2077) ne sont comptés qu'une fois (version féminine). Espèces (Gardevoir, Lucario…), catégories et doublons exclus. <b>Limites :</b> les masculins des pages 1 à 107 viennent d'un premier relevé moins détaillé ; 36 masculins n'ont pas été vérifiés pour les doublons ; une image avec deux personnages de la même franchise compte deux fois ; MalO est compté avec un seul de ses 4 tags.",
+ F:"<b>Base :</b> les 388 personnages féminins de la sélection auditée de rule34.xxx (au moins 5 011 publications ; Batgirl = Barbara Gordon seule). Une image avec deux personnages de la même franchise compte deux fois dans le cumul.",
+ D:"<b>Base :</b> les 388 personnages féminins les plus fréquents de Danbooru (au moins 5 614 images ; toutes les images, pas seulement explicites). Danbooru classe les VTubers comme personnages. Mahiro Oyama (Onimai) est « à trancher » et n'est pas compté. Aucun relevé masculin n'existe côté Danbooru.",
+ top:"Rule34 : base au choix (tous les personnages ou filles seules). Danbooru : filles seules (pas de relevé masculin). Pour une comparaison à base égale, choisis <b>Filles seules</b>. Chaque tableau garde les 25 premières franchises selon la colonne choisie (Pers., Publications ou Tag franchise) ; touche une ligne pour voir ses personnages."};
+const FTAG="<br><b>Tag franchise :</b> nombre total de publications du tag de la franchise sur le site (toutes les images de la franchise, avec ou sans les personnages relevés ; 24/10/2026). Rule34 : compteur de l'autocomplétion du tag principal ; quand la franchise a plusieurs tags concurrents, l'autre est indiqué au survol (ex. marvel / marvel_comics) ; Avatar et Fatal Fury / King of Fighters : union des tags mesurée. Danbooru : <code>post_count</code> du tag de franchise (les sous-séries y sont rattachées par Danbooru). Le cumul des personnages peut dépasser le tag (une image à plusieurs personnages compte plusieurs fois). <b>Attention :</b> le classement par tag ne couvre que les franchises qui ont au moins un personnage dans la liste ; une franchise très publiée sans personnage assez populaire n'y figure pas.";
+const fkey=o=>o.k||o.f;
+// rangs officiels par critère (ordre naturel : plus grand d'abord)
+Object.values(FRD).forEach(L=>{[...L].sort((a,b)=>b.tp-a.tp||b.p-a.p).forEach((o,i)=>o.rt=i+1);});
+const RK={n:"rn",p:"rp",tp:"rt"};
+const NAT={n:-1,p:-1,tp:-1,x:1,f:1,rank:1};
+function fcrit(list){const s=fst.sort[list]||{k:"n"};return RK[s.k]?s.k:"n";}
+function fother(o,list){ // rang de la même franchise sur l'autre site, même critère
+  const c=RK[fcrit(list)];
+  if(list==="D"){const r=FRD[fst.v==="top"?fst.base:"F"].find(p=>p.f===fkey(o));return r?r[c]:null;}
+  const r=FRD.D.find(p=>fkey(p)===o.f);return r?r[c]:null;}
+function fmatch(o){const q=fst.q.toLowerCase();return !q||o.f.toLowerCase().includes(q)||o.l.some(c=>c[0].toLowerCase().includes(q));}
+function forder(list,L){ // tri + rang affiché
+  const s=fst.sort[list]||{k:"n",dir:-1},k=s.k;
+  const cmp={n:(a,b)=>a.rn-b.rn,p:(a,b)=>a.rp-b.rp,tp:(a,b)=>a.rt-b.rt,f:(a,b)=>a.f.localeCompare(b.f,"fr"),
+    x:(a,b)=>{const x=fother(a,list),y=fother(b,list);return (x==null)-(y==null)||(x||0)-(y||0)||a.rn-b.rn;}}[k];
+  const nat=[...L].sort(cmp);nat.forEach((o,i)=>o._r=RK[k]?o[RK[k]]:i+1);
+  return s.dir===NAT[k]?nat:nat.reverse();}
+function fhead(list,k,lab,cls,tip){const s=fst.sort[list]||{k:"n",dir:-1};const on=s.k===k||(k==="rank"&&false);
+  const ar=on?` <span class="ar">${s.dir===-1?"▼":"▲"}</span>`:"";
+  return `<th data-list="${list}" data-k="${k}"${cls?` class="${cls}"`:""}${tip?` title="${esc(tip)}"`:""}>${lab}${ar}</th>`;}
+function ftable(list,limit){
+  let L=FRD[list];
+  if(limit){const c=RK[fcrit(list)];L=[...L].sort((a,b)=>a[c]-b[c]).slice(0,limit);}
+  L=forder(list,L.filter(fmatch));
+  const maxP=Math.max(1,...FRD[list].map(o=>o.p)),maxT=Math.max(1,...FRD[list].map(o=>o.tp));
+  const oth=list==="D"?"Rule34":"Danbooru",col=list==="D"?"#c0392b":"#2e51a2",site=list==="D"?"Danbooru":"Rule34";
+  let h=`<table class="fr"><thead><tr>${fhead(list,"rank","#","","Inverser l'ordre")}${fhead(list,"f","Franchise","l")}${fhead(list,"n","Pers.","","Nombre de personnages relevés")}${fhead(list,"p","Publications","","Publications cumulées des personnages relevés")}${fhead(list,"tp","Tag franchise","","Nombre total de publications du tag de la franchise sur "+site)}${fhead(list,"x","Rang "+oth,"x","Rang de la même franchise sur l'autre site (même critère : personnages, publications ou tag) ; « hors liste » = aucun personnage de la franchise dans la liste de l'autre site")}</tr></thead><tbody>`;
+  if(!L.length)h+=`<tr><td colspan="6" class="empty">Aucune franchise ne correspond.</td></tr>`;
+  L.forEach(o=>{const r=o._r,id=list+"|"+o.f,x=fother(o,list),rc=r<=3?" r"+r:"";
+    const sx=list==="T"&&(o.nm||o.na)?`<span class="sx">${o.nf} ♀ · ${o.nm} ♂${o.na?" · "+o.na+" autre":""}</span>`:"";
+    h+=`<tr class="row" data-id="${esc(id)}"><td class="rk${rc}">${r}</td><td class="l fn">${esc(o.f)}${sx}</td><td><b>${o.n}</b></td>
+      <td class="pb">${fmt(o.p)}<div class="bar"><i style="width:${o.p/maxP*100}%;background:${col}"></i></div><div class="sub" style="font-size:9px;color:#888;font-weight:400">${String(o.pt).replace(".",",")} %</div></td>
+      <td class="tg" title="${esc(o.tt+(o.ta?" — "+o.ta:""))}">${fmt(o.tp)}<div class="bar"><i style="width:${o.tp/maxT*100}%"></i></div><code>${esc(o.tt.length>34?o.tt.slice(0,32)+"…":o.tt)}${o.ta?" *":""}</code></td>
+      <td class="x">${x?"#"+x:`<span title="Aucun personnage de cette franchise dans la liste de l'autre site">hors liste</span>`}</td></tr>`;
+    if(fst.open[id])h+=`<tr class="det"><td></td><td colspan="5">${o.l.map(c=>`<span class="chip${c[2]==="M"?" m":c[2]==="?"?" a":""}">${esc(c[0])}${c[2]==="M"?" ♂":c[2]==="?"?" (genre non défini)":""} · ${fmt(c[1])}</span>`).join("")}${o.ta?`<div style="margin-top:5px;color:#666">Tag franchise : <code>${esc(o.tt)}</code> · ${esc(o.ta)}</div>`:""}</td></tr>`;});
+  return h+"</tbody></table>";}
+function frender(){
+  $("ftabs").innerHTML=FV.map(([k,l])=>`<a data-f="${k}" class="${fst.v===k?"on":""}" style="padding:5px 10px;font-size:11px;font-weight:700;color:${fst.v===k?"#000":"#1c439b"};border:1px solid ${fst.v===k?"#bebebe":"transparent"};border-bottom:none;margin-bottom:-1px;cursor:pointer;border-radius:2px 2px 0 0;background:#fff">${l}${k!=="top"?` <small style="color:#888;font-weight:400">(${FRD[k].length})</small>`:""}</a>`).join("");
+  $("fbaseW").style.display=fst.v==="top"?"":"none";
+  const CL={n:"nombre de personnages",p:"publications cumulées",tp:"publications du tag de franchise"};
+  if(fst.v==="top"){
+    $("title").textContent="Franchises · top 25 Rule34 × Danbooru";
+    const ca=RK[fcrit(fst.base)],cb=RK[fcrit("D")];
+    const a=[...FRD[fst.base]].sort((x,y)=>x[ca]-y[ca]).slice(0,25),b=[...FRD.D].sort((x,y)=>x[cb]-y[cb]).slice(0,25),bk=new Set(b.map(fkey));
+    const com=a.filter(o=>bk.has(o.f)).map(o=>o.f);
+    $("fout").innerHTML=`<div class="fgrid"><div><h3>Rule34 <small>· ${FNAME[fst.base]} · top 25 par ${CL[fcrit(fst.base)]}</small></h3>${ftable(fst.base,25)}</div>
+      <div><h3>Danbooru <small>· ${FNAME.D} · top 25 par ${CL[fcrit("D")]}</small></h3>${ftable("D",25)}</div></div>
+      <div class="fcom"><b>Dans les deux top 25 (${com.length}) :</b> ${com.length?com.map(esc).join(", "):"aucune"}.</div>`;
+  }else{
+    $("title").textContent="Franchises · "+FNAME[fst.v]+" · par "+({...CL,f:"nom",x:"rang sur l'autre site"})[(fst.sort[fst.v]||{k:"n"}).k];
+    const n=FRD[fst.v].length,solo=FRD[fst.v].filter(o=>o.n===1).length;
+    $("fout").innerHTML=`<p style="margin:0 0 6px;color:#555">${n} franchises, dont ${solo} avec un seul personnage.</p>`+ftable(fst.v);
+  }
+  $("fnote").innerHTML=FNOTE[fst.v]+FTAG;
+  $("crumbList").textContent="Franchises";$("crumbSite").textContent=fst.v==="top"?"Top 25":FNAME[fst.v];
+}
+$("ftabs").onclick=e=>{const a=e.target.closest("a");if(!a)return;fst.v=a.dataset.f;frender();};
+$("fbase").onclick=e=>{const b=e.target.closest("button");if(!b)return;fst.base=b.dataset.b;$("fbase").querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));frender();};
+$("fq").oninput=e=>{fst.q=e.target.value.trim();frender();};
+$("fout").onclick=e=>{const th=e.target.closest("th[data-k]");
+  if(th){const l=th.dataset.list,k=th.dataset.k,s=fst.sort[l]||{k:"n",dir:-1};
+    if(k==="rank")fst.sort[l]={k:s.k,dir:-s.dir};
+    else fst.sort[l]=s.k===k?{k,dir:-s.dir}:{k,dir:NAT[k]};
+    frender();return;}
+  const r=e.target.closest("tr.row");if(!r)return;const id=r.dataset.id;fst.open[id]=!fst.open[id];frender();};
+$("nav").onclick=e=>{const a=e.target.closest("a");if(!a)return;document.querySelectorAll("#nav a").forEach(x=>x.classList.toggle("on",x===a));
+  const v=a.dataset.v,m=v==="meth",f=v==="fran",ml=v==="mal";$("meth").style.display=m?"block":"none";$("fran").style.display=f?"block":"none";$("mal").style.display=ml?"block":"none";
+  $("main").style.display=m||f||ml?"none":"flex";$("tabs").style.display=m||f||ml?"none":"flex";
+  if(ml){mrender();return;}
+  if(m){$("title").textContent="Méthode et sources";$("crumbList").textContent="Méthode";$("crumbSite").textContent="Sources";return;}
+  if(f){frender();return;}setList(a.dataset.l);render();};
+$("csv").onclick=()=>{const v=view();const rows=[["rang","personnage","oeuvre","sexe","medium","tag_rule34","rule34","gain_union","tag_danbooru","danbooru","danbooru_pour_100_rule34","copyright_rule34","medium_et_type","espece"]]
+  .concat(v.map(o=>[o._rk,o.n,o.u,o.s,o.m,o.t,o.r,o.g,o.td,o.d,o.x.toFixed(2),o.c.filter(k=>!k.startsWith("m:")&&!k.startsWith("s:")).join(" "),o.c.filter(k=>k.startsWith("m:")).map(k=>CPT[k].l).join(" | "),o.c.filter(k=>k.startsWith("s:")).map(k=>CPT[k].l).join(" | ")]));
+  const txt="\ufeff"+rows.map(r=>r.map(c=>/[",;\n]/.test(String(c))?'"'+String(c).replace(/"/g,'""')+'"':c).join(",")).join("\n");
+  try{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([txt],{type:"text/csv"}));a.download=(LIST==="d"?"vue_top_danbooru.csv":"vue_selection_rule34.csv");document.body.appendChild(a);a.click();a.remove();}
+  catch(err){alert("Export impossible dans l'aperçu : ouvre le fichier dans un navigateur.");}};
+
+// ---- page MyAnimeList ----
+const mst={s:"",l:"",q:"",k:"r",dir:1};
+const MNAT={r:1,n:1,u:1,f:-1,r34:-1,db:-1};
+const MSX={F:"♀",M:"♂","?":"?"};
+function mfind(o){if(o.lk==="r")return {L:DATA_R,p:DATA_R.find(x=>x.t===o.t)};if(o.lk==="d")return {L:DATA_D,p:DATA_D.find(x=>x.t===o.t)};return null;}
+function mview(){const q=mst.q.toLowerCase();
+  let L=MAL.filter(o=>(!mst.s||o.s===mst.s)&&(!mst.l||(mst.l==="1")===(o.r34!=null))&&(!q||(o.n+" "+o.nm+" "+o.u+" "+o.jp+" "+o.an).toLowerCase().includes(q)));
+  const k=mst.k,val=o=>k==="n"?o.n:k==="u"?o.u:k==="r34"?o.r34:k==="db"?o.db:o[k];
+  L=[...L].sort((a,b)=>{const x=val(a),y=val(b);
+    if(x==null||y==null)return (x==null)-(y==null)||a.r-b.r;
+    const c=typeof x==="string"?x.localeCompare(y,"fr"):x-y;return (c||a.r-b.r)*(c?mst.dir:1);});
+  return L;}
+function mhead(k,lab,cls,tip){const on=mst.k===k;return `<th data-k="${k}"${cls?` class="${cls}"`:""}${tip?` title="${esc(tip)}"`:""}>${lab}${on?` <span class="ar">${mst.dir===-1?"▼":"▲"}</span>`:""}</th>`;}
+function mrender(){
+  const L=mview(),maxF=MAL[0].f;
+  $("title").textContent="MyAnimeList · top 100 des personnages favoris";
+  $("crumbList").textContent="MyAnimeList";$("crumbSite").textContent="Top 100 favoris";
+  const c=k=>L.filter(o=>o.s===k).length,inA=L.filter(o=>o.r34!=null).length;
+  $("msum").innerHTML=`${L.length} personnage${L.length>1?"s":""} · ${c("F")} fille${c("F")>1?"s":""}, ${c("M")} garçon${c("M")>1?"s":""}${c("?")?", "+c("?")+" non défini"+(c("?")>1?"s":""):""} · ${inA} dans EdeniaList · ${fmt(L.reduce((s,o)=>s+o.f,0))} favoris cumulés`;
+  let h=`<table class="fr"><thead><tr>${mhead("r","#","","Rang MyAnimeList")}${mhead("n","Personnage","l")}${mhead("u","Œuvre","l mu")}<th title="Sexe">Sexe</th>${mhead("f","Favoris MAL","","Nombre de membres MAL qui ont le personnage en favori")}${mhead("r34","Rule34","","Publications Rule34 (personnages présents dans EdeniaList seulement)")}${mhead("db","Danbooru","","Images Danbooru (personnages présents dans EdeniaList seulement)")}<th class="ml">MAL</th></tr></thead><tbody>`;
+  if(!L.length)h+=`<tr><td colspan="8" class="empty">Aucun personnage ne correspond.</td></tr>`;
+  L.forEach(o=>{const rc=o.r<=3?" r"+o.r:"",f=mfind(o);
+    const src=o.lk==="r"?`#${o.rg} sélection Rule34`:o.lk==="d"?"Top Danbooru · non audité":o.lk==="t"?"tag seul · franchises":"";
+    h+=`<tr class="${f?"lnk":""}" data-r="${o.r}"><td class="rk${rc}">${o.r}</td>
+      <td class="mn"><b>${f?"▸ ":""}${esc(o.n)}</b>${o.s==="M"?'<span class="tag m">M</span>':""}<span class="sx">${esc(o.nm)}${o.jp?" · "+esc(o.jp):""}</span></td>
+      <td class="mu">${esc(o.u)}</td><td class="ms">${MSX[o.s]}</td>
+      <td class="mf">${fmt(o.f)}<div class="bar"><i style="width:${o.f/maxF*100}%"></i></div></td>
+      <td class="mc">${o.r34!=null?`<b>${fmt(o.r34)}</b><div class="sub">${src}</div>`:'<span class="no">—</span>'}</td>
+      <td class="mc">${o.db!=null?`<b>${fmt(o.db)}</b>${o.rd?`<div class="sub">#${o.rd} Top Danbooru</div>`:""}`:'<span class="no">—</span>'}</td>
+      <td class="ml"><a href="${esc(o.url)}" target="_blank" rel="noopener">MAL ↗</a></td></tr>`;});
+  $("mout").innerHTML=h+"</tbody></table>";}
+$("msx").onclick=e=>{const b=e.target.closest("button");if(!b)return;mst.s=b.dataset.s;$("msx").querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));mrender();};
+$("mlk").onclick=e=>{const b=e.target.closest("button");if(!b)return;mst.l=b.dataset.l;$("mlk").querySelectorAll("button").forEach(x=>x.classList.toggle("on",x===b));mrender();};
+$("mq").oninput=e=>{mst.q=e.target.value.trim();mrender();};
+$("mout").onclick=e=>{const th=e.target.closest("th[data-k]");
+  if(th){const k=th.dataset.k;if(mst.k===k)mst.dir=-mst.dir;else{mst.k=k;mst.dir=MNAT[k];}mrender();return;}
+  if(e.target.closest("a"))return;
+  const tr=e.target.closest("tr.lnk");if(!tr)return;const o=MAL.find(x=>x.r===+tr.dataset.r),f=mfind(o);if(!f||!f.p)return;
+  const keep=DATA;DATA=f.L;card(f.p);DATA=keep;
+  // puces de la fiche : ouvrir la liste correspondante avec le filtre
+  $("card").querySelectorAll(".cpchip.clk").forEach(c=>{const t=c.dataset.t;c.onclick=()=>{$("ov").classList.remove("on");
+    document.querySelector(`#nav a[data-v="top"][data-l="${f.L===DATA_D?"d":"r"}"]`).click();st.cp[t]=1;st.page=0;$("cpw").classList.add("open");$("cpchev").textContent="▴";render();};});};
+if(window.innerWidth<780){$("cpw").classList.remove("open");$("cpchev").textContent="▾";}
+franchises();render();
+</script>
+</body>
+</html>

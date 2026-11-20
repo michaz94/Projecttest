@@ -1,0 +1,78 @@
+# Relevé du 25/10/2026, rule34.xxx, fetch_page sur page=post&s=list&tags=<tag>+id:<N&pid=50000
+# Valeur notée = pid de la dernière page affichée ; effectif = pid + 21 (± 21).
+# Ancres : 2 000 000 = 2016-03-29 ; 4 000 000 = 2020-08-12 ; 5 000 000 = 2021-08-17 (1ers commentaires des posts milestone) ;
+#          7 000 000 = 2022-11-18 ; 11 927 000 = 2024-12-06 (voir marvel_rivals/r34_ancres_id_dates_2026-10-24.md)
+# borne;tag;pid_derniere_page
+2000000;shego;1512
+2000000;yorha_2b;0
+2000000;chel;210
+2000000;starfire;2226
+2000000;raven_(dc);2814
+2000000;helen_parr;840
+2000000;chun-li;6804
+2000000;tsunade;2562
+2000000;d.va;42
+2000000;fubuki_(one-punch_man);126
+2000000;jessica_rabbit;2436
+2000000;tifa_lockhart;6300
+2000000;samus_aran;3486
+2000000;kimberly_ann_possible;3654
+2000000;nami_(one_piece);4326
+2000000;shihouin_yoruichi;1218
+2000000;ada_wong;630
+2000000;miruko;NA_debut_2019
+2000000;yor_briar;NA_debut_2019
+2000000;kitagawa_marin;NA_debut_2018
+7000000;chel;1848
+7000000;shego;2982
+7000000;starfire;7434
+7000000;helen_parr;4410
+7000000;tsunade;11760
+7000000;fubuki_(one-punch_man);2982
+7000000;jessica_rabbit;4578
+7000000;yor_briar;3192
+7000000;kimberly_ann_possible;5586
+7000000;shihouin_yoruichi;3990
+7000000;ada_wong;5250
+# 7000000 déjà relevés (sans_ia/stock_avant_ia.py) : yorha_2b 14616 ; raven_(dc) 13818 ; miruko 5502 ; chun-li 14532 ; d.va 13860 ; tifa_lockhart 21714 ; samus_aran 15918 ; kitagawa_marin 3108 ; nami_(one_piece) 13524
+11927000;yorha_2b;26502
+11927000;chel;4914
+11927000;shego;4620
+11927000;starfire;13104
+11927000;raven_(dc);24444
+11927000;helen_parr;9198
+11927000;miruko;14238
+11927000;chun-li;24948
+11927000;tsunade;21252
+11927000;d.va;22218
+11927000;fubuki_(one-punch_man);6300
+11927000;jessica_rabbit;6930
+11927000;tifa_lockhart;34230
+11927000;samus_aran;24528
+11927000;yor_briar;12306
+11927000;kitagawa_marin;8862
+11927000;kimberly_ann_possible;8190
+11927000;nami_(one_piece);28560
+11927000;shihouin_yoruichi;9282
+11927000;ada_wong;12390
+# Sans IA, période déc. 2024 – oct. 2026 : tags=<tag>+-ai_generated+id:>11927000
+sansIA_apres11927000;kitagawa_marin;3150
+sansIA_apres11927000;nami_(one_piece);6216
+sansIA_apres11927000;yor_briar;2856
+sansIA_apres11927000;tifa_lockhart;8106
+sansIA_apres11927000;tsunade;3486
+sansIA_apres11927000;miruko;4578
+sansIA_apres11927000;yorha_2b;6216
+sansIA_apres11927000;chun-li;7686
+sansIA_apres11927000;raven_(dc);5796
+sansIA_apres11927000;d.va;5418
+sansIA_apres11927000;samus_aran;5040
+sansIA_apres11927000;shihouin_yoruichi;2688
+sansIA_apres11927000;ada_wong;6888
+sansIA_apres11927000;starfire;2940
+sansIA_apres11927000;fubuki_(one-punch_man);1428
+sansIA_apres11927000;helen_parr;2478
+sansIA_apres11927000;chel;1638
+sansIA_apres11927000;jessica_rabbit;1092
+sansIA_apres11927000;kimberly_ann_possible;756
+sansIA_apres11927000;shego;588

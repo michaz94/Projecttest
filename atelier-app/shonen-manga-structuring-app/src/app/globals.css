@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* Évite le zoom automatique iOS : Safari zoome si la police < 16px. */
+@media (max-width: 640px) {
+  input,
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
+
+/* Confort de défilement sur mobile */
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  overscroll-behavior-y: contain;
+}
+
+/* Barre de navigation défilable sans ascenseur visible */
+.scroll-x {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+/* Encoches et barres système (iPhone) */
+.safe-bottom {
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+
+/* Retour tactile immédiat */
+@media (hover: none) {
+  button:active,
+  a:active,
+  label:active {
+    opacity: 0.7;
+  }
+}

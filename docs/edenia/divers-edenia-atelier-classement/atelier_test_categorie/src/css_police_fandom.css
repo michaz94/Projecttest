@@ -1,0 +1,32 @@
+/* ===== Corps du texte des articles — valeurs du skin FandomMobile =====
+   Source : load.php?modules=skin.fandommobile.styles (hunterxhunter.fandom.com, relevé le 21/10/2026)
+     body.rubik { font-family: rubik, helvetica, arial, sans-serif }
+     body { color: var(--theme-page-text-color) }
+     .mw-parser-output p, ul, ol { font-size:16px; font-weight:300; line-height:1.75 }
+     .mw-parser-output p { margin-bottom:1.125rem }   .mw-parser-output b { font-weight:700 }
+   Couleur Fandom (HxH FR sombre) = #e6e6e6 — NON appliquée : l'utilisateur garde les couleurs chaudes d'Edenia.
+   Police : fichiers Rubik servis par Fandom (static.wikia.nocookie.net/fandom-ae-assets/fonts/rubik/v23_new),
+     embarqués en base64 (aperçu hors ligne). Sous-ensembles latin + latin-ext, graisses 300/400/700 + italiques 300/700. */
+__RUBIK_FACES__
+.a-lead,.a-sec p,.a-sec li{font-family:rubik,helvetica,arial,sans-serif;font-size:16px;font-weight:300;line-height:1.75}
+/* Couleur : choix utilisateur (21/10) = anciennes couleurs chaudes d'Edenia, pas le #e6e6e6 de Fandom */
+.a-lead{color:var(--ink)}            /* #f3eadf */
+.a-sec p,.a-sec li{color:#ddd3c6}
+.a-lead,.a-sec p{margin-bottom:1.125rem}
+.a-lead b,.a-sec p b,.a-sec li b,.a-lead strong,.a-sec p strong,.a-sec li strong{font-weight:700;color:inherit}
+/* Notes de bas de page, notes de tableau : non concernées (pas du corps du texte) */
+.a-sec .refs li{font-size:12.5px;line-height:1.45}
+.a-sec p.rtab-note{font-size:12px;line-height:1.5;color:var(--inkmut)}
+
+/* ===== Titres — valeurs du skin FandomMobile (même relevé, 21/10/2026) =====
+   .article-content h1…h6 { font-family: var(--theme-page-headings-font), rubik, helvetica, arial, sans-serif }
+     (--theme-page-headings-font = 'Rubik' sur le Wiki HxH)
+   h1…h6 { margin-bottom:1.125rem }
+   h1 { 28px ; 700 ; line-height 30px }   .wiki-page-header__title { font-size:28px }
+   h2 { 24px ; 400 ; line-height 26px }   h3 { 18px ; 500 ; 20px }   h4 { 16px ; 500 ; 18px }   h5,h6 { 14px ; 500 ; 16px }
+   .article-table-wrapper tr>th { font-weight:700 ; line-height:1.25 } + td/th { font-size:14px }
+   Couleurs : celles d'Edenia sont gardées (choix utilisateur pour le texte). */
+.a-title{font-family:rubik,helvetica,arial,sans-serif;font-size:28px;font-weight:700;line-height:30px;text-shadow:none;margin-bottom:0}
+.a-sec h2{font-family:rubik,helvetica,arial,sans-serif;font-size:24px;font-weight:400;line-height:26px;margin:16px 0 1.125rem} /* 16px au-dessus : espacement Edenia gardé */
+.a-sec ul{margin-bottom:9px}
+.roster__h{font-family:rubik,helvetica,arial,sans-serif;font-size:14px;font-weight:700;line-height:1.25}

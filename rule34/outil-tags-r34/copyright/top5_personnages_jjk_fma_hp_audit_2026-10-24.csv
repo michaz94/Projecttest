@@ -1,0 +1,32 @@
+﻿site,franchise,rang,personnage,tags,publications,methode,date
+rule34,Jujutsu Kaisen,1,Nobara Kugisaki,kugisaki_nobara,14940,tag 14 772 + gain d’union 168 (sélection auditée),2026-10-24
+rule34,Jujutsu Kaisen,2,Maki Zen'in,zenin_maki,7300,tag seul (maki_zenin -zenin_maki ≤ 42),2026-10-24
+rule34,Jujutsu Kaisen,3,Satoru Gojo,satoru_gojo,5742,tag seul (alias sans tag principal ≈ 105),2026-10-24
+rule34,Jujutsu Kaisen,4,Yuji Itadori,itadori_yuuji,4361,tag seul (alias ≤ 42),2026-10-24
+rule34,Jujutsu Kaisen,5,Mei Mei,mei_mei_(jujutsu_kaisen),3718,tag seul,2026-10-24
+rule34,Fullmetal Alchemist,1,Winry Rockbell,winry_rockbell,1707,tag (autocomplete),2026-10-24
+rule34,Fullmetal Alchemist,2,Olivier Mira Armstrong,olivier_mira_armstrong,1188,tag (autocomplete),2026-10-24
+rule34,Fullmetal Alchemist,3,Riza Hawkeye,riza_hawkeye,998,tag (autocomplete),2026-10-24
+rule34,Fullmetal Alchemist,4,Lust,lust_(fullmetal_alchemist),945,tag (autocomplete),2026-10-24
+rule34,Fullmetal Alchemist,5,Edward Elric,edward_elric,860,tag (autocomplete),2026-10-24
+rule34,Harry Potter,1,Hermione Granger,hermione_granger,6943,tag seul,2026-10-24
+rule34,Harry Potter,2,Malfoid (Draco genderswap fan),draco_malfoy_(redteneri),3035,tag seul (malfoid -draco_malfoy_(redteneri) ≤ 42),2026-10-24
+rule34,Harry Potter,3,Harry Potter,harry_james_potter,2043,tag seul (harry_potter = Copyright),2026-10-24
+rule34,Harry Potter,4,Ginny Weasley,ginny_weasley,1445,tag seul,2026-10-24
+rule34,Harry Potter,5,Luna Lovegood,luna_lovegood,1134,tag seul,2026-10-24
+rule34,Harry Potter,—,Draco Malfoy (sans Malfoid),draco_malfoy -draco_malfoy_(redteneri) -malfoid,504,exclusion (draco_malfoy brut = 3334),2026-10-24
+danbooru,Jujutsu Kaisen,1,Satoru Gojo,gojo_satoru,6189,tag,2026-10-24
+danbooru,Jujutsu Kaisen,2,Yuji Itadori,itadori_yuji,4484,tag,2026-10-24
+danbooru,Jujutsu Kaisen,3,Megumi Fushiguro,fushiguro_megumi,3629,tag,2026-10-24
+danbooru,Jujutsu Kaisen,4,Suguru Geto,geto_suguru,3042,tag,2026-10-24
+danbooru,Jujutsu Kaisen,5,Nobara Kugisaki,kugisaki_nobara,2586,tag,2026-10-24
+danbooru,Fullmetal Alchemist,1,Edward Elric,edward_elric,2709,tag,2026-10-24
+danbooru,Fullmetal Alchemist,2,Alphonse Elric,alphonse_elric,1397,tag,2026-10-24
+danbooru,Fullmetal Alchemist,3,Winry Rockbell,winry_rockbell,1252,tag,2026-10-24
+danbooru,Fullmetal Alchemist,4,Roy Mustang,roy_mustang,1084,tag,2026-10-24
+danbooru,Fullmetal Alchemist,5,Riza Hawkeye,riza_hawkeye,1007,tag,2026-10-24
+danbooru,Harry Potter,1,Malfoid (Draco genderswap fan),malfoid,4043,tag,2026-10-24
+danbooru,Harry Potter,2,Harry Potter,harry_potter,1652,tag,2026-10-24
+danbooru,Harry Potter,3,Hermione Granger,hermione_granger,775,tag,2026-10-24
+danbooru,Harry Potter,4,Ron Weasley,ron_weasley,387,tag,2026-10-24
+danbooru,Harry Potter,5,Draco Malfoy,draco_malfoy,312,tag,2026-10-24
