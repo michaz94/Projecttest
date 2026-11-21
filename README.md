@@ -1,15 +1,13 @@
-# Projecttest — Nexus Wiki, benchmarks et projet Edenia
+# Projecttest — benchmarks, Edenia et Ateliers
 
-Dépôt de recherche et de développement : application **Nexus Wiki** (Vite + React),
-benchmarks d'œuvres (notes, corpus, classements), projet créatif **Edenia**,
-analyses Rule34 et sources historiques (*Dictionnaire infernal*, 1825).
+Dépôt de recherche : benchmarks d'œuvres (notes, corpus, classements),
+projet créatif **Edenia**, Ateliers Fandom, analyses Rule34
+et sources historiques (*Dictionnaire infernal*, 1825).
 
 ## Arborescence
 
 ```
 .
-├── src/                          # Application Nexus Wiki (Vite + React + Tailwind)
-├── index.html, package.json, vite.config.ts, tsconfig.json
 ├── atelier-app/                  # Atelier Fandom : exports, modèles wiki, templates
 │   ├── export-1/                 #   Atelier V7, influences, visionneuse
 │   ├── export-2/                 #   Modèles wiki + aperçus HTML
@@ -43,14 +41,6 @@ analyses Rule34 et sources historiques (*Dictionnaire infernal*, 1825).
 
 ## Lancement
 
-### Nexus Wiki (racine)
-
-```bash
-npm install
-npm run dev     # développement
-npm run build   # build (fichier unique via vite-plugin-singlefile)
-```
-
 ### MyAnimeList — app Next.js (`benchmark-oeuvre/myanimelist/`)
 
 ```bash
@@ -65,9 +55,13 @@ Le dossier `src/` a été restauré depuis le ZIP `shonen-manga-structuring-app 
 
 ### Autres snapshots
 
-- `atelier-app/fandom-template/` : template Vite/Fandom (version antérieure de l'app racine).
+- `atelier-app/fandom-template/` : template Vite/Fandom (snapshot extrait du ZIP).
 - `atelier-app/shonen-manga-structuring-app/` : version **ancienne** de l'app Next
   (la version à jour est `benchmark-oeuvre/myanimelist/`).
+
+> L'application **Nexus Wiki** (Vite + React, anciennement à la racine) a été
+> supprimée — elle n'était plus utilisée. Son code reste disponible dans
+> l'historique Git (avant le commit de suppression).
 
 ## Notes de réorganisation (nov. 2026)
 
