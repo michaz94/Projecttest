@@ -52,6 +52,23 @@
 #   - les musiques de BioShock, BioShock Infinite et Fallout ravivent cette envie (références d'ambiance sonore, pas transposition visuelle ni nouveaux faits de monde) ;
 #   - rejet explicite de l'image test de garçon `test_tenue_edenia_garcon.png` et du rendu « beau gosse manhwa » ; cette image n'est ni canon ni référence à reprendre ;
 #   - le registre occultisme non « dark » reste décidé ; aucun plafond technologique, statut de zone ou règle vestimentaire antérieure n'est modifié.
+# Mise à jour du 2026-11-20 (demandée par U, synchronisation YAML + carnet de bord § 5.7) :
+#   - style de dessin : remplacement d'« encrage shōnen nerveux » par « encrage shōnen net et contrasté (trait propre à pleins et déliés,
+#     aplats noirs francs, cadrages et raccourcis dynamiques) » (envisagé, U) et rejet explicite de « nervosité JJK » (décidé, U) ;
+#     ajout de DreamWorks / film d'animation occidentale (envisagé, U) ; croisement visé des décors consigné dans ambiance_des_lieux (envisagé, U) ;
+#   - esthétique vestimentaire : ajout de Gachiakuta à inspire_de aux côtés de Radiant et Runeterra (décidé, U) ;
+#   - positionnement d'ensemble et humour : shōnen d'aventure fantasy classique à monde détaillé dans l'esprit webnovel / Epic Fantasy,
+#     formule « œuvre type Royal Road écrite par un Européen / Français » (envisagé, U) ; humour sec, pince-sans-rire et ironique avec repères
+#     La douane du Croc-Blême (cochon, Garaud, Nara) et Le Bazar à Contresort, en précisant que tous les personnages ne sont pas blasés (envisagé, U) ;
+#   - système de magie : logique RPG type MMORPG / LitRPG (envisagé, U), avec exclusion explicite des blocs/fenêtres de statistiques LitRPG (décidé, U) ;
+#   - nouvelles fiches references : William Shakespeare (référence, envisagé, en particulier Le Songe d'une nuit d'été), Deadlock (référence,
+#     envisagé, connu de loin via artworks officiels), Galaxias (référence, intérêt, non lu/non vu, plus proche que One Piece), Sergio Leone
+#     (référence, intérêt, prenant davantage en compte Il était une fois en Amérique que ses autres œuvres) ;
+#   - précisions sur fiches existantes : One Piece, Fullmetal Alchemist, Game of Thrones vs The Witcher 3, et Chevalier / arthurien
+#     (écho dans la narration sans chevalier classique, en intérêt ; rejet du pitch extrapolé « serment royal + chevalier-western ») ;
+#   - orientation générale des personnages (envisagé, U) : occultistes (officiel / itinérant / marginal), déjà débrouillards au départ avec
+#     niveau de thaumaturgie au minimum correct (distinction maintenue entre débrouillardise et thaumaturgie) ; constat d'avancement au 20 nov. 2026
+#     (seuls cadre, worldbuilding et forme sont posés ; zéro intrigue, zéro fond thématique arrêté, personnages encore flous).
 
 projet:
   nom_provisoire: Edenia
@@ -72,11 +89,11 @@ projet:
       texte: 'Arcana : second projet d''univers urbain et moderne ; partage le même style de dessin qu''Edenia (décidé, U, 15 oct. 2026) ; les matières urbaines contemporaines comme le jean et les lacets modernes lui seraient réservées (envisagé, U, 16 nov. 2026)'
       statut_decision: non_precise
   registre_et_ton:
-    source: 'U, carnet de bord (§ 3.3, § 3.5, § 5.4 et § 5.5), 16 nov. 2026'
+    source: 'U, carnet de bord (§ 3.3, § 3.5, § 5.4, § 5.5 et § 5.7), 16 et 20 nov. 2026'
     positionnement_d_ensemble:
-      texte: 'fantasy classique assumée dans le fond, renouvelée sur trois plans : la forme (manga shōnen), un folklore différent et un système de magie ainsi que des combats pensés pour être au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter'
+      texte: 'shōnen d''aventure de fantasy classique assumée, renouvelée sur trois plans : la forme (manga shōnen), un folklore différent (européen et français) et un système de magie ainsi que des combats pensés au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter ; monde détaillé dans l''esprit webnovel / Epic Fantasy, résumé par la formule « œuvre type Royal Road écrite par un Européen / Français » (sensibilité plus européenne que celle des light novels japonais)'
       statut_decision: envisage
-      source: 'U, 16 nov. 2026 (carnet § 5.5)'
+      source: 'U, 16 nov. 2026 (carnet § 5.5), complété et validé en envisagé le 20 nov. 2026 (carnet § 5.7)'
     approche_d_inspiration:
       texte: 'puiser prioritairement dans les œuvres littéraires et hors-manga (romans, webromans, sources historiques et folkloriques européennes et françaises), tout en conservant les mangas de référence et les exigences de narration d''un manga shōnen'
       statut_decision: envisage
@@ -84,8 +101,12 @@ projet:
       texte: 'univers bien construits à logique sociale, historique et matérielle ; refus d''utiliser la mythologie ou le folklore comme simple étiquette décorative (façon Seven Deadly Sins) ; intérêt pour le fonctionnement concret des organisations et des systèmes (Gotei 13, Cour infernale du Dictionnaire infernal, enfer de Dorohedoro, figures historiques et savantes, folklore français)'
       statut_decision: interet
     tonalite_visee:
-      texte: 'ton non « dark » : merveilleux, mystère et aventure (Harry Potter, Le Château ambulant / Miyazaki, Le Seigneur des Anneaux), humour sec ou d''observation (Tarantino, légère touche de Terry Pratchett hors absurde), tension dramatique (Hunter × Hunter), combats tactiques (Jujutsu Kaisen, arc des Rank B Wars de World Trigger), systèmes de magie à règles définies (hard magic ; architecture non arrêtée, premiers mots-clés notés en intérêt dans pistes_systeme_de_magie), ampleur épique et vraisemblance (Worm, The Stormlight Archive : conséquences et psychologie traitées sérieusement)'
+      texte: 'ton non « dark » : merveilleux, mystère et aventure (Harry Potter, Le Château ambulant / Miyazaki, Le Seigneur des Anneaux), humour sec, pince-sans-rire et ironique (Tarantino, légère touche de Terry Pratchett hors absurde ; voir humour_et_reperes_de_scenes), tension dramatique (Hunter × Hunter), combats tactiques (Jujutsu Kaisen, arc des Rank B Wars de World Trigger), systèmes de magie à règles définies (hard magic ; architecture non arrêtée, premiers mots-clés notés en intérêt dans pistes_systeme_de_magie), ampleur épique et vraisemblance (Worm, The Stormlight Archive : conséquences et psychologie traitées sérieusement)'
       statut_decision: envisage
+    humour_et_reperes_de_scenes:
+      texte: 'humour sec, pince-sans-rire et ironique : parmi les anciennes scènes-tests générées par IA (hors canon, simples repères de ton), les deux passages les plus proches du registre recherché sont le contrôle frontalier de La douane du Croc-Blême (le cochon, Garaud et Nara) et Le Bazar à Contresort (version sérieuse sans absurde) ; réserve explicite : tous les personnages ne sont pas blasés ni pince-sans-rire (ex. Nara est vive et joueuse ; l''équilibre des tempéraments du casting reste ouvert)'
+      statut_decision: envisage
+      source: 'U, 20 nov. 2026 (complète carnet § 3.5c et § 5.7)'
     exclusions_de_ton:
       texte: 'rejet de l''humour gag et de l''ecchi japonais (carnet § 3.3) ; registre de l''occulte, du marais et de la pègre non « dark », sans gothique poisseux ni grimdark (décidé, U, 16 nov. 2026 ; voir occultisme.registre_tonal)'
       statut_decision: decide
@@ -279,6 +300,21 @@ projet:
       apparence: '« pour moi son apparence ressemble à Raiponce de Tangled » (U, 12 oct. 2026)'
       origine_prenom: Gwen Tennyson (Ben 10) (U, 12 oct. 2026)
       contraste_trio: 'piste ouverte de contraste face à Brann (élan brut) et Cosmo (sang-froid agile et urbain) (carnet § 5.4, point 5)'
+  orientation_generale_personnages:
+    source: 'U, 20 nov. 2026 (carnet § 5.7)'
+    statut_occultistes:
+      texte: 'les personnages principaux seraient des occultistes (« je crois que les personnages sont des occultistes »), pouvant relever d''un statut officiel, itinérant et/ou marginal (« les trois en même temps »)'
+      statut_decision: envisage
+    competence_initiale_et_thaumaturgie:
+      texte: 'personnages sachant déjà se débrouiller au départ (« quelqu''un qui sait déjà se débrouiller »), avec un niveau de thaumaturgie au minimum correct, tout en distinguant nettement « savoir se débrouiller » (débrouillardise pratique et opérationnelle sur le terrain) et « connaître la thaumaturgie » (maîtrise technique et théorique de la magie)'
+      statut_decision: envisage
+    temperaments:
+      texte: 'les personnages ne sont pas tous blasés ni pince-sans-rire (l''équilibre exact des tempéraments du casting reste ouvert ; voir registre_et_ton.humour_et_reperes_de_scenes)'
+      statut_decision: envisage
+  etat_avancement_recit:
+    date: '2026-11-20'
+    source: U
+    constat: 'au 20 nov. 2026, seuls le cadre, le worldbuilding et la forme sont posés ou cadrés : Edenia n''a encore ni intrigue (zéro plot arrêté), ni propos ou fond thématique arrêté, et les personnages restent encore flous ; la question structurelle d''un mentor ou d''un lieu d''apprentissage (type Scholomance ou transmission de terrain) pour exposer un système de magie tactique complexe reste ouverte'
   esthetique_vestimentaire:
     decide_depuis_le_3_oct: archaïque mais pas trop
     definitions:
@@ -300,6 +336,8 @@ projet:
     inspire_de:
     - Radiant
     - Runeterra
+    - Gachiakuta
+    note_inspire_de: 'Gachiakuta ajouté en décidé par U le 20 nov. 2026 aux côtés de Radiant et de Runeterra pour l''esthétique vestimentaire'
     cadre_temporel_flou_comme:
     - Radiant
     - Runeterra
@@ -398,23 +436,32 @@ projet:
     - foires
     note: 'éléments de vocabulaire et de décor (aucun n''est une décision) ; voir aussi structure_du_monde.feodalite (envisagé, 16 nov. 2026) et institutions_et_statuts_en_interet.chevalier (intérêt, 16 nov. 2026)'
   institutions_et_statuts_en_interet:
-    source: 'U, 16 nov. 2026 (carnet § 5.5)'
+    source: 'U, 16 et 20 nov. 2026 (carnet § 5.5 et § 5.7)'
     chevalier:
       texte: 'retenu en intérêt d''abord comme statut social et martial dans le cadre féodal (couche 2 : combattant reconnu par un titre ou adoubement, compatible avec la magie et des tenues souples), avec l''imagerie de l''armure lourde classique en option réservée à certains personnages ou groupes (couche 1)'
-      recits_de_chevalerie: 'récits de chevalier d''époque médiévale et Renaissance (couche 3, charpentes narratives) : intérêt ouvert, non limité à un seul modèle de récit afin de ne pas biaiser un choix futur (tout ce qui touche à la structure narrative reste au niveau intérêt)'
+      recits_de_chevalerie: 'récits de chevalier d''époque médiévale et Renaissance (couche 3, charpentes narratives) et écho arthurien/chevaleresque dans la narration (« sans parler de chevalier classique », U, 20 nov. 2026) : intérêt ouvert, non limité à un seul modèle de récit afin de ne pas biaiser un choix futur (tout ce qui touche à la structure narrative reste au niveau intérêt)'
+      exclusion_extrapolation_ia: 'aucune intrigue de type « serment royal + chevalier-western » n''est définie ni retenue : ce pitch était une extrapolation de l''IA à partir de mots-clés d''ambiance et de scènes-tests hors canon, explicitement rejetée par U le 20 nov. 2026'
       statut_decision: interet
-      note: 'U, 16 nov. 2026 (à relier au goal de Brann, au tournoi de chevalerie, à Fabula Fantasia et au Cycle de la Vulgate)'
+      note: 'U, 16 et 20 nov. 2026 (à relier au goal de Brann, au tournoi de chevalerie, à Fabula Fantasia et au Cycle de la Vulgate)'
     scholomance:
       texte: 'école ou institution de magie pensée sur le principe « Harry Potter, mais différent » (les différentes manières de s''en distinguer restent ouvertes ; orthographe usuelle : Scholomance, mot-clé jugé limpide et évocateur par U)'
       statut_decision: interet
       note: 'U, 16 nov. 2026 (à relier à Harry Potter et à la piste d''école en Brocéliande)'
   pistes_systeme_de_magie:
-    source: 'U, 16 nov. 2026 (carnet § 5.5)'
+    source: 'U, 16 et 20 nov. 2026 (carnet § 5.5 et § 5.7)'
     note_statut: 'termes, mots-clés et concepts jugés limpides, évocateurs et bien accordés à l''univers par U ; le système de magie n''est pas encore arrêté (les quatre briques sont au statut intérêt)'
     cible_tactique:
       texte: 'système de magie et combats pensés pour être au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter'
       statut_decision: envisage
       source: 'U, 16 nov. 2026'
+    logique_rpg_mmorpg_litrpg:
+      texte: 'logique de structure, de progression et de lisibilité inspirée des RPG, MMORPG et LitRPG pour l''architecture du système de magie'
+      statut_decision: envisage
+      source: 'U, 20 nov. 2026'
+    exclusion_blocs_statistiques_litrpg:
+      texte: 'rejet explicite des blocs de statistiques, fenêtres de statut chiffrées et interfaces de jeu vidéo diégétiques propres au LitRPG (« pas pour les blocs de statistiques »)'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026'
     briques:
     - element: Mana (nom provisoire)
       texte: 'source de la magie : évoque un système doté d''une source ésotérique (nom explicitement provisoire)'
@@ -460,10 +507,19 @@ projet:
       texte: Jujutsu Kaisen, atie1225, Shadman, Disney/Pixar, Spider-Verse, Naruto, Gachiakuta et Quirkilicious
       statut_decision: non_precise
       source: 'U, 15 oct. 2026 : « Je crois que mon style artistique se trouve dans Jujutsu Kaisen, atie1225, Shadman, Disney/Pixar, Spider-Verse, Naruto, Gachiakuta et Quirkilicious »'
-    chara_design_et_rendu:
-      texte: 'expressivité d''animation occidentale (visages variés, regards francs, nez et sourcils dessinés, hors registre moe) + encrage shōnen nerveux + noir et blanc lumineux à 4 valeurs et trames de points'
+      note_complementaire: 'complété par U le 20 nov. 2026 avec DreamWorks / film d''animation occidentale aux côtés de Disney/Pixar (voir animation_occidentale_dreamworks_disney)'
+    animation_occidentale_dreamworks_disney:
+      texte: 'film d''animation occidentale : DreamWorks aux côtés de Disney/Pixar et Spider-Verse pour l''expressivité des visages, le jeu d''acteur et la lisibilité des silhouettes'
       statut_decision: envisage
-      source: 'carnet de bord (§ 5.4, point 2), classé en envisagé par U le 16 nov. 2026'
+      source: 'U, 20 nov. 2026'
+    chara_design_et_rendu:
+      texte: 'expressivité d''animation occidentale (visages variés, regards francs, nez et sourcils dessinés, hors registre moe ; esprit Disney/Pixar et DreamWorks) + encrage shōnen net et contrasté (trait propre à pleins et déliés, aplats noirs francs, cadrages et raccourcis dynamiques) + noir et blanc lumineux à 4 valeurs et trames de points'
+      statut_decision: envisage
+      source: 'carnet de bord (§ 5.4, point 2), classé en envisagé par U le 16 nov. 2026 ; reformulé et validé en envisagé par U le 20 nov. 2026 après examen des planches tests'
+    rejet_nervosite_jjk:
+      texte: 'rejet explicite de « nervosité JJK » et de la formule antérieure « encrage shōnen nerveux » : le trait visé reste propre, fermé et sculpté (cohérent avec le retrait du mot « sketchy » le 15 oct. 2026) ; Jujutsu Kaisen compte pour les cadrages/raccourcis dynamiques, la tension expressive et les contrastes N&B francs, pas pour un trait griffé'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026 (« Non pas Nevervosité JJK. Enlève. » ; confirmé après relecture des tests visuels)'
     tests_pixai:
       statut: tests de style, non canon (U)
       contenu: '12 images générées avec PixAI jointes le 15 oct. 2026 (aucune de ces 12 images ne représente Brann, Cosmo ou Harley ; toutes dites « Edenia compatible », tests 09 et 10 à rendre légèrement moins modernes à cause du jean) + versions noir et blanc des tests 11 et 12 jointes le 16 oct. 2026. Documents de tests titrés « Arcana » (PixAI Arcana 2 et 2.1, PixAI_Arcana_Art parties 1 et 2, créés le 14 sept.) ; les autres tests partent de personnages existants (Robin, Raven, Nami, Violet Parr, Gwen, Miles Morales…)'
@@ -473,6 +529,10 @@ projet:
   ambiance_des_lieux:
     statut_decision: envisage
     sources_visuelles: 'cinq images de décors naturels : trois peintures de développement de Shrek, une double page couleur du manga Naruto (chapitre 679), une illustration numérique de style manga (probablement générée par IA)'
+    croisement_decors:
+      texte: 'croisement visé pour les décors et environnements : Runeterra, Shrek, Disney, BioShock Infinite, Belle Époque, Harry Potter, Western et Conte'
+      statut_decision: envisage
+      source: 'U, 20 nov. 2026'
     ambiance:
       texte: scènes d'ambiance qui dégagent une atmosphère de conte européen au sens large (tous types de contes), aventureuse
       source: U
@@ -531,9 +591,9 @@ references:
 - reference: The Witcher 3 (CD Projekt Red)
   statut_relation: reference
   source: U
-  aspect_vise: structure du monde (plusieurs régions, cités-États et royaumes)
+  aspect_vise: structure du monde (plusieurs régions, cités-États et royaumes) et narration (couvre ce qui est recherché sans l'excès de Game of Thrones)
   statut_decision: non_precise
-  note_utilisateur: '(11 oct. 2026) Le modèle de monde est un mélange de The Witcher 3, de Runeterra et de Fullmetal Alchemist ; dosage non précisé (« je ne sais pas, les trois en mélangé »). U avait déjà cité The Witcher 3 comme modèle du monde.'
+  note_utilisateur: '(11 oct. 2026) Le modèle de monde est un mélange de The Witcher 3, de Runeterra et de Fullmetal Alchemist ; dosage non précisé (« je ne sais pas, les trois en mélangé »). U avait déjà cité The Witcher 3 comme modèle du monde. (20 nov. 2026) Par rapport à Game of Thrones jugé peut-être trop extrême, The Witcher couvre déjà ce que U recherche, tant dans la narration que dans la structure du monde.'
   limite_lecture: non précisée
 - reference: Urban Rivals
   statut_relation: reference
@@ -564,6 +624,13 @@ references:
   contrainte_liee: plafond technologique général 1914, hors technologie magique (abaissé depuis le plafond théorique initial de 1950 ; envisagé le 2026-10-12, décidé le 2026-11-16)
   statut_decision: decide
   voir_aussi: BioShock 1 cité aussi le 12 oct. 2026 parmi les sources de la zone mafieuse (plafonnée à 1914)
+- reference: Deadlock (Valve)
+  statut_relation: reference
+  source: U
+  aspect_vise: esthétique d'univers occulte / Belle Époque à léger vernis steampunk-occulte (d'après visuels officiels)
+  statut_decision: envisage
+  limite_lecture: connu seulement de loin ; quelques artworks promotionnels et officiels du jeu vus
+  note_utilisateur: '(20 nov. 2026) Cité par U comme référence envisagée ; U précise ne connaître le jeu que de loin à travers quelques artworks promotionnels et officiels (les plafonds décidés d''Edenia — 1914 général et 1860 pour les armes à feu — restent inchangés).'
 - reference: Féodalisme (Dictionnaire féodal 1820)
   statut_relation: source_documentaire
   source: depot
@@ -652,6 +719,14 @@ references:
   statut_relation: influence
   source: U
   limite_lecture: 'juste avant le dénouement de l''arc Wano (appliqué : fin du tome 97, ch. 984, à confirmer)'
+  note_utilisateur: '(20 nov. 2026) Moins proche de la direction d''aventure et de narration visée que Galaxias ; d''éventuels échos thématiques ou vestimentaires restent possibles mais sont peut-être déjà couverts par d''autres références (voir aussi cadre_temporel_flou_comme et Monkey D. Luffy pour Brann).'
+- reference: Galaxias (Ao Hatesaka)
+  statut_relation: reference
+  source: U
+  aspect_vise: point de comparaison d'aventure et de narration shōnen fantasy jugé plus proche de la direction d'Edenia que One Piece
+  statut_decision: interet
+  limite_lecture: non lu et non vu (repéré de l'extérieur ; ne rien présumer du contenu au-delà du pitch public)
+  note_utilisateur: '(20 nov. 2026) Cité par U en référence au statut intérêt comme plus proche que One Piece sur le plan de l''aventure et de la narration, tout en précisant ne pas l''avoir lu ni vu.'
 - reference: Naruto
   statut_relation: influence
   source: U
@@ -666,7 +741,7 @@ references:
 - reference: Fullmetal Alchemist
   statut_relation: reference
   source: U
-  aspect_vise: les deux traditions d'alchimie (amestrienne et sa version chinoise)
+  aspect_vise: 'proximité d''époque, système de magie en particulier (les deux traditions d''alchimie : amestrienne et sa version chinoise), usage de figures historiques réelles, et potentiellement Edward Elric'
   structure_du_monde:
     texte: 'U (11 oct. 2026, « je crois ») : FMA correspond au modèle « un pays principal, avec des régions culturelles et des voisins pas forcément visités »'
     statut_decision: interet
@@ -685,13 +760,14 @@ references:
     alchimie:
     - l'alchimie
     - sa version chinoise
+  note_utilisateur: '(20 nov. 2026) U précise la proximité d''époque, l''intérêt particulier pour le système de magie, l''usage de figures historiques réelles et potentiellement Edward Elric (déjà cité parmi les inspirations de Brann), tout en maintenant la distance sur le cadre militaire.'
   limite_lecture: aucune indiquée
 - reference: Jujutsu Kaisen (anime)
   statut_relation: influence
   source: U
-  aspect_vise: 'exigence tactique du système de magie et des combats, aux côtés de World Trigger et Hunter × Hunter (carnet § 3.3 et § 5.5, envisagé, U, 16 nov. 2026) ; style de dessin (U, 15 oct. 2026)'
+  aspect_vise: 'exigence tactique du système de magie et des combats, aux côtés de World Trigger et Hunter × Hunter (carnet § 3.3 et § 5.5, envisagé, U, 16 nov. 2026) ; style de dessin (U, 15 oct. et 20 nov. 2026 : cadrages et raccourcis dynamiques, tension expressive et contrastes N&B francs ; rejet décidé de « nervosité JJK »)'
   limite_lecture: anime S1 à S3, jusqu'à l'épisode 59 ; manga non lu
-  note_utilisateur: œuvre que l'utilisateur aime beaucoup (dit le 7 oct. 2026)
+  note_utilisateur: 'œuvre que l''utilisateur aime beaucoup (dit le 7 oct. 2026) ; le 20 nov. 2026, U rejette explicitement « nervosité JJK » / l''encrage nerveux au profit d''un trait propre et contrasté (voir projet.style_de_dessin).'
 - reference: World Trigger
   statut_relation: reference
   source: U
@@ -714,8 +790,14 @@ references:
 - reference: Gachiakuta (Kei Urana)
   statut_relation: influence
   source: U
-  aspect_vise: style de dessin
-  note_utilisateur: '(15 oct. 2026) Cité parmi les styles où « se trouve » son style artistique (voir projet.style_de_dessin) ; LoRA utilisés comme base dans ses tests PixAI.'
+  aspect_vise: 'style de dessin ; esthétique vestimentaire (tenue, décidé, U, 20 nov. 2026)'
+  emprunts_ou_ecarts_par_aspect:
+  - aspect: esthétique vestimentaire (tenue)
+    valeur: emprunt
+    date: '2026-11-20'
+    source: U
+    note: 'ajouté en décidé par U le 20 nov. 2026 aux côtés de Radiant et de Runeterra pour l''esthétique vestimentaire (voir projet.esthetique_vestimentaire.inspire_de)'
+  note_utilisateur: '(15 oct. 2026) Cité parmi les styles où « se trouve » son style artistique (voir projet.style_de_dessin) ; LoRA utilisés comme base dans ses tests PixAI. (20 nov. 2026) Ajouté en décidé pour l''esthétique vestimentaire.'
 - reference: 'The Hunters Guild: Red Hood'
   statut_relation: influence+reference
   source: depot
@@ -752,7 +834,9 @@ references:
 - reference: Mother of Learning (et webromans type Royal Road)
   statut_relation: influence
   source: U
-  note_utilisateur: '(16 nov. 2026, carnet § 3.3) Cité parmi les webromans nourrissant l''approche littéraire (aux côtés de Worm) ; Lord of the Mysteries est seulement cité de loin sans avoir été vraiment exploré.'
+  aspect_vise: 'monde détaillé dans l''esprit webnovel / Epic Fantasy et sensibilité plus européenne que les light novels japonais (« œuvre type Royal Road écrite par un Européen / Français », envisagé, U, 20 nov. 2026)'
+  statut_decision: envisage
+  note_utilisateur: '(16 nov. 2026, carnet § 3.3) Cité parmi les webromans nourrissant l''approche littéraire (aux côtés de Worm) ; Lord of the Mysteries est seulement cité de loin sans avoir été vraiment exploré. (20 nov. 2026) U précise apprécier l''esprit plus européen des webnovels type Royal Road face aux light novels japonais, et valide en envisagé la formule repère « œuvre type Royal Road écrite par un Européen / Français ».'
 - reference: The Stormlight Archive (Sanderson)
   statut_relation: influence
   source: U
@@ -762,8 +846,14 @@ references:
 - reference: Game of Thrones
   statut_relation: influence
   source: U
+  emprunts_ou_ecarts_par_aspect:
+  - aspect: registre et tonalité d'ensemble
+    valeur: distance_a_maintenir
+    date: '2026-11-20'
+    source: U
+    note: 'jugé peut-être trop extrême par rapport au ton visé ; The Witcher couvre déjà ce que U recherche'
   limite_lecture: série S1 à S7 ; livres non lus
-  note_utilisateur: '(12 oct. 2026) « Bran » cité parmi les origines du prénom de Brann (entre Ben 10 et Hearthstone).'
+  note_utilisateur: '(12 oct. 2026) « Bran » cité parmi les origines du prénom de Brann (entre Ben 10 et Hearthstone). (20 nov. 2026) Jugé peut-être trop extrême par rapport au registre recherché, que The Witcher couvre déjà tant pour la narration que pour la structure du monde.'
 - reference: The Kingkiller Chronicle (Rothfuss)
   statut_relation: influence
   source: U
@@ -778,6 +868,12 @@ references:
   source: U
   aspect_vise: atmosphère de merveilleux, de mystère et d'aventure (carnet § 3.3, 16 nov. 2026)
   limite_lecture: La Communauté de l'Anneau, jusqu'au livre II ch. 10
+- reference: William Shakespeare
+  statut_relation: reference
+  source: U
+  aspect_vise: 'écriture de scène (carnet § 3.5a, 16 nov. 2026) ; en particulier Le Songe d''une nuit d''été (U, 20 nov. 2026)'
+  statut_decision: envisage
+  note_utilisateur: '(16 et 20 nov. 2026) Déjà cité au carnet de bord (§ 3.5a) parmi les auteurs de référence pour l''écriture de scène ; rattaché en référence au statut envisagé par U le 20 nov. 2026, avec mention particulière du Songe d''une nuit d''été.'
 - reference: Terry Pratchett
   statut_relation: reference
   source: U
@@ -789,6 +885,12 @@ references:
   source: U
   aspect_vise: humour sec ou d'observation (carnet § 3.3, 16 nov. 2026)
   note_utilisateur: '(8 oct. 2026) Inspiration, non listée dans la grille des œuvres : c''est plus Tarantino, son style et sa filmographie complète, que juste une série comme les autres.'
+- reference: Sergio Leone
+  statut_relation: reference
+  source: U
+  aspect_vise: 'mise en scène et narration, en prenant davantage en compte Il était une fois en Amérique que ses autres œuvres'
+  statut_decision: interet
+  note_utilisateur: '(20 nov. 2026) Cité aux côtés de Tarantino comme référence de narration au statut intérêt ; U précise que cela prend davantage en compte Il était une fois en Amérique que ses autres œuvres (les plafonds décidés d''Edenia — 1914 général et 1860 pour les armes à feu — restent inchangés ; voir aussi l''atmosphère d''attente type Il était une fois dans l''Ouest relevée ponctuellement au carnet § 3.5c).'
 - reference: Rise of the Brave Tangled Dragons (crossover de fans réunissant Raiponce, Mérida, Harold et Jack Frost)
   statut_relation: influence
   source: U

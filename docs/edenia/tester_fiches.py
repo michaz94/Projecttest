@@ -69,7 +69,7 @@ check("plafond des armes à feu à 1860 dans le cadre", any("1860" in c and "arm
 check("plus aucune trace du plafond 1930 dans le cadre", not any("1930" in c for c in p["cadre_valide"]))
 tech = p.get("technologie", {})
 check("technologie.plafond_armes_a_feu : decide (1860)", tech.get("plafond_armes_a_feu", {}).get("statut_decision") == "decide" and "1860" in tech.get("plafond_armes_a_feu", {}).get("texte", ""))
-check("technologie.baisse_plafond_general : envisage (1914)", tech.get("baisse_plafond_general", {}).get("statut_decision") == "envisage" and "1914" in tech.get("baisse_plafond_general", {}).get("texte", ""))
+check("technologie.baisse_plafond_general : decide (1914)", tech.get("baisse_plafond_general", {}).get("statut_decision") == "decide" and "1914" in tech.get("baisse_plafond_general", {}).get("texte", ""))
 check("technologie.inegalite_regionale : envisage (ressources)", tech.get("inegalite_regionale", {}).get("statut_decision") == "envisage" and "ressources" in tech.get("inegalite_regionale", {}).get("texte", ""))
 bs = [r for r in refs if r["reference"] == "BioShock Infinite"][0]
 check("BioShock : contrainte 1950", "1950" in bs["contrainte_liee"] and "1930" not in bs["contrainte_liee"])
@@ -97,6 +97,9 @@ check("ambiance des lieux : aucun procédé proposé par l'IA", "procedes_visuel
 check("ambiance des lieux : aucun nom de fichier", not re.search(r"\.(png|jpe?g|webp)\b|shr00|n252E0Z", yaml.safe_dump(al, allow_unicode=True)))
 check("« univers vaste » non reporté (abandonné par U)", "univers vaste" not in yaml.safe_dump(d, allow_unicode=True).lower())
 check("occultisme non tranché", p["occultisme"].get("statut_decision", "") == "")
+check("rejet de la nervosité JJK décidé et absent du rendu", "nerveux" not in p["style_de_dessin"]["chara_design_et_rendu"]["texte"] and p["style_de_dessin"].get("rejet_nervosite_jjk", {}).get("statut_decision") == "decide")
+check("Gachiakuta décidé dans esthetique_vestimentaire.inspire_de", "Gachiakuta" in p["esthetique_vestimentaire"]["inspire_de"])
+check("exclusion des blocs de statistiques LitRPG : decide", p["pistes_systeme_de_magie"].get("exclusion_blocs_statistiques_litrpg", {}).get("statut_decision") == "decide")
 check("couleur / rouge non reportés (demande de l'utilisateur)", "rouge" not in yaml.safe_dump(d, allow_unicode=True).lower().replace("rouge »", "").replace("petit homme rouge", ""), "mot « rouge » trouvé")
 
 # 4. Limites anti-spoil -------------------------------------------------
@@ -111,7 +114,7 @@ for n, motif in LIM.items():
     r = [x for x in refs if x["reference"] == n][0]
     check(f"limite de lecture présente : {n}", motif in r.get("limite_lecture", ""), r.get("limite_lecture"))
 for r in refs:
-    if any(k in r["reference"] for k in ("Stormlight", "Kingkiller", "Horde", "Game of Thrones", "Seigneur des Anneaux")):
+    if any(k in r["reference"] for k in ("Stormlight", "Kingkiller", "Horde", "Game of Thrones", "Seigneur des Anneaux", "Galaxias", "Deadlock")):
         check(f"limite de lecture renseignée : {r['reference']}", bool(r.get("limite_lecture")))
 brut = open(YAML, encoding="utf-8").read() + (open(VUE, encoding="utf-8").read() if os.path.exists(VUE) else "")
 for motif, nom in [(r"\btomes? (7|8|9|10|11|12)\b", "Radiant tomes 7+"), (r"\barc 1[0-9]\b", "Worm arc 10+"),
