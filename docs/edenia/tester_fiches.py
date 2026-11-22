@@ -73,7 +73,7 @@ check("technologie.baisse_plafond_general : decide (1914)", tech.get("baisse_pla
 check("technologie.inegalite_regionale : envisage (ressources)", tech.get("inegalite_regionale", {}).get("statut_decision") == "envisage" and "ressources" in tech.get("inegalite_regionale", {}).get("texte", ""))
 bs = [r for r in refs if r["reference"] == "BioShock Infinite"][0]
 check("BioShock : contrainte 1950", "1950" in bs["contrainte_liee"] and "1930" not in bs["contrainte_liee"])
-check("BioShock : zone industrielle décidée", bs["statut_decision"] == "decide")
+check("BioShock : zone industrielle en interet", bs["statut_decision"] == "interet")
 check("Body, Mind and Soul : sans précision négative", "trois branches" not in yaml.safe_dump(d, allow_unicode=True))
 check("Harry Potter scindé en films / livres", {"Harry Potter (films)", "Harry Potter (livres)"} <= set(noms) and "Harry Potter" not in noms)
 hpf = [r for r in refs if r["reference"] == "Harry Potter (films)"][0]
@@ -97,9 +97,29 @@ check("ambiance des lieux : aucun procédé proposé par l'IA", "procedes_visuel
 check("ambiance des lieux : aucun nom de fichier", not re.search(r"\.(png|jpe?g|webp)\b|shr00|n252E0Z", yaml.safe_dump(al, allow_unicode=True)))
 check("« univers vaste » non reporté (abandonné par U)", "univers vaste" not in yaml.safe_dump(d, allow_unicode=True).lower())
 check("occultisme non tranché", p["occultisme"].get("statut_decision", "") == "")
-check("rejet de la nervosité JJK décidé et absent du rendu", "nerveux" not in p["style_de_dessin"]["chara_design_et_rendu"]["texte"] and p["style_de_dessin"].get("rejet_nervosite_jjk", {}).get("statut_decision") == "decide")
+check("encrage shōnen net et contrasté (sans mention interdite)", "nerveux" not in p["style_de_dessin"]["chara_design_et_rendu"]["texte"] and "rejet_nervosite_jjk" not in p["style_de_dessin"])
 check("Gachiakuta décidé dans esthetique_vestimentaire.inspire_de", "Gachiakuta" in p["esthetique_vestimentaire"]["inspire_de"])
-check("exclusion des blocs de statistiques LitRPG : decide", p["pistes_systeme_de_magie"].get("exclusion_blocs_statistiques_litrpg", {}).get("statut_decision") == "decide")
+check("decoupage_chapitres (~20 pages) : envisage", p["format_editorial"].get("decoupage_chapitres", {}).get("statut_decision") == "envisage")
+check("phonetique_des_noms : envisage", p.get("phonetique_des_noms", {}).get("statut_decision") == "envisage")
+check("institutions_ordre_historiques : interet", p["structure_du_monde"].get("institutions_ordre_historiques", {}).get("statut_decision") == "interet")
+check("build_up_dramatique : interet", p["registre_et_ton"].get("build_up_dramatique", {}).get("statut_decision") == "interet")
+check("exclusions_ia_et_ecriture : decide", p["registre_et_ton"].get("exclusions_ia_et_ecriture", {}).get("statut_decision") == "decide")
+pm = p["pistes_systeme_de_magie"]
+check("reserve_et_flux : envisage", pm.get("reserve_et_flux", {}).get("statut_decision") == "envisage")
+check("modes_d_acces_ecoles : envisage", pm.get("modes_d_acces_ecoles", {}).get("statut_decision") == "envisage")
+check("densite_demographique_magique : interet", pm.get("densite_demographique_magique", {}).get("statut_decision") == "interet")
+check("support_materiel_sans_ex_nihilo : interet", pm.get("support_materiel_sans_ex_nihilo", {}).get("statut_decision") == "interet")
+check("exclusion des blocs de statistiques LitRPG : decide", pm.get("exclusion_blocs_statistiques_litrpg", {}).get("statut_decision") == "decide")
+check("retrait du contrecoup : decide", pm.get("retrait_contrecoup", {}).get("statut_decision") == "decide")
+check("exclusions_metaphysiques_et_meta : decide", pm.get("exclusions_metaphysiques_et_meta", {}).get("statut_decision") == "decide")
+briques_magie = {b["element"]: b for b in pm["briques"]}
+check("brique Source, Shaper, Target en interet", "Source, Shaper, Target" in briques_magie and briques_magie["Source, Shaper, Target"]["statut_decision"] == "interet")
+check("brique Body, Mind and Soul : catégories de sorts + vigilance Soul", briques_magie.get("Body, Mind and Soul", {}).get("statut_decision") == "interet" and "métaphysique" in briques_magie.get("Body, Mind and Soul", {}).get("texte", ""))
+check("brique Consciences : précision thaumatologie SCP/GOC uniquement mécanique", briques_magie.get("Consciences", {}).get("statut_decision") == "interet" and "GOC" in briques_magie.get("Consciences", {}).get("texte", "") and "uniquement à la mécanique" in briques_magie.get("Consciences", {}).get("texte", ""))
+for doc_f in ("fiches_references_projet.yaml", "carnet_de_bord_projet.md", "Synthese_Edenia.md"):
+    if os.path.exists(doc_f):
+        txt_doc = open(doc_f, encoding="utf-8").read().lower()
+        check(f"aucune mention de Sink ni nervosité JJK dans {doc_f}", "sink" not in txt_doc and "nervosité jjk" not in txt_doc and "nervosite jjk" not in txt_doc)
 check("couleur / rouge non reportés (demande de l'utilisateur)", "rouge" not in yaml.safe_dump(d, allow_unicode=True).lower().replace("rouge »", "").replace("petit homme rouge", ""), "mot « rouge » trouvé")
 
 # 4. Limites anti-spoil -------------------------------------------------
