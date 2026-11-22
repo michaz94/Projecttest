@@ -45,29 +45,39 @@
 #   - institutions_et_statuts_en_interet ajouté en intérêt (U) : Chevalier (couche 2 = statut social et martial dans le cadre féodal,
 #     couche 1 optionnelle = armure lourde réservée à certains personnages, couche 3 = récits de chevalerie médiévaux et Renaissance gardés en
 #     intérêt ouvert sans se limiter à un seul récit) et Scholomance (école de magie type Harry Potter, mais différente) ;
-#   - pistes_systeme_de_magie ajouté (cible tactique en envisagé ; 4 briques en intérêt, U : Mana [nom provisoire], Source/Shaper/Sink/Target,
+#   - pistes_systeme_de_magie ajouté (cible tactique en envisagé ; 4 briques en intérêt, U : Mana [nom provisoire], Source/Shaper/Target,
 #     Body/Mind/Soul, Consciences ; le système lui-même reste non arrêté) ; ajout de la fiche Fondation SCP (wiki et Tales).
 # Mise à jour complémentaire du 2026-11-16 (U, réaffirmation de la direction artistique) :
 #   - orientation envisagée : œuvre située à la Belle Époque ; pour les zones rurales, conte merveilleux/fantastique dans l'esprit du Château ambulant / Miyazaki ;
 #   - les musiques de BioShock, BioShock Infinite et Fallout ravivent cette envie (références d'ambiance sonore, pas transposition visuelle ni nouveaux faits de monde) ;
 #   - rejet explicite de l'image test de garçon `test_tenue_edenia_garcon.png` et du rendu « beau gosse manhwa » ; cette image n'est ni canon ni référence à reprendre ;
 #   - le registre occultisme non « dark » reste décidé ; aucun plafond technologique, statut de zone ou règle vestimentaire antérieure n'est modifié.
-# Mise à jour du 2026-11-20 (demandée par U, synchronisation YAML + carnet de bord § 5.7) :
-#   - style de dessin : remplacement d'« encrage shōnen nerveux » par « encrage shōnen net et contrasté (trait propre à pleins et déliés,
-#     aplats noirs francs, cadrages et raccourcis dynamiques) » (envisagé, U) et rejet explicite de « nervosité JJK » (décidé, U) ;
+# Mise à jour du 2026-11-20 (demandée par U, synchronisation YAML + carnet de bord § 5.7 + briques validées des archives Drive) :
+#   - format éditorial : découpage interne en chapitres de ~20 pages rythmés par de vraies bascules / cliffhangers de fin de chapitre (envisagé, U) ;
+#   - style de dessin : formulation retenue « encrage shōnen net et contrasté (trait propre, fermé et sculpté à pleins et déliés,
+#     aplats noirs francs, cadrages et raccourcis dynamiques) » (envisagé, U), hors trait griffé ou « sketchy » ;
 #     ajout de DreamWorks / film d'animation occidentale (envisagé, U) ; croisement visé des décors consigné dans ambiance_des_lieux (envisagé, U) ;
 #   - esthétique vestimentaire : ajout de Gachiakuta à inspire_de aux côtés de Radiant et Runeterra (décidé, U) ;
-#   - positionnement d'ensemble et humour : shōnen d'aventure fantasy classique à monde détaillé dans l'esprit webnovel / Epic Fantasy,
+#   - positionnement d'ensemble, écriture et humour : shōnen d'aventure fantasy classique à monde détaillé dans l'esprit webnovel / Epic Fantasy,
 #     formule « œuvre type Royal Road écrite par un Européen / Français » (envisagé, U) ; humour sec, pince-sans-rire et ironique avec repères
 #     La douane du Croc-Blême (cochon, Garaud, Nara) et Le Bazar à Contresort, en précisant que tous les personnages ne sont pas blasés (envisagé, U) ;
+#     sens du build-up dramatique (intérêt, U) ; garde-fous de rejets sur les extrapolations et mots-tics d'IA (décidé, U) ;
 #   - système de magie : logique RPG type MMORPG / LitRPG (envisagé, U), avec exclusion explicite des blocs/fenêtres de statistiques LitRPG (décidé, U) ;
+#     double jauge Réserve + Flux et 5 modes d'accès des écoles d'occultistes (envisagé, U) ; retrait explicite du contrecoup / backlash aléatoire GOC,
+#     de la Noosphère / Dissolution et de tout concept abstrait ou métafictionnel agissant seul sur la réalité (décidé, U) ;
+#     briques en intérêt (U) : Mana (nom provisoire), Source/Shaper/Target, Body/Mind/Soul (catégories d'effet de sort, avec vigilance sur l'ambiguïté
+#     métaphysique de Soul), Consciences (thaumatologie unifiée Fondation SCP / GOC, liée uniquement à la mécanique et non plus au thème de l'univers),
+#     densité démographique = densité magique, et pas de création ex nihilo + support matériel concret ;
+#   - zone industrielle (BioShock Infinite) passée de décidé à intérêt (U ; le plafond technologique général à 1914 reste décidé) ;
+#     institutions d'ordre historiques françaises (prévôts, guet, maréchaussée) ajoutées en intérêt (U) ;
 #   - nouvelles fiches references : William Shakespeare (référence, envisagé, en particulier Le Songe d'une nuit d'été), Deadlock (référence,
 #     envisagé, connu de loin via artworks officiels), Galaxias (référence, intérêt, non lu/non vu, plus proche que One Piece), Sergio Leone
 #     (référence, intérêt, prenant davantage en compte Il était une fois en Amérique que ses autres œuvres) ;
 #   - précisions sur fiches existantes : One Piece, Fullmetal Alchemist, Game of Thrones vs The Witcher 3, et Chevalier / arthurien
 #     (écho dans la narration sans chevalier classique, en intérêt ; rejet du pitch extrapolé « serment royal + chevalier-western ») ;
-#   - orientation générale des personnages (envisagé, U) : occultistes (officiel / itinérant / marginal), déjà débrouillards au départ avec
-#     niveau de thaumaturgie au minimum correct (distinction maintenue entre débrouillardise et thaumaturgie) ; constat d'avancement au 20 nov. 2026
+#   - personnages et onomastique : occultistes avec coexistence des trois profils (officiels, itinérants et marginaux) dans l'œuvre (envisagé, U) ;
+#     personnages déjà débrouillards au départ avec niveau de thaumaturgie au minimum correct (envisagé, U) ; écho de Dumas au général
+#     Thomas-Alexandre Dumas (intérêt, U) ; règle phonétique des noms (envisagé, U) ; constat d'avancement au 20 nov. 2026
 #     (seuls cadre, worldbuilding et forme sont posés ; zéro intrigue, zéro fond thématique arrêté, personnages encore flous).
 
 projet:
@@ -75,7 +85,7 @@ projet:
   source_nom_provisoire: U
   genre: battle shōnen occidental durable, édition traditionnelle
   format_editorial:
-    source: 'U, carnet de bord (§ 1, § 2, § 3.1, § 3.2), 16 nov. 2026'
+    source: 'U, carnet de bord (§ 1, § 2, § 3.1, § 3.2, § 3.4 et § 5.7), 16 et 20 nov. 2026'
     circuit:
       texte: 'parution française traditionnelle par tomes complets (~180-200 pages, rythme solo de 1 à 2 tomes/an ; éditeurs de référence du créneau : Ankama, Pika, Kana, Glénat)'
       statut_decision: decide
@@ -85,6 +95,10 @@ projet:
     longueur_visee:
       texte: '20 à 30 tomes (avec nécessité de convaincre et fonctionner dès une première tranche de 3 à 5 tomes)'
       statut_decision: decide
+    decoupage_chapitres:
+      texte: 'chapitres d''environ 20 pages rythmés par de vraies bascules / cliffhangers de fin de chapitre (sans bluffs artificiels annulés à la page suivante ni pages de récapitulatif)'
+      statut_decision: envisage
+      source: 'U, 16 et 20 nov. 2026 (carnet § 3.4 et § 5.7)'
     second_projet:
       texte: 'Arcana : second projet d''univers urbain et moderne ; partage le même style de dessin qu''Edenia (décidé, U, 15 oct. 2026) ; les matières urbaines contemporaines comme le jean et les lacets modernes lui seraient réservées (envisagé, U, 16 nov. 2026)'
       statut_decision: non_precise
@@ -110,6 +124,14 @@ projet:
     exclusions_de_ton:
       texte: 'rejet de l''humour gag et de l''ecchi japonais (carnet § 3.3) ; registre de l''occulte, du marais et de la pègre non « dark », sans gothique poisseux ni grimdark (décidé, U, 16 nov. 2026 ; voir occultisme.registre_tonal)'
       statut_decision: decide
+    build_up_dramatique:
+      texte: 'sens du build-up dramatique en affrontement, où même une défaite peut grandir un combattant qui a tenu tête au sommet'
+      statut_decision: interet
+      source: 'U, archives Drive validées le 20 nov. 2026'
+    exclusions_ia_et_ecriture:
+      texte: 'rejet des extrapolations et pitchs inventés par l''IA (« serment royal + chevalier-western », The Masquerade / monde caché moderne, sketchs de bureaucratie absurde type Guichet, Formulaire 14-B ou gag du fromage) et des mots-tics d''IA en écriture (résonance, seuil, écho, résidu, sans lever les yeux)'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026'
     orientation_belle_epoque_et_merveilleux_rural:
       texte: 'envie de situer l’œuvre à la Belle Époque, avec pour les zones rurales un registre de conte merveilleux et fantastique, dans l’esprit du Château ambulant / Miyazaki ; la réécoute des musiques de BioShock, BioShock Infinite et Fallout ravive cette direction (inspiration musicale/émotionnelle, pas une demande de transposition de leur univers)'
       statut_decision: envisage
@@ -117,7 +139,7 @@ projet:
       note: 'ne modifie pas le plafond technologique général déjà décidé à 1914 ni le principe des pôles d’époque inégaux encore envisagé ; registre occulte non « dark » demeure décidé'
   cadre_valide:
   - monde de fantasy multi-héritages
-  - 'zone western + zone industrielle de type BioShock Infinite (zone western = un paysage ; le mode de vie n''est pas encore réfléchi, U, 12 oct. 2026)'
+  - 'paysage western (en intérêt ; le mode de vie n''est pas encore réfléchi, U, 12 oct. et 16 nov. 2026) ; zone industrielle de type BioShock Infinite passée de décidé à intérêt (U, 20 nov. 2026)'
   - un seul monde, une seule époque
   - 'plafond technologique général : 1914, hors technologie magique (abaissé depuis le plafond théorique initial de 1950 ; envisagé le 2026-10-12, décidé le 2026-11-16)'
   - 'plafond des armes à feu : 1860'
@@ -164,6 +186,10 @@ projet:
       texte: 'système politique sous-jacent présent dans beaucoup de concepts de l''univers , qui colore le territoire, le statut des institutions (écoles, ordres, guildes), l''accès aux ressources, la friction avec les cités-États et les pôles ~1890-1914, ainsi que des structures parallèles comme la pègre'
       statut_decision: envisage
       note: 'validé en envisagé par U le 16 nov. 2026 (carnet § 5.5 ; dépasse le simple vocabulaire ou décor local)'
+    institutions_ordre_historiques:
+      texte: 'histoire des institutions d''ordre françaises (prévôts, guet, maréchaussée) en appui documentaire de la matrice féodale et des juridictions locales'
+      statut_decision: interet
+      source: 'U, archives Drive validées le 20 nov. 2026'
   gimmicks_des_grands_succes:
   - gimmick: Pirate
     oeuvre: One Piece
@@ -267,6 +293,7 @@ projet:
     note_merlin: 'U, 11 oct. 2026 : Merlin était de base un personnage de l''œuvre ; la décision du 9 oct. le concernant reste la plus récente'
   personnages_edenia:
   - nom: Cosmo Dumas
+    origine_nom_famille: 'écho au général Thomas-Alexandre Dumas, sans le surcharger d''un destin mystique (intérêt, U, archives Drive validées le 20 nov. 2026)'
     inspire_de:
     - Ekko
     - Killua Zoldyck
@@ -303,7 +330,7 @@ projet:
   orientation_generale_personnages:
     source: 'U, 20 nov. 2026 (carnet § 5.7)'
     statut_occultistes:
-      texte: 'les personnages principaux seraient des occultistes (« je crois que les personnages sont des occultistes »), pouvant relever d''un statut officiel, itinérant et/ou marginal (« les trois en même temps »)'
+      texte: 'les personnages principaux seraient des occultistes (« je crois que les personnages sont des occultistes »), et les trois profils d''occultistes — officiels, itinérants et marginaux — sont tous les trois présents dans l''œuvre (pas au sens d''un même personnage cumulant les trois statuts à la fois)'
       statut_decision: envisage
     competence_initiale_et_thaumaturgie:
       texte: 'personnages sachant déjà se débrouiller au départ (« quelqu''un qui sait déjà se débrouiller »), avec un niveau de thaumaturgie au minimum correct, tout en distinguant nettement « savoir se débrouiller » (débrouillardise pratique et opérationnelle sur le terrain) et « connaître la thaumaturgie » (maîtrise technique et théorique de la magie)'
@@ -311,6 +338,10 @@ projet:
     temperaments:
       texte: 'les personnages ne sont pas tous blasés ni pince-sans-rire (l''équilibre exact des tempéraments du casting reste ouvert ; voir registre_et_ton.humour_et_reperes_de_scenes)'
       statut_decision: envisage
+  phonetique_des_noms:
+    texte: '2 à 3 syllabes nettes et respirables à l''oral, consonnes franches (T, D, L, K, R, N, S, G, Z), voyelles pleines (A, O, U, I) ; rejet des noms barbares gutturaux et des finales baroques ou molles en -el, -iel, -ium, -ael'
+    statut_decision: envisage
+    source: 'U, archives Drive validées le 20 nov. 2026'
   etat_avancement_recit:
     date: '2026-11-20'
     source: U
@@ -415,8 +446,9 @@ projet:
     - bas et milieu Moyen Âge
     - fantasy épique
     exclusion:
-      texte: sans concept métafictionnel ni concept qui agit sur la réalité
-      note: portée non précisée (peut concerner le système de magie, mis de côté pour l'instant)
+      texte: 'sans concept métafictionnel ni concept abstrait agissant tout seul sur la réalité (voir aussi pistes_systeme_de_magie.exclusions_metaphysiques_et_meta, décidé le 20 nov. 2026)'
+      statut_decision: decide
+      note: 'confirmé en rejet par U le 20 nov. 2026 : aucun concept abstrait ni métafiction n''agit seul sur la réalité, et la Noosphère / Dissolution mentale est écartée (l''énergie émise par les consciences doit être canalisée techniquement)'
   vocabulaire_des_brouillons:
     source: U, brouillons de worldbuilding, validé le 11 oct. 2026
     statut_decision: interet
@@ -448,8 +480,8 @@ projet:
       statut_decision: interet
       note: 'U, 16 nov. 2026 (à relier à Harry Potter et à la piste d''école en Brocéliande)'
   pistes_systeme_de_magie:
-    source: 'U, 16 et 20 nov. 2026 (carnet § 5.5 et § 5.7)'
-    note_statut: 'termes, mots-clés et concepts jugés limpides, évocateurs et bien accordés à l''univers par U ; le système de magie n''est pas encore arrêté (les quatre briques sont au statut intérêt)'
+    source: 'U, 16 et 20 nov. 2026 (carnet § 5.5 et § 5.7, et briques validées des archives Drive)'
+    note_statut: 'architecture consolidée mais non encore verrouillée définitivement : mécaniques de base (Réserve + Flux, 5 modes d''accès, logique RPG, cible tactique) en envisagé ; briques et pistes matérielles/géographiques en intérêt ; rejets structurants en décidé'
     cible_tactique:
       texte: 'système de magie et combats pensés pour être au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter'
       statut_decision: envisage
@@ -458,22 +490,46 @@ projet:
       texte: 'logique de structure, de progression et de lisibilité inspirée des RPG, MMORPG et LitRPG pour l''architecture du système de magie'
       statut_decision: envisage
       source: 'U, 20 nov. 2026'
+    reserve_et_flux:
+      texte: 'mécanique de base à double jauge d''énergie : Réserve (taille de la bouteille : endurance totale disponible avant épuisement, bornée par un plafond biologique) et Flux (largeur du goulot : quantité maximale mobilisable à la même seconde ; maintenir une défense ou une détection occupe une part du Flux et réduit d''autant la puissance d''attaque simultanée, créant des ouvertures tactiques dès la première seconde façon Ryu dans Hunter × Hunter ou Trion dans World Trigger)'
+      statut_decision: envisage
+      source: 'U, archives Drive validées le 20 nov. 2026'
+    modes_d_acces_ecoles:
+      texte: 'différenciation des écoles d''occultistes par leur mode d''accès au pouvoir : calculer/manipuler (savant/arcane), pactiser (démonologie/contrat), recevoir (foi/dévotion), négocier (esprits/folklore), fusionner (nature/corps)'
+      statut_decision: envisage
+      source: 'U, archives Drive validées le 20 nov. 2026'
+    densite_demographique_magique:
+      texte: 'forte population = forte densité magique (conséquence géographique logique de l''émission d''énergie par les êtres conscients, ancrant les grands pôles urbains ~1914)'
+      statut_decision: interet
+      source: 'U, archives Drive validées le 20 nov. 2026'
+    support_materiel_sans_ex_nihilo:
+      texte: 'pas de création ex nihilo : tout sort transforme l''existant et passe par un support matériel concret (symbole tracé, outil, livre à symboles sobres, talisman, condition physique observable) qui encaisse la charge, s''use ou sature, offrant un contre-jeu visuel immédiat'
+      statut_decision: interet
+      source: 'U, archives Drive validées le 20 nov. 2026'
     exclusion_blocs_statistiques_litrpg:
       texte: 'rejet explicite des blocs de statistiques, fenêtres de statut chiffrées et interfaces de jeu vidéo diégétiques propres au LitRPG (« pas pour les blocs de statistiques »)'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026'
+    retrait_contrecoup:
+      texte: 'rejet explicite du mécanisme de contrecoup (backlash aléatoire à Pitch inversé) issu de la thaumatologie de la GOC'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026'
+    exclusions_metaphysiques_et_meta:
+      texte: 'rejet de la Noosphère / Dissolution mentale des anciens brouillons et de tout concept abstrait ou métafictionnel agissant tout seul sur la réalité'
       statut_decision: decide
       source: 'U, 20 nov. 2026'
     briques:
     - element: Mana (nom provisoire)
       texte: 'source de la magie : évoque un système doté d''une source ésotérique (nom explicitement provisoire)'
       statut_decision: interet
-    - element: 'Source, Shaper, Sink, Target'
-      texte: 'quatre composantes évoquant un système de magie complexe mais clair (source d''énergie, façonnage/direction, absorption du contrecoup, cible/effet ; terminologie issue des conférences de thaumatologie de la GOC sur le wiki de la Fondation SCP)'
+    - element: 'Source, Shaper, Target'
+      texte: 'trois composantes décrivant l''opération thaumaturgique : source d''énergie (Source), façonnage et direction de l''effet (Shaper), cible ou effet visé (Target) ; terminologie retenue des conférences de thaumatologie unifiée de la GOC sur le wiki de la Fondation SCP (U, 16 et 20 nov. 2026)'
       statut_decision: interet
     - element: Body, Mind and Soul
-      texte: 'catégorisation de pouvoirs (Corps, Esprit, Âme ; appréciée par U pour le principe de catégorisation claire)'
+      texte: 'catégories de types de sorts selon ce sur quoi le sort fait effet (Corps, Esprit, Âme) ; point d''attention signalé par U (20 nov. 2026) : « Soul » (Âme) reste ambigu et peut potentiellement toucher à de la métaphysique / impliquer une couche métaphysique'
       statut_decision: interet
     - element: Consciences
-      texte: 'terme lié à la fois à la mécanique du système et au thème de l''univers'
+      texte: 'même acception que dans la thaumatologie unifiée de la Fondation SCP / GOC (séminaire du Professeur ████████████, ICSUT) : en vertu de la troisième loi (« l''observation modifie la réalité » / effet observateur, « certains esprits peuvent changer la façon dont fonctionne le monde »), les êtres vivants génèrent l''énergie vitale thaumatologique en proportion directe de leur degré de conscience ou sapience (humains et entités équivalentes > animaux > plantes ; incluant aussi les intelligences construites type familier), canalisée techniquement — terme lié uniquement à la mécanique du système, et non plus au thème de l''univers (U, 20 nov. 2026)'
       statut_decision: interet
   occultisme:
     place_dans_l_oeuvre:
@@ -513,13 +569,9 @@ projet:
       statut_decision: envisage
       source: 'U, 20 nov. 2026'
     chara_design_et_rendu:
-      texte: 'expressivité d''animation occidentale (visages variés, regards francs, nez et sourcils dessinés, hors registre moe ; esprit Disney/Pixar et DreamWorks) + encrage shōnen net et contrasté (trait propre à pleins et déliés, aplats noirs francs, cadrages et raccourcis dynamiques) + noir et blanc lumineux à 4 valeurs et trames de points'
+      texte: 'expressivité d''animation occidentale (visages variés, regards francs, nez et sourcils dessinés, hors registre moe ; esprit Disney/Pixar et DreamWorks) + encrage shōnen net et contrasté (trait propre, fermé et sculpté à pleins et déliés, aplats noirs francs, cadrages et raccourcis dynamiques, hors trait griffé ou « sketchy ») + noir et blanc lumineux à 4 valeurs et trames de points'
       statut_decision: envisage
       source: 'carnet de bord (§ 5.4, point 2), classé en envisagé par U le 16 nov. 2026 ; reformulé et validé en envisagé par U le 20 nov. 2026 après examen des planches tests'
-    rejet_nervosite_jjk:
-      texte: 'rejet explicite de « nervosité JJK » et de la formule antérieure « encrage shōnen nerveux » : le trait visé reste propre, fermé et sculpté (cohérent avec le retrait du mot « sketchy » le 15 oct. 2026) ; Jujutsu Kaisen compte pour les cadrages/raccourcis dynamiques, la tension expressive et les contrastes N&B francs, pas pour un trait griffé'
-      statut_decision: decide
-      source: 'U, 20 nov. 2026 (« Non pas Nevervosité JJK. Enlève. » ; confirmé après relecture des tests visuels)'
     tests_pixai:
       statut: tests de style, non canon (U)
       contenu: '12 images générées avec PixAI jointes le 15 oct. 2026 (aucune de ces 12 images ne représente Brann, Cosmo ou Harley ; toutes dites « Edenia compatible », tests 09 et 10 à rendre légèrement moins modernes à cause du jean) + versions noir et blanc des tests 11 et 12 jointes le 16 oct. 2026. Documents de tests titrés « Arcana » (PixAI Arcana 2 et 2.1, PixAI_Arcana_Art parties 1 et 2, créés le 14 sept.) ; les autres tests partent de personnages existants (Robin, Raven, Nami, Violet Parr, Gwen, Miles Morales…)'
@@ -622,7 +674,8 @@ references:
   source: U
   aspect_vise: zone industrielle d'Edenia
   contrainte_liee: plafond technologique général 1914, hors technologie magique (abaissé depuis le plafond théorique initial de 1950 ; envisagé le 2026-10-12, décidé le 2026-11-16)
-  statut_decision: decide
+  statut_decision: interet
+  note_utilisateur: '(20 nov. 2026) Zone industrielle passée de décidé à intérêt par U ; le plafond technologique général à 1914 demeure décidé.'
   voir_aussi: BioShock 1 cité aussi le 12 oct. 2026 parmi les sources de la zone mafieuse (plafonnée à 1914)
 - reference: Deadlock (Valve)
   statut_relation: reference
@@ -765,9 +818,9 @@ references:
 - reference: Jujutsu Kaisen (anime)
   statut_relation: influence
   source: U
-  aspect_vise: 'exigence tactique du système de magie et des combats, aux côtés de World Trigger et Hunter × Hunter (carnet § 3.3 et § 5.5, envisagé, U, 16 nov. 2026) ; style de dessin (U, 15 oct. et 20 nov. 2026 : cadrages et raccourcis dynamiques, tension expressive et contrastes N&B francs ; rejet décidé de « nervosité JJK »)'
+  aspect_vise: 'exigence tactique du système de magie et des combats, aux côtés de World Trigger et Hunter × Hunter (carnet § 3.3 et § 5.5, envisagé, U, 16 nov. 2026) ; style de dessin (U, 15 oct. et 20 nov. 2026 : cadrages et raccourcis dynamiques, tension expressive et contrastes N&B francs, dans un trait propre et sculpté)'
   limite_lecture: anime S1 à S3, jusqu'à l'épisode 59 ; manga non lu
-  note_utilisateur: 'œuvre que l''utilisateur aime beaucoup (dit le 7 oct. 2026) ; le 20 nov. 2026, U rejette explicitement « nervosité JJK » / l''encrage nerveux au profit d''un trait propre et contrasté (voir projet.style_de_dessin).'
+  note_utilisateur: 'œuvre que l''utilisateur aime beaucoup (dit le 7 oct. 2026) ; côté dessin, compte pour ses cadrages/raccourcis grand-angle, sa tension expressive et ses aplats noirs francs (voir projet.style_de_dessin).'
 - reference: World Trigger
   statut_relation: reference
   source: U
@@ -829,8 +882,14 @@ references:
 - reference: Fondation SCP (wiki et Tales)
   statut_relation: influence
   source: U
-  aspect_vise: 'terminologie Source, Shaper, Sink, Target pour la mécanique de magie (thaumatologie GOC, intérêt, U, 16 nov. 2026) ; Chicago Spirit parmi les sources de la zone mafieuse ≤ 1914 (U, 12 oct. 2026) ; Tales de référence pour l''écriture de scène et l''articulation mission/personnages (carnet § 3.5, 16 nov. 2026)'
-  note_utilisateur: '(12 oct. et 16 nov. 2026) Corpus parmi les plus lus par U ; Tales favoris cités au carnet § 3.5 : Rascal One Actual (GOC / Sparkplug), clef101, Clockwork Time, Duke ''till Dawn, Incident 239-B - Clef-Kondraki.'
+  aspect_vise: 'terminologie Source, Shaper, Target (intérêt, U, 16 et 20 nov. 2026) et notion de Conscience (effet observateur « l''observation modifie la réalité » et émission d''énergie vitale proportionnelle au degré de sapience, liée uniquement à la mécanique du système, intérêt, U, 20 nov. 2026) issues de la thaumatologie unifiée de la GOC ; Chicago Spirit parmi les sources de la zone mafieuse ≤ 1914 (U, 12 oct. 2026) ; Tales de référence pour l''écriture de scène et l''articulation mission/personnages (carnet § 3.5, 16 nov. 2026)'
+  emprunts_ou_ecarts_par_aspect:
+  - aspect: contrecoup (backlash) de la thaumatologie GOC
+    valeur: ecart_delibere
+    date: '2026-11-20'
+    source: U
+    note: 'retrait décidé du contrecoup aléatoire ; seul le trio Source, Shaper, Target est conservé au statut intérêt'
+  note_utilisateur: '(12 oct., 16 et 20 nov. 2026) Corpus parmi les plus lus par U ; Tales favoris cités au carnet § 3.5 : Rascal One Actual (GOC / Sparkplug), clef101, Clockwork Time, Duke ''till Dawn, Incident 239-B - Clef-Kondraki.'
 - reference: Mother of Learning (et webromans type Royal Road)
   statut_relation: influence
   source: U
