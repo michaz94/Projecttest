@@ -79,6 +79,16 @@
 #     personnages déjà débrouillards au départ avec niveau de thaumaturgie au minimum correct (envisagé, U) ; écho de Dumas au général
 #     Thomas-Alexandre Dumas (intérêt, U) ; règle phonétique des noms (envisagé, U) ; constat d'avancement au 20 nov. 2026
 #     (seuls cadre, worldbuilding et forme sont posés ; zéro intrigue, zéro fond thématique arrêté, personnages encore flous).
+# Mise à jour complémentaire du 2026-11-20 (demandée par U, révision système de magie et critères de structure narrative, carnet § 5.8) :
+#   - système de magie : retrait décidé de l'ancienne piste « densité démographique = densité magique » (U indique ne pas aimer cette mécanique) ;
+#     brique Consciences maintenue en intérêt uniquement à l'échelle individuelle ; retrait décidé de la mécanique contraignante d'un support
+#     matériel qui s'use ou sature, tout en gardant en intérêt la simple idée « pas de création ex nihilo » (U) ;
+#   - structure et moteur d'intrigue (envisagé, U) : rejet de formules globales purement répétitives (convoi unique, simple accréditation/cursus,
+#     dette/contrat, chasse aux anomalies comme seul moteur de l'œuvre — tout en gardant pleinement ouvertes des possibilités de missions ou de
+#     convois ponctuels dans les arcs) au profit de 6 exigences : objectifs et motivations propres et terre-à-terre par protagoniste (HxH /
+#     Stormlight), aventure avec géopolitique sous-jacente, non-répétitivité, worldbuilding qui évolue avec de vraies conséquences des actions
+#     des personnages (Worm / GoT), éléments laissés en suspens pour plus tard (Worm / Stormlight), et objectifs court terme évoluant d'arc en
+#     arc (façon Gon / Taylor).
 
 projet:
   nom_provisoire: Edenia
@@ -345,7 +355,12 @@ projet:
   etat_avancement_recit:
     date: '2026-11-20'
     source: U
-    constat: 'au 20 nov. 2026, seuls le cadre, le worldbuilding et la forme sont posés ou cadrés : Edenia n''a encore ni intrigue (zéro plot arrêté), ni propos ou fond thématique arrêté, et les personnages restent encore flous ; la question structurelle d''un mentor ou d''un lieu d''apprentissage (type Scholomance ou transmission de terrain) pour exposer un système de magie tactique complexe reste ouverte'
+    constat: 'au 20 nov. 2026, le cadre, le worldbuilding, la forme et les critères structurels du moteur narratif (voir structure_et_moteur_d_intrigue) sont posés ou cadrés, mais Edenia n''a encore ni intrigue précise arrêtée (zéro plot figé), ni propos ou fond thématique arrêté, et les personnages restent encore flous ; la question structurelle d''un mentor ou d''un lieu d''apprentissage (type Scholomance ou transmission de terrain) pour exposer un système de magie tactique complexe reste ouverte'
+  structure_et_moteur_d_intrigue:
+    source: 'U, 20 nov. 2026 (carnet § 5.8)'
+    statut_decision: envisage
+    texte: 'six exigences structurelles posées pour le récit : (1) objectifs et motivations propres, terre-à-terre, pour chacun des protagonistes (façon Hunter × Hunter et The Stormlight Archive) ; (2) aventure appuyée sur une géopolitique sous-jacente ; (3) non-répétitivité d''ensemble ; (4) évolution réelle du worldbuilding avec de vraies conséquences des actions des personnages sur le monde (façon Worm et Game of Thrones) ; (5) éléments laissés en suspens pour plus tard (façon Worm et The Stormlight Archive) ; (6) objectifs à court terme qui évoluent d''arc en arc (façon Gon dans Hunter × Hunter et Taylor dans Worm)'
+    precision_missions_et_convois: 'quatre pitchs globaux proposés auparavant (convoi, accréditation/cursus, dette/contrat, chasse aux anomalies) ont été écartés comme formule unique et répétitive de toute l''œuvre parce qu''ils ne répondaient pas à ces six besoins, mais U garde pleinement en tête des possibilités de missions ou de convois ponctuels au sein d''un arc ou au service des objectifs des personnages'
   esthetique_vestimentaire:
     decide_depuis_le_3_oct: archaïque mais pas trop
     definitions:
@@ -480,8 +495,8 @@ projet:
       statut_decision: interet
       note: 'U, 16 nov. 2026 (à relier à Harry Potter et à la piste d''école en Brocéliande)'
   pistes_systeme_de_magie:
-    source: 'U, 16 et 20 nov. 2026 (carnet § 5.5 et § 5.7, et briques validées des archives Drive)'
-    note_statut: 'architecture consolidée mais non encore verrouillée définitivement : mécaniques de base (Réserve + Flux, 5 modes d''accès, logique RPG, cible tactique) en envisagé ; briques et pistes matérielles/géographiques en intérêt ; rejets structurants en décidé'
+    source: 'U, 16 et 20 nov. 2026 (carnet § 5.5, § 5.7 et § 5.8)'
+    note_statut: 'architecture consolidée mais non encore verrouillée définitivement : mécaniques de base (Réserve + Flux, 5 modes d''accès, logique RPG, cible tactique) en envisagé ; briques et idée pas de création ex nihilo en intérêt ; rejets structurants (blocs de stats LitRPG, contrecoup GOC, densité démographique magique, usure contraignante du support matériel, concepts abstraits/méta) en décidé'
     cible_tactique:
       texte: 'système de magie et combats pensés pour être au niveau tactique de World Trigger, Jujutsu Kaisen et Hunter × Hunter'
       statut_decision: envisage
@@ -498,14 +513,18 @@ projet:
       texte: 'différenciation des écoles d''occultistes par leur mode d''accès au pouvoir : calculer/manipuler (savant/arcane), pactiser (démonologie/contrat), recevoir (foi/dévotion), négocier (esprits/folklore), fusionner (nature/corps)'
       statut_decision: envisage
       source: 'U, archives Drive validées le 20 nov. 2026'
-    densite_demographique_magique:
-      texte: 'forte population = forte densité magique (conséquence géographique logique de l''émission d''énergie par les êtres conscients, ancrant les grands pôles urbains ~1914)'
+    pas_de_creation_ex_nihilo:
+      texte: 'pas de création ex nihilo : la magie ne crée rien à partir de rien et transforme l''existant (idée simple conservée par U indépendamment de toute mécanique d''usure d''objet)'
       statut_decision: interet
-      source: 'U, archives Drive validées le 20 nov. 2026'
-    support_materiel_sans_ex_nihilo:
-      texte: 'pas de création ex nihilo : tout sort transforme l''existant et passe par un support matériel concret (symbole tracé, outil, livre à symboles sobres, talisman, condition physique observable) qui encaisse la charge, s''use ou sature, offrant un contre-jeu visuel immédiat'
-      statut_decision: interet
-      source: 'U, archives Drive validées le 20 nov. 2026'
+      source: 'U, 20 nov. 2026 (carnet § 5.8)'
+    retrait_densite_demographique_magique:
+      texte: 'retrait explicite de l''ancienne piste « densité démographique = densité magique » (« plus il y a de monde, plus il y a d''énergie ») : U n''aime pas cette mécanique (et ne sait même plus pourquoi elle figurait dans d''anciens documents) ; il n''y a pas de concentration magique ambiante proportionnelle à la foule'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026 (carnet § 5.8)'
+    retrait_usure_support_materiel:
+      texte: 'retrait de la mécanique d''un support matériel qui s''use ou sature à chaque sort (jugée peu intéressante et contraignante par U ; les livres à symboles sobres, talismans et outils rituels relèvent de l''esthétique/grammaire d''occultisme ou de traditions particulières sans jauge d''usure contraignante)'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026 (carnet § 5.8)'
     exclusion_blocs_statistiques_litrpg:
       texte: 'rejet explicite des blocs de statistiques, fenêtres de statut chiffrées et interfaces de jeu vidéo diégétiques propres au LitRPG (« pas pour les blocs de statistiques »)'
       statut_decision: decide
@@ -529,7 +548,7 @@ projet:
       texte: 'catégories de types de sorts selon ce sur quoi le sort fait effet (Corps, Esprit, Âme) ; point d''attention signalé par U (20 nov. 2026) : « Soul » (Âme) reste ambigu et peut potentiellement toucher à de la métaphysique / impliquer une couche métaphysique'
       statut_decision: interet
     - element: Consciences
-      texte: 'même acception que dans la thaumatologie unifiée de la Fondation SCP / GOC (séminaire du Professeur ████████████, ICSUT) : en vertu de la troisième loi (« l''observation modifie la réalité » / effet observateur, « certains esprits peuvent changer la façon dont fonctionne le monde »), les êtres vivants génèrent l''énergie vitale thaumatologique en proportion directe de leur degré de conscience ou sapience (humains et entités équivalentes > animaux > plantes ; incluant aussi les intelligences construites type familier), canalisée techniquement — terme lié uniquement à la mécanique du système, et non plus au thème de l''univers (U, 20 nov. 2026)'
+      texte: 'même acception que dans la thaumatologie unifiée de la Fondation SCP / GOC (séminaire du Professeur ████████████, ICSUT) : en vertu de la troisième loi (« l''observation modifie la réalité » / effet observateur, « certains esprits peuvent changer la façon dont fonctionne le monde »), les êtres vivants génèrent l''énergie vitale thaumatologique en proportion directe de leur degré de conscience ou sapience (humains et entités équivalentes > animaux > plantes ; incluant aussi les intelligences construites type familier), canalisée techniquement — terme gardé uniquement à l''échelle individuelle et lié uniquement à la mécanique du système (sans accumulation démographique de foule, et non plus lié au thème de l''univers ; U, 20 nov. 2026)'
       statut_decision: interet
   occultisme:
     place_dans_l_oeuvre:
@@ -762,7 +781,7 @@ references:
 - reference: Hunter × Hunter
   statut_relation: influence
   source: U
-  aspect_vise: 'ton et tension dramatique (U, 7 oct. : ton visé plus proche de Red Hood / HxH que de FMA ; carnet § 3.3) ; exigence tactique du système de magie et des combats, aux côtés de World Trigger et Jujutsu Kaisen (envisagé, U, 16 nov. 2026)'
+  aspect_vise: 'ton et tension dramatique (U, 7 oct. : ton visé plus proche de Red Hood / HxH que de FMA ; carnet § 3.3) ; exigence tactique du système de magie et des combats, aux côtés de World Trigger et Jujutsu Kaisen (envisagé, U, 16 nov. 2026) ; objectifs et motivations propres et terre-à-terre pour chacun des protagonistes, et objectifs court terme qui évoluent d''arc en arc façon Gon (envisagé, U, 20 nov. 2026)'
   limite_lecture: aucune indiquée
 - reference: Yu Yu Hakusho
   statut_relation: influence
@@ -876,13 +895,13 @@ references:
 - reference: Worm (Wildbow)
   statut_relation: influence
   source: U
-  aspect_vise: ampleur épique et vraisemblance (conséquences et psychologie traitées sérieusement ; carnet § 3.3, 16 nov. 2026)
+  aspect_vise: 'ampleur épique et vraisemblance (conséquences et psychologie traitées sérieusement ; carnet § 3.3, 16 nov. 2026) ; worldbuilding qui évolue avec de vraies conséquences des actions des personnages, éléments laissés en suspens pour plus tard, et objectifs court terme qui évoluent d''arc en arc façon Taylor (envisagé, U, 20 nov. 2026)'
   limite_lecture: fin de l'arc 9, Sentinel (avril 2012) ; rien de postérieur
   note_utilisateur: 'rapprochement personnel : « HxH + Watchmen » ; webroman principal nourrissant l''approche littéraire (carnet § 3.3).'
 - reference: Fondation SCP (wiki et Tales)
   statut_relation: influence
   source: U
-  aspect_vise: 'terminologie Source, Shaper, Target (intérêt, U, 16 et 20 nov. 2026) et notion de Conscience (effet observateur « l''observation modifie la réalité » et émission d''énergie vitale proportionnelle au degré de sapience, liée uniquement à la mécanique du système, intérêt, U, 20 nov. 2026) issues de la thaumatologie unifiée de la GOC ; Chicago Spirit parmi les sources de la zone mafieuse ≤ 1914 (U, 12 oct. 2026) ; Tales de référence pour l''écriture de scène et l''articulation mission/personnages (carnet § 3.5, 16 nov. 2026)'
+  aspect_vise: 'terminologie Source, Shaper, Target (intérêt, U, 16 et 20 nov. 2026) et notion de Conscience (effet observateur « l''observation modifie la réalité » et émission d''énergie vitale proportionnelle au degré de sapience, gardée uniquement à l''échelle individuelle et liée uniquement à la mécanique du système, intérêt, U, 20 nov. 2026) issues de la thaumatologie unifiée de la GOC ; Chicago Spirit parmi les sources de la zone mafieuse ≤ 1914 (U, 12 oct. 2026) ; Tales de référence pour l''écriture de scène et l''articulation mission/personnages (carnet § 3.5, 16 nov. 2026)'
   emprunts_ou_ecarts_par_aspect:
   - aspect: contrecoup (backlash) de la thaumatologie GOC
     valeur: ecart_delibere
@@ -899,12 +918,13 @@ references:
 - reference: The Stormlight Archive (Sanderson)
   statut_relation: influence
   source: U
-  aspect_vise: ampleur épique et vraisemblance (carnet § 3.3, 16 nov. 2026) ; Plaines Brisées citées pour la région désertique (U, 12 oct. 2026)
+  aspect_vise: 'ampleur épique et vraisemblance (carnet § 3.3, 16 nov. 2026) ; Plaines Brisées citées pour la région désertique (U, 12 oct. 2026) ; objectifs et motivations propres et terre-à-terre des protagonistes, et éléments laissés en suspens pour plus tard (envisagé, U, 20 nov. 2026)'
   limite_lecture: 'The Way of Kings : Prélude, Prologue, chapitres 1 à 15 et les trois interludes ; rien au-delà'
   note_limite: 'mise à jour le 11 oct. 2026 : U a avancé de 13 à 15 chapitres (confirmé inchangé le 16 nov. 2026)'
 - reference: Game of Thrones
   statut_relation: influence
   source: U
+  aspect_vise: 'worldbuilding qui évolue avec de vraies conséquences des actions des personnages (cité aux côtés de Worm dans les critères de structure narrative, envisagé, U, 20 nov. 2026)'
   emprunts_ou_ecarts_par_aspect:
   - aspect: registre et tonalité d'ensemble
     valeur: distance_a_maintenir
@@ -912,7 +932,7 @@ references:
     source: U
     note: 'jugé peut-être trop extrême par rapport au ton visé ; The Witcher couvre déjà ce que U recherche'
   limite_lecture: série S1 à S7 ; livres non lus
-  note_utilisateur: '(12 oct. 2026) « Bran » cité parmi les origines du prénom de Brann (entre Ben 10 et Hearthstone). (20 nov. 2026) Jugé peut-être trop extrême par rapport au registre recherché, que The Witcher couvre déjà tant pour la narration que pour la structure du monde.'
+  note_utilisateur: '(12 oct. 2026) « Bran » cité parmi les origines du prénom de Brann (entre Ben 10 et Hearthstone). (20 nov. 2026) Jugé peut-être trop extrême sur le registre d''ensemble (que The Witcher couvre déjà tant pour la narration que pour la structure du monde), mais cité aux côtés de Worm pour l''évolution du worldbuilding sous l''effet des conséquences réelles des actions des personnages.'
 - reference: The Kingkiller Chronicle (Rothfuss)
   statut_relation: influence
   source: U

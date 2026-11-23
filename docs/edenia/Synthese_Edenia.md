@@ -12,7 +12,7 @@
 
 ## 0. État d'avancement réel & frontière *Edenia* / *Arcana*
 
-- **Où en est *Edenia* aujourd'hui (constat factuel) :** Le **cadre**, le **worldbuilding**, le **format éditorial** et la **direction artistique / la forme** sont posés. En revanche, il n'y a encore **aucune intrigue arrêtée (zéro plot)**, **aucun propos ou fond thématique fixé**, et **les personnages restent flous et à définir en détail**.
+- **Où en est *Edenia* aujourd'hui (constat factuel) :** Le **cadre**, le **worldbuilding**, le **format éditorial**, la **direction artistique / la forme** et les **6 critères structurels du moteur narratif** `[Envisagé]` sont posés. En revanche, il n'y a encore **aucune intrigue précise arrêtée (zéro plot figé)**, **aucun propos ou fond thématique fixé**, et **les personnages restent flous et à définir en détail**.
 - **Séparation stricte des deux projets :**
   - ***Edenia* (ce document) :** Shōnen d'aventure de fantasy (plafond général 1914 / armes à feu 1860).
   - ***Arcana* (second projet distinct, hors sujet ici) :** Univers urbain et moderne partageant **le même style de dessin** qu'*Edenia* `[Décidé]`, auquel sont réservés les matières urbaines contemporaines (jean, sneakers/lacets modernes) `[Envisagé]` et où *Urban Rivals* est fortement présent.
@@ -53,6 +53,15 @@
     - **Étalons de scènes-tests (hors canon) :** Pour l'**humour sec, pince-sans-rire et ironique** spécifiquement, les deux repères les plus proches sont ***La douane du Croc-Blême*** (Garaud, Nara, le cochon — hors accessoires trop loufoques) et ***Le Bazar à Contresort*** (Mémé Pao, version sérieuse sans absurde) `[Envisagé]` ; ***L'enterrement du mage Gaspard*** reste la scène-test préférée du tri général pour son contraste solennel / terre-à-terre.
     - **Verrou important `[Envisagé]` :** **Tous les personnages ne sont pas blasés ou pince-sans-rire** (ex. Nara est vive et joueuse ; d'autres portent l'émerveillement franc ; l'équilibre exact du casting reste ouvert).
 - **Boussole d'écriture de scène :** *Worm* (Wildbow), *Tales* SCP (*Rascal One Actual / Sparkplug*, *clef101*, *Clockwork Time*, *Duke 'till Dawn*, *Incident 239-B - Clef-Kondraki*), *The Way of Kings* (Sanderson), Quentin Tarantino, **Sergio Leone** `[Intérêt]` (**en prenant davantage en compte *Il était une fois en Amérique* que ses autres œuvres**, sans exclure ponctuellement la tension d'attente façon *Il était une fois dans l'Ouest*) et **William Shakespeare** `[Envisagé]` (en particulier ***Le Songe d'une nuit d'été***). *(Écriture directe et physique : situation → gestes → répliques courtes → cause/conséquence.)*
+- **Architecture narrative & moteur d'intrigue `[Envisagé]` :**
+  - **6 exigences structurelles :**
+    1. Des **objectifs et motivations propres, terre-à-terre, pour chacun des protagonistes** (*façon Hunter × Hunter / The Stormlight Archive*) ;
+    2. De l'**aventure appuyée sur une géopolitique sous-jacente** ;
+    3. Une **structure non répétitive** d'un arc à l'autre ;
+    4. Un **worldbuilding qui change réellement**, avec de vraies conséquences des actions des personnages sur l'état du monde (*façon Worm / Game of Thrones*) ;
+    5. Des **éléments laissés volontairement en suspens pour plus tard** (*façon Worm / The Stormlight Archive*) ;
+    6. Des **objectifs à court terme qui évoluent d'arc en arc** (*façon Gon dans Hunter × Hunter / Taylor dans Worm*).
+  - **Portée exacte sur les missions et convois :** Quatre formules globales (*convoi, accréditation/cursus, dette/contrat, chasse aux anomalies*) ont été écartées **en tant que moteur unique et répétitif de toute l'œuvre**, mais **les missions et les convois restent pleinement disponibles ponctuellement** au sein d'un arc ou comme levier concret au service des objectifs propres des personnages.
 
 ---
 
@@ -87,15 +96,15 @@
      - **Flux :** La largeur du « goulot » (quantité maximale mobilisable **à la même seconde**). Maintenir une défense ou une détection occupe une part du Flux et réduit d'autant la puissance d'attaque simultanée — créant des ouvertures tactiques dès la 1re seconde d'un combat (*façon Ryu dans HxH / Trion dans World Trigger*).
   2. **Les 5 modes d'accès des écoles d'occultistes `[Envisagé]` :**
      - Différenciation claire des traditions occultes par leur **mode d'accès au pouvoir** : **calculer/manipuler** (savant/arcane), **pactiser** (démonologie/contrat), **recevoir** (foi/dévotion), **négocier** (esprits/folklore) et **fusionner** (nature/corps).
-  3. **Source vivante (`Consciences`, thaumatologie GOC/SCP) & densité magique `[Intérêt]` :**
+  3. **Source vivante (`Consciences`, thaumatologie GOC/SCP) à l'échelle individuelle `[Intérêt / Décidé]` :**
      - Même acception que dans la **thaumatologie unifiée de la Fondation SCP / GOC** (*séminaire du Professeur ████████████, ICSUT*) : en vertu de la 3e loi thaumatologique (*« l'observation modifie la réalité »* / effet observateur — *« certains esprits peuvent changer la façon dont fonctionne le monde »*), l'énergie vitale ésotérique (nom provisoire **`Mana`** `[Intérêt]`) émane des êtres vivants **en proportion directe de leur degré de sapience / conscience** (**humains et entités équivalentes > animaux > plantes**, en incluant aussi les **intelligences construites** type familier).
-     - **Portée uniquement mécanique :** `Consciences` relève désormais **uniquement de la mécanique du système** (et **n'est plus lié au thème de l'univers**).
-     - **Densité démographique = densité magique `[Intérêt]` :** Forte population = forte densité magique (ce qui ancre logiquement les grands pôles urbains ~1914).
+     - **Portée uniquement mécanique et strictement individuelle `[Intérêt]` :** `Consciences` est gardé **uniquement à l'échelle individuelle** et relève **uniquement de la mécanique du système** (et **n'est plus lié au thème de l'univers**).
+     - **Retrait de la densité démographique magique `[Décidé / Exclu]` :** L'ancienne piste *« plus il y a de monde, plus il y a d'énergie »* (`densité démographique = densité magique`) est explicitement écartée (pas de bain magique ambiant proportionnel à la foule).
      - **Exclusions métaphysiques `[Décidé / Exclu]` :** Aucun « concept abstrait » ni métafiction n'agit tout seul sur la réalité (l'énergie émise par les consciences doit être canalisée techniquement), et la *Noosphère / Dissolution* mentale des anciens brouillons est écartée.
   4. **Opération en 3 composantes (`Source, Shaper, Target`), catégories d'effet & loi matérielle `[Intérêt / Décidé]` :**
      - **`Source → Shaper → Target` `[Intérêt]` :** Décrit l'opération thaumaturgique (source d'énergie → façonnage/direction → cible ou effet visé) ; le mécanisme de **contrecoup aléatoire (*backlash*)** de la thaumatologie GOC est **explicitement retiré** `[Décidé / Exclu]`.
      - **Catégories d'effet des sorts : `Body, Mind and Soul` `[Intérêt]` :** Ne désigne pas des écoles concurrentes des 5 modes d'accès, mais **des catégories de types de sorts selon ce sur quoi le sort fait effet** (*Corps, Esprit, Âme*) — avec **vigilance explicite sur `Soul` (*Âme*)**, jugé ambigu car pouvant potentiellement toucher à de la métaphysique / impliquer une couche métaphysique.
-     - **Pas de création *ex nihilo* + Support matériel `[Intérêt]` :** Rien n'est créé *ex nihilo* ; tout sort transforme l'existant et passe par un **support matériel concret** (symbole tracé, outil, livre à symboles sobres, talisman, condition physique observable) qui encaisse la charge, s'use ou sature — offrant un contre-jeu visuel immédiat sans alourdir les règles.
+     - **Pas de création *ex nihilo* `[Intérêt]` & retrait du support matériel qui s'use `[Décidé / Exclu]` :** L'idée simple **« pas de création *ex nihilo* »** (la magie ne crée rien à partir de rien et transforme l'existant) est conservée `[Intérêt]`, mais **la mécanique contraignante d'un support matériel qui encaisse la charge, s'use ou sature à chaque sort est explicitement retirée** `[Décidé / Exclu]` *(les livres classiques à symboles sobres, talismans et outils relèvent de l'esthétique/grammaire d'occultisme ou d'écoles particulières sans jauge d'usure universelle)*.
 
 ---
 
@@ -153,7 +162,7 @@
 
 ## 8. Les 4 seuls vrais chantiers restant à trancher pour lancer le Tome 1
 
-1. **L'accroche, l'incident déclencheur et le mode de transmission du Tome 1 :** Quelle situation concrète met le noyau de protagonistes en mouvement dès le chapitre 1 sans surplace, et comment faire passer un système tactique exigeant avec ou sans mentor / *Scholomance* ?
-2. **Définition précise du duo/trio principal :** Rôles exacts, tempéraments (qui porte l'émerveillement vs l'ironie sèche ?), et comment s'articulent leurs statuts parmi les 3 profils d'occultistes (officiel / itinérant / marginal).
-3. **Verrouillage court du système de magie (1 page finale) :** Figer `Réserve + Flux` et les `5 modes d'accès` (avec leurs termes français naturels en dialogue), préciser le rôle exact du support matériel, et arbitrer le périmètre de `Body, Mind and Soul` (en particulier la question de `Soul` et de son éventuelle implication métaphysique).
-4. **Échelle concrète du territoire de départ :** Fixer uniquement le point de départ (1 région / 1 cité ou fief + 2 institutions en contact) sans surcharger l'ouverture avec toute la carte géopolitique.
+1. **L'accroche concrète du Tome 1 & le mode de transmission :** Quelle situation précise (y compris éventuellement une mission ou un convoi ponctuel) fait converger les objectifs terre-à-terre des protagonistes dès le chapitre 1 sur fond de géopolitique active sans surplace, et comment faire passer un système tactique exigeant avec ou sans mentor / *Scholomance* ?
+2. **Définition précise du duo/trio principal :** Motivations personnelles concrètes de chacun, rôles exacts, tempéraments (qui porte l'émerveillement vs l'ironie sèche ?), et comment s'articulent leurs statuts parmi les 3 profils d'occultistes (officiel / itinérant / marginal).
+3. **Verrouillage court du système de magie (1 page finale) :** Figer `Réserve + Flux` et les `5 modes d'accès` (avec leurs termes français naturels en dialogue), et arbitrer le périmètre de `Body, Mind and Soul` (en particulier la question de `Soul` et de son éventuelle implication métaphysique).
+4. **Échelle concrète du territoire de départ :** Fixer uniquement le point de départ (1 région / 1 cité ou fief à taille humaine + 2 institutions en contact) sans surcharger l'ouverture avec toute la carte géopolitique, en sachant quels éléments resteront en suspens pour plus tard.
