@@ -30,7 +30,7 @@ En tant qu'auteur français, mon objectif est de créer un **manga shōnen comme
 | **Visibilité & marché** | Exposition récurrente chaque semaine ou chaque mois via le magazine/l'application avant même la sortie librairie. | Visibilité concentrée sur des sorties espacées de 6 à 12+ mois, sans rendez-vous hebdomadaire pour entretenir la discussion, au sein d'un marché librairie français très dense (env. 5 000 à 6 000 nouveaux volumes manga par an toutes provenances confondues) [S1]. |
 
 - **Parallèle et écart avec les sagas littéraires :** par son rythme de sortie par volume espacé, le manga français se rapproche davantage de la parution d'une saga romanesque que du feuilleton hebdomadaire japonais. La différence tient toutefois au médium : un tome de roman contient une quantité de récit bien plus importante, alors qu'un tome de manga (~180–200 pages) se lit rapidement tout en devant faire tenir l'intérêt et la mémoire du lecteur pendant six mois à un an jusqu'au volume suivant [S4].
-- **Implication de durée sur l'objectif de longueur :** à raison de 1,2 à 2 tomes par an, une série de 20 à 30 tomes représente mécaniquement un chantier d'environ **10 à 15 ans** (à 2 t./an) à **13–25 ans** (à 1,2–1,5 t./an).
+- **Implication de durée sur l'objectif de longueur :** à raison de 1,2 à 2 tomes par an, une série de 20 à 30 tomes représente mécaniquement un chantier d'environ **10 à 15 ans** (à 2 t./an) à **13–25 ans** (à 1,2–1,5 t./an) *(voir au § 5.8 le recadrage décidé le 20/11/2026 : minimum 5 tomes et maximum 25 tomes par paliers, pour une durée totale de 4 à 12,5 ans)*.
 
 ### 2.3 Repères économiques simplifiés : seuil de survie éditeur vs revenu auteur
 
@@ -62,8 +62,8 @@ J'ai retenu le duo de genres **Action** et **Fantasy**. Dans le catalogue de ré
 
 *Limite de lecture : sur MAL, le nombre de membres mesure la notoriété auprès d'un public majoritairement occidental/anglophone (et non les ventes directes), et les mangas français comme Radiant ne figurent pas dans la catégorie « manga » de la base [S8].*
 
-### 3.2 Format visé : 20 à 30 tomes et raccourcissement des séries récentes
-L'objectif de longueur se situe entre **20 et 30 tomes**.
+### 3.2 Format visé : étude initiale (20 à 30 tomes) et recadrage par paliers (5 à 25 tomes)
+L'objectif initial de l'étude comparative ci-dessous se situait entre **20 et 30 tomes**, avant d'être recadré le 20/11/2026 en une fourchette modulable de **minimum 5 tomes à maximum 25 tomes** sur **4 à 12,5 ans** *(voir le détail au § 5.8)*.
 
 - **Exemples d'œuvres majeures dans ce créneau (20–30 tomes) :**
   - *En Action + Fantasy (terminés) [S8] :* *Fullmetal Alchemist* (27 t., 2001–2010, score 9,05), *Chainsaw Man* (24 t., 2018–2026, 8,62) [S9], *Noragami* (27 t., 2010–2024, 8,35), *Tsubasa: Reservoir Chronicle* (28 t., 2003–2009, 8,30), *Claymore* (27 t., 2001–2014, 8,29), *Soul Eater* (25 t., 2003–2013, 8,11), *Kimetsu no Yaiba* (23 t., 2016–2020, 8,09), *Black Cat* (20 t., 2000–2004, 7,79).
@@ -373,6 +373,11 @@ La lecture croisée des analyses d'avis du dépôt montre que trois reproches re
   5. **Des éléments laissés en suspens pour plus tard** *(façon *Worm* et *The Stormlight Archive*)* ;
   6. **Des objectifs à court terme qui évoluent d'arc en arc** *(façon Gon dans *Hunter × Hunter* et Taylor dans *Worm*)*.
 - **Précision explicite de `(U)` sur les missions et convois :** écarter ces quatre options comme moteur unique de la série **n'exclut pas** d'utiliser des **missions** ou des **convois** ponctuellement au sein de l'histoire ou d'un arc — `(U)` garde pleinement ces possibilités en tête comme situations concrètes au service des trajectoires des personnages et de la géopolitique.
+
+**3. Format, durée de réalisation et souplesse de charge (`décidé` / `envisagé`) `(U)`.**
+- **Longueur recadrée entre 5 et 25 tomes par paliers — `décidé` :** remplacement de l'ancienne fourchette `20 à 30 tomes` par une fourchette allant d'un **minimum de 5 tomes** à un **maximum de 25 tomes**, modulable par paliers (`5, 10, 15, 20 et 25 tomes`) selon l'accueil de l'œuvre : `(U)` souhaite atteindre au minimum 20 tomes, tout en acceptant sans problème de redescendre à 10 tomes (ou au plancher de 5 tomes) si l'œuvre ne prend pas.
+- **Durée totale encadrée — `décidé` :** **minimum 4 ans** et **maximum 12 ans et demi (`12,5 ans`)**.
+- **Répartition écriture / dessin et souplesse de complexité — `non_precise` / `envisagé` :** `(U)` compte **tout écrire** lui-même, tandis que la question de tout dessiner seul reste ouverte (*« dessiner je sais pas peut-être »*) ; la **complexité narrative et visuelle peut bouger — surtout sur le plan visuel** (`envisagé`) — afin d'absorber la charge de travail et le rythme de parution dans cette fenêtre temporelle.
 
 ---
 

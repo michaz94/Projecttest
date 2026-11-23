@@ -21,7 +21,11 @@
 
 ## 1. Format éditorial, économie & règles de survie (benchmarks)
 
-- **Circuit & format `[Décidé]` :** Manga français original (*Ankama, Pika, Kana, Glénat*), **Action + Fantasy**, publié par **tomes complets de ~180–200 pages** à raison de **1 à 2 tomes/an** en solo. Cible : **20 à 30 tomes**, avec obligation d'accrocher et de tenir dès les **3 à 5 premiers tomes**.
+- **Circuit & format `[Décidé]` :** Manga français original (*Ankama, Pika, Kana, Glénat*), **Action + Fantasy**, publié par **tomes complets de ~180–200 pages** (rythme de référence : **1 à 2 tomes/an**).
+- **Longueur & durée encadrées `[Décidé]` :**
+  - **Longueur :** **Minimum 5 tomes, maximum 25 tomes**, modulable par paliers (**5, 10, 15, 20 et 25 tomes** selon que l'œuvre prend ou non : souhait d'atteindre au minimum 20 tomes, tout en acceptant sans gêne de redescendre à 10 tomes — ou au plancher de 5 tomes — si l'œuvre ne prend pas ; remplace l'ancienne cible de 20 à 30 tomes).
+  - **Durée totale de réalisation :** **Minimum 4 ans, maximum 12 ans et demi (`12,5 ans`)**.
+- **Rôles & souplesse de charge `[Envisagé / Ouvert]` :** **Tout écrire soi-même**, tandis que la question de tout dessiner seul reste ouverte (*« dessiner je sais pas peut-être »*) ; **la complexité narrative et surtout la complexité visuelle peuvent bouger** `[Envisagé]` pour tenir la charge de travail et le rythme de parution dans la fenêtre des 4 à 12,5 ans.
 - **Découpage interne `[Envisagé]` :** Chapitres de **~20 pages** rythmés par de vraies bascules / cliffhangers variés en fin de chapitre (pas de bluffs artificiels annulés à la page suivante ni de pages de récapitulatif).
 - **Repères économiques réalistes :**
   - *Seuil de maintien éditeur :* **~3 000 à 5 000 ventes/tome** (droits auteur ~8–10 % HT, soit ~0,65–0,75 €/ex., versés en à-valoir puis reddition annuelle).

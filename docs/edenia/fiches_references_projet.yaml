@@ -79,7 +79,12 @@
 #     personnages déjà débrouillards au départ avec niveau de thaumaturgie au minimum correct (envisagé, U) ; écho de Dumas au général
 #     Thomas-Alexandre Dumas (intérêt, U) ; règle phonétique des noms (envisagé, U) ; constat d'avancement au 20 nov. 2026
 #     (seuls cadre, worldbuilding et forme sont posés ; zéro intrigue, zéro fond thématique arrêté, personnages encore flous).
-# Mise à jour complémentaire du 2026-11-20 (demandée par U, révision système de magie et critères de structure narrative, carnet § 5.8) :
+# Mise à jour complémentaire du 2026-11-20 (demandée par U, révision format/durée, système de magie et critères de structure narrative, carnet § 5.8) :
+#   - format éditorial et cadre de production : longueur cadrée entre minimum 5 tomes et maximum 25 tomes par paliers (5, 10, 15, 20 et 25 tomes
+#     selon l'accueil : souhait d'atteindre au moins 20 tomes, sans gêne à redescendre à 10 — ou 5 au minimum — si l'œuvre ne prend pas ; remplace
+#     l'ancienne fourchette 20-30 tomes) (décidé, U) ; durée totale cadrée entre minimum 4 ans et maximum 12 ans et demi (décidé, U) ; tout écrire
+#     soi-même mais question du dessin laissée ouverte (« dessiner je sais pas peut-être »), et souplesse assumée sur la complexité narrative et
+#     surtout visuelle pour tenir la cadence (envisagé, U) ;
 #   - système de magie : retrait décidé de l'ancienne piste « densité démographique = densité magique » (U indique ne pas aimer cette mécanique) ;
 #     brique Consciences maintenue en intérêt uniquement à l'échelle individuelle ; retrait décidé de la mécanique contraignante d'un support
 #     matériel qui s'use ou sature, tout en gardant en intérêt la simple idée « pas de création ex nihilo » (U) ;
@@ -95,16 +100,29 @@ projet:
   source_nom_provisoire: U
   genre: battle shōnen occidental durable, édition traditionnelle
   format_editorial:
-    source: 'U, carnet de bord (§ 1, § 2, § 3.1, § 3.2, § 3.4 et § 5.7), 16 et 20 nov. 2026'
+    source: 'U, carnet de bord (§ 1, § 2, § 3.1, § 3.2, § 3.4, § 5.7 et § 5.8), 16 et 20 nov. 2026'
     circuit:
-      texte: 'parution française traditionnelle par tomes complets (~180-200 pages, rythme solo de 1 à 2 tomes/an ; éditeurs de référence du créneau : Ankama, Pika, Kana, Glénat)'
+      texte: 'parution française traditionnelle par tomes complets (~180-200 pages, rythme de référence de 1 à 2 tomes/an ; éditeurs de référence du créneau : Ankama, Pika, Kana, Glénat)'
       statut_decision: decide
     creneau:
       texte: Action + Fantasy
       statut_decision: decide
     longueur_visee:
-      texte: '20 à 30 tomes (avec nécessité de convaincre et fonctionner dès une première tranche de 3 à 5 tomes)'
+      texte: 'minimum 5 tomes et maximum 25 tomes, modulable par paliers (5, 10, 15, 20 et 25 tomes selon que l''œuvre prend ou non : souhait d''atteindre au minimum 20 tomes, tout en acceptant sans problème de redescendre à 10 tomes — ou au plancher de 5 tomes — si l''œuvre ne prend pas ; remplace l''ancienne fourchette de 20 à 30 tomes)'
       statut_decision: decide
+      source: 'U, 20 nov. 2026 (carnet § 5.8)'
+    duree_visee:
+      texte: 'minimum 4 ans, maximum 12 ans et demi (12,5 ans)'
+      statut_decision: decide
+      source: 'U, 20 nov. 2026 (carnet § 5.8)'
+    repartition_ecriture_et_dessin:
+      texte: 'tout écrire soi-même ; pour le dessin, la possibilité de tout dessiner ou non reste ouverte (« dessiner je sais pas peut-être »)'
+      statut_decision: non_precise
+      source: 'U, 20 nov. 2026 (carnet § 5.8)'
+    souplesse_complexite_visuelle_et_narrative:
+      texte: 'la complexité narrative et la complexité visuelle peuvent bouger — surtout sur le plan visuel — afin d''absorber la charge de travail et de tenir le rythme de parution dans la fenêtre de 4 à 12,5 ans'
+      statut_decision: envisage
+      source: 'U, 20 nov. 2026 (carnet § 5.8)'
     decoupage_chapitres:
       texte: 'chapitres d''environ 20 pages rythmés par de vraies bascules / cliffhangers de fin de chapitre (sans bluffs artificiels annulés à la page suivante ni pages de récapitulatif)'
       statut_decision: envisage
