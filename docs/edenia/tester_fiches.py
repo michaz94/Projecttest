@@ -99,7 +99,11 @@ check("« univers vaste » non reporté (abandonné par U)", "univers vaste" not
 check("occultisme non tranché", p["occultisme"].get("statut_decision", "") == "")
 check("encrage shōnen net et contrasté (sans mention interdite)", "nerveux" not in p["style_de_dessin"]["chara_design_et_rendu"]["texte"] and "rejet_nervosite_jjk" not in p["style_de_dessin"])
 check("Gachiakuta décidé dans esthetique_vestimentaire.inspire_de", "Gachiakuta" in p["esthetique_vestimentaire"]["inspire_de"])
-check("decoupage_chapitres (~20 pages) : envisage", p["format_editorial"].get("decoupage_chapitres", {}).get("statut_decision") == "envisage")
+fe = p["format_editorial"]
+check("longueur_visee (5 à 25 tomes par paliers) : decide", fe.get("longueur_visee", {}).get("statut_decision") == "decide" and "minimum 5 tomes" in fe.get("longueur_visee", {}).get("texte", "") and "maximum 25 tomes" in fe.get("longueur_visee", {}).get("texte", ""))
+check("duree_visee (4 à 12,5 ans) : decide", fe.get("duree_visee", {}).get("statut_decision") == "decide" and "4 ans" in fe.get("duree_visee", {}).get("texte", "") and "12 ans et demi" in fe.get("duree_visee", {}).get("texte", ""))
+check("souplesse_complexite_visuelle_et_narrative : envisage", fe.get("souplesse_complexite_visuelle_et_narrative", {}).get("statut_decision") == "envisage")
+check("decoupage_chapitres (~20 pages) : envisage", fe.get("decoupage_chapitres", {}).get("statut_decision") == "envisage")
 check("phonetique_des_noms : envisage", p.get("phonetique_des_noms", {}).get("statut_decision") == "envisage")
 check("institutions_ordre_historiques : interet", p["structure_du_monde"].get("institutions_ordre_historiques", {}).get("statut_decision") == "interet")
 check("build_up_dramatique : interet", p["registre_et_ton"].get("build_up_dramatique", {}).get("statut_decision") == "interet")
