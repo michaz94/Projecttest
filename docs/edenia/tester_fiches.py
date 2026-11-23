@@ -104,18 +104,21 @@ check("phonetique_des_noms : envisage", p.get("phonetique_des_noms", {}).get("st
 check("institutions_ordre_historiques : interet", p["structure_du_monde"].get("institutions_ordre_historiques", {}).get("statut_decision") == "interet")
 check("build_up_dramatique : interet", p["registre_et_ton"].get("build_up_dramatique", {}).get("statut_decision") == "interet")
 check("exclusions_ia_et_ecriture : decide", p["registre_et_ton"].get("exclusions_ia_et_ecriture", {}).get("statut_decision") == "decide")
+smi = p.get("structure_et_moteur_d_intrigue", {})
+check("structure_et_moteur_d_intrigue : envisage + missions/convois ponctuels ouverts", smi.get("statut_decision") == "envisage" and "géopolitique" in smi.get("texte", "") and "missions" in smi.get("precision_missions_et_convois", "") and "convois" in smi.get("precision_missions_et_convois", ""))
 pm = p["pistes_systeme_de_magie"]
 check("reserve_et_flux : envisage", pm.get("reserve_et_flux", {}).get("statut_decision") == "envisage")
 check("modes_d_acces_ecoles : envisage", pm.get("modes_d_acces_ecoles", {}).get("statut_decision") == "envisage")
-check("densite_demographique_magique : interet", pm.get("densite_demographique_magique", {}).get("statut_decision") == "interet")
-check("support_materiel_sans_ex_nihilo : interet", pm.get("support_materiel_sans_ex_nihilo", {}).get("statut_decision") == "interet")
+check("pas_de_creation_ex_nihilo : interet (sans usure)", pm.get("pas_de_creation_ex_nihilo", {}).get("statut_decision") == "interet" and "densite_demographique_magique" not in pm and "support_materiel_sans_ex_nihilo" not in pm)
+check("retrait_densite_demographique_magique : decide", pm.get("retrait_densite_demographique_magique", {}).get("statut_decision") == "decide")
+check("retrait_usure_support_materiel : decide", pm.get("retrait_usure_support_materiel", {}).get("statut_decision") == "decide")
 check("exclusion des blocs de statistiques LitRPG : decide", pm.get("exclusion_blocs_statistiques_litrpg", {}).get("statut_decision") == "decide")
 check("retrait du contrecoup : decide", pm.get("retrait_contrecoup", {}).get("statut_decision") == "decide")
 check("exclusions_metaphysiques_et_meta : decide", pm.get("exclusions_metaphysiques_et_meta", {}).get("statut_decision") == "decide")
 briques_magie = {b["element"]: b for b in pm["briques"]}
 check("brique Source, Shaper, Target en interet", "Source, Shaper, Target" in briques_magie and briques_magie["Source, Shaper, Target"]["statut_decision"] == "interet")
 check("brique Body, Mind and Soul : catégories de sorts + vigilance Soul", briques_magie.get("Body, Mind and Soul", {}).get("statut_decision") == "interet" and "métaphysique" in briques_magie.get("Body, Mind and Soul", {}).get("texte", ""))
-check("brique Consciences : précision thaumatologie SCP/GOC uniquement mécanique", briques_magie.get("Consciences", {}).get("statut_decision") == "interet" and "GOC" in briques_magie.get("Consciences", {}).get("texte", "") and "uniquement à la mécanique" in briques_magie.get("Consciences", {}).get("texte", ""))
+check("brique Consciences : précision thaumatologie SCP/GOC uniquement mécanique et individuelle", briques_magie.get("Consciences", {}).get("statut_decision") == "interet" and "GOC" in briques_magie.get("Consciences", {}).get("texte", "") and "uniquement à la mécanique" in briques_magie.get("Consciences", {}).get("texte", "") and "échelle individuelle" in briques_magie.get("Consciences", {}).get("texte", ""))
 for doc_f in ("fiches_references_projet.yaml", "carnet_de_bord_projet.md", "Synthese_Edenia.md"):
     if os.path.exists(doc_f):
         txt_doc = open(doc_f, encoding="utf-8").read().lower()
